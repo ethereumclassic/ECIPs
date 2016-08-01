@@ -1,7 +1,9 @@
-# EIP 
-Ethereum Improvement Proposal. EIPs propose and describe changes made to Ethereum Protocol.
+# EIP/ECIP 
+Ethereum Classic Improvement Proposal. ECIPs propose and describe changes made to Ethereum Protocol.
 
-People wishing to submit EIPs first should propose their idea an issue or document as pull request. After discussion it will be published here. We are fairly liberal with approving EIPs and try not to be too involved in decision making on behalf of the community. Having an EIP here does not make it a formally accepted standard until its status becomes Active. For a EIP to become Active requires the mutual consent of the community. Those proposing changes should consider that ultimately consent may rest with the consensus of the Ethereum users.
+People wishing to submit ECIPs first should propose their idea an issue or document as pull request. After discussion it will be published here. We are fairly liberal with approving ECIPs and try not to be too involved in decision making on behalf of the community. Having an ECIP here does not make it a formally accepted standard until its status becomes Active. For a EIP to become Active requires the mutual consent of the community. Those proposing changes should consider that ultimately consent may rest with the consensus of the Ethereum users.
+
+ECIPs grew out of the original EIP repository, so the naming scheme is altered to reflect the difference between the ETC and ETHF chain.
 
 # Contributing
 First review [EIP-1](EIPS/eip-1.mediawiki). Then clone the repository and add your EIP to it. There is a [template EIP here](eip-X.mediawiki). Then submit a Pull Request to Ethereum's [EIPs repository](https://github.com/ethereumproject/EIPs).
