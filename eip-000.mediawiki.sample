@@ -9,7 +9,7 @@
 
 ==What is a EIP?==
 
-EIP stands for Ethereum Improvement Proposal. A EIP is a design document providing information to the Ethereum community, or describing a new feature for Ethereum or its processes or environment. The EIP should provide a concise technical specification of the feature and a rationale for the feature.  The EIP author is responsible for building consensus within the community and documenting dissenting opinions.
+EIP stands for Ethereum Improvement Proposal. A EIP is a design document providing information to the Ethereum classic community, or describing a new feature for Ethereum or its processes or environment. The EIP should provide a concise technical specification of the feature and a rationale for the feature.  The EIP author is responsible for building consensus within the community and documenting dissenting opinions.
 
 ==EIP Rational==
 
@@ -62,7 +62,7 @@ EIPs can also be superseded by a different EIP, rendering the original obsolete.
 
 The possible paths of the status of EIPs are as follows:
 
-<img src=./eip-1/process.png>
+<img src=./process.png>
 
 Some Informational and Process EIPs may also have a status of "Active" if they are never meant to be completed. E.g. EIP 1 (this EIP).
 
@@ -145,7 +145,7 @@ If you are interested in assuming ownership of a EIP, send a message asking to t
 ==EIP Editors==
 
 The current EIP editors are
-  * Martin Becze
+  * All volunteers in the Ethereum Classic Project github organization
 
 ==EIP Editor Responsibilities & Workflow==
 
