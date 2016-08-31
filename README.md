@@ -23,7 +23,7 @@ The Ethereum Foundation raised money from the community to work towards
 the "mission to promote and support research, development and education
 to bring decentralized protocols", and failed when shortly after the DAO
 exploit was used Vitalik Buterin announced using the Ethereum Foundation blog that a they had already
-unilaterally decided on forking. A [chat log](http://pastebin.com/raw/aMKwQcHR) from an internal chat reveals this decision was made prior to the announcement, and comments like "default behavior of Geth to be pro-fork as per internal discussions" found in DAO hard-fork [pull requests](https://github.com/ethereum/go-ethereum/pull/2814).
+unilaterally decided on forking. A [chat log](http://pastebin.com/raw/aMKwQcHR) from an internal chat reveals this decision was made prior to the announcement, and comments like "default behavior of Geth to be pro-fork as per internal discussions" found in DAO hard-fork [pull requests](https://github.com/ethereum/go-ethereum/pull/2814) and the unwillingness to use their own proposal system show the narrative that the Ethereum Foundation followed the will of the community is clearly wrong. What the Ethereum foundation did the opposite of decentralized decesion making decision making. 
 
 Decentralized decesion making is part of the defense in depth security that protects the intergrity of the Ethereum blockchain, it is critical to keep the promise of "applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third party interference."
 
