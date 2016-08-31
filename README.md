@@ -41,4 +41,4 @@ The sample EIP is the best place to start, the sample was updated for Ethereum u
 | [6](EIPS/EIP-1006.md)    | DELEGATECALL | Vitalik Buterin | Standard | homestead (hard-fork) | [Accepted](https://github.com/ethereum/EIPs/issues/23) |
 | [7](EIPS/EIP-1007.md)    | devp2p Forward Compatibility Requirements for Homestead | Felix Lange | Standard | Networking | [Accepted](https://github.com/ethereum/EIPs/pull/49) |
 | [8](EIPS/EIP-1008.md)    | Serenity Currency and Crypto Abstraction | Vitalik Buterin | Standard | Serenity feature | Draft |
-| [9](EIPS/EIP-1009.md)    | Ethereum Domain Name Service - Specification | Felix Lange | Standard | Informational | Draft |
+| [9](EIPS/EIP-1009.md)    | Ethereum Domain Name Service - Specification | Nick Johnson | Standard | Informational | Draft |
