@@ -1,7 +1,7 @@
 # EIP (or ECIP)
 Ethereum (classic) improvement proposals (EIPs or ECIPs), are technical write-ups that describe suggested changes to the Ethereum Protocol. Finalized proposals agreed up by volunteer client developers, and the users of the Ethereum classic main net blockchain are implemented by Ethereum classic client developers.
 
-People wishing to submit EIPs, start by writing a draft EIP using the [EIP mediawiki template](EIP-0000.mediawiki.           template) and creating a pull request.
+People wishing to submit EIPs, start by writing a draft EIP using the [EIP markdown template](EIP-0000.md.template) and creating a pull request.
 
 Every pull request will be reviewed and discussed by volunteer Ethereum classic client developers and any developers on github willing to contribute their well reasoned opinions. Regardless if there is general agreement you are able to use the information generated from the discussion to create a a second draft. This can be done by either updating the pull request or submitting a new pull request. This process can be repeated (See figure 1) until the volunteer developer community agrees to add the pull request.
 
@@ -28,7 +28,7 @@ unilaterally decided on forking. A [chat log](http://pastebin.com/raw/aMKwQcHR) 
 Decentralized decesion making is part of the defense in depth security that protects the intergrity of the Ethereum blockchain, it is critical to keep the promise of "applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third party interference."
 
 # Getting started contributing
-The sample EIP is the best place to start, the sample was updated for Ethereum use by Martin Becze, it was predominantly derived from the Bitcoin improvement proposal based on the Python improvement proposal system [EIP mediawiki sample](./EIP-0000.mediawiki.sample). Clone/fork the repository and add your EIP to it, then use the provided [EIP mediawiki template](EIP-0000.mediawiki.template). Submit by creating a Pull Request to the Ethereum classic [EIPs repository](./EIPs).
+The sample EIP is the best place to start, the sample was updated for Ethereum use by Martin Becze, it was predominantly derived from the Bitcoin improvement proposal based on the Python improvement proposal system [EIP markdown sample](./EIP-0000.md.sample). Clone/fork the repository and add your EIP to it, using the provided [EIP markdown template](EIP-0000.md.template). Submit by creating a Pull Request to the Ethereum classic [EIPs repository](https://github.com/ethereumproject/EIPs).
 
 # Current EIPs
 | Number        |Title         | Author | Type  | Layer        | Status / Discussion |
