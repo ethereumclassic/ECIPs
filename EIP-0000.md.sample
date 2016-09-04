@@ -1,26 +1,20 @@
-<pre>
-  EIP: 1
-  Title: EIP Purpose and Guidelines
-  Status: Draft
-  Type: Meta
-  Author: Martin Becze <mb@ethdev.com>
-  Created: 2015-10-27
-</pre>
+### What is an EIP?
 
-==What is a EIP?==
+    EIP: 1
+    Title: EIP Purpose and Guidelines
+    Status: Draft
+    Type: Meta
+    Author: Martin Becze <mb@ethdev.com>
+    Created: 2015-10-27
 
+### Abstract
 EIP stands for Ethereum Improvement Proposal. A EIP is a design document providing information to the Ethereum classic community, or describing a new feature for Ethereum or its processes or environment. The EIP should provide a concise technical specification of the feature and a rationale for the feature.  The EIP author is responsible for building consensus within the community and documenting dissenting opinions.
 
-==EIP Rational==
-
+### Motivation
 We intend EIPs to be the primary mechanisms for proposing new features, for collecting community input on an issue and for documenting the design decisions that have gone into Ethereum. Because the EIPs are maintained as text files in a versioned repository, their revision history is the historical record of the feature proposal.
 
-For Ethereum implementers, EIPs are a convenient way to track the progress of their implementation. Ideally each implementation maintainer would list the EIPs that they have implemented. This will give end users a convenient way to know the current status of a given implementation or library.
-
-EIPs are intend to replace the venerable etherpads which described the initial PoC (Proof of Concept) and strike a balance between ease of accessibility and trackablity.
-
-==EIP Types==
-
+### Specification
+#### EIP Types
 There are three kinds of EIP:
 
 * A Standard Track EIP describes any change that affects most or all Ethereum implementations, such as a change to the [https://github.com/ethereum/yellowpaper Yellow Paper], the network protocol, a change in block or transaction validity rules, or any change or addition that affects the interoperability of applications using Ethereum. Furthermore Standard EIPs can be broken down into the following categories.
@@ -30,8 +24,7 @@ There are three kinds of EIP:
 * An Informational EIP describes a Ethereum design issue, or provides general guidelines or information to the Ethereum community, but does not propose a new feature. Informational EIPs do not necessarily represent Ethereum community consensus or a recommendation, so users and implementors are free to ignore Informational EIPs or follow their advice.
 * A Meta EIP describes a process surrounding Ethereum or proposes a change to (or an event in) a process. Process EIPs are like Standards Track EIPs but apply to areas other than the Ethereum protocol itself. They may propose an implementation, but not to Ethereum's codebase; they often require community consensus; unlike Informational EIPs, they are more than recommendations, and users are typically not free to ignore them. Examples include procedures, guidelines, changes to the decision-making process, and changes to the tools or environment used in Ethereum development. Any meta-EIP is also considered a Process EIP.
 
-==EIP Work Flow==
-
+#### EIP Work Flow
 The EIP repository Collaborators change the EIPs status. Please send all EIP-related email to the EIP Collaborators, which is listed under EIP Editors below. Also see EIP Editor Responsibilities & Workflow.
 
 The EIP process begins with a new idea for Ethereum. It is highly recommended that a single EIP contain a single key proposal or new idea. Small enhancements or patches that don't affect consensus often don't need a EIP and can be injected into the Ethereum development workflow with a patch submission to the corresponding Ethereum issue tracker. The more focused the EIP, the more successful it tends to be. The EIP editor reserves the right to reject EIP proposals if they appear too unfocused or too broad. If in doubt, split your EIP into several well-focused ones.
@@ -66,8 +59,7 @@ The possible paths of the status of EIPs are as follows:
 
 Some Informational and Process EIPs may also have a status of "Active" if they are never meant to be completed. E.g. EIP 1 (this EIP).
 
-==What belongs in a successful EIP?==
-
+#### What belongs in a successful EIP?
 Each EIP should have the following parts:
 
 * Preamble -- RFC 822 style headers containing metadata about the EIP, including the EIP number, a short descriptive title (limited to a maximum of 44 characters), the names, and optionally the contact info for each author, etc.
@@ -86,27 +78,23 @@ Each EIP should have the following parts:
 
 * Implementations -- The implementations must be completed before any EIP is given status "Final", but it need not be completed before the EIP is accepted. It is better to finish the specification and rationale first and reach consensus on it before writing code.
 
-==EIP Formats and Templates==
+#### EIP Formats and Templates
+EIPs should be written in markdown format. Image files should be included in a subdirectory for that EIP.
 
-EIPs should be written in mediawiki or markdown format. Image files should be included in a subdirectory for that EIP.
-
-==EIP Header Preamble==
-
+#### EIP Header Preamble
 Each EIP must begin with an RFC 822 style header preamble. The headers must appear in the following order. Headers marked with "*" are optional and are described below. All other headers are required.
 
-<pre>
-  EIP: <EIP number>
-  Title: <EIP title>
-  Author: <list of authors' real names and optionally, email address>
-* Discussions-To: <email address>
-  Status: <Draft | Active | Accepted | Deferred | Rejected |
-           Withdrawn | Final | Superseded>
-  Type: <Standards Track | Informational | Process>
-  Created: <date created on, in ISO 8601 (yyyy-mm-dd) format>
-* Replaces: <EIP number>
-* Superseded-By: <EIP number>
-* Resolution: <url>
-</pre>
+      EIP: <EIP number>
+      Title: <EIP title>
+      Author: <list of authors' real names and optionally, email address>
+    * Discussions-To: <email address>
+      Status: <Draft | Active | Accepted | Deferred | Rejected |
+               Withdrawn | Final | Superseded>
+      Type: <Standards Track | Informational | Process>
+      Created: <date created on, in ISO 8601 (yyyy-mm-dd) format>
+    * Replaces: <EIP number>
+    * Superseded-By: <EIP number>
+    * Resolution: <url>
 
 The Author header lists the names, and optionally the email addresses of all the authors/owners of the EIP. The format of the Author header value must be
 
@@ -132,23 +120,19 @@ EIPs may have a Requires header, indicating the EIP numbers that this EIP depend
 
 EIPs may also have a Superseded-By header indicating that a EIP has been rendered obsolete by a later document; the value is the number of the EIP that replaces the current document. The newer EIP must have a Replaces header containing the number of the EIP that it rendered obsolete.
 
-==Auxiliary Files==
-
+#### Auxiliary Files
 EIPs may include auxiliary files such as diagrams. Such files must be named EIP-XXXX-Y.ext, where "XXXX" is the EIP number, "Y" is a serial number (starting at 1), and "ext" is replaced by the actual file extension (e.g. "png").
 
-==Transferring EIP Ownership==
-
+#### Transferring EIP Ownership
 It occasionally becomes necessary to transfer ownership of EIPs to a new champion. In general, we'd like to retain the original author as a co-author of the transferred EIP, but that's really up to the original author. A good reason to transfer ownership is because the original author no longer has the time or interest in updating it or following through with the EIP process, or has fallen off the face of the 'net (i.e. is unreachable or not responding to email). A bad reason to transfer ownership is because you don't agree with the direction of the EIP. We try to build consensus around a EIP, but if that's not possible, you can always submit a competing EIP.
 
 If you are interested in assuming ownership of a EIP, send a message asking to take over, addressed to both the original author and the EIP editor. If the original author doesn't respond to email in a timely manner, the EIP editor will make a unilateral decision (it's not like such decisions can't be reversed :).
 
-==EIP Editors==
-
+#### EIP Editors
 The current EIP editors are
   * All volunteers in the Ethereum Classic Project github organization
 
-==EIP Editor Responsibilities & Workflow==
-
+#### EIP Editor Responsibilities & Workflow
 For each new EIP that comes in, an editor does the following:
 
 * Read the EIP to check if it is ready: sound and complete. The ideas must make technical sense, even if they don't seem likely to be accepted.
@@ -163,7 +147,7 @@ Once the EIP is ready for the repository, the EIP editor will:
 
 * Accept the corresponding pull request
 
-* List the EIP in [[README.mediawiki]]
+* List the EIP in [[README.md]]
 
 * Send email back to the EIP author with next step.
 
@@ -171,6 +155,13 @@ Many EIPs are written and maintained by developers with write access to the Ethe
 
 The editors don't pass judgment on EIPs. We merely do the administrative & editorial part. Except for times like this, there's relatively low volume.
 
-==History==
+### Rationale
+For Ethereum implementers, EIPs are a convenient way to track the progress of their implementation. Ideally each implementation maintainer would list the EIPs that they have implemented. This will give end users a convenient way to know the current status of a given implementation or library.
 
+EIPs are intend to replace the venerable etherpads which described the initial PoC (Proof of Concept) and strike a balance between ease of accessibility and trackablity.
+
+### Implementation
+Fork the [EIP repo](https://github.com/ethereumproject/EIPs). Write an EIP using the [EIP markdown template](./EIP-0000.md.template) and initiate a pull request.
+
+### History
 This document was derived heavily from [https://github.com/bitcoin/bips Bitcoin's BIP-0001] written by Amir Taaki which in turn was derived from [https://www.python.org/dev/peps/ Python's PEP-0001]. In many places text was simply copied and modified. Although the PEP-0001 text was written by Barry Warsaw, Jeremy Hylton, and David Goodger, they are not responsible for its use in the Ethereum Improvement Process, and should not be bothered with technical questions specific to Ethereum or the EIP. Please direct all comments to the EIP editors.
