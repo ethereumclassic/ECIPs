@@ -24,12 +24,12 @@ The [ECIP sample](./ECIP-0000.md.sample) is the best place to start. The sample 
 | Number        |Title         | Author | Type  | Layer        | Status / Discussion |
 | ------------- | ------------ | ------ | ----- | -------------| ------------------- |
 | [1](ECIPS/EIP-1001.mediawiki)    | Homestead Hard-fork Changes | Vitalik Buterin | Standard | Homestead (hard-fork) | Accepted |
-| [2](ECIPS/EIP-1002.mediawiki)    | Addition of CALLDEPTH opcode | Martin Holst Swende | Standard | Consensus (hard-fork) | [Draft](https://github.com/ethereum/ECIPs/issues/25) |
+| [2](ECIPS/EIP-1002.mediawiki)    | Addition of CALLDEPTH opcode | Martin Holst Swende | Standard | Consensus (hard-fork) | [Draft](https://github.com/ethereum/EIPs/issues/25) |
 | [3](ECIPS/EIP-1003.mediawiki)    | EIP Classification | Joseph Chow | Meta | | Draft |
-| [4](ECIPS/EIP-1004.md)    | Gas Usage for `RETURN` and `CALL*` | Christian Reitwiessner | Standard | Consensus (hard-fork) | [Draft](https://github.com/ethereum/ECIPs/issues/8) |
-| [5](ECIPS/EIP-1005.md)    | Renaming Suicide Variable | Hudson Jameson | Meta |  | [Draft](https://github.com/ethereum/ECIPs/pull/42) |
-| [6](ECIPS/EIP-1006.md)    | DELEGATECALL | Vitalik Buterin | Standard | homestead (hard-fork) | [Accepted](https://github.com/ethereum/ECIPs/issues/23) |
-| [7](ECIPS/EIP-1007.md)    | devp2p Forward Compatibility Requirements for Homestead | Felix Lange | Standard | Networking | [Accepted](https://github.com/ethereum/ECIPs/pull/49) |
+| [4](ECIPS/EIP-1004.md)    | Gas Usage for `RETURN` and `CALL*` | Christian Reitwiessner | Standard | Consensus (hard-fork) | [Draft](https://github.com/ethereum/EIPs/issues/8) |
+| [5](ECIPS/EIP-1005.md)    | Renaming Suicide Variable | Hudson Jameson | Meta |  | [Draft](https://github.com/ethereum/EIPs/pull/42) |
+| [6](ECIPS/EIP-1006.md)    | DELEGATECALL | Vitalik Buterin | Standard | homestead (hard-fork) | [Accepted](https://github.com/ethereum/EIPs/issues/23) |
+| [7](ECIPS/EIP-1007.md)    | devp2p Forward Compatibility Requirements for Homestead | Felix Lange | Standard | Networking | [Accepted](https://github.com/ethereum/EIPs/pull/49) |
 | [8](ECIPS/EIP-1008.md)    | Serenity Currency and Crypto Abstraction | Vitalik Buterin | Standard | Serenity feature | Draft |
 | [9](ECIPS/EIP-1009.md)    | Ethereum Domain Name Service - Specification | Nick Johnson | Standard | Informational | Draft |
 | [10](ECIPS/ECIP-1010.md)    | Delay Difficulty Bomb Explosion | Igor Artamonov | Standard | Consensus (hard-fork) | [Draft](https://github.com/ethereumproject/ECIPs/issues/4) |
