@@ -32,4 +32,4 @@ The [ECIP sample](./ECIP-0000.md.sample) is the best place to start. The sample 
 | [7](ECIPS/EIP-1007.md)    | devp2p Forward Compatibility Requirements for Homestead | Felix Lange | Standard | Networking | [Accepted](https://github.com/ethereum/EIPs/pull/49) |
 | [8](ECIPS/EIP-1008.md)    | Serenity Currency and Crypto Abstraction | Vitalik Buterin | Standard | Serenity feature | Draft |
 | [9](ECIPS/EIP-1009.md)    | Ethereum Domain Name Service - Specification | Nick Johnson | Standard | Informational | Draft |
-| [10](ECIPS/ECIP-1010.md)    | Delay Difficulty Bomb Explosion | Igor Artamonov | Standard | Consensus (hard-fork) | [Draft](https://github.com/ethereumproject/ECIPs/issues/4) |
+| [10](ECIPS/ECIP-1010.md)    | Delay Difficulty Bomb Explosion | Igor Artamonov | Standard | Consensus (hard-fork) | [Accepted](https://github.com/ethereumproject/ECIPs/issues/4) |
