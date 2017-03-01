@@ -53,61 +53,48 @@ ETC 网络目前的挖矿奖励模型如下:
 
 ![image alt text](ETC_MP_5M20.png)
 
-*An "Era" is defined as the number of blocks containing a given production rate.*
+* Era" 被定义为特定区块数量里包含了一个特定的出币率。*
 
-The proposed mining rewards on the Ethereum Classic Network are as follows:
+建议中的 ETC 挖矿奖励模型如下:
 
-* Era 1 (blocks 1 - 5,000,000)
+* Era 1 (区块 1 - 5,000,000)
 
-    * A "static" block reward for the winning block of 5 ETC
+    * 一个“静态”区块奖励是胜出的区块将会得到5ETC的奖励。
+    * 一个额外的奖励是胜出的矿工得到包括每叔块 1/32 (0.15625ETC) 的奖励,最高是两 个叔块。
+    * 在竞争中胜出的矿工得到的区块奖励为7/8(4.375ETC),里面包括叔块奖励,最高是 两个叔块。
 
-    * An extra reward to the winning miner for including uncles as part of the block, in the form of an extra 1/32 (0.15625ETC) per uncle included, up to a maximum of two (2) uncles. 
+* Era 2 (区块 5,000,001 - 10,000,000)
 
-    * A reward of up to 7/8 of the winning block reward (4.375ETC) for a miner who has mined an uncled block and has that uncle included in the winning block by the winning miner, up to a maximum of two (2) uncles included in a winning block.
-
-* Era 2 (blocks 5,000,001 - 10,000,000)
-
-    * A "static" block reward for the winning block of 4 ETC
-
-    * An extra reward to the winning miner for including uncles as part of the block, in the form of an extra 1/32 (0.125ETC) per uncle included, up to a maximum of two (2) uncles. 
-
-    * A reward of 1/32 (0.125ETC) of the winning block reward for a miner who has mined an uncled block and has that uncle included in the winning block by the winning miner, up to a maximum of two (2) uncles included in a winning block.
-
-    * Era 2 represents a reduction of 20% of Era 1 values, while also reducing uncle rewards to uncle miners to be the same value as the reward to the winning miner for including the uncle(s).
+    * 一个“静态”区块奖励是胜出的区块将会得到4ETC的奖励。
+    * 一个额外的奖励是胜出的矿工得到包括每叔块 1/32 (0.125ETC)的奖励,最高是两个 叔块
+    * 在竞争中胜出的矿工得到的区块奖励为 1/32 (0.125ETC),里面包括叔块奖励,最高 是两个叔块。
+    * Era 2 是在 Era 1 阶段区块奖励基础上进行 20%减产,叔块奖励也同时减产。
 
 * Era 3+
 
-    * All rewards will be reduced at a constant rate of 20% upon entering a new Era. 
-
-    * Every Era will last for 5,000,000 blocks. 
+    * 进入新一个Era阶段后产出会在前一个Era阶段产出的基础上进行一个持续20%的减 产。
+    * 每个Era阶段为5,000,000区块进入下一个Era。
     
 <br />
 
-### Rationale
+### 基本原理
 
-Why this 5M20 model:
+为什么是 5M20 模型:
 
-* Minimizes making the first adjustment too "exceptional." Other than equalizing all uncle rewards at block 5M, the changes/reductions to supply over time are equal. 
+* 在第 5 百万区块高度时所有的叔块奖励设置成相等,实行减产规律不会随时间而改变,使得 第一个调整不那么激进。
+* 这个模型很容易被理解:每 5 百万区块实行总奖励按 20%递减。
+* 叔块出块率在 5 百万区块高度以后将会保持大概 5%左右。基于此,网络一旦达到 5 百万区 块高度,在最坏的情况下,总供应量将不会超过 2.107 亿 ETC。如果网络保持在 Era 1 的产 出能力 (5.4%叔块率),总供应量则不会少于 1.985 亿 ETC。这个机制为矿工提供了激励,客 户端开发者也愿意以高标准来维护他们在 ETC 网络上开发的硬件和软件。
+* 5M 模型在一个可接受的减产率和维持一个随着时间递增的有效供应量之间取得了平衡。这 给这个系统的高风险投资带来了预期的奖励,并且假如在初期产出递减为零时需要保证代币 的潜在价格能够确保交易价格保持一个较低的水平。假如动态燃料模型在可见的未来不能实 现,这个方案提供了一个高价格的“减压阀”。
+* 在第 5M 区块高度实行货币政策还平衡了以下两个方面:延迟实施为代码开发提供了足够的 开发和测试时间,而相对较快部署方案给潜在的接纳者和高风险投资者提供了激励。从早期 的社区讨论共识里,在 4 百万区块高度之前实行会太快,没有足够的时间来开发,测试和部 署这个货币政策,而迟于 6 百万区块高度对于许多潜在的接受者/投资者来说太迟。
+* 不改变现有的 ETC 货币政策对风险喜好的投资者来说是没有吸引力的,这对于网络安全的自 我完善也是困难的。虽然比特币拥有被广泛接受的货币政策,币产出每 4 年进行减半,但这 对 ETC 并不是最优化的投资模型。如果 ETC 采用了比特币的减半模型,那币供应速度会变 得太快:大约 50%的总量供应会很快被产生出来。产生 75%的币总量会比传统的比特币时间 更快,因为 ETC 用大约 7200 万的比在创世块首先被创建出来,但是 5M 模型并没有去掉这 个预挖的影响。由于大约 50%总量的币跟比特币相比会更快被产生出来,这个时候作为补 偿,那么当产出 90%,99%和 100%的时候,它的尾巴会变得更长和更宽。
+* 在 ETC 现有的奖励模式里,叔块总共的奖励是要高于矿工挖到包含叔块所得的奖励。在这种 情况下,一个矿工所得会很显著地冲淡包括叔块的奖励价值。通过将叔块矿工的奖励与包含 叔块区块的奖励设成相等的,会使得奖励模型更公平。另外,将叔块奖励均等化可以减少对 矿工专门设置一个“叔块矿场”来挖叔块的动机,转而将他们引导向为了“真区块”而竞争从而加 强了整个网络的安全。
+* 因为包含叔块区块的奖励率差异性很大,减少叔块区块的奖励有助于准确预测 ETC 最终的总 供应量。
+* 这个模型在提供高风险投资者的激励从而给系统带来安全性的提高和培养潜在的客户用户群 之间取得最好的平衡。此模型也易于理解,包括一个随着时间而递减的产量,一个总量上 限,并且给系统带来一个长期稳定的 ETC 代币供应量。
 
-* The model is easy to understand. Every 5M blocks, total reward is reduced by 20%.
-
-* Uncle inclusion rates through block 5M will likely remain at around the 5%. Because of this, once block 5M is reached, in the worst case scenario (supply wise, which assumes two uncles included every block in perpetuity) the total supply will not exceed 210.7M ETC. Should the network remain as efficient in its ability to propagate found blocks as it has in Era 1 (5.4% uncle rate), the total supply will not be less than 198.5M ETC. This provides for an incentive to miners and client developers to maintain high standards and maintenance of their hardware and software they introduce into the network.
-
-* The 5M model provides a balance between providing an acceptable depreciating distribution rate for rewarding high risk investment into the system and maintaining an active supply production over time. Maintaining this future supply rate keeps the potential price of the ethereum token suppressed enough to ensure transaction prices can remain lower than if the supply were to reduce to zero at an earlier date. This serves as a "blow off valve" for price increases in the case that a dynamic gas model cannot be implemented for the foreseeable future. 
-
-* Having the monetary policy begin at 5M provides a balance between delaying the implementation to provide enough time for code development and testing, and accelerating the implementation to provide an incentive to potential early adopters and high risk investors. Based on community discussion, beginning before block 4M is too soon for development, testing, and implementation of the policy, and later than block 6M is too long to interest many potential early adopters/investors. 
-
-* Not changing the monetary policy of ETC provides no benefit to risk taking early on in the life of the system, speculation wise. It will be difficult for the network to bootstrap its security. While bitcoin has what is considered to be the generally accepted ideal monetary policy, with its 50% reduction every four years, this model is not likely to yield optimal investment for ETC. If ETC were to adopt the bitcoin halving model, it is arguable that too much of the supply would be produced too soon: 50% of the estimated total ETC supply would be mined 75% sooner than traditional bitcoin because of the pre-mine of 72M ETC that was initially created in the genesis block. While the 5M model does not completely eliminate the effects of the premine, since 50% of total estimated production occurs sooner than would the bitcoin model, it makes up for this, to an extent, with its lengthening of the time until 90%, 99% and 100% of bitcoin are mined. The tail end of ETC production is longer and wider than bitcoin. 
-
-* In the current ETC reward schedule, the total reward for uncles is higher than the reward received by the miner who also includes uncles. In this state, a miner is significantly diluting the value of his reward by including these uncled blocks. By equalizing the rewards to uncle block miners with the rewards to miners who include an uncle block, the reward structure is more fairly distributed. In addition, equalizing the uncle rewards reduces the incentive for miners to set up an ETC "uncle farm," and instead drives them to better secure the network by competing for the latest "real block." 
-
-* Because the rate at which uncled blocks can vary with extreme, reducing the reward for uncle blocks assists considerably with being able to forecast the true upper bound of the total ETC that will ultimately exist in the system. 
-
-* The model is the best attempt at balancing the needs to incentivize high risk investment into the system in order to bootstrap security and create a potential user base, be easy to understand, include a reduction to the rate of production of ETC over time, include an upper bound on supply, provide for a long term production of the ETC token, and allow enough time for development, adoption, and awareness. 
 
 <br />
 
-### Implementation
+### 实施
 
-*Timeline for the implementation and the code required to execute.*
+*译者注*
 
