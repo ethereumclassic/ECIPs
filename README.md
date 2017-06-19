@@ -29,7 +29,7 @@ The [ECIP sample](./ECIP-0000.md.sample) is the best place to start. The sample 
 | ------------- | ------------ | ------ | ----- | -------------| ------------------- |
 | [ECIP-1010](ECIPs/ECIP-1010.md) | Delay Difficulty Bomb Explosion | Igor Artamonov | Standard | Consensus (hard-fork) | [Accepted](https://github.com/ethereumproject/ECIPs/issues/4) |
 | [ECIP-1013](ECIPs/ECIP-1013.md) | ETC On-Chain Cryptographic Signing and Authentication Protocol | Cody W Burns | Standard | Meta | Draft |
-| [ECIP-1017](ECIPs/ECIP-1017.md) | Monetary Policy and Final Modification to the Ethereum Classic Emission Schedule | Standard | Consensus (hard-fork) | Final |
+| [ECIP-1017](ECIPs/ECIP-1017.md) | Monetary Policy and Final Modification to the Ethereum Classic Emission Schedule | Matthew Mazur | Standard | Consensus (hard-fork) | Final |
 
 # EIPs that applies to Ethereum Classic network
 
