@@ -21,7 +21,7 @@ The Ethereum Foundation raised money from the community to work towards the "mis
 Decentralized decision making is part of the defense in depth security that protects the integrity of the Ethereum blockchain. It is critical for keeping the promise of "applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third party interference."
 
 # Getting started contributing
-The [ECIP sample](./ECIP-0000.md.sample) is the best place to start. The sample was updated for Ethereum use by Martin Becze, it was predominantly derived from the Bitcoin improvement proposal based on the Python improvement proposal system. Fork the repository and add your ECIP to it, using the provided [ECIP markdown template](ECIP-0000.md.template). Submit by creating a Pull Request to the Ethereum Classic [ECIPs repository](https://github.com/ethereumproject/ECIPs).
+The [ECIP sample](./ECIP-1.sample.md) is the best place to start. The sample was updated for Ethereum use by Martin Becze, it was predominantly derived from the Bitcoin improvement proposal based on the Python improvement proposal system. Fork the repository and add your ECIP to it, using the provided [ECIP markdown template](./ECIP-number.template.md). Submit by creating a Pull Request to the Ethereum Classic [ECIPs repository](https://github.com/ethereumproject/ECIPs).
 
 # Current ECIPs
 
