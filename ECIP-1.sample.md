@@ -1,37 +1,38 @@
-### What is an EIP?
+### What is an ECIP?
 
-    EIP: 1
-    Title: EIP Purpose and Guidelines
+    ECIP: 1
+    Title: ECIP Purpose and Guidelines
     Status: Draft
     Type: Meta
-    Author: Martin Becze <mb@ethdev.com>
-    Created: 2015-10-27
+    Author: Your Name <your.email@domain.com>
+    Created: 2017-11-30
 
 ### Abstract
-EIP stands for Ethereum Improvement Proposal. A EIP is a design document providing information to the Ethereum classic community, or describing a new feature for Ethereum or its processes or environment. The EIP should provide a concise technical specification of the feature and a rationale for the feature.  The EIP author is responsible for building consensus within the community and documenting dissenting opinions.
+ECIP stands for Ethereum Claassic Improvement Proposal. Each ECIP is a design document providing information to the Ethereum Classic community, or describing a new feature for Ethereum Classic or its processes or environment. The ECIP should provide a concise technical specification of the feature and a rationale for the feature.  The ECIP author is responsible for building consensus within the community and documenting dissenting opinions.
 
 ### Motivation
-We intend EIPs to be the primary mechanisms for proposing new features, for collecting community input on an issue and for documenting the design decisions that have gone into Ethereum. Because the EIPs are maintained as text files in a versioned repository, their revision history is the historical record of the feature proposal.
+We intend ECIPs to be the primary mechanisms for proposing new features, for collecting community input on an issue and for documenting the design decisions that have gone into Ethereum Classic. Because the ECIPs are maintained as text files in a versioned repository, their revision history is the historical record of the feature proposal.
 
 ### Specification
-#### EIP Types
-There are three kinds of EIP:
+#### ECIP Types
+There are three kinds of ECIP:
 
-* A Standard Track EIP describes any change that affects most or all Ethereum implementations, such as a change to the [https://github.com/ethereum/yellowpaper Yellow Paper], the network protocol, a change in block or transaction validity rules, or any change or addition that affects the interoperability of applications using Ethereum. Furthermore Standard EIPs can be broken down into the following categories.
+* A Standard Track ECIP describes any change that affects most or all Ethereum Classic implementations, such as a change to the [https://github.com/ethereum/yellowpaper Yellow Paper], the network protocol, a change in block or transaction validity rules, or any change or addition that affects the interoperability of applications using Ethereum Classic. Furthermore, Standard Track ECIPs can be broken down into the following categories.
 ** Consensus - Once PoS has been established it is expected that PoS protocol will have a separate specification.
 ** Networking - Currently Networking discussion tracks in the [https://github.com/ethereum/devp2p devp2p repository].
 
-* An Informational EIP describes a Ethereum design issue, or provides general guidelines or information to the Ethereum community, but does not propose a new feature. Informational EIPs do not necessarily represent Ethereum community consensus or a recommendation, so users and implementors are free to ignore Informational EIPs or follow their advice.
-* A Meta EIP describes a process surrounding Ethereum or proposes a change to (or an event in) a process. Process EIPs are like Standards Track EIPs but apply to areas other than the Ethereum protocol itself. They may propose an implementation, but not to Ethereum's codebase; they often require community consensus; unlike Informational EIPs, they are more than recommendations, and users are typically not free to ignore them. Examples include procedures, guidelines, changes to the decision-making process, and changes to the tools or environment used in Ethereum development. Any meta-EIP is also considered a Process EIP.
+* An Informational ECIP describes an Ethereum Classic design issue, or provides general guidelines or information to the Ethereum Classic community, but does not propose a new feature. Informational ECIPs do not necessarily represent the Ethereum Classic community consensus or a recommendation, so users and implementors are free to ignore Informational ECIPs or follow their advice.
 
-#### EIP Work Flow
-The EIP repository Collaborators change the EIPs status. Please send all EIP-related email to the EIP Collaborators, which is listed under EIP Editors below. Also see EIP Editor Responsibilities & Workflow.
+* A Meta ECIP describes a process surrounding Ethereum Classic or proposes a change to (or an event in) a process. Meta ECIPs are like Standard Track ECIPs but apply to areas other than the Ethereum protocol itself. They may propose an implementation, but not to Ethereum Classic's codebase; they often require community consensus; unlike Informational ECIPs, they are more than recommendations, and users are typically not free to ignore them. Examples include procedures, guidelines, changes to the decision-making process, and changes to the tools or environment used in Ethereum Classic development.
 
-The EIP process begins with a new idea for Ethereum. It is highly recommended that a single EIP contain a single key proposal or new idea. Small enhancements or patches that don't affect consensus often don't need a EIP and can be injected into the Ethereum development workflow with a patch submission to the corresponding Ethereum issue tracker. The more focused the EIP, the more successful it tends to be. The EIP editor reserves the right to reject EIP proposals if they appear too unfocused or too broad. If in doubt, split your EIP into several well-focused ones.
+#### ECIP Work Flow
+The ECIP repository Collaborators change the ECIPs status. Please send all ECIP-related email to the ECIP Collaborators, which are listed under ECIP Editors below. Also see ECcIP Editor Responsibilities & Workflow.
 
-Each EIP must have a champion -- someone who writes the EIP using the style and format described below, shepherds the discussions in the appropriate forums, and attempts to build community consensus around the idea. The EIP champion (a.k.a. Author) should first attempt to ascertain whether the idea is EIP-able. Posting to the  the [https://forum.ethereum.org/categories/protocol-and-client-discussion Protocol Discussion] forum or opening an [https://github.com/ethereum/EIP/issues Issue] is the best way to go about this.
+The ECIP process begins with a new idea for Ethereum Classic. It is highly recommended that a single ECIP contain a single key proposal or new idea. Small enhancements or patches that don't affect consensus often don't need an ECIP and can be injected into the Ethereum development workflow with a patch submission to the corresponding Ethereum issue tracker. The more focused the ECIP, the more successful it tends to be. The ECIP Editor reserves the right to reject ECIP proposals if they appear too unfocused or too broad. If in doubt, split your ECIP into several well-focused ones.
 
-Vetting an idea publicly before going as far as writing a EIP is meant to save the potential author time. Asking the Ethereum community first if an idea is original helps prevent too much time being spent on something that is guaranteed to be rejected based on prior discussions (searching the Internet does not always do the trick). It also helps to make sure the idea is applicable to the entire community and not just the author. Just because an idea sounds good to the author does not mean it will work for most people in most areas where Ethereum is used.
+Each ECIP must have a champion -- someone who writes the ECIP using the style and format described below, shepherds the discussions in the appropriate forums, and attempts to build community consensus around the idea. The ECIP champion (a.k.a. Author) should first attempt to ascertain whether the idea is ECIP-able. Posting to the [https://forum.ethereum.org/categories/protocol-and-client-discussion Protocol Discussion] forum or opening an [https://github.com/ethereum/EIP/issues Issue] is the best way to go about this.
+
+Vetting an idea publicly before going as far as writing a ECIP is meant to save the potential author time. Asking the Ethereum Classi  community first if an idea is original helps prevent too much time being spent on something that is guaranteed to be rejected based on prior discussions (searching the Internet does not always do the trick). It also helps to make sure the idea is applicable to the entire community and not just the author. Just because an idea sounds good to the author does not mean it will work for most people in most areas where Ethereum is used.
 
 Once the champion has asked the Ethereum community as to whether an idea has any chance of acceptance, a draft EIP should be presented as a Pull Request. This gives the author a chance to flesh out the draft EIP to make properly formatted, of high quality, and to address initial concerns about the proposal.
 
