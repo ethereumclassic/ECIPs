@@ -91,7 +91,7 @@ Each ECIP must begin with an RFC 822 style header preamble. The headers must app
     * Discussions-To: <email address>
       Status: <Draft | Active | Accepted | Deferred | Rejected |
                Withdrawn | Final | Superseded>
-      Type: <Standards Track | Informational | Process | Meta>
+      Type: <Standards Track | Informational  Meta>
       Created: <date created on, in ISO 8601 (yyyy-mm-dd) format>
     * Replaces: <ECIP number>
     * Superseded-By: <ECIP number>
@@ -113,7 +113,7 @@ Note: The Resolution header is required for Standards Track ECIPs only. It conta
 
 While an ECIP is in private discussions (usually during the initial Draft phase), a Discussions-To header will indicate the mailing list or URL where the ECIP is being discussed. No Discussions-To header is necessary if the ECIP is being discussed privately with the author.
 
-The Type header specifies the type of ECIP: Standards Track, Informational, Process, or Meta.
+The Type header specifies the type of ECIP: Standards Track, Informational, or Meta.
 
 The Created header records the date that the ECIP was assigned a number. Both headers should be in yyyy-mm-dd format, e.g. 2001-08-14.
 
