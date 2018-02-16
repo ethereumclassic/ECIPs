@@ -1,14 +1,14 @@
 ### Title
 
-    EIP: <EIP number>
-    Title: <EIP title>
+    ECIP: <ECIP number>
+    Title: <ECIP title>
     Author: <list of authors' real names and optionally, email addrs>
     Discussions-To: <email address>
     Status: <Draft | Active | Accepted | Deferred | Rejected | Withdrawn | Final | Superseded>
     Type: <Standards Track | Informational | Process>
     Created: <date created on, in ISO 8601 (yyyy-mm-dd) format>
-    Replaces: <EIP number>
-    Superseded-By: <EIP number>
+    Replaces: <ECIP number>
+    Superseded-By: <ECIP number>
     Resolution: <url>
 
 ### Abstract
