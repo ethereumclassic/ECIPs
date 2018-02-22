@@ -18,7 +18,7 @@ We intend ECIPs to be the primary mechanisms for proposing new features, for col
 There are three kinds of ECIP:
 
 * A Standard Track ECIP describes any change that affects most or all Ethereum Classic implementations, such as a change to the [https://github.com/ethereum/yellowpaper Yellow Paper], the network protocol, a change in block or transaction validity rules, or any change or addition that affects the interoperability of applications using Ethereum Classic. Furthermore, Standard Track ECIPs can be broken down into the following categories.
-** Consensus - Currently there is not an established discussion on Cosensus.
+** Consensus - Currently there is not an established discussion on Consensus.
 ** Networking - Currently Networking discussion tracks in the [https://github.com/ethereum/devp2p devp2p repository].
 
 * An Informational ECIP describes an Ethereum Classic design issue, or provides general guidelines or information to the Ethereum Classic community, but does not propose a new feature. Informational ECIPs do not necessarily represent the Ethereum Classic community consensus or a recommendation, so users and implementors are free to ignore Informational ECIPs or follow their advice.
