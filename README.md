@@ -1,3 +1,5 @@
+# ⛔️ WARNING ⛔️ : Depreciated repository. Please use http://github.com/ethereumclassic/ECIPS for ethereum classic improvements. 
+
 # ECIP
 
 [![Join the chat at https://gitter.im/ethereumproject/ECIPs](https://badges.gitter.im/ethereumproject/ECIPs.svg)](https://gitter.im/ethereumproject/ECIPs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
