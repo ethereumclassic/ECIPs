@@ -1,6 +1,6 @@
 # ECIP
 
-[![Join the chat at https://gitter.im/ethereumproject/ECIPs](https://badges.gitter.im/ethereumproject/ECIPs.svg)](https://gitter.im/ethereumproject/ECIPs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/ethereumclassic/ECIPs](https://badges.gitter.im/ethereumclassic/ECIPs.svg)](https://gitter.im/ethereumclassic/ECIPs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Ethereum Classic Improvement Proposals (ECIPs), are technical write-ups that describe suggested changes to the Ethereum Protocol. Finalized proposals agreed up by volunteer client developers, and the users of the Ethereum Classic main net blockchain are implemented by Ethereum Classic client developers.
 
@@ -21,7 +21,7 @@ The Ethereum Foundation raised money from the community to work towards the "mis
 Decentralized decision making is part of the in-depth security that protects the integrity of the Ethereum Classic blockchain. It is critical for keeping the promise of "applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third party interference."
 
 # Getting started contributing
-The [ECIP sample](./ECIP-1.sample.md) is the best place to start. The sample was updated for Ethereum use by Martin Becze, it was predominantly derived from the Bitcoin improvement proposal based on the Python improvement proposal system. Fork the repository and add your ECIP to it, using the provided [ECIP markdown template](./ECIP-number.template.md). Submit by creating a Pull Request to the Ethereum Classic [ECIPs repository](https://github.com/ethereumproject/ECIPs).
+The [ECIP sample](./ECIP-1.sample.md) is the best place to start. The sample was updated for Ethereum use by Martin Becze, it was predominantly derived from the Bitcoin improvement proposal based on the Python improvement proposal system. Fork the repository and add your ECIP to it, using the provided [ECIP markdown template](./ECIP-number.template.md). Submit by creating a Pull Request to the Ethereum Classic [ECIPs repository](https://github.com/ethereumclassic/ECIPs).
 
 # Current ECIPs
 

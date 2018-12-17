@@ -162,7 +162,7 @@ For Ethereum Classic implementers, ECIPs are a convenient way to track the progr
 ECIPs are intended to replace the venerable etherpads which described the initial PoC (Proof of Concept) and strike a balance between ease of accessibility and trackablity.
 
 ### Implementation
-Fork the [ECIP repo](https://github.com/ethereumproject/ECIPs). Write an ECIP using the [ECIP markdown template](https://github.com/ethereumproject/ECIPs/blob/master/ECIP-number.template.md) and initiate a pull request.
+Fork the [ECIP repo](https://github.com/ethereumclassic/ECIPs). Write an ECIP using the [ECIP markdown template](https://github.com/ethereumclassic/ECIPs/blob/master/ECIP-number.template.md) and initiate a pull request.
 
 ### History
 This document, recently edited for the specific use of Ethereum Classic, was derived heavily from [https://github.com/bitcoin/bips Bitcoin's BIP-0001] written by Amir Taaki which in turn was derived from [https://www.python.org/dev/peps/ Python's PEP-0001]. In many places text was simply copied and modified. Although the PEP-0001 text was written by Barry Warsaw, Jeremy Hylton, and David Goodger, they are not responsible for its use in the Ethereum Classic Improvement Process, and should not be bothered with technical questions specific to Ethereum, Ethereum Classic, or the ECIP. Please direct all comments to the ECIP editors.
