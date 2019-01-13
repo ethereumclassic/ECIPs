@@ -2,6 +2,31 @@
 
 [![Join the chat at https://gitter.im/ethereumproject/ECIPs](https://badges.gitter.im/ethereumproject/ECIPs.svg)](https://gitter.im/ethereumproject/ECIPs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+# Current ECIPs
+
+| Number        | Title        | Author | Type  | Layer        | Status / Discussion |
+| ------------- | ------------ | ------ | ----- | -------------| ------------------- |
+| [ECIP-1010](ECIPs/ECIP-1010.md) | Delay Difficulty Bomb Explosion | Igor Artamonov | Standard | Consensus (hard-fork) | [Accepted](https://github.com/ethereumproject/ECIPs/issues/4) |
+| [ECIP-1013](ECIPs/ECIP-1013.md) | ETC On-Chain Cryptographic Signing and Authentication Protocol | Cody W Burns | Standard | Meta | Draft |
+| [ECIP-1017](ECIPs/ECIP-1017.md) | Monetary Policy and Final Modification to the Ethereum Classic Emission Schedule | Matthew Mazur | Standard | Consensus (hard-fork) | Accepted |
+| [ECIP-1021](ECIPs/ECIP-1021.md) | ERC223 Token Standard | Dexaran | Standard | ERC | Draft |
+| [ECIP-1022](ECIPs/ECIP-1022.md) | Generalized Version Bits Voting for Consensus Soft and Hard Forks | Wei Tang | Standard | Informational | Draft |
+| [ECIP-1023](ECIPs/ECIP-1023.md) | Combined CarbonVote and MinerVote for Consensus Soft and Hard Forks | Wei Tang | Standard | Informational | Draft |
+| [ECIP-1030](ECIPs/ECIP-1030.md) | Defining the SYSTEM Transaction | Wei Tang | Standard | Meta | Draft |
+
+# EIPs that applies to Ethereum Classic network
+
+| Number        | Title        | Author | Type  | Layer        | Status / Discussion |
+| ------------- | ------------ | ------ | ----- | -------------| ------------------- |
+| [EIP-2](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2.mediawiki) | Homestead Hard-fork Changes | Vitalik Buterin | Standard | Consensus (hard-fork) | Final |
+| [EIP-7](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7.md) | DELEGATECALL | Vitalik Buterin | Standard | Consensus (hard-fork) | Final |
+| [EIP-8](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-8.md) | devp2p Forward Compatibility Requirements for Homestead | Felix Lange | Standard | Networking | Final |
+| [EIP-141](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-141.md) | Designated invalid EVM instruction | Alex Beregszaszi | Standard | Consensus | Final |
+| [EIP-150](https://github.com/ethereum/EIPs/issues/150) | Long-term gas cost changes for IO-heavy operations | Vitalik Buterin | Standard | Consensus (hard-fork) | Final |
+| [EIP-155](https://github.com/ethereum/EIPs/issues/155) | Simple replay attack protection | Vitalik Buterin | Standard | Consensus (hard-fork) | Final |
+| [EIP-160](https://github.com/ethereum/EIPs/issues/160) | EXP cost increase | Vitalik Buterin | Standard | Consensus (hard-fork) | Final |
+
+
 Ethereum Classic Improvement Proposals (ECIPs), are technical write-ups that describe suggested changes to the Ethereum Protocol. Finalized proposals agreed up by volunteer client developers, and the users of the Ethereum Classic main net blockchain are implemented by Ethereum Classic client developers.
 
 Every pull request will be reviewed and discussed by volunteer Ethereum Classic client developers and any developers on Github willing to contribute their well reasoned opinions. Regardless if there is general agreement you are able to use the information generated from the discussion to create a second draft. This can be done by either updating the pull request or submitting a new pull request. This process can be repeated (See figure 1) until the volunteer developer community agrees to add the pull request.
@@ -23,24 +48,3 @@ Decentralized decision making is part of the in-depth security that protects the
 # Getting started contributing
 The [ECIP sample](./ECIP-1.sample.md) is the best place to start. The sample was updated for Ethereum use by Martin Becze, it was predominantly derived from the Bitcoin improvement proposal based on the Python improvement proposal system. Fork the repository and add your ECIP to it, using the provided [ECIP markdown template](./ECIP-number.template.md). Submit by creating a Pull Request to the Ethereum Classic [ECIPs repository](https://github.com/ethereumclassic/ECIPs).
 
-# Current ECIPs
-
-| Number        | Title        | Author | Type  | Layer        | Status / Discussion |
-| ------------- | ------------ | ------ | ----- | -------------| ------------------- |
-| [ECIP-1010](ECIPs/ECIP-1010.md) | Delay Difficulty Bomb Explosion | Igor Artamonov | Standard | Consensus (hard-fork) | [Accepted](https://github.com/ethereumproject/ECIPs/issues/4) |
-| [ECIP-1013](ECIPs/ECIP-1013.md) | ETC On-Chain Cryptographic Signing and Authentication Protocol | Cody W Burns | Standard | Meta | Draft |
-| [ECIP-1017](ECIPs/ECIP-1017.md) | Monetary Policy and Final Modification to the Ethereum Classic Emission Schedule | Matthew Mazur | Standard | Consensus (hard-fork) | Final |
-| [ECIP-1021](ECIPs/ECIP-1021.md) | ERC223 Token Standard | Dexaran | Standard | ERC | Draft |
-| [ECIP-1030](ECIPs/ECIP-1030.md) | Defining the SYSTEM Transaction | Wei Tang | Standard | Meta | Draft |
-
-# EIPs that applies to Ethereum Classic network
-
-| Number        | Title        | Author | Type  | Layer        | Status / Discussion |
-| ------------- | ------------ | ------ | ----- | -------------| ------------------- |
-| [EIP-2](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2.mediawiki) | Homestead Hard-fork Changes | Vitalik Buterin | Standard | Consensus (hard-fork) | Final |
-| [EIP-7](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7.md) | DELEGATECALL | Vitalik Buterin | Standard | Consensus (hard-fork) | Final |
-| [EIP-8](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-8.md) | devp2p Forward Compatibility Requirements for Homestead | Felix Lange | Standard | Networking | Final |
-| [EIP-141](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-141.md) | Designated invalid EVM instruction | Alex Beregszaszi | Standard | Consensus | Final |
-| [EIP-150](https://github.com/ethereum/EIPs/issues/150) | Long-term gas cost changes for IO-heavy operations | Vitalik Buterin | Standard | Consensus (hard-fork) | Final |
-| [EIP-155](https://github.com/ethereum/EIPs/issues/155) | Simple replay attack protection | Vitalik Buterin | Standard | Consensus (hard-fork) | Final |
-| [EIP-160](https://github.com/ethereum/EIPs/issues/160) | EXP cost increase | Vitalik Buterin | Standard | Consensus (hard-fork) | Final |
