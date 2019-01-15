@@ -1,4 +1,4 @@
-title: Ethereum Classic Improcement Proposals (ECIPs)
+title: Ethereum Classic Improvments
 description: >- # this means to ignore newlines until "baseurl:"
   Ethereum Classic Improvement Proposals site. Please see Github for process: github.com/ethereumclassic/ECIPs
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -11,16 +11,45 @@ plugins:
 
 # Exclude from processing.
 # The following items will not be processed, by default.
-exclude:
-   - Gemfile
-   - Gemfile.lock
-   - node_modules
-   - vendor/bundle/
-   - vendor/cache/
-   - vendor/gems/
-   - vendor/ruby/
-   - README.md
-   _ .bundle
+exclude: [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor",
+  "README.md",
+  ".bundle"
+]
+
+include: [
+  "_pages"
+]
+
+collections:
+  ecip:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: /updates/:year:/:month:/:title:/
+  -
+    scope:
+      path: "ECIPs"
+    values:
+      layout: "ecip"
+      nav_exclude: true
+      permalink: /ecips/:title:/
+
 
 # == Just the Docs Theme ==
 theme: just-the-docs

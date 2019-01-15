@@ -1,0 +1,10 @@
+---
+layout: null
+---
+{
+{% for status in site.data.status %}
+  "{{ status.label }}": {
+      "description": "{{ status.description }}"
+  }{% unless forloop.last == true %},{% endunless %}
+{% endfor %}
+}

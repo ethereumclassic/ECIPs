@@ -1,11 +1,11 @@
-### What is an ECIP?
-
-    ECIP: 1
-    Title: ECIP Purpose and Guidelines
-    Status: Draft
-    Type: Meta
-    Author: Your Name <your.email@domain.com>
-    Created: 2017-11-30
+---
+layout: ecip
+ecip: 1
+title: ECIP Purpose and Guidelines
+status: Final (Core)
+type: Meta
+created: 2017-11-30
+---
 
 ### Abstract
 ECIP stands for Ethereum Classic Improvement Proposal. Each ECIP is a design document providing information to the Ethereum Classic community, or describing a new feature for Ethereum Classic or its processes or environment. The ECIP should provide a concise technical specification of the feature and a rationale for the feature.  The ECIP author is responsible for building consensus within the community and documenting dissenting opinions.

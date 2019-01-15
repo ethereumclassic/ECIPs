@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<h1>ECIP-{{ page.ecip }}: {{ page.title }}</h1>
+
+{% comment %}<!-- Will need to work on custom EIP layout, let's just display metadata for now -->{% endcomment %}
+<pre>
+ecip: {{ page.ecip }}
+author: {{ page.author }}
+discussions-to: {{ page.discussions-to }}
+status: {{ page.status }}
+type: {{ page.type }}
+created: {{ page.created }}
+</pre>
+
+<hr />
+
+{{ content }}
