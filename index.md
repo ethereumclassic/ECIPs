@@ -19,3 +19,14 @@ This is a line of intro text.
 	</div>
 </div>
 {% endfor %}
+
+# Latest ECIP Drafts
+
+<ul>
+{% assign eciplist = site.ecips | sort: "created" | reverse | limit: 5 %}
+{% for ecip in eciplist %}
+  <li>
+    ECIP-{{ ecip.ecip }}: <a href="{{ ecip.url }}">{{ ecip.title }}</a>
+  </li>
+{% endfor %}
+</ul>

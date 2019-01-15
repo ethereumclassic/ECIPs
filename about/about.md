@@ -36,7 +36,7 @@ Draft | Active | Accepted | Deferred | Rejected | Withdrawn | Final | Superseded
 
 <ul>
 {% for status in site.data.status %}
-  <li>{{ status["label"] }}: {{ status["description"] }}</li>
+  <li>{{ status.label }}: {{ status.description }}</li>
 {% endfor %}
 </ul>
 

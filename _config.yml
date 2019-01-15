@@ -21,12 +21,13 @@ exclude: [
 ]
 
 include: [
-  "_pages"
+  "_ecips"
 ]
 
 collections:
-  ecip:
+  ecips:
     output: true
+    permalink: /ecips/:slug/
 
 defaults:
   -
@@ -41,14 +42,13 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      permalink: /updates/:year:/:month:/:title:/
+      permalink: /updates/:year/:month/:title/
   -
     scope:
-      path: "ECIPs"
+      path: "_ecips"  
     values:
       layout: "ecip"
       nav_exclude: true
-      permalink: /ecips/:title:/
 
 
 # == Just the Docs Theme ==

@@ -1,0 +1,26 @@
+[
+  {
+    "label": "Draft",
+    "description": "an ECIP that is undergoing rapid iteration and changes"
+  },
+  {
+    "label": "Last Call",
+    "description": "an ECIP that is done with its initial iteration and ready for review by a wide audience"
+  },
+  {
+    "label": "Final (non-Core)",
+    "description": "an ECIP that has been in Last Call for at least 2 weeks and any technical changes that were requested have been addressed by the author"
+  },
+  {
+    "label": "Final (Core)",
+    "description": "an ECIP that the dev teams have decide to implement and release in a future hard fork or has already been released in a hard fork"
+  },
+  {
+    "label": "Accepted",
+    "description": "a core ECIP that has been in Last Call for at least 2 weeks and any technical changes that were requested have been addressed by the author"
+  },
+  {
+    "label": "Deferred",
+    "description": "an ECIP that is not being considered for immediate adoption. May be reconsidered in the future for a subsequent hard fork"
+  }
+]

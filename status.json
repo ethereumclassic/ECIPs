@@ -1,0 +1,5 @@
+---
+layout: null
+permalink: /feeds/status.json
+---
+{% include_relative _data/status.json %}
