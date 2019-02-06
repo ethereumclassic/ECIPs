@@ -10,7 +10,7 @@ Please review the [ECLIPs-1](ECLIPs/ECLIPs-1.md) and the [ECLIps Template](ECLIP
 
 1. Fork _this_ ECLIPs repository.
 2. Add _your_ ECLIP to _your fork_ of the repository in the _/ECLIPs_ directory.
-3. Submit a Pull Request to [https://github.com/etclabscore/ECLIPs](https://github.com/etclabscore/ECIPs)
+3. Submit a Pull Request to [https://github.com/etclabscore/ECLIPs](https://github.com/etclabscore/ECLIPs)
 
 ECIPs are technical documents that describe suggested changes to the Ethereum Classic protocol. Contributors submitting ECLIPs must follow _this_ ECLIP standard.
 
