@@ -4,7 +4,7 @@ Ethereum Classic Labs Improvement Proposals are an open standard for contributor
 
 ## Prerequisites
 
-Please review the [ECLIPs-1](ECLIPs/ECLIPs-1.md) and the [ECLIPs Template](ECLIPss/ECLIPs-template.md). Using these documents as a guide will help you follow the ECLIps standard.
+Please review the [ECLIP-1](ECLIPs/ECLIP-1.md) and the [ECLIP Template](ECLIP-template.md). Using these documents as a guide will help you follow the ECLIps standard.
 
 # Contribute
 
