@@ -12,21 +12,19 @@
 Add support for a subset of protocol-impacting changes introduced in the Ethereum Foundation (ETH) network via the _Byzantium_ hardfork. The proposed changes include:
 
 - Byzantium EVM opcodes and precompiled contracts, namely opcodes `REVERT` (EIP 206/140), `RETURNDATASIZE` (EIP 211), `RETURNDATACOPY` (EIP 211), and `STATICCALL` (EIP 214/116); and precompiled contracts for modular exponentiation, elliptic curve addition, scalar multiplication, and pairing (EIPs 198, 212/197, 213/196)
-- Expected Constantinople EVM opcodes, namely bitwise shifting operators `SHL`, `SHR`, and `SAR` (EIP 215); `CREATE2` (EIP 1014); and `EXTCODEHASH` (EIP 1052). 
-	+ TODO: Research and discuss gas metering changes for `SSTORE`, proposed in EIP 1283.
 - Replacing the intermediate state root field in transaction receipts with the contract return status (EIP 658).
 
-This document proposes block `7,100,000` as the upcoming block height at which to implement these changes in the network, placing the expected date of protocol hardfork in January 2019.
+This document proposes block `X,XXX,XXX` as the upcoming block height at which to implement these changes in the network, placing the expected date of protocol hardfork date on _XXXX-XX-XX_.
 
 For more information on the opcodes and their respective EIPs and implementations, please see the __History__ section of this document.
 
 ### Motivation
 
-To enable and maintain interoperability between Foundation and Classic Ethereum Virtual Machines ("EVM"s).
+To enable and maintain interoperability between Foundation and Classic Ethereum Virtual Machines ("EVM"s). This protocol specification notably omits the scheduled features of the anticipated _Constantinople_ fork, which would be expected to include various further EVM upgrades. The reasoning for this omission hinges on a hedge toward battle-testing of those changes in light of multiple delays of that fork ([here](https://medium.com/ethereum-cat-herders/a-post-mortem-report-the-constantinople-ethereum-hard-fork-postponement-dd780d7ae63d), a postmortem of the latest delay)  due to security and implementation discrepencies.
 
 ### Specification
 
-As per associated EIPs's specifications and implementations, and success determined by interoperability (implementation) of smart contracts utilizing the introduced opcode and precompiled contracts (implementation before technical specification in case of discrepency).
+As per associated EIPs's specifications and implementations, with feature-readiness determined by interoperability (implementation) of smart contracts utilizing the introduced opcode and precompiled contracts (implementation before technical specification in case of discrepency). Technical specifications for each EIP can be found at those documents respectively.
 
 ### Rationale
 
@@ -41,19 +39,21 @@ With these arguments in place, along with precedence and expectation for other c
 
 ### Implementation
 
-Adoption of the content of this ECLIP requires a hard fork, and herein that adoption is proposed to be scheduled for block 7,100,000, roughly estimated to arrive in January 2019.
+Adoption of the content of this ECLIP requires a hard fork, and herein that adoption is proposed to be scheduled for block X,XXX,XXX roughly estimated to arrive _XXXX-XX-XX_.
 
 The `ethereumproject/go-ethereum` client implemented an API-only (non-consensus impacting) partial adoption of EIP-658 Transaction status code change via the [v5.5.0](https://github.com/ethereumproject/go-ethereum/releases/tag/v5.5.0) release, and this proposal would augment that change to extend through to the RLP encoding (and thus modify consensus protocol).
+
+ETC Labs Core plans to advocate and support the adoption of [ethoxy/multi-geth](https://github.com/ethoxy/multi-geth) as a fully-featured and maintenance-scheduled client for this fork and beyond.
 
 ### History
 
 ##### Byzantium changes
 
-These changes were introduced in the Ethereum Foundation go-ethereum client via the [1.7 "Megara" release](https://github.com/ethereum/go-ethereum/releases/tag/v1.7.0).
+These changes were introduced in the `ethereum/go-ethereum` client via the [1.7 "Megara" release](https://github.com/ethereum/go-ethereum/releases/tag/v1.7.0).
 
-These changes were catalogued via the EIP process in the following:
+These changes are catalogued via the EIP process in the following:
 
-- EIP-658: Transaction receipts embedding status code instead of intermediate state root field - https://github.com/ethereum/EIPs/pull/658
+- EIP-658: Transaction receipts embedding status code instead of intermediate state root field - https://github.com/ethereum/EIPs/pull/658/files
 
 - EIP-140: `REVERT` - https://github.com/ethereum/EIPs/pull/206/files
 
@@ -69,28 +69,9 @@ These changes were catalogued via the EIP process in the following:
 
 > To increase smart contract security, this proposal adds a new opcode that can be used to call another contract (or itself) while disallowing any modifications to the state during the call (and its subcalls, if present).
 
-- EIP-198: Precompiled contract for modular exponentiation - https://github.com/ethereum/EIPs/pull/198
+- EIP-198: Precompiled contract for modular exponentiation - https://github.com/ethereum/EIPs/pull/198/files
 
-- EIP-212: Precompiled contract for elliptic curve pairing - https://github.com/ethereum/EIPs/pull/212
+- EIP-212: Precompiled contract for elliptic curve pairing - https://github.com/ethereum/EIPs/pull/212/files
 
-- EIP-213: Precompiled contract for elliptic curve addition and scalar multiplication - https://github.com/ethereum/EIPs/pull/213
-
-##### Constantinople changes
-
-These changes are _expected_ to be implemented by the anticipated Constantinople hard fork, which _may_ take place on the ETH network sometime near October 30, 2018, although to date no block number configuration has been accepted to the master branch of the ethereum/go-ethereum client.
-
-- EIP-215:(replacing EIP-145) (https://github.com/ethereum/EIPs/pull/215): Introduce bitwise shifting
-
-> To provide native bitwise shifting with cost on par with other arithmetic operations.
-
-- EIP-1014 (https://github.com/ethereum/EIPs/pull/1247): Use keccak256 name instead of sha3 (`CREATE2`)
-
-> Adds a new opcode at 0xf5, which takes 4 stack arguments: endowment, memory_start, memory_length, salt. Behaves identically to CREATE, except using `keccak256(msg.sender ++ salt ++ init_code)[12:]` instead of the usual sender-and-nonce-hash as the address where the contract is initialized at.
-
-- EIP-1052 (https://github.com/ethereum/EIPs/pull/1052): `EXTCODEHASH` opcode
-
-> Returns the keccak256 hash of a contract's code
-
-
-
+- EIP-213: Precompiled contracts for elliptic curve addition and scalar multiplication - https://github.com/ethereum/EIPs/pull/213/files
 
