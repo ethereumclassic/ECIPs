@@ -1,12 +1,11 @@
-### ECLIP-1045: Support for ETH Byzantium & Constantinople EVM and Protocol Upgrades
+### ECLIP-?: Support for ETH Byzantium EVM and Protocol Upgrades
 
-    ECIP: 1045/undecided
-    Title: Support for ETH Byzantium & Constantinople EVM and Protocol Upgrades
+    ECLIP: undecided
+    Title: Support for ETH Byzantium EVM and Protocol Upgrades
     Status: Draft
-    Type: Standard Track
-    Author: Isaac Ardis <isaac@etcdevteam.com>
-    Created: 2018-06-18
-
+    Type: Standards Track
+    Author: Isaac Ardis <isaac.a@etclabs.org>
+    Created: 2019-02-11
 
 ### Abstract
 
@@ -42,7 +41,7 @@ With these arguments in place, along with precedence and expectation for other c
 
 ### Implementation
 
-Adoption of the content of this ECIP requires a hard fork, and herein that adoption is proposed to be scheduled for block 7,100,000, roughly estimated to arrive in January 2019.
+Adoption of the content of this ECLIP requires a hard fork, and herein that adoption is proposed to be scheduled for block 7,100,000, roughly estimated to arrive in January 2019.
 
 The `ethereumproject/go-ethereum` client implemented an API-only (non-consensus impacting) partial adoption of EIP-658 Transaction status code change via the [v5.5.0](https://github.com/ethereumproject/go-ethereum/releases/tag/v5.5.0) release, and this proposal would augment that change to extend through to the RLP encoding (and thus modify consensus protocol).
 
