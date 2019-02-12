@@ -20,7 +20,7 @@ For more information on the opcodes and their respective EIPs and implementation
 
 ### Motivation
 
-To enhance the EVM's capabilities by adding 5 opcodes and 4 precompiled contracts, all of which have been in use on the ETH network since 2017-10-16. Adoption of the "receipt status" feature provides a helpful method for Dapp developers to access the successful or failed state a contact. This would (re)establish a greater level of interoperability between Foundation and Classic Ethereum Virtual Machines ("EVM"s), and make a wider array of tooling available for the ETC network (eg. Solidity version, several contract debugging tools). 
+To enhance the EVM's capabilities by adding 5 opcodes and 4 precompiled contracts, all of which have been in use on the ETH network since 2017-10-16. Adoption of the "receipt status" feature provides a helpful method for Dapp developers to access the successful or failed state a contact. This would (re)establish a greater level of interoperability between Foundation and Classic Ethereum Virtual Machines ("EVM"s), and make a wider array of tooling available for the ETC network (eg. Solidity version, several contract debugging tools).
 
 This protocol specification notably omits the scheduled features of the anticipated _Constantinople_ fork, which would be expected to include various further EVM upgrades. The reasoning for this omission hinges on a hedge toward battle-testing of those changes in light of multiple delays of that fork ([here](https://medium.com/ethereum-cat-herders/a-post-mortem-report-the-constantinople-ethereum-hard-fork-postponement-dd780d7ae63d), a postmortem of the latest delay)  due to security and implementation discrepencies.
 
@@ -30,11 +30,11 @@ As per associated EIPs's specifications and implementations, with feature-readin
 
 ### Rationale
 
-__Interoperability__: establishing and maintaining interoperable behavior between Ethereum clients is important for developers and end-user adoption, yielding benefits for all participating chains (eg. ETH and ETC). 
+__Interoperability__: establishing and maintaining interoperable behavior between Ethereum clients is important for developers and end-user adoption, yielding benefits for all participating chains (eg. ETH and ETC).
 
-__On Immutability__: Introducing new opcodes in the VM has the potential to change behavior of existing contracts; in the case where previously an arbitrary invalid bytecode series (yielding _invalid opcode_) would now be assigned a meaning, and thus could generate or return a value other than _invalid_. In essence, this means "making music where there was only noise before." There is a concern that this behavior change contradicts an essential promise of Immutability, since an existing failing smart contract is liable to become a succeeding (not failing) contract. In counterargument to this concern are two critical points:
+__On Immutability__: Introducing new opcodes in the VM has the potential to change behavior of existing contracts; in the case where previously an arbitrary invalid bytecode series (yielding _invalid opcode_) would now be assigned a meaning, and thus could generate or return a value other than _invalid_. In essence, this means "possibly making music where there was only noise before." There is a concern that this behavior change contradicts an essential promise of Immutability, since an existing failing smart contract is liable to become a succeeding (not failing) contract, albeit in a hypothetical case of extreme coincidence and gross misuse of an opcode. In counterargument to this concern are two critical points:
 
-1. account states remain changed
+1. account states remain unchanged
 2. the "Homestead" hardfork established a precedent for this type of change, having introduced the `DELEGATECALL` opcode at block 1,150,000.
 
 With these arguments in place, along with precedence and expectation for other continuing and varied consensus-impacting protocol upgrades (eg soft- and hard-forks), it follows that the definition of Immutability is not extended to guarantee perfect consistency for future _behavior_ of historical account states, but only to only to guarantee the immutability of the account states themselves.
@@ -76,4 +76,3 @@ These changes are catalogued via the EIP process in the following:
 - EIP-212: Precompiled contract for elliptic curve pairing - https://github.com/ethereum/EIPs/pull/212/files
 
 - EIP-213: Precompiled contracts for elliptic curve addition and scalar multiplication - https://github.com/ethereum/EIPs/pull/213/files
-
