@@ -41,7 +41,7 @@ With these arguments in place, along with precedence and expectation for other c
 
 Adoption of the content of this ECLIP requires a hard fork, and herein that adoption is proposed to be scheduled for block X,XXX,XXX roughly estimated to arrive _XXXX-XX-XX_.
 
-The `ethereumproject/go-ethereum` client implemented an API-only (non-consensus impacting) partial adoption of EIP-658 Transaction status code change via the [v5.5.0](https://github.com/ethereumproject/go-ethereum/releases/tag/v5.5.0) release, and this proposal would augment that change to extend through to the RLP encoding (and thus modify consensus protocol).
+The `ethereumproject/go-ethereum` client implemented an API-only (non-consensus impacting) partial adoption of EIP-658 receipt status code change via the [v5.5.0](https://github.com/ethereumproject/go-ethereum/releases/tag/v5.5.0) release, and this proposal would augment that change to extend through to the RLP encoding (and thus modify consensus protocol).
 
 ETC Labs Core plans to advocate and support the adoption of [ethoxy/multi-geth](https://github.com/ethoxy/multi-geth) as a fully-featured and maintenance-scheduled client for this fork and beyond.
 
