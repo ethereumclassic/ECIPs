@@ -39,6 +39,8 @@ __On Immutability__: Introducing new opcodes in the VM has the potential to chan
 
 With these arguments in place, along with precedence and expectation for other continuing and varied consensus-impacting protocol upgrades (eg soft- and hard-forks), it follows that the definition of Immutability is not extended to guarantee perfect consistency for future _behavior_ of historical account states, but only to only to guarantee the immutability of the account states themselves.
 
+Adding opcodes and precompiled contracts to the EVM increases its functionality (only in an extremely rare case of gross misuse would be seen to _change_ it's functionality), and should be considered a feature upgrade rather than a modification. 
+
 ### Implementation
 
 Adoption of the content of this ECLIP requires a hard fork, and herein that adoption is proposed to be scheduled for block X,XXX,XXX roughly estimated to arrive _XXXX-XX-XX_.
