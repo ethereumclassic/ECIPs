@@ -22,6 +22,13 @@ Who are the collaborators?
 - ETC Labs Core developers
 - everyone else willing to participate.
 
+Discussion?
+
+While discussion on Github is encourage, collaborators may feel free to chat in the _#ECLIPs_ channel on _Discord_.
+
+ ![discord](https://i.imgur.com/e7naFC2.png "discord link") https://discord.gg/NgzMPaj 
+
+
 # ECLIP Status
 
 ```
@@ -29,3 +36,4 @@ WIP -> DRAFT -> LAST CALL -> ACCEPTED -> FINAL
        |                     |
        |-> WITHDRAWN         |-> REJECTED
 ```
+

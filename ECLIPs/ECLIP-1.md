@@ -14,8 +14,6 @@ ECLIP stands for Ethereum Classic Labs Improvement Proposal. Each ECLIP is a des
 ### Motivation
 ECLIPs are the primary mechanisms for proposing new features, collecting community input on an issue, and documenting the design decisions that have gone into Ethereum Classic. ECLIPs are maintained as text files in a versioned repository, their revision history is the historical record of the feature proposal.
 
-, and general community who wants to participate in discussion. Drafts can be updated, therefore information generated from discussion can be used to update the pull request or submit a new pull request. When the ECLIP is final, the ECLIP is implemented by the client maintainers or in collaboration with the ECLIP author(s).
-
 ### Specification
 #### ECLIP Types
 There are three kinds of ECLIP:
@@ -57,6 +55,12 @@ Status changes are requested by the ECLIP author and reviewed by the ECLIP edito
 - __Final__ - The ultimate state of the ECLIP. Final ECLIPs should only be updated to correct errata. Future ECLIPs can revert or signficiantly modify previous ECLIPs. 
 
 Some Informational and Process ECLIPs may also have a status of "Active" if they are never meant to be completed. E.g. ECLIP 1 (this ECLIP).
+
+#### Discussion
+
+While discussion on Github is encourage, collaborators may feel free to chat in the _#ECLIPs_ channel on _Discord_.
+
+ ![discord](https://i.imgur.com/e7naFC2.png "discord link") https://discord.gg/NgzMPaj 
 
 #### What belongs in a successful ECLIP?
 Each ECLIP should have the following parts:
