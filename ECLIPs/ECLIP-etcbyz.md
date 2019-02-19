@@ -20,7 +20,7 @@ For more information on the opcodes and their respective EIPs and implementation
 
 ### Motivation
 
-To enhance the EVM's capabilities by adding 5 opcodes and 4 precompiled contracts, all of which have been in use on the ETH network since 2017-10-16. Adoption of the "receipt status" feature provides a helpful method for Dapp developers to access the successful or failed state a contact. This would (re)establish a greater level of interoperability between Foundation and Classic Ethereum Virtual Machines ("EVM"s), and make a wider array of tooling available for the ETC network (eg. Solidity version, several contract debugging tools).
+To enhance the EVM's capabilities by adding 5 opcodes and 4 precompiled contracts, all of which have been in use on the ETH network since 2017-10-16. Adoption of the "receipt status" feature provides a helpful method for Dapp developers to access the successful or failed state of a contract. This would (re)establish a greater level of interoperability between Foundation and Classic Ethereum Virtual Machines ("EVM"s), and make a wider array of tooling available for the ETC network (eg. Solidity version, several contract debugging tools).
 
 This protocol specification notably omits the scheduled features of the anticipated _Constantinople_ fork, which would be expected to include various further EVM upgrades. The reasoning for this omission hinges on a hedge toward battle-testing of those changes in light of multiple delays of that fork ([here](https://medium.com/ethereum-cat-herders/a-post-mortem-report-the-constantinople-ethereum-hard-fork-postponement-dd780d7ae63d), a postmortem of the latest delay)  due to security and implementation discrepencies.
 
