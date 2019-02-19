@@ -47,7 +47,7 @@ Adoption of the content of this ECLIP requires a hard fork, and herein that adop
 
 The `ethereumproject/go-ethereum` client implemented an API-only (non-consensus impacting) partial adoption of EIP-658 receipt status code change via the [v5.5.0](https://github.com/ethereumproject/go-ethereum/releases/tag/v5.5.0) release, and this proposal would augment that change to extend through to the RLP encoding (and thus modify consensus protocol).
 
-ETC Labs Core plans to advocate and support the adoption of [ethoxy/multi-geth](https://github.com/ethoxy/multi-geth) as a fully-featured and maintenance-scheduled client for this fork and beyond.
+ETC Labs Core advocates and supports the adoption of [ethoxy/multi-geth](https://github.com/ethoxy/multi-geth) as a fully-featured and maintenance-scheduled client for this fork and beyond.
 
 ### History
 
