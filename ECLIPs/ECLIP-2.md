@@ -43,7 +43,7 @@ Use cases for machine-readable [JSON-RPC 2.0](https://www.jsonrpc.org/specificat
 - Server stubs/skeletons generated in many languages
 - Clients generated in many languages 
 - Mock Server generated in many languages 
-- Tests generated many language tests
+- Tests generated in many languages
 - Documentation Generation
 
 # Alternative
