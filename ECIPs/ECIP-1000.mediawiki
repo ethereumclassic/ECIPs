@@ -3,7 +3,7 @@
   Title: ECIP process
   Author: Wei Tang <hi@that.world>
   Comments-Summary: No comments yet.
-  Comments-URI: No wiki links yet.
+  Comments-URI: https://github.com/ethereumclassic/ECIPs/issues/58
   Status: Draft
   Type: Process
   Created: 2017-06-29
