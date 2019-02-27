@@ -35,7 +35,7 @@ The [OpenRPC](https://github.com/open-rpc/spec) Specification defines a standard
 
 # Rationale
 ### Why would we do this?
-Services need to figure out how to talk to each other. If we really want to build the next generation automation then having up to date libraries, documented APIs, and modern tool are going to provide easy discovery, on-boarding and interaction.
+Services need to figure out how to talk to each other. If we really want to build the next generation of automation, then having up to date libraries, documented APIs, and modern tools are going to provide easy discovery, on-boarding, and enable end user and developer interaction.
 
 Use cases for machine-readable [JSON-RPC 2.0](https://www.jsonrpc.org/specification) API definition documents include, but are not limited to:
 
