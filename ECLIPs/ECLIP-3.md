@@ -3,7 +3,7 @@
     ECLIP: ?
     Title: Add OpenRPC Service Discovery To JSON-RPC Services
     Author: Shane Jonas, Zachary Belford
-    Status: WIP
+    Status: DRAFT
     Type: Interface
     Created: 2019-02-25
 
