@@ -28,10 +28,19 @@ This is a proposal to add [OpenRPC](https://github.com/open-rpc/spec) support by
 ### How do I Solve the problem?
 JSON-RPC APIs can support the OpenRPC specification by implementing a service discovery method that will return the [OpenRPC document](https://github.com/open-rpc/spec#openrpc-document) for the JSON-RPC API. The method MUST be named `rpc.discover`. The `rpc.` prefix is a reserved method prefix for [JSON-RPC 2.0 Specification](https://www.jsonrpc.org/specification) system extensions.
 
+### Use Case
+This is the vision for the use case of OpenRPC and how it would relate to multi-geth:
+![MultGethRpc-usecase](https://user-images.githubusercontent.com/364566/54172981-4605f480-443d-11e9-9e29-80c580f9edae.png)
+
 # Specification
 
 ### What is OpenRPC?
 The [OpenRPC](https://github.com/open-rpc/spec) Specification defines a standard, programming language-agnostic interface description for [JSON-RPC 2.0](https://www.jsonrpc.org/specification) APIs, which allows both humans and computers to discover and understand the capabilities of a service without requiring access to source code, additional documentation, or inspection of network traffic. When properly defined via OpenRPC, a consumer can understand and interact with the remote service with a minimal amount of implementation logic, and share these logic patterns across use cases. Similar to what interface descriptions have done for lower-level programming, the OpenRPC Specification removes guesswork in calling a service.
+
+##### Structure
+This is the structure of an OpenRPC Document:
+
+![openrpc-spec-structure](https://github.com/open-rpc/design/raw/master/diagrams/structure/OpenRPC_structure.png)
 
 # Rationale
 ### Why would we do this?
@@ -45,6 +54,7 @@ Use cases for machine-readable [JSON-RPC 2.0](https://www.jsonrpc.org/specificat
 - Mock Server generated in many languages 
 - Tests generated in many languages
 - Documentation Generation
+
 
 # Alternative
 [OpenRPC](https://github.com/open-rpc/spec) documents just describe [JSON-RPC](https://www.jsonrpc.org/specification) APIs services, and are represented in JSON format. These documents may be produced and served statically OR generated dynamically from an application and returned via the [`rpc.discover`](https://github.com/open-rpc/spec#service-discovery-method) method. This gives projects and communities the flexibility to adopt tools before the [`rpc.discover`](https://github.com/open-rpc/spec#service-discovery-method) method is implemented.
