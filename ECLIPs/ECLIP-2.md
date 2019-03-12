@@ -30,6 +30,7 @@ JSON-RPC APIs can support the OpenRPC specification by implementing a service di
 
 ### Use Case
 This is the vision for the use case of OpenRPC and how it would relate to multi-geth:
+
 ![MultGethRpc-usecase](https://user-images.githubusercontent.com/364566/54172981-4605f480-443d-11e9-9e29-80c580f9edae.png)
 
 # Specification
