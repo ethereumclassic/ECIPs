@@ -10,7 +10,7 @@
 # Abstract
 ### What is this?
 
-This is a proposal to add [OpenRPC](https://github.com/open-rpc/spec) support to existing and future Ethereum-order RPC services by adding the method [`rpc.discover`](https://github.com/open-rpc/spec#service-discovery-method) to the projects [JSON-RPC](https://www.jsonrpc.org/specification) APIs, enabling automation and tooling.
+This is a proposal to add [OpenRPC](https://github.com/open-rpc/spec) support to existing and future JSON-RPC services by adding the method [`rpc.discover`](https://github.com/open-rpc/spec#service-discovery-method) to the projects [JSON-RPC](https://www.jsonrpc.org/specification) APIs, enabling automation and tooling.
 
 # Motivation
 ### What is the problem?
