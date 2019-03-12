@@ -43,6 +43,9 @@ This is the structure of an OpenRPC Document:
 
 ![openrpc-spec-structure](https://github.com/open-rpc/design/raw/master/diagrams/structure/OpenRPC_structure.png)
 
+And an initial example of what one would look like for `multi-geth` can be found [here](https://github.com/etclabscore/multi-geth/blob/0718d25e92e568f486be17123e9384ce15d8b48c/openrpc.json)
+
+
 # Rationale
 ### Why would we do this?
 Services need to figure out how to talk to each other. If we really want to build the next generation of automation, then having up to date libraries, documented APIs, and modern tools are going to provide easy discovery, on-boarding, and enable end user and developer interaction.
