@@ -1,6 +1,6 @@
 # Add OpenRPC Service Discovery
 
-    ECLIP: 2
+    ECLIP: ?
     Title: Add OpenRPC Service Discovery
     Author: Shane Jonas, Zachary Belford
     Status: WIP
