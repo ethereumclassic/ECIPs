@@ -43,7 +43,7 @@ This is the structure of an OpenRPC Document:
 
 ![openrpc-spec-structure](https://github.com/open-rpc/design/raw/master/diagrams/structure/OpenRPC_structure.png)
 
-And an initial example of what one would look like for `multi-geth` can be found [here](https://github.com/etclabscore/multi-geth/blob/0718d25e92e568f486be17123e9384ce15d8b48c/openrpc.json)
+And an initial example of what one would look like for `multi-geth` can be found [here](https://github.com/etclabscore/multi-geth/blob/0718d25e92e568f486be17123e9384ce15d8b48c/openrpc.json).
 
 
 # Rationale
