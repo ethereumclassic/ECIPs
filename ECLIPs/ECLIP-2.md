@@ -1,7 +1,7 @@
 # Add OpenRPC Service Discovery To JSON-RPC Services
 
     ECLIP: ?
-    Title: Add OpenRPC Service Discovery
+    Title: Add OpenRPC Service Discovery To JSON-RPC Services
     Author: Shane Jonas, Zachary Belford
     Status: WIP
     Type: Interface
