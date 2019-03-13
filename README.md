@@ -37,3 +37,8 @@ WIP -> DRAFT -> LAST CALL -> ACCEPTED -> FINAL
        |-> WITHDRAWN         |-> REJECTED
 ```
 
+|  Number 	|   Title	|  Owner 	|  Type 	|   Status	|
+|---	|---	|---	|---	|---	|
+|   [ECLIP-2](https://github.com/etclabscore/ECLIPs/pull/2)	|   Support for ETH Byzantium EVM and Protocol Upgrades	|  Isaac Ardis 	|  Standards Track 	|  WIP 	|
+|   [ECLIP-3](https://github.com/etclabscore/ECLIPs/blob/master/ECLIPs/ECLIP-3.md)	|   Add OpenRPC Service Discovery To JSON-RPC Services	|  Shane Jonas, Zachary Belford 	|  Interface 	|  Draft 	|
+|   	|   	|   	|   	|   	|
