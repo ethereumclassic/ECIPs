@@ -1,44 +1,44 @@
-# ECLIPs
+# ECIPs
 
-Ethereum Classic Labs Improvement Proposals are an open standard for contributors to propose core protocol specifications, client APIs, and contract standards. The motivation of the ECLIPs process is to encourage high quality and competent proposals.
+Ethereum Classic Improvement Proposals (ECIPs), are technical write-ups that describe suggested changes to the Ethereum Protocol. Finalized proposals agreed up by volunteer client developers, and the users of the Ethereum Classic main net blockchain are implemented by Ethereum Classic client developers.
 
-## Prerequisites
+Every pull request will be reviewed and discussed by volunteer Ethereum Classic client developers and any developers on Github willing to contribute their well reasoned opinions. Regardless if there is general agreement you are able to use the information generated from the discussion to create a second draft. This can be done by either updating the pull request or submitting a new pull request. This process can be repeated (See figure 1) until the volunteer developer community agrees to add the pull request.
 
-Please review the [ECLIP-1](ECLIPs/ECLIP-1.md) and the [ECLIP Template](ECLIP-template.md). Using these documents as a guide will help you follow the ECLIps standard.
+![Figure 1: The cyclic process of proposal and review](./process.png "Figure 1: The process of proposal and review")
 
-# Contribute
+Having an ECIP within the folder of the repository does not make it a formally accepted standard until its status becomes Active. For an ECIP to become Active requires the mutual consent of the community. Those proposing changes should consider that ultimately consent may rest with the consensus of the Ethereum Classsic users.
 
-1. Fork _this_ ECLIPs repository.
-2. Add _your_ ECLIP to _your fork_ of the repository in the _/ECLIPs_ directory.
-3. Submit a Pull Request to [https://github.com/etclabscore/ECLIPs](https://github.com/etclabscore/ECLIPs)
+ECIPs grew out of the now hard-forked Ethereum DAO hard-fork (or ETF) repository, at which time no other differences between Ethereum Classic/original main net and Ethereum DAO hard-forked besides the DAO hard-fork. Changes have since been added such as early defusal of the difficulty bomb.
 
-ECIPs are technical documents that describe suggested changes to the Ethereum Classic protocol. Contributors submitting ECLIPs must follow _this_ ECLIP standard.
+# Network split
 
-Every Pull Request will be reviewed and discussed in a transparent manner by the ECLIP collaborators.
+Pushing changes to the protocol without consensus will cause a network split. The ECIP process should not be skipped, as previously done by Ethereum Foundation developers who unilaterally implemented a rushed hard-fork in the most widely used client thereby creating a network split at block 1920000.
 
-Who are the collaborators?
-- ECLIP author(s)
-- ECLIP editors
-- ETC Labs Core developers
-- everyone else willing to participate.
+The Ethereum Foundation raised money from the community to work towards the "mission to promote and support research, development and education to bring decentralized protocols", bur failed that goal when shortly after the DAO exploit was used Vitalik Buterin announced using the Ethereum Foundation blog that they had already unilaterally decided on forking. A [chat log](http://pastebin.com/raw/aMKwQcHR) from an internal chat reveals this decision was made prior to the announcement, and comments like "default behavior of Geth to be pro-fork as per internal discussions" found in DAO hard-fork [pull requests](https://github.com/ethereum/go-ethereum/pull/2814) and the unwillingness to use their own proposal system show that the narrative in which the Ethereum Foundation followed the will of the community is clearly wrong. What the Ethereum foundation did was the opposite of decentralized decision making. 
 
-Discussion?
+Decentralized decision making is part of the in-depth security that protects the integrity of the Ethereum Classic blockchain. It is critical for keeping the promise of "applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third party interference."
 
-While discussion on Github is encourage, collaborators may feel free to chat in the _#ECLIPs_ channel on _Discord_.
+# Getting started contributing
+The [ECIP sample](./ECIP-1.sample.md) is the best place to start. The sample was updated for Ethereum use by Martin Becze, it was predominantly derived from the Bitcoin improvement proposal based on the Python improvement proposal system. Fork the repository and add your ECIP to it, using the provided [ECIP markdown template](./ECIP-number.template.md). Submit by creating a Pull Request to the Ethereum Classic [ECIPs repository](https://github.com/ethereumproject/ECIPs).
 
- ![discord](https://i.imgur.com/e7naFC2.png "discord link") https://discord.gg/NgzMPaj 
+# Current ECIPs
 
+| Number        | Title        | Author | Type  | Layer        | Status / Discussion |
+| ------------- | ------------ | ------ | ----- | -------------| ------------------- |
+| [ECIP-1010](ECIPs/ECIP-1010.md) | Delay Difficulty Bomb Explosion | Igor Artamonov | Standard | Consensus (hard-fork) | [Accepted](https://github.com/ethereumproject/ECIPs/issues/4) |
+| [ECIP-1013](ECIPs/ECIP-1013.md) | ETC On-Chain Cryptographic Signing and Authentication Protocol | Cody W Burns | Standard | Meta | Draft |
+| [ECIP-1017](ECIPs/ECIP-1017.md) | Monetary Policy and Final Modification to the Ethereum Classic Emission Schedule | Matthew Mazur | Standard | Consensus (hard-fork) | Final |
+| [ECIP-1021](ECIPs/ECIP-1021.md) | ERC223 Token Standard | Dexaran | Standard | ERC | Draft |
+| [ECIP-1030](ECIPs/ECIP-1030.md) | Defining the SYSTEM Transaction | Wei Tang | Standard | Meta | Draft |
 
-# ECLIP Status
+# EIPs that applies to Ethereum Classic network
 
-```
-WIP -> DRAFT -> LAST CALL -> ACCEPTED -> FINAL
-       |                     |
-       |-> WITHDRAWN         |-> REJECTED
-```
-
-|  Number 	|   Title	|  Owner 	|  Type 	|   Status	|
-|---	|---	|---	|---	|---	|
-|   [ECLIP-2](https://github.com/etclabscore/ECLIPs/pull/2)	|   Support for ETH Byzantium EVM and Protocol Upgrades	|  Isaac Ardis 	|  Standards Track 	|  WIP 	|
-|   [ECLIP-3](https://github.com/etclabscore/ECLIPs/blob/master/ECLIPs/ECLIP-3.md)	|   Add OpenRPC Service Discovery To JSON-RPC Services	|  Shane Jonas, Zachary Belford 	|  Interface 	|  Draft 	|
-|   	|   	|   	|   	|   	|
+| Number        | Title        | Author | Type  | Layer        | Status / Discussion |
+| ------------- | ------------ | ------ | ----- | -------------| ------------------- |
+| [EIP-2](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2.mediawiki) | Homestead Hard-fork Changes | Vitalik Buterin | Standard | Consensus (hard-fork) | Final |
+| [EIP-7](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7.md) | DELEGATECALL | Vitalik Buterin | Standard | Consensus (hard-fork) | Final |
+| [EIP-8](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-8.md) | devp2p Forward Compatibility Requirements for Homestead | Felix Lange | Standard | Networking | Final |
+| [EIP-141](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-141.md) | Designated invalid EVM instruction | Alex Beregszaszi | Standard | Consensus | Final |
+| [EIP-150](https://github.com/ethereum/EIPs/issues/150) | Long-term gas cost changes for IO-heavy operations | Vitalik Buterin | Standard | Consensus (hard-fork) | Final |
+| [EIP-155](https://github.com/ethereum/EIPs/issues/155) | Simple replay attack protection | Vitalik Buterin | Standard | Consensus (hard-fork) | Final |
+| [EIP-160](https://github.com/ethereum/EIPs/issues/160) | EXP cost increase | Vitalik Buterin | Standard | Consensus (hard-fork) | Final |
