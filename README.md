@@ -24,7 +24,7 @@ When you believe your ECIP is mature and ready to progress past the draft phase,
 * **Draft** - An ECIP was submitted by its author and is undergoing rapid iteration and changes.
 * **Last Call** - An ECIP that is done with its initial iteration and ready for review by a wider audience.
 * **Accepted** - An ECIP that has been in Last Call for at least 2 weeks and any technical changes that were requested have been addressed by the author. If Core Devs decide to implement an ECIP into their clients, the ECIP will move to final.
-* **Final (non-Core)** - An ECIP that has been in Last Call for at least 2 weeks, any technical changes that were requested have been addressed by the author, and Core Devs decided to encode it into their clients. 
+* **Final (non-Core)** - An ECIP that has been in Last Call for at least 2 weeks, any technical changes that were requested have been addressed by the author, and Core Devs decided to implement it into their clients. 
 * **Final (Core)** - An ECIP that the Core Devs have decided to implement and release in a future hard fork or has already been released in a hard fork. 
 * **Deferred** - An ECIP that is not being considered for immediate adoption. May be reconsidered in the future for a subsequent hard fork.
 * **Replaced/Obsolete** - When a Final ECIP is no longer relevant, its status may be changed to Replaced or Obsolete (which is equivalent to Replaced).
