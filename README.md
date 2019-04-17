@@ -18,7 +18,7 @@ If your ECIP requires images, the image files should be included in a subdirecto
 When you believe your ECIP is mature and ready to progress past the draft phase, you should do one of two things:
 
  - **For a Standards Track ECIP of type Core**, ask to have your issue added to the agenda of an upcoming All Dev Team meeting, where it can be discussed for inclusion in a future hard fork. If implementers agree to include it, the ECIP editors will update the state of your ECIP to 'Accepted'.
- - **For all other ECIPs**, open a PR changing the state of your ECIP to 'Final'. An editor will review your draft and ask if anyone objects to its being finalised. If the editor decides there is no rough consensus - for instance, because contributors point out significant issues with the ECIP - they may close the PR and request that you fix the issues in the draft before trying again.
+ - **For all other ECIPs**, open a PR changing the state of your ECIP to 'Final'. An editor will review your draft and ask if anyone objects to it being finalized. If the editor decides there is no rough consensus - for instance, because contributors point out significant issues with the ECIP - they may close the PR and request that you fix the issues in the draft before trying again.
 
 # ECIP Status Terms
 * **Draft** - An ECIP was submitted by its author and is undergoing rapid iteration and changes.
