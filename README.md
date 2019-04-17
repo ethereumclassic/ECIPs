@@ -21,13 +21,15 @@ When you believe your ECIP is mature and ready to progress past the draft phase,
  - **For all other ECIPs**, open a PR changing the state of your ECIP to 'Final'. An editor will review your draft and ask if anyone objects to its being finalised. If the editor decides there is no rough consensus - for instance, because contributors point out significant issues with the ECIP - they may close the PR and request that you fix the issues in the draft before trying again.
 
 # ECIP Status Terms
-* **Draft** - an ECIP that is undergoing rapid iteration and changes
-* **Last Call** - an ECIP that is done with its initial iteration and ready for review by a wide audience
-* **Final (non-Core)** - an ECIP that has been in Last Call for at least 2 weeks and any technical changes that were requested have been addressed by the author.
-* **Final (Core)** - an ECIP that the dev teams have decide to implement and release in a future hard fork or has already been released in a hard fork
-* **Accepted** - a core ECIP that has been in Last Call for at least 2 weeks and any technical changes that were requested have been addressed by the author
-
-* **Deferred** - an ECIP that is not being considered for immediate adoption. May be reconsidered in the future for a subsequent hard fork.
+* **Draft** - An ECIP was submitted by its author and is undergoing rapid iteration and changes.
+* **Last Call** - An ECIP that is done with its initial iteration and ready for review by a wider audience.
+* **Accepted** - An ECIP that has been in Last Call for at least 2 weeks and any technical changes that were requested have been addressed by the author. If Core Devs decide to encode an ECIP into their clients, the ECIP will move to final.
+* **Final (non-Core)** - An ECIP that has been in Last Call for at least 2 weeks, any technical changes that were requested have been addressed by the author, and Core Devs decided to encode it into their clients. 
+* **Final (Core)** - An ECIP that the Core Devs have decided to implement and release in a future hard fork or has already been released in a hard fork. 
+* **Deferred** - An ECIP that is not being considered for immediate adoption. May be reconsidered in the future for a subsequent hard fork.
+* **Replaced/Obsolete** - When a Final ECIP is no longer relevant, its status may be changed to Replaced or Obsolete (which is equivalent to Replaced).
+* **Rejected** - Reasons for rejecting ECIPs include duplication of effort, disregard for formatting rules, being too unfocused or too broad, being technically unsound, not providing proper motivation or addressing backwards compatibility, or not in keeping with the Ethereum Classic philosophy.
+* **Withdrawn** - ECIP authors may decide on their own to change the status between Draft, Deferred, or Withdrawn. The ECIP editor may also change the status to Deferred when no progress is being made on the ECIP.
 
 # Accepted ECIPs
 
