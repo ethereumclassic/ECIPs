@@ -18,16 +18,17 @@ If your ECIP requires images, the image files should be included in a subdirecto
 When you believe your ECIP is mature and ready to progress past the draft phase, you should do one of two things:
 
  - **For a Standards Track ECIP of type Core**, ask to have your issue added to the agenda of an upcoming All Dev Team meeting, where it can be discussed for inclusion in a future hard fork. If implementers agree to include it, the ECIP editors will update the state of your ECIP to 'Accepted'.
- - **For all other ECIPs**, open a PR changing the state of your ECIP to 'Final'. An editor will review your draft and ask if anyone objects to its being finalised. If the editor decides there is no rough consensus - for instance, because contributors point out significant issues with the ECIP - they may close the PR and request that you fix the issues in the draft before trying again.
+ - **For all other ECIPs**, open a PR changing the state of your ECIP to 'Final'. An editor will review your draft and ask if anyone objects to its finalization. If the editor decides there is no rough consensus - for instance, because contributors point out significant issues with the ECIP - they may close the PR and request that you fix the issues in the draft before trying again.
 
 # ECIP Status Terms
-* **Draft** - an ECIP that is undergoing rapid iteration and changes
-* **Last Call** - an ECIP that is done with its initial iteration and ready for review by a wide audience
-* **Final (non-Core)** - an ECIP that has been in Last Call for at least 2 weeks and any technical changes that were requested have been addressed by the author.
-* **Final (Core)** - an ECIP that the dev teams have decide to implement and release in a future hard fork or has already been released in a hard fork
-* **Accepted** - a core ECIP that has been in Last Call for at least 2 weeks and any technical changes that were requested have been addressed by the author
-
-* **Deferred** - an ECIP that is not being considered for immediate adoption. May be reconsidered in the future for a subsequent hard fork.
+* **Draft** - An ECIP that is undergoing rapid iteration and changes.
+* **Last Call** - An ECIP that is done with its initial iteration and ready for review by a wider audience.
+* **Accepted** - An ECIP that has been in Last Call for at least 2 weeks and any technical changes that were requested have been addressed by the author. 
+* **Final** - An ECIP that was accepted, implemented, and no longer can be modified without submitting a new proposal, e.g., it has been released in a hard fork. 
+* **Deferred** - An ECIP that is not being considered for immediate adoption. May be reconsidered in the future for a subsequent hard fork.
+* **Replaced** - When a Final ECIP is no longer relevant, its status may be changed to Replaced or Obsolete.
+* **Rejected** - Reasons for rejecting ECIPs include duplication of effort, disregard for formatting rules, unfocused or too broad, being technically unsound, not providing proper motivation, or obvious popular disapproval.
+* **Withdrawn** - ECIP authors may decide to change the status between Draft, Deferred, or Withdrawn. The ECIP editor may also change the status to Deferred if no progress is being made on the ECIP.
 
 # Accepted ECIPs
 
