@@ -2,14 +2,14 @@
 
 
 # Getting started contributing
-The [ECIP sample](./ECIP-1.sample.md) is the best place to start. The sample was updated for Ethereum use by Martin Becze, it was predominantly derived from the Bitcoin improvement proposal based on the Python improvement proposal system. Fork the repository and add your ECIP to it, using the provided [ECIP markdown template](./ECIP-number.template.md). Submit by creating a Pull Request to the Ethereum Classic Labs' [ECIPs repository](https://github.com/etclabscore/ECIPs/pulls).
+The [ECIP sample](./ECIP-1.sample.md) is the best place to start. The sample was updated for Ethereum use by Martin Becze, it was predominantly derived from the Bitcoin improvement proposal based on the Python improvement proposal system. Fork the repository and add your ECIP to it, using the provided [ECIP markdown template](./ECIP-number.template.md). Submit by creating a Pull Request to the Ethereum Classic [ECIPs repository](https://github.com/ethereumclassic/ECIPs).
 
 # Contributing
 
  1. Review [ECIP-1](./ecip-1.sample.md).
  2. Fork the repository by clicking "Fork" in the top right.
  3. Add your ECIP to your fork of the repository. There is a [template ECIP here](ECIP-number.template.md).
- 4. Submit a Pull Request to Ethereum Classic Labs' [ECIPs repository](https://github.com/etclabscore/ECIPs/pulls).
+ 4. Submit a Pull Request to Ethereum Classic's [ECIPs repository](https://github.com/ethereumclassic/ECIPs).
 
 Your first PR should be a first draft of the final ECIP. It must meet the formatting criteria enforced by the build (largely, correct metadata in the header). An editor will manually review the first PR for a new ECIP and assign it a number before merging it. Make sure you include a `discussions-to` header with the URL to a discussion forum or open GitHub issue where people can discuss the ECIP as a whole.
 
@@ -23,8 +23,8 @@ When you believe your ECIP is mature and ready to progress past the draft phase,
 # ECIP Status Terms
 * **Draft** - An ECIP that is undergoing rapid iteration and changes.
 * **Last Call** - An ECIP that is done with its initial iteration and ready for review by a wider audience.
-* **Accepted** - An ECIP that has been in Last Call for at least 2 weeks and any technical changes that were requested have been addressed by the author. 
-* **Final** - An ECIP that was accepted, implemented, and no longer can be modified without submitting a new proposal, e.g., it has been released in a hard fork. 
+* **Accepted** - An ECIP that has been in Last Call for at least 2 weeks and any technical changes that were requested have been addressed by the author.
+* **Final** - An ECIP that was accepted, implemented, and no longer can be modified without submitting a new proposal, e.g., it has been released in a hard fork.
 * **Deferred** - An ECIP that is not being considered for immediate adoption. May be reconsidered in the future for a subsequent hard fork.
 * **Replaced** - When a Final ECIP is no longer relevant, its status may be changed to Replaced or Obsolete.
 * **Rejected** - Reasons for rejecting ECIPs include duplication of effort, disregard for formatting rules, unfocused or too broad, being technically unsound, not providing proper motivation, or obvious popular disapproval.
@@ -64,8 +64,6 @@ ECIPs grew out of the now hard-forked Ethereum DAO hard-fork (or ETF) repository
 
 Pushing changes to the protocol without consensus will cause a network split. The ECIP process should not be skipped, as previously done by Ethereum Foundation developers who unilaterally implemented a rushed hard-fork in the most widely used client thereby creating a network split at block 1920000.
 
-The Ethereum Foundation raised money from the community to work towards the "mission to promote and support research, development and education to bring decentralized protocols", bur failed that goal when shortly after the DAO exploit was used Vitalik Buterin announced using the Ethereum Foundation blog that they had already unilaterally decided on forking. A [chat log](http://pastebin.com/raw/aMKwQcHR) from an internal chat reveals this decision was made prior to the announcement, and comments like "default behavior of Geth to be pro-fork as per internal discussions" found in DAO hard-fork [pull requests](https://github.com/ethereum/go-ethereum/pull/2814) and the unwillingness to use their own proposal system show that the narrative in which the Ethereum Foundation followed the will of the community is clearly wrong. What the Ethereum foundation did was the opposite of decentralized decision making. 
+The Ethereum Foundation raised money from the community to work towards the "mission to promote and support research, development and education to bring decentralized protocols", bur failed that goal when shortly after the DAO exploit was used Vitalik Buterin announced using the Ethereum Foundation blog that they had already unilaterally decided on forking. A [chat log](http://pastebin.com/raw/aMKwQcHR) from an internal chat reveals this decision was made prior to the announcement, and comments like "default behavior of Geth to be pro-fork as per internal discussions" found in DAO hard-fork [pull requests](https://github.com/ethereum/go-ethereum/pull/2814) and the unwillingness to use their own proposal system show that the narrative in which the Ethereum Foundation followed the will of the community is clearly wrong. What the Ethereum foundation did was the opposite of decentralized decision making.
 
 Decentralized decision making is part of the in-depth security that protects the integrity of the Ethereum Classic blockchain. It is critical for keeping the promise of "applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third party interference."
-
-
