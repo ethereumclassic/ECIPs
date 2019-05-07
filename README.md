@@ -23,8 +23,8 @@ When you believe your ECIP is mature and ready to progress past the draft phase,
 # ECIP Status Terms
 * **Draft** - An ECIP that is undergoing rapid iteration and changes.
 * **Last Call** - An ECIP that is done with its initial iteration and ready for review by a wider audience.
-* **Accepted** - An ECIP that has been in Last Call for at least 2 weeks and any technical changes that were requested have been addressed by the author. 
-* **Final** - An ECIP that was accepted, implemented, and no longer can be modified without submitting a new proposal, e.g., it has been released in a hard fork. 
+* **Accepted** - An ECIP that has been in Last Call for at least 2 weeks and any technical changes that were requested have been addressed by the author.
+* **Final** - An ECIP that was accepted, implemented, and no longer can be modified without submitting a new proposal, e.g., it has been released in a hard fork.
 * **Deferred** - An ECIP that is not being considered for immediate adoption. May be reconsidered in the future for a subsequent hard fork.
 * **Replaced** - When a Final ECIP is no longer relevant, its status may be changed to Replaced or Obsolete.
 * **Rejected** - Reasons for rejecting ECIPs include duplication of effort, disregard for formatting rules, unfocused or too broad, being technically unsound, not providing proper motivation, or obvious popular disapproval.
@@ -64,8 +64,6 @@ ECIPs grew out of the now hard-forked Ethereum DAO hard-fork (or ETF) repository
 
 Pushing changes to the protocol without consensus will cause a network split. The ECIP process should not be skipped, as previously done by Ethereum Foundation developers who unilaterally implemented a rushed hard-fork in the most widely used client thereby creating a network split at block 1920000.
 
-The Ethereum Foundation raised money from the community to work towards the "mission to promote and support research, development and education to bring decentralized protocols", bur failed that goal when shortly after the DAO exploit was used Vitalik Buterin announced using the Ethereum Foundation blog that they had already unilaterally decided on forking. A [chat log](http://pastebin.com/raw/aMKwQcHR) from an internal chat reveals this decision was made prior to the announcement, and comments like "default behavior of Geth to be pro-fork as per internal discussions" found in DAO hard-fork [pull requests](https://github.com/ethereum/go-ethereum/pull/2814) and the unwillingness to use their own proposal system show that the narrative in which the Ethereum Foundation followed the will of the community is clearly wrong. What the Ethereum foundation did was the opposite of decentralized decision making. 
+The Ethereum Foundation raised money from the community to work towards the "mission to promote and support research, development and education to bring decentralized protocols", bur failed that goal when shortly after the DAO exploit was used Vitalik Buterin announced using the Ethereum Foundation blog that they had already unilaterally decided on forking. A [chat log](http://pastebin.com/raw/aMKwQcHR) from an internal chat reveals this decision was made prior to the announcement, and comments like "default behavior of Geth to be pro-fork as per internal discussions" found in DAO hard-fork [pull requests](https://github.com/ethereum/go-ethereum/pull/2814) and the unwillingness to use their own proposal system show that the narrative in which the Ethereum Foundation followed the will of the community is clearly wrong. What the Ethereum foundation did was the opposite of decentralized decision making.
 
 Decentralized decision making is part of the in-depth security that protects the integrity of the Ethereum Classic blockchain. It is critical for keeping the promise of "applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third party interference."
-
-
