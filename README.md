@@ -1,12 +1,26 @@
 # ECIPs
 
+# Summary
 
-# Getting started contributing
-The [ECIP sample](./ECIP-1.sample.md) is the best place to start. The sample was updated for Ethereum use by Martin Becze, it was predominantly derived from the Bitcoin improvement proposal based on the Python improvement proposal system. Fork the repository and add your ECIP to it, using the provided [ECIP markdown template](./ECIP-number.template.md). Submit by creating a Pull Request to the Ethereum Classic [ECIPs repository](https://github.com/ethereumclassic/ECIPs).
+This document is a summary of the Ethereum Classic Improvement Proposal (ECIP) process. To view the full description of the ECIP process please read [ECIP-1000](https://github.com/ethereumclassic/ECIPs/blob/master/ECIPs/ECIP-1000.mediawiki) which is the formal document generally ackowledged by the Ethereum Classic (ETC) ecosystem, by [rough consensus](https://en.wikipedia.org/wiki/Rough_consensus), as the most suitable system to propose new standard changes to the ETC protocol, informational documents, or ECIP process suggestions.
+
+# Getting Started
+After reading [ECIP-1000](https://github.com/ethereumclassic/ECIPs/blob/master/ECIPs/ECIP-1000.mediawiki), the [ECIP sample](./ECIP-1.sample.md) is the best place to continue. The sample was updated for Ethereum use by Martin Becze, it was predominantly derived from the Bitcoin improvement proposal process based on the Python improvement proposal system. Fork the repository and add your ECIP to it, using the provided [ECIP markdown template](./ECIP-number.template.md). Submit by creating a Pull Request to the Ethereum Classic [ECIPs repository](https://github.com/ethereumclassic/ECIPs).
+
+# Types of Participants
+
+As you will see by reading this summary and the other documents suggested above, there are several parties that participate in the life cycle of an ECIP:
+
+- **ECIP Author:** This is you! The author is a person interested in imporving ETC, therefore responsible for learning how the ECIP process works, so he or she can effectively propose protocol changes, informational, or procedural improvements. The author is also reponsible for following up on the ECIP life cycle throught all the status steps, from 'draft' to 'active' as described below, so the proposals become a reaity. If not, it is possible that the ECIP will be eventually rejected.
+- **Editors:** Editors are individuals, mainly ETC volunteers, who are members of the Ethereum Classic Github Organization responsible for assigning numbers to ECIPs, merging them, listing them in the ECIP directory, checking if they are ready, sound and complete, if the status steps are followed, and their motivation, accuracy and proper licensing terms, amongst other tasks.
+- **Core Developer Team:** Aa
+- **Implementers:** Aa
+- **Users:** Aa
+- **Discussion Participants:** Aa
 
 # Contributing
 
- 1. Review [ECIP-1](./ecip-1.sample.md).
+ 1. Review [ECIP-1](./ECIP-1.sample.md).
  2. Fork the repository by clicking "Fork" in the top right.
  3. Add your ECIP to your fork of the repository. There is a [template ECIP here](ECIP-number.template.md).
  4. Submit a Pull Request to Ethereum Classic's [ECIPs repository](https://github.com/ethereumclassic/ECIPs).
