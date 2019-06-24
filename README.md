@@ -91,7 +91,7 @@ ECIPs were born out of the [Ethereum](https://github.com/ethereum/EIPs) (or Ethe
 
 **Pushing changes to the protocol without consensus will cause a network split. The ECIP process should not be skipped**, as previously done by Ethereum Foundation developers who unilaterally implemented a rushed hard-fork in the most widely used client, therefore creating a network split at block 1920000.
 
-### Decentralized Decision making
+### Decentralized Decision Making
 
 The Ethereum Foundation raised money from the community to work towards the "mission to promote and support research, development and education to bring decentralized protocols", but failed at that goal when, shortly after TheDAO exploit, Vitalik Buterin announced, using the Ethereum Foundation blog, that they had already unilaterally decided to fork. A [chat log](http://pastebin.com/raw/aMKwQcHR) from an internal chat reveals this decision was made prior to the announcement, and comments like "default behavior of Geth to be pro-fork as per internal discussions" found in DAO hard-fork [pull requests](https://github.com/ethereum/go-ethereum/pull/2814), and the unwillingness to use their own proposal system, show that the narrative in which the Ethereum Foundation followed the will of the community was clearly wrong. What the Ethereum foundation did was the opposite of decentralized decision making.
 
