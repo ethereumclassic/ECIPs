@@ -58,7 +58,13 @@ If you are interested in assuming ownership of a ECIP, send a message asking to 
 
 ===ECIP Editors===
 
-To be added.
+The current ECIP editors are:
+
+* Wei Tang (@sorpaas)
+* Isaac Ardis (@meowsbits)
+* Cody Burns (@realcodywburns)
+* Afri Schoedon (@soc1c)
+* Yaz Khoury (@YazzyYaz)
 
 ===ECIP Editor Responsibilities & Workflow===
 
