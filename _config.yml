@@ -16,18 +16,14 @@ header_pages:
  - meta.html
  - informational.html
 
-collections:
-  specs:
-    output: true
-    permalink: /ECIPs/:slug/
+permalink: /:slug
 
 defaults:
-  - scope:
-      type: specs
+  -
+    scope:
+      path: "ECIPs"
     values:
-      layout: ecip
-
-permalink: /:slug
+      layout: "ecip"
 
 exclude:
   - Gemfile
