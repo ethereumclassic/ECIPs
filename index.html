@@ -1,0 +1,32 @@
+---
+layout: default
+title: Home
+---
+
+<h1 class="page-heading">ECIPs
+</h1>
+<p>Ethereum Classic Improvement Proposals (ECIPs), are technical write-ups that describe suggested changes to the Ethereum Classic Protocol. Finalized proposals agreed by core and volunteer client developers, implementers and other users of the Ethereum Classic mainnet are implemented by the core developer team into their respective clients.</p>
+
+<p>Every pull request will be reviewed and discussed by core and volunteer Ethereum Classic developers and any developers on Github willing to contribute their well reasoned opinions. Regardless whether there is general agreement, you are still able to use the information generated in the discussions to create a second draft. This can be done by either updating the pull request or submitting a new pull request. This process may be repeated (See figure 1) until the ETC developer community agrees to add the pull request.</p>
+
+<h2>ECIP Types</h2>
+
+<p>ECIPs are separated into a number of types, and each has its own list of ECIPs.</p>
+
+<h3>Standard Track ({{site.specs|where:"type","Standards Track"|size}})</h3>
+<p>Describes any change that affects most or all Ethereum Classic implementations, such as a change to the the network protocol, a change in block or transaction validity rules, proposed application standards/conventions, or any change or addition that affects the interoperability of applications using Ethereum Classic. Furthermore Standard ECIPs can be broken down into the following categories.</p>
+
+<h4><a href="{{"core"|relative_url}}">Core</a> ({{site.specs|where:"type","Standards Track"|where:"category","Core"|size}})</h4>
+<p>Improvements requiring a consensus fork, as well as changes that are not necessarily consensus critical but may be relevant to “core dev” discussions.</p>
+
+<h4><a href="{{"interface"|relative_url}}">Interface</a> ({{site.specs|where:"type","Standards Track"|where:"category","Interface"|size}})</h4>
+<p>Includes improvements around client API/RPC specifications and standards, and also certain language-level standards like method names and contract ABIs. The label “interface” aligns with the interfaces repo and discussion should primarily occur in that repository before an ECIP is submitted to the ECIPs repository.</p>
+
+<h4><a href="{{"erc"|relative_url}}">ERC</a> ({{site.specs|where:"type","Standards Track"|where:"category","ERC"|size}})</h4>
+<p>Application-level standards and conventions, including contract standards such as token standards, name registries, URI schemes, library/package formats, and wallet formats.</p>
+
+<h3><a href="{{"meta"|relative_url}}">Meta</a> ({{site.specs|where:"type","Meta"|size}})</h3>
+<p>Describes a process surrounding Ethereum Classic or proposes a change to (or an event in) a process. Process ECIPs are like Standards Track ECIPs but apply to areas other than the Ethereum Classic protocol itself. They may propose an implementation, but not to Ethereum Classic's codebase; they often require community consensus; unlike Informational ECIPs, they are more than recommendations, and users are typically not free to ignore them. Examples include procedures, guidelines, changes to the decision-making process, and changes to the tools or environment used in Ethereum Classic development. Any meta-ECIP is also considered a Process ECIP.</p>
+
+<h3><a href="{{"informational"|relative_url}}">Informational</a> ({{site.specs|where:"type","Informational"|size}})</h3>
+<p>Describes a Ethereum Classic design issue, or provides general guidelines or information to the Ethereum Classic community, but does not propose a new feature. Informational ECIPs do not necessarily represent Ethereum Classic community consensus or a recommendation, so users and implementers are free to ignore Informational ECIPs or follow their advice.</p>

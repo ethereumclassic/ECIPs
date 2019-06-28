@@ -1,0 +1,7 @@
+---
+layout: page
+title: Meta
+---
+
+{% assign eips=site.specs|where:"type","Meta" %}
+{% include eiptable.html eips=eips %}
