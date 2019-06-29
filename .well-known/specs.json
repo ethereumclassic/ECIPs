@@ -1,0 +1,21 @@
+---
+layout: null
+---
+
+[
+    {% for page in site.specs %}
+    {
+        "uri": "ecips.ethereumclassic.org/{{ page.slug }}",
+        "documentUrl": "https://ecips.ethereumclassic.org{{ page.id }}",
+        {% if page["discussions-to"] != undefined %}
+        "discussionUrl": "{{ page["discussions-to"] }}",
+        {% endif %}
+        {% if page.created != undefined %}
+        "createdAt": "{{ page.created }}",
+        {% endif %}
+        "status": "{{ page.status }}",
+        "author": "{{ page.author }}"
+    }
+    {% if forloop.last %}{% else %},{% endif %}
+    {% endfor %}
+]

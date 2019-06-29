@@ -8,6 +8,8 @@ url: "http://ecips.ethereumclassic.org"
 markdown: kramdown
 theme: minima
 
+include: [".well-known"]
+
 header_pages:
  - all.html
  - core.html
