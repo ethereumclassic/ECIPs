@@ -19,7 +19,7 @@ header_pages:
 collections:
   specs:
     output: true
-    permalink: /ECIPs/:slug/
+    permalink: /ECIPs/:path
 
 defaults:
   - scope:
@@ -27,7 +27,7 @@ defaults:
     values:
       layout: ecip
 
-permalink: /:slug
+permalink: /:path
 
 exclude:
   - Gemfile
