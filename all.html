@@ -3,4 +3,5 @@ layout: page
 title: All
 ---
 
+{% assign eips=site.specs|where:"lang","en"|where:"type","Standards Track"|where:"category","Core" %}
 {% include eiptable.html eips=site.specs %}

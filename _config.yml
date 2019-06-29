@@ -19,7 +19,7 @@ header_pages:
 collections:
   specs:
     output: true
-    permalink: /ECIPs/:slug/
+    permalink: /ECIPs/:slug
 
 defaults:
   - scope:
