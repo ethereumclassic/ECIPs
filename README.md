@@ -54,7 +54,7 @@ When you believe your ECIP is mature and ready to progress past the draft phase,
 
 ## ECIP List
 
-See [ECIPs website](https://ecips.ethereum.org) for the complete list of ECIPs.
+See [ECIPs website](https://ecips.ethereumclassic.org) for the complete list of ECIPs.
 
 ## Process Overview
 
