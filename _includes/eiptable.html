@@ -8,7 +8,7 @@
   }
 </style>
 {% for status in site.data.statuses %}
-  {% assign eips = include.eips|where:"status",status|sort:"eip" %}
+  {% assign eips = include.eips|where:"status",status|sort:"ecip" %}
   {% assign count = eips|size %}
   {% if count > 0 %}
     <h2>{{status}}</h2>
