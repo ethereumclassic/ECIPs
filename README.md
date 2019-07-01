@@ -62,7 +62,7 @@ Ethereum Classic Improvement Proposals (ECIPs), are technical write-ups that des
 
 Every pull request will be reviewed and discussed by core and volunteer Ethereum Classic developers and any developers on Github willing to contribute their well reasoned opinions. Regardless whether there is general agreement, you are still able to use the information generated in the discussions to create a second draft. This can be done by either updating the pull request or submitting a new pull request. This process may be repeated (See figure 1) until the ETC developer community agrees to add the pull request.
 
-![Figure 1: The cyclic process of proposal and review](./assets/ECIP-1000/process.png "Figure 1: The process of proposal and review")
+![Status Terms and Process](https://github.com/ethereumclassic/ECIPs/blob/master/assets/ecip-1000/process.png)
 
 Having an ECIP within the folder of the repository does not make it a formally accepted standard until its status becomes "Final". For an ECIP to become Final it requires the common consent of the ecosystem. Those proposing changes should consider that, ultimately, consent may rest with the consensus of the Ethereum Classic implementers and users.
 
