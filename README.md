@@ -47,12 +47,12 @@ When you believe your ECIP is mature and ready to progress past the draft phase,
 * **Draft** - An ECIP that is still undergoing iteration and changes, but is ready for general review. Make sure to remove [WIP] from the title so those who have muted the ECIP get the new status and can participate. 
 * **Last Call** - An ECIP that is done with its initial iteration and ready for review by a wider audience.
 * **Accepted** - An ECIP that has been in Last Call for at least 2 weeks and any technical changes that were requested have been addressed by the author.
-* **Final** - An ECIP that was accepted, implemented, and no longer can be modified without submitting a new proposal, e.g., it has been released in a hard fork.
+* **Final** - An ECIP that was accepted, implemented, and no longer can be modified without submitting a new proposal, e.g. it has been released in a hard fork.
 * **Deferred** - An ECIP that is not being considered for immediate adoption. May be reconsidered in the future for a subsequent hard fork.
 * **Replaced** - When a Final ECIP is no longer relevant, its status may be changed to Replaced or Obsolete.
 * **Rejected** - Reasons for rejecting ECIPs include duplication of effort, disregard for formatting rules, unfocused or too broad, being technically unsound, not providing proper motivation, or obvious popular disapproval.
 * **Withdrawn** - ECIP authors may decide to change the status between Draft, Deferred, or Withdrawn. The ECIP editor may also change the status to Deferred if no progress is being made on the ECIP.
-* **Active** -- Some Informational and Process EIPs may also be moved to a status of “Active” instead of "Finald" if they are never meant to be completed. E.g. [ECIP-1000](https://ecips.ethereumclassic.org/ECIPs/ecip-1000).
+* **Active** -- Some Informational and Process EIPs may also be moved to a status of “Active” instead of "Final" if they are never meant to be completed, e.g. [ECIP-1000](https://ecips.ethereumclassic.org/ECIPs/ecip-1000).
 
 ## ECIP List
 
