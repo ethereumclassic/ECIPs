@@ -22,9 +22,9 @@ As you will see by reading this summary and the other documents suggested above,
 
 ### Steps
 
- 1. Review [ECIP-1](./ECIP-1.sample.md).
+ 1. Review [ECIP-1000](https://ecips.ethereumclassic.org/ECIPs/ecip-1000).
  2. Fork the repository by clicking "Fork" in the top right.
- 3. Add your ECIP to your fork of the repository. There is a [template ECIP here](ECIP-number.template.md).
+ 3. Add your ECIP to your fork of the repository. There is a [ECIP markdown template](./ecip-X.md).
  4. Submit a Pull Request to Ethereum Classic's [ECIPs repository](https://github.com/ethereumclassic/ECIPs).
 
 ### Format and Numbering
@@ -43,14 +43,16 @@ When you believe your ECIP is mature and ready to progress past the draft phase,
  - **For all other ECIPs**, open a PR changing the state of your ECIP to 'Final'. An editor will review your draft and ask if anyone objects to its finalization. If the editor decides there is no rough consensus - for instance, because contributors point out significant issues with the ECIP - they may close the PR and request that you fix the issues in the draft before trying again.
 
 # ECIP Status Terms
-* **Draft** - An ECIP that is undergoing rapid iteration and changes.
+* **Work in progress (WIP)** -- An ECIP where the author has asked the Ethereum Classic community whether an idea has any chance of support, he/she will write a draft ECIP as a pull request. However, if the idea is still in a very early stage, and will have a lot of commits and changes by the author, editors or contributors, it may be better to enter it as a WIP. Make sure to add [WIP] in the title (example: [WIP] ECIP-X) of the early stage ECIP so other members can mute it if they are not interested in participating at this stage. 
+* **Draft** - An ECIP that is still undergoing iteration and changes, but is ready for general review. Make sure to remove [WIP] from the title so those who have muted the ECIP get the new status and can participate. 
 * **Last Call** - An ECIP that is done with its initial iteration and ready for review by a wider audience.
 * **Accepted** - An ECIP that has been in Last Call for at least 2 weeks and any technical changes that were requested have been addressed by the author.
-* **Final** - An ECIP that was accepted, implemented, and no longer can be modified without submitting a new proposal, e.g., it has been released in a hard fork.
+* **Final** - An ECIP that was accepted, implemented, and no longer can be modified without submitting a new proposal, e.g. it has been released in a hard fork.
 * **Deferred** - An ECIP that is not being considered for immediate adoption. May be reconsidered in the future for a subsequent hard fork.
 * **Replaced** - When a Final ECIP is no longer relevant, its status may be changed to Replaced or Obsolete.
 * **Rejected** - Reasons for rejecting ECIPs include duplication of effort, disregard for formatting rules, unfocused or too broad, being technically unsound, not providing proper motivation, or obvious popular disapproval.
 * **Withdrawn** - ECIP authors may decide to change the status between Draft, Deferred, or Withdrawn. The ECIP editor may also change the status to Deferred if no progress is being made on the ECIP.
+* **Active** -- Some Informational and Process EIPs may also be moved to a status of “Active” instead of "Final" if they are never meant to be completed, e.g. [ECIP-1000](https://ecips.ethereumclassic.org/ECIPs/ecip-1000).
 
 ## ECIP List
 
