@@ -1,0 +1,42 @@
+title: Ethereum Classic Improvement Proposals
+description: >-
+  Ethereum Classic Improvement Proposals (ECIPs) describe standards for the Ethereum Classic
+  platform, including core protocol specifications, client APIs, and contract
+  standards.
+url: "http://ecips.ethereumclassic.org"
+
+markdown: kramdown
+theme: minima
+
+include: [".well-known"]
+
+header_pages:
+ - all.html
+ - core.html
+ - interface.html
+ - erc.html
+ - meta.html
+ - informational.html
+
+collections:
+  specs:
+    output: true
+    permalink: /ECIPs/:path
+
+defaults:
+  - scope:
+      type: specs
+    values:
+      layout: ecip
+
+permalink: /:path
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - ECIP-X.md
