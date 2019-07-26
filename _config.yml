@@ -13,8 +13,9 @@ include: [".well-known"]
 header_pages:
  - all.html
  - core.html
+ - networking.html
  - interface.html
- - erc.html
+ - ecbp.html
  - meta.html
  - informational.html
 
