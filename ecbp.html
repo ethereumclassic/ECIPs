@@ -1,0 +1,7 @@
+---
+layout: page
+title: ECBP
+---
+
+{% assign eips=site.specs|where:"lang","en"|where:"type","Standards Track"|where:"category","ECBP" %}
+{% include eiptable.html eips=eips %}
