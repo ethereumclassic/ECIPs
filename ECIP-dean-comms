@@ -1,10 +1,12 @@
-# Communicating with 3rd parties
-
-    ECIP: 1064
-    Author: Dean Pappas, deancpappas@gmail.com
-    Status: Draft
-    Type: Informational
-    Created: 2019-08-06
+---
+lang: en
+ecip: 1064
+title: Communicating with 3rd parties
+status: Draft
+type: Informational
+author: Dean Pappas (deancpappas@gmail.com)
+created: 2019-08-06
+---
 
 ## Abstract
 
