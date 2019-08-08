@@ -2,7 +2,7 @@ Lang: EN
 ECIP: 1063
 Title: Ethereum Classic Integrated Decentralized Oracles and Smart Contracts
 Author: Jesse Nguyen <jessebaotruong@gmail.com>
-Discussions-To: jessebaotruong@gmail.com
+Discussions-To: https://github.com/ethereumclassic/ECIPs/pull/112
 Status: Draft
 Type: Standard Track
 Created: 2019-07-21
