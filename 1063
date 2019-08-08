@@ -31,7 +31,7 @@ Ethereum Classic can run the oracle within the limitations of its network and th
 The oracle becomes just a tool of a smart contract to decide the information to input to the smart contract.
 ### The Oracle as a Separate Layer or Separate Network
 The oracle can act as a network, similar to the Lightening Network for Bitcoin, but instead the oracle network would act to make smart contracts more efficient and cheaper.
-By using the dentralized oracle, less waste of transactions on the Ethereum Classic network would occur.
+By using the decentralized oracle, less waste of transactions on the Ethereum Classic network would occur.
 Because information is sorted from the decentralized oracle, the smart contract can function more efficiently.
 # Rationale
 To further provide reliable information to the smart contract and to solve real world problems.
