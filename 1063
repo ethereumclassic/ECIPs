@@ -1,11 +1,11 @@
 ---
-Lang: EN
-ECIP: 1063
-Title: Ethereum Classic Integrated Decentralized Oracles and Smart Contracts
-Author: Jesse Nguyen <jessebaotruong@gmail.com>
-Status: Draft
-Type: Standard Track
-Created: 2019-07-21
+lang: en
+ecip: 1063
+title: Ethereum Classic Integrated Decentralized Oracles and Smart Contracts
+author: Jesse Nguyen <jessebaotruong@gmail.com>
+status: Draft
+type: Standard Track
+created: 2019-07-21
 ---
  # Abstract
 Imagine how we can use ETC having oracle features which can assist Dapps and ERC-223 tokens to accomplish their goals.
