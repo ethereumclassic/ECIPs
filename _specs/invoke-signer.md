@@ -18,7 +18,6 @@ UX involved with handling ethereum signing is especially cumbersome. This is mos
 The following describes
 
 1. A way for dapp developers to handle _any action requiring a signature_ (i.e. signing a tx or logging in). The spec defines *how the wallet is chosen and invoked by the user's Operating System*
-
 2. A way for wallet applications to handle incoming requests for signature.
 
 ## Motivation
@@ -42,17 +41,13 @@ Currently, if a mobile app developer wants to integrate an ethereum feature in t
 ## Desired Dapp Experience
 Before defining the proposed spec, I'd like to outline the _ideal_ user experience, and work backwards to achieve it. After all, thats how this spec came about.
 
-1) If a dapp is browser-based, the user can browse to it using ANY available browser on mobile OR desktop.
-
-2) If the dapp is a native mobile or native desktop app, they simply download then open the application.
-
-3) When the dapp requires a signature it should 
-    
-   - Automatically open the user's preferred mobile wallet when on mobile, or 
-    
-   - Automatically open the user's preferred desktop/hardware wallet when on desktop. 
-4) The wallet should then display details of the signing request. 
-5) The user can then tap or click "sign" and be sent back to the dapp.
+1. If a dapp is browser-based, the user can browse to it using ANY available browser on mobile OR desktop.
+2. If the dapp is a native mobile or native desktop app, they simply download then open the application.
+3. When the dapp requires a signature it should   
+  * Automatically open the user's preferred mobile wallet when on mobile, or  
+  * Automatically open the user's preferred desktop/hardware wallet when on desktop. 
+4. The wallet should then display details of the signing request. 
+5. The user can then tap or click "sign" and be sent back to the dapp.
 
 ## Rationale
 This problem finally must be addressed at the _Operating System_ level, because it is the only way to flexibly hand off control flow to another app.
