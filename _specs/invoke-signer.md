@@ -1,13 +1,13 @@
-## Standardize OS Level Management of Signature Handling
-
-    ECLIP: <pending>
-    Title: Invoke Signer
-    Subtitle: Standardized OS-level Management of Wallet Functions
-    Author: Zac Mitton
-    Discussions-To: https://github.com/ethereumclassic/ECIPs/issues/147
-    Status:  DRAFT
-    Type: STANDARDS TRACK
-    Created: 2019-02-07
+---
+lang: en
+ecip: 1067
+title: Standardize OS Level Management of Signature Handling
+status: Draft
+type: Interface
+discussions-to: https://github.com/ethereumclassic/ECIPs/issues/58
+author: Zac Mitton
+created: 2019-02-07
+---
 
 ## Note
 I will often use the term "Signer" to mean the same thing as "Wallet", because these programs can sign more than just transactions.
