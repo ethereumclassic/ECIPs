@@ -21,4 +21,4 @@ resolution: <url>
 
 ### Implementation
 
-### Licensing
+### Copyright/Licensing
