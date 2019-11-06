@@ -3,8 +3,8 @@ ecip: <ECIP number>
 title: <ECIP title>
 author: <list of authors' real names and optionally, email addrs>
 discussions-to: <email address>
-status: <Draft | Active | Accepted | Deferred | Rejected | Withdrawn | Final | Superseded>
-type: <Standards Track | Informational | Process>
+status: <WIP | Draft | Last Call | Accepted | Final | Deferred | Replaced | Rejected | Withdrawn | Active>
+type: <Standards Track (Core, Networking, Interface, ECBP) | Meta | Informational>
 created: <date created on, in ISO 8601 (yyyy-mm-dd) format>
 replaces: <ECIP number>
 superseded-by: <ECIP number>
@@ -21,3 +21,4 @@ resolution: <url>
 
 ### Implementation
 
+### Licensing
