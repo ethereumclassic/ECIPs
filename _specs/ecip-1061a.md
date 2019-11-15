@@ -1,7 +1,7 @@
 ---
 lang: en
-ecip: 1061
-title: Aztlán EVM and Protocol Upgrades
+ecip: 1061a
+title: Aztlán EVM and Protocol Upgrades (Yuanchun Edition)
 status: Draft
 type: Meta
 author: Talha Cross (@soc1c)

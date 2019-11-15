@@ -1,7 +1,7 @@
 ---
 lang: en
-ecip: 1073
-title: Xichun EVM and Protocol Upgrades
+ecip: 1061c
+title: Aztlán EVM and Protocol Upgrades (Xichun Edition)
 status: Draft
 type: Meta
 author: Wei Tang (@sorpaas)

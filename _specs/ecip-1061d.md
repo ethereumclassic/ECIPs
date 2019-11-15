@@ -1,7 +1,7 @@
 ---
 lang: en
-ecip: 1072
-title: Yingchun EVM and Protocol Upgrades
+ecip: 1061d
+title: Aztlán EVM and Protocol Upgrades (Tanchun Edition)
 status: Draft
 type: Meta
 author: Wei Tang (@sorpaas)
@@ -14,16 +14,15 @@ license: Apache-2.0
 
 Enable the outstanding Ethereum Foundation _Istanbul_ network protocol
 upgrades on the Ethereum Classic network in a hard-fork code-named
-_Yingchun_ to enable maximum compatibility across these networks.
+_Tanchun_ to enable maximum compatibility across these networks.
 
-In particular, delay EIP-1884 activation until backward compatibility
-solutions are in place on Ethereum Classic.
+In particular, enables account versioning EIP-1702 with
+forward-compatible EVM changes.
 
 ### Abstract
 
 Add support for a subset of protocol-impacting changes introduced in
-the Ethereum Foundation (ETH) network via the _Istanbul_
-hardforks.
+the Ethereum Foundation (ETH) network via the _Istanbul_ hardforks.
 
 This document proposes the following blocks at which to implement
 these changes in the Classic networks:
@@ -43,19 +42,31 @@ opcodes shall be added to the Ethereum Classic networks, all of which
 have been in use on the Ethereum Foundation networks since end of
 2019.
 
-This enables all EIPs in Istanbul, but EIP-1884, due to backward
-compatibility considerations.
+This hard fork first enables the [Kunming hard fork
+specification](https://ecips.ethereumclassic.org/ECIPs/ecip-1065), and
+then enables all Istanbul features on top of the forward-compatible
+EVM.
 
 ### Specification
 
-Enable the following EIPs at the hard fork block:
+Enable
+[ECIP-1040](https://ecips.ethereumclassic.org/ECIPs/ecip-1040). Freeze
+features on version `0`. Define a new account version `1`, with the
+following additional EIPs enabled:
 
+- [39-UNGAS](https://specs.that.world/39-ungas/): Remove all
+  observable behavior of gas cost in EVM and change out-of-gas
+  exception to trap the whole transaction.
+- [40-UNUSED](https://specs.that.world/40-unused/): Disable deployment
+  of unused opcodes.
 - [EIP-152](https://eips.ethereum.org/EIPS/eip-152): Add Blake2
   compression function `F` precompile
 - [EIP-1108](https://eips.ethereum.org/EIPS/eip-1108): Reduce
   alt_bn128 precompile gas costs
 - [EIP-1344](https://eips.ethereum.org/EIPS/eip-1344): Add ChainID
   opcode
+- [EIP-1884](https://eips.ethereum.org/EIPS/eip-1884): Repricing for
+  trie-size-dependent opcodes
 - [EIP-2028](https://eips.ethereum.org/EIPS/eip-2028): Calldata gas
   cost reduction
 - [EIP-2200](https://eips.ethereum.org/EIPS/eip-2200): Rebalance
@@ -68,11 +79,17 @@ Adoption of the content of this ECIP requires a hard fork as it
 introduces changes that are not backward compatible.
 
 The following clients with Ethereum Classic support implement the
-_Istanbul_ features currently:
+_Istanbul_ features and ECIP-1040 / EIP-1702 currently:
 
 - Parity Ethereum
 - Multi-Geth
+
+The following clients implement _Istanbul_ features but does not yet
+support ECIP-1040 / EIP-1702:
+
 - Hyperledger Besu
+
+No clients currently have implemented *39-UNGAS* and *40-UNUSED* yet.
 
 ## Copyright
 
