@@ -12,6 +12,6 @@ The only supported branch for specifications and website is the `master` branch.
 
 ## Reporting a Vulnerability
 
-Please contact the corresponding ECIP authors or ECIP editors (the list can be found in [ECIP-1000](https://ecips.ethereumclassic.org/ECIPs/ecip-1000) for specification related security concerns. The PGP keys of community members can be fetched from [the volunteer repository](https://github.com/ethereumclassic/volunteer).
+For specification related concerns, please contact the corresponding ECIP authors or ECIP editors (the list can be found in [ECIP-1000](https://ecips.ethereumclassic.org/ECIPs/ecip-1000)). The PGP keys of community members can be fetched from [the volunteer repository](https://github.com/ethereumclassic/volunteer).
 
-Please contact security@ethereumclassic.org website security concerns.
+For website security concerns, please contact [security@ethereumclassic.org](mailto:security@ethereumclassic.org).
