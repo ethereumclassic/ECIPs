@@ -1,6 +1,6 @@
 # Security Policy
 
-Security concerns with each individual ECIPs should be addressed to the ECIP authors, the specified `discussion-to` locations, or ECIP editors. Note that when an ECIP is already deployed, it is recommended to talk privately with the ECIP authors or ECIP editors first.
+Security concerns with each individual ECIP should be addressed to the ECIP authors, the specified `discussion-to` locations, or ECIP editors. Note that when an ECIP is already deployed, it is recommended to talk privately with the ECIP authors or ECIP editors first.
 
 Security alerts related to the hosting and delivery of the ecips.ethereumclassic.org website will be addressed and will be taken by either the ECIP editors or org admins. They will not be made publicly until mitigating solutions are identified. Once a remedy is found, dependably will automate the repair process.
 
