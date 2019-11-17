@@ -2,10 +2,10 @@
 
 Security concerns with each individual ECIP should be addressed to the ECIP authors, the specified `discussion-to` locations, or ECIP editors. Note that when an ECIP is already deployed, it is recommended to talk privately with the ECIP authors or ECIP editors first.
 
-Security alerts related to the website source code will be addressed by ECIP editors. Security concerns related to hosting and delivery of the ecips.ethereumclassic.org website will be addressed by either org admins or ECIP editors. They will not be made publicly until mitigating solutions are identified. Once a remedy is found, part of the repair process may be automated by [Dependabot](https://dependabot.com/).
+Security alerts related to the website source code will be addressed by ECIP editors. Security concerns related to hosting and delivery of the ecips.ethereumclassic.org website will be addressed by either org admins or ECIP editors. They will not be made public until mitigating solutions are identified. Once a remedy is found, part of the repair process may be automated by [Dependabot](https://dependabot.com/).
 
 This site is licensed via multiple permissive and open source licenses, as specified in each ECIP.
- 
+
 ## Supported Branches
 
 The only supported branch for specifications and website is the `master` branch.
