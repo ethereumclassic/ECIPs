@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/557268112",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/194#issuecomment-557268112",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/194",
+    "id": 557268112,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1NzI2ODExMg==",
+    "user": {
+      "login": "tzdybal",
+      "id": 1138893,
+      "node_id": "MDQ6VXNlcjExMzg4OTM=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1138893?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tzdybal",
+      "html_url": "https://github.com/tzdybal",
+      "followers_url": "https://api.github.com/users/tzdybal/followers",
+      "following_url": "https://api.github.com/users/tzdybal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tzdybal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tzdybal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tzdybal/subscriptions",
+      "organizations_url": "https://api.github.com/users/tzdybal/orgs",
+      "repos_url": "https://api.github.com/users/tzdybal/repos",
+      "events_url": "https://api.github.com/users/tzdybal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tzdybal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-21T20:55:40Z",
+    "updated_at": "2019-11-21T20:55:40Z",
+    "author_association": "MEMBER",
+    "body": "1. ECBP is a category of \"standard track\" ECIPs.\r\n2. As per ECIP-1000 you cannot move ECIP/ECBP from `Draft` to `Active`. `Active` can be used only instead of `Final`. And there is also `Last call` and `Accepted` state between `Draft` and `Final`.\r\n    > Some Informational ECIPs, which are considered process ECIPs, may also be moved to a status of `Active` instead of `Final` if they are never meant to be completed, e.g. this ECIP-1000.\r\n3. I agree that `Active` is not a proper state for this ECBP. ",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/557268112/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

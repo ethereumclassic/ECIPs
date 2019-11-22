@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/478333052",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/65#issuecomment-478333052",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/65",
+    "id": 478333052,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3ODMzMzA1Mg==",
+    "user": {
+      "login": "feqifei",
+      "id": 42180581,
+      "node_id": "MDQ6VXNlcjQyMTgwNTgx",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/42180581?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/feqifei",
+      "html_url": "https://github.com/feqifei",
+      "followers_url": "https://api.github.com/users/feqifei/followers",
+      "following_url": "https://api.github.com/users/feqifei/following{/other_user}",
+      "gists_url": "https://api.github.com/users/feqifei/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/feqifei/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/feqifei/subscriptions",
+      "organizations_url": "https://api.github.com/users/feqifei/orgs",
+      "repos_url": "https://api.github.com/users/feqifei/repos",
+      "events_url": "https://api.github.com/users/feqifei/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/feqifei/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-31T11:24:53Z",
+    "updated_at": "2019-03-31T14:34:50Z",
+    "author_association": "NONE",
+    "body": "I voted thumbup because I hope dexaran's proposal could be discussed without prejudice.\r\nI'm following recent discussions on Discord about the possibility ETC will become a security layer for ETH and other cryptos. I understand that the risk of a reward system for holders can can reduce the security as consequence of a decreased reward for miners.\r\nOn the other hand if ETC will be a L1 for other PoS cryptos it will become a kind of commodity and I don't see the advantage for holders.\r\n\r\nDisclaimer: I'm a long-term holder",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/478333052/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

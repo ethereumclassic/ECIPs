@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/549968110",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/165#issuecomment-549968110",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/165",
+    "id": 549968110,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU0OTk2ODExMA==",
+    "user": {
+      "login": "antsankov",
+      "id": 2533512,
+      "node_id": "MDQ6VXNlcjI1MzM1MTI=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2533512?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antsankov",
+      "html_url": "https://github.com/antsankov",
+      "followers_url": "https://api.github.com/users/antsankov/followers",
+      "following_url": "https://api.github.com/users/antsankov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/antsankov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/antsankov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/antsankov/subscriptions",
+      "organizations_url": "https://api.github.com/users/antsankov/orgs",
+      "repos_url": "https://api.github.com/users/antsankov/repos",
+      "events_url": "https://api.github.com/users/antsankov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/antsankov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-05T18:57:21Z",
+    "updated_at": "2019-11-05T18:57:21Z",
+    "author_association": "NONE",
+    "body": "I give permission to license my ECIPs under the  Apache 2.0 license.\n\nOn a side note, after doing research, I do believe the Apache license is\nthe best open source license available for large multi-repo, many\nstakeholder, software ecosystems (Apache, Cassandra, Kafka, Hadoop,Spark,\netc.)\n\n- Alexander Tsankov\n\nOn Tue, Nov 5, 2019 at 13:49 cseberino <notifications@github.com> wrote:\n\n> I give permission to license my ECIPs under the Apache 2.0 license.\n>\n> Chris Seberino\n> _______________________________________\n>\n> Christian Seberino, Ph.D.\n> Phone: (936) 235-1139\n> Email: cseberino@gmail.com\n> _______________________________________\n>\n>\n>\n>\n> On Tue, Nov 5, 2019 at 12:33 PM Wei Tang <notifications@github.com> wrote:\n>\n> > @bobsummerwill <https://github.com/bobsummerwill> Just a note -- if the\n> > author prefers public domain and has licensed her or his specs in public\n> > domain, then there's no need to ask permission to relicense it under\n> > Apache-2. Whether we want to intentionally do this is another topic.\n> >\n> > —\n> > You are receiving this because you were mentioned.\n> > Reply to this email directly, view it on GitHub\n> > <\n> https://github.com/ethereumclassic/ECIPs/issues/165?email_source=notifications&email_token=ABEA2RU4E7HBK6GR5SSTXL3QSG36NA5CNFSM4JI7EFL2YY3PNVWWK3TUL52HS4DFVREXG43VMVBW63LNMVXHJKTDN5WW2ZLOORPWSZGOEDD3AVY#issuecomment-549957719\n> >,\n> > or unsubscribe\n> > <\n> https://github.com/notifications/unsubscribe-auth/ABEA2RWDJZZT3VIIOPN3NWDQSG36NANCNFSM4JI7EFLQ\n> >\n> > .\n> >\n>\n> —\n> You are receiving this because you were mentioned.\n> Reply to this email directly, view it on GitHub\n> <https://github.com/ethereumclassic/ECIPs/issues/165?email_source=notifications&email_token=AATKRCEEAL23OWAOCDO37GDQSG543A5CNFSM4JI7EFL2YY3PNVWWK3TUL52HS4DFVREXG43VMVBW63LNMVXHJKTDN5WW2ZLOORPWSZGOEDD4ZII#issuecomment-549964961>,\n> or unsubscribe\n> <https://github.com/notifications/unsubscribe-auth/AATKRCCRS5CJEX2DN3A57M3QSG543ANCNFSM4JI7EFLQ>\n> .\n>\n-- \nSent from my phone. Excuse any brevity, tyops, or grammar error.\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/549968110/reactions",
+      "total_count": 1,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

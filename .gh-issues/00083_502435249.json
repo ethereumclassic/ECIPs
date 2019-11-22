@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/502435249",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/83#issuecomment-502435249",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/83",
+    "id": 502435249,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUwMjQzNTI0OQ==",
+    "user": {
+      "login": "soc1c",
+      "id": 47772477,
+      "node_id": "MDQ6VXNlcjQ3NzcyNDc3",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/47772477?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/soc1c",
+      "html_url": "https://github.com/soc1c",
+      "followers_url": "https://api.github.com/users/soc1c/followers",
+      "following_url": "https://api.github.com/users/soc1c/following{/other_user}",
+      "gists_url": "https://api.github.com/users/soc1c/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/soc1c/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/soc1c/subscriptions",
+      "organizations_url": "https://api.github.com/users/soc1c/orgs",
+      "repos_url": "https://api.github.com/users/soc1c/repos",
+      "events_url": "https://api.github.com/users/soc1c/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/soc1c/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-06-16T09:16:30Z",
+    "updated_at": "2019-06-16T09:16:30Z",
+    "author_association": "MEMBER",
+    "body": "Just for the record, this was the proposal from the last call that was _almost_ accepted:\r\n\r\n1. Testing on [Kensington](https://github.com/eth-classic/kensington) (block `100)`, [Kotti](https://github.com/goerli/testnet#meta-data-kotti-classic) (block `716_617`), Morden (block `4_729_274`) continues as agreed upon in the previous call.\r\n2. We commit to a testing deadline roughly around `July 28th, 2019` which we use to evaluate the status and maturity of Atlantis.\r\n3. If there are no major problems discovered in that testing period, we commit to activating Atlantis on mainnet with a target in September around block `8_750_000`.\r\n\r\nWe can use this as the starting point of the discussion (maybe).\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/502435249/reactions",
+      "total_count": 4,
+      "+1": 4,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551226123",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/174#issuecomment-551226123",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/174",
+    "id": 551226123,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MTIyNjEyMw==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-07T19:23:51Z",
+    "updated_at": "2019-11-07T19:23:51Z",
+    "author_association": "MEMBER",
+    "body": "That one-liner would probably be its own ECIP.\r\nTo be adopted or rejected.\r\nJust as we are doing with ProgPOW.\r\nLet me create an ECIP for that too.\r\n\r\nI would advocate for that in BLOCK 1, because it applies whatever the hash algorithm is, and, like the gaslimit and DAG points is related to long-term certainty for miners.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551226123/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

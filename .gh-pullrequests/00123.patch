@@ -1,0 +1,23 @@
+From a2a55e6b34713dec0aa74cbafc8bed266a9dde0c Mon Sep 17 00:00:00 2001
+From: Donald McIntyre <donald@etherplan.com>
+Date: Thu, 25 Jul 2019 21:32:26 -0600
+Subject: [PATCH] Changed category to ECBP
+
+From ERC to ECBP.
+---
+ _specs/ecip-1021.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-1021.md b/_specs/ecip-1021.md
+index 6dfe0bb..f1a5c02 100644
+--- a/_specs/ecip-1021.md
++++ b/_specs/ecip-1021.md
+@@ -5,7 +5,7 @@ title: Token standard
+ author: Dexaran, <dexaran820@gmail.com>
+ status: Draft
+ type: Standards Track
+-category: ERC
++category: ECBP
+ created: 2017-03-07
+ resolution: https://github.com/Dexaran/ERC23-tokens
+ ---

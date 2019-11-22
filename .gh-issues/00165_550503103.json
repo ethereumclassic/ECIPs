@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550503103",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/165#issuecomment-550503103",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/165",
+    "id": 550503103,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MDUwMzEwMw==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-06T21:14:24Z",
+    "updated_at": "2019-11-06T21:14:48Z",
+    "author_association": "MEMBER",
+    "body": "@BelfordZ One point you made above which I didn't reply to was \"Apache 2.0+\"\r\nI agree that that is not a good pattern.\r\nYou are trusting future Apache license authors to do the right thing.\r\nIt is a bad pattern just as n.n.n^ is a dangerous pattern for NPM modules.\r\nBetter to lock in specific versions, and make updates a conscious effort.\r\nIf there is an Apache 3.0 in the future which is even better then it should be a deliberate coordinated process to choose to update.\r\n\r\nExactly the same pattern as SHA256 -> SHA3 which you raised at ETC Summit, @antsankov, right?\r\n\r\nYou make a long-term decision, that gives all ecosystem participants certainty for a long time (maybe decades), and then if the facts-on-the-ground change (hash collisions, better license available, whatever) then you have to make a coordinated move to \"upgrade\", but that always needs to be a conscious and intentional choice.\r\n\r\nSame for the monetary policy.\r\n\r\nAnd I am starting to think that gaslimit is yet another example of that pattern, where we would also benefit from long-term certainty.\r\n\r\nThat was also my thinking behind this (if there is consensus on this and it is not seen as something which violates ETC philosophy).  I think that could just end up as a one-liner in ECIP-1000, or as a standalone ECIP in some other form.   Analogous to monetary policy, but providing a commitment on remaining with POW.  Maybe tied in with whatever ECIP we do on gaslimit, if we do one?\r\n\r\nhttps://ethereumclassic.org/blog/2019-10-06-pow-mining-explicit-social-contract/",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550503103/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

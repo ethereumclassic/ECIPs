@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/506514079",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/58#issuecomment-506514079",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/58",
+    "id": 506514079,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUwNjUxNDA3OQ==",
+    "user": {
+      "login": "phyro",
+      "id": 157733,
+      "node_id": "MDQ6VXNlcjE1NzczMw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/157733?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/phyro",
+      "html_url": "https://github.com/phyro",
+      "followers_url": "https://api.github.com/users/phyro/followers",
+      "following_url": "https://api.github.com/users/phyro/following{/other_user}",
+      "gists_url": "https://api.github.com/users/phyro/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/phyro/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/phyro/subscriptions",
+      "organizations_url": "https://api.github.com/users/phyro/orgs",
+      "repos_url": "https://api.github.com/users/phyro/repos",
+      "events_url": "https://api.github.com/users/phyro/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/phyro/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-06-27T21:14:03Z",
+    "updated_at": "2019-06-27T21:14:03Z",
+    "author_association": "MEMBER",
+    "body": "Both me and Kimi are devs, but to actually give a meaningful comment, you need to have the background of how Ethereum protocol exactly works. I don't really have the background needed to give a reasonable comment for many of the ECIPs. I'll still comment on the ECIPs that I do understand so that's fine from my side :+1:",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/506514079/reactions",
+      "total_count": 4,
+      "+1": 4,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

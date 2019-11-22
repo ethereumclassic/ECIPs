@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550569920",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/165#issuecomment-550569920",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/165",
+    "id": 550569920,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MDU2OTkyMA==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-07T00:54:18Z",
+    "updated_at": "2019-11-07T00:54:18Z",
+    "author_association": "MEMBER",
+    "body": "@meowsbits @BelfordZ Another trick which Eben Moglen told me during the cpp-ethereum relicensing attempt is that you can filter out contributors who you don't even need to talk to (like most of the EF people showing as contributors on this repo) by doing \"git blame\" on all of the files at the tip of your repo and then just making a list of the unique users.\r\n\r\nAnybody who contributed something which has since been deleted or rewritten can be ignored.   That cleans up the \"long tail\".   He also said that the rule of thumb he and RMS had established is that contributions under 50 lines are usually insufficient to contribute a claim, so can be \"lawyered away\" if necessary.\r\n\r\nThat is probably something which applies more to code than to specs, though.   Key algorithms might be very short, and are totally possible to claim as IP or patented content, so I think we need to consider everything, even one-liners, if they are in ECIPs themselves.  The README or other template files maybe less of a worry.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550569920/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

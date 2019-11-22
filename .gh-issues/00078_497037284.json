@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/497037284",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/78#issuecomment-497037284",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/78",
+    "id": 497037284,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ5NzAzNzI4NA==",
+    "user": {
+      "login": "stevanlohja",
+      "id": 10556209,
+      "node_id": "MDQ6VXNlcjEwNTU2MjA5",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10556209?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stevanlohja",
+      "html_url": "https://github.com/stevanlohja",
+      "followers_url": "https://api.github.com/users/stevanlohja/followers",
+      "following_url": "https://api.github.com/users/stevanlohja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stevanlohja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stevanlohja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stevanlohja/subscriptions",
+      "organizations_url": "https://api.github.com/users/stevanlohja/orgs",
+      "repos_url": "https://api.github.com/users/stevanlohja/repos",
+      "events_url": "https://api.github.com/users/stevanlohja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stevanlohja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-05-29T17:39:43Z",
+    "updated_at": "2019-05-29T17:39:43Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Does EIP-170 cause issues with existing large contracts on ETC?\r\n> if contract creation initialization returns data with length of more than 0x6000 (2**14 + 2**13) bytes, contract creation fails with an out of gas error.\r\nSrc: https://github.com/ethereum/EIPs/blob/master/EIPS/eip-170.md",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/497037284/reactions",
+      "total_count": 1,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 1
+    }
+  }

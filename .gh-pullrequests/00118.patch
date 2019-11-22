@@ -1,0 +1,208 @@
+From 85e461c8959631cc9768b1cbac1c4d193392a407 Mon Sep 17 00:00:00 2001
+From: Donald McIntyre <donald@etherplan.com>
+Date: Thu, 25 Jul 2019 21:31:28 -0600
+Subject: [PATCH 1/7] Changed category to ECBP
+
+From ERC to ECBP.
+---
+ _specs/ecip-1013.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-1013.md b/_specs/ecip-1013.md
+index 1adda79..7c4813d 100644
+--- a/_specs/ecip-1013.md
++++ b/_specs/ecip-1013.md
+@@ -4,7 +4,7 @@ ecip: 1013
+ title: ETC On-Chain Cryptographic Signing and Authentication Protocol
+ status: Draft
+ type: Standards Track
+-category: ERC
++category: ECBP
+ author: Cody W Burns <cody.w.burns@ethereumclassic.org>
+ created: 2016-10-10
+ ---
+
+From a2a55e6b34713dec0aa74cbafc8bed266a9dde0c Mon Sep 17 00:00:00 2001
+From: Donald McIntyre <donald@etherplan.com>
+Date: Thu, 25 Jul 2019 21:32:26 -0600
+Subject: [PATCH 2/7] Changed category to ECBP
+
+From ERC to ECBP.
+---
+ _specs/ecip-1021.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-1021.md b/_specs/ecip-1021.md
+index 6dfe0bb..f1a5c02 100644
+--- a/_specs/ecip-1021.md
++++ b/_specs/ecip-1021.md
+@@ -5,7 +5,7 @@ title: Token standard
+ author: Dexaran, <dexaran820@gmail.com>
+ status: Draft
+ type: Standards Track
+-category: ERC
++category: ECBP
+ created: 2017-03-07
+ resolution: https://github.com/Dexaran/ERC23-tokens
+ ---
+
+From e46a2c9a333b6163c3446ee78a72ef81c36a6a90 Mon Sep 17 00:00:00 2001
+From: Donald McIntyre <donald@etherplan.com>
+Date: Thu, 25 Jul 2019 21:33:18 -0600
+Subject: [PATCH 3/7] Changed category to ECBP
+
+From ERC to ECBP.
+---
+ _specs/ecip-1044.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-1044.md b/_specs/ecip-1044.md
+index 4824653..a1cf7aa 100644
+--- a/_specs/ecip-1044.md
++++ b/_specs/ecip-1044.md
+@@ -5,7 +5,7 @@ title: Formalize IPFS hash into ECNS (Ethereum Classic Name Service) resolver
+ author: Phyrex Tsai <phyrex@portal.network>, Portal Network Team
+ status: Draft
+ type: Standards Track
+-category: ERC
++category: ECBP
+ created: 2018-05-12
+ ---
+ 
+
+From d1590128ef502818714cfa6b65054c12146a08f1 Mon Sep 17 00:00:00 2001
+From: Donald McIntyre <donald@etherplan.com>
+Date: Thu, 25 Jul 2019 21:38:04 -0600
+Subject: [PATCH 4/7] Added header_pages: networking.html and changed erc.html
+
+Added header_pages:
+
+networking.html
+
+and changed:
+
+erc.html
+
+to:
+
+ecbp.html
+---
+ _config.yml | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/_config.yml b/_config.yml
+index 41b5879..588c4fa 100644
+--- a/_config.yml
++++ b/_config.yml
+@@ -13,8 +13,9 @@ include: [".well-known"]
+ header_pages:
+  - all.html
+  - core.html
++ - networking.html
+  - interface.html
+- - erc.html
++ - ecbp.html
+  - meta.html
+  - informational.html
+ 
+
+From 03463959389e609f268f6a9f6c205ac259ee1459 Mon Sep 17 00:00:00 2001
+From: Donald McIntyre <donald@etherplan.com>
+Date: Thu, 25 Jul 2019 21:41:29 -0600
+Subject: [PATCH 5/7] Chaged to ECBP
+
+Changed file name from erc.html to ecbp.html
+
+Changed title from ERC to ECBP.
+
+Changed string `where:"category","ERC" %}` to `where:"category","ECBP" %}`
+---
+ erc.html => ecbp.html | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ rename erc.html => ecbp.html (71%)
+
+diff --git a/erc.html b/ecbp.html
+similarity index 71%
+rename from erc.html
+rename to ecbp.html
+index 68fb025..bac0059 100644
+--- a/erc.html
++++ b/ecbp.html
+@@ -1,7 +1,7 @@
+ ---
+ layout: page
+-title: ERC
++title: ECBP
+ ---
+ 
+-{% assign eips=site.specs|where:"lang","en"|where:"type","Standards Track"|where:"category","ERC" %}
++{% assign eips=site.specs|where:"lang","en"|where:"type","Standards Track"|where:"category","ECBP" %}
+ {% include eiptable.html eips=eips %}
+
+From ef1735619e2056b0a6acb430da2734839509b4e6 Mon Sep 17 00:00:00 2001
+From: Donald McIntyre <donald@etherplan.com>
+Date: Thu, 25 Jul 2019 21:52:27 -0600
+Subject: [PATCH 6/7] Update index.html
+
+Changed string:
+
+`<h4><a href="{{"erc"|relative_url}}">ERC</a> ({{site.specs|where:"lang","en"|where:"type","Standards Track"|where:"category","ERC"|size}})</h4>`
+
+to:
+
+`<h4><a href="{{"ecbp"|relative_url}}">ECBP</a> ({{site.specs|where:"lang","en"|where:"type","Standards Track"|where:"category","ECBP"|size}})</h4>`
+
+Note: I am adding also a string for `networking` but I don't know if that will break the site. Please check before merging.
+
+This is the new string I added (2 lines):
+
+`<h4><a href="{{"networking"|relative_url}}">Networking</a> ({{site.specs|where:"lang","en"|where:"type","Standards Track"|where:"category","Networking"|size}})</h4>
+<p>Improvements to networking protocol specifications.</p>`
+---
+ index.html | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+diff --git a/index.html b/index.html
+index ef3d8bc..e35857e 100644
+--- a/index.html
++++ b/index.html
+@@ -19,10 +19,13 @@ <h3>Standard Track ({{site.specs|where:"lang","en"|where:"type","Standards Track
+ <h4><a href="{{"core"|relative_url}}">Core</a> ({{site.specs|where:"lang","en"|where:"type","Standards Track"|where:"category","Core"|size}})</h4>
+ <p>Improvements requiring a consensus fork, as well as changes that are not necessarily consensus critical but may be relevant to “core dev” discussions.</p>
+ 
++<h4><a href="{{"networking"|relative_url}}">Networking</a> ({{site.specs|where:"lang","en"|where:"type","Standards Track"|where:"category","Networking"|size}})</h4>
++<p>Improvements to networking protocol specifications.</p>
++
+ <h4><a href="{{"interface"|relative_url}}">Interface</a> ({{site.specs|where:"lang","en"|where:"type","Standards Track"|where:"category","Interface"|size}})</h4>
+ <p>Includes improvements around client API/RPC specifications and standards, and also certain language-level standards like method names and contract ABIs. The label “interface” aligns with the interfaces repo and discussion should primarily occur in that repository before an ECIP is submitted to the ECIPs repository.</p>
+ 
+-<h4><a href="{{"erc"|relative_url}}">ERC</a> ({{site.specs|where:"lang","en"|where:"type","Standards Track"|where:"category","ERC"|size}})</h4>
++<h4><a href="{{"ecbp"|relative_url}}">ECBP</a> ({{site.specs|where:"lang","en"|where:"type","Standards Track"|where:"category","ECBP"|size}})</h4>
+ <p>Application-level standards and conventions, including contract standards such as token standards, name registries, URI schemes, library/package formats, and wallet formats.</p>
+ 
+ <h3><a href="{{"meta"|relative_url}}">Meta</a> ({{site.specs|where:"lang","en"|where:"type","Meta"|size}})</h3>
+
+From 4b3d21f054307db96987951bb6b3ce197e89526f Mon Sep 17 00:00:00 2001
+From: Donald McIntyre <donald@etherplan.com>
+Date: Sat, 27 Jul 2019 09:41:34 -0600
+Subject: [PATCH 7/7] Creating networking.html file
+
+It was a file missing to complete ECIP types.
+---
+ networking.html | 7 +++++++
+ 1 file changed, 7 insertions(+)
+ create mode 100644 networking.html
+
+diff --git a/networking.html b/networking.html
+new file mode 100644
+index 0000000..0aad2d4
+--- /dev/null
++++ b/networking.html
+@@ -0,0 +1,7 @@
++---
++layout: page
++title: Networking
++---
++
++{% assign eips=site.specs|where:"lang","en"|where:"type","Networking" %}
++{% include eiptable.html eips=eips %}

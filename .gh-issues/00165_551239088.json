@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551239088",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/165#issuecomment-551239088",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/165",
+    "id": 551239088,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MTIzOTA4OA==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-07T19:58:08Z",
+    "updated_at": "2019-11-07T19:58:08Z",
+    "author_association": "MEMBER",
+    "body": "There is 44 years worth of experience and learning which have gone into the creation of these software licenses, based on BAD THINGS which have happened in the real world and which we do not want to happen to us.\r\n\r\nIt started with Richard Stallman's creation of the GNU project and then founding of the FSF in 1984 and 1985 respectively:\r\n\r\nhttps://en.wikipedia.org/wiki/GNU\r\nhttps://en.wikipedia.org/wiki/Free_Software_Foundation\r\n\r\nThe \"best practice\" at the end of this process is Apache 2.0 (permissive) and GPLv3 (copyleft).  Everything else has weaknesses and loopholes which were patched up in these licenses, and these (generally) the best there is depending on whether or not you are in the Free Software (copyleft) or Open Source (permissive) camps.\r\n\r\nMost project with weaker licensing (GPLv2, MIT, BSD, or worse yet public domain) are that way because they were started before these new licenses existed (that is the same for Linux) and now it is impossible to get all the contributors to agree to a relicensing.   Or because they are made by corporations who want to screw you with patents.\r\n\r\nHere is a recent example from our friends at Facebook, over React, where they ended up buckling on their specially terrible BSD+Patents licensing, back down to MIT.   That was better than it had been, but is still to their benefit.   They should have gone \"up\" to Apache 2.0 instead, but MIT leaves the door open for them to abuse users later:\r\n\r\nhttps://www.freecodecamp.org/news/facebook-just-changed-the-license-on-react-heres-a-2-minute-explanation-why-5878478913b2/",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551239088/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

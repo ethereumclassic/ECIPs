@@ -1,0 +1,66 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/142",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/142/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/142/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/142/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/142",
+    "id": 503251138,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0MzI1MTQyMzk3",
+    "number": 142,
+    "title": "ECIP-1066: Active Ethereum Classic Network Description",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 4,
+    "created_at": "2019-10-07T06:08:58Z",
+    "updated_at": "2019-10-09T02:06:40Z",
+    "closed_at": "2019-10-07T20:17:58Z",
+    "author_association": "MEMBER",
+    "pull_request": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/142",
+      "html_url": "https://github.com/ethereumclassic/ECIPs/pull/142",
+      "diff_url": "https://github.com/ethereumclassic/ECIPs/pull/142.diff",
+      "patch_url": "https://github.com/ethereumclassic/ECIPs/pull/142.patch"
+    },
+    "body": "This creates an ECIP for the current active network description of Ethereum Classic mainnet. This will be the second ECIP document with the \"active\" status along with ECIP-1000.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/142/reactions",
+      "total_count": 2,
+      "+1": 2,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

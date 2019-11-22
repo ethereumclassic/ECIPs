@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551172615",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/174#issuecomment-551172615",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/174",
+    "id": 551172615,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MTE3MjYxNQ==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-07T17:06:57Z",
+    "updated_at": "2019-11-07T17:06:57Z",
+    "author_association": "MEMBER",
+    "body": "We need to discuss gaslimit too:\r\n\r\n@pyskell has submitted this proposal - https://ecips.ethereumclassic.org/ECIPs/ecip-1047.\r\n@zmitton has indicated he has an alternative\r\nAnd I will create an alternative ECIP as well.\r\n\r\nI would argue that gaslimit and DAG are more important to tackle first, and algorithm options second.\r\n\r\nThe gaslimit and DAG are immediate issues with the current setup.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551172615/reactions",
+      "total_count": 2,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 1
+    }
+  }

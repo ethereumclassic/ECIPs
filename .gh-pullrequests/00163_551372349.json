@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551372349",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/163#issuecomment-551372349",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/163",
+    "id": 551372349,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MTM3MjM0OQ==",
+    "user": {
+      "login": "TokenHash",
+      "id": 29529586,
+      "node_id": "MDQ6VXNlcjI5NTI5NTg2",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/29529586?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TokenHash",
+      "html_url": "https://github.com/TokenHash",
+      "followers_url": "https://api.github.com/users/TokenHash/followers",
+      "following_url": "https://api.github.com/users/TokenHash/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TokenHash/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TokenHash/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TokenHash/subscriptions",
+      "organizations_url": "https://api.github.com/users/TokenHash/orgs",
+      "repos_url": "https://api.github.com/users/TokenHash/repos",
+      "events_url": "https://api.github.com/users/TokenHash/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TokenHash/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-08T03:46:17Z",
+    "updated_at": "2019-11-08T04:10:32Z",
+    "author_association": "MEMBER",
+    "body": "@BelfordZ \r\n\r\n>Should this be a deal breaker for you folks, I'm happy to meet halfway, adding root license of apache 2.0, allowing other licenses to be specified, but I would urge that any GNU, GPL, or as I put, politically infused licenses not be included in the allowable list.\r\n\r\nYes, let's meet in the middle. Allowing Apache 2.0 as the root license so ETC has a default option, but having a more extended list in ECIP-1000 that allows devs to use alternatives, but perhaps post them in another repo or site e.g. ecips.that.world as @sorpaas has done in the past.\r\n\r\nThe ETC ecosystem can use ECIP-1000 in this Github Organization (https://github.com/ethereumclassic/ECIPs/blob/master/_specs/ecip-1000.md) as the canonical reference of which licenses to use.\r\n\r\n@BelfordZ can you point out which licenses in ECIP-1000 are hyper-toxic to you?\r\n\r\nI just speak for myself here, others may have other opinions. ",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551372349/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

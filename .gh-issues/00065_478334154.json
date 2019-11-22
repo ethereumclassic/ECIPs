@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/478334154",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/65#issuecomment-478334154",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/65",
+    "id": 478334154,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3ODMzNDE1NA==",
+    "user": {
+      "login": "frankbuse",
+      "id": 41022308,
+      "node_id": "MDQ6VXNlcjQxMDIyMzA4",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/41022308?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/frankbuse",
+      "html_url": "https://github.com/frankbuse",
+      "followers_url": "https://api.github.com/users/frankbuse/followers",
+      "following_url": "https://api.github.com/users/frankbuse/following{/other_user}",
+      "gists_url": "https://api.github.com/users/frankbuse/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/frankbuse/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/frankbuse/subscriptions",
+      "organizations_url": "https://api.github.com/users/frankbuse/orgs",
+      "repos_url": "https://api.github.com/users/frankbuse/repos",
+      "events_url": "https://api.github.com/users/frankbuse/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/frankbuse/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-31T11:41:44Z",
+    "updated_at": "2019-03-31T11:41:44Z",
+    "author_association": "NONE",
+    "body": "Thumbs up from me.\r\nThis should be implemented asap. \r\n\r\nI don't understand the comment “if you reduce the miners reward, you reduce the security“\r\n\r\nOld etc  keepers/miners and new miners/buyers will get an extra reason to keep their mining rewards or their bought etc because they can now stake their etc and get rewarded for holding.\r\n\r\nSo this would attract new miners, get some buying volume because staking is getting more and more accepted. \r\nAnd also as the total staking balance grows, the ones staking would all benefit from a higher ETC price so their 27 days rewards will go up dollar wise \r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/478334154/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

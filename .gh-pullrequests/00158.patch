@@ -1,0 +1,14 @@
+From d082f8dc37b2d117f968464491117ebc25925f94 Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Mon, 28 Oct 2019 23:24:01 +0100
+Subject: [PATCH] Fix ecip-1067 filename
+
+---
+ _specs/{invoke-signer.md => ecip-1067.md} | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename _specs/{invoke-signer.md => ecip-1067.md} (100%)
+
+diff --git a/_specs/invoke-signer.md b/_specs/ecip-1067.md
+similarity index 100%
+rename from _specs/invoke-signer.md
+rename to _specs/ecip-1067.md

@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551224286",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/174#issuecomment-551224286",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/174",
+    "id": 551224286,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MTIyNDI4Ng==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-07T19:19:22Z",
+    "updated_at": "2019-11-07T19:20:10Z",
+    "author_association": "MEMBER",
+    "body": "Yes, @TokenHash.\r\n\r\nI would suggest:\r\n\r\nBLOCK 1:\r\n- Status quo on gas, or impose gas limit\r\n- Status quo on DAG, or introduce DAG size limit\r\n\r\nBLOCK 2:\r\n- Status quo on Ethash, or SHA3 or ProgPOW\r\n\r\nAnother radical option which we should put on the table in BLOCK 2 is reverting to \"One CPU One Vote\" using RandomX from Monero, and maybe there are other options.    I don't think that is a good choice myself, because it would likely impact security horribly, but that is a \"fair market\" approach.  Better for decentralization, worse for security.\r\n\r\nAny of these transitions are \"central planning\", but might be the best thing for ETC if they lead to long-term stability.   Same as the Monetary Policy.\r\n\r\nBut, IMHO, we should be aiming to set policy here to something we think can stick for decades, and then we lock things down BEFORE THE MASSES ARRIVE.\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551224286/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

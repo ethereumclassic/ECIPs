@@ -1,0 +1,60 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/175",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/175/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/175/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/175/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/175",
+    "id": 519389400,
+    "node_id": "MDU6SXNzdWU1MTkzODk0MDA=",
+    "number": 175,
+    "title": "Core Devs Call: ECIP-1056 Agharta Finalization",
+    "user": {
+      "login": "soc1c",
+      "id": 47772477,
+      "node_id": "MDQ6VXNlcjQ3NzcyNDc3",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/47772477?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/soc1c",
+      "html_url": "https://github.com/soc1c",
+      "followers_url": "https://api.github.com/users/soc1c/followers",
+      "following_url": "https://api.github.com/users/soc1c/following{/other_user}",
+      "gists_url": "https://api.github.com/users/soc1c/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/soc1c/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/soc1c/subscriptions",
+      "organizations_url": "https://api.github.com/users/soc1c/orgs",
+      "repos_url": "https://api.github.com/users/soc1c/repos",
+      "events_url": "https://api.github.com/users/soc1c/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/soc1c/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 3,
+    "created_at": "2019-11-07T16:53:08Z",
+    "updated_at": "2019-11-10T12:58:32Z",
+    "closed_at": null,
+    "author_association": "MEMBER",
+    "body": "Ref [ECIP-1056](https://github.com/ethereumclassic/ECIPs/blob/master/_specs/ecip-1056.md) #75 #131 #135 \r\n\r\n### ETC Core Devs Call - Agharta Final Finalization\r\n\r\nWhen: **Thursday, December 12, 2019, 1pm UTC**, 60 minutes max.\r\n\r\nWhere: **Ethereum Classic Discord** https://discord.gg/dwxb6nf `#ecips` channel. Will use/create a voice channel _ad hoc._\r\n\r\n### Agenda\r\n\r\n- Quick client teams check-in\r\n  - Parity Ethereum / Parity Tech\r\n  - Geth Classic / ChainSafe, ETCLabs Core\r\n  - Multi-Geth / Multi-Geth, ETCLabs Core \r\n  - Hyperledger Besu / ChainSafe, PegaSys\r\n- Agharta (ECIP-1056) is in _\"last call\"_ state\r\n  - ECIP-1056 needs to be **accepted**\r\n    - evaluate testing on morden testnet\r\n    - evaluate testing on mordor testnet\r\n    - evaluate testing on kotti testnet\r\n  - discuss a timeline for the protocol upgrade\r\n    - **agree on a block number for mainnet**\r\n\r\nPlease comment to add items to the agenda",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/175/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

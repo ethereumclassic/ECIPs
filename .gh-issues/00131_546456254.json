@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/546456254",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/131#issuecomment-546456254",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/131",
+    "id": 546456254,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU0NjQ1NjI1NA==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-10-25T18:10:41Z",
+    "updated_at": "2019-10-25T18:10:41Z",
+    "author_association": "MEMBER",
+    "body": "@BelfordZ When I asked more about EVM versioning on ETH All Core Devs, it was clear that there were two different \"levels\" of versioning which we need to model:\r\n\r\n1. Straight version numbers, which 1702 can handle.\r\n2. Actual deep semantic versioning, which likely needs KEVM-level analysis.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/546456254/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

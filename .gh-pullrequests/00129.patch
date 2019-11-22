@@ -1,0 +1,23 @@
+From fbf986b1a299f330c0f43f40bac40e92bbcc9823 Mon Sep 17 00:00:00 2001
+From: Donald McIntyre <donald@etherplan.com>
+Date: Wed, 7 Aug 2019 12:35:09 -0600
+Subject: [PATCH] Changed type to ECBP
+
+Changed type from 'ERC' to 'ECBP'.
+---
+ _specs/ecip-1050.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-1050.md b/_specs/ecip-1050.md
+index 50b759c..fccb15e 100644
+--- a/_specs/ecip-1050.md
++++ b/_specs/ecip-1050.md
+@@ -6,7 +6,7 @@ author: Brooklyn Zelenka [@expede](https://github.com/expede), [Boris Mann](http
+ discussions-to: https://fission.codes/blockchain/ethclassic
+ status: Draft
+ type: Standars Track
+-category: ERC
++category: ECBP
+ created: 2018-12-03
+ ---
+ 

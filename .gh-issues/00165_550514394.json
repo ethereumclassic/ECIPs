@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550514394",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/165#issuecomment-550514394",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/165",
+    "id": 550514394,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MDUxNDM5NA==",
+    "user": {
+      "login": "drd34d",
+      "id": 30156189,
+      "node_id": "MDQ6VXNlcjMwMTU2MTg5",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/30156189?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/drd34d",
+      "html_url": "https://github.com/drd34d",
+      "followers_url": "https://api.github.com/users/drd34d/followers",
+      "following_url": "https://api.github.com/users/drd34d/following{/other_user}",
+      "gists_url": "https://api.github.com/users/drd34d/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/drd34d/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/drd34d/subscriptions",
+      "organizations_url": "https://api.github.com/users/drd34d/orgs",
+      "repos_url": "https://api.github.com/users/drd34d/repos",
+      "events_url": "https://api.github.com/users/drd34d/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/drd34d/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-06T21:45:03Z",
+    "updated_at": "2019-11-06T22:10:52Z",
+    "author_association": "NONE",
+    "body": "straight out of the ETC manifesto:\r\n\r\n**No registration, identification or other preconditions should limit participation. All such limitations prevent the network from scaling and their enforcement creates centralization risks.**\r\n\r\n*edit*\r\nmaybe not a bad timing for some people to review (or read for the first time) the ETC declaration of independence too. \r\n\r\nhttps://ethereumclassic.org/assets/ETC_Declaration_of_Independence.pdf",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550514394/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

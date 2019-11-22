@@ -1,0 +1,68 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/164",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/164/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/164/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/164/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/164",
+    "id": 517371119,
+    "node_id": "MDU6SXNzdWU1MTczNzExMTk=",
+    "number": 164,
+    "title": "Publish ecips to gh pages",
+    "user": {
+      "login": "BelfordZ",
+      "id": 1787231,
+      "node_id": "MDQ6VXNlcjE3ODcyMzE=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1787231?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/BelfordZ",
+      "html_url": "https://github.com/BelfordZ",
+      "followers_url": "https://api.github.com/users/BelfordZ/followers",
+      "following_url": "https://api.github.com/users/BelfordZ/following{/other_user}",
+      "gists_url": "https://api.github.com/users/BelfordZ/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/BelfordZ/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/BelfordZ/subscriptions",
+      "organizations_url": "https://api.github.com/users/BelfordZ/orgs",
+      "repos_url": "https://api.github.com/users/BelfordZ/repos",
+      "events_url": "https://api.github.com/users/BelfordZ/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/BelfordZ/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 1154785130,
+        "node_id": "MDU6TGFiZWwxMTU0Nzg1MTMw",
+        "url": "https://api.github.com/repos/ethereumclassic/ECIPs/labels/editor:%20enhancement",
+        "name": "editor: enhancement",
+        "color": "a2eeef",
+        "default": false,
+        "description": "New feature or request"
+      }
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 4,
+    "created_at": "2019-11-04T20:03:32Z",
+    "updated_at": "2019-11-07T21:23:17Z",
+    "closed_at": "2019-11-07T19:45:15Z",
+    "author_association": "MEMBER",
+    "body": "the contents of: https://ecips.ethereumclassic.org should be published using GH pages.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/164/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

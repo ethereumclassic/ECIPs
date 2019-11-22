@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/541970704",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/13#issuecomment-541970704",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/13",
+    "id": 541970704,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU0MTk3MDcwNA==",
+    "user": {
+      "login": "p3c-bot",
+      "id": 40745785,
+      "node_id": "MDQ6VXNlcjQwNzQ1Nzg1",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/40745785?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/p3c-bot",
+      "html_url": "https://github.com/p3c-bot",
+      "followers_url": "https://api.github.com/users/p3c-bot/followers",
+      "following_url": "https://api.github.com/users/p3c-bot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/p3c-bot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/p3c-bot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/p3c-bot/subscriptions",
+      "organizations_url": "https://api.github.com/users/p3c-bot/orgs",
+      "repos_url": "https://api.github.com/users/p3c-bot/repos",
+      "events_url": "https://api.github.com/users/p3c-bot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/p3c-bot/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-10-14T23:19:22Z",
+    "updated_at": "2019-10-14T23:25:49Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This standard uses the following Keccak256 control hash - if a device can produce this hash it will work for ECIP1049: \r\n\r\n`keccak256(\"ETC\")= 49b019f3320b92b2244c14d064de7e7b09dbc4c649e8650e7aa17e5ce7253294\"`\r\n\r\n<img width=\"903\" alt=\"control\" src=\"https://user-images.githubusercontent.com/40745785/66789158-6c4eaf80-eeb8-11e9-8b63-0f2ed0401be7.png\">\r\n\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/541970704/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

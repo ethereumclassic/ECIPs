@@ -1,0 +1,382 @@
+From 9224ddcea425ba692a65cce76185670a2c91e7ba Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Thu, 14 Nov 2019 23:11:35 +0100
+Subject: [PATCH 1/5] ECIP-1072, ECIP-1073, ECIP-1074
+
+---
+ _specs/ecip-1072.md | 79 +++++++++++++++++++++++++++++++++++++
+ _specs/ecip-1073.md | 86 ++++++++++++++++++++++++++++++++++++++++
+ _specs/ecip-1074.md | 96 +++++++++++++++++++++++++++++++++++++++++++++
+ 3 files changed, 261 insertions(+)
+ create mode 100644 _specs/ecip-1072.md
+ create mode 100644 _specs/ecip-1073.md
+ create mode 100644 _specs/ecip-1074.md
+
+diff --git a/_specs/ecip-1072.md b/_specs/ecip-1072.md
+new file mode 100644
+index 0000000..dd203f2
+--- /dev/null
++++ b/_specs/ecip-1072.md
+@@ -0,0 +1,79 @@
++---
++lang: en
++ecip: 1072
++title: Yingchun EVM and Protocol Upgrades
++status: Draft
++type: Meta
++author: Wei Tang (@sorpaas)
++created: 2019-11-14
++discussions-to: https://github.com/ethereumclassic/ECIPs/issues/81
++---
++
++### Simple Summary
++
++Enable the outstanding Ethereum Foundation _Istanbul_ network protocol
++upgrades on the Ethereum Classic network in a hard-fork code-named
++_Yingchun_ to enable maximum compatibility across these networks.
++
++In particular, delay EIP-1884 activation until backward compatibility
++solutions are in place on Ethereum Classic.
++
++### Abstract
++
++Add support for a subset of protocol-impacting changes introduced in
++the Ethereum Foundation (ETH) network via the _Istanbul_
++hardforks.
++
++This document proposes the following blocks at which to implement
++these changes in the Classic networks:
++
++- `TBD` on Mordor Classic PoW-testnet (Feb 5th, 2020)
++- `TBD` on Kotti Classic PoA-testnet (Feb 12th, 2020)
++- `TBD` on Ethereum Classic PoW-mainnet (March 25th, 2020)
++
++For more information on the opcodes and their respective EIPs and
++implementations, please see the _Specification_ section of this
++document.
++
++### Motivation
++
++To enhance the Ethereum Virtual Machine's (EVM) capabilities, various
++opcodes shall be added to the Ethereum Classic networks, all of which
++have been in use on the Ethereum Foundation networks since end of
++2019.
++
++This enables all EIPs in Istanbul, but EIP-1884, due to backward
++compatibility considerations.
++
++### Specification
++
++Enable the following EIPs at the hard fork block:
++
++- [EIP-152](https://eips.ethereum.org/EIPS/eip-152): Add Blake2
++  compression function `F` precompile
++- [EIP-1108](https://eips.ethereum.org/EIPS/eip-1108): Reduce
++  alt_bn128 precompile gas costs
++- [EIP-1344](https://eips.ethereum.org/EIPS/eip-1344): Add ChainID
++  opcode
++- [EIP-2028](https://eips.ethereum.org/EIPS/eip-2028): Calldata gas
++  cost reduction
++- [EIP-2200](https://eips.ethereum.org/EIPS/eip-2200): Rebalance
++  net-metered SSTORE gas cost with consideration of SLOAD gas cost
++  change
++
++### Implementation
++
++Adoption of the content of this ECIP requires a hard fork as it
++introduces changes that are not backward compatible.
++
++The following clients with Ethereum Classic support implement the
++_Istanbul_ features currently:
++
++- Parity Ethereum
++- Multi-Geth
++- Hyperledger Besu
++
++## Copyright
++
++This work is licensed under [Apache License, Version
++2.0](http://www.apache.org/licenses/).
+diff --git a/_specs/ecip-1073.md b/_specs/ecip-1073.md
+new file mode 100644
+index 0000000..0989ae6
+--- /dev/null
++++ b/_specs/ecip-1073.md
+@@ -0,0 +1,86 @@
++---
++lang: en
++ecip: 1073
++title: Xichun EVM and Protocol Upgrades
++status: Draft
++type: Meta
++author: Wei Tang (@sorpaas)
++created: 2019-11-14
++discussions-to: https://github.com/ethereumclassic/ECIPs/issues/81
++---
++
++### Simple Summary
++
++Enable the outstanding Ethereum Foundation _Istanbul_ network protocol
++upgrades on the Ethereum Classic network in a hard-fork code-named
++_Xichun_ to enable maximum compatibility across these networks.
++
++In particular, enables account versioning EIP-1702.
++
++### Abstract
++
++Add support for a subset of protocol-impacting changes introduced in
++the Ethereum Foundation (ETH) network via the _Istanbul_ hardforks.
++
++This document proposes the following blocks at which to implement
++these changes in the Classic networks:
++
++- `TBD` on Mordor Classic PoW-testnet (Feb 5th, 2020)
++- `TBD` on Kotti Classic PoA-testnet (Feb 12th, 2020)
++- `TBD` on Ethereum Classic PoW-mainnet (March 25th, 2020)
++
++For more information on the opcodes and their respective EIPs and
++implementations, please see the _Specification_ section of this
++document.
++
++### Motivation
++
++To enhance the Ethereum Virtual Machine's (EVM) capabilities, various
++opcodes shall be added to the Ethereum Classic networks, all of which
++have been in use on the Ethereum Foundation networks since end of
++2019.
++
++This enables all Istanbul features, feature gated under ECIP-1702 /
++EIP-1702.
++
++### Specification
++
++Enable
++[ECIP-1040](https://ecips.ethereumclassic.org/ECIPs/ecip-1040). Freeze
++features on version `0`. Define a new account version `1`, with the
++following additional EIPs enabled:
++
++- [EIP-152](https://eips.ethereum.org/EIPS/eip-152): Add Blake2
++  compression function `F` precompile
++- [EIP-1108](https://eips.ethereum.org/EIPS/eip-1108): Reduce
++  alt_bn128 precompile gas costs
++- [EIP-1344](https://eips.ethereum.org/EIPS/eip-1344): Add ChainID
++  opcode
++- [EIP-1884](https://eips.ethereum.org/EIPS/eip-1884): Repricing for
++  trie-size-dependent opcodes
++- [EIP-2028](https://eips.ethereum.org/EIPS/eip-2028): Calldata gas
++  cost reduction
++- [EIP-2200](https://eips.ethereum.org/EIPS/eip-2200): Rebalance
++  net-metered SSTORE gas cost with consideration of SLOAD gas cost
++  change
++
++### Implementation
++
++Adoption of the content of this ECIP requires a hard fork as it
++introduces changes that are not backward compatible.
++
++The following clients with Ethereum Classic support implement the
++_Istanbul_ features and ECIP-1040 / EIP-1702 currently:
++
++- Parity Ethereum
++- Multi-Geth
++
++The following clients implement _Istanbul_ features but does not yet
++support ECIP-1040 / EIP-1702:
++
++- Hyperledger Besu
++
++## Copyright
++
++This work is licensed under [Apache License, Version
++2.0](http://www.apache.org/licenses/).
+diff --git a/_specs/ecip-1074.md b/_specs/ecip-1074.md
+new file mode 100644
+index 0000000..a1d4d41
+--- /dev/null
++++ b/_specs/ecip-1074.md
+@@ -0,0 +1,96 @@
++---
++lang: en
++ecip: 1074
++title: Tanchun EVM and Protocol Upgrades
++status: Draft
++type: Meta
++author: Wei Tang (@sorpaas)
++created: 2019-11-14
++discussions-to: https://github.com/ethereumclassic/ECIPs/issues/81
++---
++
++### Simple Summary
++
++Enable the outstanding Ethereum Foundation _Istanbul_ network protocol
++upgrades on the Ethereum Classic network in a hard-fork code-named
++_Xichun_ to enable maximum compatibility across these networks.
++
++In particular, enables account versioning EIP-1702 with
++forward-compatible EVM changes.
++
++### Abstract
++
++Add support for a subset of protocol-impacting changes introduced in
++the Ethereum Foundation (ETH) network via the _Istanbul_ hardforks.
++
++This document proposes the following blocks at which to implement
++these changes in the Classic networks:
++
++- `TBD` on Mordor Classic PoW-testnet (Feb 5th, 2020)
++- `TBD` on Kotti Classic PoA-testnet (Feb 12th, 2020)
++- `TBD` on Ethereum Classic PoW-mainnet (March 25th, 2020)
++
++For more information on the opcodes and their respective EIPs and
++implementations, please see the _Specification_ section of this
++document.
++
++### Motivation
++
++To enhance the Ethereum Virtual Machine's (EVM) capabilities, various
++opcodes shall be added to the Ethereum Classic networks, all of which
++have been in use on the Ethereum Foundation networks since end of
++2019.
++
++This hard fork first enables the [Kunming hard fork
++specification](https://ecips.ethereumclassic.org/ECIPs/ecip-1065), and
++then enables all Istanbul features on top of the forward-compatible
++EVM.
++
++### Specification
++
++Enable
++[ECIP-1040](https://ecips.ethereumclassic.org/ECIPs/ecip-1040). Freeze
++features on version `0`. Define a new account version `1`, with the
++following additional EIPs enabled:
++
++- [39-UNGAS](https://specs.that.world/39-ungas/): Remove all
++  observable behavior of gas cost in EVM and change out-of-gas
++  exception to trap the whole transaction.
++- [40-UNUSED](https://specs.that.world/40-unused/): Disable deployment
++  of unused opcodes.
++- [EIP-152](https://eips.ethereum.org/EIPS/eip-152): Add Blake2
++  compression function `F` precompile
++- [EIP-1108](https://eips.ethereum.org/EIPS/eip-1108): Reduce
++  alt_bn128 precompile gas costs
++- [EIP-1344](https://eips.ethereum.org/EIPS/eip-1344): Add ChainID
++  opcode
++- [EIP-1884](https://eips.ethereum.org/EIPS/eip-1884): Repricing for
++  trie-size-dependent opcodes
++- [EIP-2028](https://eips.ethereum.org/EIPS/eip-2028): Calldata gas
++  cost reduction
++- [EIP-2200](https://eips.ethereum.org/EIPS/eip-2200): Rebalance
++  net-metered SSTORE gas cost with consideration of SLOAD gas cost
++  change
++
++### Implementation
++
++Adoption of the content of this ECIP requires a hard fork as it
++introduces changes that are not backward compatible.
++
++The following clients with Ethereum Classic support implement the
++_Istanbul_ features and ECIP-1040 / EIP-1702 currently:
++
++- Parity Ethereum
++- Multi-Geth
++
++The following clients implement _Istanbul_ features but does not yet
++support ECIP-1040 / EIP-1702:
++
++- Hyperledger Besu
++
++No clients currently have implemented *39-UNGAS* and *40-UNUSED* yet.
++
++## Copyright
++
++This work is licensed under [Apache License, Version
++2.0](http://www.apache.org/licenses/).
+
+From 609bab75e119bf35f1b4a0de30c88cc12ca0ce83 Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Fri, 15 Nov 2019 18:04:13 +0300
+Subject: [PATCH 2/5] Update ecip-1074.md
+
+---
+ _specs/ecip-1074.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-1074.md b/_specs/ecip-1074.md
+index a1d4d41..401dabc 100644
+--- a/_specs/ecip-1074.md
++++ b/_specs/ecip-1074.md
+@@ -13,7 +13,7 @@ discussions-to: https://github.com/ethereumclassic/ECIPs/issues/81
+ 
+ Enable the outstanding Ethereum Foundation _Istanbul_ network protocol
+ upgrades on the Ethereum Classic network in a hard-fork code-named
+-_Xichun_ to enable maximum compatibility across these networks.
++_Tanchun_ to enable maximum compatibility across these networks.
+ 
+ In particular, enables account versioning EIP-1702 with
+ forward-compatible EVM changes.
+
+From b0f3d80b89ec25139129e50ea3e14ffc6f0ed3ef Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Fri, 15 Nov 2019 18:04:52 +0300
+Subject: [PATCH 3/5] Update ecip-1072.md
+
+---
+ _specs/ecip-1072.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/_specs/ecip-1072.md b/_specs/ecip-1072.md
+index dd203f2..185b2ec 100644
+--- a/_specs/ecip-1072.md
++++ b/_specs/ecip-1072.md
+@@ -7,6 +7,7 @@ type: Meta
+ author: Wei Tang (@sorpaas)
+ created: 2019-11-14
+ discussions-to: https://github.com/ethereumclassic/ECIPs/issues/81
++license: Apache-2.0
+ ---
+ 
+ ### Simple Summary
+
+From 433c02d67b373f8820dcddde09471b035a4eb3d8 Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Fri, 15 Nov 2019 18:05:07 +0300
+Subject: [PATCH 4/5] Update ecip-1073.md
+
+---
+ _specs/ecip-1073.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/_specs/ecip-1073.md b/_specs/ecip-1073.md
+index 0989ae6..5e27f26 100644
+--- a/_specs/ecip-1073.md
++++ b/_specs/ecip-1073.md
+@@ -7,6 +7,7 @@ type: Meta
+ author: Wei Tang (@sorpaas)
+ created: 2019-11-14
+ discussions-to: https://github.com/ethereumclassic/ECIPs/issues/81
++license: Apache-2.0
+ ---
+ 
+ ### Simple Summary
+
+From fd73189073c0ada5d55dced43d0d324f112a4bcc Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Fri, 15 Nov 2019 18:05:20 +0300
+Subject: [PATCH 5/5] Update ecip-1074.md
+
+---
+ _specs/ecip-1074.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/_specs/ecip-1074.md b/_specs/ecip-1074.md
+index 401dabc..5d577ba 100644
+--- a/_specs/ecip-1074.md
++++ b/_specs/ecip-1074.md
+@@ -7,6 +7,7 @@ type: Meta
+ author: Wei Tang (@sorpaas)
+ created: 2019-11-14
+ discussions-to: https://github.com/ethereumclassic/ECIPs/issues/81
++license: Apache-2.0
+ ---
+ 
+ ### Simple Summary

@@ -1,0 +1,66 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/193",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/193/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/193/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/193/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/193",
+    "id": 526705562,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0MzQ0MTIxOTEx",
+    "number": 193,
+    "title": "Update ECIP-1070 Status to Rejected",
+    "user": {
+      "login": "YazzyYaz",
+      "id": 9094204,
+      "node_id": "MDQ6VXNlcjkwOTQyMDQ=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9094204?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/YazzyYaz",
+      "html_url": "https://github.com/YazzyYaz",
+      "followers_url": "https://api.github.com/users/YazzyYaz/followers",
+      "following_url": "https://api.github.com/users/YazzyYaz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/YazzyYaz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/YazzyYaz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/YazzyYaz/subscriptions",
+      "organizations_url": "https://api.github.com/users/YazzyYaz/orgs",
+      "repos_url": "https://api.github.com/users/YazzyYaz/repos",
+      "events_url": "https://api.github.com/users/YazzyYaz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/YazzyYaz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2019-11-21T16:30:22Z",
+    "updated_at": "2019-11-21T17:13:50Z",
+    "closed_at": "2019-11-21T17:13:47Z",
+    "author_association": "MEMBER",
+    "pull_request": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/193",
+      "html_url": "https://github.com/ethereumclassic/ECIPs/pull/193",
+      "diff_url": "https://github.com/ethereumclassic/ECIPs/pull/193.diff",
+      "patch_url": "https://github.com/ethereumclassic/ECIPs/pull/193.patch"
+    },
+    "body": "As per the Mining Call and Issue Link Summary: https://github.com/ethereumclassic/ECIPs/issues/174#issuecomment-557106181\r\n\r\nMoving ECIP-1070: ProgPoW on ETC to Rejected Status with the agreement that someone who wants to champion this proposal can do so on a new ECIP in the future.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/193/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

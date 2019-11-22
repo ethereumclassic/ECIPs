@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/554584222",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/185#issuecomment-554584222",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/185",
+    "id": 554584222,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1NDU4NDIyMg==",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-16T00:45:58Z",
+    "updated_at": "2019-11-16T00:45:58Z",
+    "author_association": "MEMBER",
+    "body": "@bobsummerwill Another point I have is that this is really just about ECIP numbers. \"ECIP-1074\" is really functionally equivalent to \"ECIP-1061D\". But with numbers such as \"1061A/B/C/D\", we make it much easier for everyone to recognize that those are different hard fork proposals that are supposed to happen at the same time.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/554584222/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

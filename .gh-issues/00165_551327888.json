@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551327888",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/165#issuecomment-551327888",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/165",
+    "id": 551327888,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MTMyNzg4OA==",
+    "user": {
+      "login": "TokenHash",
+      "id": 29529586,
+      "node_id": "MDQ6VXNlcjI5NTI5NTg2",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/29529586?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TokenHash",
+      "html_url": "https://github.com/TokenHash",
+      "followers_url": "https://api.github.com/users/TokenHash/followers",
+      "following_url": "https://api.github.com/users/TokenHash/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TokenHash/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TokenHash/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TokenHash/subscriptions",
+      "organizations_url": "https://api.github.com/users/TokenHash/orgs",
+      "repos_url": "https://api.github.com/users/TokenHash/repos",
+      "events_url": "https://api.github.com/users/TokenHash/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TokenHash/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-08T00:22:51Z",
+    "updated_at": "2019-11-08T00:24:22Z",
+    "author_association": "MEMBER",
+    "body": "@BelfordZ \r\n\r\n> Could you please suggest an alternative to this proposal which would give legal protection to contributors, waiving liability and warranty, without adding a root license?\r\n\r\nTo my knowledge the list of possible accepted licenses to be used on a per ECIP basis (a thing that hasn't been enforced, but can perfectly be enforced by editors from now on) as per ECIP-1000 are ok for those purposes to the point that these issues are really unknown or unproven as you wrote above.\r\n\r\nOn the other hand the argument that was being used before was \"to protect users\" not \"contributors\". Apache 2.0 is fine, I used it in my repo about Spaaw wallet: https://github.com/TokenHash/Spaaw\r\n\r\nWhat is not fine, imo, is to restrict the list of options by establishing only one as a root license if it's not absolutely necessary.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551327888/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/554621943",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/13#issuecomment-554621943",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/13",
+    "id": 554621943,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1NDYyMTk0Mw==",
+    "user": {
+      "login": "phyro",
+      "id": 157733,
+      "node_id": "MDQ6VXNlcjE1NzczMw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/157733?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/phyro",
+      "html_url": "https://github.com/phyro",
+      "followers_url": "https://api.github.com/users/phyro/followers",
+      "following_url": "https://api.github.com/users/phyro/following{/other_user}",
+      "gists_url": "https://api.github.com/users/phyro/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/phyro/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/phyro/subscriptions",
+      "organizations_url": "https://api.github.com/users/phyro/orgs",
+      "repos_url": "https://api.github.com/users/phyro/repos",
+      "events_url": "https://api.github.com/users/phyro/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/phyro/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-16T09:46:48Z",
+    "updated_at": "2019-11-16T09:46:48Z",
+    "author_association": "MEMBER",
+    "body": "Pirl guard is subjective because it introduces reasoning based on the local state. This breaks the objectivity of node judgment because now nodes can have a different opinion about a specific chain. If we decide to break the objectivity of the consensus algorithm, we might as well put a max reorg cap because it is simpler and achieves the same (it's actually better because you get finality for a chain that is blind about the chains that differ for more than `K` blocks where `K` is the max reorg cap. Both can lead to forks though, that's the issue).\r\n\r\nHaving multiple mining algorithms is an interesting approach but we have never considered the implications of going this way.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/554621943/reactions",
+      "total_count": 4,
+      "+1": 4,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

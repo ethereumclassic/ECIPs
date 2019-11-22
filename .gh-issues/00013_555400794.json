@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/555400794",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/13#issuecomment-555400794",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/13",
+    "id": 555400794,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1NTQwMDc5NA==",
+    "user": {
+      "login": "Wolf-Linzhi",
+      "id": 56785535,
+      "node_id": "MDQ6VXNlcjU2Nzg1NTM1",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/56785535?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Wolf-Linzhi",
+      "html_url": "https://github.com/Wolf-Linzhi",
+      "followers_url": "https://api.github.com/users/Wolf-Linzhi/followers",
+      "following_url": "https://api.github.com/users/Wolf-Linzhi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Wolf-Linzhi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Wolf-Linzhi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Wolf-Linzhi/subscriptions",
+      "organizations_url": "https://api.github.com/users/Wolf-Linzhi/orgs",
+      "repos_url": "https://api.github.com/users/Wolf-Linzhi/repos",
+      "events_url": "https://api.github.com/users/Wolf-Linzhi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Wolf-Linzhi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-19T08:57:13Z",
+    "updated_at": "2019-11-19T08:57:36Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "@saturn-network \r\n\r\n> Find this claim hard to believe, considering that sha3 is part of ethash.\r\n\r\nHere's an article about memory-hardness\r\nhttps://medium.com/@Linzhi/what-is-memory-hard-45a363b59dfe\r\nProof-of-Work is a distinct class of algorithms, documentation is only emerging.\r\n\r\n> Then again, not a hardware expert.\r\n\r\nWe are all beginners.\r\n\r\n> prefer to make asics for memory-bound algorithms instead of compute-bound\r\n\r\nCompute-bound PoW is done, dominated by a few well known Chinese chipmakers after years of hard and successful work. Memory opens up new and interesting opportunities.\r\n\r\n> as fast memory is more accessible than access to 5nm TSMC fabs?\r\n\r\nYes. 5nm license alone costs 30 mio USD, invite-only.\r\n\r\nKeep asking, I try to answer your questions if I can. Thanks!",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/555400794/reactions",
+      "total_count": 1,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

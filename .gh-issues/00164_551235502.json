@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551235502",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/164#issuecomment-551235502",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/164",
+    "id": 551235502,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MTIzNTUwMg==",
+    "user": {
+      "login": "YazzyYaz",
+      "id": 9094204,
+      "node_id": "MDQ6VXNlcjkwOTQyMDQ=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9094204?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/YazzyYaz",
+      "html_url": "https://github.com/YazzyYaz",
+      "followers_url": "https://api.github.com/users/YazzyYaz/followers",
+      "following_url": "https://api.github.com/users/YazzyYaz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/YazzyYaz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/YazzyYaz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/YazzyYaz/subscriptions",
+      "organizations_url": "https://api.github.com/users/YazzyYaz/orgs",
+      "repos_url": "https://api.github.com/users/YazzyYaz/repos",
+      "events_url": "https://api.github.com/users/YazzyYaz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/YazzyYaz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-07T19:48:32Z",
+    "updated_at": "2019-11-07T19:48:32Z",
+    "author_association": "MEMBER",
+    "body": "@BelfordZ it is GHPages. It uses Jekyll and is published here as a GHPages.\r\n\r\nhttps://github.com/ethereumclassic/ECIPs/blob/master/Gemfile#L11\r\n\r\nNot sure why you need to overhaul the current repo? Do you mean development process to contribute to it?",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551235502/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

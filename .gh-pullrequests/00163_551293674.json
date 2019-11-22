@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551293674",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/163#issuecomment-551293674",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/163",
+    "id": 551293674,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MTI5MzY3NA==",
+    "user": {
+      "login": "TokenHash",
+      "id": 29529586,
+      "node_id": "MDQ6VXNlcjI5NTI5NTg2",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/29529586?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TokenHash",
+      "html_url": "https://github.com/TokenHash",
+      "followers_url": "https://api.github.com/users/TokenHash/followers",
+      "following_url": "https://api.github.com/users/TokenHash/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TokenHash/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TokenHash/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TokenHash/subscriptions",
+      "organizations_url": "https://api.github.com/users/TokenHash/orgs",
+      "repos_url": "https://api.github.com/users/TokenHash/repos",
+      "events_url": "https://api.github.com/users/TokenHash/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TokenHash/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-07T22:22:22Z",
+    "updated_at": "2019-11-07T22:27:17Z",
+    "author_association": "MEMBER",
+    "body": "Hi @BelfordZ to answer only about the topic, this PR does two things:\r\n\r\n(1) Proposes Apache 2.0\r\n(2) Restricts the ECIP repo to only Apache 2.0 by setting it as the \"root license\" of the repo\r\n\r\nI am in favor of (1) Apache 2.0 as a license to be used in the ECIP process, I am not in favor of (2) establishing only one license as the only option in the ECIP process.\r\n\r\n## I prefer to stay with the options given in ECIP-1000 which are:\r\n\r\n### Recommended licenses:\r\n\r\n• Apache-2.0: Apache License, version 2.0\r\n• BSD-2-Clause: OSI-approved BSD 2-clause license\r\n• BSD-3-Clause: OSI-approved BSD 3-clause license\r\n• CC0-1.0: Creative Commons CC0 1.0 Universal\r\n• GNU-All-Permissive: GNU All-Permissive License\r\n\r\nIn addition, it is recommended that literal code included in the ECIP be dual-licensed under the same license terms as the project it modifies. For example, literal code intended for Ethereum Classic Core would ideally be dual-licensed under the MIT license terms as well as one of the above with the rest of the ECIP text.\r\n\r\n### Not recommended, but acceptable licenses:\r\n\r\n• BSL-1.0: Boost Software License, version 1.0\r\n• CC-BY-4.0: Creative Commons Attribution 4.0 International\r\n• CC-BY-SA-4.0: Creative Commons Attribution-ShareAlike 4.0 International\r\n• MIT: Expat/MIT/X11 license\r\n• AGPL-3.0+: GNU Affero General Public License (AGPL), version 3 or newer\r\n• FDL-1.3: GNU Free Documentation License, version 1.3\r\n• GPL-2.0+: GNU General Public License (GPL), version 2 or newer\r\n• LGPL-2.1+: GNU Lesser General Public License (LGPL), version 2.1 or newer\r\n\r\n## Rationale:\r\n\r\nThe philosophy behind the above is that it is preferable for ETC to follow a \"least authority\" principle only establishing rules that are no more than is absolutely necessary. Although Apache 2.0 is fine, it is not absolutely necessary to limit the whole repo to only that license. Therefore I prefer to continue with the portfolio of options that exists in ECIP-1000.\r\n\r\n## Logistics:\r\n\r\nAs to logistics going forward, I think we can very easily align all previous contributions to one of the licenses in ECIP-1000, I can help with that, and from now on the ECIP editors can perfectly bounce any ECIP that doesn't have a correct license. So I think  will be in order from now on.\r\n\r\n## Multiple unrelated topics:\r\n\r\nAs this PR is one step in a series of \"protections\" to ETC I thought it was relevant to include the other issues as related externalities. However, I agree with you that this thread relates to only the above issue, so I will stick to that rule from now on. ",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551293674/reactions",
+      "total_count": 1,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

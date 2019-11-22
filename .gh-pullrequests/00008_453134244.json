@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/453134244",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/8#issuecomment-453134244",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/8",
+    "id": 453134244,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1MzEzNDI0NA==",
+    "user": {
+      "login": "p3c-bot",
+      "id": 40745785,
+      "node_id": "MDQ6VXNlcjQwNzQ1Nzg1",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/40745785?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/p3c-bot",
+      "html_url": "https://github.com/p3c-bot",
+      "followers_url": "https://api.github.com/users/p3c-bot/followers",
+      "following_url": "https://api.github.com/users/p3c-bot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/p3c-bot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/p3c-bot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/p3c-bot/subscriptions",
+      "organizations_url": "https://api.github.com/users/p3c-bot/orgs",
+      "repos_url": "https://api.github.com/users/p3c-bot/repos",
+      "events_url": "https://api.github.com/users/p3c-bot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/p3c-bot/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-10T15:24:07Z",
+    "updated_at": "2019-01-10T15:24:48Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "@xaoyaolee - agreed, I have researched and currently do not see any Keccak256 ASICs.\r\n\r\n@saturn-network - I agree with that approach, we should begin creating a Keccak256 testnet for interested users and miners to start testing on. To do this, I suggest we fork classic-geth and replace Ethash with Keccak256. There are a few next steps:\r\n\r\n1. Research Keccak256 Algorithm ( I am currently still working on this)\r\n2. Replace Ethash in classic-geth with Keccak256.\r\n3. Create a testnet for miners to come and use.\r\n4. Monitor progress on testnet and collect data.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/453134244/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

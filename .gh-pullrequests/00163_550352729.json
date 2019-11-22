@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550352729",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/163#issuecomment-550352729",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/163",
+    "id": 550352729,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MDM1MjcyOQ==",
+    "user": {
+      "login": "TokenHash",
+      "id": 29529586,
+      "node_id": "MDQ6VXNlcjI5NTI5NTg2",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/29529586?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TokenHash",
+      "html_url": "https://github.com/TokenHash",
+      "followers_url": "https://api.github.com/users/TokenHash/followers",
+      "following_url": "https://api.github.com/users/TokenHash/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TokenHash/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TokenHash/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TokenHash/subscriptions",
+      "organizations_url": "https://api.github.com/users/TokenHash/orgs",
+      "repos_url": "https://api.github.com/users/TokenHash/repos",
+      "events_url": "https://api.github.com/users/TokenHash/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TokenHash/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-06T15:09:37Z",
+    "updated_at": "2019-11-06T15:09:37Z",
+    "author_association": "MEMBER",
+    "body": "Of 41 ECIPs (draft + last call + final + active):\r\n\r\n• 9 use copyright/license CC0\r\n• 2 use copyright/license Apache 2.0\r\n• 30 have no license\r\n\r\nOf the 9 that used CC0, they are 7 different authors who used it. One author used Apache 2.0 for 2 ECIPs.\r\n\r\nI suspect the 30 which have no license it's because ETC was very disorganized before and the ECIP-X which is generally used as a template did not have a #Copyright/Licensing section by default so all authors omitted that detail.\r\n\r\nI still don't see any rationale to establish a root license instead of the options given in ECIP-1000.\r\n\r\nIt is, from now on, according to ECIP-1000, a function of editors to actually supervise that authors include a copyright/license from the options.\r\n\r\nI do agree to seek all past authors to add a license to their past ECIPs, I can do that. This is the doc with the stats: \r\n\r\nhttps://docs.google.com/spreadsheets/d/1mnpm8FC33dT4eKefDDMTIl2jPAKRrGvkQNPwDk3TUos/edit?usp=sharing\r\n\r\n![ECIPs and licensing](https://user-images.githubusercontent.com/29529586/68310151-bfa5bf00-006c-11ea-8e91-38e8efab5a17.png)\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550352729/reactions",
+      "total_count": 3,
+      "+1": 3,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

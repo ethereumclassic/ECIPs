@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551954165",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/165#issuecomment-551954165",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/165",
+    "id": 551954165,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MTk1NDE2NQ==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-08T19:12:20Z",
+    "updated_at": "2019-11-08T19:12:20Z",
+    "author_association": "MEMBER",
+    "body": "I started working with \"Kirill from Sberbank\" along those lines in 2017.\r\nThey were building Masterchain - a permissioned Ethereum variant for the Russian banking sector.\r\nThey needed GOST cryptography - as mandated in Russian for regulated industries.\r\n\r\nAnd they did the most fabulous changes to Geth, to make all the cryptography \"pluggable\":\r\n\r\nhttps://twitter.com/BobSummerwill/status/983593836071960576\r\n\r\nI would suggesting that Cryptape, who were building CITA, a similar permissioned Ethereum for Taiwan banking, would contribute to that effort with matching Chinese cryptography, and that would get upstreamed first into Quorum and then into Geth (and so into the EIPs process).\r\n\r\nKirill had the most marvellous idea of how an Ethereum node could run with multiple cryptographies in parallel, and you could do something like an Internet gateway - to connect these network or networks together.\r\n\r\nThe \"world Ethereum network\" would be on SHA* cryptography, but you could have SM* cyphers for a Chinese Ethereum:\r\nhttps://en.wikipedia.org/wiki/SM4_(cipher)\r\n\r\nOr indeed, you could have parallel world Ethereum instances running over all of these different cryptographies, with gateways between them.\r\n\r\nUltimately we need some cryptographic association which is NOT associated with any governments, but which is neutral - like web and internet standards aim to be - but that does not exist yet - so we have to trust these state bodies - which is itself a bad assumption!\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551954165/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

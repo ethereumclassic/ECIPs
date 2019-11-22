@@ -1,0 +1,60 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/140",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/140/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/140/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/140/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/140",
+    "id": 496478531,
+    "node_id": "MDU6SXNzdWU0OTY0Nzg1MzE=",
+    "number": 140,
+    "title": "ECIPs website not showing all ECIP preamble lines",
+    "user": {
+      "login": "TokenHash",
+      "id": 29529586,
+      "node_id": "MDQ6VXNlcjI5NTI5NTg2",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/29529586?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TokenHash",
+      "html_url": "https://github.com/TokenHash",
+      "followers_url": "https://api.github.com/users/TokenHash/followers",
+      "following_url": "https://api.github.com/users/TokenHash/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TokenHash/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TokenHash/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TokenHash/subscriptions",
+      "organizations_url": "https://api.github.com/users/TokenHash/orgs",
+      "repos_url": "https://api.github.com/users/TokenHash/repos",
+      "events_url": "https://api.github.com/users/TokenHash/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TokenHash/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 2,
+    "created_at": "2019-09-20T18:01:15Z",
+    "updated_at": "2019-11-10T12:19:12Z",
+    "closed_at": "2019-11-10T12:13:28Z",
+    "author_association": "MEMBER",
+    "body": "The ECIPs website does not show all lines of the preambles, so, for example, the discussion link of ECIP-1043 is not showing:\r\n\r\n![ecips site lines](https://user-images.githubusercontent.com/29529586/65348298-04999300-db9e-11e9-9977-df009c75128b.png)\r\n\r\nI think it's because the php/html/css is calling only up to 5 lines per ECIP, but I think it could be expanded.\r\n\r\nI recommend setting the line count to 15 as that is the max amount of lines on a preamble as per ECIP-1000.\r\n\r\nRe: http://ecips.ethereumclassic.org/ECIPs/ecip-1043",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/140/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

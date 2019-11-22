@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/519483906",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/112#issuecomment-519483906",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/112",
+    "id": 519483906,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUxOTQ4MzkwNg==",
+    "user": {
+      "login": "YazzyYaz",
+      "id": 9094204,
+      "node_id": "MDQ6VXNlcjkwOTQyMDQ=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9094204?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/YazzyYaz",
+      "html_url": "https://github.com/YazzyYaz",
+      "followers_url": "https://api.github.com/users/YazzyYaz/followers",
+      "following_url": "https://api.github.com/users/YazzyYaz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/YazzyYaz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/YazzyYaz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/YazzyYaz/subscriptions",
+      "organizations_url": "https://api.github.com/users/YazzyYaz/orgs",
+      "repos_url": "https://api.github.com/users/YazzyYaz/repos",
+      "events_url": "https://api.github.com/users/YazzyYaz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/YazzyYaz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-08-08T11:43:51Z",
+    "updated_at": "2019-08-08T11:43:51Z",
+    "author_association": "MEMBER",
+    "body": "Things left to do:\r\n1) Add a space between each section as well. \r\n2) Fix the preamble by following our format. I give an example in a comment above, but here is it again as a reminder.\r\n```\r\n---\r\nlang: en\r\necip: 1044\r\ntitle: Formalize IPFS hash into ECNS (Ethereum Classic Name Service) resolver\r\nauthor: Phyrex Tsai <phyrex@portal.network>, Portal Network Team\r\nstatus: Draft\r\ntype: Standards Track\r\ncategory: ERC\r\ncreated: 2018-05-12\r\n---\r\n```\r\n3) Rename the file `1063` to `ecip-1063.md` and move it to the `_specs` folder.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/519483906/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

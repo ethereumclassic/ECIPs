@@ -1,0 +1,138 @@
+From e3dd9d6208fdcc52afeddd7763e33605dad9878b Mon Sep 17 00:00:00 2001
+From: Talha Cross <47772477+soc1c@users.noreply.github.com>
+Date: Thu, 6 Jun 2019 12:24:25 +0200
+Subject: [PATCH 1/3] Create ECIP-1061.md
+
+---
+ ECIPs/ECIP-1061.md | 63 ++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 63 insertions(+)
+ create mode 100644 ECIPs/ECIP-1061.md
+
+diff --git a/ECIPs/ECIP-1061.md b/ECIPs/ECIP-1061.md
+new file mode 100644
+index 0000000..d1bbad2
+--- /dev/null
++++ b/ECIPs/ECIP-1061.md
+@@ -0,0 +1,63 @@
++### ECIP-1061: Atzlán EVM and Protocol Upgrades
++
++    ECIP: 1061
++    Title: Atzlán EVM and Protocol Upgrades
++    Status: Draft
++    Type: Standards Track
++    Author: Talha Cross (@soc1c)
++    Created: 2019-06-06
++
++### Simple Summary
++
++Enable the outstanding Ethereum Foundation _Istanbul_ network protocol upgrades on the Ethereum
++Classic network in a hard-fork code-named _Atzlán_ to enable maximum compatibility across these networks.
++
++### Abstract
++
++Add support for a subset of protocol-impacting changes introduced in the Ethereum Foundation (ETH) network via the
++_Istanbul_ hardforks. The proposed changes for Ethereum Classic's _Atzlán_ upgrade include:
++
++- TBD
++
++This document proposes the following blocks at which to implement these changes in the Classic networks:
++
++- `TBD` on Kotti Classic PoA-testnet (TBD 2020)
++- `TBD` on Morden Classic PoW-testnet (TBD 2020)
++- `TBD` on Ethereum Classic PoW-mainnet (TBD 2020)
++
++For more information on the opcodes and their respective EIPs and implementations, please see the _Specification_
++section of this document.
++
++### Motivation
++
++To enhance the Ethereum Virtual Machine's (EVM) capabilities, various opcodes shall be added to the Ethereum Classic
++networks, all of which have been in use on the Ethereum Foundation networks since late 2019.
++
++### Specification
++
++Technical specifications for each EIP can be found at those documents respectively:
++
++- TBD
++
++### Rationale
++
++__Interoperability__: Establishing and maintaining interoperable behavior between Ethereum clients is essential for
++developers and end-user adoption, yielding benefits for all participating chains (e.g., ETH and ETC, Ropsten and Morden,
++Görli and Kotti).
++
++__Immutability__: None of the introduced new opcodes in the EVM has the potential to change the behavior of existing
++contracts; in the case where previously an arbitrary invalid bytecode would have been deployed to the network, none of
++them would be able to modify the state of the Ethereum Classic networks retrospectively. Adding opcodes to the EVM
++increases its functionality and should be considered a feature upgrade rather than a modification.
++
++### Implementation
++
++Adoption of the content of this ECIP requires a hard fork as it introduces changes that are not backward compatible.
++
++The following clients with Ethereum Classic support implement the _Istanbul_ features currently:
++
++- TBD
++
++## Copyright
++
++Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+
+From 3dd1e9474680ad7edccd1ca8b4bece4de6dcf0fb Mon Sep 17 00:00:00 2001
+From: Talha Cross <47772477+soc1c@users.noreply.github.com>
+Date: Tue, 11 Jun 2019 10:30:03 +0200
+Subject: [PATCH 2/3] Add discussions-to header
+
+---
+ ECIPs/ECIP-1061.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/ECIPs/ECIP-1061.md b/ECIPs/ECIP-1061.md
+index d1bbad2..7df6f79 100644
+--- a/ECIPs/ECIP-1061.md
++++ b/ECIPs/ECIP-1061.md
+@@ -6,6 +6,7 @@
+     Type: Standards Track
+     Author: Talha Cross (@soc1c)
+     Created: 2019-06-06
++    Discussions-To: https://github.com/ethereumclassic/ECIPs/issues/81
+ 
+ ### Simple Summary
+ 
+
+From c9a4190a8f6f6402292e9cc7bc243b2460e827d4 Mon Sep 17 00:00:00 2001
+From: Wei Tang <accounts@that.world>
+Date: Sat, 29 Jun 2019 20:22:40 +0200
+Subject: [PATCH 3/3] Use new preamble style
+
+---
+ _specs/ecip-1061.md | 19 ++++++++++---------
+ 1 file changed, 10 insertions(+), 9 deletions(-)
+
+diff --git a/_specs/ecip-1061.md b/_specs/ecip-1061.md
+index 7df6f79..8052678 100644
+--- a/_specs/ecip-1061.md
++++ b/_specs/ecip-1061.md
+@@ -1,12 +1,13 @@
+-### ECIP-1061: Atzlán EVM and Protocol Upgrades
+-
+-    ECIP: 1061
+-    Title: Atzlán EVM and Protocol Upgrades
+-    Status: Draft
+-    Type: Standards Track
+-    Author: Talha Cross (@soc1c)
+-    Created: 2019-06-06
+-    Discussions-To: https://github.com/ethereumclassic/ECIPs/issues/81
++---
++lang: en
++ecip: 1061
++title: Atzlán EVM and Protocol Upgrades
++status: Draft
++type: Meta
++author: Talha Cross (@soc1c)
++created: 2019-06-06
++discussions-to: https://github.com/ethereumclassic/ECIPs/issues/81
++---
+ 
+ ### Simple Summary
+ 

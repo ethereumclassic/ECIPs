@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/502431049",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/83#issuecomment-502431049",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/83",
+    "id": 502431049,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUwMjQzMTA0OQ==",
+    "user": {
+      "login": "TheEnthusiasticAs",
+      "id": 48069525,
+      "node_id": "MDQ6VXNlcjQ4MDY5NTI1",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/48069525?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TheEnthusiasticAs",
+      "html_url": "https://github.com/TheEnthusiasticAs",
+      "followers_url": "https://api.github.com/users/TheEnthusiasticAs/followers",
+      "following_url": "https://api.github.com/users/TheEnthusiasticAs/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TheEnthusiasticAs/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TheEnthusiasticAs/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TheEnthusiasticAs/subscriptions",
+      "organizations_url": "https://api.github.com/users/TheEnthusiasticAs/orgs",
+      "repos_url": "https://api.github.com/users/TheEnthusiasticAs/repos",
+      "events_url": "https://api.github.com/users/TheEnthusiasticAs/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TheEnthusiasticAs/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-06-16T08:12:58Z",
+    "updated_at": "2019-06-16T18:09:39Z",
+    "author_association": "MEMBER",
+    "body": "The decision of on which block the hard fork should be done, should be based first on the results of the tests, if for us the security of the network is important (If they will come towards, that we can do it on block 8.75, then it is fine). At the second step, we should check, whether ALL the participants are ready for it. And only then the hard fork should be executed. The Classic Geth tests are included.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/502431049/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

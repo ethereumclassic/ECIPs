@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/549681896",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/163#issuecomment-549681896",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/163",
+    "id": 549681896,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU0OTY4MTg5Ng==",
+    "user": {
+      "login": "realcodywburns",
+      "id": 13103499,
+      "node_id": "MDQ6VXNlcjEzMTAzNDk5",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/13103499?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/realcodywburns",
+      "html_url": "https://github.com/realcodywburns",
+      "followers_url": "https://api.github.com/users/realcodywburns/followers",
+      "following_url": "https://api.github.com/users/realcodywburns/following{/other_user}",
+      "gists_url": "https://api.github.com/users/realcodywburns/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/realcodywburns/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/realcodywburns/subscriptions",
+      "organizations_url": "https://api.github.com/users/realcodywburns/orgs",
+      "repos_url": "https://api.github.com/users/realcodywburns/repos",
+      "events_url": "https://api.github.com/users/realcodywburns/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/realcodywburns/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-05T06:31:20Z",
+    "updated_at": "2019-11-05T07:12:18Z",
+    "author_association": "MEMBER",
+    "body": "Ok. This is your wind mill to tilt at, it is not important to me and wastes resources. \r\n\r\n.I'm fine with mine being relicensed and future ecips being apache 2\r\n I have 5,currently , 2 are explicitly cc0. Anyone is free to use anything I have written, said, or thought without need to even cite as reference. No warranty should ever be assumed unless expressly stated. there is never a situation where I will ever enforce copyright on any of my work.\r\n\r\n. This looks good to me as it is grammatical correct and functional accomplishes its stated goal. Please add a tracker to indicate progress\r\nAdding wip to block merge",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/549681896/reactions",
+      "total_count": 2,
+      "+1": 2,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551868772",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/172#issuecomment-551868772",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/172",
+    "id": 551868772,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MTg2ODc3Mg==",
+    "user": {
+      "login": "zmitton",
+      "id": 6954889,
+      "node_id": "MDQ6VXNlcjY5NTQ4ODk=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6954889?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zmitton",
+      "html_url": "https://github.com/zmitton",
+      "followers_url": "https://api.github.com/users/zmitton/followers",
+      "following_url": "https://api.github.com/users/zmitton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zmitton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zmitton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zmitton/subscriptions",
+      "organizations_url": "https://api.github.com/users/zmitton/orgs",
+      "repos_url": "https://api.github.com/users/zmitton/repos",
+      "events_url": "https://api.github.com/users/zmitton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zmitton/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-08T15:20:35Z",
+    "updated_at": "2019-11-08T15:21:23Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "The asymmetry between mining and verifying is still problematic (too low). It has the same issue as Ethash: Extremely expensive verification (compared to sha256, for instance). This is because of a pseudo-random changing of params per epoch (every ~5 days). This prevents the ability to have a   [pure function](https://en.wikipedia.org/wiki/Pure_function) for verification. Verification requires a much more expensive _context_: The full historic datasets that resulted in particular epoch params.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551868772/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

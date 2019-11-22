@@ -1,0 +1,1782 @@
+From 16347fe30b78ee8ea186cba4de9bde72eb5be013 Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Sat, 16 Nov 2019 19:30:38 +0100
+Subject: [PATCH 1/5] Create ecip-1022.md
+
+---
+ _specs/ecip-1022.md | 387 ++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 387 insertions(+)
+ create mode 100644 _specs/ecip-1022.md
+
+diff --git a/_specs/ecip-1022.md b/_specs/ecip-1022.md
+new file mode 100644
+index 0000000..d8e1f4a
+--- /dev/null
++++ b/_specs/ecip-1022.md
+@@ -0,0 +1,387 @@
++---
++lang: en
++ecip: 1022
++title: Generalized Version Bits Voting for Consensus Soft and Hard Forks
++status: Draft
++type: Meta
++author: Wei Tang (@sorpaas)
++created: 2017-06-28
++license: Apache-2.0
++---
++
++## Abstract
++
++The following ECIP tries to bring the best practices about how Bitcoin deals with consensus hard fork ([BIP-9](https://github.com/bitcoin/bips/blob/master/bip-0009.mediawiki) and [BIP-135](https://github.com/bitcoin/bips/blob/master/bip-0135.mediawiki)) into Ethereum Classic. Rather than hard-code a block number as we currently do, each block mined emits support of the new consensus hard-fork. Only when a large enough portion of the network support it, the hard-fork is "locked-in" and will be activated.
++
++## Motivation
++
++**Lack of an appropriate voting method can results in network forking**. The DAO hard fork was such an example. Currently the way Ethereum used to gather opinions was through [CarbonVote](http://carbonvote.com/). It indeed has the advantage that it brings the opinions of Ethereum holders rather than miners. However, it is not enforceable and we all know the disastrous result it brought during the DAO hard fork period. We don't want that to happen again.
++
++**Miner community, stake holders and proof of work**. It is common knowledge that Ethereum Classic will probably stay in proof of work, rather than, like Ethereum, switch to a proof of stake algorithm. Combining this ECIP together with ECIP-1023, we combines opinions from both the miner community and ETC coin holders to reach consensus about whether a hard fork should occur.
++
++**Best practices from Bitcoin**. [BIP-9](https://github.com/bitcoin/bips/blob/master/bip-0009.mediawiki), which uses version bits mined in each blocks to vote for consensus soft fork has be successfully conducted for several. Its upgraded version, BIP-135, aims to deal with both soft forks and hard forks alike.
++
++**Potentially faster adoption of new consensus hard fork**. When dealing with emergency consensus hard fork for preventing network attacks, the developer would not need to artificially insert a "hard fork block number" (which must leave enough time for everyone else to upgrade their clients, and then wait for that block). The ETC coin holders and miners collectively decide when the hard fork happens, which potentially could be faster than hard coded block numbers.
++
++**Ethereum Classic will become a stable protocol soon**. When we finished dealing with the monetary policy and finally the difficulty bomb, ETC's protocol would become a rather stable one. This means most of the new consensus hard fork would be new features of the network, rather than fixing existing bugs. In that case, voting would be important to keep the whole network healthy.
++
++## Terms and conventions
++
++The version bits used by this proposal for signaling deployment of forks are
++referred to as 'signaling bits' or shortened to 'bits' where unambiguous.
++
++The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
++"SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this
++document are to be interpreted as described in RFC 2119.
++
++## Specification
++
++### Signaling bits
++
++Ethereum's extraData field are 32-bytes, i.e. a 256-bit value. The field itself should be a RLP list that follows:
++
++```
++[ version: P, signalingBits: S, clientIdentity: B ]
++```
++
++For this ECIP, `version` should equal to `1`, and `signalingBits` and `clientIdentity` fulfill the rest of the extraData field as long as it does not exceed the maximum size allowed. This allows us to have way more concurrent signalings and better backward compatibility than Bitcoin.
++
++`signalingBits` are right-aligned, i.e. `0b1` has its bit at index 0 set, `0b10` has its bit at index 1 set, `0b100` has its bit at index 2 set.
++
++### Deployment states
++
++With each block and fork, we associate a deployment state. The possible states are:
++
++* **DEFINED** is the first state that each fork starts out as. The genesis block for any chain SHALL by definition be in this state for each deployment.
++* **STARTED** for blocks past the starttime.
++* **LOCKED_IN** after STARTED, if at least threshold out of windowsize blocks have the associated bit set in `signalingBits` in `extraData` block header, measured at next height that is evenly divisible by the windowsize.
++* **ACTIVE** for all blocks after the grace period conditions have been met.
++* **FAILED** if past the timeout time and LOCKED_IN was not reached.
++
++In accordance with BIP9, a block's state SHALL never depend on its own extraData; only on that of its ancestors.
++
++### Fork deployment parameters
++
++Each fork deployment is specified by the following per-chain parameters:
++
++* The **name** specifies a very brief description of the fork, reasonable for use as an identifier. For deployments described in a single BIP, it is recommended to use the name "bipN" where N is the appropriate BIP number.
++* The **bit** determines which bit in the extraData field of the block is to be used to signal the fork deployment.
++* The **start** specifies a block number at which the bit gains its meaning.
++* The **timeout** specifies a time at which the deployment is considered failed. If the current block number >= (start + timeout) and the fork has not yet locked in (including this block's bit state), the deployment is considered failed on all descendants of the block.
++* The **windowsize** specifies the number of past blocks (including the block under consideration) to be taken into account for locking in a fork.
++* The **threshold** specifies a number of blocks, in the range of 1..windowsize, which must signal for a fork in order to lock it in. The support is measured when the chain height is evenly divisible by the windowsize. If the windowsize is set to 2016 (as in BIP9) this coincides with the 2016-block re-targeting intervals.
++* The **minlockedblocks** specifies a minimum number of blocks which a fork must remain in locked-in state before it can become active. Both minlockedblocks and minlockedtime (see below) must be satisfied before a fork can become active. If the current block number >= (minlockedblocks + the block number that locked in the fork), then the fork becomes activated. 
++
++### Tallying
++
++If a block's extraData specifies a version other than `1`, all its signaling bits MUST be treated as if they are '0'.
++---
++title: 27-MINERVOTE
++subtitle: Generalized Version Bits Voting for Consensus Soft and Hard Forks
++author: Wei Tang <hi@that.world>
++status: Raw
++type: Standard Track
++category: Core
++created: 2017-06-28
++abstract: >
++  The following ECIP tries to bring the best practices about how Bitcoin deals with consensus hard fork into Ethereum Classic.
++---
++
++## Abstract
++
++The following ECIP tries to bring the best practices about how Bitcoin deals with consensus hard fork ([BIP-9](https://github.com/bitcoin/bips/blob/master/bip-0009.mediawiki) and [BIP-135](https://github.com/bitcoin/bips/blob/master/bip-0135.mediawiki)) into Ethereum Classic. Rather than hard-code a block number as we currently do, each block mined emits support of the new consensus hard-fork. Only when a large enough portion of the network support it, the hard-fork is "locked-in" and will be activated.
++
++## Motivation
++
++**Lack of an appropriate voting method can results in network forking**. The DAO hard fork was such an example. Currently the way Ethereum used to gather opinions was through [CarbonVote](http://carbonvote.com/). It indeed has the advantage that it brings the opinions of Ethereum holders rather than miners. However, it is not enforceable and we all know the disastrous result it brought during the DAO hard fork period. We don't want that to happen again.
++
++**Miner community, stake holders and proof of work**. It is common knowledge that Ethereum Classic will probably stay in proof of work, rather than, like Ethereum, switch to a proof of stake algorithm. Combining this ECIP together with ECIP-1023, we combines opinions from both the miner community and ETC coin holders to reach consensus about whether a hard fork should occur.
++
++**Best practices from Bitcoin**. [BIP-9](https://github.com/bitcoin/bips/blob/master/bip-0009.mediawiki), which uses version bits mined in each blocks to vote for consensus soft fork has be successfully conducted for several. Its upgraded version, BIP-135, aims to deal with both soft forks and hard forks alike.
++
++**Potentially faster adoption of new consensus hard fork**. When dealing with emergency consensus hard fork for preventing network attacks, the developer would not need to artificially insert a "hard fork block number" (which must leave enough time for everyone else to upgrade their clients, and then wait for that block). The ETC coin holders and miners collectively decide when the hard fork happens, which potentially could be faster than hard coded block numbers.
++
++**Ethereum Classic will become a stable protocol soon**. When we finished dealing with the monetary policy and finally the difficulty bomb, ETC's protocol would become a rather stable one. This means most of the new consensus hard fork would be new features of the network, rather than fixing existing bugs. In that case, voting would be important to keep the whole network healthy.
++
++## Terms and conventions
++
++The version bits used by this proposal for signaling deployment of forks are
++referred to as 'signaling bits' or shortened to 'bits' where unambiguous.
++
++The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
++"SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this
++document are to be interpreted as described in RFC 2119.
++
++## Specification
++
++### Signaling bits
++
++Ethereum's extraData field are 32-bytes, i.e. a 256-bit value. The field itself should be a RLP list that follows:
++
++```
++[ version: P, signalingBits: S, clientIdentity: B ]
++```
++
++For this ECIP, `version` should equal to `1`, and `signalingBits` and `clientIdentity` fulfill the rest of the extraData field as long as it does not exceed the maximum size allowed. This allows us to have way more concurrent signalings and better backward compatibility than Bitcoin.
++
++`signalingBits` are right-aligned, i.e. `0b1` has its bit at index 0 set, `0b10` has its bit at index 1 set, `0b100` has its bit at index 2 set.
++
++### Deployment states
++
++With each block and fork, we associate a deployment state. The possible states are:
++
++* **DEFINED** is the first state that each fork starts out as. The genesis block for any chain SHALL by definition be in this state for each deployment.
++* **STARTED** for blocks past the starttime.
++* **LOCKED_IN** after STARTED, if at least threshold out of windowsize blocks have the associated bit set in `signalingBits` in `extraData` block header, measured at next height that is evenly divisible by the windowsize.
++* **ACTIVE** for all blocks after the grace period conditions have been met.
++* **FAILED** if past the timeout time and LOCKED_IN was not reached.
++
++In accordance with BIP9, a block's state SHALL never depend on its own extraData; only on that of its ancestors.
++
++### Fork deployment parameters
++
++Each fork deployment is specified by the following per-chain parameters:
++
++* The **name** specifies a very brief description of the fork, reasonable for use as an identifier. For deployments described in a single BIP, it is recommended to use the name "bipN" where N is the appropriate BIP number.
++* The **bit** determines which bit in the extraData field of the block is to be used to signal the fork deployment.
++* The **start** specifies a block number at which the bit gains its meaning.
++* The **timeout** specifies a time at which the deployment is considered failed. If the current block number >= (start + timeout) and the fork has not yet locked in (including this block's bit state), the deployment is considered failed on all descendants of the block.
++* The **windowsize** specifies the number of past blocks (including the block under consideration) to be taken into account for locking in a fork.
++* The **threshold** specifies a number of blocks, in the range of 1..windowsize, which must signal for a fork in order to lock it in. The support is measured when the chain height is evenly divisible by the windowsize. If the windowsize is set to 2016 (as in BIP9) this coincides with the 2016-block re-targeting intervals.
++* The **minlockedblocks** specifies a minimum number of blocks which a fork must remain in locked-in state before it can become active. Both minlockedblocks and minlockedtime (see below) must be satisfied before a fork can become active. If the current block number >= (minlockedblocks + the block number that locked in the fork), then the fork becomes activated. 
++
++### Tallying
++
++If a block's extraData specifies a version other than `1`, all its signaling bits MUST be treated as if they are '0'.
++
++A signaling bit value of '1' SHALL indicate support of a fork and SHALL count towards its tally on a chain.
++
++A signaling bit value of '0' SHALL indicate absence of support of a fork and SHALL NOT count towards its tally on a chain.
++
++The signaling bits SHALL be tallied whenever the head of the active chain changes (including after reorganizations).
++
++### State transitions
++
++The following diagram illustrates the generalized state machine:
++
++![State transactions](ECIP-1022/bip-0135-states-small.png)
++
++The genesis block of any chain SHALL have the state DEFINED for each deployment.
++
++A given deployment SHALL remain in the DEFINED state until it either passes the start (and becomes STARTED) or the timeout time (and becomes FAILED).
++
++Once a deployment has STARTED, the signal for that deployment SHALL be tallied over the the past windowsize blocks whenever a new block is received on that chain.
++
++A transition from the STARTED state to the LOCKED_IN state SHALL only occur when all of these are true:
++
++* the height of the received block is an integer multiple of the window size
++* the current block number is below (start + timeout)
++* at least threshold out of windowsize blocks have signaled support
++
++A similar height synchronization precondition SHALL exist for the transition from LOCKED_IN to ACTIVE. These synchronization conditions are expressed by the "mod(height, windowsize) = 0" clauses in the diagram.
++
++A transition from LOCKED_IN to ACTIVE state SHALL only occur if the height synchronization criterion is met and the below configurable 'grace period' conditions are fulfilled:
++
++* current height MUST be at least minlockedblocks above LOCKED_IN height
++
++NOTE: If minlockedblocks is set to 0, then the fork will proceed directly to ACTIVE state once the chain height reaches a multiple of the windowsize.
++
++The ACTIVE and FAILED states are terminal; a deployment stays in these states once they are reached.
++
++Deployment states are maintained along block chain branches. They need re-computation when a reorganization happens.
++
++### New consensus rules
++
++New consensus rules deployed by a fork SHALL be enforced for each block that has ACTIVE state.
++
++### Optional operator notifications
++
++An implementation SHOULD notify the operator when a deployment transitions
++to STARTED, LOCKED_IN, ACTIVE or FAILED states.
++
++It is RECOMMENDED that an implementation provide finer-grained notifications
++to the operator which allow him/her to track the measured support level for
++defined deployments.
++
++An implementation SHOULD warn the operator if the configured (emitted) nVersion
++has been overridden to contain bits set to '1' in contravention of the above
++non-signaling recommendations for DEFINED forks.
++
++It is RECOMMENDED that an implementation warn the operator if no signal has
++been received for a given deployment during a full windowsize period after the
++deployment has STARTED. This could indicate that something may be wrong with
++the operator's configuration that is causing them not to receive the signal
++correctly.
++
++For undefined signals, it is RECOMMENDED that implementation track these and
++alert their operators with supportive upgrade notifications, e.g.
++
++* "warning: signaling started on unknown feature on version bit X"
++* "warning: signaling on unknown feature reached X% (over last N blocks)"
++* "info: signaling ceased on unknown feature (over last M blocks)"
++
++Since parameters of these deployments are unknown, it is RECOMMENDED that
++implementations allow the user to configure the emission of such notifications
++(e.g. suitable N and M parameters in the messages above, e.g. a best-guess
++window of 100 blocks).
++
++## Rationale
++
++The timeout into FAILED state allows eventual reuse of bits if a fork was not successfully activated.
++
++A fallow period at the conclusion of a fork attempt allows some detection of buggy clients, and allows time for warnings and software upgrades for successful forks. The duration of a fallow period is not specified by this proposal, although a conventional fallow period of 3 months is RECOMMENDED.
++
++## Guidelines
++
++### Parameter selection guidelines
++
++The following guidelines are suggested for selecting the parameters for a fork:
++
++* **name** SHOULD be selected such that no two forks, concurrent or otherwise, ever use the same name.
++* **bit** SHOULD be selected such that no two concurrent forks use the same bit. Implementors should make an effort to consult resources such as [2] to establish whether the bit they wish to use can reasonably be assumed to be unclaimed by a concurrent fork, and to announce their use ('claim') of a bit for a fork purpose on various project mailing lists, to reduce chance of collisions.
++* **start** SHOULD be set to some block number in the future, approximately one month after a software release date which includes the fork signaling.  This allows for some release delays, while preventing triggers as a result of parties running pre-release software.
++* **timeout** is RECOMMENDED to be a block number that is approximately 1 year after start.
++* **windowsize** SHOULD be set large enough to allow reception of an adequately precise signal.
++* **threshold** SHOULD be set as high as possible to ensure a smooth activation based on the estimated support and the nature of the proposed changes. It is strongly RECOMMENDED that threshold >= windowsize / 2 (rounded up) to ensure that a proposal is only activated by majority support.
++* **minlockedblocks** is RECOMMENDED to be set >= windowsize, to ensure that a full window passes in LOCKED_IN state. Lower values will be ineffective as the transition from LOCKED_IN to ACTIVE is guarded by a synchronization based on the window size.
++
++NOTE: If minlockedblocks is set to 0, then the fork will proceed to ACTIVE state when the chain height reaches a multiple of the windowsize.
++
++A later deployment using the same bit is possible as long as the starttime is after the previous fork's timeout or activation, but it is discouraged until necessary, and even then recommended to have a pause in between to detect buggy software.
++
++### Signaling guidelines
++
++An implementation SHOULD signal '0' on a bit if one of the following holds true:
++
++* the deployment parameters are not DEFINED (not configured or explicitly undefined)
++* the deployment is DEFINED and has not yet reached the STARTED state
++* the deployment has succeeded (it has become ACTIVE)
++* the deployment has FAILED
++
++An implementation SHOULD enable the operator to choose (override) whether to signal '0' or '1' on a bit, once its deployment has at least reached the STARTED state.
++
++A supporting miner SHOULD signal '1' on a bit for which the deployment is LOCKED_IN state so that uptake is visible. However, this has no effect on consensus rules. Once LOCKED_IN, a deployment proceeds to ACTIVE solely based on the configured grace period parameters (see 'Fork deployment parameters' above).
++
++A miner SHOULD signal '0' on a bit if they wish to suspend signaling of support for a fork that is DEFINED in their software.
++
++It is NOT RECOMMENDED to signal '1' for bits where the meaning is undefined (i.e. bits which are unclaimed by proposals).
++
++A signaling bit value of '1' SHALL indicate support of a fork and SHALL count towards its tally on a chain.
++
++A signaling bit value of '0' SHALL indicate absence of support of a fork and SHALL NOT count towards its tally on a chain.
++
++The signaling bits SHALL be tallied whenever the head of the active chain changes (including after reorganizations).
++
++### State transitions
++
++The following diagram illustrates the generalized state machine:
++
++![State transactions](ECIP-1022/bip-0135-states-small.png)
++
++The genesis block of any chain SHALL have the state DEFINED for each deployment.
++
++A given deployment SHALL remain in the DEFINED state until it either passes the start (and becomes STARTED) or the timeout time (and becomes FAILED).
++
++Once a deployment has STARTED, the signal for that deployment SHALL be tallied over the the past windowsize blocks whenever a new block is received on that chain.
++
++A transition from the STARTED state to the LOCKED_IN state SHALL only occur when all of these are true:
++
++* the height of the received block is an integer multiple of the window size
++* the current block number is below (start + timeout)
++* at least threshold out of windowsize blocks have signaled support
++
++A similar height synchronization precondition SHALL exist for the transition from LOCKED_IN to ACTIVE. These synchronization conditions are expressed by the "mod(height, windowsize) = 0" clauses in the diagram.
++
++A transition from LOCKED_IN to ACTIVE state SHALL only occur if the height synchronization criterion is met and the below configurable 'grace period' conditions are fulfilled:
++
++* current height MUST be at least minlockedblocks above LOCKED_IN height
++
++NOTE: If minlockedblocks is set to 0, then the fork will proceed directly to ACTIVE state once the chain height reaches a multiple of the windowsize.
++
++The ACTIVE and FAILED states are terminal; a deployment stays in these states once they are reached.
++
++Deployment states are maintained along block chain branches. They need re-computation when a reorganization happens.
++
++### New consensus rules
++
++New consensus rules deployed by a fork SHALL be enforced for each block that has ACTIVE state.
++
++### Optional operator notifications
++
++An implementation SHOULD notify the operator when a deployment transitions
++to STARTED, LOCKED_IN, ACTIVE or FAILED states.
++
++It is RECOMMENDED that an implementation provide finer-grained notifications
++to the operator which allow him/her to track the measured support level for
++defined deployments.
++
++An implementation SHOULD warn the operator if the configured (emitted) nVersion
++has been overridden to contain bits set to '1' in contravention of the above
++non-signaling recommendations for DEFINED forks.
++
++It is RECOMMENDED that an implementation warn the operator if no signal has
++been received for a given deployment during a full windowsize period after the
++deployment has STARTED. This could indicate that something may be wrong with
++the operator's configuration that is causing them not to receive the signal
++correctly.
++
++For undefined signals, it is RECOMMENDED that implementation track these and
++alert their operators with supportive upgrade notifications, e.g.
++
++* "warning: signaling started on unknown feature on version bit X"
++* "warning: signaling on unknown feature reached X% (over last N blocks)"
++* "info: signaling ceased on unknown feature (over last M blocks)"
++
++Since parameters of these deployments are unknown, it is RECOMMENDED that
++implementations allow the user to configure the emission of such notifications
++(e.g. suitable N and M parameters in the messages above, e.g. a best-guess
++window of 100 blocks).
++
++## Rationale
++
++The timeout into FAILED state allows eventual reuse of bits if a fork was not successfully activated.
++
++A fallow period at the conclusion of a fork attempt allows some detection of buggy clients, and allows time for warnings and software upgrades for successful forks. The duration of a fallow period is not specified by this proposal, although a conventional fallow period of 3 months is RECOMMENDED.
++
++## Guidelines
++
++### Parameter selection guidelines
++
++The following guidelines are suggested for selecting the parameters for a fork:
++
++* **name** SHOULD be selected such that no two forks, concurrent or otherwise, ever use the same name.
++* **bit** SHOULD be selected such that no two concurrent forks use the same bit. Implementors should make an effort to consult resources such as [2] to establish whether the bit they wish to use can reasonably be assumed to be unclaimed by a concurrent fork, and to announce their use ('claim') of a bit for a fork purpose on various project mailing lists, to reduce chance of collisions.
++* **start** SHOULD be set to some block number in the future, approximately one month after a software release date which includes the fork signaling.  This allows for some release delays, while preventing triggers as a result of parties running pre-release software.
++* **timeout** is RECOMMENDED to be a block number that is approximately 1 year after start.
++* **windowsize** SHOULD be set large enough to allow reception of an adequately precise signal.
++* **threshold** SHOULD be set as high as possible to ensure a smooth activation based on the estimated support and the nature of the proposed changes. It is strongly RECOMMENDED that threshold >= windowsize / 2 (rounded up) to ensure that a proposal is only activated by majority support.
++* **minlockedblocks** is RECOMMENDED to be set >= windowsize, to ensure that a full window passes in LOCKED_IN state. Lower values will be ineffective as the transition from LOCKED_IN to ACTIVE is guarded by a synchronization based on the window size.
++
++NOTE: If minlockedblocks is set to 0, then the fork will proceed to ACTIVE state when the chain height reaches a multiple of the windowsize.
++
++A later deployment using the same bit is possible as long as the starttime is after the previous fork's timeout or activation, but it is discouraged until necessary, and even then recommended to have a pause in between to detect buggy software.
++
++### Signaling guidelines
++
++An implementation SHOULD signal '0' on a bit if one of the following holds true:
++
++* the deployment parameters are not DEFINED (not configured or explicitly undefined)
++* the deployment is DEFINED and has not yet reached the STARTED state
++* the deployment has succeeded (it has become ACTIVE)
++* the deployment has FAILED
++
++An implementation SHOULD enable the operator to choose (override) whether to signal '0' or '1' on a bit, once its deployment has at least reached the STARTED state.
++
++A supporting miner SHOULD signal '1' on a bit for which the deployment is LOCKED_IN state so that uptake is visible. However, this has no effect on consensus rules. Once LOCKED_IN, a deployment proceeds to ACTIVE solely based on the configured grace period parameters (see 'Fork deployment parameters' above).
++
++A miner SHOULD signal '0' on a bit if they wish to suspend signaling of support for a fork that is DEFINED in their software.
++
++It is NOT RECOMMENDED to signal '1' for bits where the meaning is undefined (i.e. bits which are unclaimed by proposals).
++
++## References
++
++This ECIP is a realization of [27-MINERVOTE](https://specs.that.world/27-minervote/).
++
++## License
++
++This work is licensed under [Apache License, Version 2.0](http://www.apache.org/licenses/).
+
+From 2d6d40136b74aca962449a39af0ced077ac14021 Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Sat, 16 Nov 2019 19:34:15 +0100
+Subject: [PATCH 2/5] Update ecip-1022.md
+
+---
+ _specs/ecip-1022.md | 78 ---------------------------------------------
+ 1 file changed, 78 deletions(-)
+
+diff --git a/_specs/ecip-1022.md b/_specs/ecip-1022.md
+index d8e1f4a..5589db1 100644
+--- a/_specs/ecip-1022.md
++++ b/_specs/ecip-1022.md
+@@ -74,84 +74,6 @@ Each fork deployment is specified by the following per-chain parameters:
+ 
+ ### Tallying
+ 
+-If a block's extraData specifies a version other than `1`, all its signaling bits MUST be treated as if they are '0'.
+----
+-title: 27-MINERVOTE
+-subtitle: Generalized Version Bits Voting for Consensus Soft and Hard Forks
+-author: Wei Tang <hi@that.world>
+-status: Raw
+-type: Standard Track
+-category: Core
+-created: 2017-06-28
+-abstract: >
+-  The following ECIP tries to bring the best practices about how Bitcoin deals with consensus hard fork into Ethereum Classic.
+----
+-
+-## Abstract
+-
+-The following ECIP tries to bring the best practices about how Bitcoin deals with consensus hard fork ([BIP-9](https://github.com/bitcoin/bips/blob/master/bip-0009.mediawiki) and [BIP-135](https://github.com/bitcoin/bips/blob/master/bip-0135.mediawiki)) into Ethereum Classic. Rather than hard-code a block number as we currently do, each block mined emits support of the new consensus hard-fork. Only when a large enough portion of the network support it, the hard-fork is "locked-in" and will be activated.
+-
+-## Motivation
+-
+-**Lack of an appropriate voting method can results in network forking**. The DAO hard fork was such an example. Currently the way Ethereum used to gather opinions was through [CarbonVote](http://carbonvote.com/). It indeed has the advantage that it brings the opinions of Ethereum holders rather than miners. However, it is not enforceable and we all know the disastrous result it brought during the DAO hard fork period. We don't want that to happen again.
+-
+-**Miner community, stake holders and proof of work**. It is common knowledge that Ethereum Classic will probably stay in proof of work, rather than, like Ethereum, switch to a proof of stake algorithm. Combining this ECIP together with ECIP-1023, we combines opinions from both the miner community and ETC coin holders to reach consensus about whether a hard fork should occur.
+-
+-**Best practices from Bitcoin**. [BIP-9](https://github.com/bitcoin/bips/blob/master/bip-0009.mediawiki), which uses version bits mined in each blocks to vote for consensus soft fork has be successfully conducted for several. Its upgraded version, BIP-135, aims to deal with both soft forks and hard forks alike.
+-
+-**Potentially faster adoption of new consensus hard fork**. When dealing with emergency consensus hard fork for preventing network attacks, the developer would not need to artificially insert a "hard fork block number" (which must leave enough time for everyone else to upgrade their clients, and then wait for that block). The ETC coin holders and miners collectively decide when the hard fork happens, which potentially could be faster than hard coded block numbers.
+-
+-**Ethereum Classic will become a stable protocol soon**. When we finished dealing with the monetary policy and finally the difficulty bomb, ETC's protocol would become a rather stable one. This means most of the new consensus hard fork would be new features of the network, rather than fixing existing bugs. In that case, voting would be important to keep the whole network healthy.
+-
+-## Terms and conventions
+-
+-The version bits used by this proposal for signaling deployment of forks are
+-referred to as 'signaling bits' or shortened to 'bits' where unambiguous.
+-
+-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
+-"SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this
+-document are to be interpreted as described in RFC 2119.
+-
+-## Specification
+-
+-### Signaling bits
+-
+-Ethereum's extraData field are 32-bytes, i.e. a 256-bit value. The field itself should be a RLP list that follows:
+-
+-```
+-[ version: P, signalingBits: S, clientIdentity: B ]
+-```
+-
+-For this ECIP, `version` should equal to `1`, and `signalingBits` and `clientIdentity` fulfill the rest of the extraData field as long as it does not exceed the maximum size allowed. This allows us to have way more concurrent signalings and better backward compatibility than Bitcoin.
+-
+-`signalingBits` are right-aligned, i.e. `0b1` has its bit at index 0 set, `0b10` has its bit at index 1 set, `0b100` has its bit at index 2 set.
+-
+-### Deployment states
+-
+-With each block and fork, we associate a deployment state. The possible states are:
+-
+-* **DEFINED** is the first state that each fork starts out as. The genesis block for any chain SHALL by definition be in this state for each deployment.
+-* **STARTED** for blocks past the starttime.
+-* **LOCKED_IN** after STARTED, if at least threshold out of windowsize blocks have the associated bit set in `signalingBits` in `extraData` block header, measured at next height that is evenly divisible by the windowsize.
+-* **ACTIVE** for all blocks after the grace period conditions have been met.
+-* **FAILED** if past the timeout time and LOCKED_IN was not reached.
+-
+-In accordance with BIP9, a block's state SHALL never depend on its own extraData; only on that of its ancestors.
+-
+-### Fork deployment parameters
+-
+-Each fork deployment is specified by the following per-chain parameters:
+-
+-* The **name** specifies a very brief description of the fork, reasonable for use as an identifier. For deployments described in a single BIP, it is recommended to use the name "bipN" where N is the appropriate BIP number.
+-* The **bit** determines which bit in the extraData field of the block is to be used to signal the fork deployment.
+-* The **start** specifies a block number at which the bit gains its meaning.
+-* The **timeout** specifies a time at which the deployment is considered failed. If the current block number >= (start + timeout) and the fork has not yet locked in (including this block's bit state), the deployment is considered failed on all descendants of the block.
+-* The **windowsize** specifies the number of past blocks (including the block under consideration) to be taken into account for locking in a fork.
+-* The **threshold** specifies a number of blocks, in the range of 1..windowsize, which must signal for a fork in order to lock it in. The support is measured when the chain height is evenly divisible by the windowsize. If the windowsize is set to 2016 (as in BIP9) this coincides with the 2016-block re-targeting intervals.
+-* The **minlockedblocks** specifies a minimum number of blocks which a fork must remain in locked-in state before it can become active. Both minlockedblocks and minlockedtime (see below) must be satisfied before a fork can become active. If the current block number >= (minlockedblocks + the block number that locked in the fork), then the fork becomes activated. 
+-
+-### Tallying
+-
+ If a block's extraData specifies a version other than `1`, all its signaling bits MUST be treated as if they are '0'.
+ 
+ A signaling bit value of '1' SHALL indicate support of a fork and SHALL count towards its tally on a chain.
+
+From 8344e1457a214284b65e53db9c4c84e53985a09e Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Sat, 16 Nov 2019 19:44:17 +0100
+Subject: [PATCH 3/5] Fix formatting
+
+---
+ _specs/ecip-1022.md | 438 +++++++++++++++++++++++---------------------
+ 1 file changed, 233 insertions(+), 205 deletions(-)
+
+diff --git a/_specs/ecip-1022.md b/_specs/ecip-1022.md
+index 5589db1..1da3b1f 100644
+--- a/_specs/ecip-1022.md
++++ b/_specs/ecip-1022.md
+@@ -11,24 +11,61 @@ license: Apache-2.0
+ 
+ ## Abstract
+ 
+-The following ECIP tries to bring the best practices about how Bitcoin deals with consensus hard fork ([BIP-9](https://github.com/bitcoin/bips/blob/master/bip-0009.mediawiki) and [BIP-135](https://github.com/bitcoin/bips/blob/master/bip-0135.mediawiki)) into Ethereum Classic. Rather than hard-code a block number as we currently do, each block mined emits support of the new consensus hard-fork. Only when a large enough portion of the network support it, the hard-fork is "locked-in" and will be activated.
++The following ECIP tries to bring the best practices about how Bitcoin
++deals with consensus hard fork
++([BIP-9](https://github.com/bitcoin/bips/blob/master/bip-0009.mediawiki)
++and
++[BIP-135](https://github.com/bitcoin/bips/blob/master/bip-0135.mediawiki))
++into Ethereum Classic. Rather than hard-code a block number as we
++currently do, each block mined emits support of the new consensus
++hard-fork. Only when a large enough portion of the network support it,
++the hard-fork is "locked-in" and will be activated.
+ 
+ ## Motivation
+ 
+-**Lack of an appropriate voting method can results in network forking**. The DAO hard fork was such an example. Currently the way Ethereum used to gather opinions was through [CarbonVote](http://carbonvote.com/). It indeed has the advantage that it brings the opinions of Ethereum holders rather than miners. However, it is not enforceable and we all know the disastrous result it brought during the DAO hard fork period. We don't want that to happen again.
+-
+-**Miner community, stake holders and proof of work**. It is common knowledge that Ethereum Classic will probably stay in proof of work, rather than, like Ethereum, switch to a proof of stake algorithm. Combining this ECIP together with ECIP-1023, we combines opinions from both the miner community and ETC coin holders to reach consensus about whether a hard fork should occur.
+-
+-**Best practices from Bitcoin**. [BIP-9](https://github.com/bitcoin/bips/blob/master/bip-0009.mediawiki), which uses version bits mined in each blocks to vote for consensus soft fork has be successfully conducted for several. Its upgraded version, BIP-135, aims to deal with both soft forks and hard forks alike.
+-
+-**Potentially faster adoption of new consensus hard fork**. When dealing with emergency consensus hard fork for preventing network attacks, the developer would not need to artificially insert a "hard fork block number" (which must leave enough time for everyone else to upgrade their clients, and then wait for that block). The ETC coin holders and miners collectively decide when the hard fork happens, which potentially could be faster than hard coded block numbers.
+-
+-**Ethereum Classic will become a stable protocol soon**. When we finished dealing with the monetary policy and finally the difficulty bomb, ETC's protocol would become a rather stable one. This means most of the new consensus hard fork would be new features of the network, rather than fixing existing bugs. In that case, voting would be important to keep the whole network healthy.
++**Lack of an appropriate voting method can results in network
++forking**. The DAO hard fork was such an example. Currently the way
++Ethereum used to gather opinions was through
++[CarbonVote](http://carbonvote.com/). It indeed has the advantage that
++it brings the opinions of Ethereum holders rather than
++miners. However, it is not enforceable and we all know the disastrous
++result it brought during the DAO hard fork period. We don't want that
++to happen again.
++
++**Miner community, stake holders and proof of work**. It is common
++knowledge that Ethereum Classic will probably stay in proof of work,
++rather than, like Ethereum, switch to a proof of stake
++algorithm. Combining this ECIP together with ECIP-1023, we combines
++opinions from both the miner community and ETC coin holders to reach
++consensus about whether a hard fork should occur.
++
++**Best practices from
++Bitcoin**. [BIP-9](https://github.com/bitcoin/bips/blob/master/bip-0009.mediawiki),
++which uses version bits mined in each blocks to vote for consensus
++soft fork has be successfully conducted for several. Its upgraded
++version, BIP-135, aims to deal with both soft forks and hard forks
++alike.
++
++**Potentially faster adoption of new consensus hard fork**. When
++dealing with emergency consensus hard fork for preventing network
++attacks, the developer would not need to artificially insert a "hard
++fork block number" (which must leave enough time for everyone else to
++upgrade their clients, and then wait for that block). The ETC coin
++holders and miners collectively decide when the hard fork happens,
++which potentially could be faster than hard coded block numbers.
++
++**Ethereum Classic will become a stable protocol soon**. When we
++finished dealing with the monetary policy and finally the difficulty
++bomb, ETC's protocol would become a rather stable one. This means most
++of the new consensus hard fork would be new features of the network,
++rather than fixing existing bugs. In that case, voting would be
++important to keep the whole network healthy.
+ 
+ ## Terms and conventions
+ 
+-The version bits used by this proposal for signaling deployment of forks are
+-referred to as 'signaling bits' or shortened to 'bits' where unambiguous.
++The version bits used by this proposal for signaling deployment of
++forks are referred to as 'signaling bits' or shortened to 'bits' where
++unambiguous.
+ 
+ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
+ "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this
+@@ -38,161 +75,89 @@ document are to be interpreted as described in RFC 2119.
+ 
+ ### Signaling bits
+ 
+-Ethereum's extraData field are 32-bytes, i.e. a 256-bit value. The field itself should be a RLP list that follows:
++Ethereum's extraData field are 32-bytes, i.e. a 256-bit value. The
++field itself should be a RLP list that follows:
+ 
+ ```
+ [ version: P, signalingBits: S, clientIdentity: B ]
+ ```
+ 
+-For this ECIP, `version` should equal to `1`, and `signalingBits` and `clientIdentity` fulfill the rest of the extraData field as long as it does not exceed the maximum size allowed. This allows us to have way more concurrent signalings and better backward compatibility than Bitcoin.
++For this ECIP, `version` should equal to `1`, and `signalingBits` and
++`clientIdentity` fulfill the rest of the extraData field as long as it
++does not exceed the maximum size allowed. This allows us to have way
++more concurrent signalings and better backward compatibility than
++Bitcoin.
+ 
+-`signalingBits` are right-aligned, i.e. `0b1` has its bit at index 0 set, `0b10` has its bit at index 1 set, `0b100` has its bit at index 2 set.
++`signalingBits` are right-aligned, i.e. `0b1` has its bit at index 0
++set, `0b10` has its bit at index 1 set, `0b100` has its bit at index 2
++set.
+ 
+ ### Deployment states
+ 
+-With each block and fork, we associate a deployment state. The possible states are:
++With each block and fork, we associate a deployment state. The
++possible states are:
+ 
+-* **DEFINED** is the first state that each fork starts out as. The genesis block for any chain SHALL by definition be in this state for each deployment.
++* **DEFINED** is the first state that each fork starts out as. The
++  genesis block for any chain SHALL by definition be in this state for
++  each deployment.
+ * **STARTED** for blocks past the starttime.
+-* **LOCKED_IN** after STARTED, if at least threshold out of windowsize blocks have the associated bit set in `signalingBits` in `extraData` block header, measured at next height that is evenly divisible by the windowsize.
+-* **ACTIVE** for all blocks after the grace period conditions have been met.
++* **LOCKED_IN** after STARTED, if at least threshold out of windowsize
++  blocks have the associated bit set in `signalingBits` in `extraData`
++  block header, measured at next height that is evenly divisible by
++  the windowsize.
++* **ACTIVE** for all blocks after the grace period conditions have
++  been met.
+ * **FAILED** if past the timeout time and LOCKED_IN was not reached.
+ 
+-In accordance with BIP9, a block's state SHALL never depend on its own extraData; only on that of its ancestors.
++In accordance with BIP9, a block's state SHALL never depend on its own
++extraData; only on that of its ancestors.
+ 
+ ### Fork deployment parameters
+ 
+-Each fork deployment is specified by the following per-chain parameters:
+-
+-* The **name** specifies a very brief description of the fork, reasonable for use as an identifier. For deployments described in a single BIP, it is recommended to use the name "bipN" where N is the appropriate BIP number.
+-* The **bit** determines which bit in the extraData field of the block is to be used to signal the fork deployment.
+-* The **start** specifies a block number at which the bit gains its meaning.
+-* The **timeout** specifies a time at which the deployment is considered failed. If the current block number >= (start + timeout) and the fork has not yet locked in (including this block's bit state), the deployment is considered failed on all descendants of the block.
+-* The **windowsize** specifies the number of past blocks (including the block under consideration) to be taken into account for locking in a fork.
+-* The **threshold** specifies a number of blocks, in the range of 1..windowsize, which must signal for a fork in order to lock it in. The support is measured when the chain height is evenly divisible by the windowsize. If the windowsize is set to 2016 (as in BIP9) this coincides with the 2016-block re-targeting intervals.
+-* The **minlockedblocks** specifies a minimum number of blocks which a fork must remain in locked-in state before it can become active. Both minlockedblocks and minlockedtime (see below) must be satisfied before a fork can become active. If the current block number >= (minlockedblocks + the block number that locked in the fork), then the fork becomes activated. 
++Each fork deployment is specified by the following per-chain
++parameters:
++
++* The **name** specifies a very brief description of the fork,
++  reasonable for use as an identifier. For deployments described in a
++  single BIP, it is recommended to use the name "bipN" where N is the
++  appropriate BIP number.
++* The **bit** determines which bit in the extraData field of the block
++  is to be used to signal the fork deployment.
++* The **start** specifies a block number at which the bit gains its
++  meaning.
++* The **timeout** specifies a time at which the deployment is
++  considered failed. If the current block number >= (start + timeout)
++  and the fork has not yet locked in (including this block's bit
++  state), the deployment is considered failed on all descendants of
++  the block.
++* The **windowsize** specifies the number of past blocks (including
++  the block under consideration) to be taken into account for locking
++  in a fork.
++* The **threshold** specifies a number of blocks, in the range of
++  `1..windowsize`, which must signal for a fork in order to lock it
++  in. The support is measured when the chain height is evenly
++  divisible by the windowsize. If the windowsize is set to 2016 (as in
++  BIP9) this coincides with the 2016-block re-targeting intervals.
++* The **minlockedblocks** specifies a minimum number of blocks which a
++  fork must remain in locked-in state before it can become
++  active. Both minlockedblocks and minlockedtime (see below) must be
++  satisfied before a fork can become active. If the current block
++  number >= (minlockedblocks + the block number that locked in the
++  fork), then the fork becomes activated.
+ 
+ ### Tallying
+ 
+-If a block's extraData specifies a version other than `1`, all its signaling bits MUST be treated as if they are '0'.
+-
+-A signaling bit value of '1' SHALL indicate support of a fork and SHALL count towards its tally on a chain.
+-
+-A signaling bit value of '0' SHALL indicate absence of support of a fork and SHALL NOT count towards its tally on a chain.
+-
+-The signaling bits SHALL be tallied whenever the head of the active chain changes (including after reorganizations).
+-
+-### State transitions
+-
+-The following diagram illustrates the generalized state machine:
+-
+-![State transactions](ECIP-1022/bip-0135-states-small.png)
+-
+-The genesis block of any chain SHALL have the state DEFINED for each deployment.
+-
+-A given deployment SHALL remain in the DEFINED state until it either passes the start (and becomes STARTED) or the timeout time (and becomes FAILED).
+-
+-Once a deployment has STARTED, the signal for that deployment SHALL be tallied over the the past windowsize blocks whenever a new block is received on that chain.
+-
+-A transition from the STARTED state to the LOCKED_IN state SHALL only occur when all of these are true:
+-
+-* the height of the received block is an integer multiple of the window size
+-* the current block number is below (start + timeout)
+-* at least threshold out of windowsize blocks have signaled support
+-
+-A similar height synchronization precondition SHALL exist for the transition from LOCKED_IN to ACTIVE. These synchronization conditions are expressed by the "mod(height, windowsize) = 0" clauses in the diagram.
+-
+-A transition from LOCKED_IN to ACTIVE state SHALL only occur if the height synchronization criterion is met and the below configurable 'grace period' conditions are fulfilled:
+-
+-* current height MUST be at least minlockedblocks above LOCKED_IN height
+-
+-NOTE: If minlockedblocks is set to 0, then the fork will proceed directly to ACTIVE state once the chain height reaches a multiple of the windowsize.
+-
+-The ACTIVE and FAILED states are terminal; a deployment stays in these states once they are reached.
+-
+-Deployment states are maintained along block chain branches. They need re-computation when a reorganization happens.
+-
+-### New consensus rules
+-
+-New consensus rules deployed by a fork SHALL be enforced for each block that has ACTIVE state.
+-
+-### Optional operator notifications
+-
+-An implementation SHOULD notify the operator when a deployment transitions
+-to STARTED, LOCKED_IN, ACTIVE or FAILED states.
++If a block's extraData specifies a version other than `1`, all its
++signaling bits MUST be treated as if they are '0'.
+ 
+-It is RECOMMENDED that an implementation provide finer-grained notifications
+-to the operator which allow him/her to track the measured support level for
+-defined deployments.
++A signaling bit value of '1' SHALL indicate support of a fork and
++SHALL count towards its tally on a chain.
+ 
+-An implementation SHOULD warn the operator if the configured (emitted) nVersion
+-has been overridden to contain bits set to '1' in contravention of the above
+-non-signaling recommendations for DEFINED forks.
++A signaling bit value of '0' SHALL indicate absence of support of a
++fork and SHALL NOT count towards its tally on a chain.
+ 
+-It is RECOMMENDED that an implementation warn the operator if no signal has
+-been received for a given deployment during a full windowsize period after the
+-deployment has STARTED. This could indicate that something may be wrong with
+-the operator's configuration that is causing them not to receive the signal
+-correctly.
+-
+-For undefined signals, it is RECOMMENDED that implementation track these and
+-alert their operators with supportive upgrade notifications, e.g.
+-
+-* "warning: signaling started on unknown feature on version bit X"
+-* "warning: signaling on unknown feature reached X% (over last N blocks)"
+-* "info: signaling ceased on unknown feature (over last M blocks)"
+-
+-Since parameters of these deployments are unknown, it is RECOMMENDED that
+-implementations allow the user to configure the emission of such notifications
+-(e.g. suitable N and M parameters in the messages above, e.g. a best-guess
+-window of 100 blocks).
+-
+-## Rationale
+-
+-The timeout into FAILED state allows eventual reuse of bits if a fork was not successfully activated.
+-
+-A fallow period at the conclusion of a fork attempt allows some detection of buggy clients, and allows time for warnings and software upgrades for successful forks. The duration of a fallow period is not specified by this proposal, although a conventional fallow period of 3 months is RECOMMENDED.
+-
+-## Guidelines
+-
+-### Parameter selection guidelines
+-
+-The following guidelines are suggested for selecting the parameters for a fork:
+-
+-* **name** SHOULD be selected such that no two forks, concurrent or otherwise, ever use the same name.
+-* **bit** SHOULD be selected such that no two concurrent forks use the same bit. Implementors should make an effort to consult resources such as [2] to establish whether the bit they wish to use can reasonably be assumed to be unclaimed by a concurrent fork, and to announce their use ('claim') of a bit for a fork purpose on various project mailing lists, to reduce chance of collisions.
+-* **start** SHOULD be set to some block number in the future, approximately one month after a software release date which includes the fork signaling.  This allows for some release delays, while preventing triggers as a result of parties running pre-release software.
+-* **timeout** is RECOMMENDED to be a block number that is approximately 1 year after start.
+-* **windowsize** SHOULD be set large enough to allow reception of an adequately precise signal.
+-* **threshold** SHOULD be set as high as possible to ensure a smooth activation based on the estimated support and the nature of the proposed changes. It is strongly RECOMMENDED that threshold >= windowsize / 2 (rounded up) to ensure that a proposal is only activated by majority support.
+-* **minlockedblocks** is RECOMMENDED to be set >= windowsize, to ensure that a full window passes in LOCKED_IN state. Lower values will be ineffective as the transition from LOCKED_IN to ACTIVE is guarded by a synchronization based on the window size.
+-
+-NOTE: If minlockedblocks is set to 0, then the fork will proceed to ACTIVE state when the chain height reaches a multiple of the windowsize.
+-
+-A later deployment using the same bit is possible as long as the starttime is after the previous fork's timeout or activation, but it is discouraged until necessary, and even then recommended to have a pause in between to detect buggy software.
+-
+-### Signaling guidelines
+-
+-An implementation SHOULD signal '0' on a bit if one of the following holds true:
+-
+-* the deployment parameters are not DEFINED (not configured or explicitly undefined)
+-* the deployment is DEFINED and has not yet reached the STARTED state
+-* the deployment has succeeded (it has become ACTIVE)
+-* the deployment has FAILED
+-
+-An implementation SHOULD enable the operator to choose (override) whether to signal '0' or '1' on a bit, once its deployment has at least reached the STARTED state.
+-
+-A supporting miner SHOULD signal '1' on a bit for which the deployment is LOCKED_IN state so that uptake is visible. However, this has no effect on consensus rules. Once LOCKED_IN, a deployment proceeds to ACTIVE solely based on the configured grace period parameters (see 'Fork deployment parameters' above).
+-
+-A miner SHOULD signal '0' on a bit if they wish to suspend signaling of support for a fork that is DEFINED in their software.
+-
+-It is NOT RECOMMENDED to signal '1' for bits where the meaning is undefined (i.e. bits which are unclaimed by proposals).
+-
+-A signaling bit value of '1' SHALL indicate support of a fork and SHALL count towards its tally on a chain.
+-
+-A signaling bit value of '0' SHALL indicate absence of support of a fork and SHALL NOT count towards its tally on a chain.
+-
+-The signaling bits SHALL be tallied whenever the head of the active chain changes (including after reorganizations).
++The signaling bits SHALL be tallied whenever the head of the active
++chain changes (including after reorganizations).
+ 
+ ### State transitions
+ 
+@@ -200,110 +165,173 @@ The following diagram illustrates the generalized state machine:
+ 
+ ![State transactions](ECIP-1022/bip-0135-states-small.png)
+ 
+-The genesis block of any chain SHALL have the state DEFINED for each deployment.
++The genesis block of any chain SHALL have the state DEFINED for each
++deployment.
+ 
+-A given deployment SHALL remain in the DEFINED state until it either passes the start (and becomes STARTED) or the timeout time (and becomes FAILED).
++A given deployment SHALL remain in the DEFINED state until it either
++passes the start (and becomes STARTED) or the timeout time (and
++becomes FAILED).
+ 
+-Once a deployment has STARTED, the signal for that deployment SHALL be tallied over the the past windowsize blocks whenever a new block is received on that chain.
++Once a deployment has STARTED, the signal for that deployment SHALL be
++tallied over the the past windowsize blocks whenever a new block is
++received on that chain.
+ 
+-A transition from the STARTED state to the LOCKED_IN state SHALL only occur when all of these are true:
++A transition from the STARTED state to the LOCKED_IN state SHALL only
++occur when all of these are true:
+ 
+-* the height of the received block is an integer multiple of the window size
+-* the current block number is below (start + timeout)
+-* at least threshold out of windowsize blocks have signaled support
++* The height of the received block is an integer multiple of the
++  window size
++* The current block number is below (start + timeout)
++* At least threshold out of windowsize blocks have signaled support
+ 
+-A similar height synchronization precondition SHALL exist for the transition from LOCKED_IN to ACTIVE. These synchronization conditions are expressed by the "mod(height, windowsize) = 0" clauses in the diagram.
++A similar height synchronization precondition SHALL exist for the
++transition from LOCKED_IN to ACTIVE. These synchronization conditions
++are expressed by the "mod(height, windowsize) = 0" clauses in the
++diagram.
+ 
+-A transition from LOCKED_IN to ACTIVE state SHALL only occur if the height synchronization criterion is met and the below configurable 'grace period' conditions are fulfilled:
++A transition from LOCKED_IN to ACTIVE state SHALL only occur if the
++height synchronization criterion is met and the below configurable
++'grace period' conditions are fulfilled:
+ 
+-* current height MUST be at least minlockedblocks above LOCKED_IN height
++* Current height MUST be at least minlockedblocks above LOCKED_IN
++  height
+ 
+-NOTE: If minlockedblocks is set to 0, then the fork will proceed directly to ACTIVE state once the chain height reaches a multiple of the windowsize.
++NOTE: If minlockedblocks is set to 0, then the fork will proceed
++directly to ACTIVE state once the chain height reaches a multiple of
++the windowsize.
+ 
+-The ACTIVE and FAILED states are terminal; a deployment stays in these states once they are reached.
++The ACTIVE and FAILED states are terminal; a deployment stays in these
++states once they are reached.
+ 
+-Deployment states are maintained along block chain branches. They need re-computation when a reorganization happens.
++Deployment states are maintained along block chain branches. They need
++re-computation when a reorganization happens.
+ 
+ ### New consensus rules
+ 
+-New consensus rules deployed by a fork SHALL be enforced for each block that has ACTIVE state.
++New consensus rules deployed by a fork SHALL be enforced for each
++block that has ACTIVE state.
+ 
+ ### Optional operator notifications
+ 
+-An implementation SHOULD notify the operator when a deployment transitions
+-to STARTED, LOCKED_IN, ACTIVE or FAILED states.
++An implementation SHOULD notify the operator when a deployment
++transitions to STARTED, LOCKED_IN, ACTIVE or FAILED states.
+ 
+-It is RECOMMENDED that an implementation provide finer-grained notifications
+-to the operator which allow him/her to track the measured support level for
+-defined deployments.
++It is RECOMMENDED that an implementation provide finer-grained
++notifications to the operator which allow him/her to track the
++measured support level for defined deployments.
+ 
+-An implementation SHOULD warn the operator if the configured (emitted) nVersion
+-has been overridden to contain bits set to '1' in contravention of the above
+-non-signaling recommendations for DEFINED forks.
++An implementation SHOULD warn the operator if the configured (emitted)
++nVersion has been overridden to contain bits set to '1' in
++contravention of the above non-signaling recommendations for DEFINED
++forks.
+ 
+-It is RECOMMENDED that an implementation warn the operator if no signal has
+-been received for a given deployment during a full windowsize period after the
+-deployment has STARTED. This could indicate that something may be wrong with
+-the operator's configuration that is causing them not to receive the signal
+-correctly.
++It is RECOMMENDED that an implementation warn the operator if no
++signal has been received for a given deployment during a full
++windowsize period after the deployment has STARTED. This could
++indicate that something may be wrong with the operator's configuration
++that is causing them not to receive the signal correctly.
+ 
+-For undefined signals, it is RECOMMENDED that implementation track these and
+-alert their operators with supportive upgrade notifications, e.g.
++For undefined signals, it is RECOMMENDED that implementation track
++these and alert their operators with supportive upgrade notifications,
++e.g.
+ 
+ * "warning: signaling started on unknown feature on version bit X"
+-* "warning: signaling on unknown feature reached X% (over last N blocks)"
++* "warning: signaling on unknown feature reached X% (over last N
++  blocks)"
+ * "info: signaling ceased on unknown feature (over last M blocks)"
+ 
+-Since parameters of these deployments are unknown, it is RECOMMENDED that
+-implementations allow the user to configure the emission of such notifications
+-(e.g. suitable N and M parameters in the messages above, e.g. a best-guess
+-window of 100 blocks).
++Since parameters of these deployments are unknown, it is RECOMMENDED
++that implementations allow the user to configure the emission of such
++notifications (e.g. suitable N and M parameters in the messages above,
++e.g. a best-guess window of 100 blocks).
+ 
+ ## Rationale
+ 
+-The timeout into FAILED state allows eventual reuse of bits if a fork was not successfully activated.
++The timeout into FAILED state allows eventual reuse of bits if a fork
++was not successfully activated.
+ 
+-A fallow period at the conclusion of a fork attempt allows some detection of buggy clients, and allows time for warnings and software upgrades for successful forks. The duration of a fallow period is not specified by this proposal, although a conventional fallow period of 3 months is RECOMMENDED.
++A fallow period at the conclusion of a fork attempt allows some
++detection of buggy clients, and allows time for warnings and software
++upgrades for successful forks. The duration of a fallow period is not
++specified by this proposal, although a conventional fallow period of 3
++months is RECOMMENDED.
+ 
+ ## Guidelines
+ 
+ ### Parameter selection guidelines
+ 
+-The following guidelines are suggested for selecting the parameters for a fork:
+-
+-* **name** SHOULD be selected such that no two forks, concurrent or otherwise, ever use the same name.
+-* **bit** SHOULD be selected such that no two concurrent forks use the same bit. Implementors should make an effort to consult resources such as [2] to establish whether the bit they wish to use can reasonably be assumed to be unclaimed by a concurrent fork, and to announce their use ('claim') of a bit for a fork purpose on various project mailing lists, to reduce chance of collisions.
+-* **start** SHOULD be set to some block number in the future, approximately one month after a software release date which includes the fork signaling.  This allows for some release delays, while preventing triggers as a result of parties running pre-release software.
+-* **timeout** is RECOMMENDED to be a block number that is approximately 1 year after start.
+-* **windowsize** SHOULD be set large enough to allow reception of an adequately precise signal.
+-* **threshold** SHOULD be set as high as possible to ensure a smooth activation based on the estimated support and the nature of the proposed changes. It is strongly RECOMMENDED that threshold >= windowsize / 2 (rounded up) to ensure that a proposal is only activated by majority support.
+-* **minlockedblocks** is RECOMMENDED to be set >= windowsize, to ensure that a full window passes in LOCKED_IN state. Lower values will be ineffective as the transition from LOCKED_IN to ACTIVE is guarded by a synchronization based on the window size.
+-
+-NOTE: If minlockedblocks is set to 0, then the fork will proceed to ACTIVE state when the chain height reaches a multiple of the windowsize.
+-
+-A later deployment using the same bit is possible as long as the starttime is after the previous fork's timeout or activation, but it is discouraged until necessary, and even then recommended to have a pause in between to detect buggy software.
++The following guidelines are suggested for selecting the parameters
++for a fork:
++
++* **name** SHOULD be selected such that no two forks, concurrent or
++  otherwise, ever use the same name.
++* **bit** SHOULD be selected such that no two concurrent forks use the
++  same bit. Implementors should make an effort to consult resources
++  such as [2] to establish whether the bit they wish to use can
++  reasonably be assumed to be unclaimed by a concurrent fork, and to
++  announce their use ('claim') of a bit for a fork purpose on various
++  project mailing lists, to reduce chance of collisions.
++* **start** SHOULD be set to some block number in the future,
++  approximately one month after a software release date which includes
++  the fork signaling.  This allows for some release delays, while
++  preventing triggers as a result of parties running pre-release
++  software.
++* **timeout** is RECOMMENDED to be a block number that is
++  approximately 1 year after start.
++* **windowsize** SHOULD be set large enough to allow reception of an
++  adequately precise signal.
++* **threshold** SHOULD be set as high as possible to ensure a smooth
++  activation based on the estimated support and the nature of the
++  proposed changes. It is strongly RECOMMENDED that threshold >=
++  windowsize / 2 (rounded up) to ensure that a proposal is only
++  activated by majority support.
++* **minlockedblocks** is RECOMMENDED to be set >= windowsize, to
++  ensure that a full window passes in LOCKED_IN state. Lower values
++  will be ineffective as the transition from LOCKED_IN to ACTIVE is
++  guarded by a synchronization based on the window size.
++
++NOTE: If minlockedblocks is set to 0, then the fork will proceed to
++ACTIVE state when the chain height reaches a multiple of the
++windowsize.
++
++A later deployment using the same bit is possible as long as the
++starttime is after the previous fork's timeout or activation, but it
++is discouraged until necessary, and even then recommended to have a
++pause in between to detect buggy software.
+ 
+ ### Signaling guidelines
+ 
+-An implementation SHOULD signal '0' on a bit if one of the following holds true:
++An implementation SHOULD signal '0' on a bit if one of the following
++holds true:
+ 
+-* the deployment parameters are not DEFINED (not configured or explicitly undefined)
+-* the deployment is DEFINED and has not yet reached the STARTED state
+-* the deployment has succeeded (it has become ACTIVE)
+-* the deployment has FAILED
++* The deployment parameters are not DEFINED (not configured or
++  explicitly undefined)
++* The deployment is DEFINED and has not yet reached the STARTED state
++* The deployment has succeeded (it has become ACTIVE)
++* The deployment has FAILED
+ 
+-An implementation SHOULD enable the operator to choose (override) whether to signal '0' or '1' on a bit, once its deployment has at least reached the STARTED state.
++An implementation SHOULD enable the operator to choose (override)
++whether to signal '0' or '1' on a bit, once its deployment has at
++least reached the STARTED state.
+ 
+-A supporting miner SHOULD signal '1' on a bit for which the deployment is LOCKED_IN state so that uptake is visible. However, this has no effect on consensus rules. Once LOCKED_IN, a deployment proceeds to ACTIVE solely based on the configured grace period parameters (see 'Fork deployment parameters' above).
++A supporting miner SHOULD signal '1' on a bit for which the deployment
++is LOCKED_IN state so that uptake is visible. However, this has no
++effect on consensus rules. Once LOCKED_IN, a deployment proceeds to
++ACTIVE solely based on the configured grace period parameters (see
++'Fork deployment parameters' above).
+ 
+-A miner SHOULD signal '0' on a bit if they wish to suspend signaling of support for a fork that is DEFINED in their software.
++A miner SHOULD signal '0' on a bit if they wish to suspend signaling
++of support for a fork that is DEFINED in their software.
+ 
+-It is NOT RECOMMENDED to signal '1' for bits where the meaning is undefined (i.e. bits which are unclaimed by proposals).
++It is NOT RECOMMENDED to signal '1' for bits where the meaning is
++undefined (i.e. bits which are unclaimed by proposals).
+ 
+ ## References
+ 
+-This ECIP is a realization of [27-MINERVOTE](https://specs.that.world/27-minervote/).
++This ECIP is a realization of
++[27-MINERVOTE](https://specs.that.world/27-minervote/).
+ 
+ ## License
+ 
+-This work is licensed under [Apache License, Version 2.0](http://www.apache.org/licenses/).
++This work is licensed under [Apache License, Version
++2.0](http://www.apache.org/licenses/).
+
+From 86afe8ee3f2aba8078399c51569d78b1122cd2e2 Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Sat, 16 Nov 2019 19:47:29 +0100
+Subject: [PATCH 4/5] Fix image
+
+---
+ _specs/ecip-1022.md              |   2 +-
+ assets/bip-0135-states-small.png | Bin 0 -> 36260 bytes
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+ create mode 100644 assets/bip-0135-states-small.png
+
+diff --git a/_specs/ecip-1022.md b/_specs/ecip-1022.md
+index 1da3b1f..bb5a97a 100644
+--- a/_specs/ecip-1022.md
++++ b/_specs/ecip-1022.md
+@@ -163,7 +163,7 @@ chain changes (including after reorganizations).
+ 
+ The following diagram illustrates the generalized state machine:
+ 
+-![State transactions](ECIP-1022/bip-0135-states-small.png)
++![State transactions](../assets/ecip-1022/bip-0135-states-small.png)
+ 
+ The genesis block of any chain SHALL have the state DEFINED for each
+ deployment.
+diff --git a/assets/bip-0135-states-small.png b/assets/bip-0135-states-small.png
+new file mode 100644
+index 0000000000000000000000000000000000000000..9191ae376b6fe68050c08faec59539faada1391a
+GIT binary patch
+literal 36260
+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
+YQ1V?MsIGb=zDNujcGiwo<rX-~pMl=jCIA2c
+
+literal 0
+HcmV?d00001
+
+
+From c42890a7a3ba19009c68edc1dbf71ccd1b29aaa6 Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Sun, 17 Nov 2019 18:07:54 +0100
+Subject: [PATCH 5/5] Update ecip-1022.md
+
+---
+ _specs/ecip-1022.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/_specs/ecip-1022.md b/_specs/ecip-1022.md
+index bb5a97a..de9a588 100644
+--- a/_specs/ecip-1022.md
++++ b/_specs/ecip-1022.md
+@@ -4,6 +4,7 @@ ecip: 1022
+ title: Generalized Version Bits Voting for Consensus Soft and Hard Forks
+ status: Draft
+ type: Meta
++discussions-to: https://github.com/ethereumclassic/ECIPs/issues/190
+ author: Wei Tang (@sorpaas)
+ created: 2017-06-28
+ license: Apache-2.0

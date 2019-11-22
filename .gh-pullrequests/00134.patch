@@ -1,0 +1,52 @@
+From a954e250a510499c043c95b9a858e800db684337 Mon Sep 17 00:00:00 2001
+From: Talha Cross <47772477+soc1c@users.noreply.github.com>
+Date: Fri, 13 Sep 2019 10:24:50 +0200
+Subject: [PATCH 1/2] Update ecip-1054.md
+
+---
+ _specs/ecip-1054.md | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-1054.md b/_specs/ecip-1054.md
+index 310e165..e8aadfe 100644
+--- a/_specs/ecip-1054.md
++++ b/_specs/ecip-1054.md
+@@ -2,7 +2,7 @@
+ lang: en
+ ecip: 1054
+ title: Atlantis EVM and Protocol Upgrades
+-status: Accepted
++status: Final
+ type: Meta
+ author: Isaac Ardis <isaac.a@etclabs.org>
+ created: 2019-02-11
+@@ -62,6 +62,7 @@ Technical specifications for each EIP can be found at those documents respective
+ - [EIP 211](https://eips.ethereum.org/EIPS/eip-211) (New opcodes `RETURNDATASIZE` and `RETURNDATACOPY`)
+ - [EIP 214](https://eips.ethereum.org/EIPS/eip-214) (New opcode `STATICCALL`)
+ - [EIP 658](https://eips.ethereum.org/EIPS/eip-658) (Embedding transaction status code in receipts)
++- [EIP 684](https://github.com/ethereum/EIPs/issues/684) (Prevent overwriting contracts)
+ 
+ In case any of the before mentioned proposals define a variable similar to the pattern `*_FORK_BLKNUM` named after _Spurious Dragon_ or _Byzantium_, it shall be replaced by a `ATLANTIS_FORK_BLKNUM`.
+ 
+
+From 1f05c9c748fde952d86c7c6c958369d53aec942c Mon Sep 17 00:00:00 2001
+From: Talha Cross <47772477+soc1c@users.noreply.github.com>
+Date: Mon, 7 Oct 2019 15:47:59 +0900
+Subject: [PATCH 2/2] move 684 to 1066
+
+---
+ _specs/ecip-1054.md | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/_specs/ecip-1054.md b/_specs/ecip-1054.md
+index e8aadfe..d4c96f0 100644
+--- a/_specs/ecip-1054.md
++++ b/_specs/ecip-1054.md
+@@ -62,7 +62,6 @@ Technical specifications for each EIP can be found at those documents respective
+ - [EIP 211](https://eips.ethereum.org/EIPS/eip-211) (New opcodes `RETURNDATASIZE` and `RETURNDATACOPY`)
+ - [EIP 214](https://eips.ethereum.org/EIPS/eip-214) (New opcode `STATICCALL`)
+ - [EIP 658](https://eips.ethereum.org/EIPS/eip-658) (Embedding transaction status code in receipts)
+-- [EIP 684](https://github.com/ethereum/EIPs/issues/684) (Prevent overwriting contracts)
+ 
+ In case any of the before mentioned proposals define a variable similar to the pattern `*_FORK_BLKNUM` named after _Spurious Dragon_ or _Byzantium_, it shall be replaced by a `ATLANTIS_FORK_BLKNUM`.
+ 

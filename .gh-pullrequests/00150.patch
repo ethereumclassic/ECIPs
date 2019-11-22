@@ -1,0 +1,28 @@
+From 18c5e5b8db334a2eae1a9ab2ef5208f8049227b5 Mon Sep 17 00:00:00 2001
+From: "dependabot[bot]" <49699333+dependabot[bot]@users.noreply.github.com>
+Date: Wed, 23 Oct 2019 02:19:32 +0000
+Subject: [PATCH] Bump rubyzip from 1.2.1 to 2.0.0
+
+Bumps [rubyzip](https://github.com/rubyzip/rubyzip) from 1.2.1 to 2.0.0.
+- [Release notes](https://github.com/rubyzip/rubyzip/releases)
+- [Changelog](https://github.com/rubyzip/rubyzip/blob/master/Changelog.md)
+- [Commits](https://github.com/rubyzip/rubyzip/compare/v1.2.1...v2.0.0)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+---
+ Gemfile.lock | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Gemfile.lock b/Gemfile.lock
+index bc94a2e..303033b 100644
+--- a/Gemfile.lock
++++ b/Gemfile.lock
+@@ -233,7 +233,7 @@ GEM
+     ruby-enum (0.7.2)
+       i18n
+     ruby_dep (1.5.0)
+-    rubyzip (1.2.1)
++    rubyzip (2.0.0)
+     safe_yaml (1.0.4)
+     sass (3.5.5)
+       sass-listen (~> 4.0.0)

@@ -1,0 +1,21 @@
+From 34403e8b0872bccfd15794c287ce59e9222d5f5d Mon Sep 17 00:00:00 2001
+From: Talha Cross <47772477+soc1c@users.noreply.github.com>
+Date: Thu, 21 Nov 2019 18:36:39 +0100
+Subject: [PATCH] 1000: demote wei tang from ecip editor status
+
+---
+ _specs/ecip-1000.md | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/_specs/ecip-1000.md b/_specs/ecip-1000.md
+index b5b50dd..5c076cc 100644
+--- a/_specs/ecip-1000.md
++++ b/_specs/ecip-1000.md
+@@ -72,7 +72,6 @@ A good reason to transfer ownership is because the original author no longer has
+ 
+ The current ECIP editors are:
+ 
+-* Wei Tang (@sorpaas)
+ * Isaac Ardis (@meowsbits)
+ * Cody Burns (@realcodywburns)
+ * Afri Schoedon (@soc1c)

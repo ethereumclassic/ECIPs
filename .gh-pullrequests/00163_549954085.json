@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/549954085",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/163#issuecomment-549954085",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/163",
+    "id": 549954085,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU0OTk1NDA4NQ==",
+    "user": {
+      "login": "phyro",
+      "id": 157733,
+      "node_id": "MDQ6VXNlcjE1NzczMw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/157733?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/phyro",
+      "html_url": "https://github.com/phyro",
+      "followers_url": "https://api.github.com/users/phyro/followers",
+      "following_url": "https://api.github.com/users/phyro/following{/other_user}",
+      "gists_url": "https://api.github.com/users/phyro/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/phyro/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/phyro/subscriptions",
+      "organizations_url": "https://api.github.com/users/phyro/orgs",
+      "repos_url": "https://api.github.com/users/phyro/repos",
+      "events_url": "https://api.github.com/users/phyro/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/phyro/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-05T18:24:54Z",
+    "updated_at": "2019-11-05T18:24:54Z",
+    "author_association": "MEMBER",
+    "body": "@TokenHash what do you mean by restrictive? as in you can't choose which license you want to apply to the ECIP? because it makes everything in the repo almost the most permissive you can get from what I understand.\r\n\r\nYes, the real name requirement seems like a really bad choice and doesn't really solve the underlying problem IMO.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/549954085/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

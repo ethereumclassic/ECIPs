@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/479963992",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/13#issuecomment-479963992",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/13",
+    "id": 479963992,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3OTk2Mzk5Mg==",
+    "user": {
+      "login": "p3c-bot",
+      "id": 40745785,
+      "node_id": "MDQ6VXNlcjQwNzQ1Nzg1",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/40745785?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/p3c-bot",
+      "html_url": "https://github.com/p3c-bot",
+      "followers_url": "https://api.github.com/users/p3c-bot/followers",
+      "following_url": "https://api.github.com/users/p3c-bot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/p3c-bot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/p3c-bot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/p3c-bot/subscriptions",
+      "organizations_url": "https://api.github.com/users/p3c-bot/orgs",
+      "repos_url": "https://api.github.com/users/p3c-bot/repos",
+      "events_url": "https://api.github.com/users/p3c-bot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/p3c-bot/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-04-04T16:13:31Z",
+    "updated_at": "2019-04-04T16:18:45Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Thank you for your post @Harriklaw. The plan for this switch is to create a SHA3 testnet first, for miners and hardware manufacturers to use, become comfortable with, and collect data on. Once we start seeing Flyclients, increased block performance, and on-chain smart contracts that verify the chain's proof of work, the mining community will see the tremendous value of this new algorithm and support a change. \r\n\r\nRE: decentralization. I consider Ethash to already be ASIC'd, and as ETC becomes more valuable it will be less possible to mine it from a GPU anyway. The concern is that right now, Ethash is so poorly documented, only 1 or 2 companies knows how to build a profitable ASIC for it. However, with SHA3, it is conceivable that new startups, and old players (like Intel, Cisco, etc.) would feel comfortable participating in the mining hardware market since they know the SHA3 standard is transparent, widely used, and has other uses beyond just cryptocurrency. \r\n\r\nSHA3 has been determined to be 4x faster in hardware than SHA2, so it is conceivable an entirely new economy can be created around SHA3 that is different than SHA2, similar to how the trucking market has different companies than the consumer car market.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/479963992/reactions",
+      "total_count": 4,
+      "+1": 2,
+      "-1": 1,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 1
+    }
+  }

@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551098432",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/163#issuecomment-551098432",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/163",
+    "id": 551098432,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MTA5ODQzMg==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-07T14:18:58Z",
+    "updated_at": "2019-11-07T14:21:56Z",
+    "author_association": "MEMBER",
+    "body": "@meowsbits \"Can you explain with citations how using an Apache 2 License avoids or would solve a patent troll scenario?\"\r\n\r\nSure.  The Apache 2.0 license states that any contributors grant rights to use of any patents they hold on their contribution.  So if you hold patents then you cannot enforce them against the project.   You could enforce them against projects which are using MIT, BSD or public domain licensing though, because there was no such corresponding grant.\r\n\r\nThat is patent trolling in a nutshell.   Sticking your stuff into unsuspecting projects and then making $$$ by saying \"I have a patent which means I have exclusive rights to monetize this thing for N years, so you owe me a million dollars\".   That happened to Linux, and it has happened to many, many other projects with over-weak permissive licensing.   It is the reason the GPLv3 exists too.  The GPLv2 used for the Linux Kernel did not have that protection either, and so Microsoft had a multi-billion dollar per year business trolling their patents onto Android companies.  Over $1B per year just from Samsung to Microsoft.\r\n\r\n- https://tldrlegal.com/license/creative-commons-cc0-1.0-universal\r\n- https://tldrlegal.com/license/mit-license\r\n- https://tldrlegal.com/license/bsd-3-clause-license-(revised)\r\n- https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)\r\n- https://tldrlegal.com/license/gnu-general-public-license-v2\r\n- https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)\r\n- http://www.ifross.org/en/what-difference-between-gplv2-and-gplv3\r\n- https://resources.whitesourcesoftware.com/blog-whitesource/top-10-apache-license-questions-answered\r\n\r\n\"Explicit grant of patent rights: Apache License 2.0 explicitly lays down the grant of patent rights while using, modifying or distributing Apache licensed software; it also lists the circumstances when such grant gets withdrawn.\"\r\n\r\n\"Real name\" matters because if you have a sockpuppet making the submission then you have lost the patent grant.  There is plausible deniability where the patent holder says \"Well - it wasn't us who made that addition - you just copied our patented material - so you owe us $$$\"",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551098432/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/544437320",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/135#issuecomment-544437320",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/135",
+    "id": 544437320,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU0NDQzNzMyMA==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-10-21T09:45:31Z",
+    "updated_at": "2019-10-21T09:45:31Z",
+    "author_association": "MEMBER",
+    "body": "I will be on an airplane and unable to attend, but I plan to have submitted an ECIP for an alternative plan to Agharta called \"Phoenix\" where we have two parallel release lines for each client - one with Constantinople+ETC changes and one with Constantinople+Instanbul+ETC changes.   We would have temp POW + POA networks for each, so 4 testnets in all.\r\n\r\nThis lets us get to candidate client builds almost immediately, so we attempt to fast follow Instanbul.   We make no decision on whether to do single phase or two phase updates to catch up with ETH.\r\n\r\nAnd all of that can be done in parallel with ECIPS, which will be the critical path.\r\n\r\nPlease can somebody else be the \"champion\" of this alternative approach in the meeting?  I have explaining it to Yaz, Anthony, Cody, Afri and Terry, at least, I believe, and think it superior.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/544437320/reactions",
+      "total_count": 1,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 1,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

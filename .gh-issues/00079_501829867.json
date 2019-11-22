@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/501829867",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/79#issuecomment-501829867",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/79",
+    "id": 501829867,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUwMTgyOTg2Nw==",
+    "user": {
+      "login": "soc1c",
+      "id": 47772477,
+      "node_id": "MDQ6VXNlcjQ3NzcyNDc3",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/47772477?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/soc1c",
+      "html_url": "https://github.com/soc1c",
+      "followers_url": "https://api.github.com/users/soc1c/followers",
+      "following_url": "https://api.github.com/users/soc1c/following{/other_user}",
+      "gists_url": "https://api.github.com/users/soc1c/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/soc1c/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/soc1c/subscriptions",
+      "organizations_url": "https://api.github.com/users/soc1c/orgs",
+      "repos_url": "https://api.github.com/users/soc1c/repos",
+      "events_url": "https://api.github.com/users/soc1c/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/soc1c/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-06-13T18:38:27Z",
+    "updated_at": "2019-06-13T18:39:27Z",
+    "author_association": "MEMBER",
+    "body": "Rough outcome:\r\n\r\n1. everyone agreed ECIP-1054 should move forward as proposed, as a bundle of proposals; no included proposal was objected; on a technical level this is _accepted_ now\r\n2. the timeline of testing and mainnet-hardfork activation was contested and no consensus was found\r\n3. a subsequent call will be held 7 days after this meeting, hopefully to further discuss the client landscape, review / testing results, and potentially a timeline everyone can agree upon",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/501829867/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

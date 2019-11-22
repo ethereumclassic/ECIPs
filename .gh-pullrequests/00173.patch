@@ -1,0 +1,68 @@
+From 0f4f516b39a2f7c62f53649509ec5524988cecb2 Mon Sep 17 00:00:00 2001
+From: Talha Cross <47772477+soc1c@users.noreply.github.com>
+Date: Thu, 7 Nov 2019 17:50:26 +0100
+Subject: [PATCH 1/3] update 1043 discussion link
+
+---
+ _specs/ecip-1043.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-1043.md b/_specs/ecip-1043.md
+index f3193cc..df051b9 100644
+--- a/_specs/ecip-1043.md
++++ b/_specs/ecip-1043.md
+@@ -6,7 +6,7 @@ author: Cody Burns <cody.w.burns@gmail.com>, Wolf Spraul <wolf@linzhi.io>
+ status: Draft
+ type: Standard
+ category: Core
+-Discussions-to: https://github.com/ethereumclassic/ECIPs/issues/138
++Discussions-to: https://github.com/ethereumclassic/ECIPs/issues/11
+ created: 2018-04-16
+ ---
+ 
+
+From 10b02c0b989e8eb850b0bc2d6cb8abb19840e316 Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Sat, 9 Nov 2019 07:40:16 +0900
+Subject: [PATCH 2/3] Update ecip-1043.md
+
+---
+ _specs/ecip-1043.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-1043.md b/_specs/ecip-1043.md
+index df051b9..a4f2b57 100644
+--- a/_specs/ecip-1043.md
++++ b/_specs/ecip-1043.md
+@@ -6,7 +6,7 @@ author: Cody Burns <cody.w.burns@gmail.com>, Wolf Spraul <wolf@linzhi.io>
+ status: Draft
+ type: Standard
+ category: Core
+-Discussions-to: https://github.com/ethereumclassic/ECIPs/issues/11
++iscussions-to: https://github.com/ethereumclassic/ECIPs/issues/11
+ created: 2018-04-16
+ ---
+ 
+
+From e61de0e545f041e24431113a842ba7c7be272813 Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Sat, 9 Nov 2019 07:40:29 +0900
+Subject: [PATCH 3/3] Update ecip-1043.md
+
+---
+ _specs/ecip-1043.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-1043.md b/_specs/ecip-1043.md
+index a4f2b57..79f2f21 100644
+--- a/_specs/ecip-1043.md
++++ b/_specs/ecip-1043.md
+@@ -6,7 +6,7 @@ author: Cody Burns <cody.w.burns@gmail.com>, Wolf Spraul <wolf@linzhi.io>
+ status: Draft
+ type: Standard
+ category: Core
+-iscussions-to: https://github.com/ethereumclassic/ECIPs/issues/11
++discussions-to: https://github.com/ethereumclassic/ECIPs/issues/11
+ created: 2018-04-16
+ ---
+ 

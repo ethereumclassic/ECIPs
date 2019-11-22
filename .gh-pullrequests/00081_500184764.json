@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/500184764",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/81#issuecomment-500184764",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/81",
+    "id": 500184764,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUwMDE4NDc2NA==",
+    "user": {
+      "login": "TokenHash",
+      "id": 29529586,
+      "node_id": "MDQ6VXNlcjI5NTI5NTg2",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/29529586?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TokenHash",
+      "html_url": "https://github.com/TokenHash",
+      "followers_url": "https://api.github.com/users/TokenHash/followers",
+      "following_url": "https://api.github.com/users/TokenHash/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TokenHash/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TokenHash/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TokenHash/subscriptions",
+      "organizations_url": "https://api.github.com/users/TokenHash/orgs",
+      "repos_url": "https://api.github.com/users/TokenHash/repos",
+      "events_url": "https://api.github.com/users/TokenHash/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TokenHash/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-06-09T04:47:49Z",
+    "updated_at": "2019-06-09T04:47:49Z",
+    "author_association": "MEMBER",
+    "body": "If Agharta will be in ~Dec 2019, I propose Atzlán for September 2020.\r\n\r\nRationale: To minimize risks and expanding the \"argument surface\".\r\n\r\nSeparately, I agree with @zmitton re: \r\n\r\n`I think we should oppose the following EIPs from Istanbul:\r\n\r\nEIP-1057: ProgPoW, a Programmatic Proof-of-Work\r\nEIP-2029 and EIP-2031 State Rent`\r\n\r\nFinally, I propose to consider adding:\r\n\r\nECIP-1043: Fixed DAG limit restriction\r\nECIP-1046: NiPoPoW*\r\nECIP-1047: Reduce gas limit\r\nECIP-1053: Add OpenRPC Service Discovery To JSON-RPC Services (unless these are already integrated)\r\n\r\n*During this time we can debate whether to not do NiPoPoWs and do flyClient as per @zmitton.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/500184764/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

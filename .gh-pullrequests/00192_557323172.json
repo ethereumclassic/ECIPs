@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/557323172",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/192#issuecomment-557323172",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/192",
+    "id": 557323172,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1NzMyMzE3Mg==",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-21T23:45:13Z",
+    "updated_at": "2019-11-21T23:45:13Z",
+    "author_association": "MEMBER",
+    "body": "@bobsummerwill The direction is fine for me. But I'll just need to do some tidy up work on the actual specifications before merging, as the thing presented in this PR is, IMO, unreadable.\r\n\r\nOn a side note, while 39-UNGAS itself currently looks not complex, it may actually require some refactorings in EVM, not yet sure the amount of work. I'll explain in more details about what I mean in this case. Specifically, there're some corner cases that must be clearly specified.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/557323172/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

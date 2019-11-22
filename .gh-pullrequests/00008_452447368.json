@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/452447368",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/8#issuecomment-452447368",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/8",
+    "id": 452447368,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1MjQ0NzM2OA==",
+    "user": {
+      "login": "p3c-bot",
+      "id": 40745785,
+      "node_id": "MDQ6VXNlcjQwNzQ1Nzg1",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/40745785?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/p3c-bot",
+      "html_url": "https://github.com/p3c-bot",
+      "followers_url": "https://api.github.com/users/p3c-bot/followers",
+      "following_url": "https://api.github.com/users/p3c-bot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/p3c-bot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/p3c-bot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/p3c-bot/subscriptions",
+      "organizations_url": "https://api.github.com/users/p3c-bot/orgs",
+      "repos_url": "https://api.github.com/users/p3c-bot/repos",
+      "events_url": "https://api.github.com/users/p3c-bot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/p3c-bot/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-08T20:53:01Z",
+    "updated_at": "2019-01-08T22:08:13Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "@saturn-network - when it comes to ASICs, even the smallest difference can cause a complete redesign of a chip. Please read the article below, to see exactly what the differences between SHA3 and Keccak256 are (has to do with padding of the input):\r\n\r\nhttps://ethereum.stackexchange.com/questions/550/which-cryptographic-hash-function-does-ethereum-use\r\n\r\nECIP-1049 is for Keccak256 to be adopted, not SHA3. I fully expect FPGA mining to become a thing, but believe that it will be at parity with graphics card for at leas 12 months, more likely closer to 24. If we do nothing right now, Ethash is already ASIC'd as it is.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/452447368/reactions",
+      "total_count": 1,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

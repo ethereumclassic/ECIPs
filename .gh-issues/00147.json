@@ -1,0 +1,60 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/147",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/147/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/147/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/147/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/147",
+    "id": 509613196,
+    "node_id": "MDU6SXNzdWU1MDk2MTMxOTY=",
+    "number": 147,
+    "title": "invoke-signer",
+    "user": {
+      "login": "zmitton",
+      "id": 6954889,
+      "node_id": "MDQ6VXNlcjY5NTQ4ODk=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6954889?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zmitton",
+      "html_url": "https://github.com/zmitton",
+      "followers_url": "https://api.github.com/users/zmitton/followers",
+      "following_url": "https://api.github.com/users/zmitton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zmitton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zmitton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zmitton/subscriptions",
+      "organizations_url": "https://api.github.com/users/zmitton/orgs",
+      "repos_url": "https://api.github.com/users/zmitton/repos",
+      "events_url": "https://api.github.com/users/zmitton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zmitton/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 3,
+    "created_at": "2019-10-20T15:50:01Z",
+    "updated_at": "2019-10-24T19:17:58Z",
+    "closed_at": null,
+    "author_association": "CONTRIBUTOR",
+    "body": "Discussion section for `invoke-signer` proposal\r\n\r\nMarkdown view of spec 👉: https://github.com/ethereumclassic/ECIPs/blob/9791c0b59582a2ed80d915afbf410bc104de20ea/_specs/invoke-signer.md",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/147/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

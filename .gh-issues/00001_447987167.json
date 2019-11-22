@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/447987167",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/1#issuecomment-447987167",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/1",
+    "id": 447987167,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0Nzk4NzE2Nw==",
+    "user": {
+      "login": "phyro",
+      "id": 157733,
+      "node_id": "MDQ6VXNlcjE1NzczMw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/157733?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/phyro",
+      "html_url": "https://github.com/phyro",
+      "followers_url": "https://api.github.com/users/phyro/followers",
+      "following_url": "https://api.github.com/users/phyro/following{/other_user}",
+      "gists_url": "https://api.github.com/users/phyro/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/phyro/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/phyro/subscriptions",
+      "organizations_url": "https://api.github.com/users/phyro/orgs",
+      "repos_url": "https://api.github.com/users/phyro/repos",
+      "events_url": "https://api.github.com/users/phyro/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/phyro/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-12-17T20:27:46Z",
+    "updated_at": "2018-12-17T20:27:46Z",
+    "author_association": "MEMBER",
+    "body": "I'll take it",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/447987167/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

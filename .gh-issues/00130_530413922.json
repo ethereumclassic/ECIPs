@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/530413922",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/130#issuecomment-530413922",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/130",
+    "id": 530413922,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUzMDQxMzkyMg==",
+    "user": {
+      "login": "malefol7",
+      "id": 45095704,
+      "node_id": "MDQ6VXNlcjQ1MDk1NzA0",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/45095704?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/malefol7",
+      "html_url": "https://github.com/malefol7",
+      "followers_url": "https://api.github.com/users/malefol7/followers",
+      "following_url": "https://api.github.com/users/malefol7/following{/other_user}",
+      "gists_url": "https://api.github.com/users/malefol7/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/malefol7/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/malefol7/subscriptions",
+      "organizations_url": "https://api.github.com/users/malefol7/orgs",
+      "repos_url": "https://api.github.com/users/malefol7/repos",
+      "events_url": "https://api.github.com/users/malefol7/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/malefol7/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-09-11T14:44:43Z",
+    "updated_at": "2019-09-11T14:44:43Z",
+    "author_association": "NONE",
+    "body": "Hi everyone,\r\ncominers.org is ready, update performed successfully, parity 2.5.7 stable",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/530413922/reactions",
+      "total_count": 1,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

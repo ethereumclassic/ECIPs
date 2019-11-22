@@ -1,0 +1,358 @@
+From 001fd74d601ef7905ce52eddc5fa0b5e2f37307e Mon Sep 17 00:00:00 2001
+From: bobthegrownup <47165999+bobthegrownup@users.noreply.github.com>
+Date: Tue, 6 Aug 2019 18:14:00 +0800
+Subject: [PATCH 1/8] Create ECIP-dean-comms
+
+---
+ ECIP-dean-comms | 133 ++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 133 insertions(+)
+ create mode 100644 ECIP-dean-comms
+
+diff --git a/ECIP-dean-comms b/ECIP-dean-comms
+new file mode 100644
+index 0000000..36deac7
+--- /dev/null
++++ b/ECIP-dean-comms
+@@ -0,0 +1,133 @@
++# Communicating with 3rd parties
++
++    ECIP: ?
++    Author: Dean Pappas, deancpappas@gmail.com
++    Status: Draft
++    Type: Informational
++    Created: 2019-08-06
++
++## Abstract
++
++A process for communicating high priority updates and events to 3rd parties 
++
++## Motivation
++
++One of the biggest issues for coordinated decentralized network upgrades (ie hard fork) is disseminating this information to 3rd parties. As it stands, multiple entities can be contacting 3rd party organizations as “official” representatives, recommending different clients and actions, or even publishing conflicting information that can lead to centralization, network splitting, and other systemic issues caused by this lack of coordination. 
++
++There can also be new processes that come out as a result of this, ie a “safe list” of 3rd party organizations. It is not the purpose of this ECIP to outline these.
++
++
++## Specification
++
++This process is comprised of 3 parts
++
++1) Representative Selection
++2) Message Construction
++3) Channels
++
++### Representative Selection
++
++Each Client (geth/multigeth/parity/mantis) should have 1 representative selected to help in the outreach process.  In addition, there should be 2 representatives voted by the Client representatives that are unaffiliated with any of the Organizations.
++
++This selection happens at the “Final Call” of the event.
++
++*For example, at the Final Call of Atlantis, the following representatives are selected:*
++1. ETCLabs – Christian
++2. ETCCoop – Yaz
++3. Parity – Wei
++4. IOHK – Kevin
++5. Community 1 – Donald
++6. Community 2 – Roy
++
++
++### Message Construction
++
++During Final Call, the author for the message will be assigned to one of the unaffiliated representatives. There will also be a send date agreed upon. The recommended send date is 6 weeks before the event. The draft will be submitted to the representatives no later than 1 week before the send date. 
++
++*Example Message: Initial Communications Setup*
++
++*Hi [Contact Name]*
++
++*I wanted to reach out and setup a technical contact at [Org] for Ethereum Classic. We are gearing up for our Atlantis Hardfork and want to ensure a smooth upgrade with all of our [OrgType] partners.* 
++
++*I'll be sending you the official announcement details within the next couple of weeks, but I wanted to make sure this is your best contact detail and see if there is anyone else on your team that needs to be involved.*
++
++*Looking forward to our continued work together and a successful hard fork!*
++
++### Channels
++
++A channel is defined as a contact name and contact medium, with a very high likelihood of response within 48 hours. 
++
++2 spreadsheets are required: **Contact List** and **Update Status** 
++
++**Contact List**: the official communications channels for all 3rd parties. This must remain semi-private to protect  3rd parties from spam. The entries are updated by the last contact to have a successful response from the Organization. 
++
++*The suggested spreadsheet format* 
++
++`Org | OrgType | Contact Name | Contact Medium | Last Contact | Last Contact By`
++
++*OrgTypes:*
++- Exchange
++- Miner
++- Node
++- Wallet
++- Publication
++
++*Example entry*
++
++- F2Pool | Miner | Thomas | Wechat - @thomasf2pool | 7/30/2019 | Community 1 – Donald
++- Coinbase | Exchange | Bill | Email – bill@coinbase.com | 7/25/2019 | IOHK – Kevin
++- Coineal | Exchange | None | None | 7/20/2019 | ETCCoop - Yaz
++
++
++**Update Status:** a temporary spreadsheet used to coordinate communications for a specific update/event
++
++*The suggested spreadsheet format*
++
++`Org | Rep 1 | Rep 2 | Status` 
++
++*Status Types*
++
++- Complete: acknowledged receipt of the communication
++- InProgress1: 1st 2 weeks of attempts, handled by Rep 1
++- InProgress2: 2nd 2 weeks of attempts, handled by Rep 2
++- Failed: no response after 4 weeks of attempts
++
++*Example entry*
++
++- F2Pool | Community 1 – Donald | ETCLabs – Christian | Complete
++- Coinbase | IOHK – Kevin | Community 2 – Roy | InProgress1 
++
++
++
++#### Channel Use
++
++After message construction, a “Update Status” spreadsheet is created. Each Representative fills in their name under *Rep1* for every “Org” they are the “Last Contact By”. Rep 2 is assigned by *Rep1* or done on a volunteer basis, whichever occurs first. 
++
++Outreach begins using the last established channel and Status becomes *InProgress1*. During this phase, outreach can extend to different mediums if there is no response within the 1st week.  At the end of the 2nd week, if there is no successful response, status moves to *InProgress2* and *Rep2* begins outreach process, following the same protocol. After 4 weeks of attempts with no response, the status is set to *Failed* and the “Contact List” entry is updated to “No Contact” and “Last Contact” is set to last attempt date and “Contact By” is set to *Rep2*.
++
++Every outreach will include another representative
++
++*Example*
++
++- Email: cc’ing another Rep
++- WeChat: group chat
++- Ticket: cc’ing and including another Rep’s contact details in the submission
++
++Successful responses are marked as “Success” in the “Update Status” sheet and the “Contact List” is updated.
++
++
++#### Channel Maintenance
++
++To prevent out of date information in the contact list, the contacts will be refreshed with a generic outreach every month. This outreach will be handled by the last Contact By on the contact list. Adding new contacts would organically occur and there is no need to remove old ones.
++
++
++### Implementation
++
++The first iteration of this process is the most difficult, as the Contact List is being formed from scratch. 
++
++Representatives are selected once this ECIP is accepted
++
++Once a message has been constructed, the steps would emulate the normal process. Any existing contact list can act as a starting point, with the Representatives filling in information to the best of their abilities.  
++
++
+
+From 56d29084a21e692408f0c47ea7b8fef6b4ae3124 Mon Sep 17 00:00:00 2001
+From: bobthegrownup <47165999+bobthegrownup@users.noreply.github.com>
+Date: Wed, 7 Aug 2019 07:15:23 +0800
+Subject: [PATCH 2/8] Update ECIP-dean-comms
+
+Co-Authored-By: Talha Cross <47772477+soc1c@users.noreply.github.com>
+---
+ ECIP-dean-comms | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/ECIP-dean-comms b/ECIP-dean-comms
+index 36deac7..64150b3 100644
+--- a/ECIP-dean-comms
++++ b/ECIP-dean-comms
+@@ -1,6 +1,6 @@
+ # Communicating with 3rd parties
+ 
+-    ECIP: ?
++    ECIP: 1064
+     Author: Dean Pappas, deancpappas@gmail.com
+     Status: Draft
+     Type: Informational
+
+From d47afa0289b910a5925bdce1222a36f6ae0dee97 Mon Sep 17 00:00:00 2001
+From: Wei Tang <accounts@that.world>
+Date: Wed, 7 Aug 2019 08:33:21 +0200
+Subject: [PATCH 3/8] Use frontmatter header format
+
+---
+ ECIP-dean-comms | 16 +++++++++-------
+ 1 file changed, 9 insertions(+), 7 deletions(-)
+
+diff --git a/ECIP-dean-comms b/ECIP-dean-comms
+index 64150b3..9c41b5e 100644
+--- a/ECIP-dean-comms
++++ b/ECIP-dean-comms
+@@ -1,10 +1,12 @@
+-# Communicating with 3rd parties
+-
+-    ECIP: 1064
+-    Author: Dean Pappas, deancpappas@gmail.com
+-    Status: Draft
+-    Type: Informational
+-    Created: 2019-08-06
++---
++lang: en
++ecip: 1064
++title: Communicating with 3rd parties
++status: Draft
++type: Informational
++author: Dean Pappas (deancpappas@gmail.com)
++created: 2019-08-06
++---
+ 
+ ## Abstract
+ 
+
+From c89ddc049c385922045d8becb69b2fb531132344 Mon Sep 17 00:00:00 2001
+From: Wei Tang <accounts@that.world>
+Date: Wed, 7 Aug 2019 08:34:24 +0200
+Subject: [PATCH 4/8] Rename ECIP-dean-comms to _specs/ecip-1064.md
+
+---
+ ECIP-dean-comms => _specs/ecip-1064.md | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename ECIP-dean-comms => _specs/ecip-1064.md (100%)
+
+diff --git a/ECIP-dean-comms b/_specs/ecip-1064.md
+similarity index 100%
+rename from ECIP-dean-comms
+rename to _specs/ecip-1064.md
+
+From 37b9a0151cd1e327f7000d7e09bae95781cc469d Mon Sep 17 00:00:00 2001
+From: bobthegrownup <47165999+bobthegrownup@users.noreply.github.com>
+Date: Wed, 7 Aug 2019 23:41:33 +0800
+Subject: [PATCH 5/8] Update _specs/ecip-1064.md
+
+Co-Authored-By: Wei Tang <accounts@that.world>
+---
+ _specs/ecip-1064.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-1064.md b/_specs/ecip-1064.md
+index 9c41b5e..d33c2aa 100644
+--- a/_specs/ecip-1064.md
++++ b/_specs/ecip-1064.md
+@@ -3,7 +3,7 @@ lang: en
+ ecip: 1064
+ title: Communicating with 3rd parties
+ status: Draft
+-type: Informational
++type: Meta
+ author: Dean Pappas (deancpappas@gmail.com)
+ created: 2019-08-06
+ ---
+
+From ad41fdb315d0e46fd9cbfabdf9f6b63fce9f58c6 Mon Sep 17 00:00:00 2001
+From: bobthegrownup <47165999+bobthegrownup@users.noreply.github.com>
+Date: Fri, 9 Aug 2019 22:15:24 +0800
+Subject: [PATCH 6/8] Update ecip-1064.md
+
+---
+ _specs/ecip-1064.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/_specs/ecip-1064.md b/_specs/ecip-1064.md
+index d33c2aa..7bbc266 100644
+--- a/_specs/ecip-1064.md
++++ b/_specs/ecip-1064.md
+@@ -5,6 +5,7 @@ title: Communicating with 3rd parties
+ status: Draft
+ type: Meta
+ author: Dean Pappas (deancpappas@gmail.com)
++discussions-to: Community Discord #ecips
+ created: 2019-08-06
+ ---
+ 
+
+From 1a386162edf15e29193e982773b5295522081e0c Mon Sep 17 00:00:00 2001
+From: bobthegrownup <47165999+bobthegrownup@users.noreply.github.com>
+Date: Fri, 9 Aug 2019 22:18:53 +0800
+Subject: [PATCH 7/8] Update ecip-1064.md
+
+---
+ _specs/ecip-1064.md | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+
+diff --git a/_specs/ecip-1064.md b/_specs/ecip-1064.md
+index 7bbc266..a9fd681 100644
+--- a/_specs/ecip-1064.md
++++ b/_specs/ecip-1064.md
+@@ -30,15 +30,15 @@ This process is comprised of 3 parts
+ 
+ ### Representative Selection
+ 
+-Each Client (geth/multigeth/parity/mantis) should have 1 representative selected to help in the outreach process.  In addition, there should be 2 representatives voted by the Client representatives that are unaffiliated with any of the Organizations.
++Each Client (geth/multigeth/parity/mantis) should have 1 representative selected to help in the outreach process.  In addition, there should be 2 representatives voted by the Client representatives that are unaffiliated with any of the Clients.
+ 
+ This selection happens at the “Final Call” of the event.
+ 
+ *For example, at the Final Call of Atlantis, the following representatives are selected:*
+-1. ETCLabs – Christian
+-2. ETCCoop – Yaz
++1. Geth – Christian
++2. Multigeth – Yaz
+ 3. Parity – Wei
+-4. IOHK – Kevin
++4. Mantis – Kevin
+ 5. Community 1 – Donald
+ 6. Community 2 – Roy
+ 
+@@ -79,7 +79,7 @@ A channel is defined as a contact name and contact medium, with a very high like
+ *Example entry*
+ 
+ - F2Pool | Miner | Thomas | Wechat - @thomasf2pool | 7/30/2019 | Community 1 – Donald
+-- Coinbase | Exchange | Bill | Email – bill@coinbase.com | 7/25/2019 | IOHK – Kevin
++- Coinbase | Exchange | Bill | Email – bill@coinbase.com | 7/25/2019 | Mantis – Kevin
+ - Coineal | Exchange | None | None | 7/20/2019 | ETCCoop - Yaz
+ 
+ 
+@@ -98,8 +98,8 @@ A channel is defined as a contact name and contact medium, with a very high like
+ 
+ *Example entry*
+ 
+-- F2Pool | Community 1 – Donald | ETCLabs – Christian | Complete
+-- Coinbase | IOHK – Kevin | Community 2 – Roy | InProgress1 
++- F2Pool | Community 1 – Donald | Geth – Christian | Complete
++- Coinbase | Mantis – Kevin | Community 2 – Roy | InProgress1 
+ 
+ 
+ 
+
+From dd196bfa70707359ff2c1d5fa4c48abbfffe1ed8 Mon Sep 17 00:00:00 2001
+From: bobthegrownup <47165999+bobthegrownup@users.noreply.github.com>
+Date: Mon, 12 Aug 2019 02:52:51 +0800
+Subject: [PATCH 8/8] Update ecip-1064.md
+
+---
+ _specs/ecip-1064.md | 9 +++++++--
+ 1 file changed, 7 insertions(+), 2 deletions(-)
+
+diff --git a/_specs/ecip-1064.md b/_specs/ecip-1064.md
+index a9fd681..e1661f4 100644
+--- a/_specs/ecip-1064.md
++++ b/_specs/ecip-1064.md
+@@ -32,7 +32,12 @@ This process is comprised of 3 parts
+ 
+ Each Client (geth/multigeth/parity/mantis) should have 1 representative selected to help in the outreach process.  In addition, there should be 2 representatives voted by the Client representatives that are unaffiliated with any of the Clients.
+ 
+-This selection happens at the “Final Call” of the event.
++This selection happens during Final Call of Hard Fork Meta ECIP or when a "Black Swan" event occurs. 
++
++*Examples of "Black Swan" events are:*
++
++- 51% attack
++- SHA256 breaking
+ 
+ *For example, at the Final Call of Atlantis, the following representatives are selected:*
+ 1. Geth – Christian
+@@ -45,7 +50,7 @@ This selection happens at the “Final Call” of the event.
+ 
+ ### Message Construction
+ 
+-During Final Call, the author for the message will be assigned to one of the unaffiliated representatives. There will also be a send date agreed upon. The recommended send date is 6 weeks before the event. The draft will be submitted to the representatives no later than 1 week before the send date. 
++The author for the message will be assigned to one of the unaffiliated representatives. There will also be a send date agreed upon. The recommended send date for a Hard Fork is 6 weeks, and immediately for a "Black Swan" event.  The draft will be submitted to the representatives no later than 1 week before the send date. 
+ 
+ *Example Message: Initial Communications Setup*
+ 

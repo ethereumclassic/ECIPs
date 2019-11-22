@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/552067393",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/163#issuecomment-552067393",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/163",
+    "id": 552067393,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MjA2NzM5Mw==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-09T05:09:47Z",
+    "updated_at": "2019-11-09T05:09:47Z",
+    "author_association": "MEMBER",
+    "body": "\"Allowing Apache 2.0 as the root license so ETC has a default option, but having a more extended list in ECIP-1000 that allows devs to use alternatives, but perhaps post them in another repo or site e.g. ecips.that.world as @sorpaas has done in the past.\"\r\n\r\nAs long as those other repos are suitably constrained to have to use one of a very short list of acceptable alternatives, which I think likely boils down to only Apache 2.0 or the new Chinese license.   So maybe we end up with another repo for proposals using that license, like @kimisan has said he would prefer?   But we really don't want loads of repos, because it makes it horrible for people to work out where everything is.\r\n\r\nAlso - even just to add the Apache 2.0 license in the root here, we still need to get consent from the previous contributors - with my spreadsheet and Donald's getting close to that already.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/552067393/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

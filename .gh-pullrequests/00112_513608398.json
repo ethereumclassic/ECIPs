@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/513608398",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/112#issuecomment-513608398",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/112",
+    "id": 513608398,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUxMzYwODM5OA==",
+    "user": {
+      "login": "26jesse",
+      "id": 52479948,
+      "node_id": "MDQ6VXNlcjUyNDc5OTQ4",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/52479948?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/26jesse",
+      "html_url": "https://github.com/26jesse",
+      "followers_url": "https://api.github.com/users/26jesse/followers",
+      "following_url": "https://api.github.com/users/26jesse/following{/other_user}",
+      "gists_url": "https://api.github.com/users/26jesse/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/26jesse/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/26jesse/subscriptions",
+      "organizations_url": "https://api.github.com/users/26jesse/orgs",
+      "repos_url": "https://api.github.com/users/26jesse/repos",
+      "events_url": "https://api.github.com/users/26jesse/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/26jesse/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-07-22T01:29:56Z",
+    "updated_at": "2019-08-10T01:17:16Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "---\r\nlang: en\r\necip: 1063\r\ntitle: Ethereum Classic Integrated Decentralized Oracles and Smart Contracts\r\nauthor: Jesse Nguyen, <jessebaotruong@gmail.com>\r\ndiscussions-to: Community Discord #ecips\r\nstatus: Draft\r\ntype: Standard Track\r\ncreated: 2019-07-21\r\n---\r\n # Abstract\r\nImagine how we can use ETC having oracle features which can assist Dapps and ERC-223 tokens to accomplish their goals.\r\nAlthough decentralized oracles rely on a source of information, it does not have to be from a centralized source.\r\nIf an oracle is able to rely on multiple sources and is able to verify which information is the correct one, wouldn't it still work in a manner that is decentralized as possibly can?\r\nAn example would be academia sources for a research paper, we have multiple sources that cannot be used for reliable information such as journals and memoirs.\r\nHowever, with a decentralized oracle, it can then verify the reliability of an information and check if the sources have a track history of reliability such as from an academic institute.\r\nInformation that is considered unreliable such as a  journal or memoir can be verified to be reliable if the journalist has a history of accuracy and reliability.\r\nIf the person who wrote the memoir is the primary source and has the evidence through other reliable sources that he is there, then the oracle can consider his memoir as a reliable source of information.\r\nAfterwards, then feed it to the smart contract to come with a reliable answer of what actually happened.\r\n  ## Motivation\r\nTo make better smart contracts even smarter than they are, the decentralized oracle can feed reliable information to the smart contract.\r\nA integrated decentralized oracle is useful for the Ethereum Classic network because relying on a third party for oracles means they can modify the code to suit the output.\r\nIntegrated decentralized oracles create a tool that can better assist in problem solving beyond just academia, but has real life use cases that can be used for derivatives markets, gambling, accounting, and finance.\r\nAn Ethereum Classic Decentralized oracle can be used not only for ETC projects, but can be used for other smart projects.\r\nEthereum Classic's precedent as the first to integrate oracles and smart contracts means other smart contract platforms would look for an oracle solution that specifically address their issues.\r\n  ## Specification\r\n   ### Decentralized Oracle Dapp\r\nBy becoming a Dapp, the decentralized Oracle can work independent of the network.\r\nThis can be off-chain and help assist the smart contract.\r\n ## Oracle Function as Part of ETC Network\r\nEthereum Classic can run the oracle within the limitations of its network and the smart contract.\r\nThe oracle becomes just a tool of a smart contract to decide the information to input to the smart contract.\r\n   ### The Oracle as a Separate Layer or Separate Network\r\nThe oracle can act as a network, similar to the Lightening Network for Bitcoin, but instead the oracle network would act to make smart contracts more efficient and cheaper.\r\nBy using the decentralized oracle, less waste of transactions on the Ethereum Classic network would occur.\r\nBecause information is sorted from the decentralized oracle, the smart contract can function more efficiently.\r\n # Rationale\r\nTo further provide reliable information to the smart contract and to solve real world problems.\r\nThis would create a greater decentralized network that provides reliable answers.\r\n # Implementation\r\nAll these examples of how we can use a decentralized oracle can be run with ETC gwei.\r\nWhether it will be a Dapp or as a part of the ETC or as a separate network/layer, they will use ETC gwei to power the decentralized oracle.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/513608398/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

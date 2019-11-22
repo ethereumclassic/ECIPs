@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/553046507",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/13#issuecomment-553046507",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/13",
+    "id": 553046507,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MzA0NjUwNw==",
+    "user": {
+      "login": "prestwich",
+      "id": 10149425,
+      "node_id": "MDQ6VXNlcjEwMTQ5NDI1",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10149425?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/prestwich",
+      "html_url": "https://github.com/prestwich",
+      "followers_url": "https://api.github.com/users/prestwich/followers",
+      "following_url": "https://api.github.com/users/prestwich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/prestwich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/prestwich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/prestwich/subscriptions",
+      "organizations_url": "https://api.github.com/users/prestwich/orgs",
+      "repos_url": "https://api.github.com/users/prestwich/repos",
+      "events_url": "https://api.github.com/users/prestwich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/prestwich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-12T18:39:04Z",
+    "updated_at": "2019-11-12T18:39:04Z",
+    "author_association": "NONE",
+    "body": "Hi friends, coming into this as a bit of an outsider. Had a conversation in person with Liz the other day and she pointed me here.\r\n\r\nETC seems to be relying on proof of work to create consensus without fulfilling Nakamoto Consensus's security assumptions. An inherent requirement of PoW consensus is that the heaviest valid chain is expensive to produce. This is not currently true for ETC. \r\n\r\nThis means that we're missing out on all the benefits of PoW, and getting nothing in return. Our consensus is brittle to outside actors, light client verification is expensive, and interoperability is expensive. \r\n\r\n### The current situation is untenable\r\n- ETH hashrate is about 20x larger than ETC.\r\n    - [source](https://coinmetrics.io/charts/#assets=eth,etc_log=false_roll=30_left=DiffMean_zoom=1279411200000,1573430400000)\r\n    - This means that ~5% of ETH hashrate can reorg ETC.\r\n- There are 4 Ethereum pools with >6% hashrate\r\n    - [source](https://etherscan.io/stat/miner?range=7&blocktype=blocks)\r\n    - Any one of these pools could 51% attack ETC at will.\r\n- The Ethereum block reward is about $400.\r\n    - So 5% of the hashrate earns about $80 / minute\r\n- The ETC block reward is about $20\r\n    - So 100% of block rewards is about $80 / minute\r\n    - This means that a miner would be about breakeven on reorging ETC, just from block rewards\r\n  \r\nInterestingly, the market will converge to this result as long as ETC and ETH compete for the same hardware. Market equlibrium makes the less-valuable chain insecure whenever 2 or more chains compete for the same hardware. This implies that it is critical not to compete with Ethereum.\r\n\r\nThe cost of attack on ETC for existing ETH mining pools is measured in the thousands of dollars. I could probably personally afford a deep reorg. The current situation is untenable. \r\n\r\n### ASIC-resistance considered harmful\r\n\r\nAll \"ASIC-resistant\" coins end either with ASICs (ethereum, litecoin, decred, dash, grin, etc.etc.etc.) or with regular hard forks (monero). As @stevanlohja points out, ETC is not Monero, and doesn't want to give devs ongoing control over the PoW algorithm.\r\n\r\nThe one lasting effect of ASIC-resistance is that light client verification of these chains is inordinately expensive. As @phyro and @zmitton point out, light client verification of ETH and ETC is bizarrely impractical. Beyond the bandwidth costs, the verification cost of ethash is literally millions of times more expensive than verification of SHA2 or keccak256. \r\n\r\nThis has much wider impact than off-chain verifiers. The other thing it prevents (and why I popped into this thread) is cross-chain communication. Direct communication relies on light client verification of the remote consensus process Verification of keccak256 in EVM costs tens of gas. Verification of ethash costs millions. Cross-chain communication is not currently possible because the PoW is too expensive to verify.\r\n\r\nSo if the main goal is impossible to achieve, there are negative side-effects, and the pursuit results in either failure or developer capture or the chain, why should we pursue ASIC-resistance?\r\n\r\n### What does an algorithm change do?\r\n\r\n- Prevent immediate attack by outside actors\r\n- Temporary drop in hashrate, but not necessarily network security\r\n- Longterm increase in resistance to outside attacks as ASICs come online\r\n- Cheaper light clients\r\n- Practical interoperability solutions\r\n- Direct chain introspection my smart contracts\r\n    - inspecting blocks outside of the most recent 256\r\n    - inspecting private state in remote contracts\r\n\r\n### Is keccak256 suitable?\r\n\r\nYes. It is well-known and widely implemented. No major chain uses it. ETC will be the most valuable keccak256 chain. Semi-optimized GPU implementations exist. It is available on most chains we will want to interoperate with. It is extremely unlikely to be broken or backdoored.\r\n\r\nOther suitable options might include\r\n- double or triple keccak256\r\n    - Bitcoin use double-sha2 so that final hash preimages are always short\r\n- any combination of 2-5 well-known hash functions\r\n    - e.g. keccak256(sha2(blake2b(header)))\r\n    - avoid sha3, as it is not deployed on ETC or most other chains\r\n\r\n### Summary\r\n\r\nChange algorithms. Keccak256 is one of the better choices available.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/553046507/reactions",
+      "total_count": 22,
+      "+1": 10,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 6,
+      "rocket": 5,
+      "eyes": 1
+    }
+  }

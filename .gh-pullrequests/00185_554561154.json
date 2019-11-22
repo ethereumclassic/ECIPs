@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/554561154",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/185#issuecomment-554561154",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/185",
+    "id": 554561154,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1NDU2MTE1NA==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-15T22:56:00Z",
+    "updated_at": "2019-11-15T22:56:00Z",
+    "author_association": "MEMBER",
+    "body": "Something I am thinking here, which is maybe not clear to others, is that having contradictory plans within the ECIP process is fine.   Just fine.   Maybe for years even.   Multiple plans, all being worked on.\r\n\r\nYou only need to resolve that stuff when it comes to decision points on what goes into a hard-fork.  We are not at that decision point for the March fork yet.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/554561154/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

@@ -1,0 +1,83 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/154",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/154/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/154/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/154/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/154",
+    "id": 511535550,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0MzMxNzE1MTc2",
+    "number": 154,
+    "title": "invoke-signer draft 0",
+    "user": {
+      "login": "zmitton",
+      "id": 6954889,
+      "node_id": "MDQ6VXNlcjY5NTQ4ODk=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6954889?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zmitton",
+      "html_url": "https://github.com/zmitton",
+      "followers_url": "https://api.github.com/users/zmitton/followers",
+      "following_url": "https://api.github.com/users/zmitton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zmitton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zmitton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zmitton/subscriptions",
+      "organizations_url": "https://api.github.com/users/zmitton/orgs",
+      "repos_url": "https://api.github.com/users/zmitton/repos",
+      "events_url": "https://api.github.com/users/zmitton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zmitton/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 1154785139,
+        "node_id": "MDU6TGFiZWwxMTU0Nzg1MTM5",
+        "url": "https://api.github.com/repos/ethereumclassic/ECIPs/labels/status:%20draft",
+        "name": "status: draft",
+        "color": "ffffff",
+        "default": false,
+        "description": "draft stage - can be assigned ecip number and merged, but requires new PR to be Accepted"
+      },
+      {
+        "id": 1154785129,
+        "node_id": "MDU6TGFiZWwxMTU0Nzg1MTI5",
+        "url": "https://api.github.com/repos/ethereumclassic/ECIPs/labels/type:%20meta",
+        "name": "type: meta",
+        "color": "cfd3d7",
+        "default": false,
+        "description": "Accepted best practices"
+      }
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2019-10-23T19:49:25Z",
+    "updated_at": "2019-10-28T23:26:20Z",
+    "closed_at": "2019-10-28T22:22:20Z",
+    "author_association": "CONTRIBUTOR",
+    "pull_request": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/154",
+      "html_url": "https://github.com/ethereumclassic/ECIPs/pull/154",
+      "diff_url": "https://github.com/ethereumclassic/ECIPs/pull/154.diff",
+      "patch_url": "https://github.com/ethereumclassic/ECIPs/pull/154.patch"
+    },
+    "body": "Im looking into defining a spec to specifically invoke a user’s preferred wallet app for signing (a tx or arbitrary data)\r\n\r\nI think it's time for a standard that can accommodate the user to use a hardware wallet from a desktop browser dapp or open a separate wallet app from a mobile browser dapp etc...\r\n\r\nDiscussions to here please 👉: https://github.com/ethereumclassic/ECIPs/issues/147",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/154/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

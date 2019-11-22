@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/552202988",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/13#issuecomment-552202988",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/13",
+    "id": 552202988,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MjIwMjk4OA==",
+    "user": {
+      "login": "zmitton",
+      "id": 6954889,
+      "node_id": "MDQ6VXNlcjY5NTQ4ODk=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6954889?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zmitton",
+      "html_url": "https://github.com/zmitton",
+      "followers_url": "https://api.github.com/users/zmitton/followers",
+      "following_url": "https://api.github.com/users/zmitton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zmitton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zmitton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zmitton/subscriptions",
+      "organizations_url": "https://api.github.com/users/zmitton/orgs",
+      "repos_url": "https://api.github.com/users/zmitton/repos",
+      "events_url": "https://api.github.com/users/zmitton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zmitton/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-10T15:07:59Z",
+    "updated_at": "2019-11-10T15:13:59Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I agree with a lot of belfords sentiments above, and Donald's earlier calling it \"the nuclear option\", but **I still support 1049 because we have a real dire security concern**. It is currently so easy for more 51% attacks to occur, and such attacks (if repeated a couple more times), will likely kill the chain nearly completely as Alex has pointed out at the summit.\r\n\r\nStatistical finality is difficult enough to engineer around, but \"adversarial finality\" is untenable. Exchanges will begin to drop ETC for risk of what we have already seen. Individuals would not be wise to accept more than very small amounts of ETC as payment.\r\n\r\n1049 would not completely solve 51% attacks, _however_, it would allow cleaver software to be able to predict them: The specific attack we saw is something I'll call a \"surprise fork\", that is a new chain fork that is longer. There was no evidence of the surprise fork until the moment it was published. If this attack is attempted under 1049, there will likely be evidence beforehand. why?\r\n\r\nAs soon as ASICs exist for keccak256, they are incentivised to be turned on ASAP, and to continue mining around the clock with little downtime. Because of this dynamic, it is likely that the majority of all keccak ASICs that exist, will be mining ETC at all times. This is true currently for Bitcoin. At this very moment, likely greater than 90% of all sha256 ASICs hardware in exisntence are currently mining Bitcoin. \r\n\r\nNote that there is no easy way to _suddenly_ attain more hashpower without building more chips. Also note that the total hashpower in existence can conveniently be calculated (as `difficulty/blocktime`) since it is _all_ being directed at, and published to, its respective chain.\r\n\r\nSo in order to create a surprise fork, hashpower would have to be *borrowed* from the main chain, where it can be noticed as an unhealthy sudden (~50%) drop in hashpower. A simple light client would have this information readily available (including superlight flyclients), and could warn users that there is likely an attack underway. Exchanges could automatically halt ETC trading/withdraws in this scenario.\r\n\r\nLikely the attack won't even be attempted once this mitigation strategy is implemented, as it is very costly, and accomplishes nothing.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/552202988/reactions",
+      "total_count": 5,
+      "+1": 5,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

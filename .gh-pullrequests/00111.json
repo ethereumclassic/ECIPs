@@ -1,0 +1,66 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/111",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/111/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/111/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/111/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/111",
+    "id": 469891411,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0Mjk5MDEyOTY0",
+    "number": 111,
+    "title": "Adjusting ECIP types to the ECIP site format",
+    "user": {
+      "login": "TokenHash",
+      "id": 29529586,
+      "node_id": "MDQ6VXNlcjI5NTI5NTg2",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/29529586?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TokenHash",
+      "html_url": "https://github.com/TokenHash",
+      "followers_url": "https://api.github.com/users/TokenHash/followers",
+      "following_url": "https://api.github.com/users/TokenHash/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TokenHash/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TokenHash/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TokenHash/subscriptions",
+      "organizations_url": "https://api.github.com/users/TokenHash/orgs",
+      "repos_url": "https://api.github.com/users/TokenHash/repos",
+      "events_url": "https://api.github.com/users/TokenHash/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TokenHash/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2019-07-18T17:16:25Z",
+    "updated_at": "2019-07-24T14:52:22Z",
+    "closed_at": "2019-07-24T14:52:18Z",
+    "author_association": "MEMBER",
+    "pull_request": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/111",
+      "html_url": "https://github.com/ethereumclassic/ECIPs/pull/111",
+      "diff_url": "https://github.com/ethereumclassic/ECIPs/pull/111.diff",
+      "patch_url": "https://github.com/ethereumclassic/ECIPs/pull/111.patch"
+    },
+    "body": "To adjust to the new ecips.ethereumclassic.org website:\r\n\r\nI changed the old ECIP types which were \"Standard Track\", \"Process\" and \"Informational\" to the new ones which are:\r\n\r\n• Standard Track\r\n   -- Core\r\n   -- Networking\r\n   -- Interface\r\n   -- ECBP (analogous to \"ERC\" in Ethereum)\r\n• Meta\r\n• Informational\r\n\r\nI also added status terms `WIP` and `Active` to adjust them to our ECIP status reality, e.g. ECIP-1000 is `Active`.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/111/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

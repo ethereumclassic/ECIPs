@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/468015680",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/58#issuecomment-468015680",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/58",
+    "id": 468015680,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ2ODAxNTY4MA==",
+    "user": {
+      "login": "YazzyYaz",
+      "id": 9094204,
+      "node_id": "MDQ6VXNlcjkwOTQyMDQ=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9094204?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/YazzyYaz",
+      "html_url": "https://github.com/YazzyYaz",
+      "followers_url": "https://api.github.com/users/YazzyYaz/followers",
+      "following_url": "https://api.github.com/users/YazzyYaz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/YazzyYaz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/YazzyYaz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/YazzyYaz/subscriptions",
+      "organizations_url": "https://api.github.com/users/YazzyYaz/orgs",
+      "repos_url": "https://api.github.com/users/YazzyYaz/repos",
+      "events_url": "https://api.github.com/users/YazzyYaz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/YazzyYaz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-02-27T20:22:13Z",
+    "updated_at": "2019-02-27T20:22:13Z",
+    "author_association": "MEMBER",
+    "body": "@sorpaas I'm also thinking it might prove useful to adopt other improvement proposals and rebrand them as ECIPs with proper references to original authors and the original URLS.\r\n\r\nFor example, if we adopt an EIP, we can just label it as an ECIP-E. If we adopt an ECLIP, we can just label it as an ECIP-L. Naturally, then ECIPs are original community written proposals and the lettering applies to external improvement proposals.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/468015680/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

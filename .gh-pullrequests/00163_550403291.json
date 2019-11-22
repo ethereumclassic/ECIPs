@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550403291",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/163#issuecomment-550403291",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/163",
+    "id": 550403291,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MDQwMzI5MQ==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-06T16:59:33Z",
+    "updated_at": "2019-11-06T16:59:57Z",
+    "author_association": "MEMBER",
+    "body": "I would like a real name requirement too, because I suspect that DCOs with a pseudonym provide no legal protection - nullifying both the copyright and patent protections of the Apache 2.0 license and putting us in the same position as \"public domain\" for those contributions.\r\n\r\nBut maybe that makes no practical difference anyway?\r\n\r\nIt is only if a contribution from a bad actor gets all the way through to being accepted into the protocol that the damage can really happen.\r\n\r\nWe have never had any pseudonymous changes accepted into ETC.\r\n\r\nThe first ever pseudonymous change to be accepted into ETH would be ProgPOW.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550403291/reactions",
+      "total_count": 2,
+      "+1": 0,
+      "-1": 2,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

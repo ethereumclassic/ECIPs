@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550167270",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/165#issuecomment-550167270",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/165",
+    "id": 550167270,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MDE2NzI3MA==",
+    "user": {
+      "login": "26jesse",
+      "id": 52479948,
+      "node_id": "MDQ6VXNlcjUyNDc5OTQ4",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/52479948?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/26jesse",
+      "html_url": "https://github.com/26jesse",
+      "followers_url": "https://api.github.com/users/26jesse/followers",
+      "following_url": "https://api.github.com/users/26jesse/following{/other_user}",
+      "gists_url": "https://api.github.com/users/26jesse/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/26jesse/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/26jesse/subscriptions",
+      "organizations_url": "https://api.github.com/users/26jesse/orgs",
+      "repos_url": "https://api.github.com/users/26jesse/repos",
+      "events_url": "https://api.github.com/users/26jesse/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/26jesse/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-06T06:35:02Z",
+    "updated_at": "2019-11-06T06:35:02Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I consent\n\nOn Tue, Nov 5, 2019, 10:33 PM Talha Cross <notifications@github.com> wrote:\n\n> The only \"public domain please\" standout so far is @soc1c\n> <https://github.com/soc1c>, and that is a recommendation not a hard line,\n> as far as I can see?\n>\n> Yeah, it's a recommendation. That said, I believe specs require a\n> different licensing format than actual software. So you would have to\n> investigate Creative Commons or similar if you want to consider something\n> that is not Public Domain.\n>\n> —\n> You are receiving this because you were mentioned.\n> Reply to this email directly, view it on GitHub\n> <https://github.com/ethereumclassic/ECIPs/issues/165?email_source=notifications&email_token=AMQMPTGI32ZK7HSPQ3OTOH3QSJQNHA5CNFSM4JI7EFL2YY3PNVWWK3TUL52HS4DFVREXG43VMVBW63LNMVXHJKTDN5WW2ZLOORPWSZGOEDFODNA#issuecomment-550166964>,\n> or unsubscribe\n> <https://github.com/notifications/unsubscribe-auth/AMQMPTCXGXG7N2XUYK72QCTQSJQNHANCNFSM4JI7EFLQ>\n> .\n>\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550167270/reactions",
+      "total_count": 1,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

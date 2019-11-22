@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/453716507",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/8#issuecomment-453716507",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/8",
+    "id": 453716507,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1MzcxNjUwNw==",
+    "user": {
+      "login": "p3c-bot",
+      "id": 40745785,
+      "node_id": "MDQ6VXNlcjQwNzQ1Nzg1",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/40745785?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/p3c-bot",
+      "html_url": "https://github.com/p3c-bot",
+      "followers_url": "https://api.github.com/users/p3c-bot/followers",
+      "following_url": "https://api.github.com/users/p3c-bot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/p3c-bot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/p3c-bot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/p3c-bot/subscriptions",
+      "organizations_url": "https://api.github.com/users/p3c-bot/orgs",
+      "repos_url": "https://api.github.com/users/p3c-bot/repos",
+      "events_url": "https://api.github.com/users/p3c-bot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/p3c-bot/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-12T03:45:15Z",
+    "updated_at": "2019-01-12T03:45:15Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "@phyro There are two points you are making, one I agree with and one I disagree with:\r\n\r\n1. I agree that switching algorithms frequently is a bad idea. Every-time we do this it is very disruptive to the entire community, and changes need to be thoroughly tested in lab conditions before we make a drastic switch. Research has definitively proven that Keccak256 is currently the best hashing algorithm available, hence why it is SHA3 certified. I would trust SHA3 with my life. I am very skeptical Ethash is even safe against a determined opponent like a nationstate.\r\n\r\n2. The issue in the long run as I see it, is that friendly miners were not able to have more hashpower than hostile miners. With a more transparent mining algorithm, the market is on a much more level playing field. What Ethash has created is a market where incumbent manufacturers take advantage of poor documentation and confusion to gain a competitive advantage.\r\n\r\nKeccak 256 Documentation: https://keccak.team/files/Keccak-implementation-3.2.pdf\r\nEthash Documentation: https://github.com/ethereum/wiki/wiki/Ethash",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/453716507/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

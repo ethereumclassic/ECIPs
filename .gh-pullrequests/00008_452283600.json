@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/452283600",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/8#issuecomment-452283600",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/8",
+    "id": 452283600,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1MjI4MzYwMA==",
+    "user": {
+      "login": "drd34d",
+      "id": 30156189,
+      "node_id": "MDQ6VXNlcjMwMTU2MTg5",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/30156189?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/drd34d",
+      "html_url": "https://github.com/drd34d",
+      "followers_url": "https://api.github.com/users/drd34d/followers",
+      "following_url": "https://api.github.com/users/drd34d/following{/other_user}",
+      "gists_url": "https://api.github.com/users/drd34d/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/drd34d/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/drd34d/subscriptions",
+      "organizations_url": "https://api.github.com/users/drd34d/orgs",
+      "repos_url": "https://api.github.com/users/drd34d/repos",
+      "events_url": "https://api.github.com/users/drd34d/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/drd34d/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-08T12:37:12Z",
+    "updated_at": "2019-01-08T12:37:12Z",
+    "author_association": "NONE",
+    "body": "@saturn-network I used to be supportive of ProgPoW too but come to realize that if the algo can be programmatic, then so will the next gen of ASIC's. Like an hybrid of FPGA and ASIC. Thus, ProgPoW would be a temporary solution. ETH adopting progpow will definatelly be the necessary incentive for R&D of such hybrid.\r\n\r\nAlso, @saturn-network I wouldn't trust ETH chain as a verification point, for obvious reasons. Apparently there's a similar application on the Komodo network which used the BTC chain but I haven't read it properly yet.\r\n\r\n@p3c-bot - SHA3 ASIC design from 2012 \r\n - http://rijndael.ece.vt.edu/sha3/publications/DATE2012SHA3.pdf\r\n\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/452283600/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

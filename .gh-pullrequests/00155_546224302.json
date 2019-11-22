@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/546224302",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/155#issuecomment-546224302",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/155",
+    "id": 546224302,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU0NjIyNDMwMg==",
+    "user": {
+      "login": "developerkevin",
+      "id": 29807183,
+      "node_id": "MDQ6VXNlcjI5ODA3MTgz",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/29807183?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/developerkevin",
+      "html_url": "https://github.com/developerkevin",
+      "followers_url": "https://api.github.com/users/developerkevin/followers",
+      "following_url": "https://api.github.com/users/developerkevin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/developerkevin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/developerkevin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/developerkevin/subscriptions",
+      "organizations_url": "https://api.github.com/users/developerkevin/orgs",
+      "repos_url": "https://api.github.com/users/developerkevin/repos",
+      "events_url": "https://api.github.com/users/developerkevin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/developerkevin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-10-25T06:43:20Z",
+    "updated_at": "2019-10-25T06:43:20Z",
+    "author_association": "MEMBER",
+    "body": "Can we move the time (assuming it's the same as last) from 1PM UTC to 1:30 or even 2PM+ UTC?",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/546224302/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

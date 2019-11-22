@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/547223402",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/13#issuecomment-547223402",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/13",
+    "id": 547223402,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU0NzIyMzQwMg==",
+    "user": {
+      "login": "zmitton",
+      "id": 6954889,
+      "node_id": "MDQ6VXNlcjY5NTQ4ODk=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6954889?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zmitton",
+      "html_url": "https://github.com/zmitton",
+      "followers_url": "https://api.github.com/users/zmitton/followers",
+      "following_url": "https://api.github.com/users/zmitton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zmitton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zmitton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zmitton/subscriptions",
+      "organizations_url": "https://api.github.com/users/zmitton/orgs",
+      "repos_url": "https://api.github.com/users/zmitton/repos",
+      "events_url": "https://api.github.com/users/zmitton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zmitton/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-10-29T02:06:32Z",
+    "updated_at": "2019-10-29T14:00:49Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "(cross posting as i see discussion section has changed):\r\n\r\nI have a low-level optimization for the ECIP. It would be preferable to use the specific format (mentioned to Alex at the summit)\r\n\r\n```\r\n// unsealedBlockheader is the blockheader with a null nonce\r\ndigest = keccak256(concat(keccak256(unsealedBlockheader),32ByteNonce))\r\n// a \"winning\" digest is of course the thing that must start with lots of leading zeros\r\n// the \"sealed\" header is then made by inserting the nonce and re-RLP-encoding\r\n```\r\n - This optimizes the size of a PoW to be 64 bytes instead of the current 400+ bytes (because the PoW verification only requires the 2 items that were concatenated above)\r\n - It also ensures that the dedicated hardware/software is optimizing specifically keccak, because creating each new \"guess\" requires the minimal number of \"non-keccak\" steps (swapping the 32 byte nonce of a 64 byte bytearray). If the nonce was instead just 1 of the rlp items in the header, then creating another guess would entail a new RLP encoding step (of 400+ bytes) for each additional guess. ASICS would have to design RLP into the hardware to compete. Also selfish mining could become an advantage strategy since block headers can vary in size and larger headers would then take longer to mine on.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/547223402/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

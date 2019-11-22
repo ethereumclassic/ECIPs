@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/498397801",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/79#issuecomment-498397801",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/79",
+    "id": 498397801,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ5ODM5NzgwMQ==",
+    "user": {
+      "login": "zmitton",
+      "id": 6954889,
+      "node_id": "MDQ6VXNlcjY5NTQ4ODk=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6954889?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zmitton",
+      "html_url": "https://github.com/zmitton",
+      "followers_url": "https://api.github.com/users/zmitton/followers",
+      "following_url": "https://api.github.com/users/zmitton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zmitton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zmitton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zmitton/subscriptions",
+      "organizations_url": "https://api.github.com/users/zmitton/orgs",
+      "repos_url": "https://api.github.com/users/zmitton/repos",
+      "events_url": "https://api.github.com/users/zmitton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zmitton/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-06-03T19:41:56Z",
+    "updated_at": "2019-06-03T19:41:56Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Thank you for deciding to rescheduling the meeting. Its now clear that was the right choice. \r\nThoughts on EIP 170:\r\n\r\nFirst, unfortunately we cannot really solve this so easily with @pyskell's proposed soft fork. The problem is that some transactions can _result_ in the creation of a contract (when a function call does a CREATE operation). This can happen at any point during execution (for example at the very end of a large amount of computation). In such a case, it would break the ethics of our gas-mechanism to simple throw away the transaction without charging the sender. If we charge the sender, it's a hard-fork (because it's a new, previously invalid, on-chain behavior). (description of a [similar issue](http://hackingdistributed.com/2016/06/28/ethereum-soft-fork-dos-vector/))\r\n\r\nMy second observation is that the _real_ problem is not `CREATE`ing, but `CALL`ing. Calling apparently costs only (originally 40) now 700 gas (according to yellow paper update from oct 2016)\r\n![image](https://user-images.githubusercontent.com/6954889/58826358-875a0a80-860e-11e9-9ca1-3c5e95b145eb.png)\r\n*The constant gas cost does not properly reflect the variable required work of loading a contract from disk to memory*\r\nHere is a more direct proposal that came after EIP-170: https://github.com/ethereum/EIPs/issues/1662\r\nIt simply makes the gas-cost of loading the contract dependent on size, by caching the size data in a new field on the account. Actually I'm wondering if the caching is even necessary (should be able to just load the contract and determine size at that point?). I'll bring it up in that thread.\r\n\r\nThere is at least 1 way to achieve mitigation of the attack vector as a soft. One roundabout way would be to simply set the block-gas-limit to a lower amount like 1 or 2 million. This can be hardcoded (as a soft fork), or even be done simple by having all client developers change the default setting, and asking miners and mining pools to use that number. Many of us have advocated this [on other grounds](https://github.com/ethereumclassic/ECIPs/pull/6)\r\n\r\n#### Conclusion:\r\nAlthough there are more direct and/or less authoritative ways to fix this issue, I support moving forward with EIP-170 in its current form. I don't believe there are any significant mutability concerns with EIP-170\r\n\r\nThe current code architecture (using a fork of geth) I think is the most reasonable option for ETC given our limited developers and resources. Nearly all client devs have said the tests are easier to run if we keep everything eth-compatible (for now). We only have a handful of client devs supposedly attempting to support 4(?) client implementations. Compare that to ethereum's 100+ devs contributing to Geth alone. I think that's a huge problem but I digress. \r\n\r\nUnder this architecture, EIP-170 is the least complex solution. It also keeps us on track with the greater Atlantis ECIP.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/498397801/reactions",
+      "total_count": 4,
+      "+1": 4,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

@@ -1,0 +1,66 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/178",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/178/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/178/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/178/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/178",
+    "id": 520048419,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0MzM4NzA0Njcw",
+    "number": 178,
+    "title": "ECIP-1000: Add MulanPSL into recommended licenses",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2019-11-08T14:35:26Z",
+    "updated_at": "2019-11-08T15:20:18Z",
+    "closed_at": "2019-11-08T15:20:14Z",
+    "author_association": "MEMBER",
+    "pull_request": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/178",
+      "html_url": "https://github.com/ethereumclassic/ECIPs/pull/178",
+      "diff_url": "https://github.com/ethereumclassic/ECIPs/pull/178.diff",
+      "patch_url": "https://github.com/ethereumclassic/ECIPs/pull/178.patch"
+    },
+    "body": "This adds [MulanPSL](https://license.coscl.org.cn/MulanPSL/) into the \"recommended license\" section in ECIP-1000. From an initial look it fulfills most of the criteria we want for a specification license:\r\n\r\n1. Explicit patent protection, similar to Apache-2.0.\r\n2. Permissive.\r\n3. It looks like some of the languages used in the license will make it work better in the Chinese jurisdiction, which some contributors might have preferences.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/178/reactions",
+      "total_count": 3,
+      "+1": 3,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

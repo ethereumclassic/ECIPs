@@ -1,0 +1,68 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/174",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/174/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/174/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/174/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/174",
+    "id": 519388971,
+    "node_id": "MDU6SXNzdWU1MTkzODg5NzE=",
+    "number": 174,
+    "title": "Core Devs Call: Mining Algorithm Upgrade",
+    "user": {
+      "login": "soc1c",
+      "id": 47772477,
+      "node_id": "MDQ6VXNlcjQ3NzcyNDc3",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/47772477?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/soc1c",
+      "html_url": "https://github.com/soc1c",
+      "followers_url": "https://api.github.com/users/soc1c/followers",
+      "following_url": "https://api.github.com/users/soc1c/following{/other_user}",
+      "gists_url": "https://api.github.com/users/soc1c/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/soc1c/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/soc1c/subscriptions",
+      "organizations_url": "https://api.github.com/users/soc1c/orgs",
+      "repos_url": "https://api.github.com/users/soc1c/repos",
+      "events_url": "https://api.github.com/users/soc1c/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/soc1c/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 1154785127,
+        "node_id": "MDU6TGFiZWwxMTU0Nzg1MTI3",
+        "url": "https://api.github.com/repos/ethereumclassic/ECIPs/labels/type:%20core",
+        "name": "type: core",
+        "color": "d73a4a",
+        "default": false,
+        "description": "Requires consensus consideration"
+      }
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 25,
+    "created_at": "2019-11-07T16:52:20Z",
+    "updated_at": "2019-11-22T06:16:33Z",
+    "closed_at": "2019-11-21T14:21:38Z",
+    "author_association": "MEMBER",
+    "body": "### ETC Core Devs Call - Mining Algorithm Upgrade\r\n\r\nWhen: **Thursday, November 21, 2019, 1pm UTC**, 60 minutes max.\r\n\r\nWhere: **Ethereum Classic Discord** https://discord.gg/dwxb6nf `#ecips` channel. Will use/create a voice channel _ad hoc._\r\n\r\n### Agenda\r\n\r\n- Quick client teams check-in\r\n  - Parity Ethereum / Parity Tech\r\n  - Geth Classic / ChainSafe, ETC Labs Core\r\n  - Multi-Geth / Multi-Geth, ETCLabs Core \r\n  - Hyperledger Besu / ChainSafe, PegaSys\r\n- Defining a process\r\n  - keeping the call technical?\r\n  - ECBP-1076 \"algo change process\" ref #187\r\n- Discuss options for mining algorithms\r\n  - ECIP-1049 \"SHA-3\" @p3c-bot ref #8 #13\r\n  - ECIP-1070 \"ProgPOW\" @YazzyYaz ref #171 #172 \r\n  - Status Quo: \"Ethash\" ...\r\n- Agree on a joint way forward on the three proposals above\r\n- Commit to a timeline\r\n- Focus on a testnet\r\n- Discuss anything else related to Mining\r\n- Bonus: \r\n  - ECIP-1043 \"DAG Size Limit\" @realcodywburns @Wolf-Linzhi ref #11 #138\r\n  - ECIP-1047 \"Block Gas Limit\" @pyskell @zmitton ref #6 #14\r\n\r\nPlease comment to add items to the agenda",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/174/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

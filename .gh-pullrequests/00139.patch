@@ -1,0 +1,22 @@
+From fadc420ac871e105f2b46446b0f28309060c13d3 Mon Sep 17 00:00:00 2001
+From: Donald McIntyre <donald@etherplan.com>
+Date: Fri, 20 Sep 2019 08:31:18 -0600
+Subject: [PATCH] Adding Discussion-to link.
+
+Adding Discussion-to link: https://github.com/ethereumclassic/ECIPs/issues/138
+---
+ _specs/ecip-1043.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/_specs/ecip-1043.md b/_specs/ecip-1043.md
+index 87b01f1..70ad2cf 100644
+--- a/_specs/ecip-1043.md
++++ b/_specs/ecip-1043.md
+@@ -6,6 +6,7 @@ author: Cody Burns <cody.w.burns@gmail.com>
+ status: Draft
+ type: Standard
+ category: Core
++Discussions-to: https://github.com/ethereumclassic/ECIPs/issues/138
+ created: 2018-04-16
+ ---
+ 

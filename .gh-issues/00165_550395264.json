@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550395264",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/165#issuecomment-550395264",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/165",
+    "id": 550395264,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MDM5NTI2NA==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-06T16:41:50Z",
+    "updated_at": "2019-11-06T16:41:50Z",
+    "author_association": "MEMBER",
+    "body": "@soc1c @cseberino \"That said, I believe specs require a different licensing format than actual software. So you would have to investigate Creative Commons or similar if you want to consider something that is not Public Domain.\"\r\n\r\nThis is something that I will ask https://en.wikipedia.org/wiki/Mishi_Choudhary about for sure, but I suspect that Apache 2.0 is just fine too (though maybe \"overkill\").\r\n\r\nApache 2.0 will cover copyright and patents where CC anything gives you no patent protection.  There are still other forms of IP which we are not defended against - trademarks and trade secrets being the main ones.\r\n\r\nAside - Would anybody else like to join @YazzyYaz and me for this pending IP lawyer meeting?\r\n\r\n@MadeofTin, @Souptacular and maybe others will be joining too so that we can talk about both the EIP and ECIP processes, given how interrelated they are.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550395264/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

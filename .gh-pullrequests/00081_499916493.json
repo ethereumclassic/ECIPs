@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/499916493",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/81#issuecomment-499916493",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/81",
+    "id": 499916493,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ5OTkxNjQ5Mw==",
+    "user": {
+      "login": "zmitton",
+      "id": 6954889,
+      "node_id": "MDQ6VXNlcjY5NTQ4ODk=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6954889?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zmitton",
+      "html_url": "https://github.com/zmitton",
+      "followers_url": "https://api.github.com/users/zmitton/followers",
+      "following_url": "https://api.github.com/users/zmitton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zmitton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zmitton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zmitton/subscriptions",
+      "organizations_url": "https://api.github.com/users/zmitton/orgs",
+      "repos_url": "https://api.github.com/users/zmitton/repos",
+      "events_url": "https://api.github.com/users/zmitton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zmitton/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-06-07T14:53:54Z",
+    "updated_at": "2019-06-07T14:53:54Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "These names sound all a bit sound too similar. how about _Indus_, an ancient civilization and one of the longest rivers through china, india and pakistan.\r\n\r\nI think we should oppose the following EIPs from Istanbul:\r\n  - EIP-1057: ProgPoW, a Programmatic Proof-of-Work\r\n  - EIP-2029 and EIP-2031 State Rent\r\n\r\nEthereum has not finalized which of the EIPs will make it in to Istanbul, but other than the above, I think we should implement whichever ones they end up implementing.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/499916493/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

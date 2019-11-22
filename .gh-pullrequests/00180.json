@@ -1,0 +1,66 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/180",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/180/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/180/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/180/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/180",
+    "id": 520286953,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0MzM4OTAyMzMz",
+    "number": 180,
+    "title": "Proposing Coordinator Position",
+    "user": {
+      "login": "TokenHash",
+      "id": 29529586,
+      "node_id": "MDQ6VXNlcjI5NTI5NTg2",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/29529586?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TokenHash",
+      "html_url": "https://github.com/TokenHash",
+      "followers_url": "https://api.github.com/users/TokenHash/followers",
+      "following_url": "https://api.github.com/users/TokenHash/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TokenHash/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TokenHash/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TokenHash/subscriptions",
+      "organizations_url": "https://api.github.com/users/TokenHash/orgs",
+      "repos_url": "https://api.github.com/users/TokenHash/repos",
+      "events_url": "https://api.github.com/users/TokenHash/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TokenHash/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 8,
+    "created_at": "2019-11-08T23:47:55Z",
+    "updated_at": "2019-11-13T16:54:51Z",
+    "closed_at": "2019-11-13T16:53:10Z",
+    "author_association": "MEMBER",
+    "pull_request": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/180",
+      "html_url": "https://github.com/ethereumclassic/ECIPs/pull/180",
+      "diff_url": "https://github.com/ethereumclassic/ECIPs/pull/180.diff",
+      "patch_url": "https://github.com/ethereumclassic/ECIPs/pull/180.patch"
+    },
+    "body": "I am proposing the \"coordinator\" position, a person, technical or not, who checks and corrects the text and format of ECIPs also writing additions or deletions, specifically non-code non-software ECIPs, or copies improvement proposals from other improvement proposal repos, to help off-load work from, and assist editors in correcting and approving such ECIPs. \r\n\r\nI am dropping myself as a candidate, but i recommend to add 2 person in the coordinator position if it is approved.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/180/reactions",
+      "total_count": 3,
+      "+1": 3,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

@@ -1,0 +1,292 @@
+From adbd2831ca395ed88875c652af2cfcb5b330aa01 Mon Sep 17 00:00:00 2001
+From: Cody Burns <cody.w.burns@gmail.com>
+Date: Sat, 9 Nov 2019 16:31:03 -0600
+Subject: [PATCH 01/10] Create SECURITY.md
+
+---
+ SECURITY.md | 22 ++++++++++++++++++++++
+ 1 file changed, 22 insertions(+)
+ create mode 100644 SECURITY.md
+
+diff --git a/SECURITY.md b/SECURITY.md
+new file mode 100644
+index 0000000..39f94ce
+--- /dev/null
++++ b/SECURITY.md
+@@ -0,0 +1,22 @@
++# Security Policy
++
++Security alerts related to the hosting and delivery of the ecips.ethereumclassic.org web site will be addressed and will be taken by either the ecip editors or org admins. Security concerns with I individual ecips should be addressed in the `discussion to` locations.
++Security alerts will not be made publicly until mitigating solutions are identified. Once a remedy is found, dependably will automate the repair process.
++
++This site is free and open source in accordance with the site license which can be found at LICENSE.md or COPY.md
++ 
++## Supported Versions
++
++Use this section to tell people about which versions of your project are
++currently being supported with security updates.
++
++| Version | Supported          |
++| ------- | ------------------ |
++| master  | :white_check_mark: |
++
++
++## Reporting a Vulnerability
++
++Please contact security@ethereumclassic.org with any website or ecip related security concerns.
++
++
+
+From 6bf11a2bf75fe1b6569fe1f8ce3ad2c9c43cddf3 Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Sun, 17 Nov 2019 02:20:04 +0300
+Subject: [PATCH 02/10] Update SECURITY.md
+
+---
+ SECURITY.md | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/SECURITY.md b/SECURITY.md
+index 39f94ce..b38e531 100644
+--- a/SECURITY.md
++++ b/SECURITY.md
+@@ -3,7 +3,7 @@
+ Security alerts related to the hosting and delivery of the ecips.ethereumclassic.org web site will be addressed and will be taken by either the ecip editors or org admins. Security concerns with I individual ecips should be addressed in the `discussion to` locations.
+ Security alerts will not be made publicly until mitigating solutions are identified. Once a remedy is found, dependably will automate the repair process.
+ 
+-This site is free and open source in accordance with the site license which can be found at LICENSE.md or COPY.md
++This site is licensed via multiple permissive and open source licenses, as specified in each ECIP.
+  
+ ## Supported Versions
+ 
+@@ -17,6 +17,6 @@ currently being supported with security updates.
+ 
+ ## Reporting a Vulnerability
+ 
+-Please contact security@ethereumclassic.org with any website or ecip related security concerns.
++Please contact security@ethereumclassic.org website security concerns, and contact ECIP editors (the list can be found in [ECIP-1000](https://ecips.ethereumclassic.org/ECIPs/ecip-1000) or corresponding ECIP authors for specification related security concerns. The PGP keys of community members can be fetched from [the volunteer repository](https://github.com/ethereumclassic/volunteer).
+ 
+ 
+
+From d8d59229689fe3103cc98faadf0d2ec07f084efc Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Sun, 17 Nov 2019 02:25:16 +0300
+Subject: [PATCH 03/10] Update SECURITY.md
+
+---
+ SECURITY.md | 19 +++++++------------
+ 1 file changed, 7 insertions(+), 12 deletions(-)
+
+diff --git a/SECURITY.md b/SECURITY.md
+index b38e531..f031817 100644
+--- a/SECURITY.md
++++ b/SECURITY.md
+@@ -1,22 +1,17 @@
+ # Security Policy
+ 
+-Security alerts related to the hosting and delivery of the ecips.ethereumclassic.org web site will be addressed and will be taken by either the ecip editors or org admins. Security concerns with I individual ecips should be addressed in the `discussion to` locations.
+-Security alerts will not be made publicly until mitigating solutions are identified. Once a remedy is found, dependably will automate the repair process.
++Security concerns with each individual ECIPs should be addressed to the ECIP authors, or the specified `discussion-to` locations. Note that when an ECIP is already deployed, it is recommended to talk privately with the ECIP authors or ECIP editors first.
++
++Security alerts related to the hosting and delivery of the ecips.ethereumclassic.org website will be addressed and will be taken by either the ECIP editors or org admins. They will not be made publicly until mitigating solutions are identified. Once a remedy is found, dependably will automate the repair process.
+ 
+ This site is licensed via multiple permissive and open source licenses, as specified in each ECIP.
+  
+-## Supported Versions
+-
+-Use this section to tell people about which versions of your project are
+-currently being supported with security updates.
+-
+-| Version | Supported          |
+-| ------- | ------------------ |
+-| master  | :white_check_mark: |
++## Supported Branches
+ 
++The only supported branch for specifications and website is the `master` branch.
+ 
+ ## Reporting a Vulnerability
+ 
+-Please contact security@ethereumclassic.org website security concerns, and contact ECIP editors (the list can be found in [ECIP-1000](https://ecips.ethereumclassic.org/ECIPs/ecip-1000) or corresponding ECIP authors for specification related security concerns. The PGP keys of community members can be fetched from [the volunteer repository](https://github.com/ethereumclassic/volunteer).
+-
++Please contact ECIP editors (the list can be found in [ECIP-1000](https://ecips.ethereumclassic.org/ECIPs/ecip-1000) or corresponding ECIP authors for specification related security concerns. The PGP keys of community members can be fetched from [the volunteer repository](https://github.com/ethereumclassic/volunteer).
+ 
++Please contact security@ethereumclassic.org website security concerns.
+
+From 3a963c4730417fdc35fd264115c8090691a75e72 Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Sun, 17 Nov 2019 02:26:56 +0300
+Subject: [PATCH 04/10] Move ECIP authors to the front of ECIP editors
+
+---
+ SECURITY.md | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/SECURITY.md b/SECURITY.md
+index f031817..c640c36 100644
+--- a/SECURITY.md
++++ b/SECURITY.md
+@@ -1,6 +1,6 @@
+ # Security Policy
+ 
+-Security concerns with each individual ECIPs should be addressed to the ECIP authors, or the specified `discussion-to` locations. Note that when an ECIP is already deployed, it is recommended to talk privately with the ECIP authors or ECIP editors first.
++Security concerns with each individual ECIPs should be addressed to the ECIP authors, the specified `discussion-to` locations, or ECIP editors. Note that when an ECIP is already deployed, it is recommended to talk privately with the ECIP authors or ECIP editors first.
+ 
+ Security alerts related to the hosting and delivery of the ecips.ethereumclassic.org website will be addressed and will be taken by either the ECIP editors or org admins. They will not be made publicly until mitigating solutions are identified. Once a remedy is found, dependably will automate the repair process.
+ 
+@@ -12,6 +12,6 @@ The only supported branch for specifications and website is the `master` branch.
+ 
+ ## Reporting a Vulnerability
+ 
+-Please contact ECIP editors (the list can be found in [ECIP-1000](https://ecips.ethereumclassic.org/ECIPs/ecip-1000) or corresponding ECIP authors for specification related security concerns. The PGP keys of community members can be fetched from [the volunteer repository](https://github.com/ethereumclassic/volunteer).
++Please contact the corresponding ECIP authors or ECIP editors (the list can be found in [ECIP-1000](https://ecips.ethereumclassic.org/ECIPs/ecip-1000) for specification related security concerns. The PGP keys of community members can be fetched from [the volunteer repository](https://github.com/ethereumclassic/volunteer).
+ 
+ Please contact security@ethereumclassic.org website security concerns.
+
+From f65ae34bbd5889bc41722935492349a71dfd1da0 Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Sun, 17 Nov 2019 02:30:11 +0300
+Subject: [PATCH 05/10] Update SECURITY.md
+
+---
+ SECURITY.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/SECURITY.md b/SECURITY.md
+index c640c36..57d0593 100644
+--- a/SECURITY.md
++++ b/SECURITY.md
+@@ -1,6 +1,6 @@
+ # Security Policy
+ 
+-Security concerns with each individual ECIPs should be addressed to the ECIP authors, the specified `discussion-to` locations, or ECIP editors. Note that when an ECIP is already deployed, it is recommended to talk privately with the ECIP authors or ECIP editors first.
++Security concerns with each individual ECIP should be addressed to the ECIP authors, the specified `discussion-to` locations, or ECIP editors. Note that when an ECIP is already deployed, it is recommended to talk privately with the ECIP authors or ECIP editors first.
+ 
+ Security alerts related to the hosting and delivery of the ecips.ethereumclassic.org website will be addressed and will be taken by either the ECIP editors or org admins. They will not be made publicly until mitigating solutions are identified. Once a remedy is found, dependably will automate the repair process.
+ 
+
+From 4f03552630c46b4682b52347268304f1ab095cde Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Sun, 17 Nov 2019 02:31:34 +0300
+Subject: [PATCH 06/10] Update SECURITY.md
+
+---
+ SECURITY.md | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/SECURITY.md b/SECURITY.md
+index 57d0593..dce821e 100644
+--- a/SECURITY.md
++++ b/SECURITY.md
+@@ -12,6 +12,6 @@ The only supported branch for specifications and website is the `master` branch.
+ 
+ ## Reporting a Vulnerability
+ 
+-Please contact the corresponding ECIP authors or ECIP editors (the list can be found in [ECIP-1000](https://ecips.ethereumclassic.org/ECIPs/ecip-1000) for specification related security concerns. The PGP keys of community members can be fetched from [the volunteer repository](https://github.com/ethereumclassic/volunteer).
++For specification related concerns, please contact the corresponding ECIP authors or ECIP editors (the list can be found in [ECIP-1000](https://ecips.ethereumclassic.org/ECIPs/ecip-1000)). The PGP keys of community members can be fetched from [the volunteer repository](https://github.com/ethereumclassic/volunteer).
+ 
+-Please contact security@ethereumclassic.org website security concerns.
++For website security concerns, please contact [security@ethereumclassic.org](mailto:security@ethereumclassic.org).
+
+From dd310ac6aa7bdce38b5ded6d98b9fd4f269e9f6e Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Sun, 17 Nov 2019 01:08:31 +0100
+Subject: [PATCH 07/10] Update SECURITY.md
+
+---
+ SECURITY.md | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/SECURITY.md b/SECURITY.md
+index dce821e..621ccc6 100644
+--- a/SECURITY.md
++++ b/SECURITY.md
+@@ -2,7 +2,7 @@
+ 
+ Security concerns with each individual ECIP should be addressed to the ECIP authors, the specified `discussion-to` locations, or ECIP editors. Note that when an ECIP is already deployed, it is recommended to talk privately with the ECIP authors or ECIP editors first.
+ 
+-Security alerts related to the hosting and delivery of the ecips.ethereumclassic.org website will be addressed and will be taken by either the ECIP editors or org admins. They will not be made publicly until mitigating solutions are identified. Once a remedy is found, dependably will automate the repair process.
++Security alerts related to the website source code will be addressed by ECIP editors. Security concerns related to hosting and delivery of the ecips.ethereumclassic.org website will be addressed by either ECIP editors or org admins. They will not be made publicly until mitigating solutions are identified. Once a remedy is found, dependably will automate the repair process.
+ 
+ This site is licensed via multiple permissive and open source licenses, as specified in each ECIP.
+  
+@@ -12,6 +12,6 @@ The only supported branch for specifications and website is the `master` branch.
+ 
+ ## Reporting a Vulnerability
+ 
+-For specification related concerns, please contact the corresponding ECIP authors or ECIP editors (the list can be found in [ECIP-1000](https://ecips.ethereumclassic.org/ECIPs/ecip-1000)). The PGP keys of community members can be fetched from [the volunteer repository](https://github.com/ethereumclassic/volunteer).
++For specification related security concerns, please contact the corresponding ECIP authors or ECIP editors (the list can be found in [ECIP-1000](https://ecips.ethereumclassic.org/ECIPs/ecip-1000)). The PGP keys of community members can be fetched from [the volunteer repository](https://github.com/ethereumclassic/volunteer).
+ 
+-For website security concerns, please contact [security@ethereumclassic.org](mailto:security@ethereumclassic.org).
++For website source code related concerns, please contact ECIP editors as in [ECIP-1000](https://ecips.ethereumclassic.org/ECIPs/ecip-1000). For security concerns related to hosting and delivery of ecip.ethereumclassic.org, please contact [security@ethereumclassic.org](mailto:security@ethereumclassic.org).
+
+From 053a6d2ed7808600a45d43d9782b8861a6480156 Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Sun, 17 Nov 2019 01:10:01 +0100
+Subject: [PATCH 08/10] Update SECURITY.md
+
+---
+ SECURITY.md | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/SECURITY.md b/SECURITY.md
+index 621ccc6..71c8ab0 100644
+--- a/SECURITY.md
++++ b/SECURITY.md
+@@ -2,7 +2,7 @@
+ 
+ Security concerns with each individual ECIP should be addressed to the ECIP authors, the specified `discussion-to` locations, or ECIP editors. Note that when an ECIP is already deployed, it is recommended to talk privately with the ECIP authors or ECIP editors first.
+ 
+-Security alerts related to the website source code will be addressed by ECIP editors. Security concerns related to hosting and delivery of the ecips.ethereumclassic.org website will be addressed by either ECIP editors or org admins. They will not be made publicly until mitigating solutions are identified. Once a remedy is found, dependably will automate the repair process.
++Security alerts related to the website source code will be addressed by ECIP editors. Security concerns related to hosting and delivery of the ecips.ethereumclassic.org website will be addressed by either org admins or ECIP editors. They will not be made publicly until mitigating solutions are identified. Once a remedy is found, dependably will automate the repair process.
+ 
+ This site is licensed via multiple permissive and open source licenses, as specified in each ECIP.
+  
+@@ -14,4 +14,4 @@ The only supported branch for specifications and website is the `master` branch.
+ 
+ For specification related security concerns, please contact the corresponding ECIP authors or ECIP editors (the list can be found in [ECIP-1000](https://ecips.ethereumclassic.org/ECIPs/ecip-1000)). The PGP keys of community members can be fetched from [the volunteer repository](https://github.com/ethereumclassic/volunteer).
+ 
+-For website source code related concerns, please contact ECIP editors as in [ECIP-1000](https://ecips.ethereumclassic.org/ECIPs/ecip-1000). For security concerns related to hosting and delivery of ecip.ethereumclassic.org, please contact [security@ethereumclassic.org](mailto:security@ethereumclassic.org).
++For website source code related concerns, please contact ECIP editors as in [ECIP-1000](https://ecips.ethereumclassic.org/ECIPs/ecip-1000). For security concerns related to hosting and delivery of ecip.ethereumclassic.org, please contact [security@ethereumclassic.org](mailto:security@ethereumclassic.org) or ECIP editors.
+
+From 2517855b4f8cbac28eaf27baef58cbd81820971f Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Sun, 17 Nov 2019 01:15:17 +0100
+Subject: [PATCH 09/10] Update SECURITY.md
+
+---
+ SECURITY.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/SECURITY.md b/SECURITY.md
+index 71c8ab0..2cea7f7 100644
+--- a/SECURITY.md
++++ b/SECURITY.md
+@@ -2,7 +2,7 @@
+ 
+ Security concerns with each individual ECIP should be addressed to the ECIP authors, the specified `discussion-to` locations, or ECIP editors. Note that when an ECIP is already deployed, it is recommended to talk privately with the ECIP authors or ECIP editors first.
+ 
+-Security alerts related to the website source code will be addressed by ECIP editors. Security concerns related to hosting and delivery of the ecips.ethereumclassic.org website will be addressed by either org admins or ECIP editors. They will not be made publicly until mitigating solutions are identified. Once a remedy is found, dependably will automate the repair process.
++Security alerts related to the website source code will be addressed by ECIP editors. Security concerns related to hosting and delivery of the ecips.ethereumclassic.org website will be addressed by either org admins or ECIP editors. They will not be made publicly until mitigating solutions are identified. Once a remedy is found, part of the repair process may be automated by [Dependabot](https://dependabot.com/).
+ 
+ This site is licensed via multiple permissive and open source licenses, as specified in each ECIP.
+  
+
+From 41471aae225e13ade9a77bb1525196e17a7bd987 Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Sun, 17 Nov 2019 01:16:32 +0100
+Subject: [PATCH 10/10] Update SECURITY.md
+
+---
+ SECURITY.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/SECURITY.md b/SECURITY.md
+index 2cea7f7..afa14b8 100644
+--- a/SECURITY.md
++++ b/SECURITY.md
+@@ -14,4 +14,4 @@ The only supported branch for specifications and website is the `master` branch.
+ 
+ For specification related security concerns, please contact the corresponding ECIP authors or ECIP editors (the list can be found in [ECIP-1000](https://ecips.ethereumclassic.org/ECIPs/ecip-1000)). The PGP keys of community members can be fetched from [the volunteer repository](https://github.com/ethereumclassic/volunteer).
+ 
+-For website source code related concerns, please contact ECIP editors as in [ECIP-1000](https://ecips.ethereumclassic.org/ECIPs/ecip-1000). For security concerns related to hosting and delivery of ecip.ethereumclassic.org, please contact [security@ethereumclassic.org](mailto:security@ethereumclassic.org) or ECIP editors.
++For website source code related concerns, please contact ECIP editors as in [ECIP-1000](https://ecips.ethereumclassic.org/ECIPs/ecip-1000). For security concerns related to hosting and delivery of ecip.ethereumclassic.org website, please contact [security@ethereumclassic.org](mailto:security@ethereumclassic.org) or ECIP editors.

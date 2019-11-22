@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/502073002",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/80#issuecomment-502073002",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/80",
+    "id": 502073002,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUwMjA3MzAwMg==",
+    "user": {
+      "login": "devfdn",
+      "id": 46411767,
+      "node_id": "MDQ6VXNlcjQ2NDExNzY3",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/46411767?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/devfdn",
+      "html_url": "https://github.com/devfdn",
+      "followers_url": "https://api.github.com/users/devfdn/followers",
+      "following_url": "https://api.github.com/users/devfdn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/devfdn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/devfdn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/devfdn/subscriptions",
+      "organizations_url": "https://api.github.com/users/devfdn/orgs",
+      "repos_url": "https://api.github.com/users/devfdn/repos",
+      "events_url": "https://api.github.com/users/devfdn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/devfdn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-06-14T11:26:52Z",
+    "updated_at": "2019-06-14T11:26:52Z",
+    "author_association": "NONE",
+    "body": "what successful testing means for atlantis time schedule?? i am reeading geth code and see this https://github.com/ethereumproject/go-ethereum/issues/717!! can somebodey please explain",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/502073002/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

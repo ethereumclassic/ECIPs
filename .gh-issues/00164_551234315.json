@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551234315",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/164#issuecomment-551234315",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/164",
+    "id": 551234315,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MTIzNDMxNQ==",
+    "user": {
+      "login": "BelfordZ",
+      "id": 1787231,
+      "node_id": "MDQ6VXNlcjE3ODcyMzE=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1787231?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/BelfordZ",
+      "html_url": "https://github.com/BelfordZ",
+      "followers_url": "https://api.github.com/users/BelfordZ/followers",
+      "following_url": "https://api.github.com/users/BelfordZ/following{/other_user}",
+      "gists_url": "https://api.github.com/users/BelfordZ/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/BelfordZ/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/BelfordZ/subscriptions",
+      "organizations_url": "https://api.github.com/users/BelfordZ/orgs",
+      "repos_url": "https://api.github.com/users/BelfordZ/repos",
+      "events_url": "https://api.github.com/users/BelfordZ/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/BelfordZ/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-07T19:45:13Z",
+    "updated_at": "2019-11-07T19:45:13Z",
+    "author_association": "MEMBER",
+    "body": "I dont see a GH pages branch... Nor a link to a github pages URL, nor anything that would suggest its scripted to do a GH pages deploy.\r\n\r\nTBH I'm thinking of just overhauling this whole repo. It might have been pragmatic, but the current setup is amateur hour. Gonna close this issue and open one another day, outlining a more appropriate structure / process.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551234315/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

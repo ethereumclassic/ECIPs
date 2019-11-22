@@ -1,0 +1,60 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/57",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/57/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/57/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/57/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/57",
+    "id": 403642447,
+    "node_id": "MDU6SXNzdWU0MDM2NDI0NDc=",
+    "number": 57,
+    "title": "# ⛔️ WARNING ⛔️ : http://github.com/ethereumclassic/ECIPS IS UNOFFICIAL AND SHOULD NOT BE USED.",
+    "user": {
+      "login": "whatisgravity",
+      "id": 13527542,
+      "node_id": "MDQ6VXNlcjEzNTI3NTQy",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/13527542?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/whatisgravity",
+      "html_url": "https://github.com/whatisgravity",
+      "followers_url": "https://api.github.com/users/whatisgravity/followers",
+      "following_url": "https://api.github.com/users/whatisgravity/following{/other_user}",
+      "gists_url": "https://api.github.com/users/whatisgravity/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/whatisgravity/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/whatisgravity/subscriptions",
+      "organizations_url": "https://api.github.com/users/whatisgravity/orgs",
+      "repos_url": "https://api.github.com/users/whatisgravity/repos",
+      "events_url": "https://api.github.com/users/whatisgravity/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/whatisgravity/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2019-01-28T04:01:20Z",
+    "updated_at": "2019-01-28T12:50:59Z",
+    "closed_at": "2019-01-28T12:50:59Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "# ⛔️ WARNING ⛔️ : http://github.com/ethereumclassic/ECIPS IS UNOFFICIAL AND SHOULD NOT BE USED.\r\n\r\nUse https://github.com/openether/ecips to participate in decentralized ETC development. ",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/57/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/498691816",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/14#issuecomment-498691816",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/14",
+    "id": 498691816,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ5ODY5MTgxNg==",
+    "user": {
+      "login": "realcodywburns",
+      "id": 13103499,
+      "node_id": "MDQ6VXNlcjEzMTAzNDk5",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/13103499?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/realcodywburns",
+      "html_url": "https://github.com/realcodywburns",
+      "followers_url": "https://api.github.com/users/realcodywburns/followers",
+      "following_url": "https://api.github.com/users/realcodywburns/following{/other_user}",
+      "gists_url": "https://api.github.com/users/realcodywburns/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/realcodywburns/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/realcodywburns/subscriptions",
+      "organizations_url": "https://api.github.com/users/realcodywburns/orgs",
+      "repos_url": "https://api.github.com/users/realcodywburns/repos",
+      "events_url": "https://api.github.com/users/realcodywburns/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/realcodywburns/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-06-04T14:18:18Z",
+    "updated_at": "2019-06-04T14:18:18Z",
+    "author_association": "MEMBER",
+    "body": "# ECIP types\r\nThere are three kinds of ECIP:\r\n\r\nA **Standards Track ECIP** describes any change that affects most or all Ethereum Classic implementations, such as a change to the network protocol, a change in block or transaction validity rules, or any change or addition that affects the interoperability of applications using Ethereum Classic. Standards Track ECIPs consist of two parts, a design document and a reference implementation.\r\n\r\nAn **Informational ECIP** describes a Ethereum Classic design issue, or provides general guidelines or information to the Ethereum Classic community, but does not propose a new feature. Informational ECIPs do not necessarily represent a Ethereum Classic community consensus or recommendation, so users and implementors are free to ignore Informational ECIPs or follow their advice.\r\n\r\nA **Process ECIP** describes a process surrounding Ethereum Classic, or proposes a change to (or an event in) a process. Process ECIPs are like Standards Track ECIPs but apply to areas other than the Ethereum Classic protocol itself. They may propose an implementation, but not to Ethereum Classic's codebase; they often require community consensus; unlike Informational ECIPs, they are more than recommendations, and users are typically not free to ignore them. Examples include procedures, guidelines, changes to the decision-making process, and changes to the tools or environment used in Ethereum Classic development. Any meta-ECIP is also considered a Process ECIP.\r\n\r\n\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/498691816/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

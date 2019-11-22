@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/499310927",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/80#issuecomment-499310927",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/80",
+    "id": 499310927,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ5OTMxMDkyNw==",
+    "user": {
+      "login": "cats9000",
+      "id": 51427267,
+      "node_id": "MDQ6VXNlcjUxNDI3MjY3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/51427267?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cats9000",
+      "html_url": "https://github.com/cats9000",
+      "followers_url": "https://api.github.com/users/cats9000/followers",
+      "following_url": "https://api.github.com/users/cats9000/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cats9000/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cats9000/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cats9000/subscriptions",
+      "organizations_url": "https://api.github.com/users/cats9000/orgs",
+      "repos_url": "https://api.github.com/users/cats9000/repos",
+      "events_url": "https://api.github.com/users/cats9000/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cats9000/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-06-06T01:08:07Z",
+    "updated_at": "2019-06-06T01:08:07Z",
+    "author_association": "NONE",
+    "body": "> Ask for invite here if you are not on that discord.\r\n\r\n@soc1c could I please have an invitation? ",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/499310927/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

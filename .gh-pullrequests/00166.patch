@@ -1,0 +1,23 @@
+From e827cb05c0ca4830766e2ce67fa0e10a3ff6ede9 Mon Sep 17 00:00:00 2001
+From: Donald McIntyre <donald@etherplan.com>
+Date: Tue, 5 Nov 2019 19:24:13 -0700
+Subject: [PATCH] Moving to Withdrawn Status
+
+With author consent, moving this ECIP to withdrawn as its contents are largely included and covered in ECIP-1000.
+---
+ _specs/ecip-1016.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-1016.md b/_specs/ecip-1016.md
+index d44e5ef..cc35bd7 100644
+--- a/_specs/ecip-1016.md
++++ b/_specs/ecip-1016.md
+@@ -2,7 +2,7 @@
+ lang: en
+ ecip: 1016
+ title: ETC Improvement Proposal Management
+-status: Draft
++status: Withdrawn
+ type: Meta
+ author: Cody W Burns <Cody.w.burns@ethereumclassic.com>
+ created: 2016-10-25

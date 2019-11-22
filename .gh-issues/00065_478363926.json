@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/478363926",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/65#issuecomment-478363926",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/65",
+    "id": 478363926,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3ODM2MzkyNg==",
+    "user": {
+      "login": "tzdybal",
+      "id": 1138893,
+      "node_id": "MDQ6VXNlcjExMzg4OTM=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1138893?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tzdybal",
+      "html_url": "https://github.com/tzdybal",
+      "followers_url": "https://api.github.com/users/tzdybal/followers",
+      "following_url": "https://api.github.com/users/tzdybal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tzdybal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tzdybal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tzdybal/subscriptions",
+      "organizations_url": "https://api.github.com/users/tzdybal/orgs",
+      "repos_url": "https://api.github.com/users/tzdybal/repos",
+      "events_url": "https://api.github.com/users/tzdybal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tzdybal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-31T18:02:17Z",
+    "updated_at": "2019-03-31T18:02:17Z",
+    "author_association": "MEMBER",
+    "body": "I don't agree with @YazzyYaz and @soc1c. All those comments are on the \"issue\", not \"pull request\" started by @Dexaran - I would guess that this is the place of his choice for discussion.\r\nIMHO PR should be accepted, because ECIP is \"sound\" and OK from editorial point of view. And discussion can be continued in here. \r\nDiscussion in Discord are IMHO not good, because there are many ECIPs, and off-topics discussed in there and searching/archiving/recalling such discussion is rather hard. \r\n\r\nAnd now, to the point...\r\nI don't agree with this proposal. As mentioned before, taking money from miners and giving it to the hodlers probably would reduce hash rate (as miners will be deincentivized)\r\nI would also say that this *is* about monetary policy.\r\nAddressing the \"fundamental\" part:\r\n1. With decreased block reward, miners will be even less interested in mining ETC at all.\r\n2. IMHO, most \"long time investors\" can at most shill the coin on Twitter. They can't switch easily, only if they invested out-of-chain, for example funded dev team or incubator. And in such case, they won't gain from staking. OFC they can also stake, but the part of investment that makes it harder to switch is not giving cold stake incentives. \r\n3. What kind of \"valuable\" investors can be attracted? Individual developers that do cold staking + develop in the ecosystem? Big companies that can afford staking and funding of dev teams, dApps, tools, etc? IMHO they would/wouldn't invest in ETC anyways, because of general characteristics of the chain. Startups? They probably won't have money for staking.\r\n\r\nI'm against adopting this ECIP, because:\r\n* it changes the rules of the game for miners / changes monetary policy\r\n* its main goal is to change ETC price / valuation\r\n* influence of stakeholders won't be \"rebalanced\" - they will only get some reward for cold staking, but it won't change the way they \"influence\" the network - they can participate in community right now, and after this change they won't get any extra power / rights\r\n* in my opinion it doesn't improve anything except profits of some network participants",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/478363926/reactions",
+      "total_count": 5,
+      "+1": 5,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

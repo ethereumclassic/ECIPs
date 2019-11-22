@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/503685057",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/84#issuecomment-503685057",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/84",
+    "id": 503685057,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUwMzY4NTA1Nw==",
+    "user": {
+      "login": "meowsbits",
+      "id": 45600330,
+      "node_id": "MDQ6VXNlcjQ1NjAwMzMw",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/45600330?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/meowsbits",
+      "html_url": "https://github.com/meowsbits",
+      "followers_url": "https://api.github.com/users/meowsbits/followers",
+      "following_url": "https://api.github.com/users/meowsbits/following{/other_user}",
+      "gists_url": "https://api.github.com/users/meowsbits/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/meowsbits/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/meowsbits/subscriptions",
+      "organizations_url": "https://api.github.com/users/meowsbits/orgs",
+      "repos_url": "https://api.github.com/users/meowsbits/repos",
+      "events_url": "https://api.github.com/users/meowsbits/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/meowsbits/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-06-19T18:52:13Z",
+    "updated_at": "2019-06-19T18:52:13Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "__Rel B. Cross client integration tests__\r\n\r\nAt ETC Labs, we've been developing an \"extrapolated\" test suite based on ethereum/tests that extends relevance for some of these \"sub-suites\" thru the anticipated Atlantis configuration. So far -- albeit experimentally -- classic geth and multigeth have shown consistent behavior for custom Difficulty and GeneralStateTests and we're working on adoption for Parity as well. \r\n\r\nWork on this at multi-geth can be found here: https://github.com/etclabscore/multi-geth/tree/feat/parity-chainspec-tests-fill-atlantis-2, and an example Atlantis-filled difficulty test can be found here: https://gist.github.com/whilei/cf5700910b41207a37d9f7ca58d0fd3d \r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/503685057/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

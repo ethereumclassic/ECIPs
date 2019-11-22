@@ -1,0 +1,74 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/167",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/167/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/167/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/167/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/167",
+    "id": 518199083,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0MzM3MTM3MTcx",
+    "number": 167,
+    "title": "Adding author and license to ECIP-1015",
+    "user": {
+      "login": "TokenHash",
+      "id": 29529586,
+      "node_id": "MDQ6VXNlcjI5NTI5NTg2",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/29529586?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TokenHash",
+      "html_url": "https://github.com/TokenHash",
+      "followers_url": "https://api.github.com/users/TokenHash/followers",
+      "following_url": "https://api.github.com/users/TokenHash/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TokenHash/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TokenHash/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TokenHash/subscriptions",
+      "organizations_url": "https://api.github.com/users/TokenHash/orgs",
+      "repos_url": "https://api.github.com/users/TokenHash/repos",
+      "events_url": "https://api.github.com/users/TokenHash/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TokenHash/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 1154785127,
+        "node_id": "MDU6TGFiZWwxMTU0Nzg1MTI3",
+        "url": "https://api.github.com/repos/ethereumclassic/ECIPs/labels/type:%20core",
+        "name": "type: core",
+        "color": "d73a4a",
+        "default": false,
+        "description": "Requires consensus consideration"
+      }
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2019-11-06T02:36:22Z",
+    "updated_at": "2019-11-07T06:04:45Z",
+    "closed_at": "2019-11-06T20:35:37Z",
+    "author_association": "MEMBER",
+    "pull_request": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/167",
+      "html_url": "https://github.com/ethereumclassic/ECIPs/pull/167",
+      "diff_url": "https://github.com/ethereumclassic/ECIPs/pull/167.diff",
+      "patch_url": "https://github.com/ethereumclassic/ECIPs/pull/167.patch"
+    },
+    "body": "On behalf of the author, adding his name as author and adding a license to the ECIP.\r\n\r\nThe authorship may be confirmed here from original document: https://github.com/ethereumproject/ECIPs/blob/master/ECIPs/ECIP-1015.md\r\n\r\nThe license selected for this ECIP is Apache 2.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/167/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

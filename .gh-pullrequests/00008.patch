@@ -1,0 +1,294 @@
+From b036a6b1691020ea389d5557931d9aa081036d79 Mon Sep 17 00:00:00 2001
+From: p3c-bot <40745785+p3c-bot@users.noreply.github.com>
+Date: Tue, 8 Jan 2019 01:56:48 -0500
+Subject: [PATCH 1/7] Create ECIP-1049.md
+
+---
+ ECIPs/ECIP-1049.md | 50 ++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 50 insertions(+)
+ create mode 100644 ECIPs/ECIP-1049.md
+
+diff --git a/ECIPs/ECIP-1049.md b/ECIPs/ECIP-1049.md
+new file mode 100644
+index 0000000..9e0cf49
+--- /dev/null
++++ b/ECIPs/ECIP-1049.md
+@@ -0,0 +1,50 @@
++### What is an ECIP?
++
++    ECIP: 1049
++    Title: Change the ETC Proof of Work Algorithm to Keccak256
++    Status: Draft
++    Type: Meta
++    Author: Alexander Tsankov (alexander.tsankov@colorado.edu)
++    Created: 2017-01-08
++
++### Abstract
++A proposal to replace the current Ethereum Classic proof of work algorithm with Keccak-256.
++
++### Motivation
++* A response to the recent double-spend attacks against Ethereum Classic. Most of this hashpower was rented or came from other chains, specfically Ethereum (ETH). A seperate proof of work algorithm would encourage the development of a specialized Ethereum Classic mining community, and blunt the ability for attackers to purchase mercenary hash power on the open-market. 
++
++* As a secondary benefit, deployed smart contracts and dapps running on chain are currently able to use `keccak256()` in their code. This ECIP could open the possibility of smart contracts being able to evaluate chain state, and simplify second layer (L2) development.
++
++### Specification
++
++### Reason 1: Similarity to Bitcoin
++The Bitcoin network currently uses the CPU-intensive SHA256 Algorithm to evaluate blocks. When Ethereum was deployed it used a different algorithm, Dagger-Hashimoto, which eventually became Ethash on 1.0 launch. Dagger-Hashimoto was explicitly designed to be memory-resistant with the goal of ASIC resistance [1]. It has been provably unsuccessful at this goal, with Ethash ASICs currently easily availalble on the market.
++
++A CPU-intensive algorithm like Keccak256 would allow both the uniquness of a fresh PoW algorithm that has not had ASICs developed against it, while at the same time allowing for organic optimization of a dedicated and financially commited miner base, much the way Bitcoin did with its own SHA256 algorithm.
++
++If Ethereum Classic is to succeed as a project, we need to take what we have learned from Bitcoin and move towards CPU-hard PoW algorithms.
++
++> At first, most users would run network nodes, but as the network grows beyond a certain point, it would be left more and more to specialists with server farms of specialized hardware. - Satoshi Nakamoto (2008-11-03) [2]
++
++*Note: Please consider this is from 2008, and the Bitcoin community at that time did not differentiate between node operators and miners. I interpret "network nodes" in this quote to refer to miners, and "server farms of specialized hardware" to refer to mining farms.*
++
++
++### Reason 2: Value to Smart Contract Developers
++In Solidity, developers have access to the `keccak256()` function, which allows a smart contract to efficiently calculate the hash of a given input. This has been used in a number of interesting projects launched on both Ethereum and Ethereum-Classic. Most Specifcally a project called OxBitcoin [3] - which the ERC-918 spec was based on.
++
++0xBitcoin is a security-audited [4] dapp that allows users to submit a proof of work hash directly to a smart contract running on the Ethereum blockchain. If the sent hash matches the given requirements, a token reward is trustlessly dispensed to the sender, along with the contract reevaulating difficulty parameters. This project has run successfully for over 10 months, and has minted over 3 million tokens [5].
++
++With the direction that Ethereum Classic is taking: a focus on Layer-2 solutions and cross-chain compatability; being able to evaluate proof of work on chain, will be tremendously valuable to developers of both smart-contracts and node software writers. This could greatly simplify interoperability. 
++
++### Implementation
++
++Work in Progress
++
++
++### References: 
++
++1. https://github.com/ethereum/wiki/wiki/Dagger-Hashimoto#introduction
++1. https://satoshi.nakamotoinstitute.org/emails/cryptography/2/
++1. https://github.com/0xbitcoin/white-paper
++1. https://github.com/EthereumCommonwealth/Auditing/issues/102
++1. https://etherscan.io/address/0xb6ed7644c69416d67b522e20bc294a9a9b405b31
+
+From cc1465a4f7409fed620c822148fddfefcc1c8fb5 Mon Sep 17 00:00:00 2001
+From: p3c-bot <40745785+p3c-bot@users.noreply.github.com>
+Date: Tue, 8 Jan 2019 02:03:47 -0500
+Subject: [PATCH 2/7] Date
+
+---
+ ECIPs/ECIP-1049.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/ECIPs/ECIP-1049.md b/ECIPs/ECIP-1049.md
+index 9e0cf49..f68da5d 100644
+--- a/ECIPs/ECIP-1049.md
++++ b/ECIPs/ECIP-1049.md
+@@ -5,7 +5,7 @@
+     Status: Draft
+     Type: Meta
+     Author: Alexander Tsankov (alexander.tsankov@colorado.edu)
+-    Created: 2017-01-08
++    Created: 2019-01-08
+ 
+ ### Abstract
+ A proposal to replace the current Ethereum Classic proof of work algorithm with Keccak-256.
+
+From 360cd2f15e61c31e62234e288109d81be6409499 Mon Sep 17 00:00:00 2001
+From: p3c-bot <40745785+p3c-bot@users.noreply.github.com>
+Date: Tue, 8 Jan 2019 02:46:04 -0500
+Subject: [PATCH 3/7] Update ECIP-1049.md
+
+---
+ ECIPs/ECIP-1049.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/ECIPs/ECIP-1049.md b/ECIPs/ECIP-1049.md
+index f68da5d..97a6646 100644
+--- a/ECIPs/ECIP-1049.md
++++ b/ECIPs/ECIP-1049.md
+@@ -18,7 +18,7 @@ A proposal to replace the current Ethereum Classic proof of work algorithm with
+ ### Specification
+ 
+ ### Reason 1: Similarity to Bitcoin
+-The Bitcoin network currently uses the CPU-intensive SHA256 Algorithm to evaluate blocks. When Ethereum was deployed it used a different algorithm, Dagger-Hashimoto, which eventually became Ethash on 1.0 launch. Dagger-Hashimoto was explicitly designed to be memory-resistant with the goal of ASIC resistance [1]. It has been provably unsuccessful at this goal, with Ethash ASICs currently easily availalble on the market.
++The Bitcoin network currently uses the CPU-intensive SHA256 Algorithm to evaluate blocks. When Ethereum was deployed it used a different algorithm, Dagger-Hashimoto, which eventually became Ethash on 1.0 launch. Dagger-Hashimoto was explicitly designed to be memory-hard with the goal of ASIC resistance [1]. It has been provably unsuccessful at this goal, with Ethash ASICs currently easily availalble on the market.
+ 
+ A CPU-intensive algorithm like Keccak256 would allow both the uniquness of a fresh PoW algorithm that has not had ASICs developed against it, while at the same time allowing for organic optimization of a dedicated and financially commited miner base, much the way Bitcoin did with its own SHA256 algorithm.
+ 
+
+From 5b351fca9916068b89d1b4954f40fff0bb81efee Mon Sep 17 00:00:00 2001
+From: p3c-bot <40745785+p3c-bot@users.noreply.github.com>
+Date: Tue, 8 Jan 2019 02:48:45 -0500
+Subject: [PATCH 4/7] Update ECIP-1049.md
+
+---
+ ECIPs/ECIP-1049.md | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/ECIPs/ECIP-1049.md b/ECIPs/ECIP-1049.md
+index 97a6646..a7b2579 100644
+--- a/ECIPs/ECIP-1049.md
++++ b/ECIPs/ECIP-1049.md
+@@ -18,7 +18,7 @@ A proposal to replace the current Ethereum Classic proof of work algorithm with
+ ### Specification
+ 
+ ### Reason 1: Similarity to Bitcoin
+-The Bitcoin network currently uses the CPU-intensive SHA256 Algorithm to evaluate blocks. When Ethereum was deployed it used a different algorithm, Dagger-Hashimoto, which eventually became Ethash on 1.0 launch. Dagger-Hashimoto was explicitly designed to be memory-hard with the goal of ASIC resistance [1]. It has been provably unsuccessful at this goal, with Ethash ASICs currently easily availalble on the market.
++The Bitcoin network currently uses the CPU-intensive SHA256 Algorithm to evaluate blocks. When Ethereum was deployed it used a different algorithm, Dagger-Hashimoto, which eventually became Ethash on 1.0 launch. Dagger-Hashimoto was explicitly designed to be memory-intensive with the goal of ASIC resistance [1]. It has been provably unsuccessful at this goal, with Ethash ASICs currently easily availalble on the market.
+ 
+ A CPU-intensive algorithm like Keccak256 would allow both the uniquness of a fresh PoW algorithm that has not had ASICs developed against it, while at the same time allowing for organic optimization of a dedicated and financially commited miner base, much the way Bitcoin did with its own SHA256 algorithm.
+ 
+@@ -30,7 +30,7 @@ If Ethereum Classic is to succeed as a project, we need to take what we have lea
+ 
+ 
+ ### Reason 2: Value to Smart Contract Developers
+-In Solidity, developers have access to the `keccak256()` function, which allows a smart contract to efficiently calculate the hash of a given input. This has been used in a number of interesting projects launched on both Ethereum and Ethereum-Classic. Most Specifcally a project called OxBitcoin [3] - which the ERC-918 spec was based on.
++In Solidity, developers have access to the `keccak256()` function, which allows a smart contract to efficiently calculate the hash of a given input. This has been used in a number of interesting projects launched on both Ethereum and Ethereum-Classic. Most Specifcally a project called 0xBitcoin [3] - which the ERC-918 spec was based on.
+ 
+ 0xBitcoin is a security-audited [4] dapp that allows users to submit a proof of work hash directly to a smart contract running on the Ethereum blockchain. If the sent hash matches the given requirements, a token reward is trustlessly dispensed to the sender, along with the contract reevaulating difficulty parameters. This project has run successfully for over 10 months, and has minted over 3 million tokens [5].
+ 
+
+From 5401b263bdf69fcfe4cc076efe6da518fcfedf1c Mon Sep 17 00:00:00 2001
+From: p3c-bot <40745785+p3c-bot@users.noreply.github.com>
+Date: Tue, 8 Jan 2019 22:08:17 -0500
+Subject: [PATCH 5/7] Update ECIP-1049.md
+
+---
+ ECIPs/ECIP-1049.md | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/ECIPs/ECIP-1049.md b/ECIPs/ECIP-1049.md
+index a7b2579..15d299b 100644
+--- a/ECIPs/ECIP-1049.md
++++ b/ECIPs/ECIP-1049.md
+@@ -38,8 +38,10 @@ With the direction that Ethereum Classic is taking: a focus on Layer-2 solutions
+ 
+ ### Implementation
+ 
+-Work in Progress
++Work in Progress:
+ 
++Example of a Smart contract hashing being able to trustlessly Keccak hash a hypothetical block header.
++![example](https://i.imgur.com/Rt1n35s.png)
+ 
+ ### References: 
+ 
+
+From a431091ecf1baba3c79367c46cda2c13d35b9e45 Mon Sep 17 00:00:00 2001
+From: p3c-bot <40745785+p3c-bot@users.noreply.github.com>
+Date: Mon, 14 Jan 2019 15:28:51 -0500
+Subject: [PATCH 6/7] Update ECIP-1049.md
+
+---
+ ECIPs/ECIP-1049.md | 23 ++++++++++++++++-------
+ 1 file changed, 16 insertions(+), 7 deletions(-)
+
+diff --git a/ECIPs/ECIP-1049.md b/ECIPs/ECIP-1049.md
+index 15d299b..2f90e3a 100644
+--- a/ECIPs/ECIP-1049.md
++++ b/ECIPs/ECIP-1049.md
+@@ -3,7 +3,8 @@
+     ECIP: 1049
+     Title: Change the ETC Proof of Work Algorithm to Keccak256
+     Status: Draft
+-    Type: Meta
++    Type: Network
++    Discussion: https://github.com/ethereumclassic/ECIPs/pull/8
+     Author: Alexander Tsankov (alexander.tsankov@colorado.edu)
+     Created: 2019-01-08
+ 
+@@ -20,32 +21,40 @@ A proposal to replace the current Ethereum Classic proof of work algorithm with
+ ### Reason 1: Similarity to Bitcoin
+ The Bitcoin network currently uses the CPU-intensive SHA256 Algorithm to evaluate blocks. When Ethereum was deployed it used a different algorithm, Dagger-Hashimoto, which eventually became Ethash on 1.0 launch. Dagger-Hashimoto was explicitly designed to be memory-intensive with the goal of ASIC resistance [1]. It has been provably unsuccessful at this goal, with Ethash ASICs currently easily availalble on the market.
+ 
+-A CPU-intensive algorithm like Keccak256 would allow both the uniquness of a fresh PoW algorithm that has not had ASICs developed against it, while at the same time allowing for organic optimization of a dedicated and financially commited miner base, much the way Bitcoin did with its own SHA256 algorithm.
++Keccak256 (aka SHA3) is the product of decades of research and the winner of a multi-year contest held by NIST that has rigorously verified its robustness and quality as a hashing algorithm. It is one of the only hashing algorithms besides SHA256 that is allowed for military and scientific-grade applications, and can provide sufficient hashing entropy for a proof of work system. This algorithm would position Ethereum Classic at an advantage in mission-critical blockchain applications that are required to use provably high-strength algorithms. [2]
++
++A CPU-intensive algorithm like Keccak256 would allow both the uniqueness of a fresh PoW algorithm that has not had ASICs developed against it, while at the same time allowing for organic optimization of a dedicated and financially commited miner base, much the way Bitcoin did with its own SHA256 algorithm.
+ 
+ If Ethereum Classic is to succeed as a project, we need to take what we have learned from Bitcoin and move towards CPU-hard PoW algorithms.
+ 
+-> At first, most users would run network nodes, but as the network grows beyond a certain point, it would be left more and more to specialists with server farms of specialized hardware. - Satoshi Nakamoto (2008-11-03) [2]
++> At first, most users would run network nodes, but as the network grows beyond a certain point, it would be left more and more to specialists with server farms of specialized hardware. - Satoshi Nakamoto (2008-11-03) [3]
+ 
+ *Note: Please consider this is from 2008, and the Bitcoin community at that time did not differentiate between node operators and miners. I interpret "network nodes" in this quote to refer to miners, and "server farms of specialized hardware" to refer to mining farms.*
+ 
+ 
+ ### Reason 2: Value to Smart Contract Developers
+-In Solidity, developers have access to the `keccak256()` function, which allows a smart contract to efficiently calculate the hash of a given input. This has been used in a number of interesting projects launched on both Ethereum and Ethereum-Classic. Most Specifcally a project called 0xBitcoin [3] - which the ERC-918 spec was based on.
++In Solidity, developers have access to the `keccak256()` function, which allows a smart contract to efficiently calculate the hash of a given input. This has been used in a number of interesting projects launched on both Ethereum and Ethereum-Classic. Most Specifcally a project called 0xBitcoin [4] - which the ERC-918 spec was based on.
+ 
+-0xBitcoin is a security-audited [4] dapp that allows users to submit a proof of work hash directly to a smart contract running on the Ethereum blockchain. If the sent hash matches the given requirements, a token reward is trustlessly dispensed to the sender, along with the contract reevaulating difficulty parameters. This project has run successfully for over 10 months, and has minted over 3 million tokens [5].
++0xBitcoin is a security-audited [5] dapp that allows users to submit a proof of work hash directly to a smart contract running on the Ethereum blockchain. If the sent hash matches the given requirements, a token reward is trustlessly dispensed to the sender, along with the contract reevaluating difficulty parameters. This project has run successfully for over 10 months, and has minted over 3 million tokens [6].
+ 
+-With the direction that Ethereum Classic is taking: a focus on Layer-2 solutions and cross-chain compatability; being able to evaluate proof of work on chain, will be tremendously valuable to developers of both smart-contracts and node software writers. This could greatly simplify interoperability. 
++With the direction that Ethereum Classic is taking: a focus on Layer-2 solutions and cross-chain compatibility; being able to evaluate proof of work on chain, will be tremendously valuable to developers of both smart-contracts and node software writers. This could greatly simplify interoperability. 
+ 
+ ### Implementation
+ 
+ Work in Progress:
+ 
+ Example of a Smart contract hashing being able to trustlessly Keccak hash a hypothetical block header.
+-![example](https://i.imgur.com/Rt1n35s.png)
++![example](https://i.imgur.com/xh3WgCF.png)
++
++Here is an analysis of Monero's nonce-distribution for "cryptonight", an algorithm similar to Ethash, which also attempts to be "ASIC-Resistant" it is very clear in the picture that before the hashing algorithm is changed there is a clear nonce-pattern. This is indicative of a major failure in a hashing algorithm, and should illustrate the dangers of disregarding proper cryptographic security. Finding a hashing pattern would be far harder using a proven system like Keccak:
++
++![example](https://i.imgur.com/vVdmzm9.jpg)
++
+ 
+ ### References: 
+ 
+ 1. https://github.com/ethereum/wiki/wiki/Dagger-Hashimoto#introduction
++1. https://en.wikipedia.org/wiki/SHA-3
+ 1. https://satoshi.nakamotoinstitute.org/emails/cryptography/2/
+ 1. https://github.com/0xbitcoin/white-paper
+ 1. https://github.com/EthereumCommonwealth/Auditing/issues/102
+
+From b5829b167e126fd51ff467ae72d3ed99a26c7e00 Mon Sep 17 00:00:00 2001
+From: p3c-bot <40745785+p3c-bot@users.noreply.github.com>
+Date: Wed, 16 Jan 2019 12:29:47 -0500
+Subject: [PATCH 7/7] Update ECIP-1049.md
+
+---
+ ECIPs/ECIP-1049.md | 16 +++++++++++++---
+ 1 file changed, 13 insertions(+), 3 deletions(-)
+
+diff --git a/ECIPs/ECIP-1049.md b/ECIPs/ECIP-1049.md
+index 2f90e3a..42ec544 100644
+--- a/ECIPs/ECIP-1049.md
++++ b/ECIPs/ECIP-1049.md
+@@ -1,10 +1,10 @@
+-### What is an ECIP?
++### Change the ETC Proof of Work Algorithm to Keccak256
+ 
+     ECIP: 1049
+     Title: Change the ETC Proof of Work Algorithm to Keccak256
+     Status: Draft
+     Type: Network
+-    Discussion: https://github.com/ethereumclassic/ECIPs/pull/8
++    Discussion: https://github.com/ethereumclassic/ECIPs/issues/13
+     Author: Alexander Tsankov (alexander.tsankov@colorado.edu)
+     Created: 2019-01-08
+ 
+@@ -16,7 +16,7 @@ A proposal to replace the current Ethereum Classic proof of work algorithm with
+ 
+ * As a secondary benefit, deployed smart contracts and dapps running on chain are currently able to use `keccak256()` in their code. This ECIP could open the possibility of smart contracts being able to evaluate chain state, and simplify second layer (L2) development.
+ 
+-### Specification
++### Rationale
+ 
+ ### Reason 1: Similarity to Bitcoin
+ The Bitcoin network currently uses the CPU-intensive SHA256 Algorithm to evaluate blocks. When Ethereum was deployed it used a different algorithm, Dagger-Hashimoto, which eventually became Ethash on 1.0 launch. Dagger-Hashimoto was explicitly designed to be memory-intensive with the goal of ASIC resistance [1]. It has been provably unsuccessful at this goal, with Ethash ASICs currently easily availalble on the market.
+@@ -50,6 +50,16 @@ Here is an analysis of Monero's nonce-distribution for "cryptonight", an algorit
+ 
+ ![example](https://i.imgur.com/vVdmzm9.jpg)
+ 
++Based on analysis of the EVM architecture [here](https://cdn.discordapp.com/attachments/223675625334898688/534597157693685760/eth.jpg) there are two main pieces that need to be changed:
++
++1. The Proof of work function needs to be replaced with Keccak256
++1. The Function that checks the nonce-header  in the block needs to know to accept Keccak256 hashes as valid for a block.
++
++![example](https://i.imgur.com/2hobqOL.png)
++
++After doing further analysis it the best way forward to begin work is to implement this change in [Multi-Geth](https://github.com/ethoxy/multi-geth) instead of any other client. This is because Multi-geth is organized for multi-chain development, it seems to be more recently updated than classic-geth, and it is designed to be used with alternative consensus methods- which is necessary for implementing ECIP-1049.
++
++The area where most of the changes will be in `multi-geth/consensus`
+ 
+ ### References: 
+ 
