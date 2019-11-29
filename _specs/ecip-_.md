@@ -52,7 +52,9 @@ _Unique_ means not the same as another thing; in this case, not precisely duplic
 
 1. A Forking Meta ECIP may represent a plurality of features, and so in order to be an _operable_ specification it should not represent an ambiguous set. Sets of ECIPs can have interoperative dependencies and outcomes; this causes a conceptual permutation and combination challenge when attempting to design a set of ECIPs for simulateous inclusion. Demanding fully-formed Forking Meta ECIP proposals forces authors to evaluate and document ECIP-set behavior and enables concrete discussion of feature sets as complete wholes.
 
-2. Concrete ECIPs are easier to reason about. Nuances of interoperations are documented and included in concrete proposals, leaving less theoretical abstract reasoning to manage, which is relevant in the context of group _and_ individual decision making.
+2. Forking Meta ECIPs without block numbers lack operability. Activation numbers _are specifications_ and should not be treated as a second class or at-convenience citizens. Implementation timelines are importantly related variables to their adjacent ECIP-sets (large set ostensibly require long timelines, hotfix sets require short ones.) We cannot reason about them in independence.
+
+3. Concrete ECIPs are easier to reason about. Nuances of interoperations are documented and included in concrete proposals, leaving less theoretical abstract reasoning to manage, which is relevant in the context of group _and_ individual decision making.
 
 ### Implementation
 
