@@ -40,7 +40,7 @@ Related to and derivative of:
 
 A hard fork specification is documented as a Meta ECIP, and usually represents a collection of adjacent ECIPs. The sole purpose of a Forking Meta ECIP is to join a block number with this set of `n >= 1` ECIPs containing protocol-facing changes. The document says "_These_ features will activate at _this_ moment."
 
-This proposal specifies that all Forking Meta ECIPs should be COMPLETE and UNIQUE; essentially disallowing _Draft_ Forking Meta ECIPs and and/or meaningful revisions (set ECIPs, block number). A valid Forking Meta ECIP must contain a full and complete set of to-be included ECIPs, and a definitive block number. 
+This proposal specifies that all Forking Meta ECIPs should be COMPLETE and UNIQUE; essentially disallowing `Draft` status Forking Meta ECIPs and and/or meaningful revisions (set ECIPs, block number). A valid Forking Meta ECIP must contain a full and complete set of to-be included ECIPs, and a definitive block number. 
 
 _Complete_ is defined as being fully and totally definitive; not lacking anything.
 
