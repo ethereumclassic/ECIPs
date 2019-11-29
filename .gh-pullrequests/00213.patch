@@ -1,0 +1,23 @@
+From f18b8a35681d2bb9da385db9dd9206488a800376 Mon Sep 17 00:00:00 2001
+From: Bob Summerwill <bob@summerwill.net>
+Date: Fri, 29 Nov 2019 09:08:42 -0800
+Subject: [PATCH] Remove Bob as author. He did not author this ECIP. There was
+ no consent to add him. He actively opposes this ECIP, and supports ECIP-1061.
+
+---
+ _specs/ecip-1072.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-1072.md b/_specs/ecip-1072.md
+index 843176c..033e575 100644
+--- a/_specs/ecip-1072.md
++++ b/_specs/ecip-1072.md
+@@ -5,7 +5,7 @@ title: Aztlán EVM and Protocol Upgrades (Yingchun Edition)
+ status: Last Call
+ review-period-end: 2019-12-21
+ type: Meta
+-author: Wei Tang (@sorpaas), Talha Cross (@soc1c), Bob Summerwill (@bobsummerwill)
++author: Wei Tang (@sorpaas), Talha Cross (@soc1c)
+ created: 2019-11-14
+ discussions-to: https://github.com/ethereumclassic/ECIPs/issues/81
+ license: Apache-2.0

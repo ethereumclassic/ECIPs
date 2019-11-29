@@ -32,7 +32,7 @@
     "labels": [
 
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": null,
     "assignees": [
@@ -41,8 +41,8 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2019-11-16T16:08:17Z",
-    "updated_at": "2019-11-16T16:08:17Z",
-    "closed_at": null,
+    "updated_at": "2019-11-27T13:48:47Z",
+    "closed_at": "2019-11-27T13:48:47Z",
     "author_association": "MEMBER",
     "body": "Discussion for https://github.com/ethereumclassic/ECIPs/pull/186",
     "reactions": {

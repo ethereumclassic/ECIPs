@@ -1,0 +1,60 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/206",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/206/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/206/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/206/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/206",
+    "id": 529617094,
+    "node_id": "MDU6SXNzdWU1Mjk2MTcwOTQ=",
+    "number": 206,
+    "title": "Proposal to reject ECIP-1021, ECIP-1051, ECIP-1052 and ECIP-1057",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2019-11-27T23:31:32Z",
+    "updated_at": "2019-11-27T23:31:32Z",
+    "closed_at": null,
+    "author_association": "MEMBER",
+    "body": "Discussion for https://github.com/ethereumclassic/ECIPs/pull/200.\r\n\r\nProposal to reject the following ECIPs:\r\n\r\nECIP-1021 - Token standard (= ERC-223 in Ethereum)\r\nECIP-1051 - Ethereum Classic Treasury system\r\nECIP-1052 - Smart-contract Security Auditing core\r\nECIP-1057 - Cold Staking\r\n\r\nThere is no support for these proposals.\r\nRealistically they will never happen.\r\n\r\nIf new champions wish to propose similar changes in the future they should create new ECIPs.\r\nWe should reduce our cognitive load and the clarify of our \"working set\" by pruning out such inactive or \"never going to happen\" proposals.\r\n\r\nDexaran has indicated that his efforts will now be applied against EOS and I wish him the best with that approach. https://twitter.com/BobSummerwill/status/1199718315683237888\r\n\r\nNobody has championed treasury proposals except for Dexaran either, and treasury proposals are deeply unpopular within ETC.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/206/reactions",
+      "total_count": 1,
+      "+1": 0,
+      "-1": 1,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

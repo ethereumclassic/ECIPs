@@ -1,0 +1,66 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/207",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/207/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/207/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/207/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/207",
+    "id": 529741259,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0MzQ2NTYwMzE5",
+    "number": 207,
+    "title": "ECIP-1061: Move to withdrawn status",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2019-11-28T07:33:55Z",
+    "updated_at": "2019-11-29T16:17:02Z",
+    "closed_at": null,
+    "author_association": "MEMBER",
+    "pull_request": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/207",
+      "html_url": "https://github.com/ethereumclassic/ECIPs/pull/207",
+      "diff_url": "https://github.com/ethereumclassic/ECIPs/pull/207.diff",
+      "patch_url": "https://github.com/ethereumclassic/ECIPs/pull/207.patch"
+    },
+    "body": "As mentioned in ECIP-1061's \"summay section\":\r\n\r\n> The _Yingchun_ Edition refers to the preferred variant of _Aztlán_ without any repricing of state-trie \t\r\ndependent opcodes as previously proposed in [ECIP-1072](https://ecips.ethereumclassic.org/ECIPs/ecip-1072).\r\n\r\nThis clearly marks ECIP-1061 to be a duplication of ECIP-1072. As mentioned in https://github.com/ethereumclassic/ECIPs/pull/199#pullrequestreview-323755348 and echoed by https://github.com/ethereumclassic/ECIPs/pull/199#issuecomment-559185183, it's better to move this to withdrawn status to avoid unnecessary duplication.\r\n\r\nI believe I have the rights to propose the withdrawn status because I'm listed as an author of this ECIP. :)",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/207/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

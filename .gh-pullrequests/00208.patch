@@ -1,0 +1,79 @@
+From f8664f47204acd0fd5b439fd52b032ff1b7ebef7 Mon Sep 17 00:00:00 2001
+From: Bob Summerwill <bob@summerwill.net>
+Date: Thu, 28 Nov 2019 10:06:52 -0800
+Subject: [PATCH] Another batch of ECIP author tag fix-ups so web display is
+ clean.
+
+---
+ _specs/ecip-1021.md | 2 +-
+ _specs/ecip-1049.md | 2 +-
+ _specs/ecip-1051.md | 2 +-
+ _specs/ecip-1057.md | 2 +-
+ _specs/ecip-1063.md | 2 +-
+ 5 files changed, 5 insertions(+), 5 deletions(-)
+
+diff --git a/_specs/ecip-1021.md b/_specs/ecip-1021.md
+index f1a5c02..3c94514 100644
+--- a/_specs/ecip-1021.md
++++ b/_specs/ecip-1021.md
+@@ -2,7 +2,7 @@
+ lang: en
+ ecip: 1021
+ title: Token standard
+-author: Dexaran, <dexaran820@gmail.com>
++Author: Dexaran (@dexaran)
+ status: Draft
+ type: Standards Track
+ category: ECBP
+diff --git a/_specs/ecip-1049.md b/_specs/ecip-1049.md
+index 72f5604..a3576da 100644
+--- a/_specs/ecip-1049.md
++++ b/_specs/ecip-1049.md
+@@ -6,7 +6,7 @@ status: Draft
+ type: Standards Track
+ category: Core
+ discussions-to: https://github.com/ethereumclassic/ECIPs/issues/13
+-author: Alexander Tsankov (alexander.tsankov@colorado.edu)
++author: Alexander Tsankov <alexander.tsankov@colorado.edu>
+ created: 2019-01-08
+ ---
+ 
+diff --git a/_specs/ecip-1051.md b/_specs/ecip-1051.md
+index 73a0678..1a64aaf 100644
+--- a/_specs/ecip-1051.md
++++ b/_specs/ecip-1051.md
+@@ -5,7 +5,7 @@ title: Ethereum Classic Treasury system
+ status: Draft
+ type: Standards Track
+ category: Core
+-Author: Dexaran, dexaran@ethereumclassic.org
++author: Dexaran (@dexaran)
+ created: 2018-12-31
+ ---
+ 
+diff --git a/_specs/ecip-1057.md b/_specs/ecip-1057.md
+index 3761165..51b5b9f 100644
+--- a/_specs/ecip-1057.md
++++ b/_specs/ecip-1057.md
+@@ -2,7 +2,7 @@
+ lang: en
+ ecip: 1057
+ title: Cold Staking
+-author: Dexaran, dexaran@ethereumclassic.org
++Author: Dexaran (@dexaran)
+ discussions-To: https://github.com/ethereumclassic/ECIPs/issues/65
+ status: Draft
+ type: Standards Track
+diff --git a/_specs/ecip-1063.md b/_specs/ecip-1063.md
+index 46fb8e8..fb720f5 100644
+--- a/_specs/ecip-1063.md
++++ b/_specs/ecip-1063.md
+@@ -2,7 +2,7 @@
+ lang: en
+ ecip: 1063
+ title: Ethereum Classic Integrated Decentralized Oracles and Smart Contracts
+-author: Jesse Nguyen, <jessebaotruong@gmail.com>
++author: Jesse Nguyen <jessebaotruong@gmail.com>
+ discussions-to: Community Discord #ecips
+ status: Draft
+ type: Standard Track

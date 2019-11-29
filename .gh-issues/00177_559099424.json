@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/559099424",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/177#issuecomment-559099424",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/177",
+    "id": 559099424,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1OTA5OTQyNA==",
+    "user": {
+      "login": "soc1c",
+      "id": 47772477,
+      "node_id": "MDQ6VXNlcjQ3NzcyNDc3",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/47772477?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/soc1c",
+      "html_url": "https://github.com/soc1c",
+      "followers_url": "https://api.github.com/users/soc1c/followers",
+      "following_url": "https://api.github.com/users/soc1c/following{/other_user}",
+      "gists_url": "https://api.github.com/users/soc1c/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/soc1c/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/soc1c/subscriptions",
+      "organizations_url": "https://api.github.com/users/soc1c/orgs",
+      "repos_url": "https://api.github.com/users/soc1c/repos",
+      "events_url": "https://api.github.com/users/soc1c/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/soc1c/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-27T14:01:29Z",
+    "updated_at": "2019-11-27T14:01:29Z",
+    "author_association": "MEMBER",
+    "body": "\r\n### Attendees\r\n- bobsummerwill\r\n- Classic_Kevin_IOHK\r\n- DontPanicBurns\r\n- GregTheGreek\r\n- husainfazel\r\n- soc1c\r\n- sorpaas\r\n- Tj\r\n- tzdybal\r\n- wolf_li\r\n- yaz\r\n- zacmitton\r\n\r\n### Call minutes\r\n- Afri: Let's start discussing Aztlan ECIP variants\r\n- Afri: Main difference is inclusion of EIP 1884 - yes or no? any comments?\r\n- Tomek: We don't want to break existing contracts\r\n- Wei: EIP 1884 actually fixes a DoS vector that should be considered\r\n- Wei: If we want to enable we should analyze the ETC blockchain first\r\n- Bob: We should not exclude EIP 1884 as it is an optimization\r\n- Bob: Ideally, we want to do that in a backward-compatible way\r\n- Bob: Safe choice would be Istanbul without EIP 1884, the even better choice is Istanbul with EIP 1884 plus account versioning\r\n- Wei: Proposes account versioning hardfork first\r\n- Tomek: What would be the distance between the two hardforks?\r\n- Wei: Normal hardfork, no minimal distance, maybe a couple of weeks\r\n- Terry: Do you have a recommendation what to do first?\r\n- Zac: Why would contracts break from EIP 1884?\r\n- Bob: Especially the 600 Aragon contracts would break\r\n- Afri: Explicit gas price assumptions written in the contract\r\n- Cody: But that is a programming issue not protocol issue\r\n- Zac: If it's a weird assembly thing, then it's just more unlikely\r\n- Wei: Some weird hack\r\n- Afri: What's the sentiment, with or without EIP 1884?\r\n- Yaz: EIP 1884 should be excluded and come together with account versioning\r\n- Terry: Would you consider account versioning first\r\n- Yaz: Sure\r\n- Afri: Aztlan could be activated easily in 3 months because all clients support it and bundle EIP 1884 with account versioning later\r\n- Bob: EIP 1702 was implemented in all clients already\r\n- Bob: We should stick to 3 months without delay though\r\n- Wei: 1702 has an extension, new version could be implemented easily and in a backward-compatible way\r\n- Wei: We should have account versioning after Istanbul\r\n- Greg: Asks a sleepy question about EIP 1884\r\n- Wei: Answers something\r\n- Greg: \"Ooooh\" (good morning!)\r\n- Yaz: For Aztlan we can use opportunity to talk about other ECIPs, too\r\n- Tomek: Anyone proposing any ECIP? If not, we shouldn't discuss them\r\n- Bob: No proposals\r\n- Afri: EF network will act as a testnet for Classic with the upcoming Istanbul fork\r\n- Tomek: Best idea would be to have Aztlan without EIP 1884 and then have EIP 1884 with account versioning?\r\n- Wei: Yeah right, we would need a new specification\r\n- Afri: Shall we lock in Aztlan?\r\n- **Rough consensus on Aztlan without EIP 1884 (Yingchun flavor)**\r\n- Afri: Shall we add EIP 1884 plus account versioning in a subsequent hardfork?\r\n- Bob: Maybe new ECIP, doesn't necessarily have to be EIP 1884\r\n- Yaz: Do we need other tooling if we exclude 1884?\r\n- Bob: Not required\r\n- Wei: It's only gas assumptions. The correct answer is \"yes\" but the differences are only very slight.\r\n- Bob: Differences are slight anyways\r\n- Back and forth between Bob and Wei\r\n- Greg: Doesn't think the gas table affects compiler, we are probably good\r\n- Zac: Why is it in there?\r\n- Afri: Aztlan on mainnet March 2020, testnet in February 2020?\r\n- Yaz: Might break anything, so careful\r\n- Bob: Just be clear, we don't have to maintain any tooling\r\n- Greg also says something\r\n- Afri: Let's move Aztlan to last call? Testnets in February and decided block numbers offline?\r\n- _Silence..._\r\n- Afri: Is this \"don't care\" or \"rough consensus?\"\r\n- Cody: _Rough consensus..._\r\n- Wei: Just to be clear? Are we using ECIP 1072? How long should \"last call\" last?\r\n- Afri: Three weeks \"last call\" would be sufficient to evaluate Istanbul on EF network\r\n- Everyone: Sounds good\r\n- Afri: Any final comments?\r\n- Bob: Are we calling it Yingchun now?\r\n- Wei: No, let's stick with Aztlan\r\n- Yaz: We already communicated Aztlan\r\n- Afri: Let's call it Yingchun flavored Aztlan (ECIP 1061)\r\n- _Thanks everyone_\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/559099424/reactions",
+      "total_count": 4,
+      "+1": 4,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

@@ -32,7 +32,7 @@
     "labels": [
 
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": {
       "login": "bobsummerwill",
@@ -79,8 +79,8 @@
     "milestone": null,
     "comments": 1,
     "created_at": "2019-11-13T01:34:32Z",
-    "updated_at": "2019-11-13T01:45:03Z",
-    "closed_at": null,
+    "updated_at": "2019-11-27T13:48:57Z",
+    "closed_at": "2019-11-27T13:48:57Z",
     "author_association": "MEMBER",
     "body": "Discussion related to https://github.com/ethereumclassic/ECIPs/pull/183.\r\n\r\n**\"ASIC resistance\" is a myth.  The ETC ecosystem rejects this myth.**",
     "reactions": {

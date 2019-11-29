@@ -1,0 +1,60 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/215",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/215/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/215/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/215/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/215",
+    "id": 530444529,
+    "node_id": "MDU6SXNzdWU1MzA0NDQ1Mjk=",
+    "number": 215,
+    "title": "Core Devs Call: Confirm consensus for Aztlán Upgrade (Yingchun Edition)",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2019-11-29T17:35:39Z",
+    "updated_at": "2019-11-29T17:41:55Z",
+    "closed_at": null,
+    "author_association": "MEMBER",
+    "body": "Ref [ECIP-1061](https://ecips.ethereumclassic.org/ECIPs/ecip-1061) [ECIP-1072](https://ecips.ethereumclassic.org/ECIPs/ecip-1072) #198 #199 #212 #213 #214\r\n\r\n### ETC Core Devs Call - Confirm consensus for Aztlán Upgrade (Yingchun Edition)\r\n\r\nWhen: **Thursday, December 5, 2019, 1pm UTC**, 60 minutes max.\r\n\r\nWhere: **Ethereum Classic Discord** https://discord.gg/dwxb6nf `#ecips` channel. Will use/create a voice channel _ad hoc._\r\n\r\nMeeting Coordinator: TBD\r\n\r\n### Agenda\r\n\r\n- Quick client teams check-in\r\n  - Parity Ethereum / Parity Tech\r\n  - Geth Classic / ChainSafe, ETCLabs Core\r\n  - Multi-Geth / Multi-Geth, ETCLabs Core \r\n  - Hyperledger Besu / ChainSafe, PegaSys\r\n- Aztlán Upgrade (Yingchun Edition) (ECIP-1061) is in _\"Draft\"_ state\r\n  - In the previous meeting we agreed on scope for Aztlán Upgrade (Istanbul - 1884)\r\n  - There remains confusion on whether we  proceed with updated 1061 or \"switch horse\" to 1072\r\n  - Let's decide that here.\r\n  - Either ECIP-1061 or ECIP-1072 needs to be moved to **Last Call** and the other to **Withdrawn**.\r\n  - And then we move on with our lives.\r\n\r\nPlease comment to add items to the agenda",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/215/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

@@ -1,0 +1,60 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/209",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/209/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/209/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/209/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/209",
+    "id": 530045129,
+    "node_id": "MDU6SXNzdWU1MzAwNDUxMjk=",
+    "number": 209,
+    "title": "Proposing Meeting Coordinators",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 2,
+    "created_at": "2019-11-28T18:45:07Z",
+    "updated_at": "2019-11-29T01:01:19Z",
+    "closed_at": null,
+    "author_association": "MEMBER",
+    "body": "The current core dev meeting coordinator is informally Afri. Afri has said we \"can replace me anytime\". Given recent actions that Afri were not exactly following the \"protocol\" and were not exactly \"neutral\" in his position, I think it would be important to have some coordinator name list ready, in case we want to appoint a new one for all of our meetings.\r\n\r\nPlease feel free to propose names or propose yourself. Current list:\r\n\r\n@YazzyYaz \r\n@phyro \r\n@TokenHash \r\n@developerkevin ",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/209/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

@@ -1,0 +1,51 @@
+From 590d6e54bcb0e77167e297820ce2cb5c9ac758fe Mon Sep 17 00:00:00 2001
+From: Talha Cross <47772477+soc1c@users.noreply.github.com>
+Date: Fri, 29 Nov 2019 17:24:23 +0100
+Subject: [PATCH 1/2] Revert "ECIP-1072: Fix name and move it to last call"
+
+---
+ _specs/ecip-1072.md | 7 +++----
+ 1 file changed, 3 insertions(+), 4 deletions(-)
+
+diff --git a/_specs/ecip-1072.md b/_specs/ecip-1072.md
+index 843176c..185b2ec 100644
+--- a/_specs/ecip-1072.md
++++ b/_specs/ecip-1072.md
+@@ -1,11 +1,10 @@
+ ---
+ lang: en
+ ecip: 1072
+-title: Aztlán EVM and Protocol Upgrades (Yingchun Edition)
+-status: Last Call
+-review-period-end: 2019-12-21
++title: Yingchun EVM and Protocol Upgrades
++status: Draft
+ type: Meta
+-author: Wei Tang (@sorpaas), Talha Cross (@soc1c), Bob Summerwill (@bobsummerwill)
++author: Wei Tang (@sorpaas)
+ created: 2019-11-14
+ discussions-to: https://github.com/ethereumclassic/ECIPs/issues/81
+ license: Apache-2.0
+
+From 03dd0434170e81abda275e777f9d7bfd448e7a9b Mon Sep 17 00:00:00 2001
+From: Talha Cross <47772477+soc1c@users.noreply.github.com>
+Date: Fri, 29 Nov 2019 17:25:51 +0100
+Subject: [PATCH 2/2] ECIP-1072: Move to withdrawn status
+
+---
+ _specs/ecip-1072.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-1072.md b/_specs/ecip-1072.md
+index 185b2ec..179b269 100644
+--- a/_specs/ecip-1072.md
++++ b/_specs/ecip-1072.md
+@@ -2,7 +2,7 @@
+ lang: en
+ ecip: 1072
+ title: Yingchun EVM and Protocol Upgrades
+-status: Draft
++status: Withdrawn
+ type: Meta
+ author: Wei Tang (@sorpaas)
+ created: 2019-11-14

@@ -32,17 +32,17 @@
     "labels": [
 
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": null,
     "assignees": [
 
     ],
     "milestone": null,
-    "comments": 2,
+    "comments": 3,
     "created_at": "2019-03-30T22:15:50Z",
-    "updated_at": "2019-06-12T11:27:52Z",
-    "closed_at": null,
+    "updated_at": "2019-11-27T17:15:37Z",
+    "closed_at": "2019-11-27T17:15:37Z",
     "author_association": "MEMBER",
     "body": "< Placeholder >",
     "reactions": {

@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/557964975",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/13#issuecomment-557964975",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/13",
+    "id": 557964975,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1Nzk2NDk3NQ==",
+    "user": {
+      "login": "p3c-bot",
+      "id": 40745785,
+      "node_id": "MDQ6VXNlcjQwNzQ1Nzg1",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/40745785?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/p3c-bot",
+      "html_url": "https://github.com/p3c-bot",
+      "followers_url": "https://api.github.com/users/p3c-bot/followers",
+      "following_url": "https://api.github.com/users/p3c-bot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/p3c-bot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/p3c-bot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/p3c-bot/subscriptions",
+      "organizations_url": "https://api.github.com/users/p3c-bot/orgs",
+      "repos_url": "https://api.github.com/users/p3c-bot/repos",
+      "events_url": "https://api.github.com/users/p3c-bot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/p3c-bot/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-25T02:43:38Z",
+    "updated_at": "2019-11-25T02:44:44Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "After the call last week, I propose the following as a compromise for the ECIP1049, and welcome feedback from interested parties:\r\n\r\n**Instead of replacing Ethash with Keccak256 entirely, the network can instead accept both of the hashes as valid for proof of work. A block can be sealed with both Ethash OR Keccak256**\r\n\r\nA dual proof of work system, how is this possible without adding lots of complexity to the system?\r\n\r\n![new](https://user-images.githubusercontent.com/40745785/69508217-264b2980-0f03-11ea-8af1-751016d6f642.png)\r\n\r\nWell it is actually quite simple. Part of the requirement for the DAG generation is what’s called a “mixHash” — which is a 256 bit string which can be used to generate the DAG. Because Keccak256 does not need a DAG (the DAG only exists for “ASIC resistance” purposes) we get this extra 256 bit string which is very useful, we really can fill it with anything we want.\r\n\r\nSo here are the nuts and bolts:\r\n\r\nIf a miner sees `0x0000` as the first 4 characters of the mixHash — then it checks if the block is sealed with Keccak256, if it is, then the block is valid. If it does not see `0x0000` it checks if it is sealed with Ethash, if it is, the block is valid.\r\n```\r\nif blockheader.mixHash[0:4] == '0x0000':\r\n   validateKeccak256PoW()\r\nelse:\r\n   validateEthashPow()\r\n```\r\nThis allows both sides to get exactly what they want:\r\n\r\nThose in favor of Keccak, can submit work to the blockchain that is considered valid. This means dedicated miners can create chips and ASICs for the network, and defend against potential rogue Ethash mining pools, the same ones that 51% attacked ETC numerous times in January 2019.\r\n\r\nThose in favor of staying with Ethash now know that, if we activate ECIP1049 and we don’t have any Keccak miners on the network, it’s not an issue because everybody can just keep business as usual.\r\n\r\nIf ECIP1049 is activated, no new tools need to be written, since now two PoW methods are considered valid as opposed to just one. Everyone agrees that both of these two PoW methods are collision resistant and can function for block sealing. In fact we believe, this solution qualifies as a soft fork, because Ethash is a composite of Keccak256 plus a lot of other things. By removing the clutter, we are accepting merely a subset of what we used to accept. However, it is not a conventional Soft Fork, because the client still needs to be updated. \r\n\r\nI am interested to hear what the community thinks of this and whether this would reach consensus.\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/557964975/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

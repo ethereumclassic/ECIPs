@@ -1,0 +1,53 @@
+From 1569949170c18fa5a4f4d84cc866c9eb34354f7f Mon Sep 17 00:00:00 2001
+From: Bob Summerwill <bob@summerwill.net>
+Date: Wed, 27 Nov 2019 09:06:30 -0800
+Subject: [PATCH] Correct status for various ECIPs which appear wrong:
+
+ECIP-1019 (to withdrawn, was obsoleted by other ECIPs)
+ECIP-1045 (to withdrawn, was obsoleted by other ECIPs)
+ECIP-1048 (to last call, because we already implemented it with Kotti)
+---
+ _specs/ecip-1019.md | 2 +-
+ _specs/ecip-1045.md | 2 +-
+ _specs/ecip-1048.md | 2 +-
+ 3 files changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/_specs/ecip-1019.md b/_specs/ecip-1019.md
+index ca345bd..1afb3d7 100644
+--- a/_specs/ecip-1019.md
++++ b/_specs/ecip-1019.md
+@@ -3,7 +3,7 @@ lang: en
+ ecip: 1019
+ title: (Epoch Decay 10) Monetary Policy and Final Modification to the Ethereum Classic Emission Schedule
+ author: Mike Boremi <ecip-1019@mikes.email>
+-status: Draft
++status: Withdrawn
+ type: Standards Track
+ category: Core
+ created: 2017-01-19
+diff --git a/_specs/ecip-1045.md b/_specs/ecip-1045.md
+index a77553b..af0454b 100644
+--- a/_specs/ecip-1045.md
++++ b/_specs/ecip-1045.md
+@@ -2,7 +2,7 @@
+ lang: en
+ ecip: 1045
+ title: Support for ETH Byzantium & Constantinople EVM and Protocol Upgrades
+-status: Draft
++status: Withdrawn
+ type: Meta
+ author: Isaac Ardis <isaac@etcdevteam.com>
+ created: 2018-06-18
+diff --git a/_specs/ecip-1048.md b/_specs/ecip-1048.md
+index 121a65f..640b652 100644
+--- a/_specs/ecip-1048.md
++++ b/_specs/ecip-1048.md
+@@ -4,7 +4,7 @@ ecip: 1048
+ title: Clique proof-of-authority consensus protocol
+ author: Péter Szilágyi <peterke@gmail.com>
+ discussions-to: https://github.com/ethereum/EIPs/issues/225
+-status: Draft
++status: Last Call
+ type: Standards Track
+ category: Core
+ created: 2017-03-06
