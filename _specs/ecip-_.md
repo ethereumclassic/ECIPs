@@ -72,7 +72,7 @@ The sole purpose of a Forking Meta ECIP is to join a block number with a set of 
 
 A Forking Meta ECIP may only achieve `Last Call` status once a Changeset has been accepted and all other alternative marked as `Deferred`, `Withdrawn`, or `Rejected`.
 
-This proposed procedure makes only marginal and changes, demanding only that what was taken as implication, subtext, or conteext before now be made explicit. Rather than reviewing actual-or-theoretical proposed changesets to an ECIP (which sadly, have historically usually been theoretical), this forces proposed Forking Meta ECIP alternative outcomes to assume a fully qualified and standardized formats before becoming eligible for consideration. 
+This proposed procedure makes only marginal and changes, demanding only that what was taken as implication, subtext, or context before now be made explicit. Rather than reviewing actual-or-theoretical proposed changesets to an ECIP (which sadly, have historically usually been theoretical), this forces proposed Forking Meta ECIP alternative outcomes to assume a fully qualified and standardized formats before becoming eligible for consideration. 
 
 ### Copyright/Licensing
 
