@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/559881215",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/217#issuecomment-559881215",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/217",
+    "id": 559881215,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1OTg4MTIxNQ==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-29T21:11:30Z",
+    "updated_at": "2019-11-29T21:11:30Z",
+    "author_association": "MEMBER",
+    "body": "@sorpaas RE: Flag - cool.\r\n\r\n./geth --ecip1061\r\n\r\n@meowsbits https://bobsummerwill.com/2016/07/12/ethereum-everywhere/\r\n\r\nThe source code for Geth and all downstreams has unknown provenance.   We do not know the full set of authors and there is zero defence there against future IP claims.   Patent trolling, etc.\r\n\r\nGPLv3 repels use by legal entities, which is why there has been a huge shift from copyleft to permissive licensing, from \"free software\" to \"open source\" over the last 30 years.\r\n\r\nThe GPL is still fighting the last war.   It was an awesome tool when it was RMS vs the world.   Now things have done a complete 180 and open source is the default.\r\n\r\nThree reasons why IBM created Fabric:\r\n\r\n1. Licensing\r\n2. Lack of maturity of Ethereum technology (will it work?)\r\n3. Governance\r\n\r\nAll three of those had solutions in 2016.   If Gav and Parity had not blocked this relicensing effort then the likely alternative timeline we would have been following would be for IBM to throw away Fabric and to have built IBM Blockchain on top of Ethereum.\r\n\r\nIBM had a 30 engineer team ready to pile onto cpp-ethereum when the relicensing was done.   Never happened:\r\n\r\nhttps://www.ibtimes.co.uk/hyperledger-project-reflects-blockchain-politics-1603381\r\n\r\nLicensing aside, the bulk of my work those 5 months was chasing all prior contributors and getting consent to the relicencing AND DCO attestions that they had authored the code, and that they had the right to contribute it under that license.   Consent from employers too, if they had them.\r\n\r\nBasically getting certainty that no legal claims could be launched in the future.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/559881215/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

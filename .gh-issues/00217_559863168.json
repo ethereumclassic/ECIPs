@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/559863168",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/217#issuecomment-559863168",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/217",
+    "id": 559863168,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1OTg2MzE2OA==",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-29T18:47:32Z",
+    "updated_at": "2019-11-29T18:47:32Z",
+    "author_association": "MEMBER",
+    "body": "@bobsummerwill I won't mind multi-geth being on Ethereum Classic Classic only at all. After all, I do not have financial involvement in Ethereum Classic, and it's all volunteering work to support a network. If other clients can offload the burden on multi-geth, I would hugely appreciate it.\r\n\r\nBesides, if a user do not want to support the contentious hard fork, the only thing they need to do is not to update the client.\r\n\r\nGiven the nature of contentious hard fork, it's better if you start promoting your fork soon. Otherwise your chain might end up becoming Ethereum Classic Classic.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/559863168/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }
