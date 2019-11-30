@@ -1,5 +1,5 @@
 ---
-ecip: TBD
+ecip: 1077
 title: The Meta Fork ECIP: Establishing _Fork_ type ECIPs and their specifications and processes
 author: Mr. Meows D. Bits
 discussions-to: TBD
