@@ -17,8 +17,6 @@ Forking Meta ECIPs (defined as Meta ECIPs specifying any Standards-Core track EC
 
 Incomplete proposals are inoperable; they are not ready for implementation.
 
-Definite proposals are inoperable; they are not ready for implementation.
-
 Unique proposals saves me time because I don't have to read the same thing twice.
 
 Related to and derivative of:
