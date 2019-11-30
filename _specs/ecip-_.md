@@ -11,7 +11,7 @@ resolution: TBD
 
 ### Abstract
 
-Forking Meta ECIPs (defined as Meta ECIPs specifying any Standards-Core track ECIP) should be complete and unique.
+Forking Meta ECIPs (defined as Meta ECIPs specifying any Standards-Core track ECIP and an activation block number) should be complete and unique.
 
 ### Motivation
 
