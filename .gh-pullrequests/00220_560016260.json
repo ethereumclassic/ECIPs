@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560016260",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/220#issuecomment-560016260",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/220",
+    "id": 560016260,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDAxNjI2MA==",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-30T19:58:21Z",
+    "updated_at": "2019-11-30T19:59:00Z",
+    "author_association": "MEMBER",
+    "body": "> I believe 1061 follows the correct process as its getting updated to reflect changes\r\n\r\nYes! ECIP-1061 followed the correct process when we merge this PR. It provides a special cause to declare that the action to merge it to \"Last Call\" was valid:\r\n\r\n> In [PR#199](https://github.com/ethereumclassic/ECIPs/pull/199), Afri Schoedon merged a PR moving ECIP-1061 to \"Last Call\" status. At the time, Afri dismissed a review of clear objections from ECIP editor Wei Tang, without waiting for consultations of the community, or resolutions with the review submitter. We here declare that this particular action from Afri followed the ECIP process. ",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560016260/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

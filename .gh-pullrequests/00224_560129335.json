@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560129335",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/224#issuecomment-560129335",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/224",
+    "id": 560129335,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDEyOTMzNQ==",
+    "user": {
+      "login": "meowsbits",
+      "id": 45600330,
+      "node_id": "MDQ6VXNlcjQ1NjAwMzMw",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/45600330?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/meowsbits",
+      "html_url": "https://github.com/meowsbits",
+      "followers_url": "https://api.github.com/users/meowsbits/followers",
+      "following_url": "https://api.github.com/users/meowsbits/following{/other_user}",
+      "gists_url": "https://api.github.com/users/meowsbits/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/meowsbits/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/meowsbits/subscriptions",
+      "organizations_url": "https://api.github.com/users/meowsbits/orgs",
+      "repos_url": "https://api.github.com/users/meowsbits/repos",
+      "events_url": "https://api.github.com/users/meowsbits/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/meowsbits/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-01T16:41:39Z",
+    "updated_at": "2019-12-01T16:59:06Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "@bobsummerwill I understand your concern.\r\n\r\nHere's why I think being explicit is important:\r\n- One of the opposing argument sets that came up in this latest flurry is \"This is the way we've always done it\" vs. \"This is what the procedure should technically be\". __This attempts to _clarify_, not constrain__, a hopefully healthy and accessible pattern for collaboration. \r\n- All creative and especially collaborative constructive projects need constraints in order to structure and direct growth. This intends to serve that purpose, __offering a concrete structural framework within which _any_ specification proposals can fit__.\r\n  + With this, it __makes the process more accessible__ to newcomers/forgetful people/anyone, who won't have to be \"taught the wisdom of yore\" in ethereal Discord chats, and can instead find participation guidelines documented concretely. \r\n- `could just be headed off socially`. I agree that this is an optimistic and ideal scenario. But this ideal depends on good and available leadership and mutual collaborative attitudes, which can not be taken for granted in an intentionally decentralized an decentralizing community. __Relying on the availability of certain social dynamics and/or certain personalities in this space is a not a robust a system__. Do you imagine it would be _your_ job to guarantee elimination of \"silly\" social behavior? To squelch every potential conflict before it grows horns? \r\n- `a series of silly events `. This may be. But aside from \"silly\" bickering __we are now looking at a maybe-seriously-silly Fork specification__ (either 1061 or 1072) which potentially gives rise to [an important security flaw](https://github.com/ethereumclassic/ECIPs/issues/217#issuecomment-560102235), which arguably is, at least in part, __caused by a failure to consider the proposed set of included ECIPs as a whole__.\r\n\r\nIf we can accept this proposed collaboration pattern, what would the cost be of adopting it, versus continuing with tacit traditions? ",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560129335/reactions",
+      "total_count": 1,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

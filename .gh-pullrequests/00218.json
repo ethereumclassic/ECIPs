@@ -1,0 +1,66 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/218",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/218/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/218/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/218/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/218",
+    "id": 530468515,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0MzQ3MTQ0MzY2",
+    "number": 218,
+    "title": "Reject ECIP-1072 which is a functional duplicate to ECIP-1061",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2019-11-29T19:25:59Z",
+    "updated_at": "2019-11-29T21:56:54Z",
+    "closed_at": "2019-11-29T21:56:54Z",
+    "author_association": "MEMBER",
+    "pull_request": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/218",
+      "html_url": "https://github.com/ethereumclassic/ECIPs/pull/218",
+      "diff_url": "https://github.com/ethereumclassic/ECIPs/pull/218.diff",
+      "patch_url": "https://github.com/ethereumclassic/ECIPs/pull/218.patch"
+    },
+    "body": "ECIP-1702 is now being used by Wei to push an \"Ethereum Classic Classic\" fork.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/218/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

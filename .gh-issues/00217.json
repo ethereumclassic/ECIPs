@@ -32,17 +32,17 @@
     "labels": [
 
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": null,
     "assignees": [
 
     ],
     "milestone": null,
-    "comments": 6,
+    "comments": 11,
     "created_at": "2019-11-29T18:16:28Z",
-    "updated_at": "2019-11-29T22:10:07Z",
-    "closed_at": null,
+    "updated_at": "2019-12-01T17:13:40Z",
+    "closed_at": "2019-12-01T16:58:38Z",
     "author_association": "MEMBER",
     "body": "Recently, a few community members have decided to implement the Aztlan hard fork. The issue with Aztlan is that without EIP-1884, it effectively left an account trie attack vector open. Most current clients do not have other protections currently other than increasing gas cost. The paper for the attack is actually public, meaning anyone who knows the method can do it. As the security analysis for Aztlan is inadequate, we should prepare for its issues properly.\r\n\r\nMy recommendations would be we do not implement Aztlan before account versioning. However, given the consensus was already reached, I won't oppose the hard fork.",
     "reactions": {

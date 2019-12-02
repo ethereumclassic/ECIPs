@@ -1,0 +1,26 @@
+From 33298b3b18e5b77211aa690c7e3b6da16d549fe0 Mon Sep 17 00:00:00 2001
+From: Bob Summerwill <bob@summerwill.net>
+Date: Sun, 1 Dec 2019 10:18:22 -0800
+Subject: [PATCH] Move ERC-223 token standard to Last Call, on its path to
+ Accepted and then Final. This token standard is being used in the real world.
+
+---
+ _specs/ecip-1021.md | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/_specs/ecip-1021.md b/_specs/ecip-1021.md
+index 3c94514..0a2a734 100644
+--- a/_specs/ecip-1021.md
++++ b/_specs/ecip-1021.md
+@@ -1,9 +1,9 @@
+ ---
+ lang: en
+ ecip: 1021
+-title: Token standard
++title: ERC-223 Token standard
+ Author: Dexaran (@dexaran)
+-status: Draft
++status: Last Call
+ type: Standards Track
+ category: ECBP
+ created: 2017-03-07

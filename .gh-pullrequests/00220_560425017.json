@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560425017",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/220#issuecomment-560425017",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/220",
+    "id": 560425017,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDQyNTAxNw==",
+    "user": {
+      "login": "meowsbits",
+      "id": 45600330,
+      "node_id": "MDQ6VXNlcjQ1NjAwMzMw",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/45600330?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/meowsbits",
+      "html_url": "https://github.com/meowsbits",
+      "followers_url": "https://api.github.com/users/meowsbits/followers",
+      "following_url": "https://api.github.com/users/meowsbits/following{/other_user}",
+      "gists_url": "https://api.github.com/users/meowsbits/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/meowsbits/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/meowsbits/subscriptions",
+      "organizations_url": "https://api.github.com/users/meowsbits/orgs",
+      "repos_url": "https://api.github.com/users/meowsbits/repos",
+      "events_url": "https://api.github.com/users/meowsbits/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/meowsbits/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-02T14:41:22Z",
+    "updated_at": "2019-12-02T14:41:22Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "> But anyway, the issue with irregular process transition is not that whether we want it, but that it has already happened.\r\n\r\nThis PR proposes an addition of an [`Appendix: Irregular Process Transitions`](https://github.com/ethereumclassic/ECIPs/pull/220/files#diff-db096127a5d72fa17bed19fc86636d80R356) which did not exist before, as well as a first entry in this presumed section describing a subject view of events which (thankfully, and hopefully every-quickenly) are indeed becoming historical. \r\n\r\nAs I see it, this PR's content must necessarily be broken into two pieces:\r\n\r\n- Add a section `### Appendix: Irregular Process Transitions`, drafting it's procedures and specifications. \r\n- __Once and if that is accepted__, allow entries to be proposed for inclusion.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560425017/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

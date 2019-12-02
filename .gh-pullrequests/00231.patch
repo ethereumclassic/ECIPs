@@ -1,0 +1,30 @@
+From 94e14442581886c3652bca31a2ddb3ec75c75a27 Mon Sep 17 00:00:00 2001
+From: Bob Summerwill <bob@summerwill.net>
+Date: Sun, 1 Dec 2019 10:16:11 -0800
+Subject: [PATCH] Reject ECIP-1052 "Smart-contract Security Auditing core"
+
+This requires the Treasury.
+Both the Treasury and this Auditing proposal on top run counter to ECIP-1017 monetary policy.
+
+Auditing is a good idea, but should not be centralized into the block rewards.
+
+This runs counter to ETC philosophy and principles and should be rejected.
+
+Perhaps this is raised in an ETC Core Developers call, and formally rejected?
+---
+ _specs/ecip-1052.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-1052.md b/_specs/ecip-1052.md
+index 6bc89bc..b279c53 100644
+--- a/_specs/ecip-1052.md
++++ b/_specs/ecip-1052.md
+@@ -2,7 +2,7 @@
+ lang: en
+ ecip: 1052
+ title: Smart-contract Security Auditing core
+-status: Draft
++status: Rejected
+ type: Meta
+ author: Dexaran, dexaran@ethereumclassic.org
+ created: 2018-12-31

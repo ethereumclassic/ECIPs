@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560150265",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/225#issuecomment-560150265",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/225",
+    "id": 560150265,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDE1MDI2NQ==",
+    "user": {
+      "login": "meowsbits",
+      "id": 45600330,
+      "node_id": "MDQ6VXNlcjQ1NjAwMzMw",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/45600330?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/meowsbits",
+      "html_url": "https://github.com/meowsbits",
+      "followers_url": "https://api.github.com/users/meowsbits/followers",
+      "following_url": "https://api.github.com/users/meowsbits/following{/other_user}",
+      "gists_url": "https://api.github.com/users/meowsbits/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/meowsbits/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/meowsbits/subscriptions",
+      "organizations_url": "https://api.github.com/users/meowsbits/orgs",
+      "repos_url": "https://api.github.com/users/meowsbits/repos",
+      "events_url": "https://api.github.com/users/meowsbits/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/meowsbits/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-01T19:42:02Z",
+    "updated_at": "2019-12-01T19:48:00Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "> Use Parity-Ethereum, Hyperledger Besu or IOHK Mantis (if you could ) and you will not have these problems.\r\n> https://github.com/ethereumclassic/ECIPs/issues/225#issuecomment-560134684\r\n\r\n> Current reality for Geth family - BAD\r\n> Better reality - GPLv3 + DCOs\r\n> Best reality - Apache 2.0 + DCOs\r\n> https://github.com/ethereumclassic/ECIPs/issues/225#issuecomment-560135086\r\n\r\n[Parity uses GPLv3](https://github.com/paritytech/parity-ethereum/blob/master/LICENSE), just like [go-ethereum](https://github.com/ethereum/go-ethereum/blob/master/COPYING). Which leads me to reason that Parity's differential use of CLA, eg. https://github.com/paritytech/parity-ethereum/pull/6810#issuecomment-337245715, is what you're talking about when you say `DCO`.\r\n\r\nFollowing the CLA-bot's link to Wikipedia finds me at https://en.wikipedia.org/wiki/Contributor_License_Agreement, where I see:\r\n\r\n> CLAs can be used to enable vendors to easily pursue legal resolution in the case of copyright disputes,[1] or to relicense products to which contributions have been received from third parties.[2]\r\n>\r\n> The purpose of a CLA is to ensure that the guardian of a project's outputs has the necessary ownership or grants of rights over all contributions to allow them to distribute under the chosen license.\r\n\r\nWhere I interpret the legal benefactors of CLA's as \"vendors\" and \"guardians\" and \"maintainers\" of projects. And where in this case we're talking a specifically about \"geth-family\" codebases, these translate to entities who... _fund_ development efforts on these projects? Who _own_ these projects? Who _steward_ these projects? Who are listed on Github as _maintainers_ of these projects? \r\n\r\nWith some just-believe-the-hand-waving I can start to be convinced of potential risks for, say, [`The go-ethereum Authors`](https://github.com/ethereum/go-ethereum/blob/master/consensus/ethash/consensus.go#L1) (listed [here](https://github.com/ethereum/go-ethereum/blob/master/AUTHORS)), but I'm not clear on how the Swiss-based supposedly non-profit entity Ethereum Foundation would fit into this concern, let alone those you've cited as being most at risk:\r\n\r\n> Those entities most at risk are exchanges, miners, businesses using ETC, developers using ETC.\r\n> https://github.com/ethereumclassic/ECIPs/issues/225#issuecomment-560133962\r\n\r\nCan you explain what exactly you're anticipating as a risk for, say, an exchange (in... pick any country) running a go-ethereum instance in order to utilize the Ethereum Classic network, in the case that a patent troll fires up a suit against `<whoever you think the patent troll would sue>` suing for a protocol specification copyright (your worst-case scenario).\r\n\r\n\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560150265/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

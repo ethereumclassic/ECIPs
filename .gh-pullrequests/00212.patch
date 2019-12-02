@@ -1,7 +1,7 @@
 From 590d6e54bcb0e77167e297820ce2cb5c9ac758fe Mon Sep 17 00:00:00 2001
 From: Talha Cross <47772477+soc1c@users.noreply.github.com>
 Date: Fri, 29 Nov 2019 17:24:23 +0100
-Subject: [PATCH 1/2] Revert "ECIP-1072: Fix name and move it to last call"
+Subject: [PATCH 1/4] Revert "ECIP-1072: Fix name and move it to last call"
 
 ---
  _specs/ecip-1072.md | 7 +++----
@@ -30,7 +30,7 @@ index 843176c..185b2ec 100644
 From 03dd0434170e81abda275e777f9d7bfd448e7a9b Mon Sep 17 00:00:00 2001
 From: Talha Cross <47772477+soc1c@users.noreply.github.com>
 Date: Fri, 29 Nov 2019 17:25:51 +0100
-Subject: [PATCH 2/2] ECIP-1072: Move to withdrawn status
+Subject: [PATCH 2/4] ECIP-1072: Move to withdrawn status
 
 ---
  _specs/ecip-1072.md | 2 +-
@@ -44,6 +44,52 @@ index 185b2ec..179b269 100644
  lang: en
  ecip: 1072
  title: Yingchun EVM and Protocol Upgrades
+-status: Draft
++status: Withdrawn
+ type: Meta
+ author: Wei Tang (@sorpaas)
+ created: 2019-11-14
+
+From ad800675e39672f5015fb23e9b8d1fa424e3ca68 Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Fri, 29 Nov 2019 23:00:01 +0100
+Subject: [PATCH 3/4] Update ecip-1073.md
+
+---
+ _specs/ecip-1073.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-1073.md b/_specs/ecip-1073.md
+index 5e27f26..6cf9a3a 100644
+--- a/_specs/ecip-1073.md
++++ b/_specs/ecip-1073.md
+@@ -2,7 +2,7 @@
+ lang: en
+ ecip: 1073
+ title: Xichun EVM and Protocol Upgrades
+-status: Draft
++status: Withdrawn
+ type: Meta
+ author: Wei Tang (@sorpaas)
+ created: 2019-11-14
+
+From 1ec2f41072016e550e4b73b8bf701224833bfa7e Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Fri, 29 Nov 2019 23:00:19 +0100
+Subject: [PATCH 4/4] Update ecip-1074.md
+
+---
+ _specs/ecip-1074.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-1074.md b/_specs/ecip-1074.md
+index 5d577ba..0228960 100644
+--- a/_specs/ecip-1074.md
++++ b/_specs/ecip-1074.md
+@@ -2,7 +2,7 @@
+ lang: en
+ ecip: 1074
+ title: Tanchun EVM and Protocol Upgrades
 -status: Draft
 +status: Withdrawn
  type: Meta

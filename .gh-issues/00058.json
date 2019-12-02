@@ -40,17 +40,17 @@
         "description": "Accepted best practices"
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": null,
     "assignees": [
 
     ],
     "milestone": null,
-    "comments": 15,
+    "comments": 16,
     "created_at": "2019-02-27T20:05:40Z",
-    "updated_at": "2019-10-23T14:41:57Z",
-    "closed_at": null,
+    "updated_at": "2019-12-01T18:38:28Z",
+    "closed_at": "2019-12-01T18:38:28Z",
     "author_association": "MEMBER",
     "body": "[Rendered](https://github.com/ethereumclassic/ECIPs/blob/master/ECIPs/ECIP-1000.mediawiki)\r\n\r\nAn Ethereum Classic Improvement Proposal (ECIP) is a design document providing information to the Ethereum Classic community, or describing a new feature for Ethereum Classic or its processes or environment. The ECIP should provide a concise technical specification of the feature and a rationale for the feature.\r\n\r\nWe intend ECIPs to be the primary mechanisms for proposing new features, for collecting community input on an issue, and for documenting the design decisions that have gone into Ethereum Classic. The ECIP author is responsible for building consensus within the community and documenting dissenting opinions.\r\n\r\nBecause the ECIPs are maintained as text files in a versioned repository, their revision history is the historical record of the feature proposal. ",
     "reactions": {

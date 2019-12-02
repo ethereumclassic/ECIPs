@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560124812",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/220#issuecomment-560124812",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/220",
+    "id": 560124812,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDEyNDgxMg==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-01T16:01:27Z",
+    "updated_at": "2019-12-01T16:01:27Z",
+    "author_association": "MEMBER",
+    "body": "This is extremely asinine, @sorpaas.\r\n\r\n\"Please don’t close PRs simply because you object it. That will be a clear violation of the ECIP process.\"\r\n\r\n^^ This is EXACTLY what *you* have repeatedly done to my issue suggesting that we have another call to verify that we have consensus on 1061.   Because YOU state that you think the meeting would be pointless.   Despite saying that you would not attend yourself.\r\n\r\nhttps://github.com/ethereumclassic/ECIPs/issues/215\r\n\r\nYour behaviour the last few days is absolutely and utterly unacceptable, Wei.    You are not acting in good faith.   You are not allowing time for consensus to form.   You are just playing \"whack-a-mole\" sitting at your computer.   Please step away and chill out.    You are destroying your reputation here.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560124812/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560099224",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/217#issuecomment-560099224",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/217",
+    "id": 560099224,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDA5OTIyNA==",
+    "user": {
+      "login": "meowsbits",
+      "id": 45600330,
+      "node_id": "MDQ6VXNlcjQ1NjAwMzMw",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/45600330?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/meowsbits",
+      "html_url": "https://github.com/meowsbits",
+      "followers_url": "https://api.github.com/users/meowsbits/followers",
+      "following_url": "https://api.github.com/users/meowsbits/following{/other_user}",
+      "gists_url": "https://api.github.com/users/meowsbits/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/meowsbits/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/meowsbits/subscriptions",
+      "organizations_url": "https://api.github.com/users/meowsbits/orgs",
+      "repos_url": "https://api.github.com/users/meowsbits/repos",
+      "events_url": "https://api.github.com/users/meowsbits/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/meowsbits/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-01T12:04:36Z",
+    "updated_at": "2019-12-01T13:10:10Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Oh, and [`3. Governance`](https://github.com/ethereumclassic/ECIPs/issues/217#issuecomment-559881215) -- what was the solution for that which supposedly existed in 2016 for Ethereum that would have been (according to you) agreeable to IBM? The Foundation (Stiftung Ethereum)? [EthSuisse](https://en.m.wikipedia.org/wiki/Ethereum_(company))? \r\n\r\nAnd...\r\n\r\n> Three reasons why IBM created Fabric:\r\n> [...]\r\n> IBM had a 30 engineer team ready to pile onto cpp-ethereum when the relicensing was done. Never happened\r\n> https://github.com/ethereumclassic/ECIPs/issues/217#issuecomment-559881215\r\n\r\nCan you cite a source for IBM's decision making process here that isn't [a cameo for Hyperledger](https://www.ibtimes.co.uk/hyperledger-project-reflects-blockchain-politics-1603381) ([a legal entity](https://www.hyperledger.org/trademark-usage), which[ ETC Cooperative recently announced being an \"Associate Member\" of](https://bobsummerwill.com/2019/11/20/etc-cooperative-joins-hyperledger/)).\r\n\r\n(Noting that the only occurrence of the word \"IBM\" in your https://www.ibtimes.co.uk/hyperledger-project-reflects-blockchain-politics-1603381 link is:\r\n\r\n> So when you use Hyperledger you don't have to worry about patent risk from IBM, from DTCC, or anyone else on the projects they participate in.\r\n\r\n)",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560099224/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560133378",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/177#issuecomment-560133378",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/177",
+    "id": 560133378,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDEzMzM3OA==",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-01T17:18:59Z",
+    "updated_at": "2019-12-01T17:19:59Z",
+    "author_association": "MEMBER",
+    "body": "@bobsummerwill Well, since you have repeatedly brought this up, let's continue this. Again, I'll ignore your personal attack part. I believe readers can judge it themselves.\r\n\r\nWe have human consensus to move forward with 1072, as said above. No matter how you want to interpret it now, you have said those words in the meeting, and things do not follow logic if the decision was to move forward with 1061, based on plain words, as explained above. You have failed to provide any justifications or explanations.\r\n\r\nIt's also not only me on the \"1072 side\". Multiple community members, if you care about to read the Discord channel, have voiced that the decision was to move forward with 1072. It's rather that just you, Afri, and Yaz said otherwise, had been pretty loud (for what purpose, exactly?), and even had to use dirty tricks to discredit me. Most people who are on the \"1072 side\" do not want to make a fuss about it, because the specifications will be technically the same. I switched to that group as well, as I do not object moving forward with 1061 lately. However, I will not tolerate you, Afri and Yaz continuing to spread false information saying that the decision reached was 1061.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560133378/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

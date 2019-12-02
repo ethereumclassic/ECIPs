@@ -1,0 +1,50 @@
+From 06ded04651d9ee7a8d4e3fac3c897d8b900f682c Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Mon, 2 Dec 2019 15:34:09 +0100
+Subject: [PATCH 1/2] Clarify that @soc1c is a pesedo-anonymous ECIP editor
+
+---
+ _specs/ecip-1000.md | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-1000.md b/_specs/ecip-1000.md
+index b5b50dd..0309b6a 100644
+--- a/_specs/ecip-1000.md
++++ b/_specs/ecip-1000.md
+@@ -75,9 +75,12 @@ The current ECIP editors are:
+ * Wei Tang (@sorpaas)
+ * Isaac Ardis (@meowsbits)
+ * Cody Burns (@realcodywburns)
+-* Afri Schoedon (@soc1c)
+ * Yaz Khoury (@YazzyYaz)
+ 
++The following ECIP editors have decided to remain pesedo-anonymous, and we will only be refer to them using Github handles:
++
++* @soc1c
++
+ ## ECIP Editor Responsibilities & Workflow
+ 
+ ### Introduction
+
+From c8af042126a8eb8197210829a042cad014ba2434 Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Mon, 2 Dec 2019 15:37:56 +0100
+Subject: [PATCH 2/2] Update ecip-1000.md
+
+---
+ _specs/ecip-1000.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-1000.md b/_specs/ecip-1000.md
+index 0309b6a..a0b61fa 100644
+--- a/_specs/ecip-1000.md
++++ b/_specs/ecip-1000.md
+@@ -77,7 +77,7 @@ The current ECIP editors are:
+ * Cody Burns (@realcodywburns)
+ * Yaz Khoury (@YazzyYaz)
+ 
+-The following ECIP editors have decided to remain pesedo-anonymous, and we will only be refer to them using Github handles:
++The following ECIP editors have decided to remain pesedo-anonymous, and we will only be referring to them using Github handles:
+ 
+ * @soc1c
+ 

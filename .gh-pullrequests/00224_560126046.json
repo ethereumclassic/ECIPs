@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560126046",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/224#issuecomment-560126046",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/224",
+    "id": 560126046,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDEyNjA0Ng==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-01T16:12:25Z",
+    "updated_at": "2019-12-01T16:12:25Z",
+    "author_association": "MEMBER",
+    "body": "I don't strongly oppose this, @meowsbits.\r\nWonder if we need to be this explicit?\r\n\r\nI like @shanejonas's suggestion here too, and think it might be enough:\r\nhttps://github.com/ethereumclassic/ECIPs/pull/221\r\n\r\nI am just a little wary of OVER constraint in reaction to a series of silly events which, were they to happen again, could just be headed off socially.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560126046/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

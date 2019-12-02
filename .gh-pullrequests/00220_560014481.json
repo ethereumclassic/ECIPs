@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560014481",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/220#issuecomment-560014481",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/220",
+    "id": 560014481,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDAxNDQ4MQ==",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-30T19:30:08Z",
+    "updated_at": "2019-11-30T19:30:54Z",
+    "author_association": "MEMBER",
+    "body": "@shanejonas That refers to constraints of a single ECIP. Multiple ECIPs, technically, can refer to different ways of implementing the same idea. A particular example of this is account versioning, we have at least three proposals all only about one single idea:\r\n\r\n* Account versioning idea, using RLP fields. (EIP-1702, ECIP-1040)\r\n* Account versioning idea, using code prefix. (EIP-1707)\r\n* Account versioning idea, using special contracts. (EIP-1898)\r\n\r\nOf course, we can update that text so that in the future we will only have one single meta ECIP for each hard fork. I actually don't object that, as long as we agree we don't merge things without community consensus.\r\n\r\nAlso, just curious, what's the actual point you're trying to make here? Now Aztlan exactly only has one single meta ECIP, as ECIP-1072 is withdrawn.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560014481/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

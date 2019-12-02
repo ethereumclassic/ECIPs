@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560169468",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/169#issuecomment-560169468",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/169",
+    "id": 560169468,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDE2OTQ2OA==",
+    "user": {
+      "login": "zmitton",
+      "id": 6954889,
+      "node_id": "MDQ6VXNlcjY5NTQ4ODk=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6954889?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zmitton",
+      "html_url": "https://github.com/zmitton",
+      "followers_url": "https://api.github.com/users/zmitton/followers",
+      "following_url": "https://api.github.com/users/zmitton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zmitton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zmitton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zmitton/subscriptions",
+      "organizations_url": "https://api.github.com/users/zmitton/orgs",
+      "repos_url": "https://api.github.com/users/zmitton/repos",
+      "events_url": "https://api.github.com/users/zmitton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zmitton/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-01T22:47:17Z",
+    "updated_at": "2019-12-01T22:47:17Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Reposting in correct PR\r\n\r\n> The gas cost of contracts is often the cause of DOS vectors. The response to these vectors therefore must be to change existing gas costs. If existing gas costs are allowed to continue, DOS vector still exists.\r\n\r\n> In fact, I'm pretty sure all the DOS vectors so far discovered have been of this kind, fixed by changing gas costs. If this ECIP had been implemented, it would have had to have been overridden to change gas costs of already-deployed contracts.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560169468/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

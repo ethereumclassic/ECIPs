@@ -1,0 +1,22 @@
+From 955319c96bcb0614963c179422ba5936fa5deecc Mon Sep 17 00:00:00 2001
+From: Bob Summerwill <bob@summerwill.net>
+Date: Sun, 1 Dec 2019 09:44:57 -0800
+Subject: [PATCH] Fix Dexaran email in ECIP-1052 so web view is clean.
+
+---
+ _specs/ecip-1052.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-1052.md b/_specs/ecip-1052.md
+index 6bc89bc..7d942c7 100644
+--- a/_specs/ecip-1052.md
++++ b/_specs/ecip-1052.md
+@@ -4,7 +4,7 @@ ecip: 1052
+ title: Smart-contract Security Auditing core
+ status: Draft
+ type: Meta
+-author: Dexaran, dexaran@ethereumclassic.org
++Author: Dexaran (@dexaran)
+ created: 2018-12-31
+ ---
+ 

@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560147543",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/177#issuecomment-560147543",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/177",
+    "id": 560147543,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDE0NzU0Mw==",
+    "user": {
+      "login": "phyro",
+      "id": 157733,
+      "node_id": "MDQ6VXNlcjE1NzczMw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/157733?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/phyro",
+      "html_url": "https://github.com/phyro",
+      "followers_url": "https://api.github.com/users/phyro/followers",
+      "following_url": "https://api.github.com/users/phyro/following{/other_user}",
+      "gists_url": "https://api.github.com/users/phyro/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/phyro/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/phyro/subscriptions",
+      "organizations_url": "https://api.github.com/users/phyro/orgs",
+      "repos_url": "https://api.github.com/users/phyro/repos",
+      "events_url": "https://api.github.com/users/phyro/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/phyro/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-01T19:19:08Z",
+    "updated_at": "2019-12-01T19:19:08Z",
+    "author_association": "MEMBER",
+    "body": "> This thing matters because of the process. If someone can bypass the process today, they may bypass it tomorrow to move forward a DAO-like hard fork on Ethereum Classic. This is the only process we have at this moment.\r\n\r\nThis. Always follow the process or open an attack vector. Yes, even if it's us, the good guys and it will slow us down a bit. This specific case is a bit unfortunate because it makes it seem unimportant, but precision matters in the long run because you can't be exact on one ECIP and less exact on the other. It opens up the same issue that the DAO HF did e.g. who decides when things are important? It's literally the same pandora's box opening as the DAO but in a different setting.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560147543/reactions",
+      "total_count": 2,
+      "+1": 2,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

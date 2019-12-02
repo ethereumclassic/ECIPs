@@ -1,0 +1,66 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/222",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/222/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/222/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/222/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/222",
+    "id": 530625144,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0MzQ3MjU2MTc2",
+    "number": 222,
+    "title": "Meta Meta Specification for Forking Meta ECIPs (Use ECIPs version)",
+    "user": {
+      "login": "meowsbits",
+      "id": 45600330,
+      "node_id": "MDQ6VXNlcjQ1NjAwMzMw",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/45600330?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/meowsbits",
+      "html_url": "https://github.com/meowsbits",
+      "followers_url": "https://api.github.com/users/meowsbits/followers",
+      "following_url": "https://api.github.com/users/meowsbits/following{/other_user}",
+      "gists_url": "https://api.github.com/users/meowsbits/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/meowsbits/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/meowsbits/subscriptions",
+      "organizations_url": "https://api.github.com/users/meowsbits/orgs",
+      "repos_url": "https://api.github.com/users/meowsbits/repos",
+      "events_url": "https://api.github.com/users/meowsbits/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/meowsbits/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2019-11-30T20:14:09Z",
+    "updated_at": "2019-12-01T13:29:09Z",
+    "closed_at": "2019-12-01T13:29:09Z",
+    "author_association": "CONTRIBUTOR",
+    "pull_request": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/222",
+      "html_url": "https://github.com/ethereumclassic/ECIPs/pull/222",
+      "diff_url": "https://github.com/ethereumclassic/ECIPs/pull/222.diff",
+      "patch_url": "https://github.com/ethereumclassic/ECIPs/pull/222.patch"
+    },
+    "body": "Replacing #219, because I want to be able to clearly PR against the contained proposed document (in #223).",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/222/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560363971",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/230#issuecomment-560363971",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/230",
+    "id": 560363971,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDM2Mzk3MQ==",
+    "user": {
+      "login": "meowsbits",
+      "id": 45600330,
+      "node_id": "MDQ6VXNlcjQ1NjAwMzMw",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/45600330?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/meowsbits",
+      "html_url": "https://github.com/meowsbits",
+      "followers_url": "https://api.github.com/users/meowsbits/followers",
+      "following_url": "https://api.github.com/users/meowsbits/following{/other_user}",
+      "gists_url": "https://api.github.com/users/meowsbits/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/meowsbits/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/meowsbits/subscriptions",
+      "organizations_url": "https://api.github.com/users/meowsbits/orgs",
+      "repos_url": "https://api.github.com/users/meowsbits/repos",
+      "events_url": "https://api.github.com/users/meowsbits/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/meowsbits/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-02T11:52:58Z",
+    "updated_at": "2019-12-02T11:52:58Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I am OK Rejecting on grounds of insufficient (inoperable) specification and lacking acceptable reasoning, eg. \r\n\r\n> This numbers are empirically proven to be essential. \r\n> https://github.com/ethereumclassic/ECIPs/blob/master/_specs/ecip-1057.md#specification\r\n\r\n(Claiming that something has been empirically proven is insufficient; steps for reproduction must be provided, and best with respective reference data).",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560363971/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

@@ -32,19 +32,19 @@
     "labels": [
 
     ],
-    "state": "closed",
+    "state": "open",
     "locked": false,
     "assignee": null,
     "assignees": [
 
     ],
     "milestone": null,
-    "comments": 13,
+    "comments": 24,
     "created_at": "2019-11-29T17:35:39Z",
-    "updated_at": "2019-11-30T00:46:29Z",
-    "closed_at": "2019-11-29T23:29:15Z",
+    "updated_at": "2019-12-01T20:39:36Z",
+    "closed_at": null,
     "author_association": "MEMBER",
-    "body": "Ref [ECIP-1061](https://ecips.ethereumclassic.org/ECIPs/ecip-1061) [ECIP-1072](https://ecips.ethereumclassic.org/ECIPs/ecip-1072) #198 #199 #207 #212 #213 #216 #218 \r\n\r\n### ETC Core Devs Call - Confirm consensus for Aztlán Upgrade (Yingchun Edition)\r\n\r\nWhen: **Thursday, December 5, 2019, 1pm UTC**, 60 minutes max.\r\n\r\nWhere: **Ethereum Classic Discord** https://discord.gg/dwxb6nf `#ecips` channel. Will use/create a voice channel _ad hoc._\r\n\r\nMeeting Coordinator: TBD\r\n\r\n### Agenda\r\n\r\n- Aztlán Upgrade (Yingchun Edition) ([ECIP-1061](https://ecips.ethereumclassic.org/ECIPs/ecip-1061)) is in _\"Draft\"_ state\r\n  - In the [Nov 27 meeting](https://github.com/ethereumclassic/ECIPs/issues/177) we agreed on scope for Aztlán Upgrade (= Istanbul - 1884)\r\n  - There was agreement that we should move forward with [ECIP-1072](https://ecips.ethereumclassic.org/ECIPs/ecip-1072)\r\n  - However, members in the community, such as Afri, have done actions which violated the common editing protocol, such as [dismissing other editors' review without reason](https://github.com/ethereumclassic/ECIPs/pull/199#event-2837816513).\r\n  - This has resulted in intensive community reactions, with Afri, Shane and Bob supporting reverting the previous community consensus (ECIP-1072) and move back to ECIP-1061, while others, such as Wei, @phyro, @TheEnthusiasticAs insisted on continuing on with ECIP-1072.\r\n  - Wei concluded that this is basically a contentious hard fork, due to community fight, and decided to implement it in `multi-geth` as a contentious hard fork.\r\n- Bob's recommendation\r\n  - Confirm in this call that there is no contention (except Wei).\r\n  - Confirm to move [ECIP-1061](https://ecips.ethereumclassic.org/ECIPs/ecip-1061) to  **Last Call** (#199)\r\n  - Confirm to move [ECIP-1072](https://ecips.ethereumclassic.org/ECIPs/ecip-1072) to **Rejected** (#218)\r\n  - Better yet would be for Wei to move [ECIP-1072](https://ecips.ethereumclassic.org/ECIPs/ecip-1072) to **Withdrawn** himself, but that does not seem likely (#212)\r\n\r\nThis is the full scope of the agenda.  We won't add any items to this call.  Laser focus.",
+    "body": "### ETC Core Devs Call - Confirm consensus for Aztlán Upgrade (Yingchun Edition)\r\n\r\nWhen: **Thursday, December 5, 2019, 1pm UTC**, 60 minutes max.\r\n\r\nWhere: **Ethereum Classic Discord** https://discord.gg/dwxb6nf `#ecips` channel. Will use/create a voice channel _ad hoc._\r\n\r\nMeeting Coordinator: TBD\r\n\r\n### Agenda\r\n\r\n- Aztlán Upgrade (Yingchun Edition) ([ECIP-1061](https://ecips.ethereumclassic.org/ECIPs/ecip-1061)) is in _\"Last Call\"_ status with review ending on 19th Dec 2019.\r\n  - Establish that we have new consensus on ECIP-1061, after several days of crisis.\r\n  - No finger-pointing, blame or post-mortem in this specific meeting.   It would make a lot of sense to do a post-mortem on the last few days, and anybody is welcome to create an issue to start that process, or to publish their own post-mortem, etc.    Just out of scope HERE.\r\n  - No discussion of #221 and #224 or other process clarifications.   Similar to post-mortem, these have value and when we have fully-formed ECIPs we should certainly discuss those.   Just out of scope HERE.\r\n\r\nThis is the full scope of the agenda.  We won't add any items to this call.  Laser focus.\r\n\r\nThe aim of the meeting is to calm everybody's nerves and to get back on track.   We should record the audio.   Multiple people should take minutes.   The outcome should be reported on.",
     "reactions": {
       "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/215/reactions",
       "total_count": 0,
