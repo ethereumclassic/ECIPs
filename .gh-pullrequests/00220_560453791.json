@@ -1,9 +1,9 @@
 {
-    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560425017",
-    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/220#issuecomment-560425017",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560453791",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/220#issuecomment-560453791",
     "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/220",
-    "id": 560425017,
-    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDQyNTAxNw==",
+    "id": 560453791,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDQ1Mzc5MQ==",
     "user": {
       "login": "meowsbits",
       "id": 45600330,
@@ -24,12 +24,12 @@
       "type": "User",
       "site_admin": false
     },
-    "created_at": "2019-12-02T14:41:22Z",
-    "updated_at": "2019-12-02T15:38:30Z",
+    "created_at": "2019-12-02T15:48:05Z",
+    "updated_at": "2019-12-02T15:48:05Z",
     "author_association": "CONTRIBUTOR",
-    "body": "> But anyway, the issue with irregular process transition is not that whether we want it, but that it has already happened.\r\n\r\nThis PR proposes an addition of an [`Appendix: Irregular Process Transitions`](https://github.com/ethereumclassic/ECIPs/pull/220/files#diff-db096127a5d72fa17bed19fc86636d80R356) which did not exist before, as well as a first entry in this presumed section describing a view of events which (thankfully, and hopefully every-quickenly) are indeed becoming historical. \r\n\r\nAs I see it, this PR's content must necessarily be broken into two pieces:\r\n\r\n1. Add a section `### Appendix: Irregular Process Transitions`, drafting it's procedures and specifications. \r\n2. __Once and if that is accepted__, allow entries to be proposed for inclusion.",
+    "body": "OK, I think I understand your point of view. I have updated [my comment](https://github.com/ethereumclassic/ECIPs/pull/220#issuecomment-560425017), removing the \"subject~~ive~~\" part. \r\n\r\n![Screenshot_20191202_103919](https://user-images.githubusercontent.com/45600330/69972738-23969880-14f0-11ea-9935-bf5d746a9dfc.png)\r\n\r\nCan you address the concern listed below, calling for the PR to be broken into two pieces? As you know (probably better than anyone), modifications to EIP-1000 must not be taken trivially or lightly. \r\n\r\nThe most important part for me is establishing in the documentation procedural specifications for handling proposed modifications to the suggested Irregular Process Transitions appendix section, since this section is... well, Irregular... and thus may call for additional or modified specifications different from the basic specs for general ECIP change sets. ",
     "reactions": {
-      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560425017/reactions",
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560453791/reactions",
       "total_count": 0,
       "+1": 0,
       "-1": 0,

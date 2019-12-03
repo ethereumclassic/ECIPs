@@ -1,14 +1,9 @@
 {
-    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/205",
-    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
-    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/205/labels{/name}",
-    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/205/comments",
-    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/205/events",
-    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/205",
-    "id": 529616681,
-    "node_id": "MDU6SXNzdWU1Mjk2MTY2ODE=",
-    "number": 205,
-    "title": "Reject ECIP-1063 - Integrated decentralized oracles and smart contracts",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560579608",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/231#issuecomment-560579608",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/231",
+    "id": 560579608,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDU3OTYwOA==",
     "user": {
       "login": "bobsummerwill",
       "id": 3788156,
@@ -29,27 +24,15 @@
       "type": "User",
       "site_admin": false
     },
-    "labels": [
-
-    ],
-    "state": "open",
-    "locked": false,
-    "assignee": null,
-    "assignees": [
-
-    ],
-    "milestone": null,
-    "comments": 3,
-    "created_at": "2019-11-27T23:30:01Z",
-    "updated_at": "2019-12-02T17:06:08Z",
-    "closed_at": null,
+    "created_at": "2019-12-02T21:03:27Z",
+    "updated_at": "2019-12-02T21:03:27Z",
     "author_association": "MEMBER",
-    "body": "Discussion for https://github.com/ethereumclassic/ECIPs/pull/203\r\n\r\nThis is just a bad idea, and is never going to happen.\r\nSorry, Jesse.\r\nBut we should reject this and clear out cognitive load.",
+    "body": "Should be raised on a call, yes.",
     "reactions": {
-      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/205/reactions",
-      "total_count": 1,
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560579608/reactions",
+      "total_count": 0,
       "+1": 0,
-      "-1": 1,
+      "-1": 0,
       "laugh": 0,
       "hooray": 0,
       "confused": 0,

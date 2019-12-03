@@ -1,9 +1,9 @@
 {
-    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560425017",
-    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/220#issuecomment-560425017",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560430971",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/220#issuecomment-560430971",
     "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/220",
-    "id": 560425017,
-    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDQyNTAxNw==",
+    "id": 560430971,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDQzMDk3MQ==",
     "user": {
       "login": "meowsbits",
       "id": 45600330,
@@ -24,12 +24,12 @@
       "type": "User",
       "site_admin": false
     },
-    "created_at": "2019-12-02T14:41:22Z",
-    "updated_at": "2019-12-02T15:38:30Z",
+    "created_at": "2019-12-02T14:55:51Z",
+    "updated_at": "2019-12-02T14:55:51Z",
     "author_association": "CONTRIBUTOR",
-    "body": "> But anyway, the issue with irregular process transition is not that whether we want it, but that it has already happened.\r\n\r\nThis PR proposes an addition of an [`Appendix: Irregular Process Transitions`](https://github.com/ethereumclassic/ECIPs/pull/220/files#diff-db096127a5d72fa17bed19fc86636d80R356) which did not exist before, as well as a first entry in this presumed section describing a view of events which (thankfully, and hopefully every-quickenly) are indeed becoming historical. \r\n\r\nAs I see it, this PR's content must necessarily be broken into two pieces:\r\n\r\n1. Add a section `### Appendix: Irregular Process Transitions`, drafting it's procedures and specifications. \r\n2. __Once and if that is accepted__, allow entries to be proposed for inclusion.",
+    "body": "The crux of what, as I understand it, may be our failure to agree -- is the interpretation of \"events.\" As it were, I may indeed agree that the \"event\" or \"events\" you've cited as the _Irregular Process_ is accurate. \r\n\r\nBut I feel that it represents an incomplete history of a complex set of very many \"events\" which are left undocumented. This is why I said `conditions and content are insufficient to qualify as an objective representation of affairs`.\r\n\r\nPlease see https://github.com/ethereumclassic/ECIPs/pull/235 for an approach to providing a nearer-complete justification and availably-objective view of \"events,\" which may be able to satisfy your wish for [\"to provide justifications in ECIP-1000 for what has happened in the past.\"](https://github.com/ethereumclassic/ECIPs/pull/220#issuecomment-560420766)\r\n",
     "reactions": {
-      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560425017/reactions",
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560430971/reactions",
       "total_count": 0,
       "+1": 0,
       "-1": 0,

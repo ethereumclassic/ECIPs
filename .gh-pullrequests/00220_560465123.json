@@ -1,9 +1,9 @@
 {
-    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560425017",
-    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/220#issuecomment-560425017",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560465123",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/220#issuecomment-560465123",
     "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/220",
-    "id": 560425017,
-    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDQyNTAxNw==",
+    "id": 560465123,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDQ2NTEyMw==",
     "user": {
       "login": "meowsbits",
       "id": 45600330,
@@ -24,12 +24,12 @@
       "type": "User",
       "site_admin": false
     },
-    "created_at": "2019-12-02T14:41:22Z",
-    "updated_at": "2019-12-02T15:38:30Z",
+    "created_at": "2019-12-02T16:14:28Z",
+    "updated_at": "2019-12-02T16:15:16Z",
     "author_association": "CONTRIBUTOR",
-    "body": "> But anyway, the issue with irregular process transition is not that whether we want it, but that it has already happened.\r\n\r\nThis PR proposes an addition of an [`Appendix: Irregular Process Transitions`](https://github.com/ethereumclassic/ECIPs/pull/220/files#diff-db096127a5d72fa17bed19fc86636d80R356) which did not exist before, as well as a first entry in this presumed section describing a view of events which (thankfully, and hopefully every-quickenly) are indeed becoming historical. \r\n\r\nAs I see it, this PR's content must necessarily be broken into two pieces:\r\n\r\n1. Add a section `### Appendix: Irregular Process Transitions`, drafting it's procedures and specifications. \r\n2. __Once and if that is accepted__, allow entries to be proposed for inclusion.",
+    "body": "> The thing is, I would expect the \"irregular process transition\" never grows again, and just stay as what it is now. If there are ever additional additions to this section, that means someone violated the ECIP process again, which is rather an extreme and bad situation. \r\n\r\nI agree with you here! Boy, oh boy, do I agree with you! \r\n\r\nBut I have to differ on the willing hedge that It won't ever happen again. This is happening now, and is in reference to something caused literally by two mouse clicks, and which is an event that _did not exist in isolation_ and was _importantly related to a lot of other surrounding events_ ... \r\n\r\nI'm just not yet willing to bet (wagering at least the price of attention and energy this change set has already cost me and so many others) that anything similar won't happen again. This is a human space and all kinds of things can happen.",
     "reactions": {
-      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560425017/reactions",
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560465123/reactions",
       "total_count": 0,
       "+1": 0,
       "-1": 0,

@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560484131",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/220#issuecomment-560484131",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/220",
+    "id": 560484131,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDQ4NDEzMQ==",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-02T16:58:13Z",
+    "updated_at": "2019-12-02T16:58:13Z",
+    "author_association": "MEMBER",
+    "body": "@meowsbits The benefit of this change is rather to avoid a contentious hard fork against Aztlan, because without it, we can't really call ECIP-1061 to be justified. That's really an enormous benefit to the Ethereum Classic community.\r\n\r\nI don't think we should use the term \"rough consensus\" here -- that's for hard forks. The content of the sentence can be independently verified (if you just care to move to that PR), and as you have said before, it's an accurate representation of a particular event (albeit you think the \"whole history\" should be included, but that's not business of ECIP-1000).\r\n\r\n> As it were, I may indeed agree that the \"event\" or \"events\" you've cited as the Irregular Process is accurate.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560484131/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

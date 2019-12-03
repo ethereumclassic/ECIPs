@@ -1,0 +1,66 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/235",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/235/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/235/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/235/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/235",
+    "id": 531176143,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0MzQ3NjYyNTQ3",
+    "number": 235,
+    "title": "Include Github metadata snapshots as repository content",
+    "user": {
+      "login": "meowsbits",
+      "id": 45600330,
+      "node_id": "MDQ6VXNlcjQ1NjAwMzMw",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/45600330?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/meowsbits",
+      "html_url": "https://github.com/meowsbits",
+      "followers_url": "https://api.github.com/users/meowsbits/followers",
+      "following_url": "https://api.github.com/users/meowsbits/following{/other_user}",
+      "gists_url": "https://api.github.com/users/meowsbits/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/meowsbits/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/meowsbits/subscriptions",
+      "organizations_url": "https://api.github.com/users/meowsbits/orgs",
+      "repos_url": "https://api.github.com/users/meowsbits/repos",
+      "events_url": "https://api.github.com/users/meowsbits/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/meowsbits/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2019-12-02T14:47:53Z",
+    "updated_at": "2019-12-02T15:00:25Z",
+    "closed_at": null,
+    "author_association": "CONTRIBUTOR",
+    "pull_request": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/235",
+      "html_url": "https://github.com/ethereumclassic/ECIPs/pull/235",
+      "diff_url": "https://github.com/ethereumclassic/ECIPs/pull/235.diff",
+      "patch_url": "https://github.com/ethereumclassic/ECIPs/pull/235.patch"
+    },
+    "body": "A lot of stuff happens on Github influencing and indeed embodying the ECIP process. Although this content frequently remains visible _on Github_, it is not an actual part of the repository content.\r\n\r\nThis change set proposed includes version controlled snapshots of Github Pull Requests and Issues for the repository as hosted at this Github URL.\r\n\r\nIf tentatively accepted, next steps might be establishing and/or popularizing patterns of implementation (scripts) and snapshot-update schedules and handling.\r\n\r\nFor ECIP content, I think this matters because it's important for the content itself to be associated with prominent and available discourse surrounding it.\r\n\r\nFor reference, I use the following scripts to collect this metadata:\r\n- https://gist.github.com/meowsbits/3f0a79a42ac1b87573b8e5169325f9f9\r\n- https://gist.github.com/meowsbits/552374d2cc89de29902e5d34fbbff5e9",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/235/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

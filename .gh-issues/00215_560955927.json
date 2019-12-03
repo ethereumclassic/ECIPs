@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560955927",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/215#issuecomment-560955927",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/215",
+    "id": 560955927,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDk1NTkyNw==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-03T01:26:51Z",
+    "updated_at": "2019-12-03T01:26:51Z",
+    "author_association": "MEMBER",
+    "body": "Thanks, @developerkevin!\r\n\r\nSo I have added you in as the host.   Please could you publicize the meeting too?    The BEST way now would be for you to author a blog post within the new EthereumClassic.org website.\r\n\r\nThat means authoring a single MD file, like these:\r\n\r\nhttps://github.com/ethereumclassic/ethereumclassic.github.io/commit/c0eb2658e74cdd6b2ebb56d12aff6bfbd2770c51\r\n\r\nhttps://github.com/ethereumclassic/ethereumclassic.github.io/commit/46622f7943f51646d1dbee2480a3ad84749f2599\r\n\r\nhttps://github.com/ethereumclassic/ethereumclassic.github.io/commit/e2c9f38b2b17ce526255cb9fcebb0d665aa3fec0\r\n\r\nInto ...\r\n\r\nhttps://github.com/ethereumclassic/ethereumclassic.github.io\r\n\r\nSo you are literally just dropping a new MD file into 'pages/blog' folder of 'source' branch.\r\nIf you want to add images too, just drop (preferably PNG) images into 'pages/assets'\r\n\r\nand then you can reference them in the MD files like this:\r\n\r\n`![Bob and Yaz](../../assets/bob_and_yaz.jpeg)`\r\n\r\nTo preview you can run Node locally, as per the instructions in the readme, or you can just submit your PR, and wait on the automated builds to give you a preview URL.   @hitchcott can, no doubt, help you with any issues, or just ask on the #ethereumclassicwebsite channel on Discord.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560955927/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }
