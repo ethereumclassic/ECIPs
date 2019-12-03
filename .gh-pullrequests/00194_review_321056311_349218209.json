@@ -1,0 +1,50 @@
+{
+    "id": 349218209,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM0OTIxODIwOQ==",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/349218209",
+    "pull_request_review_id": 321056311,
+    "diff_hunk": "@@ -1,58 +1,39 @@\n ---\n lang: en\n ecip: 1076\n-title: Mining Algorithm Change Process\n+title: Mining Algorithm Signaling Process\n author: Talha Cross (@soc1c)\n discussions-to: https://github.com/ethereumclassic/ECIPs/issues/174\n-status: Draft\n+status: Active",
+    "path": "_specs/ecip-1076.md",
+    "position": 9,
+    "original_position": 9,
+    "commit_id": "91fd41171927dd80ad7217e964fd316a49b07767",
+    "user": {
+      "login": "soc1c",
+      "id": 47772477,
+      "node_id": "MDQ6VXNlcjQ3NzcyNDc3",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/47772477?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/soc1c",
+      "html_url": "https://github.com/soc1c",
+      "followers_url": "https://api.github.com/users/soc1c/followers",
+      "following_url": "https://api.github.com/users/soc1c/following{/other_user}",
+      "gists_url": "https://api.github.com/users/soc1c/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/soc1c/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/soc1c/subscriptions",
+      "organizations_url": "https://api.github.com/users/soc1c/orgs",
+      "repos_url": "https://api.github.com/users/soc1c/repos",
+      "events_url": "https://api.github.com/users/soc1c/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/soc1c/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "It's not a hard fork process. It's non-binding signaling.",
+    "created_at": "2019-11-21T17:22:52Z",
+    "updated_at": "2019-11-21T17:22:53Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/194#discussion_r349218209",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/194",
+    "author_association": "MEMBER",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/349218209"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/194#discussion_r349218209"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/194"
+      }
+    },
+    "original_commit_id": "91fd41171927dd80ad7217e964fd316a49b07767",
+    "in_reply_to_id": 349217833
+  }

@@ -1,0 +1,50 @@
+{
+    "id": 352307486,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM1MjMwNzQ4Ng==",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352307486",
+    "pull_request_review_id": 324911064,
+    "diff_hunk": "@@ -11,11 +11,23 @@ resolution: TBD\n \n ### Abstract\n \n-Forking Meta ECIPs (defined as Meta ECIPs specifying any Standards-Core track ECIP and an activation block number) should be complete and unique.\n+Forking Meta ECIPs (defined as Meta ECIPs _intended_ to specify any Standards-Core track ECIP and an activation block number) should contain only placeholder information",
+    "path": "_specs/ecip-_.md",
+    "position": 5,
+    "original_position": 5,
+    "commit_id": "a81b724c7beacd43a226df78bfe3d8ca45aacf27",
+    "user": {
+      "login": "meowsbits",
+      "id": 45600330,
+      "node_id": "MDQ6VXNlcjQ1NjAwMzMw",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/45600330?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/meowsbits",
+      "html_url": "https://github.com/meowsbits",
+      "followers_url": "https://api.github.com/users/meowsbits/followers",
+      "following_url": "https://api.github.com/users/meowsbits/following{/other_user}",
+      "gists_url": "https://api.github.com/users/meowsbits/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/meowsbits/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/meowsbits/subscriptions",
+      "organizations_url": "https://api.github.com/users/meowsbits/orgs",
+      "repos_url": "https://api.github.com/users/meowsbits/repos",
+      "events_url": "https://api.github.com/users/meowsbits/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/meowsbits/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "Interesting idea. Have taken a first swing at this with #224.",
+    "created_at": "2019-11-30T22:23:01Z",
+    "updated_at": "2019-11-30T22:26:41Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/223#discussion_r352307486",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/223",
+    "author_association": "CONTRIBUTOR",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352307486"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/223#discussion_r352307486"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/223"
+      }
+    },
+    "original_commit_id": "4ef35f941384942ead39e6bff52a4cce0e1d0e3e",
+    "in_reply_to_id": 352303236
+  }

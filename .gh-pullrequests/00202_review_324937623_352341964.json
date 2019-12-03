@@ -1,0 +1,49 @@
+{
+    "id": 352341964,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM1MjM0MTk2NA==",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352341964",
+    "pull_request_review_id": 324937623,
+    "diff_hunk": "@@ -2,7 +2,7 @@\n lang: en\n ecip: 1045\n title: Support for ETH Byzantium & Constantinople EVM and Protocol Upgrades\n-status: Draft\n+status: Withdrawn",
+    "path": "_specs/ecip-1045.md",
+    "position": 5,
+    "original_position": 5,
+    "commit_id": "1569949170c18fa5a4f4d84cc866c9eb34354f7f",
+    "user": {
+      "login": "meowsbits",
+      "id": 45600330,
+      "node_id": "MDQ6VXNlcjQ1NjAwMzMw",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/45600330?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/meowsbits",
+      "html_url": "https://github.com/meowsbits",
+      "followers_url": "https://api.github.com/users/meowsbits/followers",
+      "following_url": "https://api.github.com/users/meowsbits/following{/other_user}",
+      "gists_url": "https://api.github.com/users/meowsbits/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/meowsbits/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/meowsbits/subscriptions",
+      "organizations_url": "https://api.github.com/users/meowsbits/orgs",
+      "repos_url": "https://api.github.com/users/meowsbits/repos",
+      "events_url": "https://api.github.com/users/meowsbits/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/meowsbits/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "```suggestion\r\nstatus: Deferred\r\n```",
+    "created_at": "2019-12-01T12:40:49Z",
+    "updated_at": "2019-12-01T13:26:35Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/202#discussion_r352341964",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/202",
+    "author_association": "CONTRIBUTOR",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352341964"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/202#discussion_r352341964"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/202"
+      }
+    },
+    "original_commit_id": "1569949170c18fa5a4f4d84cc866c9eb34354f7f"
+  }

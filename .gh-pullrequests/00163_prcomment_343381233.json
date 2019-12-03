@@ -1,0 +1,55 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/343381233",
+    "pull_request_review_id": 312822771,
+    "id": 343381233,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM0MzM4MTIzMw==",
+    "diff_hunk": "@@ -291,66 +284,7 @@ To avoid doubt: comments and status are unrelated metrics to judge an ECIP, and\n \n ## ECIP Licensing\n \n-### Specification\n-\n-New ECIPs may be accepted with the following licenses. Each new ECIP must identify at least one acceptable license in its preamble. The License header in the preamble must be placed after the Created header. Each license must be referenced by their respective abbreviation given below.\n-\n-For example, a preamble might include the following License header:\n-\n-    License: BSD-2-Clause\n-             GNU-All-Permissive\n-\n-In this case, the ECIP text is fully licensed under both the OSI-approved BSD 2-clause license as well as the GNU All-Permissive License, and anyone may modify and redistribute the text provided they comply with the terms of *either* license. In other words, the license list is an \"OR choice\", not an \"AND also\" requirement.\n-\n-It is also possible to license source code differently from the ECIP text. A optional License-Code header is placed after the License header. Again, each license must be referenced by their respective abbreviation given below.\n-\n-For example, a preamble specifying the optional License-Code header might look like:\n-\n-    License: BSD-2-Clause\n-             GNU-All-Permissive\n-    License-Code: GPL-2.0+\n-\n-In this case, the code in the ECIP is not available under the BSD or All-Permissive licenses, but only under the terms of the GNU General Public License (GPL), version 2 or newer.\n-If the code were to be available under *only* version 2 exactly, the \"+\" symbol should be removed from the license abbreviation.\n-For a later version (eg, GPL 3.0), you would increase the version number (and retain or remove the \"+\" depending on intent).\n-\n-    License-Code: GPL-2.0   # This refers to GPL v2.0 *only*, no later license versions are acceptable.\n-    License-Code: GPL-2.0+  # This refers to GPL v2.0 *or later*.\n-    License-Code: GPL-3.0   # This refers to GPL v3.0 *only*, no later license versions are acceptable.\n-    License-Code: GPL-3.0+  # This refers to GPL v3.0 *or later*.\n-\n-In the event that the licensing for the text or code is too complicated to express with a simple list of alternatives, the list should instead be replaced with the single term \"Complex\". In all cases, details of the licensing terms must be provided in the Copyright section of the ECIP.\n-\n-ECIPs are not required to be *exclusively* licensed under approved terms, and may also be licensed under unacceptable licenses *in addition to* at least one acceptable license.\n-In this case, only the acceptable license(s) should be listed in the License and License-Code headers.\n-\n-### Recommended licenses\n-\n-* Apache-2.0: [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0)\n-* BSD-2-Clause: [OSI-approved BSD 2-clause license](https://opensource.org/licenses/BSD-2-Clause)\n-* BSD-3-Clause: [OSI-approved BSD 3-clause license](https://opensource.org/licenses/BSD-3-Clause)\n-* CC0-1.0: [Creative Commons CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)\n-* GNU-All-Permissive: [GNU All-Permissive License](http://www.gnu.org/prep/maintain/html_node/License-Notices-for-Other-Files.html)\n-\n-In addition, it is recommended that literal code included in the ECIP be dual-licensed under the same license terms as the project it modifies. For example, literal code intended for Ethereum Classic Core would ideally be dual-licensed under the MIT license terms as well as one of the above with the rest of the ECIP text.\n-\n-### Not recommended, but acceptable licenses\n-\n-* BSL-1.0: [Boost Software License, version 1.0](http://www.boost.org/LICENSE_1_0.txt)\n-* CC-BY-4.0: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)\n-* CC-BY-SA-4.0: [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)\n-* MIT: [Expat/MIT/X11 license](https://opensource.org/licenses/MIT)\n-* AGPL-3.0+: [GNU Affero General Public License (AGPL), version 3 or newer](http://www.gnu.org/licenses/agpl-3.0.en.html)\n-* FDL-1.3: [GNU Free Documentation License, version 1.3](http://www.gnu.org/licenses/fdl-1.3.en.html)\n-* GPL-2.0+: [GNU General Public License (GPL), version 2 or newer](http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)\n-* LGPL-2.1+: [GNU Lesser General Public License (LGPL), version 2.1 or newer](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html)\n-\n-## Rationale\n-\n-**Why are there software licenses included?**\n-\n-* Some ECIPs, especially consensus layer, may include literal code in the ECIP itself which may not be available under the exact license terms of the ECIP.\n-* Despite this, not all software licenses would be acceptable for content included in ECIPs.\n+You may not specify a license. Claims to any license other than the one specified [here](https://github.com/ethereumclassic/ECIPs/blob/master/LICENSE) are invalid.",
+    "path": "_specs/ecip-1000.md",
+    "position": 92,
+    "original_position": 92,
+    "commit_id": "e48998cfc123579203de70dc8a01ec86060cf602",
+    "original_commit_id": "e48998cfc123579203de70dc8a01ec86060cf602",
+    "user": {
+      "login": "meowsbits",
+      "id": 45600330,
+      "node_id": "MDQ6VXNlcjQ1NjAwMzMw",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/45600330?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/meowsbits",
+      "html_url": "https://github.com/meowsbits",
+      "followers_url": "https://api.github.com/users/meowsbits/followers",
+      "following_url": "https://api.github.com/users/meowsbits/following{/other_user}",
+      "gists_url": "https://api.github.com/users/meowsbits/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/meowsbits/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/meowsbits/subscriptions",
+      "organizations_url": "https://api.github.com/users/meowsbits/orgs",
+      "repos_url": "https://api.github.com/users/meowsbits/repos",
+      "events_url": "https://api.github.com/users/meowsbits/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/meowsbits/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "```suggestion\r\nYou may specify any license you want. However, in order for the document content of a proposal to be permanently accepted to this repository (eg. merged via a [Github Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)), it must be associated with an [Apache 2 License](https://www.apache.org/licenses/LICENSE-2.0.html). \r\n\r\nFor authors with alternative license preferences, it is suggested that you choose an even more lenient license (eg. [The Unlicense](https://choosealicense.com/licenses/unlicense/)) so that your work can be copied verbatim to this repository by any enterprising member of \"the community\" artistic, enterprising, or selfless enough to lay jealous claim to your ideas. In the case that this path is undesirable, you are free to pursue licensing and distribution of your ideas at will in any forum and any manner you wish; please only be advised that it will probably be more profitable to collect payment for your ideas and work _before_ actually sharing them with a bunch of pseudo-anonymous crypto-anarchists you met on the internet.\r\n\r\nFor authors who only skimmed the above section because they are serious about caring about the license of their Improvement Proposal document and are unsatisfied with Apache 2, please consider yourselves more than welcome to pursue any means available and appealing to you to educate, harangue, bribe, petition, or otherwise persuade the coders who would implement your ideas, the miners who would run your ideas, and/or the speculators who will invest in them. This is only technically a convenient central forum, for those interested, to field these kinds of ideas in general. \r\n\r\nBy leaving this section blank, when and if your document's content is officially and technically included in this repository's `master` branch (no matter the labeled _Status_ of the document), the document will, along with its fore-running peers, fall under the Apache 2 License prescribed. \r\n```",
+    "created_at": "2019-11-06T23:24:57Z",
+    "updated_at": "2019-11-06T23:57:12Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/163#discussion_r343381233",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/163",
+    "author_association": "CONTRIBUTOR",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/343381233"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/163#discussion_r343381233"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/163"
+      }
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 287,
+    "original_line": 287,
+    "side": "RIGHT"
+  }

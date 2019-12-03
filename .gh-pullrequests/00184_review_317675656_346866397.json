@@ -1,0 +1,50 @@
+{
+    "id": 346866397,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM0Njg2NjM5Nw==",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/346866397",
+    "pull_request_review_id": 317675656,
+    "diff_hunk": "@@ -0,0 +1,79 @@\n+---\n+lang: en\n+ecip: 1072\n+title: Yingchun EVM and Protocol Upgrades\n+status: Draft\n+type: Meta\n+author: Wei Tang (@sorpaas)\n+created: 2019-11-14\n+discussions-to: https://github.com/ethereumclassic/ECIPs/issues/81\n+---\n+\n+### Simple Summary\n+\n+Enable the outstanding Ethereum Foundation _Istanbul_ network protocol\n+upgrades on the Ethereum Classic network in a hard-fork code-named\n+_Yingchun_ to enable maximum compatibility across these networks.\n+\n+In particular, delay EIP-1884 activation until backward compatibility\n+solutions are in place on Ethereum Classic.\n+\n+### Abstract\n+\n+Add support for a subset of protocol-impacting changes introduced in\n+the Ethereum Foundation (ETH) network via the _Istanbul_\n+hardforks.\n+\n+This document proposes the following blocks at which to implement\n+these changes in the Classic networks:\n+\n+- `TBD` on Mordor Classic PoW-testnet (Feb 5th, 2020)\n+- `TBD` on Kotti Classic PoA-testnet (Feb 12th, 2020)\n+- `TBD` on Ethereum Classic PoW-mainnet (March 25th, 2020)\n+\n+For more information on the opcodes and their respective EIPs and\n+implementations, please see the _Specification_ section of this\n+document.\n+\n+### Motivation\n+\n+To enhance the Ethereum Virtual Machine's (EVM) capabilities, various\n+opcodes shall be added to the Ethereum Classic networks, all of which\n+have been in use on the Ethereum Foundation networks since end of\n+2019.\n+\n+This enables all EIPs in Istanbul, but EIP-1884, due to backward\n+compatibility considerations.\n+\n+### Specification\n+\n+Enable the following EIPs at the hard fork block:\n+\n+- [EIP-152](https://eips.ethereum.org/EIPS/eip-152): Add Blake2\n+  compression function `F` precompile\n+- [EIP-1108](https://eips.ethereum.org/EIPS/eip-1108): Reduce\n+  alt_bn128 precompile gas costs\n+- [EIP-1344](https://eips.ethereum.org/EIPS/eip-1344): Add ChainID\n+  opcode\n+- [EIP-2028](https://eips.ethereum.org/EIPS/eip-2028): Calldata gas\n+  cost reduction\n+- [EIP-2200](https://eips.ethereum.org/EIPS/eip-2200): Rebalance",
+    "path": "_specs/ecip-1072.md",
+    "position": 61,
+    "original_position": 60,
+    "commit_id": "fd73189073c0ada5d55dced43d0d324f112a4bcc",
+    "user": {
+      "login": "YazzyYaz",
+      "id": 9094204,
+      "node_id": "MDQ6VXNlcjkwOTQyMDQ=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9094204?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/YazzyYaz",
+      "html_url": "https://github.com/YazzyYaz",
+      "followers_url": "https://api.github.com/users/YazzyYaz/followers",
+      "following_url": "https://api.github.com/users/YazzyYaz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/YazzyYaz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/YazzyYaz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/YazzyYaz/subscriptions",
+      "organizations_url": "https://api.github.com/users/YazzyYaz/orgs",
+      "repos_url": "https://api.github.com/users/YazzyYaz/repos",
+      "events_url": "https://api.github.com/users/YazzyYaz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/YazzyYaz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "Ah I see it, sorry my bad.",
+    "created_at": "2019-11-15T15:06:00Z",
+    "updated_at": "2019-11-15T15:06:00Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/184#discussion_r346866397",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/184",
+    "author_association": "MEMBER",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/346866397"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/184#discussion_r346866397"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/184"
+      }
+    },
+    "original_commit_id": "9224ddcea425ba692a65cce76185670a2c91e7ba",
+    "in_reply_to_id": 346845002
+  }

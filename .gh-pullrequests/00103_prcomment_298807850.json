@@ -1,0 +1,56 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/298807850",
+    "pull_request_review_id": 256046831,
+    "id": 298807850,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDI5ODgwNzg1MA==",
+    "diff_hunk": "@@ -0,0 +1,59 @@\n+---\n+lang: en\n+ecip: 1062\n+title: Submit Block RPC\n+author: Zachary Belford, zachary.b@etclabs.org\n+discussions-to: Community Discord #ecips\n+status: Draft\n+type: Standards Track\n+category: Interface\n+created: 2019-06-26\n+---\n+\n+### Abstract\n+\n+Add an RPC method to submit a new block, instead of having to use submitWork.\n+\n+### Motivation\n+\n+I would like to be able to submitWork, but have the address used be one other than the etherbase of the node the work is being submitted by.\n+\n+### Specification\n+\n+```json\n+{\n+  \"openrpc\": \"1.1.8\",\n+  \"info\": {\n+    \"version\": \"1.0.0\",\n+    \"title\": \"Example submitBlock\"\n+  },\n+  \"methods\": [\n+    {\n+      \"name\": \"eth_submitBlock\",\n+      \"summary\": \"Submit a new block proposal\",\n+      \"description\": \"Given a new block, it will validate the block, and broadcast it to connected peers.\",\n+      \"params\": [\n+        { \"$ref\": \"https://raw.githubusercontent.com/etclabscore/ethereum-json-rpc-specification/master/openrpc.json#/components/contentDescriptors/Block\" }\n+      ],\n+      \"result\": {\n+        \"name\": \"isBlockAccepted\",\n+        \"schema\": {\n+          \"type\": \"boolean\"\n+        }\n+      }\n+    }\n+  ]\n+}\n+```\n+\n+### Rationale\n+\n+This removes the dependency for miners to have a geth node with accounts that need to be unlocked. Miners would be able to better isolate their private keys from the world, yeilding better security potential.\n+\n+### Implementation\n+\n+I think it's pretty straight forward. Looking at the above specification, we would be adding a eth_submitBlock rpc method. It's similar to eth_submitWork, except with fewer steps before broadcasting the block. \n+\n+\n+\n+**NOTE: I am extremely open to suggestions for this. Please be liberal in your feedback. Thank you.**",
+    "path": "_specs/ecip-1062.md",
+    "position": null,
+    "original_position": 59,
+    "commit_id": "dc127c81a3615dbeeef3946d6826146e07954d23",
+    "original_commit_id": "9ad56f4d112df56be9528d2c55159087f45950be",
+    "user": {
+      "login": "YazzyYaz",
+      "id": 9094204,
+      "node_id": "MDQ6VXNlcjkwOTQyMDQ=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9094204?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/YazzyYaz",
+      "html_url": "https://github.com/YazzyYaz",
+      "followers_url": "https://api.github.com/users/YazzyYaz/followers",
+      "following_url": "https://api.github.com/users/YazzyYaz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/YazzyYaz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/YazzyYaz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/YazzyYaz/subscriptions",
+      "organizations_url": "https://api.github.com/users/YazzyYaz/orgs",
+      "repos_url": "https://api.github.com/users/YazzyYaz/repos",
+      "events_url": "https://api.github.com/users/YazzyYaz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/YazzyYaz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "Agreed.",
+    "created_at": "2019-06-29T18:39:15Z",
+    "updated_at": "2019-07-02T17:50:46Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/103#discussion_r298807850",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/103",
+    "author_association": "MEMBER",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/298807850"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/103#discussion_r298807850"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/103"
+      }
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": null,
+    "original_line": 59,
+    "side": "RIGHT",
+    "in_reply_to_id": 298807322
+  }

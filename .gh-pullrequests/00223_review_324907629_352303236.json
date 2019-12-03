@@ -1,0 +1,49 @@
+{
+    "id": 352303236,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM1MjMwMzIzNg==",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352303236",
+    "pull_request_review_id": 324907629,
+    "diff_hunk": "@@ -11,11 +11,23 @@ resolution: TBD\n \n ### Abstract\n \n-Forking Meta ECIPs (defined as Meta ECIPs specifying any Standards-Core track ECIP and an activation block number) should be complete and unique.\n+Forking Meta ECIPs (defined as Meta ECIPs _intended_ to specify any Standards-Core track ECIP and an activation block number) should contain only placeholder information",
+    "path": "_specs/ecip-_.md",
+    "position": 5,
+    "original_position": 5,
+    "commit_id": "a81b724c7beacd43a226df78bfe3d8ca45aacf27",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "We can actually give \"Forking Meta ECIPs\" a new category. A lot of people have pointed out that hard fork ECIPs does not nicely fit in \"meta\" category.",
+    "created_at": "2019-11-30T20:36:09Z",
+    "updated_at": "2019-11-30T22:26:41Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/223#discussion_r352303236",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/223",
+    "author_association": "MEMBER",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352303236"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/223#discussion_r352303236"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/223"
+      }
+    },
+    "original_commit_id": "4ef35f941384942ead39e6bff52a4cce0e1d0e3e"
+  }

@@ -1,0 +1,50 @@
+{
+    "id": 352308419,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM1MjMwODQxOQ==",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352308419",
+    "pull_request_review_id": 324911846,
+    "diff_hunk": "@@ -0,0 +1,103 @@\n+---\n+ecip: TBD\n+title: The Meta Fork ECIP: Establishing _Fork_ type ECIPs and their specifications and processes\n+author: Mr. Meows D. Bits\n+discussions-to: TBD\n+status: WIP\n+type: Meta\n+created: 2019-11-29T14:17:42-05:00\n+resolution: TBD\n+---\n+\n+### Abstract\n+\n+Establishing _Fork_ type ECIPs, and their standards and processes.\n+\n+#### TL;DR\n+\n+Make ECIPs with `Type` _Fork_ a thing. _Fork_ ECIPs should follow this process:\n+- A \"shell\" Fork ECIP is opened, fitting the [template provided](TODO). This ECIP __does not initially include `Activation Block Number` or `Features` specifications__.\n+- While in `WIP` or `Draft` status, one or more change sets are proposed against this document (eg. via Github Pull Requests) __modifying BOTH `Activation Block Number` and `Features` specifications__.",
+    "path": "_specs/ecip-_.md",
+    "position": null,
+    "original_position": 20,
+    "commit_id": "a4c7dd1ec7a87705ba9af9ee0153b252c0e89e72",
+    "user": {
+      "login": "meowsbits",
+      "id": 45600330,
+      "node_id": "MDQ6VXNlcjQ1NjAwMzMw",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/45600330?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/meowsbits",
+      "html_url": "https://github.com/meowsbits",
+      "followers_url": "https://api.github.com/users/meowsbits/followers",
+      "following_url": "https://api.github.com/users/meowsbits/following{/other_user}",
+      "gists_url": "https://api.github.com/users/meowsbits/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/meowsbits/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/meowsbits/subscriptions",
+      "organizations_url": "https://api.github.com/users/meowsbits/orgs",
+      "repos_url": "https://api.github.com/users/meowsbits/repos",
+      "events_url": "https://api.github.com/users/meowsbits/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/meowsbits/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "I would prefer not to mention or even begin to tangle with that idea. I'm interested here only in tangible, describable mechanics.\r\n\r\n(Including that idea might provoke questions like \"What is that?\" ...Which I would prefer to leave as ~~a dubious~~ an ambitious project for another very very brave soul to tackle in a different place at a different time.)",
+    "created_at": "2019-11-30T22:47:46Z",
+    "updated_at": "2019-12-01T13:54:41Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/224#discussion_r352308419",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/224",
+    "author_association": "CONTRIBUTOR",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352308419"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/224#discussion_r352308419"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/224"
+      }
+    },
+    "original_commit_id": "93895296e4c969f07f99b304db1569a573268892",
+    "in_reply_to_id": 352307826
+  }

@@ -1,0 +1,50 @@
+{
+    "id": 352363141,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM1MjM2MzE0MQ==",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352363141",
+    "pull_request_review_id": 324954808,
+    "diff_hunk": "@@ -2,7 +2,7 @@\n lang: en\n ecip: 1045\n title: Support for ETH Byzantium & Constantinople EVM and Protocol Upgrades\n-status: Draft\n+status: Withdrawn",
+    "path": "_specs/ecip-1045.md",
+    "position": 5,
+    "original_position": 5,
+    "commit_id": "1569949170c18fa5a4f4d84cc866c9eb34354f7f",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "Replaced again here?\r\nBy https://ecips.ethereumclassic.org/ECIPs/ecip-1054 and https://ecips.ethereumclassic.org/ECIPs/ecip-1056.",
+    "created_at": "2019-12-01T18:26:04Z",
+    "updated_at": "2019-12-01T18:26:04Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/202#discussion_r352363141",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/202",
+    "author_association": "MEMBER",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352363141"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/202#discussion_r352363141"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/202"
+      }
+    },
+    "original_commit_id": "1569949170c18fa5a4f4d84cc866c9eb34354f7f",
+    "in_reply_to_id": 352341964
+  }

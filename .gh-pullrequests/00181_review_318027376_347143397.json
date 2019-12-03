@@ -1,0 +1,49 @@
+{
+    "id": 347143397,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM0NzE0MzM5Nw==",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/347143397",
+    "pull_request_review_id": 318027376,
+    "diff_hunk": "@@ -0,0 +1,17 @@\n+# Security Policy\n+\n+Security concerns with each individual ECIP should be addressed to the ECIP authors, the specified `discussion-to` locations, or ECIP editors. Note that when an ECIP is already deployed, it is recommended to talk privately with the ECIP authors or ECIP editors first.\n+\n+Security alerts related to the website source code will be addressed by ECIP editors. Security concerns related to hosting and delivery of the ecips.ethereumclassic.org website will be addressed by either org admins or ECIP editors. They will not be made publicly until mitigating solutions are identified. Once a remedy is found, part of the repair process may be automated by [Dependabot](https://dependabot.com/).",
+    "path": "SECURITY.md",
+    "position": 5,
+    "original_position": 5,
+    "commit_id": "41471aae225e13ade9a77bb1525196e17a7bd987",
+    "user": {
+      "login": "mikeyb",
+      "id": 36461,
+      "node_id": "MDQ6VXNlcjM2NDYx",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/36461?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mikeyb",
+      "html_url": "https://github.com/mikeyb",
+      "followers_url": "https://api.github.com/users/mikeyb/followers",
+      "following_url": "https://api.github.com/users/mikeyb/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mikeyb/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mikeyb/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mikeyb/subscriptions",
+      "organizations_url": "https://api.github.com/users/mikeyb/orgs",
+      "repos_url": "https://api.github.com/users/mikeyb/repos",
+      "events_url": "https://api.github.com/users/mikeyb/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mikeyb/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "`They will not be made publicly`\r\n\r\nShould this be `They will not be made public`?",
+    "created_at": "2019-11-17T15:40:13Z",
+    "updated_at": "2019-11-17T15:42:41Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/181#discussion_r347143397",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/181",
+    "author_association": "MEMBER",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/347143397"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/181#discussion_r347143397"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/181"
+      }
+    },
+    "original_commit_id": "41471aae225e13ade9a77bb1525196e17a7bd987"
+  }

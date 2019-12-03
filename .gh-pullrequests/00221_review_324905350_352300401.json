@@ -1,0 +1,49 @@
+{
+    "id": 352300401,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM1MjMwMDQwMQ==",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352300401",
+    "pull_request_review_id": 324905350,
+    "diff_hunk": "@@ -48,7 +49,7 @@ It also helps to make sure the idea is applicable to the entire community and no\n \n ECIP authors **are responsible for collecting community feedback** on both the initial idea and the ECIP before submitting it for review. However, wherever possible, long open-ended discussions on public groups or mailing lists should be avoided. Strategies to keep the discussions efficient include: setting up a separate SIG mailing list for the topic, having the ECIP author accept private comments in the early design phases, setting up a wiki page or git repository, etc. ECIP authors should use their discretion here.\n \n-It is highly recommended that **a single ECIP contain a single key proposal or new idea**. The more focused the ECIP, the more successful it tends to be. If in doubt, split your ECIP into several well-focused ones.\n+It is highly recommended that **a single ECIP contain a single key proposal or new idea**. The more focused the ECIP, the more successful it tends to be. If in doubt, split your ECIP into several well-focused ones. Please check out the ECIPsin this repository and search for similar ones that have already been created.",
+    "path": "_specs/ecip-1000.md",
+    "position": null,
+    "original_position": 13,
+    "commit_id": "550cec7e8dd0bb27b53bf3f9b0daf7cdc3633a3a",
+    "user": {
+      "login": "shanejonas",
+      "id": 364566,
+      "node_id": "MDQ6VXNlcjM2NDU2Ng==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/364566?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/shanejonas",
+      "html_url": "https://github.com/shanejonas",
+      "followers_url": "https://api.github.com/users/shanejonas/followers",
+      "following_url": "https://api.github.com/users/shanejonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/shanejonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/shanejonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/shanejonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/shanejonas/orgs",
+      "repos_url": "https://api.github.com/users/shanejonas/repos",
+      "events_url": "https://api.github.com/users/shanejonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/shanejonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "```suggestion\r\nIt is highly recommended that **a single ECIP contain a single key proposal or new idea**. The more focused the ECIP, the more successful it tends to be. If in doubt, split your ECIP into several well-focused ones. Please check out the ECIPs in this repository and search for similar ones that have already been created.\r\n```",
+    "created_at": "2019-11-30T19:29:33Z",
+    "updated_at": "2019-11-30T20:38:43Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/221#discussion_r352300401",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/221",
+    "author_association": "MEMBER",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352300401"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/221#discussion_r352300401"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/221"
+      }
+    },
+    "original_commit_id": "b582d25fab827af7a49449ef3e734105203bdd73"
+  }

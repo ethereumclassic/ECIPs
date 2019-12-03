@@ -1,0 +1,39 @@
+{
+    "id": 324822667,
+    "node_id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MzI0ODIyNjY3",
+    "user": {
+      "login": "soc1c",
+      "id": 47772477,
+      "node_id": "MDQ6VXNlcjQ3NzcyNDc3",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/47772477?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/soc1c",
+      "html_url": "https://github.com/soc1c",
+      "followers_url": "https://api.github.com/users/soc1c/followers",
+      "following_url": "https://api.github.com/users/soc1c/following{/other_user}",
+      "gists_url": "https://api.github.com/users/soc1c/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/soc1c/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/soc1c/subscriptions",
+      "organizations_url": "https://api.github.com/users/soc1c/orgs",
+      "repos_url": "https://api.github.com/users/soc1c/repos",
+      "events_url": "https://api.github.com/users/soc1c/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/soc1c/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "APLv2 is a source-code license and not a content license. I would recommend sticking to CC licenses here. \r\n\r\nAlso, I strongly believe, specifications are public good and the documents are to be released in the public domain. Therefore I chose a CC0 license. Please do not jeopardize PD specs with an Apache license. ",
+    "state": "COMMENTED",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/216#pullrequestreview-324822667",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/216",
+    "author_association": "MEMBER",
+    "_links": {
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/216#pullrequestreview-324822667"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/216"
+      }
+    },
+    "submitted_at": "2019-11-29T18:02:48Z",
+    "commit_id": "033c4cccf9d85e4c992a448f08fa721fbc50186f"
+  }

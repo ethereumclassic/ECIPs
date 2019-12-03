@@ -1,0 +1,39 @@
+{
+    "id": 323755348,
+    "node_id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MzIzNzU1MzQ4",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "This is just procedural issue, but from the meeting the consensus was to move 1072, not to modify 1061. That's even what you wrote in the meeting notes:\r\n\r\n> Wei: Just to be clear? Are we using ECIP 1072? How long should \"last call\" last?\r\n> Afri: Three weeks \"last call\" would be sufficient to evaluate Istanbul on EF network\r\n> Everyone: Sounds good\r\n\r\nWe have discussed this when you complained we were not merging https://github.com/ethereumclassic/ECIPs/pull/176 \"on time\". That's why we discussed using different ECIPs to represent different hard fork options.\r\n\r\nModifying 1061 has the negative effect that it will make all previous constructions on hard fork options in vain, and creates a lot confusions.",
+    "state": "DISMISSED",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/199#pullrequestreview-323755348",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/199",
+    "author_association": "MEMBER",
+    "_links": {
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/199#pullrequestreview-323755348"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/199"
+      }
+    },
+    "submitted_at": "2019-11-27T15:24:33Z",
+    "commit_id": "af6db56caa613784197aa9ddf61e95fa03a98a63"
+  }

@@ -1,0 +1,56 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/305129578",
+    "pull_request_review_id": 263926270,
+    "id": 305129578,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDMwNTEyOTU3OA==",
+    "diff_hunk": "@@ -162,13 +162,21 @@ ECIPs may also have a `Superseded-By` header indicating that a ECIP has been ren\n \n ECIPs may include auxiliary files such as diagrams. If if requires images, the image files should be included in a subdirectory of the `assets` folder for that ECIP as follow: `assets/ecip-X`. When linking to an image in the ECIP, use the related links such as `./assets/ecip-X/image.png`.\n \n-# ECIP types\n+## ECIP Types\n \n-There are three kinds of ECIP:\n+There are three types of ECIP:\n \n-- **A Standards Track ECIP** describes any change that affects most or all Ethereum Classic implementations, such as a change to the network protocol, a change in block or transaction validity rules, or any change or addition that affects the interoperability of applications using Ethereum Classic. Standards Track ECIPs consist of two parts, a design document and a reference implementation.\n-- **An Informational ECIP** describes a Ethereum Classic design issue, or provides general guidelines or information to the Ethereum Classic community, but does not propose a new feature. Informational ECIPs do not necessarily represent a Ethereum Classic community consensus or recommendation, so users and implementors are free to ignore Informational ECIPs or follow their advice.\n-- **A Process ECIP** describes a process surrounding Ethereum Classic, or proposes a change to (or an event in) a process. Process ECIPs are like Standards Track ECIPs but apply to areas other than the Ethereum Classic protocol itself. They may propose an implementation, but not to Ethereum Classic's codebase; they often require community consensus; unlike Informational ECIPs, they are more than recommendations, and users are typically not free to ignore them. Examples include procedures, guidelines, changes to the decision-making process, and changes to the tools or environment used in Ethereum Classic development. Any meta-ECIP is also considered a Process ECIP.\n+- A **Standard Track ECIP** describes any change that affects most or all Ethereum Classic implementations, such as a change to the network protocol, a change in block or transaction validity rules, proposed application standards/conventions, or any change or addition that affects the interoperability of applications using Ethereum Classic. Furthermore, Standard Track ECIPs can be broken down into the following categories:\n+  - **Core** - improvements requiring a consensus fork, as well as changes that are not necessarily consensus critical but may be relevant to core developer discussions.\n+  - **Networking** - improvements to networking protocol specifications.\n+  - **Interface** - improvements around client [API/RPC] specifications and standards, and also certain language-level standards like method names  and contract ABIs.\n+  - **ECBP (Ethereum Classic Best Practice)** - application-level standards and conventions, including contract standards such as token standards, name registries, URI schemes, library/package formats, and wallet formats.\n+- A **Meta ECIP** describes a **process** surrounding Ethereum Classic or proposes a change to (or an event in) a process. Process ECIPs are like Standard Track ECIPs, but apply to areas other than the Ethereum Classic protocol itself. They may propose an implementation, but not to Ethereum Classic's codebase; they often require community consensus; unlike Informational ECIPs, they are more than recommendations, and users are typically not free to ignore them. Examples include procedures, guidelines, changes to the decision-making process (e.g. this ECIP-1000 process document), and changes to the tools or environment used in Ethereum Classic development. *Any meta-ECIP is also considered a Process ECIP.*\n+- An **Informational ECIP** describes an Ethereum Classic design issue, or provides general guidelines or information to the Ethereum Classic community, but does not propose a new feature. Informational ECIPs do not necessarily represent Ethereum Classic community consensus or a recommendation, so users and implementors are free to ignore Informational ECIPs or follow their advice.\n+\n+It is highly recommended that a single ECIP contain a single key proposal or new idea. The more focused the ECIP, the more successful it tends to be. A change to one client doesn't require an ECIP; a change that affects multiple clients, or defines a standard for multiple apps to use, does.\n+\n+An ECIP must meet certain minimum criteria. It must be a clear and complete description of the proposed enhancement. The enhancement must represent a net improvement. The proposed implementation, if applicable, must be solid and must not complicate the protocol unduly.",
+    "path": "_specs/ecip-1000.md",
+    "position": null,
+    "original_position": 23,
+    "commit_id": "9b6a5f2227b5f3e4739d4212445bd3ed6eb8836a",
+    "original_commit_id": "4f5ddec59ef7d2a12f78526dc3cdbf102961258a",
+    "user": {
+      "login": "TokenHash",
+      "id": 29529586,
+      "node_id": "MDQ6VXNlcjI5NTI5NTg2",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/29529586?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TokenHash",
+      "html_url": "https://github.com/TokenHash",
+      "followers_url": "https://api.github.com/users/TokenHash/followers",
+      "following_url": "https://api.github.com/users/TokenHash/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TokenHash/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TokenHash/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TokenHash/subscriptions",
+      "organizations_url": "https://api.github.com/users/TokenHash/orgs",
+      "repos_url": "https://api.github.com/users/TokenHash/repos",
+      "events_url": "https://api.github.com/users/TokenHash/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TokenHash/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "Yes it's a subjective consideration on the EIP, but I'm ok getting rid of it.",
+    "created_at": "2019-07-18T21:50:23Z",
+    "updated_at": "2019-07-18T22:09:44Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/111#discussion_r305129578",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/111",
+    "author_association": "MEMBER",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/305129578"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/111#discussion_r305129578"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/111"
+      }
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": null,
+    "original_line": 179,
+    "side": "RIGHT",
+    "in_reply_to_id": 305059071
+  }

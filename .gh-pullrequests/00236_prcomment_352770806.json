@@ -1,0 +1,55 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352770806",
+    "pull_request_review_id": 325458505,
+    "id": 352770806,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM1Mjc3MDgwNg==",
+    "diff_hunk": "@@ -73,10 +73,10 @@ A good reason to transfer ownership is because the original author no longer has\n The current ECIP editors are:\n \n * Wei Tang (@sorpaas)\n-* Isaac Ardis (@meowsbits)\n * Cody Burns (@realcodywburns)\n-* Afri Schoedon (@soc1c)\n * Yaz Khoury (@YazzyYaz)\n+* @soc1c (Talha Cross, Pseudonymous)\n+* @meowsbits (Mr. Meows D. Bits, Pseudonymous)",
+    "path": "_specs/ecip-1000.md",
+    "position": 9,
+    "original_position": 9,
+    "commit_id": "0292842103d6581de7c0e176129dae75bdcb41c2",
+    "original_commit_id": "0292842103d6581de7c0e176129dae75bdcb41c2",
+    "user": {
+      "login": "meowsbits",
+      "id": 45600330,
+      "node_id": "MDQ6VXNlcjQ1NjAwMzMw",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/45600330?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/meowsbits",
+      "html_url": "https://github.com/meowsbits",
+      "followers_url": "https://api.github.com/users/meowsbits/followers",
+      "following_url": "https://api.github.com/users/meowsbits/following{/other_user}",
+      "gists_url": "https://api.github.com/users/meowsbits/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/meowsbits/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/meowsbits/subscriptions",
+      "organizations_url": "https://api.github.com/users/meowsbits/orgs",
+      "repos_url": "https://api.github.com/users/meowsbits/repos",
+      "events_url": "https://api.github.com/users/meowsbits/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/meowsbits/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "I would prefer not to disclose whether or not this is my pen name or my fiat name. I prefer a certain air of mystery... :rabbit: :tophat: \r\n\r\n```suggestion\r\n* @meowsbits (Mr. Meows D. Bits)\r\n```",
+    "created_at": "2019-12-02T18:58:32Z",
+    "updated_at": "2019-12-02T18:59:00Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/236#discussion_r352770806",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/236",
+    "author_association": "CONTRIBUTOR",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352770806"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/236#discussion_r352770806"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/236"
+      }
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 79,
+    "original_line": 79,
+    "side": "RIGHT"
+  }

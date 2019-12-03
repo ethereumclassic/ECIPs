@@ -1,0 +1,50 @@
+{
+    "id": 343440080,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM0MzQ0MDA4MA==",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/343440080",
+    "pull_request_review_id": 313078981,
+    "diff_hunk": "@@ -0,0 +1,505 @@\n+---\n+eip: 1057",
+    "path": "_specs/ecip-1070.md",
+    "position": null,
+    "original_position": 2,
+    "commit_id": "29d4d6a3488ba989b0030689402108254ed8b5f8",
+    "user": {
+      "login": "YazzyYaz",
+      "id": 9094204,
+      "node_id": "MDQ6VXNlcjkwOTQyMDQ=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9094204?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/YazzyYaz",
+      "html_url": "https://github.com/YazzyYaz",
+      "followers_url": "https://api.github.com/users/YazzyYaz/followers",
+      "following_url": "https://api.github.com/users/YazzyYaz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/YazzyYaz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/YazzyYaz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/YazzyYaz/subscriptions",
+      "organizations_url": "https://api.github.com/users/YazzyYaz/orgs",
+      "repos_url": "https://api.github.com/users/YazzyYaz/repos",
+      "events_url": "https://api.github.com/users/YazzyYaz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/YazzyYaz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "right, will fix",
+    "created_at": "2019-11-07T02:31:03Z",
+    "updated_at": "2019-11-07T02:32:16Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/171#discussion_r343440080",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/171",
+    "author_association": "MEMBER",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/343440080"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/171#discussion_r343440080"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/171"
+      }
+    },
+    "original_commit_id": "7ba00df456d3c431e49c1923508a36cbfeaf2465",
+    "in_reply_to_id": 343436926
+  }

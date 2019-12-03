@@ -1,0 +1,50 @@
+{
+    "id": 336744372,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDMzNjc0NDM3Mg==",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/336744372",
+    "pull_request_review_id": 304221315,
+    "diff_hunk": "@@ -1,17 +1,15 @@\n ---\n ecip: 1055\n title: Flyclient - Succinct PoW Using Merkle Mountain Ranges\n-author: Zac Mitton @zmitton\n+author: Zac Mitton (@zmitton)\n discussions-to: https://github.com/ethereumclassic/ECIPs/issues/144\n status: Draft\n type: Standards Track\n-category (*only required for Standard Track): Core\n+category: Core\n created: 2019-03-12\n-replaces (*optional): 210, 1094, 641\n-\n ---\n \n-## Simple Summary\n+## Simple Summaryhttps://github.com/etclabscore/ECIPs/blob/master/ECLIPs/ECIP-draft_succinct-proofs.md",
+    "path": "_specs/ecip-1055.md",
+    "position": null,
+    "original_position": 17,
+    "commit_id": "49168b234618e1a44fe08689d8a75f859298aa37",
+    "user": {
+      "login": "TokenHash",
+      "id": 29529586,
+      "node_id": "MDQ6VXNlcjI5NTI5NTg2",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/29529586?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TokenHash",
+      "html_url": "https://github.com/TokenHash",
+      "followers_url": "https://api.github.com/users/TokenHash/followers",
+      "following_url": "https://api.github.com/users/TokenHash/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TokenHash/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TokenHash/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TokenHash/subscriptions",
+      "organizations_url": "https://api.github.com/users/TokenHash/orgs",
+      "repos_url": "https://api.github.com/users/TokenHash/repos",
+      "events_url": "https://api.github.com/users/TokenHash/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TokenHash/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "i don understand the question. i don't see that in the PR\r\n\r\ndo you mean to add that URL as a reference? if so, I don't think so because the ECIP is copied in its entirety",
+    "created_at": "2019-10-19T16:36:57Z",
+    "updated_at": "2019-10-19T16:36:57Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/145#discussion_r336744372",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/145",
+    "author_association": "MEMBER",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/336744372"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/145#discussion_r336744372"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/145"
+      }
+    },
+    "original_commit_id": "3b2f6b5c78f7c219d20f2febaa300c05fa7aa90b",
+    "in_reply_to_id": 336742694
+  }

@@ -1,0 +1,39 @@
+{
+    "id": 324841766,
+    "node_id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MzI0ODQxNzY2",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "I think the intention of this PR is entirely wrong. No one is pushing for an \"Ethereum Classic Classic\" fork. I do see some members pushing a hard fork called Aztlan, and there're concerns with it due to process and security.\r\n\r\nI do agree all Aztlan hard fork ECIPs should be moved to rejected status to call off the hard fork, due to various security concerns.\r\n\r\ntldr: the intention of this PR looks like \"Ethereum Classic is a hard fork of Ethereum\", which doesn't make sense in the context of ECIP process.",
+    "state": "CHANGES_REQUESTED",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/218#pullrequestreview-324841766",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/218",
+    "author_association": "MEMBER",
+    "_links": {
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/218#pullrequestreview-324841766"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/218"
+      }
+    },
+    "submitted_at": "2019-11-29T19:46:12Z",
+    "commit_id": "2a9e95ab38cff134eb37085dfb02232b369bd6ae"
+  }
