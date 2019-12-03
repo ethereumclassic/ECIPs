@@ -1,0 +1,29 @@
+{
+    "id": 2782972220,
+    "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDI3ODI5NzIyMjA=",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/events/2782972220",
+    "actor": {
+      "login": "kimisan",
+      "id": 8416967,
+      "node_id": "MDQ6VXNlcjg0MTY5Njc=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/8416967?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kimisan",
+      "html_url": "https://github.com/kimisan",
+      "followers_url": "https://api.github.com/users/kimisan/followers",
+      "following_url": "https://api.github.com/users/kimisan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kimisan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kimisan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kimisan/subscriptions",
+      "organizations_url": "https://api.github.com/users/kimisan/orgs",
+      "repos_url": "https://api.github.com/users/kimisan/repos",
+      "events_url": "https://api.github.com/users/kimisan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kimisan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "event": "subscribed",
+    "commit_id": null,
+    "commit_url": null,
+    "created_at": "2019-11-08T13:49:04Z"
+  }

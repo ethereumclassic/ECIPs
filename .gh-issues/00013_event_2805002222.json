@@ -1,0 +1,29 @@
+{
+    "id": 2805002222,
+    "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjgwNTAwMjIyMg==",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/events/2805002222",
+    "actor": {
+      "login": "lookfirst",
+      "id": 85355,
+      "node_id": "MDQ6VXNlcjg1MzU1",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/85355?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lookfirst",
+      "html_url": "https://github.com/lookfirst",
+      "followers_url": "https://api.github.com/users/lookfirst/followers",
+      "following_url": "https://api.github.com/users/lookfirst/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lookfirst/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lookfirst/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lookfirst/subscriptions",
+      "organizations_url": "https://api.github.com/users/lookfirst/orgs",
+      "repos_url": "https://api.github.com/users/lookfirst/repos",
+      "events_url": "https://api.github.com/users/lookfirst/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lookfirst/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "event": "mentioned",
+    "commit_id": null,
+    "commit_url": null,
+    "created_at": "2019-11-16T20:54:50Z"
+  }

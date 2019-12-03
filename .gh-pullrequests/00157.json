@@ -84,11 +84,11 @@
         "type": "User",
         "site_admin": false
       },
-      "open_issues": 1,
-      "closed_issues": 4,
+      "open_issues": 0,
+      "closed_issues": 6,
       "state": "open",
       "created_at": "2019-11-27T20:32:02Z",
-      "updated_at": "2019-11-29T16:18:06Z",
+      "updated_at": "2019-12-02T20:18:15Z",
       "due_on": null,
       "closed_at": null
     },

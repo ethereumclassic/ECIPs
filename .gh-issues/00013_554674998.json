@@ -30,8 +30,8 @@
     "body": "Changing the hash function has temporary impact on the chain's security, but negligible impact on its security model. The properties of the hash function are relatively unimportant to analysis of PoW security, so long as they fit a few prerequisites (memoryless, cheap to verify, etc).\r\n\r\nOn the other hand, using a finalization mechanism or changing to multi-algorithm PoW would have dramatic effects on the security model that have not been rigorously analyzed. We could open up a much broader conversation about changing the security model, e.g. introducing subjectivity, but it's entirely orthogonal to the ethash/keccak256 conversation",
     "reactions": {
       "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/554674998/reactions",
-      "total_count": 6,
-      "+1": 6,
+      "total_count": 7,
+      "+1": 7,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,

@@ -30,8 +30,8 @@
     "body": "(cross posting as i see discussion section has changed):\r\n\r\nI have a low-level optimization for the ECIP. It would be preferable to use the specific format (mentioned to Alex at the summit)\r\n\r\n```\r\n// unsealedBlockheader is the blockheader with a null nonce\r\ndigest = keccak256(concat(keccak256(unsealedBlockheader),32ByteNonce))\r\n// a \"winning\" digest is of course the thing that must start with lots of leading zeros\r\n// the \"sealed\" header is then made by inserting the nonce and re-RLP-encoding\r\n```\r\n - This optimizes the size of a PoW to be 64 bytes instead of the current 400+ bytes (because the PoW verification only requires the 2 items that were concatenated above)\r\n - It also ensures that the dedicated hardware/software is optimizing specifically keccak, because creating each new \"guess\" requires the minimal number of \"non-keccak\" steps (swapping the 32 byte nonce of a 64 byte bytearray). If the nonce was instead just 1 of the rlp items in the header, then creating another guess would entail a new RLP encoding step (of 400+ bytes) for each additional guess. ASICS would have to design RLP into the hardware to compete. Also selfish mining could become an advantage strategy since block headers can vary in size and larger headers would then take longer to mine on.",
     "reactions": {
       "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/547223402/reactions",
-      "total_count": 0,
-      "+1": 0,
+      "total_count": 1,
+      "+1": 1,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,

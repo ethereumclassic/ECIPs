@@ -1,0 +1,29 @@
+{
+    "id": 2766058286,
+    "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDI3NjYwNTgyODY=",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/events/2766058286",
+    "actor": {
+      "login": "drd34d",
+      "id": 30156189,
+      "node_id": "MDQ6VXNlcjMwMTU2MTg5",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/30156189?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/drd34d",
+      "html_url": "https://github.com/drd34d",
+      "followers_url": "https://api.github.com/users/drd34d/followers",
+      "following_url": "https://api.github.com/users/drd34d/following{/other_user}",
+      "gists_url": "https://api.github.com/users/drd34d/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/drd34d/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/drd34d/subscriptions",
+      "organizations_url": "https://api.github.com/users/drd34d/orgs",
+      "repos_url": "https://api.github.com/users/drd34d/repos",
+      "events_url": "https://api.github.com/users/drd34d/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/drd34d/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "event": "subscribed",
+    "commit_id": null,
+    "commit_url": null,
+    "created_at": "2019-11-03T16:22:39Z"
+  }

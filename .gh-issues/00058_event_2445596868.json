@@ -1,0 +1,29 @@
+{
+    "id": 2445596868,
+    "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjQ0NTU5Njg2OA==",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/events/2445596868",
+    "actor": {
+      "login": "elaineo",
+      "id": 2349487,
+      "node_id": "MDQ6VXNlcjIzNDk0ODc=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2349487?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/elaineo",
+      "html_url": "https://github.com/elaineo",
+      "followers_url": "https://api.github.com/users/elaineo/followers",
+      "following_url": "https://api.github.com/users/elaineo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/elaineo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/elaineo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/elaineo/subscriptions",
+      "organizations_url": "https://api.github.com/users/elaineo/orgs",
+      "repos_url": "https://api.github.com/users/elaineo/repos",
+      "events_url": "https://api.github.com/users/elaineo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/elaineo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "event": "mentioned",
+    "commit_id": null,
+    "commit_url": null,
+    "created_at": "2019-06-27T21:13:20Z"
+  }

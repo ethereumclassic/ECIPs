@@ -1,0 +1,29 @@
+{
+    "id": 2061195727,
+    "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjA2MTE5NTcyNw==",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/events/2061195727",
+    "actor": {
+      "login": "oberondelafay",
+      "id": 44259757,
+      "node_id": "MDQ6VXNlcjQ0MjU5NzU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/44259757?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/oberondelafay",
+      "html_url": "https://github.com/oberondelafay",
+      "followers_url": "https://api.github.com/users/oberondelafay/followers",
+      "following_url": "https://api.github.com/users/oberondelafay/following{/other_user}",
+      "gists_url": "https://api.github.com/users/oberondelafay/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/oberondelafay/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/oberondelafay/subscriptions",
+      "organizations_url": "https://api.github.com/users/oberondelafay/orgs",
+      "repos_url": "https://api.github.com/users/oberondelafay/repos",
+      "events_url": "https://api.github.com/users/oberondelafay/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/oberondelafay/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "event": "mentioned",
+    "commit_id": null,
+    "commit_url": null,
+    "created_at": "2019-01-08T20:02:03Z"
+  }

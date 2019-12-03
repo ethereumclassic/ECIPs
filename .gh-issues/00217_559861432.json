@@ -30,9 +30,9 @@
     "body": "You realize that the outcome here, @sorpaas, is going to be the effective death of Multi-Geth?\r\n\r\nClassic Geth will be END-of-LIFE after Agharta.\r\nYou can obviously add support to Parity-Ethereum.\r\nHyperledger Besu won't support your \"Ethereum Classic Classic\" flavor.\r\n\r\nSo Ethereum Classic will end up with Parity-Ethereum (majority client) and Hyperledger Besu (minority client) only for Aztlan HF.    Maybe I can get Mantis revived too by March as a third client?\r\n\r\nBut Multi-Geth will only be used on Ethereum Classic Classic.\r\n\r\nI actually personally like that outcome for clients, to be honest, because Geth has an unsolvable backlog of IP risks (no known provenance for contributions, GPLv3 licensing which restricts who can use it).\r\n\r\nI have long stated that I think the whole Geth-family will likely die out in the next couple of years because of these IP issues:\r\n\r\n- Geth\r\n- Classic Geth\r\n- Multi-Geth\r\n- TurboGeth (will prove @ledgerwatch's ideas on data-structures, but not a long life itself)\r\n- JPM Quorum\r\n- Clearmatics Autonity\r\n- Axioni AxCore\r\n\r\nYour actions here would just accelerate that process.\r\n",
     "reactions": {
       "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/559861432/reactions",
-      "total_count": 1,
+      "total_count": 2,
       "+1": 0,
-      "-1": 0,
+      "-1": 1,
       "laugh": 1,
       "hooray": 0,
       "confused": 0,
