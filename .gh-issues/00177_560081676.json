@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560081676",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/177#issuecomment-560081676",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/177",
+    "id": 560081676,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDA4MTY3Ng==",
+    "user": {
+      "login": "soc1c",
+      "id": 47772477,
+      "node_id": "MDQ6VXNlcjQ3NzcyNDc3",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/47772477?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/soc1c",
+      "html_url": "https://github.com/soc1c",
+      "followers_url": "https://api.github.com/users/soc1c/followers",
+      "following_url": "https://api.github.com/users/soc1c/following{/other_user}",
+      "gists_url": "https://api.github.com/users/soc1c/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/soc1c/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/soc1c/subscriptions",
+      "organizations_url": "https://api.github.com/users/soc1c/orgs",
+      "repos_url": "https://api.github.com/users/soc1c/repos",
+      "events_url": "https://api.github.com/users/soc1c/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/soc1c/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-01T09:25:11Z",
+    "updated_at": "2019-12-01T09:25:11Z",
+    "author_association": "MEMBER",
+    "body": "Oh, suddenly, 5 days later you have notes? Very creative!\r\n\r\nAre we playing this game now after every meeting? On the call we make decisions and afterwards Wei is opening a can of worms to waste everyone's time disputing the consensus we reached on the calls even though you were on these calls?\r\n\r\nFor the future of humanity, what does it matter if Ethereum Classic specifies a hardfork in 1061 or 1072? Nothing!\r\n\r\nI suggest you zoom out a bit and do some reality checks. Maybe spend a day with your girlfriend in the mountains, go hiking, or fishing at the sea and reflect your actions a bit from distance.\r\n\r\nI understand that you are hurt because you didn't get to write the specification but that does not allow you to blackmail an entire community by threatening you stopping to support Ethereum Classic in Multi-Geth, removing Sputnik VM from Classic, and even proposing a Classic Classic one-man fork... just over a god damn number!\r\n\r\nLet's move on.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560081676/reactions",
+      "total_count": 1,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

@@ -1,0 +1,26 @@
+From bf7aa5cc40f8207b777f68f0a1adf9eaba74a073 Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Sat, 30 Nov 2019 18:22:05 +0100
+Subject: [PATCH] Update ecip-1000.md
+
+---
+ _specs/ecip-1000.md | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+diff --git a/_specs/ecip-1000.md b/_specs/ecip-1000.md
+index b5b50dd..2544753 100644
+--- a/_specs/ecip-1000.md
++++ b/_specs/ecip-1000.md
+@@ -353,6 +353,12 @@ In addition, it is recommended that literal code included in the ECIP be dual-li
+ * Some ECIPs, especially consensus layer, may include literal code in the ECIP itself which may not be available under the exact license terms of the ECIP.
+ * Despite this, not all software licenses would be acceptable for content included in ECIPs.
+ 
++# Appendix: Irregular Process Transitions
++
++As a decentralized community, it is important that for all governance actions, especially in ECIP, the established process is followed. In this section, we document irregular process transitions, and give special permissions to them, to state that they followed the process. Note that this is essentially similar to theDAO hard fork in Ethereum, and should only be added in extreme cases.
++
++* In [PR#199](https://github.com/ethereumclassic/ECIPs/pull/199), Afri Schoedon merged a PR moving ECIP-1061 to "Last Call" status. At the time, Afri dismissed a review of clear objections from ECIP editor Wei Tang, without waiting for consultations of the community, or resolutions with the review submitter. We here declare that this particular action from Afri followed the ECIP process. 
++
+ # See Also
+ 
+ * [RFC 7282: On Consensus and Humming in the IETF](https://tools.ietf.org/html/rfc7282)

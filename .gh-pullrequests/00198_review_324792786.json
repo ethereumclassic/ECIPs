@@ -1,0 +1,39 @@
+{
+    "id": 324792786,
+    "node_id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MzI0NzkyNzg2",
+    "user": {
+      "login": "kimisan",
+      "id": 8416967,
+      "node_id": "MDQ6VXNlcjg0MTY5Njc=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/8416967?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kimisan",
+      "html_url": "https://github.com/kimisan",
+      "followers_url": "https://api.github.com/users/kimisan/followers",
+      "following_url": "https://api.github.com/users/kimisan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kimisan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kimisan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kimisan/subscriptions",
+      "organizations_url": "https://api.github.com/users/kimisan/orgs",
+      "repos_url": "https://api.github.com/users/kimisan/repos",
+      "events_url": "https://api.github.com/users/kimisan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kimisan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "",
+    "state": "APPROVED",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/198#pullrequestreview-324792786",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/198",
+    "author_association": "MEMBER",
+    "_links": {
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/198#pullrequestreview-324792786"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/198"
+      }
+    },
+    "submitted_at": "2019-11-29T16:16:07Z",
+    "commit_id": "515434e43c75bc6a2dcc7b052177b59f75af696b"
+  }

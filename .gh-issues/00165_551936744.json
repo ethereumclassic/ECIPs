@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551936744",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/165#issuecomment-551936744",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/165",
+    "id": 551936744,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MTkzNjc0NA==",
+    "user": {
+      "login": "OmniEdge",
+      "id": 7707354,
+      "node_id": "MDQ6VXNlcjc3MDczNTQ=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7707354?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/OmniEdge",
+      "html_url": "https://github.com/OmniEdge",
+      "followers_url": "https://api.github.com/users/OmniEdge/followers",
+      "following_url": "https://api.github.com/users/OmniEdge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/OmniEdge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/OmniEdge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/OmniEdge/subscriptions",
+      "organizations_url": "https://api.github.com/users/OmniEdge/orgs",
+      "repos_url": "https://api.github.com/users/OmniEdge/repos",
+      "events_url": "https://api.github.com/users/OmniEdge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/OmniEdge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-08T18:21:31Z",
+    "updated_at": "2019-11-08T18:21:31Z",
+    "author_association": "NONE",
+    "body": "I am not a dev and definitely not a lawyer so FWIW I would still like to express the same as what others have mentioned. Zac's question states it perfectly: What are the major drawbacks of having a set of acceptable licenses from which the author may pick one?",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551936744/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

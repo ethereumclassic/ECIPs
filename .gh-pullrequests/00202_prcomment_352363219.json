@@ -1,0 +1,56 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352363219",
+    "pull_request_review_id": 324954869,
+    "id": 352363219,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM1MjM2MzIxOQ==",
+    "diff_hunk": "@@ -4,7 +4,7 @@ ecip: 1048\n title: Clique proof-of-authority consensus protocol\n author: Péter Szilágyi <peterke@gmail.com>\n discussions-to: https://github.com/ethereum/EIPs/issues/225\n-status: Draft\n+status: Last Call",
+    "path": "_specs/ecip-1048.md",
+    "position": 5,
+    "original_position": 5,
+    "commit_id": "1569949170c18fa5a4f4d84cc866c9eb34354f7f",
+    "original_commit_id": "1569949170c18fa5a4f4d84cc866c9eb34354f7f",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "I believe we have to take it through \"Last Call\" to follow the approved process flow, @meowsbits.\r\nYes, it is a bit silly, but we are playing catch up on \"paperwork\" which should have been done at the time.\r\n\r\nSo let's go \"Last Call\" for two weeks, and then \"Accepted\" and then \"Final\".\r\n\r\nFollowing the process.",
+    "created_at": "2019-12-01T18:27:26Z",
+    "updated_at": "2019-12-01T18:27:27Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/202#discussion_r352363219",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/202",
+    "author_association": "MEMBER",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352363219"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/202#discussion_r352363219"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/202"
+      }
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 7,
+    "original_line": 7,
+    "side": "RIGHT",
+    "in_reply_to_id": 352341979
+  }

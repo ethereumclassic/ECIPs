@@ -1,0 +1,33 @@
+{
+    "id": 2796605043,
+    "node_id": "MDE3OlJlbmFtZWRUaXRsZUV2ZW50Mjc5NjYwNTA0Mw==",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/events/2796605043",
+    "actor": {
+      "login": "YazzyYaz",
+      "id": 9094204,
+      "node_id": "MDQ6VXNlcjkwOTQyMDQ=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9094204?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/YazzyYaz",
+      "html_url": "https://github.com/YazzyYaz",
+      "followers_url": "https://api.github.com/users/YazzyYaz/followers",
+      "following_url": "https://api.github.com/users/YazzyYaz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/YazzyYaz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/YazzyYaz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/YazzyYaz/subscriptions",
+      "organizations_url": "https://api.github.com/users/YazzyYaz/orgs",
+      "repos_url": "https://api.github.com/users/YazzyYaz/repos",
+      "events_url": "https://api.github.com/users/YazzyYaz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/YazzyYaz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "event": "renamed",
+    "commit_id": null,
+    "commit_url": null,
+    "created_at": "2019-11-13T19:52:17Z",
+    "rename": {
+      "from": "ECIP-1049: Change the ETC Proof of Work Algorithm to SHA3 (Keccak256)",
+      "to": "ECIP-1049: Change the ETC Proof of Work Algorithm to Keccak256"
+    }
+  }

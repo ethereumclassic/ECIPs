@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/453086727",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/8#issuecomment-453086727",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/8",
+    "id": 453086727,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1MzA4NjcyNw==",
+    "user": {
+      "login": "saturn-network",
+      "id": 44673408,
+      "node_id": "MDQ6VXNlcjQ0NjczNDA4",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/44673408?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/saturn-network",
+      "html_url": "https://github.com/saturn-network",
+      "followers_url": "https://api.github.com/users/saturn-network/followers",
+      "following_url": "https://api.github.com/users/saturn-network/following{/other_user}",
+      "gists_url": "https://api.github.com/users/saturn-network/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/saturn-network/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/saturn-network/subscriptions",
+      "organizations_url": "https://api.github.com/users/saturn-network/orgs",
+      "repos_url": "https://api.github.com/users/saturn-network/repos",
+      "events_url": "https://api.github.com/users/saturn-network/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/saturn-network/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-10T12:56:20Z",
+    "updated_at": "2019-01-10T12:56:20Z",
+    "author_association": "NONE",
+    "body": "I think the best path forward with this ECIP would be to launch a keccak256 testnet and invite miners to try it out.\r\n\r\nAs far as production launch goes, if the testnet works out fine, some sort of public vote should be set up to propose algo switch. If the vote results with a `YES` answer, then a hard fork date should be set somewhat far into the future, probably 12 months.\r\n\r\nIn the meantime ASIC manufacturers should be invited to develop keccak256 ASICs. ETC should only switch to the new hashing algo if there are plenty of easy-to-buy, commercially available ASICs that cost roughly as much as a desktop GPU ($300 - $500). Launching without commercial ASICs will most likely result in lots of miners abandoning the chain, and at this low-hashrate moment ETC cannot make mistakes. I also heard that when it comes to keccak256 and GPUs, this algo heavily favors NVidia cards, which is also less than ideal.\r\n\r\nOtherwise, changing hashing algorithms is just playing favorites - you favor one group of miners over another without much thought put in.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/453086727/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

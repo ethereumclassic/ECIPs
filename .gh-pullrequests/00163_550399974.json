@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550399974",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/163#issuecomment-550399974",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/163",
+    "id": 550399974,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MDM5OTk3NA==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-06T16:52:08Z",
+    "updated_at": "2019-11-06T16:52:08Z",
+    "author_association": "MEMBER",
+    "body": "@TokenHash Thanks for the table.  That is awesome.\r\n\r\nThe reason that I propose Apache 2.0 is because it is the best of breed permissive license which adds patent protection in addition to clarity of copyright.\r\n\r\nIf we are contacting all prior contributors, it is really very little effort to ask if they would agree to relicensing their ECIP to Apache 2.0.   We need their consent to do so.  We cannot compel anybody to relicense.  They have a perfect right to say no.  But it does no harm to ask.\r\n\r\nI suspect that just about everybody will not have a strong objection, because it makes no practical difference to them.  Most of them probably did not even think about licensing at the time.\r\n\r\nIf we end up with some \"objectors\" but can at least get to clarity of licensing for all ECIPs then that would be a good place to be as well.\r\n\r\nMoving forward, though, I see little reason why we should NOT require Apache 2.0 for all submissions.\r\n\r\nI think that it is also important to add tracking of this \"manual consent\" with DCOs, both backwards and forwards in time.   If there is strong objection to a real name requirement then let's just leave that alone and proceed with DCOs using the existing self-identifications which we already have.\r\n\r\nWhich is actually the same as \"real names\" for everyone except Dexeran!",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550399974/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

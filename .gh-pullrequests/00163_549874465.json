@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/549874465",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/163#issuecomment-549874465",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/163",
+    "id": 549874465,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU0OTg3NDQ2NQ==",
+    "user": {
+      "login": "TokenHash",
+      "id": 29529586,
+      "node_id": "MDQ6VXNlcjI5NTI5NTg2",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/29529586?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TokenHash",
+      "html_url": "https://github.com/TokenHash",
+      "followers_url": "https://api.github.com/users/TokenHash/followers",
+      "following_url": "https://api.github.com/users/TokenHash/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TokenHash/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TokenHash/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TokenHash/subscriptions",
+      "organizations_url": "https://api.github.com/users/TokenHash/orgs",
+      "repos_url": "https://api.github.com/users/TokenHash/repos",
+      "events_url": "https://api.github.com/users/TokenHash/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TokenHash/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-05T15:31:39Z",
+    "updated_at": "2019-11-05T15:31:39Z",
+    "author_association": "MEMBER",
+    "body": "This PR is inappropriate, it solves no problem at all, restrictive, and it is authoritarian to create a root license, demand retroactively to previous contributors, and force future contributors to a root license with no justification whatsoever. \r\n\r\nAs realcodyburns mentions above, It is also creating an unnecessary administrative burden, which is also authoritarian as it has no rationale, and disruptive of the ETC proposal process. The portfolio of options in ECIP-1000 is adequate as it is, and gives all contributors, with real names or anonymous, flexibility to work on the options they prefer.\r\n\r\nETC system does not have to be modified according to irrational rules with no fundament, which are restrictive, and authoritarian if no real problem is being solved.\r\n\r\nI oppose to change root licensing of ECIPs, I oppose to make those changes retroactive, I oppose to make past contributors change their licenses. \r\n\r\nI also oppose requiring using real names to past and future contributors. I agree to discuss DCO and how to implement it going forward, but not retroactively.\r\n\r\nIn general, I oppose changes with no rationale and with no clear problem being solved, as they are arbitrary and open the door to future arbitrary and authoritarian behavior and change in ETC.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/549874465/reactions",
+      "total_count": 1,
+      "+1": 0,
+      "-1": 1,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

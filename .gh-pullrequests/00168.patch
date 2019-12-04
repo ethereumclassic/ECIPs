@@ -1,0 +1,51 @@
+From 9009b996807895bee99f8e0f031238c37065295c Mon Sep 17 00:00:00 2001
+From: Donald McIntyre <donald@etherplan.com>
+Date: Tue, 5 Nov 2019 21:34:19 -0700
+Subject: [PATCH 1/2] Adjusted format of template ECIP to fit ECIP-1000
+
+Adjusted format of template ECIP to fit to the latest version of ECIP-1000.
+---
+ ecip-X.md | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+diff --git a/ecip-X.md b/ecip-X.md
+index 6a29026..6d62a10 100644
+--- a/ecip-X.md
++++ b/ecip-X.md
+@@ -3,8 +3,8 @@ ecip: <ECIP number>
+ title: <ECIP title>
+ author: <list of authors' real names and optionally, email addrs>
+ discussions-to: <email address>
+-status: <Draft | Active | Accepted | Deferred | Rejected | Withdrawn | Final | Superseded>
+-type: <Standards Track | Informational | Process>
++status: <WIP | Draft | Last Call | Accepted | Final | Deferred | Replaced | Rejected | Withdrawn | Active>
++type: <Standards Track (Core, Networking, Interface, ECBP) | Meta | Informational>
+ created: <date created on, in ISO 8601 (yyyy-mm-dd) format>
+ replaces: <ECIP number>
+ superseded-by: <ECIP number>
+@@ -21,3 +21,4 @@ resolution: <url>
+ 
+ ### Implementation
+ 
++### Licensing
+
+From 7f8c54699239185f4ba65b40ad70f9eed1d467b3 Mon Sep 17 00:00:00 2001
+From: Donald McIntyre <donald@etherplan.com>
+Date: Tue, 5 Nov 2019 22:06:16 -0700
+Subject: [PATCH 2/2] Copyright/Licensing
+
+Corrected last title to `Copyright/Licensing` so it is more clear for ECIP writers to remember to add a copyright/license to the ECIP draft.
+---
+ ecip-X.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/ecip-X.md b/ecip-X.md
+index 6d62a10..0691e94 100644
+--- a/ecip-X.md
++++ b/ecip-X.md
+@@ -21,4 +21,4 @@ resolution: <url>
+ 
+ ### Implementation
+ 
+-### Licensing
++### Copyright/Licensing

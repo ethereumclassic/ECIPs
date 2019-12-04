@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/545929697",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/135#issuecomment-545929697",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/135",
+    "id": 545929697,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU0NTkyOTY5Nw==",
+    "user": {
+      "login": "soc1c",
+      "id": 47772477,
+      "node_id": "MDQ6VXNlcjQ3NzcyNDc3",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/47772477?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/soc1c",
+      "html_url": "https://github.com/soc1c",
+      "followers_url": "https://api.github.com/users/soc1c/followers",
+      "following_url": "https://api.github.com/users/soc1c/following{/other_user}",
+      "gists_url": "https://api.github.com/users/soc1c/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/soc1c/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/soc1c/subscriptions",
+      "organizations_url": "https://api.github.com/users/soc1c/orgs",
+      "repos_url": "https://api.github.com/users/soc1c/repos",
+      "events_url": "https://api.github.com/users/soc1c/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/soc1c/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-10-24T13:55:48Z",
+    "updated_at": "2019-10-24T13:55:48Z",
+    "author_association": "MEMBER",
+    "body": "Thanks everyone for attending. Notes below:\r\n\r\n# ETC Core Devs Call - Agharta Finalization\r\n\r\nDate Thursday, October 24, 2019, 1:00pm-1:52 UTC\r\n\r\nAttendees:\r\n- bakon\r\n- bobsummerwill\r\n- BTCLovera\r\n- DonaldMcIntyre\r\n- DontPanicBurns\r\n- GregTheGreek\r\n- Kimi Sian-Yu Chen\r\n- OmniEdge\r\n- OrYn\r\n- soc1c\r\n- sorpaas\r\n- stev\r\n- Tj\r\n- tzdybal\r\n- wolf_li\r\n- yaz\r\n- Yebisu\r\n\r\nCore devs:\r\n- Attendees include Classic Geth / ChainSafe\r\n- Attendees include Multi Geth / ETCLabs\r\n- Attendees include Parity Ethereum\r\n\r\nECIP-1056 discussions:\r\n- No objections to EIP-145\r\n- No objections to EIP-1014\r\n- No objections to EIP-1052\r\n- Objectsions to EIP-1702\r\n  - need our own Solidity compiler\r\n  - need our own tooling\r\n- Conclusion: Let's prioritize ETH changes first\r\n- Let's keep EIP-1702 in ECIP-1065\r\n- Question: Why not include Istanbul in Agharta?\r\n  - Bob proposes Phoenix 1 and 2\r\n  - Breaking changes in Istanbul\r\n  - Taking too long to implement\r\n  - Classic Geth does not implement it yet\r\n  - Tooling might be screwed\r\n- Chain-parity with ETH main-chain should be the goal\r\n- No one opposes Constantinople EIPs\r\n- ECIP-1702 will be removed from ECIP-1056 in favor of ECIP-1065\r\n\r\n- Moving on with timing\r\n  - Afri proposes 6 months timeline\r\n    - Question: why so slow\r\n    - Answer: because ECIP-1702 but that is removed now\r\n    - Afri's proposal rejected\r\n  - New timeline proposed\r\n    - Morden Testnet Nov/13th, 2019\r\n    - Mordor Testnet Nov 20th, 2019\r\n  - Kotti Testnet Dec/11th, 2019\r\n  - **Classic Mainnet Jan/15th, 2020**\r\n- No objections\r\n\r\n- Conclusion: Move Agharta to **last call** with decisions made above\r\n  - with EIP 145, 1014, 1052, without 1702\r\n  - with \"January-15\" timeline\r\n\r\n- Side note: ECIP-1050 will also move to _last call_ after this discussion",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/545929697/reactions",
+      "total_count": 3,
+      "+1": 2,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 1,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

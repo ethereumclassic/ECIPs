@@ -1,0 +1,49 @@
+{
+    "id": 352211123,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM1MjIxMTEyMw==",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352211123",
+    "pull_request_review_id": 324813247,
+    "diff_hunk": "@@ -5,7 +5,7 @@ title: Aztlán EVM and Protocol Upgrades (Yingchun Edition)\n status: Last Call\n review-period-end: 2019-12-21\n type: Meta\n-author: Wei Tang (@sorpaas), Talha Cross (@soc1c), Bob Summerwill (@bobsummerwill)\n+author: Wei Tang (@sorpaas), Talha Cross (@soc1c)",
+    "path": "_specs/ecip-1072.md",
+    "position": 5,
+    "original_position": 5,
+    "commit_id": "f18b8a35681d2bb9da385db9dd9206488a800376",
+    "user": {
+      "login": "meowsbits",
+      "id": 45600330,
+      "node_id": "MDQ6VXNlcjQ1NjAwMzMw",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/45600330?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/meowsbits",
+      "html_url": "https://github.com/meowsbits",
+      "followers_url": "https://api.github.com/users/meowsbits/followers",
+      "following_url": "https://api.github.com/users/meowsbits/following{/other_user}",
+      "gists_url": "https://api.github.com/users/meowsbits/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/meowsbits/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/meowsbits/subscriptions",
+      "organizations_url": "https://api.github.com/users/meowsbits/orgs",
+      "repos_url": "https://api.github.com/users/meowsbits/repos",
+      "events_url": "https://api.github.com/users/meowsbits/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/meowsbits/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "```suggestion\r\nauthor: Wei Tang (@sorpaas)\r\n```",
+    "created_at": "2019-11-29T17:20:19Z",
+    "updated_at": "2019-11-29T17:20:20Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/213#discussion_r352211123",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/213",
+    "author_association": "CONTRIBUTOR",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352211123"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/213#discussion_r352211123"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/213"
+      }
+    },
+    "original_commit_id": "f18b8a35681d2bb9da385db9dd9206488a800376"
+  }

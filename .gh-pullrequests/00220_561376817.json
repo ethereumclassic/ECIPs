@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/561376817",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/220#issuecomment-561376817",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/220",
+    "id": 561376817,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MTM3NjgxNw==",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-03T22:01:41Z",
+    "updated_at": "2019-12-03T22:04:07Z",
+    "author_association": "MEMBER",
+    "body": "@YazzyYaz Sure, but in ECIP-1000, I also wrote that:\r\n\r\n> We try to build consensus around an ECIP, but if that’s not possible, you can always submit a competing ECIP.\r\n\r\nAfri can update his draft PR, of course, but Afri merged something controversial at that moment, which means building consensus around ECIP-1061 was not possible at that moment. That's what's given justification to create competing ECIPs.\r\n\r\nThe action of Afri violating the ECIP process was not when he merged controversial EIPs. That's totally fine. I'm also totally fine too to create competing ECIPs that are different. The actual action where Afri violated the ECIP process was when he dismissed review of clear and reasonable objection, and force merged his own ECIP into last call status. That's the irregular state transition mentioned in this PR.\r\n\r\nAlso just curious, since you are so supportive of ECIP-1061/ECIP-1072 as a spec (since they're essentially the same), can you confirm your certainty about the safety properties on the hard fork you're proposing?",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/561376817/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

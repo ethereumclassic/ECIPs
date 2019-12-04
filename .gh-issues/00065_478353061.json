@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/478353061",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/65#issuecomment-478353061",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/65",
+    "id": 478353061,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3ODM1MzA2MQ==",
+    "user": {
+      "login": "drd34d",
+      "id": 30156189,
+      "node_id": "MDQ6VXNlcjMwMTU2MTg5",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/30156189?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/drd34d",
+      "html_url": "https://github.com/drd34d",
+      "followers_url": "https://api.github.com/users/drd34d/followers",
+      "following_url": "https://api.github.com/users/drd34d/following{/other_user}",
+      "gists_url": "https://api.github.com/users/drd34d/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/drd34d/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/drd34d/subscriptions",
+      "organizations_url": "https://api.github.com/users/drd34d/orgs",
+      "repos_url": "https://api.github.com/users/drd34d/repos",
+      "events_url": "https://api.github.com/users/drd34d/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/drd34d/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-31T15:46:45Z",
+    "updated_at": "2019-03-31T15:47:09Z",
+    "author_association": "NONE",
+    "body": "> Motivation:\r\n> 1. Rebalance the influence of miners and stakeholders\r\n> The more power miners have, the greater the dumping potential of the mineable crypto asset.\r\n> The more power long-term investors have, the greater the upside potential of the asset.\r\n> \r\n> 2. Financial incentives\r\n> Cold Staking can push the price of a crypto asset higher and increase its upside potential.\r\n\r\nA proposal which the motivation is admitedly financial benefits for stakeholders, at the cost of reduction of mining rewards (and it's predictable consequences, ie: reduction of networh hash), it's surely not an \"improvement\".\r\n\r\nImo \"dumping potential\" and price shouldn't be something devs should be worrying about at the moment.\r\n\r\nAlso, in case you didn't know, \"investors\" and stakeholders will \"dump\" as soon as the price hits their targets, as long as the profit is bigger than the stake rewards.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/478353061/reactions",
+      "total_count": 2,
+      "+1": 2,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

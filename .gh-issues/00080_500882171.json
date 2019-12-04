@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/500882171",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/80#issuecomment-500882171",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/80",
+    "id": 500882171,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUwMDg4MjE3MQ==",
+    "user": {
+      "login": "zmitton",
+      "id": 6954889,
+      "node_id": "MDQ6VXNlcjY5NTQ4ODk=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6954889?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zmitton",
+      "html_url": "https://github.com/zmitton",
+      "followers_url": "https://api.github.com/users/zmitton/followers",
+      "following_url": "https://api.github.com/users/zmitton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zmitton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zmitton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zmitton/subscriptions",
+      "organizations_url": "https://api.github.com/users/zmitton/orgs",
+      "repos_url": "https://api.github.com/users/zmitton/repos",
+      "events_url": "https://api.github.com/users/zmitton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zmitton/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-06-11T15:01:50Z",
+    "updated_at": "2019-06-11T15:01:50Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "with regard to eip161 @meowsbits there is a contract used by the EF to delete _some_ empties. I got it from Martin Swende. [here it is](https://etherscan.io/address/0xa43ebd8939d8328f5858119a3fb65f65c864c6dd#contracts), but it only cleans the ones from the attack, not all of them. My understanding is that the attacker must have generated addresses in a predictable mathematical way, and this contract just erases those ones using his same math. we can give this a try, hopefully it will remove the vast majority. It is also possible to remove all of them, but its a bit difficult to find them due to the \"secure tree\" abstraction - the fact that  a key use in the tree is the hash of the address. I can find the keys, but then I need thei preimages. I can probably get those another way but would have to comb through every transaction.\r\n\r\ntldr: the cleanup happens after the hard fork, so we should move forward, either way. plus i have the contract that can probably do a very good job",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/500882171/reactions",
+      "total_count": 1,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

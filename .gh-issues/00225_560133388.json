@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560133388",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/225#issuecomment-560133388",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/225",
+    "id": 560133388,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDEzMzM4OA==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-01T17:19:02Z",
+    "updated_at": "2019-12-01T17:19:02Z",
+    "author_association": "MEMBER",
+    "body": "\"Maybe 11k+ commits and years worth of available surrounding Github metadata (at least), might suggest a notion a little less boisterous than \"unknown provenance\" and \"zero defense\"...\"\r\n\r\nObviously not completely unknown, but IP attacks only single \"bad commits\" to be ruinous.    Especially if those commits are to core algorithms.   You get something \"in deep\" such that it is part of the protocol which you cannot change and you are screwed forever.   Pending case in point is ProgPOW.\r\n\r\nSee also Microsoft's patent trolling on Linux.\r\n\r\nWe have two attack vectors here - insertion of patented content into particular client implementations (Geth here being the case in point) - which is BAD, but can be worked around because we have multiple clients - but the worse of all is insertion of patented content into the protocol spec itself, because that poisons every client.\r\n\r\n\"zero defense\" is true.   What is your objection to that?",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560133388/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

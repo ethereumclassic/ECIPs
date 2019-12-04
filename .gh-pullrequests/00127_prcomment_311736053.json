@@ -1,0 +1,55 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/311736053",
+    "pull_request_review_id": 272194859,
+    "id": 311736053,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDMxMTczNjA1Mw==",
+    "diff_hunk": "@@ -0,0 +1,135 @@\n+---\n+lang: en\n+ecip: 1064\n+title: Communicating with 3rd parties\n+status: Draft\n+type: Meta\n+author: Dean Pappas (deancpappas@gmail.com)\n+created: 2019-08-06\n+---\n+\n+## Abstract\n+\n+A process for communicating high priority updates and events to 3rd parties \n+\n+## Motivation\n+\n+One of the biggest issues for coordinated decentralized network upgrades (ie hard fork) is disseminating this information to 3rd parties. As it stands, multiple entities can be contacting 3rd party organizations as “official” representatives, recommending different clients and actions, or even publishing conflicting information that can lead to centralization, network splitting, and other systemic issues caused by this lack of coordination. \n+\n+There can also be new processes that come out as a result of this, ie a “safe list” of 3rd party organizations. It is not the purpose of this ECIP to outline these.\n+\n+\n+## Specification\n+\n+This process is comprised of 3 parts\n+\n+1) Representative Selection\n+2) Message Construction\n+3) Channels\n+\n+### Representative Selection\n+\n+Each Client (geth/multigeth/parity/mantis) should have 1 representative selected to help in the outreach process.  In addition, there should be 2 representatives voted by the Client representatives that are unaffiliated with any of the Organizations.\n+\n+This selection happens at the “Final Call” of the event.\n+\n+*For example, at the Final Call of Atlantis, the following representatives are selected:*\n+1. ETCLabs – Christian",
+    "path": "_specs/ecip-1064.md",
+    "position": null,
+    "original_position": 37,
+    "commit_id": "dd196bfa70707359ff2c1d5fa4c48abbfffe1ed8",
+    "original_commit_id": "37b9a0151cd1e327f7000d7e09bae95781cc469d",
+    "user": {
+      "login": "realcodywburns",
+      "id": 13103499,
+      "node_id": "MDQ6VXNlcjEzMTAzNDk5",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/13103499?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/realcodywburns",
+      "html_url": "https://github.com/realcodywburns",
+      "followers_url": "https://api.github.com/users/realcodywburns/followers",
+      "following_url": "https://api.github.com/users/realcodywburns/following{/other_user}",
+      "gists_url": "https://api.github.com/users/realcodywburns/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/realcodywburns/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/realcodywburns/subscriptions",
+      "organizations_url": "https://api.github.com/users/realcodywburns/orgs",
+      "repos_url": "https://api.github.com/users/realcodywburns/repos",
+      "events_url": "https://api.github.com/users/realcodywburns/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/realcodywburns/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "Should this be listed by client they are maintaining to match line 32? Geth has changed hands several times. Also other clients my be ported to etc and it is easier to partition by network client rather than development group. ",
+    "created_at": "2019-08-07T19:57:42Z",
+    "updated_at": "2019-08-11T18:52:52Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/127#discussion_r311736053",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/127",
+    "author_association": "MEMBER",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/311736053"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/127#discussion_r311736053"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/127"
+      }
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": null,
+    "original_line": 37,
+    "side": "RIGHT"
+  }

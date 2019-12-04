@@ -1,0 +1,49 @@
+{
+    "id": 338272033,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDMzODI3MjAzMw==",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/338272033",
+    "pull_request_review_id": 306182832,
+    "diff_hunk": "@@ -0,0 +1,113 @@\n+## Standardize OS Level Management of Signature Handling\n+\n+    ECLIP: <pending>",
+    "path": "_specs/invoke-signer.md",
+    "position": null,
+    "original_position": 3,
+    "commit_id": "e6d71911d1a924798b1039897d8ea95fda979d7b",
+    "user": {
+      "login": "soc1c",
+      "id": 47772477,
+      "node_id": "MDQ6VXNlcjQ3NzcyNDc3",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/47772477?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/soc1c",
+      "html_url": "https://github.com/soc1c",
+      "followers_url": "https://api.github.com/users/soc1c/followers",
+      "following_url": "https://api.github.com/users/soc1c/following{/other_user}",
+      "gists_url": "https://api.github.com/users/soc1c/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/soc1c/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/soc1c/subscriptions",
+      "organizations_url": "https://api.github.com/users/soc1c/orgs",
+      "repos_url": "https://api.github.com/users/soc1c/repos",
+      "events_url": "https://api.github.com/users/soc1c/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/soc1c/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "```suggestion\r\n    ECIP: 1067\r\n```",
+    "created_at": "2019-10-23T20:51:20Z",
+    "updated_at": "2019-10-28T22:21:52Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/154#discussion_r338272033",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/154",
+    "author_association": "MEMBER",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/338272033"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/154#discussion_r338272033"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/154"
+      }
+    },
+    "original_commit_id": "9791c0b59582a2ed80d915afbf410bc104de20ea"
+  }

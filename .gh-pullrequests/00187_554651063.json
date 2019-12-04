@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/554651063",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/187#issuecomment-554651063",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/187",
+    "id": 554651063,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1NDY1MTA2Mw==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-16T16:16:07Z",
+    "updated_at": "2019-11-16T16:16:53Z",
+    "author_association": "MEMBER",
+    "body": "My primary objection to this process as stated is that it puts the decision-making on change of mining algorithm purely in the hands of the miners.\r\n\r\nThey are not the only stakeholders and should not be the ones making that decision.  Yes, miners need their voice, but other stakeholders need their voice too.\r\n\r\nMiners will vote in their own interests, which do not necessarily coincide with the needs of the network.  Gaslimit voting for ETH1 is a primary example of this, where gaslimit has been voted beyond the limits of the client software to cope - resulting is massive centralization.\r\n\r\nThere is no counter-balance there, and there is no counter-balance here.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/554651063/reactions",
+      "total_count": 2,
+      "+1": 2,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

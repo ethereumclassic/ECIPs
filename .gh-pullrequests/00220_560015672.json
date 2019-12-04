@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560015672",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/220#issuecomment-560015672",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/220",
+    "id": 560015672,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDAxNTY3Mg==",
+    "user": {
+      "login": "shanejonas",
+      "id": 364566,
+      "node_id": "MDQ6VXNlcjM2NDU2Ng==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/364566?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/shanejonas",
+      "html_url": "https://github.com/shanejonas",
+      "followers_url": "https://api.github.com/users/shanejonas/followers",
+      "following_url": "https://api.github.com/users/shanejonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/shanejonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/shanejonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/shanejonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/shanejonas/orgs",
+      "repos_url": "https://api.github.com/users/shanejonas/repos",
+      "events_url": "https://api.github.com/users/shanejonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/shanejonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-30T19:48:45Z",
+    "updated_at": "2019-11-30T19:48:45Z",
+    "author_association": "MEMBER",
+    "body": "I believe 1061 follows the correct process as its getting updated to reflect changes, 1072 violated ECIP-1000 by creating more than a single ECIP for a given key proposal",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560015672/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

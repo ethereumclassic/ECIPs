@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/554607063",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/13#issuecomment-554607063",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/13",
+    "id": 554607063,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1NDYwNzA2Mw==",
+    "user": {
+      "login": "Wolf-Linzhi",
+      "id": 56785535,
+      "node_id": "MDQ6VXNlcjU2Nzg1NTM1",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/56785535?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Wolf-Linzhi",
+      "html_url": "https://github.com/Wolf-Linzhi",
+      "followers_url": "https://api.github.com/users/Wolf-Linzhi/followers",
+      "following_url": "https://api.github.com/users/Wolf-Linzhi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Wolf-Linzhi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Wolf-Linzhi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Wolf-Linzhi/subscriptions",
+      "organizations_url": "https://api.github.com/users/Wolf-Linzhi/orgs",
+      "repos_url": "https://api.github.com/users/Wolf-Linzhi/repos",
+      "events_url": "https://api.github.com/users/Wolf-Linzhi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Wolf-Linzhi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-16T05:41:00Z",
+    "updated_at": "2019-11-16T05:41:00Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I am against ECIP-1049 (sha3/keccak256) for the following reasons:\r\n\r\n- It devalues our upcoming Ethash ASIC.\r\n\r\n- PoW sets a price for newly issued coins. Changing PoW is price manipulation.\r\n\r\n- Trying to find a \"better\" PoW algo in a live blockchain is pretense of knowledge.\r\nModifying Hayek: \"Overconfidence in the use of science to control a blockchain will lead to the destruction of a blockchain which no brain has designed, but which has instead grown from the free efforts of thousands of individuals.\"\r\n\r\n- ECIP 1049, unless agreed to by 100% of the discussion participants, would go against the Crypto-Decentralist Manifesto https://ethereumclassic.org/blog/2016-07-11-manifesto/\r\n\"The rules governing the blockchain network are known in advance. They’re exactly the same for everyone and not subject to change other than with 100% consensus. Yes, it must be 100%. Because any change to the system’s rules that not all participants freely agree to creates a network split, diminishing network value for everyone.\"\r\n\r\n- If you want to protect user funds, you also want to protect miner capital and PoW integrity, unless those miners turn against users or other miners.\r\n- PoW change introduces a discontinuity in security.\r\n- PoW change devalues current Ethash security investment of at least 20 mio USD.\r\n- PoW change impairs trust minimization and objectivity.\r\n- PoW change turns a blockchain into a distributed ledger.\r\n- PoW change sends the message that ETC has a security problem.\r\n\r\n- Minority argument doesn't hold (why should majority miners reject additional revenue?).\r\n- First to market argument doesn't hold (is ETC an experimental sandbox? size of security budget drives PoW investments).\r\n- Fundamental principle follow-the-longest-chain is thrown overboard for no good reason other than subjective judgment over which algo is \"better\".\r\n\r\n- Ethash will always be part of Ethereum, if you verify from genesis. If you want a new blockchain, why destroy an old one first?\r\n- Adopting ECIP 1049 will lead to months of discussions - when and how to switch over (gradually? dual Ethash/Keccak256 algo?), if or how to fund \"open\" asics (even though it will be harder to be more \"open\" than Linzhi's Ethash ASIC).\r\n\r\n- Keccak256 PoW ASIC is harder and more exclusive/expensive to make than Ethash ASIC.\r\n- Keccak256 PoW in 2020 is boring, not usable in other industry applications, forces backend innovation only.\r\n- Consider re-verifying the entire state from genesis using Keccak256, at least you then only have one verification algo.\r\n- If cannot decide between multiple subjectively \"best\" PoW algos, consider A) rolling a dice or B) multi-algo mining.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/554607063/reactions",
+      "total_count": 4,
+      "+1": 2,
+      "-1": 1,
+      "laugh": 0,
+      "hooray": 1,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

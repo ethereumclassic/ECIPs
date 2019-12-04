@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560139946",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/205#issuecomment-560139946",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/205",
+    "id": 560139946,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDEzOTk0Ng==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-01T18:23:17Z",
+    "updated_at": "2019-12-01T18:23:17Z",
+    "author_association": "MEMBER",
+    "body": "My suggestion, @meowsbits, would be that we raise this in an ETC Core Developers meeting.\r\nI think there is likely very broad consensus that this makes no sense at the protocol level, and we should Reject this issue to reduce our \"working set\" and also to avoid giving @26jesse false hope that this might ever happen.\r\n\r\nIt would actually have been a service to say that to him before he went to all the effort of making this ECIP.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560139946/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

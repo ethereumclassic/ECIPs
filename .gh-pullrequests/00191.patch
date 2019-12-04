@@ -1,0 +1,58 @@
+From 29e84be33079c0d512abe1f3a740d3e1bbc9580e Mon Sep 17 00:00:00 2001
+From: mikeyb <mike@mikes.email>
+Date: Sun, 17 Nov 2019 10:34:30 -0700
+Subject: [PATCH 1/2] change wording publicly -> public
+
+---
+ SECURITY.md | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/SECURITY.md b/SECURITY.md
+index afa14b8..6c94f5e 100644
+--- a/SECURITY.md
++++ b/SECURITY.md
+@@ -2,10 +2,10 @@
+ 
+ Security concerns with each individual ECIP should be addressed to the ECIP authors, the specified `discussion-to` locations, or ECIP editors. Note that when an ECIP is already deployed, it is recommended to talk privately with the ECIP authors or ECIP editors first.
+ 
+-Security alerts related to the website source code will be addressed by ECIP editors. Security concerns related to hosting and delivery of the ecips.ethereumclassic.org website will be addressed by either org admins or ECIP editors. They will not be made publicly until mitigating solutions are identified. Once a remedy is found, part of the repair process may be automated by [Dependabot](https://dependabot.com/).
++Security alerts related to the website source code will be addressed by ECIP editors. Security concerns related to hosting and delivery of the ecips.ethereumclassic.org website will be addressed by either org admins or ECIP editors. They will not be made public until mitigating solutions are identified. Once a remedy is found, part of the repair process may be automated by [Dependabot](https://dependabot.com/).
+ 
+ This site is licensed via multiple permissive and open source licenses, as specified in each ECIP.
+- 
++
+ ## Supported Branches
+ 
+ The only supported branch for specifications and website is the `master` branch.
+
+From 48ead705c3524f736a3dac6549bcf2d17f176783 Mon Sep 17 00:00:00 2001
+From: mikeyb <mike@mikes.email>
+Date: Sun, 17 Nov 2019 10:36:24 -0700
+Subject: [PATCH 2/2] wording changes
+
+---
+ _specs/ecip-1076.md | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/_specs/ecip-1076.md b/_specs/ecip-1076.md
+index de8261f..f2864fe 100644
+--- a/_specs/ecip-1076.md
++++ b/_specs/ecip-1076.md
+@@ -13,7 +13,7 @@ created: 2019-11-16
+ This meta document is agnostic to any mining algorithm. Its sole purpose is specifying a process how to openly determine and select a mining algorithm for Ethereum Classic.
+ 
+ ### Motivation
+-The decision to change the Ethereum Classic mining algorithm - or to keep it as is - is not an easy one to make. It should be done by broad consensus with all stakeholders involved - miners, investors, application and core developers, and anyone else who feels having a stake in ETC. This meta document proposes a process of how to facilitate the potential change of the mining algorithm and parameters.
++The decision to change the Ethereum Classic mining algorithm - or to keep it as is - is not an easy one to make. It should be done by broad consensus with all stakeholders involved - miners, investors, application and core developers, and anyone else who feels they have a stake in ETC. This meta document proposes a process of how to facilitate the potential change of the mining algorithm and parameters.
+ 
+ ### Available Options
+ Currently, the following options are debatable.
+@@ -66,7 +66,7 @@ The miner prepend the miner's extra data with 5 bytes of signaling data which sh
+     - `08` (`0x30 0x38`): reject ECIP-1047 client defaults, explicitly supporting the 8 million gas block gas limit defaults
+     - `99` (`0x39 0x39`): any other number between `00` and `99` suggests a competing default block gas limit
+ 
+-In addition to the numeric vote on the gas limit with the extra data field, mining nodes are encouraged to utilized block gas target limit voting with the suitable configuration flags for their mining nodes.
++In addition to the numeric vote on the gas limit with the extra data field, mining nodes are encouraged to utilize block gas target limit voting with the suitable configuration flags for their mining nodes.
+ 
+ No signaling favors the status quo (ECBP-1076-A) and effectively rejects ECIPs 1041, 1043, 1047, 1049, and 1070.
+ 

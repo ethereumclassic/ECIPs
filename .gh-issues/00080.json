@@ -1,0 +1,60 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/80",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/80/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/80/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/80/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/80",
+    "id": 452173819,
+    "node_id": "MDU6SXNzdWU0NTIxNzM4MTk=",
+    "number": 80,
+    "title": "Intermediate Atlantis Upgrade Scheduling Call",
+    "user": {
+      "login": "soc1c",
+      "id": 47772477,
+      "node_id": "MDQ6VXNlcjQ3NzcyNDc3",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/47772477?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/soc1c",
+      "html_url": "https://github.com/soc1c",
+      "followers_url": "https://api.github.com/users/soc1c/followers",
+      "following_url": "https://api.github.com/users/soc1c/following{/other_user}",
+      "gists_url": "https://api.github.com/users/soc1c/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/soc1c/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/soc1c/subscriptions",
+      "organizations_url": "https://api.github.com/users/soc1c/orgs",
+      "repos_url": "https://api.github.com/users/soc1c/repos",
+      "events_url": "https://api.github.com/users/soc1c/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/soc1c/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 18,
+    "created_at": "2019-06-04T19:43:21Z",
+    "updated_at": "2019-06-14T11:26:52Z",
+    "closed_at": "2019-06-11T16:03:44Z",
+    "author_association": "MEMBER",
+    "body": "It became apparent that certain parts of the Ethereum Classic community are appreciating an [accelerated hardfork schedule](https://medium.com/ethereum-classic-labs/etc-labs-upgrades-ethereum-classic-to-expand-functionality-and-improve-compatability-with-ethereum-e2ac7d9aad93). To avoid confusion, rushing protocol upgrades, and putting the network at risk of a potential split, I propose scheduling an intermediate atlantis-upgrade scheduling call to discuss and agree on a realistic timeline for ECIP-1054\r\n\r\nref #79 \r\n\r\n### ETC Core Devs Call - Atlantis Scheduling\r\n\r\nWhen: **Friday, June 07, 2019, 1pm UTC**, 30 minutes max.\r\n\r\nWhere: **Youtube Livestream** https://www.youtube.com/watch?v=hDVrKDSOCWA&feature=youtu.be\r\nYou can stream the call and chat and ask questions on Youtube Livestream. If you want access to the Hangouts to chat via voice, you'll need to message @soc1c or @YazzyYaz for a link to that. Due to limit on voice call attendees by Google, we ask that only those who are interested in using voice to ask for the invite to the Hangouts.\r\n### Agenda\r\n\r\n- Quick client teams check-in\r\n  - Geth / Multi-Geth \r\n  - Parity Ethereum\r\n  - IOHK Mantis\r\n- Discuss timeline for the protocol upgrade\r\n    - Morden Classic and Kotti Classic testnet\r\n    - Ethereum Classic mainnet \r\n\r\nThere are two competing proposals right now, I will give them letters, and propose a 3rd as a compromise:\r\n\r\n- [**A**] Original ECIP-1054 schedule\r\n  - `1_039_000` on Kotti Classic PoA-testnet (early August 2019)\r\n  - `4_723_000` on Morden Classic PoW-testnet (early August 2019)\r\n  - `8_750_000` on Ethereum Classic PoW-mainnet (mid-September 2019)\r\n- [**B**] ETCLabs \"July 1st\" schedule\r\n  - `N/A` on Kotti Classic PoA-testnet\r\n  - immediately on Morden Classic PoW-testnet (early June 2019)\r\n  - `8_343_000` on Ethereum Classic PoW-mainnet (July 1st 2019)\r\n- [**C**] Moderately accelerated schedule\r\n  - `716_617` on Kotti Classic PoA-testnet (two weeks from now)\r\n  - `4_729_274` on Morden Classic PoW-testnet (two weeks from now)\r\n  - `8_500_000` on Ethereum Classic PoW-mainnet (six weeks after successfull testnet forks)",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/80/reactions",
+      "total_count": 6,
+      "+1": 6,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

@@ -1,0 +1,49 @@
+{
+    "id": 352307504,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM1MjMwNzUwNA==",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352307504",
+    "pull_request_review_id": 324911080,
+    "diff_hunk": "@@ -0,0 +1,103 @@\n+---\n+ecip: TBD",
+    "path": "_specs/ecip-_.md",
+    "position": null,
+    "original_position": 2,
+    "commit_id": "a4c7dd1ec7a87705ba9af9ee0153b252c0e89e72",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "You can use number 1077.",
+    "created_at": "2019-11-30T22:23:21Z",
+    "updated_at": "2019-12-01T13:54:41Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/224#discussion_r352307504",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/224",
+    "author_association": "MEMBER",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352307504"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/224#discussion_r352307504"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/224"
+      }
+    },
+    "original_commit_id": "93895296e4c969f07f99b304db1569a573268892"
+  }

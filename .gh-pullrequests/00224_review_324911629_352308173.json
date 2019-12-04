@@ -1,0 +1,50 @@
+{
+    "id": 352308173,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM1MjMwODE3Mw==",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352308173",
+    "pull_request_review_id": 324911629,
+    "diff_hunk": "@@ -172,6 +172,7 @@ There are three types of ECIP:\n   - **Interface** - improvements around client [API/RPC] specifications and standards, and also certain language-level standards like method names  and contract ABIs.\n   - **ECBP (Ethereum Classic Best Practice)** - application-level standards and conventions, including contract standards such as token standards, name registries, URI schemes, library/package formats, and wallet formats.\n - A **Meta ECIP** describes a **process** surrounding Ethereum Classic or proposes a change to (or an event in) a process. Process ECIPs are like Standard Track ECIPs, but apply to areas other than the Ethereum Classic protocol itself. They may propose an implementation, but not to Ethereum Classic's codebase; they often require community consensus; unlike Informational ECIPs, they are more than recommendations, and users are typically not free to ignore them. Examples include procedures, guidelines, changes to the decision-making process (e.g. this ECIP-1000 process document), and changes to the tools or environment used in Ethereum Classic development. *Any meta-ECIP is also considered a Process ECIP.*\n+- A **Fork ECIP** describes a feature set and a block activation number for those features to become active on one or more blockchains.",
+    "path": "_specs/ecip-1000.md",
+    "position": null,
+    "original_position": 22,
+    "commit_id": "a4c7dd1ec7a87705ba9af9ee0153b252c0e89e72",
+    "user": {
+      "login": "meowsbits",
+      "id": 45600330,
+      "node_id": "MDQ6VXNlcjQ1NjAwMzMw",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/45600330?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/meowsbits",
+      "html_url": "https://github.com/meowsbits",
+      "followers_url": "https://api.github.com/users/meowsbits/followers",
+      "following_url": "https://api.github.com/users/meowsbits/following{/other_user}",
+      "gists_url": "https://api.github.com/users/meowsbits/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/meowsbits/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/meowsbits/subscriptions",
+      "organizations_url": "https://api.github.com/users/meowsbits/orgs",
+      "repos_url": "https://api.github.com/users/meowsbits/repos",
+      "events_url": "https://api.github.com/users/meowsbits/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/meowsbits/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "Resolved with https://github.com/ethereumclassic/ECIPs/pull/224/commits/b9478e610fdf1ae082ec32c0d9d4408ff5ced481",
+    "created_at": "2019-11-30T22:40:38Z",
+    "updated_at": "2019-12-01T13:54:41Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/224#discussion_r352308173",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/224",
+    "author_association": "CONTRIBUTOR",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352308173"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/224#discussion_r352308173"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/224"
+      }
+    },
+    "original_commit_id": "93895296e4c969f07f99b304db1569a573268892",
+    "in_reply_to_id": 352307638
+  }

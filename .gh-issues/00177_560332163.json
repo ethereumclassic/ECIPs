@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560332163",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/177#issuecomment-560332163",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/177",
+    "id": 560332163,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDMzMjE2Mw==",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-02T10:23:32Z",
+    "updated_at": "2019-12-02T10:23:32Z",
+    "author_association": "MEMBER",
+    "body": "@YazzyYaz Well. As I mentioned, even if you use Afri's note, there will be several logic inconsistency if you argue the conclusion was ECIP-1061. It was not about 1072 specifically, of course, but it's also not about 1061 specifically, based on the content.\r\n\r\nI don't know what's wrong with only having notes towards the end of the call, because that's usually when decisions happen. Besides, I asked a question near the end about 1072, so it's reasonable I'll take notes just from the point when I started to ask questions.\r\n\r\nIf you still have doubt that the conclusions we reached was 1072, again, as I said, look in Discord chat history to find other people who has also reached the same conclusion!",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560332163/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

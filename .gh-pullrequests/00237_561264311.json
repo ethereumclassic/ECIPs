@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/561264311",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/237#issuecomment-561264311",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/237",
+    "id": 561264311,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MTI2NDMxMQ==",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-03T17:08:50Z",
+    "updated_at": "2019-12-03T17:08:50Z",
+    "author_association": "MEMBER",
+    "body": "@meowsbits The main violation was the part \"dismissing the review from another editor\". That's rather a violation of editing responsibilities for Github workflow, which is implicitly covered in this sentence, in *ECIP Editor Responsibilities & Workflow*.\r\n\r\n> ECIP editors are intended to fulfill administrative and editorial responsibilities. ECIP editors monitor ECIP changes, and update ECIP headers as appropriate.\r\n\r\nThe section, also confirms that, PRs must be merged only when it's ready:\r\n\r\n> [Once the ECIP is ready,] the ECIP editor will -- merge the pull request when it is ready.\r\n\r\nHaving a reasonable request change from another editor is clearly not a status when a PR is ready.\r\n\r\nIn addition, the action also violates this paragraph in *ECIP Status Field* section:\r\n\r\n> An ECIP may only change status from Draft (or Rejected) to Last Call, when the author deems it is complete, has a working implementation (where applicable), and has community plans to progress it to Final status.\r\n\r\nWe did not have community plans to move ECIP-1061 forward at the moment the PR was merged, because in the last core dev meeting the consensus was on ECIP-1072, and only much later changed to ECIP-1061. That's also what the request-change review was about, but got dismissed.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/561264311/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

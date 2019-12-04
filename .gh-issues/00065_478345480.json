@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/478345480",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/65#issuecomment-478345480",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/65",
+    "id": 478345480,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3ODM0NTQ4MA==",
+    "user": {
+      "login": "anotherVariable",
+      "id": 247838,
+      "node_id": "MDQ6VXNlcjI0NzgzOA==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/247838?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anotherVariable",
+      "html_url": "https://github.com/anotherVariable",
+      "followers_url": "https://api.github.com/users/anotherVariable/followers",
+      "following_url": "https://api.github.com/users/anotherVariable/following{/other_user}",
+      "gists_url": "https://api.github.com/users/anotherVariable/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/anotherVariable/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/anotherVariable/subscriptions",
+      "organizations_url": "https://api.github.com/users/anotherVariable/orgs",
+      "repos_url": "https://api.github.com/users/anotherVariable/repos",
+      "events_url": "https://api.github.com/users/anotherVariable/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/anotherVariable/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-31T14:12:29Z",
+    "updated_at": "2019-03-31T16:00:50Z",
+    "author_association": "NONE",
+    "body": "If all you have to do is lock up some ETC to get some back, what incentive does that give to the miners to keep on mining who keep the network secure?\r\n\r\nEspecially when cold staking wants to take away from the miner reward, and split it up to someone that just does nothing, but puts some ETC in a smart contract and walks away for 27 days.\r\n\r\nThe chain doesn't need any more so called `hodlers` it needs people that use it every day not once every 27 days. 😉 \r\n\r\nAlso from what I remember the CLO network hash fell quite a bit, right after cold staking was introduced? I know I quit mining and just started staking. 😄 ",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/478345480/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

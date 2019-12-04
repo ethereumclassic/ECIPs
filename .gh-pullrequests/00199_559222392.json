@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/559222392",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/199#issuecomment-559222392",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/199",
+    "id": 559222392,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1OTIyMjM5Mg==",
+    "user": {
+      "login": "soc1c",
+      "id": 47772477,
+      "node_id": "MDQ6VXNlcjQ3NzcyNDc3",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/47772477?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/soc1c",
+      "html_url": "https://github.com/soc1c",
+      "followers_url": "https://api.github.com/users/soc1c/followers",
+      "following_url": "https://api.github.com/users/soc1c/following{/other_user}",
+      "gists_url": "https://api.github.com/users/soc1c/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/soc1c/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/soc1c/subscriptions",
+      "organizations_url": "https://api.github.com/users/soc1c/orgs",
+      "repos_url": "https://api.github.com/users/soc1c/repos",
+      "events_url": "https://api.github.com/users/soc1c/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/soc1c/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-27T19:29:07Z",
+    "updated_at": "2019-11-27T19:29:07Z",
+    "author_association": "MEMBER",
+    "body": "1061 is the aztlan ecip and I'm updating it to reflect changes. that's how we always did it before you decided it's better to have multiple competing specs for the very same thing without even having a call. you are free to update your proposals. I'm updating mine and I will not get into a fight on that, so if you don't have to comment on the content of the spec, I will not spend any more time on this discussion.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/559222392/reactions",
+      "total_count": 1,
+      "+1": 0,
+      "-1": 1,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

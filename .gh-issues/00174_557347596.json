@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/557347596",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/174#issuecomment-557347596",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/174",
+    "id": 557347596,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1NzM0NzU5Ng==",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-22T01:31:41Z",
+    "updated_at": "2019-11-22T01:32:19Z",
+    "author_association": "MEMBER",
+    "body": "* We had a call but the call was rushed, and the moderator tried to frame the discussion improperly.\r\n* @sorpaas wasn't on the call when 1076 was discussed.\r\n* None of the objections were raised on the call because everyone who said objections weren't present, not only me. Those objections, however, can be clearly seen in Github issues and PRs. \r\n* The proposal is regarding an non-ECIP process only so there's no point in rushing it forward. Afri and you can just carry it out or whatever. You don't need \"community's permission\".\r\n\r\nThe logic you're presenting is improper. The goal for a meeting is to determine the rough consensus, and the process of the meeting should be designed as such. If the meeting failed to determine the rough consensus or the process was tricked to push forward personal agendas by some people, then we should reflect on whether we can improve the process.\r\n\r\nIf you want to play politics, go find some other coins who are happy to play politics with you. In Ethereum Classic, we should aim at adopting the proposal with the best technical merits.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/557347596/reactions",
+      "total_count": 1,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

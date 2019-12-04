@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/552197925",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/165#issuecomment-552197925",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/165",
+    "id": 552197925,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MjE5NzkyNQ==",
+    "user": {
+      "login": "zmitton",
+      "id": 6954889,
+      "node_id": "MDQ6VXNlcjY5NTQ4ODk=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6954889?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zmitton",
+      "html_url": "https://github.com/zmitton",
+      "followers_url": "https://api.github.com/users/zmitton/followers",
+      "following_url": "https://api.github.com/users/zmitton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zmitton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zmitton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zmitton/subscriptions",
+      "organizations_url": "https://api.github.com/users/zmitton/orgs",
+      "repos_url": "https://api.github.com/users/zmitton/repos",
+      "events_url": "https://api.github.com/users/zmitton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zmitton/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-10T14:05:48Z",
+    "updated_at": "2019-11-10T14:05:48Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "In order to play nice and move everything along, I hereby agree to Apache 2 for my previous and future ECIPs (unless otherwise stated).\r\n\r\nThe one last thing that I would like us all to consider @bobsummerwill is that *it may not always be necessary to have an explicit license*. So in the rare case that we cannot attain a license, it would be wise to consider the content before outright rejecting it. \r\n\r\nFor example, @pyskell had a proposal to [reduce the gas limit to 1,000,000](https://github.com/ethereumclassic/ECIPs/issues/14). It doesn't require code changes and I don't see how copyright would even be relevant. That's all.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/552197925/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

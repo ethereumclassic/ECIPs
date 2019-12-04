@@ -1,0 +1,29 @@
+From 6106bb4ef6032b582e7c283c81d7053f2cdcfb4b Mon Sep 17 00:00:00 2001
+From: Bob Summerwill <bob@summerwill.net>
+Date: Fri, 29 Nov 2019 09:13:36 -0800
+Subject: [PATCH] Move ECIP-1072 back to Draft. There is significant confusion
+ around ECIP-1061 and ECIP-1072. We need to go around the loop again on
+ consensus / consent.
+
+I am listed as an author of ECIP-1072, for example, but did not author it, did not give my consent to be listed as an author and actively oppose ECIP-1072 given the way it has been pushed through.
+---
+ _specs/ecip-1072.md | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/_specs/ecip-1072.md b/_specs/ecip-1072.md
+index 843176c..a267fd2 100644
+--- a/_specs/ecip-1072.md
++++ b/_specs/ecip-1072.md
+@@ -2,10 +2,10 @@
+ lang: en
+ ecip: 1072
+ title: Aztlán EVM and Protocol Upgrades (Yingchun Edition)
+-status: Last Call
++status: Draft
+ review-period-end: 2019-12-21
+ type: Meta
+-author: Wei Tang (@sorpaas), Talha Cross (@soc1c), Bob Summerwill (@bobsummerwill)
++author: Wei Tang (@sorpaas), Talha Cross (@soc1c)
+ created: 2019-11-14
+ discussions-to: https://github.com/ethereumclassic/ECIPs/issues/81
+ license: Apache-2.0

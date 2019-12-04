@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/506511221",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/58#issuecomment-506511221",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/58",
+    "id": 506511221,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUwNjUxMTIyMQ==",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-06-27T21:05:26Z",
+    "updated_at": "2019-06-27T21:05:26Z",
+    "author_association": "MEMBER",
+    "body": "@TokenHash I think we'd better look for developers to be on the editors list. I agree @phyro and @kimisan have contributed a lot, but they may not be able to help a lot in the case of technically reviewing ECIPs.\r\n\r\nMy only objections for adding @BelfordZ and @shanejonas is that we may then have too many representatives from ETCLabs (we already have two -- @isaac and @soc1c). But that's just my opinion and it's up to everyone.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/506511221/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

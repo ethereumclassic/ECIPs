@@ -1,0 +1,55 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/306860375",
+    "pull_request_review_id": 266079448,
+    "id": 306860375,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDMwNjg2MDM3NQ==",
+    "diff_hunk": "@@ -0,0 +1,26 @@\n+ECIP: <1063>\n+Title: <Ethereum Classic Integrated Decentralized Oracles and Smart Contracts>\n+Author: <Jesse>\n+Discussions-To: <email address>\n+Status: <Draft>\n+Type: <Standards Track | Informational | Process>\n+Created: <date created on, in ISO 8601 (yyyy-mm-dd) format>\n+Replaces: <ECIP number>\n+Superseded-By: <ECIP number>\n+Resolution: <url>\n+---\n+# Abstract\n+Imagine how we can use  ETC having oracle features which can assist Dapps and ERC-223 tokens to accomplish their goals. Although decentralized oracles rely on a source of information, it does not have to be from a centralized source. If an oracle is able to rely on multiple sources and is able to verify which information is the correct one, wouldn't it still work in a manner that is decentralized as possibly can? An example would be academia sources for a research paper, we have multiple sources that cannot be used for reliable information such as journals and memoirs.  However, with a decentralized oracle, it can then verify the reliability of an information and check if the sources have a track history of reliability such as from an academic institute. Information that is considered unreliable such as a  journal or memoir can be verified to be reliable if the journalist has a history of accuracy and reliability.  If the person who wrote the memoir is the primary source and has the evidence through other reliable sources that he is there, then the oracle can consider his memoir as a reliable source of information. Afterwards, then feed it to the smart contract to come with a reliable answer of what actually happened",
+    "path": "1063",
+    "position": null,
+    "original_position": 13,
+    "commit_id": "273bcc1c4a660f97c025975b2caf7848c78fa1a6",
+    "original_commit_id": "ae55631a4f4930f551c4593fedd10ba06e8b7e74",
+    "user": {
+      "login": "YazzyYaz",
+      "id": 9094204,
+      "node_id": "MDQ6VXNlcjkwOTQyMDQ=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9094204?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/YazzyYaz",
+      "html_url": "https://github.com/YazzyYaz",
+      "followers_url": "https://api.github.com/users/YazzyYaz/followers",
+      "following_url": "https://api.github.com/users/YazzyYaz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/YazzyYaz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/YazzyYaz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/YazzyYaz/subscriptions",
+      "organizations_url": "https://api.github.com/users/YazzyYaz/orgs",
+      "repos_url": "https://api.github.com/users/YazzyYaz/repos",
+      "events_url": "https://api.github.com/users/YazzyYaz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/YazzyYaz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "Please break down sentences into several lines. It's not user friendly to scroll sideways to read your content when reviewing it.",
+    "created_at": "2019-07-24T15:00:32Z",
+    "updated_at": "2019-08-10T09:01:25Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/112#discussion_r306860375",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/112",
+    "author_association": "MEMBER",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/306860375"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/112#discussion_r306860375"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/112"
+      }
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": null,
+    "original_line": 13,
+    "side": "RIGHT"
+  }

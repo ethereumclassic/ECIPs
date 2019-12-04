@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/482986737",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/13#issuecomment-482986737",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/13",
+    "id": 482986737,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ4Mjk4NjczNw==",
+    "user": {
+      "login": "zmitton",
+      "id": 6954889,
+      "node_id": "MDQ6VXNlcjY5NTQ4ODk=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6954889?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zmitton",
+      "html_url": "https://github.com/zmitton",
+      "followers_url": "https://api.github.com/users/zmitton/followers",
+      "following_url": "https://api.github.com/users/zmitton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zmitton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zmitton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zmitton/subscriptions",
+      "organizations_url": "https://api.github.com/users/zmitton/orgs",
+      "repos_url": "https://api.github.com/users/zmitton/repos",
+      "events_url": "https://api.github.com/users/zmitton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zmitton/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-04-14T14:23:16Z",
+    "updated_at": "2019-04-14T14:23:16Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "In the process of creating an ETC FlyClient, I have run into major blockers that can be eliminated if 1049 (this ECIP) is adopted.\r\n\r\nBasically verification right now, cannot be done without some serious computation. The main issue is Ethash requiring the generation of a *16mb pseudorandom cache*. This cache changes about once a week, so verifying the full work requires doing it many times. I have touched many creative solutions to this, but I believe we are stuck at light-client verification taking *at least* 10 minutes on a phone.\r\n\r\nBy contrast, with this ECIP, plus FlyClient (ECIP-1055), Im confident full PoW can be done in less than 5 seconds. This would open the door to new UX design patterns.\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/482986737/reactions",
+      "total_count": 4,
+      "+1": 3,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 1,
+      "eyes": 0
+    }
+  }

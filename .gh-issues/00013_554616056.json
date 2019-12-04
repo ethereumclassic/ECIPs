@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/554616056",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/13#issuecomment-554616056",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/13",
+    "id": 554616056,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1NDYxNjA1Ng==",
+    "user": {
+      "login": "serialp",
+      "id": 1479761,
+      "node_id": "MDQ6VXNlcjE0Nzk3NjE=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1479761?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/serialp",
+      "html_url": "https://github.com/serialp",
+      "followers_url": "https://api.github.com/users/serialp/followers",
+      "following_url": "https://api.github.com/users/serialp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/serialp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/serialp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/serialp/subscriptions",
+      "organizations_url": "https://api.github.com/users/serialp/orgs",
+      "repos_url": "https://api.github.com/users/serialp/repos",
+      "events_url": "https://api.github.com/users/serialp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/serialp/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-16T08:18:55Z",
+    "updated_at": "2019-11-16T08:18:55Z",
+    "author_association": "NONE",
+    "body": "Also if we consider that we are in an emergency situation, There’s a good work around that could also be considered as a permanent solution which is pirl guard implementation https://medium.com/pirl/pirlguard-innovative-solution-against-51-attacks-87dd45aa1109\r\n\r\nI have whitenessed callisto.network emergency HF during its 51% attack implementing Pirl guard solution with the assistance of pirl guard team, and I was a success, the attack has stopped right away after the HF until now.\r\n\r\nhttps://amp.reddit.com/r/CallistoCrypto/comments/av8xeg/emergency_hard_fork_callisto_will_implement/",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/554616056/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

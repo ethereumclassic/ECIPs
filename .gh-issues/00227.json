@@ -1,0 +1,60 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/227",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/227/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/227/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/227/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/227",
+    "id": 530763131,
+    "node_id": "MDU6SXNzdWU1MzA3NjMxMzE=",
+    "number": 227,
+    "title": "Aztlan Fork without EIP-1884 leaves an account trie attack vector open",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 6,
+    "created_at": "2019-12-01T17:12:43Z",
+    "updated_at": "2019-12-02T00:21:14Z",
+    "closed_at": null,
+    "author_association": "MEMBER",
+    "body": "So how do we handle that?\r\n\r\nThe ETC Coop has asked ChainSafe for a statement of work analyzing the last 100K blocks in both ETC and ETH to look at frequency of opcodes and actual execution times of those within Hyperledger Besu.\r\n\r\nMaybe that is even two separate work items?\r\n\r\nHoped for outcome:\r\n\r\n1. Identification of places where client optimization is essential to avoid DOS vectors and actually making those optimizations in Besu (disaster averted)\r\n\r\n2. Identification of ways in which the current gasprices are sub-optimal and could be tweaked to be better (EVM optimization - no disaster variant)\r\n\r\nAnd it would also be helpful to do the same systemic \"essential optimizations\" pass for Parity-Ethereum and Multi-Geth, and I would love that to happen, but the ETC Coop does not have spare money hanging around for that work.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/227/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

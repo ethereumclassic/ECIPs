@@ -1,0 +1,179 @@
+From b5606f8c72af1992f60a6cc31a02033d03d21284 Mon Sep 17 00:00:00 2001
+From: Zachary Belford <belfordz66@gmail.com>
+Date: Wed, 26 Jun 2019 14:18:43 -0700
+Subject: [PATCH 1/5] ECIP-69769: Submit Block RPC
+
+---
+ ECIPs/ECIP-69769.md | 57 +++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 57 insertions(+)
+ create mode 100644 ECIPs/ECIP-69769.md
+
+diff --git a/ECIPs/ECIP-69769.md b/ECIPs/ECIP-69769.md
+new file mode 100644
+index 0000000..f86b94a
+--- /dev/null
++++ b/ECIPs/ECIP-69769.md
+@@ -0,0 +1,57 @@
++### Title
++
++    ECIP: 69769
++    Title: Submit Block RPC
++    Author: Zachary Belford, zachary.b@etclabs.org
++    Discussions-To: Community Discord #ecips
++    Status: Draft
++    Type: Standards Track
++    Created: 2019-06-26
++
++### Abstract
++
++Add an RPC method to submit a new block, instead of having to use submitWork.
++
++### Motivation
++
++I would like to be able to submitWork, but have the address used be one other than the etherbase of the node the work is being submitted by.
++
++### Specification
++
++```json
++{
++  "openrpc": "1.1.8",
++  "info": {
++    "version": "1.0.0",
++    "title": "Example submitBlock"
++  },
++  "methods": [
++    {
++      "name": "eth_submitBlock",
++      "summary": "Submit a new block proposal",
++      "description": "Given a new block, it will validate the block, and broadcast it to connected peers.",
++      "params": [
++        { "$ref": "https://raw.githubusercontent.com/etclabscore/ethereum-json-rpc-specification/master/openrpc.json#/components/contentDescriptors/Block" }
++      ],
++      "result": {
++        "name": "isBlockAccepted",
++        "schema": {
++          "type": "boolean"
++        }
++      }
++    }
++  ]
++}
++```
++
++### Rationale
++
++This removes the dependency for miners to have a geth node with accounts that need to be unlocked. Miners would be able to better isolate their private keys from the world, yeilding better security potential.
++
++### Implementation
++
++I think it's pretty straight forward. Looking at the above specification, we would be adding a eth_submitBlock rpc method. It's similar to eth_submitWork, except with fewer steps before broadcasting the block. 
++
++
++
++**NOTE: I am extremely open to suggestions for this. Please be liberal in your feedback. Thank you.**
+
+From 271f4002cf243caac84225f159df071e25424453 Mon Sep 17 00:00:00 2001
+From: Zachary Belford <belfordz66@gmail.com>
+Date: Fri, 28 Jun 2019 09:24:09 -0700
+Subject: [PATCH 2/5] fix: update ecip number
+
+Co-Authored-By: Talha Cross <47772477+soc1c@users.noreply.github.com>
+---
+ ECIPs/ECIP-69769.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/ECIPs/ECIP-69769.md b/ECIPs/ECIP-69769.md
+index f86b94a..57d8698 100644
+--- a/ECIPs/ECIP-69769.md
++++ b/ECIPs/ECIP-69769.md
+@@ -1,6 +1,6 @@
+ ### Title
+ 
+-    ECIP: 69769
++    ECIP: 1062
+     Title: Submit Block RPC
+     Author: Zachary Belford, zachary.b@etclabs.org
+     Discussions-To: Community Discord #ecips
+
+From 9ad56f4d112df56be9528d2c55159087f45950be Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Sat, 29 Jun 2019 20:18:55 +0200
+Subject: [PATCH 3/5] Use new preamble style
+
+---
+ _specs/ecip-1062.md | 20 +++++++++++---------
+ 1 file changed, 11 insertions(+), 9 deletions(-)
+
+diff --git a/_specs/ecip-1062.md b/_specs/ecip-1062.md
+index 57d8698..1deb2b0 100644
+--- a/_specs/ecip-1062.md
++++ b/_specs/ecip-1062.md
+@@ -1,12 +1,14 @@
+-### Title
+-
+-    ECIP: 1062
+-    Title: Submit Block RPC
+-    Author: Zachary Belford, zachary.b@etclabs.org
+-    Discussions-To: Community Discord #ecips
+-    Status: Draft
+-    Type: Standards Track
+-    Created: 2019-06-26
++---
++lang: en
++ecip: 1062
++title: Submit Block RPC
++author: Zachary Belford, zachary.b@etclabs.org
++discussions-to: Community Discord #ecips
++status: Draft
++type: Standards Track
++category: Interface
++created: 2019-06-26
++---
+ 
+ ### Abstract
+ 
+
+From e4ad4d338c4354eab911d6845be52c9f0549fe28 Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Sat, 29 Jun 2019 20:46:21 +0200
+Subject: [PATCH 4/5] Address grumbles
+
+---
+ _specs/ecip-1062.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-1062.md b/_specs/ecip-1062.md
+index 1deb2b0..eb47800 100644
+--- a/_specs/ecip-1062.md
++++ b/_specs/ecip-1062.md
+@@ -52,7 +52,7 @@ This removes the dependency for miners to have a geth node with accounts that ne
+ 
+ ### Implementation
+ 
+-I think it's pretty straight forward. Looking at the above specification, we would be adding a eth_submitBlock rpc method. It's similar to eth_submitWork, except with fewer steps before broadcasting the block. 
++I think it's pretty straight forward. Looking at the above specification, we would be adding an `eth_submitBlock` RPC method. It's similar to `eth_submitWork`, except with fewer steps before broadcasting the block. 
+ 
+ 
+ 
+
+From dc127c81a3615dbeeef3946d6826146e07954d23 Mon Sep 17 00:00:00 2001
+From: Yaz Khoury <yaz.khoury@gmail.com>
+Date: Tue, 2 Jul 2019 13:50:39 -0400
+Subject: [PATCH 5/5] style: Delete unnecessary comment
+
+---
+ _specs/ecip-1062.md | 4 ----
+ 1 file changed, 4 deletions(-)
+
+diff --git a/_specs/ecip-1062.md b/_specs/ecip-1062.md
+index eb47800..d215a9d 100644
+--- a/_specs/ecip-1062.md
++++ b/_specs/ecip-1062.md
+@@ -53,7 +53,3 @@ This removes the dependency for miners to have a geth node with accounts that ne
+ ### Implementation
+ 
+ I think it's pretty straight forward. Looking at the above specification, we would be adding an `eth_submitBlock` RPC method. It's similar to `eth_submitWork`, except with fewer steps before broadcasting the block. 
+-
+-
+-
+-**NOTE: I am extremely open to suggestions for this. Please be liberal in your feedback. Thank you.**

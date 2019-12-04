@@ -1,0 +1,35 @@
+From d1590128ef502818714cfa6b65054c12146a08f1 Mon Sep 17 00:00:00 2001
+From: Donald McIntyre <donald@etherplan.com>
+Date: Thu, 25 Jul 2019 21:38:04 -0600
+Subject: [PATCH] Added header_pages: networking.html and changed erc.html
+
+Added header_pages:
+
+networking.html
+
+and changed:
+
+erc.html
+
+to:
+
+ecbp.html
+---
+ _config.yml | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/_config.yml b/_config.yml
+index 41b5879..588c4fa 100644
+--- a/_config.yml
++++ b/_config.yml
+@@ -13,8 +13,9 @@ include: [".well-known"]
+ header_pages:
+  - all.html
+  - core.html
++ - networking.html
+  - interface.html
+- - erc.html
++ - ecbp.html
+  - meta.html
+  - informational.html
+ 

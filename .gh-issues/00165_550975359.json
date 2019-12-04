@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550975359",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/165#issuecomment-550975359",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/165",
+    "id": 550975359,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MDk3NTM1OQ==",
+    "user": {
+      "login": "developerkevin",
+      "id": 29807183,
+      "node_id": "MDQ6VXNlcjI5ODA3MTgz",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/29807183?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/developerkevin",
+      "html_url": "https://github.com/developerkevin",
+      "followers_url": "https://api.github.com/users/developerkevin/followers",
+      "following_url": "https://api.github.com/users/developerkevin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/developerkevin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/developerkevin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/developerkevin/subscriptions",
+      "organizations_url": "https://api.github.com/users/developerkevin/orgs",
+      "repos_url": "https://api.github.com/users/developerkevin/repos",
+      "events_url": "https://api.github.com/users/developerkevin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/developerkevin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-07T08:27:12Z",
+    "updated_at": "2019-11-07T08:27:12Z",
+    "author_association": "MEMBER",
+    "body": "IF ITS NOT BROKEN, DON'T FIX IT. \r\n\r\nETC development has successfully used this process, modeled after Bitcoin's BIP, since inception. Why are these topics, and concerns great enough to create such a proposal just now coming up? \r\n\r\nAs a long time active contributor, I dissent from this proposal and hope others will come to understand the likely negative repercussions that this proposal may have on this open source blockchain project as a whole, and not just _ protecting users [**developers, contributors**] from the very real threat of copyright and patent lawsuits._ \r\n\r\nFrom the ETC Decentralist Manifesto \r\n\r\n> Anyone should be able to create their own client implementing the open protocol. Anyone should be able to contribute to network security, and so on. **No registration, identification or other preconditions should limit participation. All such limitations prevent the network from scaling and their enforcement creates centralization risks.**\r\n\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550975359/reactions",
+      "total_count": 5,
+      "+1": 5,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

@@ -1,0 +1,28 @@
+From 40b06dbb1e26911a8d32fcc5af0813da3d52bbfa Mon Sep 17 00:00:00 2001
+From: Bob Summerwill <bob@summerwill.net>
+Date: Sun, 1 Dec 2019 10:05:20 -0800
+Subject: [PATCH] Reject ECIP-1051 "Ethereum Classic Treasury system".
+
+There has been no work on this proposal (or the earlier IOHK treasury proposal).
+There is broad consensus that changing the block rewards to add treasury model is unacceptable.
+The Monetary Policy (ECIP-1017) defines the ETC system and gives multi-decade certainty to all ETC ecosystem participants.
+
+If we need to have a discussion of this on ETC Core Developers call then we should.
+And then Reject it.
+---
+ _specs/ecip-1051.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-1051.md b/_specs/ecip-1051.md
+index 1a64aaf..d14889b 100644
+--- a/_specs/ecip-1051.md
++++ b/_specs/ecip-1051.md
+@@ -2,7 +2,7 @@
+ lang: en
+ ecip: 1051
+ title: Ethereum Classic Treasury system
+-status: Draft
++status: Rejected
+ type: Standards Track
+ category: Core
+ author: Dexaran (@dexaran)

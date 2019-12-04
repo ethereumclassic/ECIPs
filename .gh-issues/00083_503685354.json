@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/503685354",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/83#issuecomment-503685354",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/83",
+    "id": 503685354,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUwMzY4NTM1NA==",
+    "user": {
+      "login": "meowsbits",
+      "id": 45600330,
+      "node_id": "MDQ6VXNlcjQ1NjAwMzMw",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/45600330?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/meowsbits",
+      "html_url": "https://github.com/meowsbits",
+      "followers_url": "https://api.github.com/users/meowsbits/followers",
+      "following_url": "https://api.github.com/users/meowsbits/following{/other_user}",
+      "gists_url": "https://api.github.com/users/meowsbits/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/meowsbits/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/meowsbits/subscriptions",
+      "organizations_url": "https://api.github.com/users/meowsbits/orgs",
+      "repos_url": "https://api.github.com/users/meowsbits/repos",
+      "events_url": "https://api.github.com/users/meowsbits/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/meowsbits/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-06-19T18:53:11Z",
+    "updated_at": "2019-06-20T03:25:10Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I'm unfortunately going to miss the call tomorrow; I'll be :airplane: . \r\n\r\nAs an anticipated absentee, here's my two cents:\r\n\r\n- I'm OK with any target hardfork number that gets decided.\r\n- I would advocate continued work, with open and collaborative relationships, across client teams to build together criteria and strategies and delegated responsibilities for both test-network and x-client integration-testing strategies and goals. I've just opened this issue as a potential space for this: https://github.com/ethereumclassic/ECIPs/issues/84\r\n\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/503685354/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

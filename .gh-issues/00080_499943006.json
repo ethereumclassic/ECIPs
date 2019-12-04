@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/499943006",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/80#issuecomment-499943006",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/80",
+    "id": 499943006,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ5OTk0MzAwNg==",
+    "user": {
+      "login": "TokenHash",
+      "id": 29529586,
+      "node_id": "MDQ6VXNlcjI5NTI5NTg2",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/29529586?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TokenHash",
+      "html_url": "https://github.com/TokenHash",
+      "followers_url": "https://api.github.com/users/TokenHash/followers",
+      "following_url": "https://api.github.com/users/TokenHash/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TokenHash/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TokenHash/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TokenHash/subscriptions",
+      "organizations_url": "https://api.github.com/users/TokenHash/orgs",
+      "repos_url": "https://api.github.com/users/TokenHash/repos",
+      "events_url": "https://api.github.com/users/TokenHash/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TokenHash/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-06-07T16:02:45Z",
+    "updated_at": "2019-06-07T16:02:45Z",
+    "author_association": "MEMBER",
+    "body": "The agreed dates with Terry Culver's feedback are:\r\n\r\n716_617 on Kotti Classic PoA-testnet (two weeks from now)\r\n4_729_274 on Morden Classic PoW-testnet (two weeks from now)\r\n8_500_000 on Ethereum Classic PoW-mainnet (six weeks after successfull testnet forks)\r\n\r\n[the above is from #ecips channel posted by @stevanlohja]",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/499943006/reactions",
+      "total_count": 1,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

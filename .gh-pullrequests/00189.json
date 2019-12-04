@@ -1,0 +1,66 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/189",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/189/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/189/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/189/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/189",
+    "id": 523879272,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0MzQxNzc5OTEy",
+    "number": 189,
+    "title": "ECIP-1022: Generalized Version Bits Voting for Consensus Soft and Hard Forks",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2019-11-16T18:30:53Z",
+    "updated_at": "2019-11-17T17:08:16Z",
+    "closed_at": "2019-11-17T17:08:13Z",
+    "author_association": "MEMBER",
+    "pull_request": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/189",
+      "html_url": "https://github.com/ethereumclassic/ECIPs/pull/189",
+      "diff_url": "https://github.com/ethereumclassic/ECIPs/pull/189.diff",
+      "patch_url": "https://github.com/ethereumclassic/ECIPs/pull/189.patch"
+    },
+    "body": "The following ECIP tries to bring the best practices about how Bitcoin deals with consensus hard fork ([BIP-9](https://github.com/bitcoin/bips/blob/master/bip-0009.mediawiki) and [BIP-135](https://github.com/bitcoin/bips/blob/master/bip-0135.mediawiki)) into Ethereum Classic. Rather than hard-code a block number as we currently do, each block mined emits support of the new consensus hard-fork. Only when a large enough portion of the network support it, the hard-fork is \"locked-in\" and will be activated.\r\n\r\n### Motivation\r\n\r\n**Lack of an appropriate voting method can results in network forking**. The DAO hard fork was such an example. Currently the way Ethereum used to gather opinions was through [CarbonVote](http://carbonvote.com/). It indeed has the advantage that it brings the opinions of Ethereum holders rather than miners. However, it is not enforceable and we all know the disastrous result it brought during the DAO hard fork period. We don't want that to happen again.\r\n\r\n**Miner community, stake holders and proof of work**. It is common knowledge that Ethereum Classic will probably stay in proof of work, rather than, like Ethereum, switch to a proof of stake algorithm. Combining this ECIP together with ECIP-1023, we combines opinions from both the miner community and ETC coin holders to reach consensus about whether a hard fork should occur.\r\n\r\n**Best practices from Bitcoin**. [BIP-9](https://github.com/bitcoin/bips/blob/master/bip-0009.mediawiki), which uses version bits mined in each blocks to vote for consensus soft fork has be successfully conducted for several. Its upgraded version, BIP-135, aims to deal with both soft forks and hard forks alike.\r\n\r\n**Potentially faster adoption of new consensus hard fork**. When dealing with emergency consensus hard fork for preventing network attacks, the developer would not need to artificially insert a \"hard fork block number\" (which must leave enough time for everyone else to upgrade their clients, and then wait for that block). The ETC coin holders and miners collectively decide when the hard fork happens, which potentially could be faster than hard coded block numbers.\r\n\r\n**Ethereum Classic will become a stable protocol soon**. When we finished dealing with the monetary policy and finally the difficulty bomb, ETC's protocol would become a rather stable one. This means most of the new consensus hard fork would be new features of the network, rather than fixing existing bugs. In that case, voting would be important to keep the whole network healthy.\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/189/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/529475692",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/130#issuecomment-529475692",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/130",
+    "id": 529475692,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUyOTQ3NTY5Mg==",
+    "user": {
+      "login": "xiphon",
+      "id": 26060097,
+      "node_id": "MDQ6VXNlcjI2MDYwMDk3",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/26060097?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/xiphon",
+      "html_url": "https://github.com/xiphon",
+      "followers_url": "https://api.github.com/users/xiphon/followers",
+      "following_url": "https://api.github.com/users/xiphon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/xiphon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/xiphon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/xiphon/subscriptions",
+      "organizations_url": "https://api.github.com/users/xiphon/orgs",
+      "repos_url": "https://api.github.com/users/xiphon/repos",
+      "events_url": "https://api.github.com/users/xiphon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/xiphon/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-09-09T13:31:23Z",
+    "updated_at": "2019-09-09T13:31:23Z",
+    "author_association": "NONE",
+    "body": "https://etc.fairpool.xyz is ready",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/529475692/reactions",
+      "total_count": 1,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

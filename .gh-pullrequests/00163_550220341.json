@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550220341",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/163#issuecomment-550220341",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/163",
+    "id": 550220341,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MDIyMDM0MQ==",
+    "user": {
+      "login": "BelfordZ",
+      "id": 1787231,
+      "node_id": "MDQ6VXNlcjE3ODcyMzE=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1787231?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/BelfordZ",
+      "html_url": "https://github.com/BelfordZ",
+      "followers_url": "https://api.github.com/users/BelfordZ/followers",
+      "following_url": "https://api.github.com/users/BelfordZ/following{/other_user}",
+      "gists_url": "https://api.github.com/users/BelfordZ/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/BelfordZ/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/BelfordZ/subscriptions",
+      "organizations_url": "https://api.github.com/users/BelfordZ/orgs",
+      "repos_url": "https://api.github.com/users/BelfordZ/repos",
+      "events_url": "https://api.github.com/users/BelfordZ/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/BelfordZ/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-06T09:19:39Z",
+    "updated_at": "2019-11-06T09:19:39Z",
+    "author_association": "MEMBER",
+    "body": "> What is your proposal regarding requiring real names for devs.\r\n\r\nThis is a seperate matter IMO. Let's keep it to one thing at a time.\r\n\r\n> Several are cc0 licensed in the footer of the ecip\r\n\r\nAh i didnt see this, thanks for pointing it out. As it doesn't adhere to the specification laid out in ECIP-1000, I'd propose that its an invalid ECIP anyways, and thus should be removed and re-filled.\r\n\r\n> And the fact many ECIPs (the ones moved to \"Last Call\", \"final\" or \"active\" I guess are the important ones) don't have a license doesn't mean there has to be a blanket license and say goodbye to anyone who doesn't like it if there are other licenses that are ok as per ECIP-1000....\r\n\r\nApache 2.0 being a permissive license allows for anyone to maintain a fork which is re-licensed under anything they want. Freedom of use is the goal here, right? I thought I could get by without having to actually argue for why Apache 2.0 is the most suitable license for this repository. There is a lot of writing on this matter, but generally takeaways are:\r\n\r\n1. dont invent your own licenses\r\n2. there is barely any legal precedent for most of OSS anyways, so its really just best guess here. see above-linked google's open source casebook\r\n3. Copyleft is counterproductive in terms of collaboration with 99% of good developers: the ones with jobs.\r\n\r\nNot including a license (like we have been) is great, but it also means there is no statement of liability or warranty. This is not good.\r\n\r\nThe concept of using a term such as \"Apache 2.0+\" is IMO an anti-pattern. If you didn't care about the version, why would you say 2.0 then.\r\n\r\nI'm proposing that we stick to Apache 2.0, keep things simple, and stop yack shaving on this BS.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550220341/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

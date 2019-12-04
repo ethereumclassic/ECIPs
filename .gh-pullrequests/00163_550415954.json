@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550415954",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/163#issuecomment-550415954",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/163",
+    "id": 550415954,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MDQxNTk1NA==",
+    "user": {
+      "login": "TokenHash",
+      "id": 29529586,
+      "node_id": "MDQ6VXNlcjI5NTI5NTg2",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/29529586?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TokenHash",
+      "html_url": "https://github.com/TokenHash",
+      "followers_url": "https://api.github.com/users/TokenHash/followers",
+      "following_url": "https://api.github.com/users/TokenHash/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TokenHash/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TokenHash/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TokenHash/subscriptions",
+      "organizations_url": "https://api.github.com/users/TokenHash/orgs",
+      "repos_url": "https://api.github.com/users/TokenHash/repos",
+      "events_url": "https://api.github.com/users/TokenHash/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TokenHash/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-06T17:28:53Z",
+    "updated_at": "2019-11-06T17:28:53Z",
+    "author_association": "MEMBER",
+    "body": "After reviewing all 127 BIPS, the Bitcoin BIP situation is similar to ECIP:\r\n\r\n• Older BIPs (2011-2015) are not licensed or use `PD`\r\n• In the \"middle ages\" (2015-2016) BIPs are mainly `PD`, which was later discouraged by BIP-0002 <- the equivalent of ECIP-1000 \r\n• Newer BIPs (as from 2017) they all comply with BIP-0002 and all use formats such as `BSD-3-Clause | CC0-1.0` combined, just `BSD-2-Clause` or `CC0-1.0`\r\n\r\nSummary: older BIPs are unlicensed or `PD`. Middle ages BIPs are `PD`. Everything in 2017 and after is licensed using best practices in BIP-0002.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550415954/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

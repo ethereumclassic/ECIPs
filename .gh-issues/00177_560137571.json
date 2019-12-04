@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560137571",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/177#issuecomment-560137571",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/177",
+    "id": 560137571,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDEzNzU3MQ==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-01T18:00:20Z",
+    "updated_at": "2019-12-01T18:00:20Z",
+    "author_association": "MEMBER",
+    "body": "We agreed on THE SCOPE which was Istanbul - 1884.\r\n\r\n1072 captured that scope.\r\nAfri updated 1061 to reflect that scope too, adding you as an author too.\r\nYou later pointed out licensing issue.  That was addressed yesterday (#216).\r\n\r\nEveryone is in consensus on the content.\r\n\r\nIf Afri \"breached process\" here is was in some tiny way which really does not matter.   If we need to update ECIP-1000 to ensure that does not happen again then we will.\r\n\r\n#221 from @shanejonas and #224 from @meowsbits are seeking to do exactly that.\r\n\r\nYou on the other hand are throwing around \"malicious\" and creating days and day worth of drama over nothing.   The whole ecosystem agreed on that scope - yourself included.\r\n\r\nEven your threats of breaking away with 1072 would have actually been IDENTICAL protocol.  Literally exactly the same.   \"1016 clients\" and \"1072 clients\" would have been the same.\r\n\r\nYou have generated days and days of wasted effort and drama over the tiniest little breach of process, and even that \"breach\" is pretty subjective.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560137571/reactions",
+      "total_count": 1,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

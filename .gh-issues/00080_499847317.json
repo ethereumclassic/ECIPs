@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/499847317",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/80#issuecomment-499847317",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/80",
+    "id": 499847317,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ5OTg0NzMxNw==",
+    "user": {
+      "login": "tzdybal",
+      "id": 1138893,
+      "node_id": "MDQ6VXNlcjExMzg4OTM=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1138893?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tzdybal",
+      "html_url": "https://github.com/tzdybal",
+      "followers_url": "https://api.github.com/users/tzdybal/followers",
+      "following_url": "https://api.github.com/users/tzdybal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tzdybal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tzdybal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tzdybal/subscriptions",
+      "organizations_url": "https://api.github.com/users/tzdybal/orgs",
+      "repos_url": "https://api.github.com/users/tzdybal/repos",
+      "events_url": "https://api.github.com/users/tzdybal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tzdybal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-06-07T11:13:33Z",
+    "updated_at": "2019-06-07T11:13:33Z",
+    "author_association": "MEMBER",
+    "body": "Unfortunately I'm not able to participate in the call, but I want to share my opinion as a developer.\r\n\r\n**I fully endorse option A - Original ECIP schedule.**\r\n\r\nAccording to my experience with previous forks, it's impossible to avoid network split with tight schedule. In my opinion even the original schedule leave just enough time for informational campaign and software update of the nodes. Because of the decentralized nature of the network, where you can't directly contact all participants, updates take time.\r\n\r\nI would also like to remind all parties, that regardless of what will be decided, changes has to be implemented thru ECIP process. In my opinion, change of a activation block is such a significant change, that ECIP should go back to \"Draft\" state and then wait 2 weeks in \"Last call\".",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/499847317/reactions",
+      "total_count": 11,
+      "+1": 11,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

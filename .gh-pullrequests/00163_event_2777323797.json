@@ -1,0 +1,29 @@
+{
+    "id": 2777323797,
+    "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50Mjc3NzMyMzc5Nw==",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/events/2777323797",
+    "actor": {
+      "login": "gcolvin",
+      "id": 16827129,
+      "node_id": "MDQ6VXNlcjE2ODI3MTI5",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/16827129?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gcolvin",
+      "html_url": "https://github.com/gcolvin",
+      "followers_url": "https://api.github.com/users/gcolvin/followers",
+      "following_url": "https://api.github.com/users/gcolvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gcolvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gcolvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gcolvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/gcolvin/orgs",
+      "repos_url": "https://api.github.com/users/gcolvin/repos",
+      "events_url": "https://api.github.com/users/gcolvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gcolvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "event": "mentioned",
+    "commit_id": null,
+    "commit_url": null,
+    "created_at": "2019-11-07T00:09:00Z"
+  }

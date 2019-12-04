@@ -1,0 +1,29 @@
+{
+    "id": 2777792476,
+    "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50Mjc3Nzc5MjQ3Ng==",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/events/2777792476",
+    "actor": {
+      "login": "fubuloubu",
+      "id": 3859395,
+      "node_id": "MDQ6VXNlcjM4NTkzOTU=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3859395?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fubuloubu",
+      "html_url": "https://github.com/fubuloubu",
+      "followers_url": "https://api.github.com/users/fubuloubu/followers",
+      "following_url": "https://api.github.com/users/fubuloubu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fubuloubu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fubuloubu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fubuloubu/subscriptions",
+      "organizations_url": "https://api.github.com/users/fubuloubu/orgs",
+      "repos_url": "https://api.github.com/users/fubuloubu/repos",
+      "events_url": "https://api.github.com/users/fubuloubu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fubuloubu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "event": "mentioned",
+    "commit_id": null,
+    "commit_url": null,
+    "created_at": "2019-11-07T05:11:48Z"
+  }

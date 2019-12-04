@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560144792",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/227#issuecomment-560144792",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/227",
+    "id": 560144792,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDE0NDc5Mg==",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-01T18:55:10Z",
+    "updated_at": "2019-12-01T18:55:10Z",
+    "author_association": "MEMBER",
+    "body": "As said on Twitter, my recommendation would be to call off and skip Aztlan until all issues have been fixed, because based on my last-minute review, ECIP-1061 is certainly rushed, and we'd be better fixing those issues first and/or apply account versioning. I currently cannot think of a way to fix this without account versioning.\r\n\r\nHowever, as the consensus is to move forward with Aztlan, I do not object ECIP-1061 and am certainly fine to just go ahead with the hard fork, because in theory, you can always fix any issues of hard forks with just more hard forks.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560144792/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

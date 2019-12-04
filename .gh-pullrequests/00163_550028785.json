@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550028785",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/163#issuecomment-550028785",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/163",
+    "id": 550028785,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MDAyODc4NQ==",
+    "user": {
+      "login": "BelfordZ",
+      "id": 1787231,
+      "node_id": "MDQ6VXNlcjE3ODcyMzE=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1787231?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/BelfordZ",
+      "html_url": "https://github.com/BelfordZ",
+      "followers_url": "https://api.github.com/users/BelfordZ/followers",
+      "following_url": "https://api.github.com/users/BelfordZ/following{/other_user}",
+      "gists_url": "https://api.github.com/users/BelfordZ/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/BelfordZ/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/BelfordZ/subscriptions",
+      "organizations_url": "https://api.github.com/users/BelfordZ/orgs",
+      "repos_url": "https://api.github.com/users/BelfordZ/repos",
+      "events_url": "https://api.github.com/users/BelfordZ/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/BelfordZ/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-05T21:28:22Z",
+    "updated_at": "2019-11-05T21:28:22Z",
+    "author_association": "MEMBER",
+    "body": "It's actually not re-licensing anything. Like I said, none of the ECIP in this repo actually ever did specify a license other than apache 2.0, and there are only a couple cases where anyone did specify apache 2.0 explicitly. \r\n\r\n![image](https://user-images.githubusercontent.com/1787231/68246816-6d15c580-ffce-11e9-829f-6ffe55399551.png)\r\n\r\n\r\nTechnically everything in this repo, unless otherwise stated, has been unlicensed. If there is any 'relicensing' happening here, its moving from no license -> a license. There is very good reasons to use apache 2.0 as the root license, and to discourage, and outright not allow contributions under anything else. \r\n\r\nPlease give a thorough read through of this: https://opensource.google/docs/casebook/\r\n\r\nI am also proposing that we apply apache 2.0, and never look back, never change the license, and never have any contributors sign any kind of CLA or additional agreement over and above what is laid out by apache 2.0. \r\n\r\nThis is about technology, not politics. We should choose the license that is most permissive that absolves contributors of liability and warranty. \r\n\r\nto summarize:\r\n1. Apache 2.0 \r\n2. No CLA or DCO or ANYTHING outside of Apache 2.0\r\n3. as the contributor, your free to make a PR removing your work if you dont like apache 2.0 for whatever reason.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550028785/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

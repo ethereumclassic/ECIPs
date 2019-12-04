@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550558963",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/163#issuecomment-550558963",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/163",
+    "id": 550558963,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MDU1ODk2Mw==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-07T00:09:00Z",
+    "updated_at": "2019-11-07T00:10:20Z",
+    "author_association": "MEMBER",
+    "body": "@meowsbits On your US copyright point above, what I believe that is saying is that the copyright refers to the textual description itself, which authors have implicitly, whether or not they add \"Copyright (c) 2019 Bob Summerwill\" or not anywhere in the text.   You authored it, you have copyright.\r\n\r\nIf you take care to have PROOF of that (which, I think, in the old days, would mean sending a copy of your manuscript, and signing and dating it and keeping it in a safe, or getting it notarized or whatever - but which is trivial now for open source software by just working in the open) then it is very easy to enforce your copyright if somebody plagiarizes your work.   Hello, Justin Sun.\r\n\r\nThat copyright does not stop others from doing something equivalent, no.   That is where patents come in.  Which is why I care about using Apache 2.0.   Because I don't want a Craig Wright / nChain style patent trolling drama to happen to ETC because of the simple lack of IP protection which we are discussing here.\r\n\r\nSomething which still seems up in the air in the US at least is whether APIs are copyrightable, as horrible, horrible Oracle have been trying to do to Android by asserting that the Java APIs are their copyright, and even though Android is built on a completely \"clean house\" implementation of Java that they deserve billions of dollars:\r\n\r\nhttps://en.wikipedia.org/wiki/Oracle_America,_Inc._v._Google,_Inc.\r\n\r\nThe current status is ... \"Oracle appealed to the United States Court of Appeals for the Federal Circuit, which found in March 2018 that Google's reuse of the APIs had not been fair use, ruling in favor of Oracle.\"\r\n\r\nIt will likely go to the Supreme Court, where (hopefully) it will be struck down.  But it looks like this horror show is actually going to lead to Google ditching Android ultimately, for their own new OS with no Java dependencies.\r\n\r\nThis court case was a key reason why I strongly opposed any thought (while we were looking at eWASM) of considering retargeted the EVM on top of the JVM.   Because of Oracle.  That is what Corda does, but that route is poison.    .NET VM is safer, but there is still a risk there, if Microsoft went rogue again.   Not sure of the IP situation on eWASM.\r\n\r\nBut the best of the lot there is sticking with EVM indefinitely, and iterating that along - total self-sovereignty.   Which is what @gcolvin always advocated.  Hurrah for Greg.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550558963/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

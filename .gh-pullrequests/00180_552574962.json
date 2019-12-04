@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/552574962",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/180#issuecomment-552574962",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/180",
+    "id": 552574962,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MjU3NDk2Mg==",
+    "user": {
+      "login": "TokenHash",
+      "id": 29529586,
+      "node_id": "MDQ6VXNlcjI5NTI5NTg2",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/29529586?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TokenHash",
+      "html_url": "https://github.com/TokenHash",
+      "followers_url": "https://api.github.com/users/TokenHash/followers",
+      "following_url": "https://api.github.com/users/TokenHash/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TokenHash/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TokenHash/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TokenHash/subscriptions",
+      "organizations_url": "https://api.github.com/users/TokenHash/orgs",
+      "repos_url": "https://api.github.com/users/TokenHash/repos",
+      "events_url": "https://api.github.com/users/TokenHash/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TokenHash/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-11T19:13:41Z",
+    "updated_at": "2019-11-11T19:13:41Z",
+    "author_association": "MEMBER",
+    "body": "> What's the difference between Coordinator and Editor?\r\n\r\n@soc1c it just emerges from what has been happening in practice. A coordinator is like an assistant to editors and ecip authors, but with no technical skills, and no authorization to merge ecips or review software code. A coordinator has time to do housekeeping things.\r\n\r\nExamples where I have been assisting editors:\r\n\r\n1. I copied ECIP-1055 from ETC Labs Core to Ethereum Classic repo with the authorization of the author.\r\n2. I reviewed and approved the latest ECIPs by Sorpaas (1040, 1068, 1069, etc.) because they were just copies of corresponding EIPs)\r\n3. I reviewed and adapted texts of ECIP-1000\r\n4. I moved ecip-1016 to \"withdrawn\" and added the original author with the author consent\r\n5. many more actions\r\n\r\nthe reason for creating the formal \"coordinator\" position is that I thought to make it formal makes it more transparent as many actions are made by non-editors and that seems irregular in the system unless the \"coordinator\" role is added",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/552574962/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

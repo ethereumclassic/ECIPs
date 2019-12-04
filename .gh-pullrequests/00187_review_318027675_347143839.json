@@ -1,0 +1,49 @@
+{
+    "id": 347143839,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM0NzE0MzgzOQ==",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/347143839",
+    "pull_request_review_id": 318027675,
+    "diff_hunk": "@@ -0,0 +1,97 @@\n+---\n+lang: en\n+ecip: 1076\n+title: Mining Algorithm Change Process\n+author: Talha Cross (@soc1c)\n+discussions-to: https://github.com/ethereumclassic/ECIPs/issues/174\n+status: Draft\n+type: ECBP\n+created: 2019-11-16\n+---\n+\n+### Abstract\n+This meta document is agnostic to any mining algorithm. Its sole purpose is specifying a process how to openly determine and select a mining algorithm for Ethereum Classic.\n+\n+### Motivation\n+The decision to change the Ethereum Classic mining algorithm - or to keep it as is - is not an easy one to make. It should be done by broad consensus with all stakeholders involved - miners, investors, application and core developers, and anyone else who feels having a stake in ETC. This meta document proposes a process of how to facilitate the potential change of the mining algorithm and parameters.\n+\n+### Available Options\n+Currently, the following options are debatable.\n+\n+- **ECBP-1076-A**: _\"Ethash Status Quo.\"_ The mining algorithm will be untouched as it is since genesis, as **Ethash** function with a statically **increasing DAG**.\n+- **ECBP-1076-B**: _\"Ethash Limited DAG.\"_ The mining algorithm will be untouched as it is since genesis, as **Ethash** function. However, the **DAG size will be limited** as specified in [ECIP-1043](https://ecips.ethereumclassic.org/ECIPs/ecip-1043).\n+- **ECBP-1076-C**: _\"Keccak256 (SHA3).\"_ The mining algorithm will be **changed to Keccak256** as specified in [ECIP-1049](https://ecips.ethereumclassic.org/ECIPs/ecip-1049).\n+- **ECBP-1076-D**: _\"ProgPoW.\"_ The mining algorithm will be **changed to ProgPow** as specified in [ECIP-1070](https://ecips.ethereumclassic.org/ECIPs/ecip-1070).\n+\n+Eventually, the community has to decide on one.\n+\n+### Process\n+The following process facilitates all stakeholders in various stages.\n+\n+1. _\"Tech Stage.\"_ Core and application developers meet in regular calls to evaluate the feasibility of the Ethash status quo, the limited DAG size proposal (ECIP-1043), the Keccak256 proposal (ECIP-1049), and the ProgPoW proposal (ECIP-1070).\n+\n+    If there is no technical objection to each of the proposals, the proposals can be **moved to \"Last Call\"** state, regardless of whether they will be considered in future or not. As a result, none, one, or many competing proposals can be in \"Last Call\" state at the same time.\n+\n+    This stage is finished once all proposals are either in \"Last Call,\" \"Withdrawn,\" or \"Rejected\" state.\n+\n+2. _\"Miner Stage.\"_ Solo miners, mining farms, and mining pools can signal support by adjusting their mining node to signal in favor of one of the proposals that was promoted to \"Last Call\" state in the previous stage. Details on the signaling can be found in the subsequent section.\n+\n+    This stage is finished once more than **70% of the last 100_000 blocks** were signed with a signal in favor of one proposal.\n+3. _\"Decision Stage.\"_ The proposal that passed the technical stage to \"Last Call\" state and received 70% approval by the miner community, **shall be considered as \"Accepted,\"** all other competing proposals shall be considered as \"Rejected.\" The EIP Editors are responsible to facilitate this status update to the proposals according to this process definition.\n+\n+    The block number where the 70% threshold is breached the first time is called the `threshold_blocknumber`. It automatically defines the `activation_blocknumber` which is:\n+\n+    ```\n+    activation_blocknumber = threshold_blocknumber + 1_000_000\n+    ```\n+\n+    That gives clients a six months window of activating releases with the ECBP-1076 activation block number.\n+\n+    In case none of the proposals reaches the defined threshold, the status quo will remain indefinitely until either one of the proposals reaches the 70% majority or until this process is entirely rejected by the community.\n+\n+### Miner Signaling\n+The miner stage is specified as follows.\n+\n+The miner prepend the miner's extra data with 5 bytes of signaling data which shall be recorded in the Ethereum Classic block headers. The 5 bytes contain the following:\n+\n+1. Two start bytes that indicate a signal in terms of ECBP-1076, namely `76` (`0x37 0x36`)\n+2. One option byte that favors one of the proposals:\n+    - `A` (`0x41`): ECBP-1076-A _(optional)_\n+    - `B` (`0x42`): ECBP-1076-B\n+    - `C` (`0x43`): ECBP-1076-C\n+    - `D` (`0x44`): ECBP-1076-D\n+3. Two numeric bytes that vote on the default gas limit as specified in [ECIP-1047](https://ecips.ethereumclassic.org/ECIPs/ecip-1047).\n+    - `00` (`0x30 0x30`): abstain / don't care _(optional)_\n+    - `01` (`0x30 0x31`): support ECIP-1047 client defaults with 1 million gas block gas limit\n+    - `08` (`0x30 0x38`): reject ECIP-1047 client defaults, explicitly supporting the 8 million gas block gas limit defaults\n+    - `99` (`0x39 0x39`): any other number between `00` and `99` suggests a competing default block gas limit\n+\n+In addition to the numeric vote on the gas limit with the extra data field, mining nodes are encouraged to utilized block gas target limit voting with the suitable configuration flags for their mining nodes.",
+    "path": "_specs/ecip-1076.md",
+    "position": 69,
+    "original_position": 69,
+    "commit_id": "da1b5fc7cc7432ed3e561ea9bdf64896dfb517b0",
+    "user": {
+      "login": "mikeyb",
+      "id": 36461,
+      "node_id": "MDQ6VXNlcjM2NDYx",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/36461?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mikeyb",
+      "html_url": "https://github.com/mikeyb",
+      "followers_url": "https://api.github.com/users/mikeyb/followers",
+      "following_url": "https://api.github.com/users/mikeyb/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mikeyb/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mikeyb/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mikeyb/subscriptions",
+      "organizations_url": "https://api.github.com/users/mikeyb/orgs",
+      "repos_url": "https://api.github.com/users/mikeyb/repos",
+      "events_url": "https://api.github.com/users/mikeyb/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mikeyb/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "> are encouraged to utilized\r\nShould be ?\r\n> are encouraged to utilize",
+    "created_at": "2019-11-17T15:48:16Z",
+    "updated_at": "2019-11-17T15:49:35Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/187#discussion_r347143839",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/187",
+    "author_association": "MEMBER",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/347143839"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/187#discussion_r347143839"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/187"
+      }
+    },
+    "original_commit_id": "da1b5fc7cc7432ed3e561ea9bdf64896dfb517b0"
+  }

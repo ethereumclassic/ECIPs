@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/561565890",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/238#issuecomment-561565890",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/238",
+    "id": 561565890,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MTU2NTg5MA==",
+    "user": {
+      "login": "YazzyYaz",
+      "id": 9094204,
+      "node_id": "MDQ6VXNlcjkwOTQyMDQ=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9094204?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/YazzyYaz",
+      "html_url": "https://github.com/YazzyYaz",
+      "followers_url": "https://api.github.com/users/YazzyYaz/followers",
+      "following_url": "https://api.github.com/users/YazzyYaz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/YazzyYaz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/YazzyYaz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/YazzyYaz/subscriptions",
+      "organizations_url": "https://api.github.com/users/YazzyYaz/orgs",
+      "repos_url": "https://api.github.com/users/YazzyYaz/repos",
+      "events_url": "https://api.github.com/users/YazzyYaz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/YazzyYaz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-04T10:00:46Z",
+    "updated_at": "2019-12-04T10:00:46Z",
+    "author_association": "MEMBER",
+    "body": "> I understand that you reserve the right to hold calls, but I hope you also understand that ECIP-1000 reserves the right to follow the wishes of the community based on written-form discussions, which may and can overwrite \"decisions\" reached in calls.\r\n\r\nIf community wants a written-form discussion as the final decision, then of course this is what will be used.\r\n\r\nCan you help me find the exact reference in the ECIP-1000 regarding only written form being the canon and not calls? It'll help me understand your PoV more.\r\n\r\nSo far, all I can find is that calls are considered canon:\r\n> An Accepted ECIP may progress to Final only when specific criteria reflecting real-world adoption has occurred. This is different for each ECIP depending on the nature of its proposed changes, which will be expanded on below. Evaluation of this status change should be objectively verifiable, and/or be discussed on the development calls, Discord channel, other groups or the mailing list.\r\n\r\n> A process ECIP may change status from Draft to Final when it achieves rough consensus on the discussion process. Such a proposal is said to have rough consensus if it has been open to discussion on the development calls, Discord channel, other groups or the mailing list for at least one month, and no person maintains any unaddressed substantiated objections to it.\r\n\r\nIn both examples shown, it says development calls is considered part of the rough consensus process and not just for reference.\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/561565890/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

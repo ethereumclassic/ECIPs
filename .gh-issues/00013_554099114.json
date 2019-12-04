@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/554099114",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/13#issuecomment-554099114",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/13",
+    "id": 554099114,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1NDA5OTExNA==",
+    "user": {
+      "login": "stevanlohja",
+      "id": 10556209,
+      "node_id": "MDQ6VXNlcjEwNTU2MjA5",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10556209?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stevanlohja",
+      "html_url": "https://github.com/stevanlohja",
+      "followers_url": "https://api.github.com/users/stevanlohja/followers",
+      "following_url": "https://api.github.com/users/stevanlohja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stevanlohja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stevanlohja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stevanlohja/subscriptions",
+      "organizations_url": "https://api.github.com/users/stevanlohja/orgs",
+      "repos_url": "https://api.github.com/users/stevanlohja/repos",
+      "events_url": "https://api.github.com/users/stevanlohja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stevanlohja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-14T21:57:37Z",
+    "updated_at": "2019-11-14T21:57:37Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Sha256 and Ethash (Sha3 + Dag) have been working stable for years now. While the Dag was an inherited flaw, it's been adopted in the market and technical merits do not justify the means in this case. \r\n\r\nProgPoW, Keccak256, and Dag limit will be short-lived extensions to older hardware. If you thought ProgPoW was a bailout then certainly you can apply that argument to Keccak256 and a Dag limit. \r\n\r\nI'd like to know how involved the Saturn/P3C team is involved with manufacturers or other miners to ensure there would even be dedicated hardware to such a change as the rebuilding a new miner market at this stage is very difficult and such a change will leave the network hash much less distributed and profitable to a few.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/554099114/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

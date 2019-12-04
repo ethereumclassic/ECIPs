@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560173332",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/169#issuecomment-560173332",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/169",
+    "id": 560173332,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDE3MzMzMg==",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-01T23:22:57Z",
+    "updated_at": "2019-12-01T23:22:57Z",
+    "author_association": "MEMBER",
+    "body": "@zmitton We do have solutions for backward compatible DoS gas repricing fix, currently documented here https://ep.corepaper.org/compatibility/#encouraging-using-forward-compatible-version\r\n\r\nThe basic idea is that instead of increasing exploit opcode's gas cost, we systematically decrease other opcode's gas cost (in the newer version). Combined with gas price change (either automatically done by miners, or can be a hard reset in the hard fork), this fixes the exploit in the legacy version EVM, while also preserves full backward compatibility.\r\n\r\nI did get some feedback that some of the texts in the article might be confusing, so please let me know if you have any questions. I'll also be improving the section in the next few days.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560173332/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

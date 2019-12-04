@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/552157798",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/14#issuecomment-552157798",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/14",
+    "id": 552157798,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MjE1Nzc5OA==",
+    "user": {
+      "login": "hitchcott",
+      "id": 1696942,
+      "node_id": "MDQ6VXNlcjE2OTY5NDI=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1696942?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hitchcott",
+      "html_url": "https://github.com/hitchcott",
+      "followers_url": "https://api.github.com/users/hitchcott/followers",
+      "following_url": "https://api.github.com/users/hitchcott/following{/other_user}",
+      "gists_url": "https://api.github.com/users/hitchcott/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/hitchcott/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/hitchcott/subscriptions",
+      "organizations_url": "https://api.github.com/users/hitchcott/orgs",
+      "repos_url": "https://api.github.com/users/hitchcott/repos",
+      "events_url": "https://api.github.com/users/hitchcott/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/hitchcott/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-10T03:04:30Z",
+    "updated_at": "2019-11-10T03:04:30Z",
+    "author_association": "MEMBER",
+    "body": "I support having a more refined block gas limit. \r\n\r\nFiguring out the limit itself is the hard part, as there are several tradeoffs to consider. I think we should be methodical about finding the right number.\r\n\r\nI was originally in support of having 1 million as a target (in theory); if developers need to deploy with +1 million gas, they can do so by code splitting into multiple contracts. However, deployments of existing popular contracts frequently breach this limit.\r\n\r\nSome random examples:\r\n\r\nWrapped Ether: 966,549 https://etherscan.io/tx/0xb95343413e459a0f97461812111254163ae53467855c0d73e0f1e7c5b8442fa3\r\n\r\nGnosis Multisig: 2,674,708 https://etherscan.io/tx/0x55befd6ad29c13eb16be00e888cf7a676ad4c02b8a942099c278a2efa4bade08\r\n\r\nUniswap Exchange Template: 3,340,999\r\nhttps://etherscan.io/tx/0x9d30e48fb33a7b760d0b5c33253eb5a774c9dc8e9ee2768ad3425249a3319e09\r\n\r\nI think that it would be best strike a balance between enabling reasonable sync times (what is reasonable?) on various future hardware requirements (mobile, commodity laptop, EC2?), and not making it too annoying to migrate popular contracts from ETH to ETC (some contracts are easier to code split than others).\r\n\r\nI support targeting a gas emission curve (chain bloat curve) to fit future hardware requirements.\r\n\r\nI think a soft fork is probably best avoided if can't be done with defaults and/or information campaign.\r\n\r\nTo follow up I'll attempt to do some more data gathering:\r\n\r\n- Compile stats on *all* popular contracts and their deploy costs\r\n- Estimate future hardware requirement categories (mobile, commodity, EC2$$)\r\n- Model a gas limit emission curve to fit expected hardware development\r\n\r\nAnother option here (@phyro suggested) is to have longer block times (without changing the gas limit), which would achieve the reduced chain bloat, whilst still enabling larger contracts to be deployed in a single block. Obviously many other implications.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/552157798/reactions",
+      "total_count": 1,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

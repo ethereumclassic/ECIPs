@@ -1,0 +1,28 @@
+From c9e5731173637cfaa512a5078179b0cd4177a53f Mon Sep 17 00:00:00 2001
+From: "dependabot[bot]" <49699333+dependabot[bot]@users.noreply.github.com>
+Date: Wed, 23 Oct 2019 14:47:25 +0000
+Subject: [PATCH] Bump ffi from 1.9.23 to 1.11.1
+
+Bumps [ffi](https://github.com/ffi/ffi) from 1.9.23 to 1.11.1.
+- [Release notes](https://github.com/ffi/ffi/releases)
+- [Changelog](https://github.com/ffi/ffi/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/ffi/ffi/compare/1.9.23...1.11.1)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+---
+ Gemfile.lock | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Gemfile.lock b/Gemfile.lock
+index 303033b..7857465 100644
+--- a/Gemfile.lock
++++ b/Gemfile.lock
+@@ -29,7 +29,7 @@ GEM
+     execjs (2.7.0)
+     faraday (0.14.0)
+       multipart-post (>= 1.2, < 3)
+-    ffi (1.9.23)
++    ffi (1.11.1)
+     forwardable-extended (2.6.0)
+     front_matter_parser (0.1.1)
+     gemoji (3.0.0)

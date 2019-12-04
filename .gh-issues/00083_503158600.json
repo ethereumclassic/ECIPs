@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/503158600",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/83#issuecomment-503158600",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/83",
+    "id": 503158600,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUwMzE1ODYwMA==",
+    "user": {
+      "login": "soc1c",
+      "id": 47772477,
+      "node_id": "MDQ6VXNlcjQ3NzcyNDc3",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/47772477?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/soc1c",
+      "html_url": "https://github.com/soc1c",
+      "followers_url": "https://api.github.com/users/soc1c/followers",
+      "following_url": "https://api.github.com/users/soc1c/following{/other_user}",
+      "gists_url": "https://api.github.com/users/soc1c/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/soc1c/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/soc1c/subscriptions",
+      "organizations_url": "https://api.github.com/users/soc1c/orgs",
+      "repos_url": "https://api.github.com/users/soc1c/repos",
+      "events_url": "https://api.github.com/users/soc1c/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/soc1c/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-06-18T14:23:38Z",
+    "updated_at": "2019-06-19T10:42:53Z",
+    "author_association": "MEMBER",
+    "body": "Just to make sure the upgrade does not hit a weekend, here are some numbers for discussion:\r\n\r\n- \"Potential Atlantis upgrade target for block **8732000** would happen around **2019-09-10** 12:00:00 UTC based on current block number 8251958 at 14.96 seconds block time.\"\r\n- \"Potential Atlantis upgrade target for block **8743000** would happen around **2019-09-12** 12:00:00 UTC based on current block number 8251958 at 14.96 seconds block time.\"\r\n- \"Potential Atlantis upgrade target for block **8772000** would happen around **2019-09-17** 12:00:00 UTC based on current block number 8251958 at 14.96 seconds block time.\"\r\n\r\n(Trying to avoid a fork on 9-11 lol)\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/503158600/reactions",
+      "total_count": 2,
+      "+1": 2,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

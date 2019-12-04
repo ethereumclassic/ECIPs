@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551256069",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/13#issuecomment-551256069",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/13",
+    "id": 551256069,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MTI1NjA2OQ==",
+    "user": {
+      "login": "BelfordZ",
+      "id": 1787231,
+      "node_id": "MDQ6VXNlcjE3ODcyMzE=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1787231?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/BelfordZ",
+      "html_url": "https://github.com/BelfordZ",
+      "followers_url": "https://api.github.com/users/BelfordZ/followers",
+      "following_url": "https://api.github.com/users/BelfordZ/following{/other_user}",
+      "gists_url": "https://api.github.com/users/BelfordZ/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/BelfordZ/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/BelfordZ/subscriptions",
+      "organizations_url": "https://api.github.com/users/BelfordZ/orgs",
+      "repos_url": "https://api.github.com/users/BelfordZ/repos",
+      "events_url": "https://api.github.com/users/BelfordZ/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/BelfordZ/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-07T20:45:48Z",
+    "updated_at": "2019-11-07T21:19:32Z",
+    "author_association": "MEMBER",
+    "body": "**I will never support a mining algorithm change, regardless of technical merits.**\r\n\r\nI also refuse to spend more time above writing this comment on the matter. I have read all of the above discussion, reviewed each stated benefit and weakness, and thought long and hard about as many of the ramifications of this as possible. While each benefit on its own can be nitpicked over, having it's 'value added' objectively disseminated, there is 1.5 reasons that trump all benefit. It's an unfortunate reality of the world and humanity.\r\n\r\nThe main point is that **ruling out collusion being a driving force behind *any* contribution is impossible**. This is especially true the closer the project gets to being connected with financial rewards. Every contribution has some level of Collusive Reward Potential. A change that adds a new opcode has a much higher CRP than fixing a documentation typo. Ranking changes with the highest CRP, my top 3 would be:\r\n\r\n1. Mining algorithm changes ('fair launch' being the oxymoron that we would be, for the 2nd time, subjected to)\r\n1. Consensus changes (blacklisting addresses, dependence on anything even remotely centralized for block validation)\r\n1. Protocol defined Peering rules (ie drop a peer if they support protests in HK type of rules)\r\n\r\nSo, going back to the 1.5 reasons that trump all... \r\n\r\n1 - To explain by counterposition, let's assume I was a large supporter of a mining algo change. What's to say I've not been paid by ASIC maker xyz to champion this change, giving them the jump on all other hardware providers? \r\n\r\nSpoiler: nothing.\r\n\r\n0.5 - How can something which is designed to be inefficient be changed in the name of efficiency WITHOUT raising suspicion? \r\n\r\nSpoiler: it can't.\r\n\r\n\r\nTo conclude, this might be a great proposal... for a new blockchain... And I urge you to reconsider this PR, as I believe there are more useful ways of spending development efforts. ",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551256069/reactions",
+      "total_count": 3,
+      "+1": 2,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 1
+    }
+  }

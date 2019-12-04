@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560131953",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/177#issuecomment-560131953",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/177",
+    "id": 560131953,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDEzMTk1Mw==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-01T17:05:40Z",
+    "updated_at": "2019-12-01T17:05:40Z",
+    "author_association": "MEMBER",
+    "body": "@sorpaas AGAIN you are trying to use my words in support of your interpretation.\r\n\r\nWhen I said \"Should we change the hard fork name to Yingchun?\" I was NOT \"jumping between ECIPs\", because 1061 (updated) and 1072 had become the same.\r\n\r\nI really did not care whether we \"adopt 1072\" or \"update 1061\" because the outcome was identical.\r\n\r\nWe had come to HUMAN CONSENSUS within the meeting that the scope of Aztlan was \"Istanbul - 1884\".    Whether that happened via 1061 or 1072 is utterly unimportant.\r\n\r\nAfri's actions reflected what was agreed in the meeting.\r\n\r\nYou may think you are fighting some holy war here which is protecting the sanctity of the ECIP-1000 process, but that is not what you are actually doing.    What you are actually doing is creating a hugely frustrating and unnecessary \"civil war\" within ETC, but with only you on the \"1072 side\" of it.\r\n\r\nYou have called me malicious in the very recent past.    You have called Afri malicious.   You have threatened the ETC ecosystem that you will not support \"ETC 1061\" in SputnikVM or MultiGeth.   You have threatened to create Ethereum Classic Classic.\r\n\r\nEven yesterday and today you continue to fight and fight and waste more time.\r\n\r\nPlease for the love of God step away from the keyboard for a day or two.    You are destroying all of the huge credibility and good karma you had built up within ETC.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560131953/reactions",
+      "total_count": 1,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

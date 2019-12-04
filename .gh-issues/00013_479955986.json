@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/479955986",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/13#issuecomment-479955986",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/13",
+    "id": 479955986,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3OTk1NTk4Ng==",
+    "user": {
+      "login": "Harriklaw",
+      "id": 47303582,
+      "node_id": "MDQ6VXNlcjQ3MzAzNTgy",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/47303582?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Harriklaw",
+      "html_url": "https://github.com/Harriklaw",
+      "followers_url": "https://api.github.com/users/Harriklaw/followers",
+      "following_url": "https://api.github.com/users/Harriklaw/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Harriklaw/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Harriklaw/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Harriklaw/subscriptions",
+      "organizations_url": "https://api.github.com/users/Harriklaw/orgs",
+      "repos_url": "https://api.github.com/users/Harriklaw/repos",
+      "events_url": "https://api.github.com/users/Harriklaw/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Harriklaw/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-04-04T15:53:36Z",
+    "updated_at": "2019-04-04T15:53:36Z",
+    "author_association": "NONE",
+    "body": "First and most crucial question : Do we need an algo change? How an algo change could help us?For me there are two aspects that should be examined at the same time.  The first one, is how much secure is the new POW vs the old one. As you nicely wrote,any well examined algo as keccak256 is both scientifically reviewed and as the successor of SHA2 has high propability to succeed as SHA2 did with bitcoin. This can be controversial tho, so this article can strengthen the pros of keccac it is considered that may be quantum resistant: https://eprint.iacr.org/2016/992.pdf \r\n\"Our estimates are by no means a lower bound, as they are based on a series\r\nof assumptions. First, we optimized our T-count by optimizing each component\r\nof the SHA oracle individually, which of course is not optimal. Dedicated opti-\r\nmization schemes may achieve better results. Second, we considered a surface\r\ncode fault-tolerant implementation, as such a scheme looks the most promising\r\nat present. However it may be the case that other quantum error correcting\r\nschemes perform better. Finally, we considered an optimistic per-gate error rate of about 10^−5\r\n, which is the limit of current quantum hardware. This number will\r\nprobably be improved in the future. Improving any of the issues listed above will\r\ncertainly result in a better estimate and a lower number of operations, however\r\nthe decrease in the number of bits of security will likely be limited\"\r\nThe second aspect we should examine is how the algo change will influence decentralization and this topic is more controversial. As economics are the most decesive factor for ASIC development ,(assuming that ETC will be valuable ),that will lead to new asics very soon. For me the real question is : how soon? And the answer is clearly hypothetical. Why this is a crucial question? First of all if already asics exist that would be unfair and centralized for the interval that new companies find and evolve their own heardware. If this is not the case, companies that already produce sha2 and other CPU intensive algos asics will eventually produce sha3 very fast as they already have the \"know how \" and have learnt how to adapt in this hardware/algo chase game very well. But do we want that? Do we want big asic companies to have the upper hand on ETC mining hardware production?If we accept decentralization is already well established among the crypto hardware industry( meaning asic companies)and many companies already joined the space ,then decentralization for sha3 will be achieved soon. But if we accept that gpu industry is a better space for our community (for  decentralization purposes) then we should consider that any kind of algo change to cpu intensive algo will provoke massive change to our miners and mining ecosystem. Ethash compared to keccak is memory intensive ,and gpus are pretty much compatitive to asics right now: 1)efficiency: rx 580 =3.33 w/mh and  a10= 1,75, 2) 2)price : rx 580 =150$ ( 5$/mh) and a10= 5600$ ( 11$/ mh)\r\nSo the real question is pretty much equal to this: cpu intensive vs memory intensive?gpus+ asics or asics? btc or etc is more decentrilized ? I think as for now gpus+ asics in ethash ecosystem make a helaty environement for decentralization hash power. Although btc seems to be well decentralized too.\r\nConclusion: for me an algo change will be profitable long term as keccak256 seems to be superior than Ethash in terms of security. Nevertheless, ethash seems to be superior in terms of decentralization. Short term we should consider other ways to reduce the risk for a future \"51% attack\" and allow the crypto mining industry to mature more. That would lead to a more decentralized mining hardware industry and consort with our optimal mining vision of a better decentralized eco.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/479955986/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

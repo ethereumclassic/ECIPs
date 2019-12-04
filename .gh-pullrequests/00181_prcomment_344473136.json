@@ -1,0 +1,56 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/344473136",
+    "pull_request_review_id": 314590842,
+    "id": 344473136,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM0NDQ3MzEzNg==",
+    "diff_hunk": "@@ -0,0 +1,22 @@\n+# Security Policy\n+\n+Security alerts related to the hosting and delivery of the ecips.ethereumclassic.org web site will be addressed and will be taken by either the ecip editors or org admins. Security concerns with I individual ecips should be addressed in the `discussion to` locations.\n+Security alerts will not be made publicly until mitigating solutions are identified. Once a remedy is found, dependably will automate the repair process.\n+\n+This site is free and open source in accordance with the site license which can be found at LICENSE.md or COPY.md\n+ \n+## Supported Versions\n+\n+Use this section to tell people about which versions of your project are\n+currently being supported with security updates.\n+\n+| Version | Supported          |\n+| ------- | ------------------ |\n+| master  | :white_check_mark: |\n+\n+\n+## Reporting a Vulnerability\n+\n+Please contact security@ethereumclassic.org with any website or ecip related security concerns.",
+    "path": "SECURITY.md",
+    "position": null,
+    "original_position": 20,
+    "commit_id": "41471aae225e13ade9a77bb1525196e17a7bd987",
+    "original_commit_id": "adbd2831ca395ed88875c652af2cfcb5b330aa01",
+    "user": {
+      "login": "realcodywburns",
+      "id": 13103499,
+      "node_id": "MDQ6VXNlcjEzMTAzNDk5",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/13103499?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/realcodywburns",
+      "html_url": "https://github.com/realcodywburns",
+      "followers_url": "https://api.github.com/users/realcodywburns/followers",
+      "following_url": "https://api.github.com/users/realcodywburns/following{/other_user}",
+      "gists_url": "https://api.github.com/users/realcodywburns/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/realcodywburns/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/realcodywburns/subscriptions",
+      "organizations_url": "https://api.github.com/users/realcodywburns/orgs",
+      "repos_url": "https://api.github.com/users/realcodywburns/repos",
+      "events_url": "https://api.github.com/users/realcodywburns/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/realcodywburns/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "I can link to this repo https://github.com/ethereumclassic/volunteer/tree/master/Volunteer-Public-Keys",
+    "created_at": "2019-11-10T05:24:44Z",
+    "updated_at": "2019-11-17T00:16:33Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/181#discussion_r344473136",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/181",
+    "author_association": "MEMBER",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/344473136"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/181#discussion_r344473136"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/181"
+      }
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": null,
+    "original_line": 20,
+    "side": "RIGHT",
+    "in_reply_to_id": 344467300
+  }

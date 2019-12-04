@@ -1,0 +1,77 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/130",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/130/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/130/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/130/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/130",
+    "id": 480568482,
+    "node_id": "MDU6SXNzdWU0ODA1Njg0ODI=",
+    "number": 130,
+    "title": "[ECIP-1054] Atlantis Hardfork Outreach Tracker",
+    "user": {
+      "login": "soc1c",
+      "id": 47772477,
+      "node_id": "MDQ6VXNlcjQ3NzcyNDc3",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/47772477?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/soc1c",
+      "html_url": "https://github.com/soc1c",
+      "followers_url": "https://api.github.com/users/soc1c/followers",
+      "following_url": "https://api.github.com/users/soc1c/following{/other_user}",
+      "gists_url": "https://api.github.com/users/soc1c/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/soc1c/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/soc1c/subscriptions",
+      "organizations_url": "https://api.github.com/users/soc1c/orgs",
+      "repos_url": "https://api.github.com/users/soc1c/repos",
+      "events_url": "https://api.github.com/users/soc1c/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/soc1c/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 1154785137,
+        "node_id": "MDU6TGFiZWwxMTU0Nzg1MTM3",
+        "url": "https://api.github.com/repos/ethereumclassic/ECIPs/labels/status:%20accepted",
+        "name": "status: accepted",
+        "color": "d876e3",
+        "default": false,
+        "description": "Ecip has been accepted and is awaiting Final status and activation"
+      },
+      {
+        "id": 1154785129,
+        "node_id": "MDU6TGFiZWwxMTU0Nzg1MTI5",
+        "url": "https://api.github.com/repos/ethereumclassic/ECIPs/labels/type:%20meta",
+        "name": "type: meta",
+        "color": "cfd3d7",
+        "default": false,
+        "description": "Accepted best practices"
+      }
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 14,
+    "created_at": "2019-08-14T09:13:40Z",
+    "updated_at": "2019-10-06T19:31:53Z",
+    "closed_at": "2019-09-13T08:22:35Z",
+    "author_association": "MEMBER",
+    "body": "### TL;DR\r\nIf someone pointed you to this issue, you **probably have to upgrade your Ethereum Classic node software** in anticipation of the **upcoming Atlantis protocol upgrade** ([ECIP-1054](https://ecips.ethereumclassic.org/ECIPs/ecip-1054)).\r\n\r\nYou have to run **at least** one of the following client versions:\r\n- Classic-Geth, version **6.0.8-stable** or later: [etclabscore/go-ethereum/releases](https://github.com/etclabscore/go-ethereum/releases)\r\n- Multi-Geth, version **1.9.2-stable** or later: [multi-geth/multi-geth/releases](https://github.com/multi-geth/multi-geth/releases)\r\n- Parity Ethereum, version **2.5.6-stable** or later: [paritytech/parity-ethereum/releases](https://github.com/paritytech/parity-ethereum/releases)\r\n- _Mantis is no longer supporting Ethereum Classic!_\r\n\r\n**Projected Hardfork Date** based on 14.5 seconds block time:\r\n- 9:00 am UTC  |  **Friday, September 13, 2019**\r\n\r\nPlease share this on all channels. That's exactly 1 month from today creating this tracking ticket.\r\n\r\n### Reach out to Mining Pools\r\n- [x] https://etc.ethermine.org/\r\n- [x] https://etc.nanopool.org/\r\n- [x] https://ethereum-classic.miningpoolhub.com/\r\n- [x] https://2miners.com/etc-mining-pool\r\n- [x] https://etc.f2pool.com\r\n- [x] https://pool.btc.com/\r\n- [ ] https://etcpool.maxhash.org/\r\n- [ ] https://minergate.com/etc-mining-pool\r\n- [ ] https://etc.solopool.org/\r\n- [ ] https://etc.arsmine.com/\r\n- [ ] http://etc.hvpps.net/\r\n- [ ] https://anyhash.net/\r\n- [x] https://comining.io/\r\n- [x] https://etc.cominers.org/\r\n- [x] https://hashon.me/etc/home\r\n- [ ] http://tpool.io/pool/etc/stats\r\n- [ ] https://etc.matpool.io/\r\n- [ ] https://beepool.org/coindetail/etc\r\n\r\n### Update Websites and Social Media\r\n- [x] https://ethereumclassic.org/\r\n- [x] https://twitter.com/eth_classic?lang=en\r\n- [ ] https://ethereumclassic.github.io/\r\n- [ ] https://etccooperative.org/\r\n- [x] https://etclabscore.github.io/etclabscore/\r\n- [x] https://etclabs.org\r\n- [x] https://twitter.com/etclabscore\r\n- [x] https://twitter.com/etclabs\r\n- [ ] https://en.wikipedia.org/wiki/Ethereum_Classic\r\n\r\n### Update Block Explorers and Services\r\n- [x] https://blockscout.com/etc/mainnet\r\n- [x] https://gastracker.io/\r\n- [x] https://etcblockexplorer.com/home\r\n- [x] https://etherhub.io/home\r\n- [ ] https://0xeth.com/\r\n- [x] https://www.ethercluster.com/\r\n\r\n### Reach out to Exchanges\r\n- [ ] https://hk.coineal.com/trade_center.html?s=etc-btc#en_US\r\n- [ ] https://www.cointiger.com/en-us/#/trade_pro?coin=etc_btc\r\n- [x] https://trans.zb.com/etcusdt\r\n- [x] https://trade.coinegg.com/trade/etc_btc\r\n- [ ] https://www.bitker.com/#/bbTrades/etc_btc\r\n- [ ] https://www.catex.io/trading/ETC/TRX\r\n- [ ] https://www.idcm.io/trading/ETC_USDT\r\n- [x] https://www.okex.com/market?product=etc_usdt\r\n- [ ] https://www.digifinex.com/en-ww/trade/USDT/ETC\r\n- [ ] https://www.55.com/home/#/exchange?symbol=ETCETH&site=B\r\n- [ ] https://www.coinbene.com/exchange/en_US/ETCUSDT\r\n- [ ] https://www.bitforex.com/en/spot/etc_usdt\r\n- [ ] https://www.bibox.com/exchange?coinPair=ETC_USDT\r\n- [ ] https://hitbtc.com/ETC-to-BTC\r\n- [ ] https://www.digifinex.com/en-ww/trade/ETH/ETC\r\n- [ ] https://www.idax.pro/exchange?pairname=ETC_USDT\r\n- [ ] https://p2pb2b.io/trade/ETC_USD\r\n- [ ] https://www.hbg.com/etc_usdt/exchange/\r\n- [ ] https://coinsbit.io/trade/ETC_BTC\r\n- [x] https://www.binance.com/en/trade/ETC_USDT\r\n- [x] https://pro.coinbase.com/trade/ETC-USD\r\n- [x] https://www.bitfinex.com/\r\n- [x] https://international.bittrex.com/Market/Index?MarketName=BTC-ETC\r\n- [x] https://poloniex.com/exchange#btc_etc\r\n- [x] https://trade.kraken.com/markets/kraken/etc/eur",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/130/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

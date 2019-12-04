@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551794125",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/165#issuecomment-551794125",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/165",
+    "id": 551794125,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MTc5NDEyNQ==",
+    "user": {
+      "login": "kimisan",
+      "id": 8416967,
+      "node_id": "MDQ6VXNlcjg0MTY5Njc=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/8416967?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kimisan",
+      "html_url": "https://github.com/kimisan",
+      "followers_url": "https://api.github.com/users/kimisan/followers",
+      "following_url": "https://api.github.com/users/kimisan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kimisan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kimisan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kimisan/subscriptions",
+      "organizations_url": "https://api.github.com/users/kimisan/orgs",
+      "repos_url": "https://api.github.com/users/kimisan/repos",
+      "events_url": "https://api.github.com/users/kimisan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kimisan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-08T13:29:10Z",
+    "updated_at": "2019-11-08T13:29:10Z",
+    "author_association": "MEMBER",
+    "body": "For ECIPs you can select whatever license(or no license) as you like.\r\nFor me, I will use 「木蘭寬鬆許可證」（MulanPSL).\r\nIt is the first China Permissive software license and better than Apache 2.0 .\r\nAnd It already be used by Huawei.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551794125/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

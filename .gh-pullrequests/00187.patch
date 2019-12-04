@@ -1,0 +1,204 @@
+From 1190845918f4f28ae76bde9586f20b9d611dce60 Mon Sep 17 00:00:00 2001
+From: Talha Cross <47772477+soc1c@users.noreply.github.com>
+Date: Sat, 16 Nov 2019 17:03:06 +0100
+Subject: [PATCH 1/4] ecbp-1076: mining algorithm change process
+
+---
+ _specs/ecip-10746.md | 91 ++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 91 insertions(+)
+ create mode 100644 _specs/ecip-10746.md
+
+diff --git a/_specs/ecip-10746.md b/_specs/ecip-10746.md
+new file mode 100644
+index 0000000..5da37d6
+--- /dev/null
++++ b/_specs/ecip-10746.md
+@@ -0,0 +1,91 @@
++---
++ecip: 1076
++title: Mining Algorithm Change Process
++author: Talha Cross (@soc1c)
++discussions-to: https://github.com/ethereumclassic/ECIPs/issues/174
++status: Draft
++type: ECBP
++created: 2019-11-16
++---
++
++### Abstract
++This meta document is agnostic to any mining algorithm. Its sole purpose is specifying a process how to openly determine and select a mining algorithm for Ethereum Classic.
++
++### Motivation
++The decision to change the Ethereum Classic mining algorithm - or to keep it as is - is not an easy one to make. It should be done by broad consensus with all stakeholders involved - miners, investors, application and core developers, and anyone else who feels having a stake in ETC. This meta document proposes a process of how to facilitate the potential change of the mining algorithm and parameters.
++
++### Available Options
++Currently, the following options are debatable.
++
++- **ECBP-1076-A**: _"Ethash Status Quo."_ The mining algorithm will be untouched as it is since genesis, as **Ethash** function with a statically **increasing DAG**.
++- **ECBP-1076-B**: _"Ethash Limited DAG."_ The mining algorithm will be untouched as it is since genesis, as **Ethash** function. However, the **DAG size will be limited** as specified in [ECIP-1043](https://ecips.ethereumclassic.org/ECIPs/ecip-1043).
++- **ECBP-1076-C**: _"SHA3."_ The mining algorithm will be **changed to SHA3** as specified in [ECIP-1049](https://ecips.ethereumclassic.org/ECIPs/ecip-1049).
++- **ECBP-1076-D**: _"ProgPoW."_ The mining algorithm will be **changed to ProgPow** as specified in [ECIP-1070](https://ecips.ethereumclassic.org/ECIPs/ecip-1070).
++
++Eventually, the community has to decide on one.
++
++### Process
++The following process facilitates all stakeholders in various stages.
++
++1. _"Tech Stage."_ Core and application developers meet in regular calls to evaluate the feasibility of the Ethash status quo, the limited DAG size proposal (ECIP-1043), the SHA3 proposal (ECIP-1049), and the ProgPoW proposal (ECIP-1070).
++
++    If there is no technical objection to each of the proposals, the proposals can be **moved to "Last Call"** state, regardless of whether they will be considered in future or not. As a result, none, one, or many competing proposals can be in "Last Call" state at the same time.
++
++    This stage is finished once all proposals are either in "Last Call," "Withdrawn," or "Rejected" state.
++
++2. _"Miner Stage."_ Solo miners, mining farms, and mining pools can signal support by adjusting their mining node to signal in favor of one of the proposals that was promoted to "Last Call" state in the previous stage. Details on the signaling can be found in the subsequent section.
++
++    This stage is finished once more than **70% of the last 100_000 blocks** were signed with a signal in favor of one proposal.
++3. _"Decision Stage."_ The proposal that passed the technical stage to "Last Call" state and received 70% approval by the miner community, **shall be considered as "Accepted,"** all other competing proposals shall be considered as "Rejected." The EIP Editors are responsible to facilitate this status update to the proposals according to this process definition.
++
++    The block number where the 70% threshold is breached the first time is called the `threshold_blocknumber`. It automatically defines the `activation_blocknumber` which is:
++
++    ```
++    activation_blocknumber = threshold_blocknumber + 1_000_000
++    ```
++
++    That gives clients a six months window of activating releases with the ECBP-1076 activation block number.
++
++    In case none of the proposals reaches the defined threshold, the status quo will remain indefinitely until either one of the proposals reaches the 70% majority or until this process is entirely rejected by the community.
++
++### Miner Signaling
++The miner stage is specified as follows.
++
++The miner prepend the miner's extra data with 5 bytes of signaling data which shall be recorded in the Ethereum Classic block headers. The 5 bytes contain the following:
++
++1. Two start bytes that indicate a signal in terms of ECBP-1076, namely `76` (`0x37 0x36`)
++2. One option byte that favors one of the proposals:
++    - `A` (`0x41`): ECBP-1076-A _(optional)_
++    - `B` (`0x42`): ECBP-1076-B
++    - `C` (`0x43`): ECBP-1076-C
++    - `D` (`0x44`): ECBP-1076-D
++3. Two numeric bytes that vote on the default gas limit as specified in [ECIP-1047](https://ecips.ethereumclassic.org/ECIPs/ecip-1047).
++    - `00` (`0x30 0x30`): abstain / don't care _(optional)_
++    - `01` (`0x30 0x31`): support ECIP-1047 client defaults with 1 million gas block gas limit
++    - `08` (`0x30 0x38`): reject ECIP-1047 client defaults, explicitly supporting the 8 million gas block gas limit defaults
++    - `99` (`0x39 0x39`): any other number between `00` and `99` suggests a competing default block gas limit
++
++In addition to the numeric vote on the gas limit with the extra data field, mining nodes are encouraged to utilized block gas target limit voting with the suitable configuration flags for their mining nodes.
++
++No signaling favors the status quo (ECBP-1076-A) and effectively rejects ECIPs 1041, 1043, 1047, 1049, and 1070.
++
++### Mining Node Configuration Examples
++The following configuration examples do not favor one option over another and only serve the purpose of demonstration.
++
++A Parity Ethereum node configured to vote for SHA3 (ECBP-1076-C) not caring about the block gas limit:
++
++```
++parity --extra-data "76C00 Happy Trigger Farm" [OPTIONS]
++```
++
++A Multi-Geth node configured to vote for Ethash with DAG size limit (ECBP-1076-B) and a 1 million block gas limit (ECIP-1047):
++
++```
++geth --miner.extradata "76B01 Funny Classic Pool" --miner.gaslimit 1000000 [OPTIONS]
++```
++
++### Implementation
++All clients implement custom extra data and block gas limit target voting. No custom implementation is required.
++
++### Copyright/Licensing
++Copyright and related rights waived via [CC0.](https://creativecommons.org/publicdomain/zero/1.0/)
+
+From 98ed5f3d8c8d67fcf6509d2a0b7b3bc84e0b8d9f Mon Sep 17 00:00:00 2001
+From: Talha Cross <47772477+soc1c@users.noreply.github.com>
+Date: Sat, 16 Nov 2019 17:10:48 +0100
+Subject: [PATCH 2/4] ecbp-1076: add besu config example
+
+---
+ _specs/ecip-10746.md | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+diff --git a/_specs/ecip-10746.md b/_specs/ecip-10746.md
+index 5da37d6..66ffb03 100644
+--- a/_specs/ecip-10746.md
++++ b/_specs/ecip-10746.md
+@@ -83,6 +83,11 @@ A Multi-Geth node configured to vote for Ethash with DAG size limit (ECBP-1076-B
+ ```
+ geth --miner.extradata "76B01 Funny Classic Pool" --miner.gaslimit 1000000 [OPTIONS]
+ ```
++A Besu node configured to vote for ProgPoW (ECBP-1076-D) and an increase of the block gas limit:
++
++```
++besu --miner-extra-data="76D15 LOL-lonely Miner 1337" --target-gas-limit=15000000 [OPTIONS]
++```
+ 
+ ### Implementation
+ All clients implement custom extra data and block gas limit target voting. No custom implementation is required.
+
+From 90814e4664bd39bfce57fc8e46928c357c5302c8 Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Sun, 17 Nov 2019 02:28:31 +0300
+Subject: [PATCH 3/4] Update and rename ecip-10746.md to ecip-1076.md
+
+---
+ _specs/{ecip-10746.md => ecip-1076.md} | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ rename _specs/{ecip-10746.md => ecip-1076.md} (98%)
+
+diff --git a/_specs/ecip-10746.md b/_specs/ecip-1076.md
+similarity index 98%
+rename from _specs/ecip-10746.md
+rename to _specs/ecip-1076.md
+index 66ffb03..20a8a93 100644
+--- a/_specs/ecip-10746.md
++++ b/_specs/ecip-1076.md
+@@ -1,4 +1,5 @@
+ ---
++lang: en
+ ecip: 1076
+ title: Mining Algorithm Change Process
+ author: Talha Cross (@soc1c)
+@@ -93,4 +94,4 @@ besu --miner-extra-data="76D15 LOL-lonely Miner 1337" --target-gas-limit=1500000
+ All clients implement custom extra data and block gas limit target voting. No custom implementation is required.
+ 
+ ### Copyright/Licensing
+-Copyright and related rights waived via [CC0.](https://creativecommons.org/publicdomain/zero/1.0/)
++Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+
+From da1b5fc7cc7432ed3e561ea9bdf64896dfb517b0 Mon Sep 17 00:00:00 2001
+From: Talha Cross <47772477+soc1c@users.noreply.github.com>
+Date: Sun, 17 Nov 2019 11:06:00 +0100
+Subject: [PATCH 4/4] rename sha3 to keccak256
+
+---
+ _specs/ecip-1076.md | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/_specs/ecip-1076.md b/_specs/ecip-1076.md
+index 20a8a93..de8261f 100644
+--- a/_specs/ecip-1076.md
++++ b/_specs/ecip-1076.md
+@@ -20,7 +20,7 @@ Currently, the following options are debatable.
+ 
+ - **ECBP-1076-A**: _"Ethash Status Quo."_ The mining algorithm will be untouched as it is since genesis, as **Ethash** function with a statically **increasing DAG**.
+ - **ECBP-1076-B**: _"Ethash Limited DAG."_ The mining algorithm will be untouched as it is since genesis, as **Ethash** function. However, the **DAG size will be limited** as specified in [ECIP-1043](https://ecips.ethereumclassic.org/ECIPs/ecip-1043).
+-- **ECBP-1076-C**: _"SHA3."_ The mining algorithm will be **changed to SHA3** as specified in [ECIP-1049](https://ecips.ethereumclassic.org/ECIPs/ecip-1049).
++- **ECBP-1076-C**: _"Keccak256 (SHA3)."_ The mining algorithm will be **changed to Keccak256** as specified in [ECIP-1049](https://ecips.ethereumclassic.org/ECIPs/ecip-1049).
+ - **ECBP-1076-D**: _"ProgPoW."_ The mining algorithm will be **changed to ProgPow** as specified in [ECIP-1070](https://ecips.ethereumclassic.org/ECIPs/ecip-1070).
+ 
+ Eventually, the community has to decide on one.
+@@ -28,7 +28,7 @@ Eventually, the community has to decide on one.
+ ### Process
+ The following process facilitates all stakeholders in various stages.
+ 
+-1. _"Tech Stage."_ Core and application developers meet in regular calls to evaluate the feasibility of the Ethash status quo, the limited DAG size proposal (ECIP-1043), the SHA3 proposal (ECIP-1049), and the ProgPoW proposal (ECIP-1070).
++1. _"Tech Stage."_ Core and application developers meet in regular calls to evaluate the feasibility of the Ethash status quo, the limited DAG size proposal (ECIP-1043), the Keccak256 proposal (ECIP-1049), and the ProgPoW proposal (ECIP-1070).
+ 
+     If there is no technical objection to each of the proposals, the proposals can be **moved to "Last Call"** state, regardless of whether they will be considered in future or not. As a result, none, one, or many competing proposals can be in "Last Call" state at the same time.
+ 
+@@ -73,7 +73,7 @@ No signaling favors the status quo (ECBP-1076-A) and effectively rejects ECIPs 1
+ ### Mining Node Configuration Examples
+ The following configuration examples do not favor one option over another and only serve the purpose of demonstration.
+ 
+-A Parity Ethereum node configured to vote for SHA3 (ECBP-1076-C) not caring about the block gas limit:
++A Parity Ethereum node configured to vote for Keccak256 (ECBP-1076-C) not caring about the block gas limit:
+ 
+ ```
+ parity --extra-data "76C00 Happy Trigger Farm" [OPTIONS]

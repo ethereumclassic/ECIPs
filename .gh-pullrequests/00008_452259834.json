@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/452259834",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/8#issuecomment-452259834",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/8",
+    "id": 452259834,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1MjI1OTgzNA==",
+    "user": {
+      "login": "saturn-network",
+      "id": 44673408,
+      "node_id": "MDQ6VXNlcjQ0NjczNDA4",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/44673408?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/saturn-network",
+      "html_url": "https://github.com/saturn-network",
+      "followers_url": "https://api.github.com/users/saturn-network/followers",
+      "following_url": "https://api.github.com/users/saturn-network/following{/other_user}",
+      "gists_url": "https://api.github.com/users/saturn-network/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/saturn-network/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/saturn-network/subscriptions",
+      "organizations_url": "https://api.github.com/users/saturn-network/orgs",
+      "repos_url": "https://api.github.com/users/saturn-network/repos",
+      "events_url": "https://api.github.com/users/saturn-network/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/saturn-network/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-08T11:03:05Z",
+    "updated_at": "2019-01-08T11:03:05Z",
+    "author_association": "NONE",
+    "body": "IMO ProgPow would be a better option.\r\n\r\n1. SHA3 is super easy to develop FPGA and ASIC miners for.\r\n2. Another hashing function is trivial to add to EVM as a precompiled contract provided there is need for it.\r\n3. \r\n> This ECIP could open the possibility of smart contracts being able to evaluate chain state, and simplify second layer (L2) development.\r\n\r\nThis is [already possible](https://peacerelay.io/) and has nothing to do with choosing hashing functions for PoW consensus. What matters is which hashing function was used to link to previous block (block `N+1` must contain hash of block `N`) which is already `keccak256` and can remain `keccak256` even if you change the hashing function used for PoW in Nakamoto consensus.\r\n\r\nIf ETH changes to ProgPow IMO ETC should change as well in order to be better positioned to absorb Ethereum's hashrate once ETH switches to PoS.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/452259834/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

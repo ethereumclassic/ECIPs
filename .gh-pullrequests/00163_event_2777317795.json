@@ -1,0 +1,29 @@
+{
+    "id": 2777317795,
+    "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50Mjc3NzMxNzc5NQ==",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/events/2777317795",
+    "actor": {
+      "login": "50-Cent",
+      "id": 35384853,
+      "node_id": "MDQ6VXNlcjM1Mzg0ODUz",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/35384853?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/50-Cent",
+      "html_url": "https://github.com/50-Cent",
+      "followers_url": "https://api.github.com/users/50-Cent/followers",
+      "following_url": "https://api.github.com/users/50-Cent/following{/other_user}",
+      "gists_url": "https://api.github.com/users/50-Cent/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/50-Cent/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/50-Cent/subscriptions",
+      "organizations_url": "https://api.github.com/users/50-Cent/orgs",
+      "repos_url": "https://api.github.com/users/50-Cent/repos",
+      "events_url": "https://api.github.com/users/50-Cent/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/50-Cent/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "event": "mentioned",
+    "commit_id": null,
+    "commit_url": null,
+    "created_at": "2019-11-07T00:05:41Z"
+  }

@@ -1,0 +1,29 @@
+{
+    "id": 2777874221,
+    "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDI3Nzc4NzQyMjE=",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/events/2777874221",
+    "actor": {
+      "login": "soc1c",
+      "id": 47772477,
+      "node_id": "MDQ6VXNlcjQ3NzcyNDc3",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/47772477?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/soc1c",
+      "html_url": "https://github.com/soc1c",
+      "followers_url": "https://api.github.com/users/soc1c/followers",
+      "following_url": "https://api.github.com/users/soc1c/following{/other_user}",
+      "gists_url": "https://api.github.com/users/soc1c/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/soc1c/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/soc1c/subscriptions",
+      "organizations_url": "https://api.github.com/users/soc1c/orgs",
+      "repos_url": "https://api.github.com/users/soc1c/repos",
+      "events_url": "https://api.github.com/users/soc1c/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/soc1c/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "event": "referenced",
+    "commit_id": "a858c198095b7b774906d6507cffbb71d64c566e",
+    "commit_url": "https://api.github.com/repos/ethereumclassic/ECIPs/commits/a858c198095b7b774906d6507cffbb71d64c566e",
+    "created_at": "2019-11-07T06:03:31Z"
+  }

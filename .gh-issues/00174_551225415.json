@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551225415",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/174#issuecomment-551225415",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/174",
+    "id": 551225415,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MTIyNTQxNQ==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-07T19:22:04Z",
+    "updated_at": "2019-11-07T19:22:04Z",
+    "author_association": "MEMBER",
+    "body": "Also, the thing you hate :-)\r\n\r\nhttps://ethereumclassic.org/blog/2019-10-06-pow-mining-explicit-social-contract/\r\n\r\nSo is this proposal a Constitution?  Not really. It would just consist of a single sentence. Something like:\r\n\r\n“Adoption of this proposal by the ECIP authors is an explicit social contact between the Ethereum Classic ecosystem and the POW mining ecosystem that ETC intends to stay with POW mining (not merged mining) into the indefinite future.”",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551225415/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

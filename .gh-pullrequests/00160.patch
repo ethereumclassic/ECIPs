@@ -1,0 +1,26 @@
+From b5c56a863840adf28c94e916c5c7c6e369813643 Mon Sep 17 00:00:00 2001
+From: Zac Mitton <zacmitton22@gmail.com>
+Date: Fri, 1 Nov 2019 17:54:17 -0400
+Subject: [PATCH] (re)corrected dusscusion-to link
+
+---
+ _specs/ecip-1067.md | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/_specs/ecip-1067.md b/_specs/ecip-1067.md
+index 284a8f6..e565861 100644
+--- a/_specs/ecip-1067.md
++++ b/_specs/ecip-1067.md
+@@ -1,10 +1,10 @@
+ ---
+ lang: en
+ ecip: 1067
+-title: Standardize OS Level Management of Signature Handling
++title: Standardize OS Level Management of Signature Handling ("invoke-signer")
+ status: Draft
+ type: Interface
+-discussions-to: https://github.com/ethereumclassic/ECIPs/issues/58
++discussions-to: https://github.com/ethereumclassic/ECIPs/issues/147
+ author: Zac Mitton
+ created: 2019-02-07
+ ---

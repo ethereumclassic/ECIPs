@@ -1,0 +1,108 @@
+From e83658ba3f9e0c361ed2e25a43fe0a663e5e9cb4 Mon Sep 17 00:00:00 2001
+From: Wei Tang <accounts@that.world>
+Date: Thu, 28 Nov 2019 08:29:39 +0100
+Subject: [PATCH 1/2] Revert "ecip-1061: move aztlan to last call"
+
+---
+ _specs/ecip-1061.md | 24 ++++++++++--------------
+ 1 file changed, 10 insertions(+), 14 deletions(-)
+
+diff --git a/_specs/ecip-1061.md b/_specs/ecip-1061.md
+index ba6bc17..e410baf 100644
+--- a/_specs/ecip-1061.md
++++ b/_specs/ecip-1061.md
+@@ -1,11 +1,10 @@
+ ---
+ lang: en
+ ecip: 1061
+-title: Aztlán EVM and Protocol Upgrades (Yingchun Edition)
+-status: Last Call
+-review-period-end: 2019-12-19
++title: Aztlán EVM and Protocol Upgrades
++status: Draft
+ type: Meta
+-author: Talha Cross (@soc1c), Wei Tang (@sorpaas)
++author: Talha Cross (@soc1c)
+ created: 2019-06-06
+ discussions-to: https://github.com/ethereumclassic/ECIPs/issues/81
+ ---
+@@ -13,11 +12,7 @@ discussions-to: https://github.com/ethereumclassic/ECIPs/issues/81
+ ### Simple Summary
+ 
+ Enable the outstanding Ethereum Foundation _Istanbul_ network protocol upgrades on the Ethereum
+-Classic network without any gas-cost assumptions in a hard-fork code-named _Aztlán_ to enable 
+-maximum compatibility across these networks. 
+-
+-The _Yingchun_ Edition refers to the preferred variant of _Aztlán_ without any repricing of state-trie 
+-dependent opcodes as previously proposed in [ECIP-1072](https://ecips.ethereumclassic.org/ECIPs/ecip-1072).
++Classic network in a hard-fork code-named _Aztlán_ to enable maximum compatibility across these networks.
+ 
+ ### Abstract
+ 
+@@ -27,13 +22,14 @@ _Istanbul_ hardforks. The proposed changes for Ethereum Classic's _Aztlán_ upgr
+ - Add Blake2 compression function `F` precompile
+ - Reduce alt_bn128 precompile gas costs
+ - Add ChainID opcode
++- Repricing for trie-size-dependent opcodes
+ - Calldata gas cost reduction
+ - Rebalance net-metered SSTORE gas cost with consideration of SLOAD gas cost change
+ 
+ This document proposes the following blocks at which to implement these changes in the Classic networks:
+ 
+-- `778_507` on Mordor Classic PoW-testnet (Feb 5th, 2020)
+-- `2_058_191` on Kotti Classic PoA-testnet (Feb 12th, 2020)
++- `TBD` on Mordor Classic PoW-testnet (Feb 5th, 2020)
++- `TBD` on Kotti Classic PoA-testnet (Feb 12th, 2020)
+ - `TBD` on Ethereum Classic PoW-mainnet (March 25th, 2020)
+ 
+ For more information on the opcodes and their respective EIPs and implementations, please see the _Specification_
+@@ -51,6 +47,7 @@ Technical specifications for each EIP can be found at those documents respective
+ - [EIP-152](https://eips.ethereum.org/EIPS/eip-152): Add Blake2 compression function `F` precompile
+ - [EIP-1108](https://eips.ethereum.org/EIPS/eip-1108): Reduce alt_bn128 precompile gas costs
+ - [EIP-1344](https://eips.ethereum.org/EIPS/eip-1344): Add ChainID opcode
++- [EIP-1884](https://eips.ethereum.org/EIPS/eip-1884): Repricing for trie-size-dependent opcodes
+ - [EIP-2028](https://eips.ethereum.org/EIPS/eip-2028): Calldata gas cost reduction
+ - [EIP-2200](https://eips.ethereum.org/EIPS/eip-2200): Rebalance net-metered SSTORE gas cost with consideration of SLOAD gas cost change
+ 
+@@ -63,8 +60,7 @@ Görli and Kotti).
+ __Immutability__: None of the introduced new opcodes in the EVM has the potential to change the behavior of existing
+ contracts; in the case where previously an arbitrary invalid bytecode would have been deployed to the network, none of
+ them would be able to modify the state of the Ethereum Classic networks retrospectively. Adding opcodes to the EVM
+-increases its functionality and should be considered a feature upgrade rather than a modification. In particular, a delay
+-of Istanbul's EIP-1884 activation should be considered until backward-compatibility solutions are in place on Ethereum Classic.
++increases its functionality and should be considered a feature upgrade rather than a modification.
+ 
+ ### Implementation
+ 
+@@ -78,7 +74,7 @@ The following clients with Ethereum Classic support implement the _Istanbul_ fea
+ 
+ ### Final Note
+ 
+-Both, the Geth Classic client and the Morden testnet will no longer be supported by the community and not recieve the _Aztlán_ ugrades.
++Both, the Geth Classic client and the Morden testnet will no longer be supported by the community and not recieve the Aztlán ugrades.
+ 
+ - Users of the Geth Classic client are urged to migrate their services to Parity Ethereum, Multi-Geth, or Hyperledger Besu. It is no longer recommended to run Geth Classic in production.
+ - Users of the Morden Classic testnet are urged to migrate their applications to the Kotti Classic or Morder Classic testnets.
+
+From 726490b04f1f4259c9e57e9a71114dbac7bed705 Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Thu, 28 Nov 2019 08:34:09 +0100
+Subject: [PATCH 2/2] Update ecip-1061.md
+
+---
+ _specs/ecip-1061.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-1061.md b/_specs/ecip-1061.md
+index e410baf..49d0024 100644
+--- a/_specs/ecip-1061.md
++++ b/_specs/ecip-1061.md
+@@ -2,7 +2,7 @@
+ lang: en
+ ecip: 1061
+ title: Aztlán EVM and Protocol Upgrades
+-status: Draft
++status: Withdrawn
+ type: Meta
+ author: Talha Cross (@soc1c)
+ created: 2019-06-06

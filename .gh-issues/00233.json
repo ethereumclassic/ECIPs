@@ -1,0 +1,60 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/233",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/233/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/233/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/233/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/233",
+    "id": 530777573,
+    "node_id": "MDU6SXNzdWU1MzA3Nzc1NzM=",
+    "number": 233,
+    "title": "Fun Suggestion - Phoenix Day",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2019-12-01T18:57:52Z",
+    "updated_at": "2019-12-01T19:44:46Z",
+    "closed_at": null,
+    "author_association": "MEMBER",
+    "body": "Just a fun suggestion.\r\n\r\nI propose that we should start referring to 25th March 2020 as \"Phoenix Day\".\r\n\r\nThis is when Atzlan hits the ETC mainnet and when it becomes trivial to migrate ETH1 smart contracts for ETC.\r\n\r\nThat is when Ethereum Classic is truly reborn.\r\n\r\nI was talking about renaming of Agharta and Aztlan as Ethereum Classic \"Phoenix\", phase 1 and 2.\r\n\r\nThat didn't fly, but what about \"Phoenix Day\"?    We can meme it up the wazoo and generate so much buzz around that branding.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/233/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

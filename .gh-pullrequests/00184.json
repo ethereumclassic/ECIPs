@@ -1,0 +1,74 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/184",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/184/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/184/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/184/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/184",
+    "id": 523135693,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0MzQxMjAxNjYw",
+    "number": 184,
+    "title": "ECIP-1072, ECIP-1073, ECIP-1074: Backward Compatible Options for Istanbul Hard Forks",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 1154785139,
+        "node_id": "MDU6TGFiZWwxMTU0Nzg1MTM5",
+        "url": "https://api.github.com/repos/ethereumclassic/ECIPs/labels/status:%20draft",
+        "name": "status: draft",
+        "color": "ffffff",
+        "default": false,
+        "description": "draft stage - can be assigned ecip number and merged, but requires new PR to be Accepted"
+      }
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2019-11-14T22:16:29Z",
+    "updated_at": "2019-11-15T15:29:44Z",
+    "closed_at": "2019-11-15T15:29:40Z",
+    "author_association": "MEMBER",
+    "pull_request": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/184",
+      "html_url": "https://github.com/ethereumclassic/ECIPs/pull/184",
+      "diff_url": "https://github.com/ethereumclassic/ECIPs/pull/184.diff",
+      "patch_url": "https://github.com/ethereumclassic/ECIPs/pull/184.patch"
+    },
+    "body": "This adds three new hard fork meta, with different options to apply the Istanbul upgrade in a backward compatible way:\r\n\r\n* ECIP-1072: Apply Istanbul directly, but remove the offending EIP-1884.\r\n* ECIP-1073: Apply Istanbul with account versioning ECIP-1040 / EIP-1702. Currently both Parity and Geth have the implementation required. However, the drawback, as discussed last time, is that this will require a new account version for every hard fork.\r\n* ECIP-1074: Apply Istanbul with account versioning, and with forward-compatible EVM changes. Currently no client has implemented 39-UNGAS and 40-UNUSED yet, so this will require more work, and we will need to maintain our own ecosystem tools. However, it gives us a good future foundation for modifying EVMs further. This is basically combination of ECIP-1065 Kunming hard fork with Istanbul.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/184/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

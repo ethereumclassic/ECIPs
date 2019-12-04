@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550975231",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/13#issuecomment-550975231",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/13",
+    "id": 550975231,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MDk3NTIzMQ==",
+    "user": {
+      "login": "AndreaLanfranchi",
+      "id": 15280851,
+      "node_id": "MDQ6VXNlcjE1MjgwODUx",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/15280851?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AndreaLanfranchi",
+      "html_url": "https://github.com/AndreaLanfranchi",
+      "followers_url": "https://api.github.com/users/AndreaLanfranchi/followers",
+      "following_url": "https://api.github.com/users/AndreaLanfranchi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AndreaLanfranchi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AndreaLanfranchi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AndreaLanfranchi/subscriptions",
+      "organizations_url": "https://api.github.com/users/AndreaLanfranchi/orgs",
+      "repos_url": "https://api.github.com/users/AndreaLanfranchi/repos",
+      "events_url": "https://api.github.com/users/AndreaLanfranchi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AndreaLanfranchi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-07T08:26:47Z",
+    "updated_at": "2019-11-07T08:26:47Z",
+    "author_association": "NONE",
+    "body": "> Can't code, so I am forced to rely on the trusted third party devs and documentation as to the security of SHA3.\r\n\r\nTo be extremely clear SHA3 has been in ethash algorithm since its birth.\r\nSha3 in ethash is called Keccak but the two terms are synonims. There is a slight difference SHA3 vs Keccak due to padding of output but the two functions are the same and rely on the same cryptographical strength.\r\n\r\nEthash algorithm is : Keccak256 -> 64 rounds of access to DAG area -> Keccak256.\r\n\r\nThis proposal introduces nothing new unless (but is not clearly stated) is meant to remove the DAG accesses and eventually reduce Keccak rounds from 2 to 1. I have to assume this as the proponent says Ethash (Dagger Hashimoto) is memory intensive while SHA3 would not be,\r\n\r\nUnder those circumnstances the new proposed SHA3 algo (which is wrong definition as SHA3 is simply an hash function accepting any arbitrary data as input - to define an algo you need to define how that input is obtained) the result would be;\r\n\r\n- A new PoW algo which differentiates ETC fom ETH\r\n- An algo easily and quickly implementable in ASICs definitely tombstoning GPU mining on ETC\r\n\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550975231/reactions",
+      "total_count": 1,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

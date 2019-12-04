@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560459676",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/220#issuecomment-560459676",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/220",
+    "id": 560459676,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDQ1OTY3Ng==",
+    "user": {
+      "login": "meowsbits",
+      "id": 45600330,
+      "node_id": "MDQ6VXNlcjQ1NjAwMzMw",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/45600330?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/meowsbits",
+      "html_url": "https://github.com/meowsbits",
+      "followers_url": "https://api.github.com/users/meowsbits/followers",
+      "following_url": "https://api.github.com/users/meowsbits/following{/other_user}",
+      "gists_url": "https://api.github.com/users/meowsbits/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/meowsbits/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/meowsbits/subscriptions",
+      "organizations_url": "https://api.github.com/users/meowsbits/orgs",
+      "repos_url": "https://api.github.com/users/meowsbits/repos",
+      "events_url": "https://api.github.com/users/meowsbits/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/meowsbits/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-02T16:01:59Z",
+    "updated_at": "2019-12-02T16:05:22Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "And to your point here:\r\n\r\n> The history is left by others to interpret, but that's really not part of the ECIP process.\r\n> https://github.com/ethereumclassic/ECIPs/pull/220#issuecomment-560433342\r\n\r\nAs I understand, it seems to me your conception of the 'ECIP Process' is one that is almost entirely mechanical, concerned strictly with procedural specifications and regulated, documented, and explicitly permissible or impermissible actions. And that's OK! I really respect that; I like building rules and processes that work, that can be trusted, and that can be used to yield positive and constructive results. Like you, I am also a programmer.\r\n\r\nIn the spirit of collaboration, and hopefully too of the beautiful _potential_ that we have here with so many people and so much diversity and energy, I would hope and dare to suggest that this ECIP process might _also_ be more than that. It might also be the conversations around and about specifications and the ways we build them. It might be attitudes and personalities and relationships of the humans that are the ultimate builders and meaning-givers to all of these mechanics here.\r\n\r\nThese specifications will not write, edit, nor implement themselves, and it may be that a watertight ECIP process may actually suffocate creativity if it is preferred at an inordinate cost of human energy or resources or even emotion.\r\n\r\nI want to ask myself with each proposed modification (especially in context of ECIP-1000, which you originally authored): How will this benefit the people who will or might make use of it?\r\n\r\n@sorpaas How would you answer this question respective to the changes you have proposed? Have you considered any alternatives? Can you see any costs or downsides?  ",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560459676/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

@@ -1,0 +1,39 @@
+{
+    "id": 321048423,
+    "node_id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MzIxMDQ4NDIz",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "As said in https://github.com/ethereumclassic/ECIPs/issues/174#issuecomment-557179731 I don't think we can move forward with this at all. Thus putting it on hold.",
+    "state": "DISMISSED",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/194#pullrequestreview-321048423",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/194",
+    "author_association": "MEMBER",
+    "_links": {
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/194#pullrequestreview-321048423"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/194"
+      }
+    },
+    "submitted_at": "2019-11-21T17:10:29Z",
+    "commit_id": "745d44a93629ffc65613da753ff02f3a12f6861a"
+  }

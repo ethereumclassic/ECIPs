@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551227970",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/165#issuecomment-551227970",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/165",
+    "id": 551227970,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MTIyNzk3MA==",
+    "user": {
+      "login": "BelfordZ",
+      "id": 1787231,
+      "node_id": "MDQ6VXNlcjE3ODcyMzE=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1787231?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/BelfordZ",
+      "html_url": "https://github.com/BelfordZ",
+      "followers_url": "https://api.github.com/users/BelfordZ/followers",
+      "following_url": "https://api.github.com/users/BelfordZ/following{/other_user}",
+      "gists_url": "https://api.github.com/users/BelfordZ/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/BelfordZ/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/BelfordZ/subscriptions",
+      "organizations_url": "https://api.github.com/users/BelfordZ/orgs",
+      "repos_url": "https://api.github.com/users/BelfordZ/repos",
+      "events_url": "https://api.github.com/users/BelfordZ/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/BelfordZ/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-07T19:28:33Z",
+    "updated_at": "2019-11-07T19:30:12Z",
+    "author_association": "MEMBER",
+    "body": "@drd34d Given that **WE ARE NOT DISCUSSING DCO/RESTRICTIONS ON WHO CAN CONTRIBUTE**, would you care to reconsider?\r\n\r\nalso, I need to address something here. @drd34d is the only one who has opposed this proposal on reasonable grounds, given that he was under the assumption that this proposal included the DCO / real name crap. The rest of you, Ask yourself this:\r\n\r\n1. Have you ever started, maintained, or been a large part of a software project?\r\n1. Have you ever, before last week, educated yourself on open source software licensing?\r\n1. Do you think those who contribute code value your opinion?",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551227970/reactions",
+      "total_count": 1,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

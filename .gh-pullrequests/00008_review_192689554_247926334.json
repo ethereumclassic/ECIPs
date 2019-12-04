@@ -1,0 +1,50 @@
+{
+    "id": 247926334,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDI0NzkyNjMzNA==",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/247926334",
+    "pull_request_review_id": 192689554,
+    "diff_hunk": "@@ -0,0 +1,52 @@\n+### What is an ECIP?\n+\n+    ECIP: 1049\n+    Title: Change the ETC Proof of Work Algorithm to Keccak256\n+    Status: Draft\n+    Type: Meta\n+    Author: Alexander Tsankov (alexander.tsankov@colorado.edu)\n+    Created: 2019-01-08\n+",
+    "path": "ECIPs/ECIP-1049.md",
+    "position": 10,
+    "original_position": 9,
+    "commit_id": "b5829b167e126fd51ff467ae72d3ed99a26c7e00",
+    "user": {
+      "login": "p3c-bot",
+      "id": 40745785,
+      "node_id": "MDQ6VXNlcjQwNzQ1Nzg1",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/40745785?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/p3c-bot",
+      "html_url": "https://github.com/p3c-bot",
+      "followers_url": "https://api.github.com/users/p3c-bot/followers",
+      "following_url": "https://api.github.com/users/p3c-bot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/p3c-bot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/p3c-bot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/p3c-bot/subscriptions",
+      "organizations_url": "https://api.github.com/users/p3c-bot/orgs",
+      "repos_url": "https://api.github.com/users/p3c-bot/repos",
+      "events_url": "https://api.github.com/users/p3c-bot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/p3c-bot/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "Definitely. A few questions:\r\n1) Will you merge this PR in that case?\r\n2) What is an example of what the issue should look like?",
+    "created_at": "2019-01-15T15:02:08Z",
+    "updated_at": "2019-01-16T17:29:48Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/8#discussion_r247926334",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/8",
+    "author_association": "CONTRIBUTOR",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/247926334"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/8#discussion_r247926334"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/8"
+      }
+    },
+    "original_commit_id": "5401b263bdf69fcfe4cc076efe6da518fcfedf1c",
+    "in_reply_to_id": 247554255
+  }

@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/554624545",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/13#issuecomment-554624545",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/13",
+    "id": 554624545,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1NDYyNDU0NQ==",
+    "user": {
+      "login": "serialp",
+      "id": 1479761,
+      "node_id": "MDQ6VXNlcjE0Nzk3NjE=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1479761?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/serialp",
+      "html_url": "https://github.com/serialp",
+      "followers_url": "https://api.github.com/users/serialp/followers",
+      "following_url": "https://api.github.com/users/serialp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/serialp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/serialp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/serialp/subscriptions",
+      "organizations_url": "https://api.github.com/users/serialp/orgs",
+      "repos_url": "https://api.github.com/users/serialp/repos",
+      "events_url": "https://api.github.com/users/serialp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/serialp/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-16T10:26:06Z",
+    "updated_at": "2019-11-16T10:26:06Z",
+    "author_association": "NONE",
+    "body": "> Having multiple mining algorithms is an interesting approach but we have never considered the implications of going this way.\r\n\r\n\r\nYou can mine DigiByte on one of five separate mining algorithms. Each algo averages out to mine 20% of new blocks. This allows for much greater decentralization than other blockchains. An attacker with 99% of of any individual algorithm would still be unable to hardfork the blockchain, making DigiByte much more secure against PoW attacks than other blockchains.\r\n\r\nMore info:  https://github.com/digibyte/digibyte/blob/master/README.md\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/554624545/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

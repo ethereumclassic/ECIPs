@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/547299775",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/13#issuecomment-547299775",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/13",
+    "id": 547299775,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU0NzI5OTc3NQ==",
+    "user": {
+      "login": "AndreaLanfranchi",
+      "id": 15280851,
+      "node_id": "MDQ6VXNlcjE1MjgwODUx",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/15280851?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AndreaLanfranchi",
+      "html_url": "https://github.com/AndreaLanfranchi",
+      "followers_url": "https://api.github.com/users/AndreaLanfranchi/followers",
+      "following_url": "https://api.github.com/users/AndreaLanfranchi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AndreaLanfranchi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AndreaLanfranchi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AndreaLanfranchi/subscriptions",
+      "organizations_url": "https://api.github.com/users/AndreaLanfranchi/orgs",
+      "repos_url": "https://api.github.com/users/AndreaLanfranchi/repos",
+      "events_url": "https://api.github.com/users/AndreaLanfranchi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AndreaLanfranchi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-10-29T07:58:17Z",
+    "updated_at": "2019-10-29T07:58:17Z",
+    "author_association": "NONE",
+    "body": "> Also selfish mining could become an advantage strategy since block headers can vary in size and larger headers would then take longer to mine on.\r\n\r\nNot sure what you mean here: block header is a hash with fixed width.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/547299775/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

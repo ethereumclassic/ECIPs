@@ -1,0 +1,50 @@
+{
+    "id": 351337582,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM1MTMzNzU4Mg==",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/351337582",
+    "pull_request_review_id": 323739475,
+    "diff_hunk": "@@ -1,10 +1,10 @@\n ---\n lang: en\n ecip: 1072\n-title: Yingchun EVM and Protocol Upgrades\n+title: Aztlán EVM and Protocol Upgrades (Yingchun Edition)\n status: Draft\n type: Meta\n-author: Wei Tang (@sorpaas)\n+author: Wei Tang (@sorpaas), Talha Cross (@soc1c), Bob Summerwill (@bobsummerwill)",
+    "path": "_specs/ecip-1072.md",
+    "position": 11,
+    "original_position": 9,
+    "commit_id": "515434e43c75bc6a2dcc7b052177b59f75af696b",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "That is very kind, @sorpaas, but there is really no need to add me as an author.",
+    "created_at": "2019-11-27T15:02:53Z",
+    "updated_at": "2019-11-27T20:29:49Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/198#discussion_r351337582",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/198",
+    "author_association": "MEMBER",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/351337582"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/198#discussion_r351337582"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/198"
+      }
+    },
+    "original_commit_id": "6e3099efb4b00f908bdcb26691d4e05ec3fbadcd",
+    "in_reply_to_id": 351296276
+  }

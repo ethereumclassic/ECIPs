@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551309467",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/13#issuecomment-551309467",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/13",
+    "id": 551309467,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MTMwOTQ2Nw==",
+    "user": {
+      "login": "drd34d",
+      "id": 30156189,
+      "node_id": "MDQ6VXNlcjMwMTU2MTg5",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/30156189?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/drd34d",
+      "html_url": "https://github.com/drd34d",
+      "followers_url": "https://api.github.com/users/drd34d/followers",
+      "following_url": "https://api.github.com/users/drd34d/following{/other_user}",
+      "gists_url": "https://api.github.com/users/drd34d/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/drd34d/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/drd34d/subscriptions",
+      "organizations_url": "https://api.github.com/users/drd34d/orgs",
+      "repos_url": "https://api.github.com/users/drd34d/repos",
+      "events_url": "https://api.github.com/users/drd34d/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/drd34d/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-07T23:13:34Z",
+    "updated_at": "2019-11-07T23:13:34Z",
+    "author_association": "NONE",
+    "body": "I share a similar opinion as @BelfordZ on this subject.\r\n\r\n\r\n> Motivation\r\n> A response to the recent double-spend attacks against Ethereum Classic. **Most of this hashpower was rented or came from other chains** specfically Ethereum (ETH). A seperate proof of work algorithm **would encourage the development of a specialized Ethereum Classic mining community**, and blunt the ability for attackers to purchase mercenary hash power on the open-market.\r\n\r\n\"most of this hashpower was rented..\" - what's the source of this assessment?\r\n\r\n\"would encourage the development of a specialized Ethereum Classic mining community\" - a new and specialized mining community sounds like we could be talking about a newer and smaller community and probably less security?\r\n\r\nThe risk is too high and the threat isn't exactly there. \r\nA double spend attack as you know is not exactly direct attack to the network but to the participants who do not take the necessary precautions (confirmation time). I have to admit, though, that the current recommended confirmations for bigger transactions are nerve-racking.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551309467/reactions",
+      "total_count": 2,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 1
+    }
+  }

@@ -1,0 +1,24 @@
+From 2a9e95ab38cff134eb37085dfb02232b369bd6ae Mon Sep 17 00:00:00 2001
+From: Bob Summerwill <bob@summerwill.net>
+Date: Fri, 29 Nov 2019 11:25:23 -0800
+Subject: [PATCH] Reject ECIP-1072 which is a functional duplicate to
+ ECIP-1061. ECIP-1702 is now being used by Wei to push an "Ethereum Classic
+ Classic" fork.
+
+---
+ _specs/ecip-1072.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-1072.md b/_specs/ecip-1072.md
+index 843176c..86a0087 100644
+--- a/_specs/ecip-1072.md
++++ b/_specs/ecip-1072.md
+@@ -2,7 +2,7 @@
+ lang: en
+ ecip: 1072
+ title: Aztlán EVM and Protocol Upgrades (Yingchun Edition)
+-status: Last Call
++status: Rejected
+ review-period-end: 2019-12-21
+ type: Meta
+ author: Wei Tang (@sorpaas), Talha Cross (@soc1c), Bob Summerwill (@bobsummerwill)

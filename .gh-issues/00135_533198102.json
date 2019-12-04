@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/533198102",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/135#issuecomment-533198102",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/135",
+    "id": 533198102,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUzMzE5ODEwMg==",
+    "user": {
+      "login": "TokenHash",
+      "id": 29529586,
+      "node_id": "MDQ6VXNlcjI5NTI5NTg2",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/29529586?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TokenHash",
+      "html_url": "https://github.com/TokenHash",
+      "followers_url": "https://api.github.com/users/TokenHash/followers",
+      "following_url": "https://api.github.com/users/TokenHash/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TokenHash/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TokenHash/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TokenHash/subscriptions",
+      "organizations_url": "https://api.github.com/users/TokenHash/orgs",
+      "repos_url": "https://api.github.com/users/TokenHash/repos",
+      "events_url": "https://api.github.com/users/TokenHash/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TokenHash/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-09-19T16:00:14Z",
+    "updated_at": "2019-09-19T16:00:14Z",
+    "author_association": "MEMBER",
+    "body": "After checking from the ECIP sponsor @realcodywburns and some others in the ecosystem, I am proposing to add to the agenda a discussion about ECIP-1043: http://ecips.ethereumclassic.org/ECIPs/ecip-1043\r\n\r\nI cannot comment on its technical merit or risks (leave that to devs) but the rationale \"the DAG has failed at its task and now only serves as a deterrent to broader investment in application specific hardware by competent distributors\" if true, is logical and would make mining more open and competitive in ETC among other benefits.\r\n\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/533198102/reactions",
+      "total_count": 3,
+      "+1": 3,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

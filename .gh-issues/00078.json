@@ -1,0 +1,60 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/78",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/78/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/78/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/78/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/78",
+    "id": 447606232,
+    "node_id": "MDU6SXNzdWU0NDc2MDYyMzI=",
+    "number": 78,
+    "title": "Final Call: ECIP-1054 Atlantis Upgrade",
+    "user": {
+      "login": "soc1c",
+      "id": 47772477,
+      "node_id": "MDQ6VXNlcjQ3NzcyNDc3",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/47772477?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/soc1c",
+      "html_url": "https://github.com/soc1c",
+      "followers_url": "https://api.github.com/users/soc1c/followers",
+      "following_url": "https://api.github.com/users/soc1c/following{/other_user}",
+      "gists_url": "https://api.github.com/users/soc1c/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/soc1c/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/soc1c/subscriptions",
+      "organizations_url": "https://api.github.com/users/soc1c/orgs",
+      "repos_url": "https://api.github.com/users/soc1c/repos",
+      "events_url": "https://api.github.com/users/soc1c/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/soc1c/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 16,
+    "created_at": "2019-05-23T11:39:21Z",
+    "updated_at": "2019-05-31T13:31:26Z",
+    "closed_at": "2019-05-31T10:41:03Z",
+    "author_association": "MEMBER",
+    "body": "### ETC Core Devs Call - Atlantis Finalization\r\n\r\nWhen: **Thursday, May 30, 2019, 3pm UTC**, 60 minutes max.\r\n\r\nWhere: **Ethereum Classic Discord** https://discord.gg/dwxb6nf `#ecips` channel. Will use/create a voice channel _ad hoc._\r\n\r\n### Agenda\r\n\r\n- Quick client teams check-in\r\n  - Geth / Multi-Geth \r\n  - Parity Ethereum\r\n  - IOHK Mantis\r\n- Atlantis (ECIP-1054) is in _\"last call\"_ state\r\n  - ECIP-1054 needs to be either **accepted** or _updated_ (or _rejected_)\r\n  - discuss whether EIP-161 should be included or not @meowsbits @sorpaas  \r\n  - discuss any other EIP that might cause uncertainty\r\n  - discuss timeline for the protocol upgrade\r\n    - Morden Classic and Kotti Classic testnet (August?)\r\n    - Ethereum Classic mainnet (September?)\r\n- Anything else related to Atlantis\r\n- Outlook: Agharta (ECIP-1056) if time permits\r\n- Outlook: Astor SHA3 testnet if time permits\r\n\r\nPlease comment to add items to the agenda",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/78/reactions",
+      "total_count": 8,
+      "+1": 7,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 1
+    }
+  }

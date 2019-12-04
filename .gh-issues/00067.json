@@ -1,0 +1,60 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/67",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/67/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/67/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/67/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/67",
+    "id": 427826504,
+    "node_id": "MDU6SXNzdWU0Mjc4MjY1MDQ=",
+    "number": 67,
+    "title": "ECIP-1054: Atlantis EVM and Protocol Upgrades",
+    "user": {
+      "login": "realcodywburns",
+      "id": 13103499,
+      "node_id": "MDQ6VXNlcjEzMTAzNDk5",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/13103499?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/realcodywburns",
+      "html_url": "https://github.com/realcodywburns",
+      "followers_url": "https://api.github.com/users/realcodywburns/followers",
+      "following_url": "https://api.github.com/users/realcodywburns/following{/other_user}",
+      "gists_url": "https://api.github.com/users/realcodywburns/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/realcodywburns/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/realcodywburns/subscriptions",
+      "organizations_url": "https://api.github.com/users/realcodywburns/orgs",
+      "repos_url": "https://api.github.com/users/realcodywburns/repos",
+      "events_url": "https://api.github.com/users/realcodywburns/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/realcodywburns/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 4,
+    "created_at": "2019-04-01T17:31:57Z",
+    "updated_at": "2019-10-07T06:48:26Z",
+    "closed_at": "2019-10-07T06:48:26Z",
+    "author_association": "MEMBER",
+    "body": "Atlantis Hardfork Meta\r\nEnable the outstanding Ethereum Foundation Spurious Dragon and Byzantium network protocol upgrades on the Ethereum Classic network in a hard-fork code-named Atlantis to enable maximum compatibility across these networks.\r\n\r\n![etcatlantis_copy](https://user-images.githubusercontent.com/47772477/54919046-11477200-4f00-11e9-84f5-f767085e355b.jpg)\r\n\r\nTo Discussion to : https://github.com/etclabscore/ECIPs/pull/10",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/67/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551243927",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/165#issuecomment-551243927",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/165",
+    "id": 551243927,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MTI0MzkyNw==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-07T20:11:49Z",
+    "updated_at": "2019-11-07T20:11:49Z",
+    "author_association": "MEMBER",
+    "body": "The Mozilla Public License is interesting too.   You could consider that to be an equivalent alternative to the LGPL.   The language in the LGPL assumes a \"compilation unit\" model which was the only real model in the 1980s when the LGPL was first written.\r\n\r\nThe LGPL (Lesser GNU Public License) exists so that you can build proprietary software as layers on top of copyleft layers - as long as there is a clean boundary.   Specifically it exists so that you can compile applications with GCC which use the C runtime library (or C++ runtime library) which is considered part of the GNU System.\r\n\r\nIf everything you compiled which had a copyleft runtime libraries incorporated was \"infected\" with the GPL then you would only be able to run GPL software on Linux.   That was not Richard's goal.   He wanted people to use GPL software because they wanted to - not to compel them.   Also, this was just a pragmatic need.   There was no Linux ecosystem at that time - just UNIX - and he wanted UNIX applications to be able to run on top of GNU/Linux.\r\n\r\nSo, the LGPL says that the \"infection\" stops at the OS boundary as long as the application only uses dynamic libraries (DLLs, SOs) for its dependencies onto the runtime libraries.   The Linux distro ships with runtime libraries as DLLs.   Developers ship the application and is resolves those DLLs at runtime.    As long as you application can ship on unmodified runtime libraries you are golden.  Generally that is the case.   Business USE Linux - they don't modify it - so it is fine.\r\n\r\nIf you DO customize those runtime libraries then you are still under an obligation to publish your modifications, so others can benefit from them.   That is the LGPL deal.\r\n\r\nBut with web development, the \"compilation units\" language doesn't work anymore, because everything is interpreted (Javascript).   So MPL is like the LGPL, but the boundaries are files, not compilation units.    So you can ship a folder tree worth of JS, CSS, XML, etc.   Frameworks, libraries, whatever.   And you can incorporate those folders of stuff into your own project and use them without that \"infecting\" your whole web app.\r\n\r\nJust like the LGPL, if you modify them then you need to publish it, so that others can benefit from your work.   But yeah - MPL quite nice in that way.   Or, more commonly, you can have weaker permissive licensing (Apache 2.0, MIT, BSD) for web content too, so there is no compulsion to have to publish your \"secret sauce\".\r\n\r\nBut again - Apache 2.0 probably best for the permissive stream, and in that case MPL for the copyleft web stream (for frameworks) and GPLv3 (for web apps).",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551243927/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

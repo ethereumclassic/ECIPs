@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/556534134",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/13#issuecomment-556534134",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/13",
+    "id": 556534134,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1NjUzNDEzNA==",
+    "user": {
+      "login": "developerkevin",
+      "id": 29807183,
+      "node_id": "MDQ6VXNlcjI5ODA3MTgz",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/29807183?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/developerkevin",
+      "html_url": "https://github.com/developerkevin",
+      "followers_url": "https://api.github.com/users/developerkevin/followers",
+      "following_url": "https://api.github.com/users/developerkevin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/developerkevin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/developerkevin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/developerkevin/subscriptions",
+      "organizations_url": "https://api.github.com/users/developerkevin/orgs",
+      "repos_url": "https://api.github.com/users/developerkevin/repos",
+      "events_url": "https://api.github.com/users/developerkevin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/developerkevin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-20T23:14:37Z",
+    "updated_at": "2019-11-21T02:12:07Z",
+    "author_association": "MEMBER",
+    "body": "My opinion is to reconsider and prioritize the essential changes before considering major, non-essential changes. If I were to design ETC from scratch I would use Ketchup256, but I am not. [SHA3](https://github.com/ethereumclassic/ECIPs/issues/13) performs better than Ethash, yes. Maybe a mining algorithm change like this has a place in ETC's future, but for now I don't believe so.\r\n\r\nBelow are some reasons:\r\n\r\n- Doesn't solve the 51% attack as many seem to expect\r\n- Introduces avoidable risk: hash wars, potential split, other attack vectors\r\n- Ethereum miners can continue to mine the \"ethash\" chain! That's 290+ Th/s! ETC has just 8!\r\n- Hashrate will be volatile; longer block times; possible reorgs\r\n- Implementation by node operators will be a major challenge\r\n\r\nI think ETC people should hold off on making any commitments on timelines, development, or allocation of resources to this proposal. It is not in the best interest of the network to remove and replace the current functional mining algorithm, unbroken and used since the start, for a shiny new one with all the bells and whistles. This proposal seems to be creating unreal expectations, is more risk than reward, and cost than benefit. Though ethash has its limits, I don't believe it should be replaced. \r\n\r\nI feel this [comment](https://github.com/ethereumproject/ECIPs/issues/4#issuecomment-247102152) made by @arvicco back in the \"difficulty bomb delay\" discussions is quite relevant to this one.\r\n\r\n>_So, the strategy is: fix the most critical (and non-contentious) stuff like diff bomb (and possibly replay attacks) first, then provide a long-term solution to other issues based on solid data and rational discussion after a year._\r\n\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/556534134/reactions",
+      "total_count": 2,
+      "+1": 2,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

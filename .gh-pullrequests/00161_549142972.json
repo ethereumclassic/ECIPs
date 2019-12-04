@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/549142972",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/161#issuecomment-549142972",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/161",
+    "id": 549142972,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU0OTE0Mjk3Mg==",
+    "user": {
+      "login": "drd34d",
+      "id": 30156189,
+      "node_id": "MDQ6VXNlcjMwMTU2MTg5",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/30156189?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/drd34d",
+      "html_url": "https://github.com/drd34d",
+      "followers_url": "https://api.github.com/users/drd34d/followers",
+      "following_url": "https://api.github.com/users/drd34d/following{/other_user}",
+      "gists_url": "https://api.github.com/users/drd34d/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/drd34d/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/drd34d/subscriptions",
+      "organizations_url": "https://api.github.com/users/drd34d/orgs",
+      "repos_url": "https://api.github.com/users/drd34d/repos",
+      "events_url": "https://api.github.com/users/drd34d/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/drd34d/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-03T14:40:22Z",
+    "updated_at": "2019-11-03T14:47:45Z",
+    "author_association": "NONE",
+    "body": "A Twitter poll is definatelly not the place for **any** governance. What's next, a Straw Poll?\r\n\r\nAsgard could be too similar to Agharta for the non-english speakers and thus slightly confusing. Don't see a reason to rename Aztlán/Aztlan at this point.\r\n\r\nedit: not that any are necessarily english words but if you use a translator things may look different",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/549142972/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

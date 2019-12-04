@@ -1,0 +1,60 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/217",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/217/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/217/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/217/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/217",
+    "id": 530454511,
+    "node_id": "MDU6SXNzdWU1MzA0NTQ1MTE=",
+    "number": 217,
+    "title": "Preparing for Aztlan hard fork issues",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 11,
+    "created_at": "2019-11-29T18:16:28Z",
+    "updated_at": "2019-12-01T17:13:40Z",
+    "closed_at": "2019-12-01T16:58:38Z",
+    "author_association": "MEMBER",
+    "body": "Recently, a few community members have decided to implement the Aztlan hard fork. The issue with Aztlan is that without EIP-1884, it effectively left an account trie attack vector open. Most current clients do not have other protections currently other than increasing gas cost. The paper for the attack is actually public, meaning anyone who knows the method can do it. As the security analysis for Aztlan is inadequate, we should prepare for its issues properly.\r\n\r\nMy recommendations would be we do not implement Aztlan before account versioning. However, given the consensus was already reached, I won't oppose the hard fork.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/217/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551270459",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/164#issuecomment-551270459",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/164",
+    "id": 551270459,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MTI3MDQ1OQ==",
+    "user": {
+      "login": "BelfordZ",
+      "id": 1787231,
+      "node_id": "MDQ6VXNlcjE3ODcyMzE=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1787231?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/BelfordZ",
+      "html_url": "https://github.com/BelfordZ",
+      "followers_url": "https://api.github.com/users/BelfordZ/followers",
+      "following_url": "https://api.github.com/users/BelfordZ/following{/other_user}",
+      "gists_url": "https://api.github.com/users/BelfordZ/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/BelfordZ/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/BelfordZ/subscriptions",
+      "organizations_url": "https://api.github.com/users/BelfordZ/orgs",
+      "repos_url": "https://api.github.com/users/BelfordZ/repos",
+      "events_url": "https://api.github.com/users/BelfordZ/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/BelfordZ/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-07T21:23:17Z",
+    "updated_at": "2019-11-07T21:23:17Z",
+    "author_association": "MEMBER",
+    "body": "No, I mean the fact that this repo's deployment has leaked into its structure. It's very atypical of quality devops. The specs & ecips should be in a format / structure that is independent of the release target. Web is one of potentially many release targets. \r\n\r\nhonestly, there is just too many things that are not done to start listing them, hence why I said I would make a proper proposal / PR at a later date.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551270459/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

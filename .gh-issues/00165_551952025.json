@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551952025",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/165#issuecomment-551952025",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/165",
+    "id": 551952025,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MTk1MjAyNQ==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-08T19:06:00Z",
+    "updated_at": "2019-11-08T19:06:00Z",
+    "author_association": "MEMBER",
+    "body": "@kimisan You point on that new license is fascinating.  I will talk to the OSI (https://opensource.org/) about that and see if it is on their radar.\r\n\r\nThe downside to allowing such a new license (like cryptography) is that new things are unproven, and there may be issues with that license which are not time-tested in the way that Apache 2.0 and GPLv3 are.\r\n\r\nBut in principle I don't have any objection to exploring that option, if it provides equivalent patent-protection and does not provide any LESS protections than Apache 2.0.\r\n\r\nApache 2.0 is not the end of the story any more than SHA256 or SHA3 are the end of the story.  Indeed, those are not the story at all in China, right?   They are the output of NIST, which, unsurprisingly is probably not trusted in China, being a defacto arm of the US government.\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551952025/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

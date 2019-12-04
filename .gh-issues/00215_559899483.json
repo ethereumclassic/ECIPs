@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/559899483",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/215#issuecomment-559899483",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/215",
+    "id": 559899483,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1OTg5OTQ4Mw==",
+    "user": {
+      "login": "husainfazel",
+      "id": 418404,
+      "node_id": "MDQ6VXNlcjQxODQwNA==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/418404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/husainfazel",
+      "html_url": "https://github.com/husainfazel",
+      "followers_url": "https://api.github.com/users/husainfazel/followers",
+      "following_url": "https://api.github.com/users/husainfazel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/husainfazel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/husainfazel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/husainfazel/subscriptions",
+      "organizations_url": "https://api.github.com/users/husainfazel/orgs",
+      "repos_url": "https://api.github.com/users/husainfazel/repos",
+      "events_url": "https://api.github.com/users/husainfazel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/husainfazel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-30T00:32:24Z",
+    "updated_at": "2019-11-30T00:32:41Z",
+    "author_association": "NONE",
+    "body": "```\r\nHey everyone. First of all, I want to post an apology for my actions in the last few hours. I have certainly been hugely over-reacting and caused a lot of unnecessary fusions. That is my fault. I think there are few things I want to say and actions to correct.\r\n\r\n• Regarding 1061 vs 1072, I won't back down on my position that it's indeed Afri's fault not following the ECIP process in the first place. However, given that it's also largely my fault that I over-reacted and was being too aggressive in the past two days, I'll agree to move forward with 1061, and withdraw 1072.\r\n• During the last minute review I done on the Aztlan specification we currently have, I indeed find a few additional concerns that will have some impacts. From technical point of view, my recommendations would be we hold off Aztlan until account versioning is implemented. However, given that in the core dev meetings we have accepted the Aztlan hard fork, I will not oppose the hard fork. In the mean time, I may still make those technical concerns public, even though it's hard to fix.\r\n• I have not yet decided how much engagement I'll devote to Ethereum Classic in the future. However, I'll not cancel any of the current ECIP initiatives. In particular, I strongly think rotations of meeting coordinators will be an important process we should implement, starting with Yaz and Afri.\r\n\r\nGood luck everyone. And have a nice weekend!\r\n```\r\n\r\n@sorpaas why do you keep closing this issue? I think you and Bob need to have a private chat and stop playing silly buggers. The call doesn't need to happen, it probably won't happen... but let's leave it to Bob to handle that. \r\n\r\nYour comments in the Discord were really mature but what you're doing here is ridiculous and undermines all the bridge building you were magnanimous enough to start a few hours ago.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/559899483/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

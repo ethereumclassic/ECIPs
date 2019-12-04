@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/561409033",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/220#issuecomment-561409033",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/220",
+    "id": 561409033,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MTQwOTAzMw==",
+    "user": {
+      "login": "YazzyYaz",
+      "id": 9094204,
+      "node_id": "MDQ6VXNlcjkwOTQyMDQ=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9094204?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/YazzyYaz",
+      "html_url": "https://github.com/YazzyYaz",
+      "followers_url": "https://api.github.com/users/YazzyYaz/followers",
+      "following_url": "https://api.github.com/users/YazzyYaz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/YazzyYaz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/YazzyYaz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/YazzyYaz/subscriptions",
+      "organizations_url": "https://api.github.com/users/YazzyYaz/orgs",
+      "repos_url": "https://api.github.com/users/YazzyYaz/repos",
+      "events_url": "https://api.github.com/users/YazzyYaz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/YazzyYaz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-03T23:47:12Z",
+    "updated_at": "2019-12-03T23:47:12Z",
+    "author_association": "MEMBER",
+    "body": "> That's just double standard, or is this a personal attack against me that violates the Code of Conduct?\r\n\r\nHow is it a personal attack? Afri published the entire meeting notes right after the call. It wasn't disputed till he made a PR for ECIP-1061 Last Call.\r\n\r\n> Please stop this. This is clearly personal attack and violation of Code of Conduct, which should get you issued an warning.\r\n\r\nHow is defining your actions of slandering Afri as a vendetta considered a personal attack? I don't think I follow your logic. If it's not something personal against Afri, then I apologize and look forward to you removing his name from the PR as you claim it's not a vendetta.\r\n\r\nAlso, the Code of Conduct is still in Draft stage, which I hope you can recall means its subject to change as defined in the ECIP-1000 document. If it's in Active stage, that's different.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/561409033/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

@@ -1,0 +1,77 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/13",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/13/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/13/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/13/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/13",
+    "id": 399916230,
+    "node_id": "MDU6SXNzdWUzOTk5MTYyMzA=",
+    "number": 13,
+    "title": "ECIP-1049: Change the ETC Proof of Work Algorithm to Keccak256",
+    "user": {
+      "login": "p3c-bot",
+      "id": 40745785,
+      "node_id": "MDQ6VXNlcjQwNzQ1Nzg1",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/40745785?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/p3c-bot",
+      "html_url": "https://github.com/p3c-bot",
+      "followers_url": "https://api.github.com/users/p3c-bot/followers",
+      "following_url": "https://api.github.com/users/p3c-bot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/p3c-bot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/p3c-bot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/p3c-bot/subscriptions",
+      "organizations_url": "https://api.github.com/users/p3c-bot/orgs",
+      "repos_url": "https://api.github.com/users/p3c-bot/repos",
+      "events_url": "https://api.github.com/users/p3c-bot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/p3c-bot/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 1154785139,
+        "node_id": "MDU6TGFiZWwxMTU0Nzg1MTM5",
+        "url": "https://api.github.com/repos/ethereumclassic/ECIPs/labels/status:%20draft",
+        "name": "status: draft",
+        "color": "ffffff",
+        "default": false,
+        "description": "draft stage - can be assigned ecip number and merged, but requires new PR to be Accepted"
+      },
+      {
+        "id": 1154785127,
+        "node_id": "MDU6TGFiZWwxMTU0Nzg1MTI3",
+        "url": "https://api.github.com/repos/ethereumclassic/ECIPs/labels/type:%20core",
+        "name": "type: core",
+        "color": "d73a4a",
+        "default": false,
+        "description": "Requires consensus consideration"
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 66,
+    "created_at": "2019-01-16T17:27:19Z",
+    "updated_at": "2019-11-25T16:18:24Z",
+    "closed_at": null,
+    "author_association": "CONTRIBUTOR",
+    "body": "## 🚨 WARNING: Because of the controversial nature of this ECIP, it has been targeted by bots and users with financial incentives to attack developers. 🚨 \r\n\r\n#### All references to SHA3 refer to Keccak256, the algorithm used throughout the Ethereum ecosystem.\r\n\r\n### Change the ETC Proof of Work Algorithm to SHA3 (Keccak256)\r\n\r\n    ECIP: 1049\r\n    Title: Change the ETC Proof of Work Algorithm to SHA3 (Keccak256)\r\n    Status: Draft\r\n    Type: Network\r\n    Discussion: https://github.com/ethereumclassic/ECIPs/issues/13\r\n    Author: Alexander Tsankov (alexander.tsankov@colorado.edu)\r\n    License: Apache-2.0\r\n    Created: 2019-01-08\r\n\r\n### Abstract\r\nA proposal to replace the current Ethereum Classic proof of work algorithm with Keccak-256.\r\n\r\n### Motivation\r\n* A response to the recent double-spend attacks against Ethereum Classic. Most of this hashpower was rented or came from other chains, specfically Ethereum (ETH). A seperate proof of work algorithm would encourage the development of a specialized Ethereum Classic mining community, and blunt the ability for attackers to purchase mercenary hash power on the open-market. \r\n\r\n* As a secondary benefit, deployed smart contracts and dapps running on chain are currently able to use `keccak256()` in their code. This ECIP could open the possibility of smart contracts being able to evaluate chain state, and simplify second layer (L2) development.\r\n\r\n### Rationale\r\n\r\n### Reason 1: Similarity to Bitcoin\r\nThe Bitcoin network currently uses the CPU-intensive SHA256 Algorithm to evaluate blocks. When Ethereum was deployed it used a different algorithm, Dagger-Hashimoto, which eventually became Ethash on 1.0 launch. Dagger-Hashimoto was explicitly designed to be memory-intensive with the goal of ASIC resistance [1]. It has been provably unsuccessful at this goal, with Ethash ASICs currently easily availalble on the market.\r\n\r\nKeccak256 (aka SHA3) is the product of decades of research and the winner of a multi-year contest held by NIST that has rigorously verified its robustness and quality as a hashing algorithm. It is one of the only hashing algorithms besides SHA256 that is allowed for military and scientific-grade applications, and can provide sufficient hashing entropy for a proof of work system. This algorithm would position Ethereum Classic at an advantage in mission-critical blockchain applications that are required to use provably high-strength algorithms. [2]\r\n\r\nA CPU-intensive algorithm like Keccak256 would allow both the uniqueness of a fresh PoW algorithm that has not had ASICs developed against it, while at the same time allowing for organic optimization of a dedicated and financially commited miner base, much the way Bitcoin did with its own SHA256 algorithm.\r\n\r\nIf Ethereum Classic is to succeed as a project, we need to take what we have learned from Bitcoin and move towards CPU-hard PoW algorithms.\r\n\r\n> At first, most users would run network nodes, but as the network grows beyond a certain point, it would be left more and more to specialists with server farms of specialized hardware. - Satoshi Nakamoto (2008-11-03) [3]\r\n\r\n*Note: Please consider this is from 2008, and the Bitcoin community at that time did not differentiate between node operators and miners. I interpret \"network nodes\" in this quote to refer to miners, and \"server farms of specialized hardware\" to refer to mining farms.*\r\n\r\n\r\n### Reason 2: Value to Smart Contract Developers\r\nIn Solidity, developers have access to the `keccak256()` function, which allows a smart contract to efficiently calculate the hash of a given input. This has been used in a number of interesting projects launched on both Ethereum and Ethereum-Classic. Most Specifcally a project called 0xBitcoin [4] - which the ERC-918 spec was based on.\r\n\r\n0xBitcoin is a security-audited [5] dapp that allows users to submit a proof of work hash directly to a smart contract running on the Ethereum blockchain. If the sent hash matches the given requirements, a token reward is trustlessly dispensed to the sender, along with the contract reevaluating difficulty parameters. This project has run successfully for over 10 months, and has minted over 3 million tokens [6].\r\n\r\nWith the direction that Ethereum Classic is taking: a focus on Layer-2 solutions and cross-chain compatibility; being able to evaluate proof of work on chain, will be tremendously valuable to developers of both smart-contracts and node software writers. This could greatly simplify interoperability. \r\n\r\n### Implementation\r\n\r\nExample of a Smart contract hashing being able to trustlessly Keccak hash a hypothetical block header.\r\n![example](https://i.imgur.com/xh3WgCF.png)\r\n\r\nHere is an analysis of Monero's nonce-distribution for \"cryptonight\", an algorithm similar to Ethash, which also attempts to be \"ASIC-Resistant\" it is very clear in the picture that before the hashing algorithm is changed there is a clear nonce-pattern. This is indicative of a major failure in a hashing algorithm, and should illustrate the dangers of disregarding proper cryptographic security. Finding a hashing pattern would be far harder using a proven system like Keccak:\r\n\r\n![example](https://i.imgur.com/vVdmzm9.jpg)\r\n\r\nBased on analysis of the EVM architecture [here](https://cdn.discordapp.com/attachments/223675625334898688/534597157693685760/eth.jpg) there are two main pieces that need to be changed:\r\n\r\n1. The Proof of work function needs to be replaced with Keccak256\r\n1. The Function that checks the nonce-header  in the block needs to know to accept Keccak256 hashes as valid for a block.\r\n\r\n![example](https://i.imgur.com/2hobqOL.png)\r\n\r\n#### Note on `mixHash` + `nonceHeader` \r\n\r\nIn the current Ethash system, the mixHash is a 256-bit string constructed based on the state of the blockchain. This is concatenated with the nonceHeader, 64-bit, and the entirety (320-bits) of it is hashed to verify proof of work.\r\n\r\nFor this proposal we recommend miners being able to fill the `mixHash` field with whatever data they desire. This will allow for a total of 320-bits for miners to use for both submitting proof of work, but also to signal mining pools and voting on certain ECIP proposals.\r\n\r\n### Implementation\r\n\r\n**PROPOSED ACTIVATION BLOCK: 11,000,000** contingent on acceptance of ECIP. \r\n\r\n![roadmap](https://user-images.githubusercontent.com/40745785/66788717-a919a700-eeb6-11e9-9773-c6a8d188a7dd.png)\r\n\r\n\r\n![spec](https://user-images.githubusercontent.com/40745785/66788715-a28b2f80-eeb6-11e9-8add-c3606a91a32d.png)\r\n\r\n\r\nA testnet implementing this ECIP, is currently live, with more information available at [Astor.host](https://astor.host)\r\n\r\n* Node Implementation (based on Parity). Located [here](https://github.com/antsankov/parity-ethereum/tree/sha3)\r\n* SHA3 CPU Miner. Located [here](https://github.com/antsankov/ethereum-cpu-miner)\r\n* Block Explorer. Located [here](https://explore.astor.host/)\r\n* Live Network Stats. Located [here](https://stats.astor.host/)\r\n\r\n### References: \r\n\r\n1. https://github.com/ethereum/wiki/wiki/Dagger-Hashimoto#introduction\r\n1. https://en.wikipedia.org/wiki/SHA-3\r\n1. https://satoshi.nakamotoinstitute.org/emails/cryptography/2/\r\n1. https://github.com/0xbitcoin/white-paper\r\n1. https://github.com/EthereumCommonwealth/Auditing/issues/102\r\n1. https://etherscan.io/address/0xb6ed7644c69416d67b522e20bc294a9a9b405b31\r\n\r\n### Previous discussion from [Pull request](https://github.com/ethereumclassic/ECIPs/pull/8)\r\n![example](https://i.imgur.com/09Rtv0V.png)\r\n![example](https://i.imgur.com/1TJtgO7.png)\r\n![example](https://i.imgur.com/TTLZunn.png)\r\n![example](https://i.imgur.com/uOoBFF9.png)\r\n![example](https://i.imgur.com/irYFhRy.png)\r\n![example](https://i.imgur.com/AoChMCy.png)\r\n\r\n\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/13/reactions",
+      "total_count": 6,
+      "+1": 0,
+      "-1": 4,
+      "laugh": 0,
+      "hooray": 2,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

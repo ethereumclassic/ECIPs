@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560144766",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/225#issuecomment-560144766",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/225",
+    "id": 560144766,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDE0NDc2Ng==",
+    "user": {
+      "login": "meowsbits",
+      "id": 45600330,
+      "node_id": "MDQ6VXNlcjQ1NjAwMzMw",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/45600330?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/meowsbits",
+      "html_url": "https://github.com/meowsbits",
+      "followers_url": "https://api.github.com/users/meowsbits/followers",
+      "following_url": "https://api.github.com/users/meowsbits/following{/other_user}",
+      "gists_url": "https://api.github.com/users/meowsbits/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/meowsbits/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/meowsbits/subscriptions",
+      "organizations_url": "https://api.github.com/users/meowsbits/orgs",
+      "repos_url": "https://api.github.com/users/meowsbits/repos",
+      "events_url": "https://api.github.com/users/meowsbits/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/meowsbits/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-01T18:54:56Z",
+    "updated_at": "2019-12-01T18:54:56Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Re: https://github.com/ethereumclassic/ECIPs/issues/225#issuecomment-560133388\r\n\r\n> Pending case in point is ProgPOW.\r\n\r\nWould you please cite your reference for this?\r\n\r\n> See also Microsoft's patent trolling on Linux.\r\n\r\nI tried looking up Microsoft vs. Linux and found the following. Is this near what you're referring to?\r\n\r\n> Microsoft CEO Steve Ballmer likened Linux to a kind of cancer on intellectual property. Microsoft sued Lindows, a Linux operating system that could run Microsoft Windows applications, as a trademark violation. The court rejected the claim and after Microsoft purchased its trademark, the software changed its name to Linspire.\r\n> [...]\r\n> In the 2010s and under new CEO Satya Nadella, Microsoft began to adopt open source into its core business. In contrast to Ballmer's stance, Nadella presented a slide that read, \"Microsoft loves Linux\".\r\n> [...]\r\n>  In 2016, Microsoft introduced Windows Subsystem for Linux, which lets Linux applications run on the Windows operating system. The company invested in Linux server technology and Linux development to promote cross-platform compatibility and collaboration with open source companies and communities, culminating with Microsoft's platinum sponsorship of the Linux Foundation and seat on its Board of Directors.\r\n> https://en.wikipedia.org/wiki/Microsoft_and_open_source\r\n\r\n---\r\n\r\n> \"zero defense\" is true. What is your objection to that?\r\n\r\nI, of course, have no objection to raising awareness, if not alarms, if this is a serious threat. But so far I don't see any __concrete legal precedent or clause__ that would suggest what it seems you understand as a certain and deterministic outcome. ",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560144766/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

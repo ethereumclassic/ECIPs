@@ -1,0 +1,26 @@
+From 2c4bf1ed5c2b3a57a6de01d3df1c4cc96e79bf25 Mon Sep 17 00:00:00 2001
+From: Bob Summerwill <bob@summerwill.net>
+Date: Wed, 27 Nov 2019 09:09:17 -0800
+Subject: [PATCH] Reject ECIP-1063 - Integrated decentralized oracles and smart
+ contracts.
+
+This is just a bad idea, and is never going to happen.
+Sorry, Jesse.
+But we should reject this and clear out cognitive load.
+---
+ _specs/ecip-1063.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-1063.md b/_specs/ecip-1063.md
+index 46fb8e8..2994bd9 100644
+--- a/_specs/ecip-1063.md
++++ b/_specs/ecip-1063.md
+@@ -4,7 +4,7 @@ ecip: 1063
+ title: Ethereum Classic Integrated Decentralized Oracles and Smart Contracts
+ author: Jesse Nguyen, <jessebaotruong@gmail.com>
+ discussions-to: Community Discord #ecips
+-status: Draft
++status: Rejected
+ type: Standard Track
+ created: 2019-07-21
+ ---

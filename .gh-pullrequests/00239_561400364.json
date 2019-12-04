@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/561400364",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/239#issuecomment-561400364",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/239",
+    "id": 561400364,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MTQwMDM2NA==",
+    "user": {
+      "login": "YazzyYaz",
+      "id": 9094204,
+      "node_id": "MDQ6VXNlcjkwOTQyMDQ=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9094204?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/YazzyYaz",
+      "html_url": "https://github.com/YazzyYaz",
+      "followers_url": "https://api.github.com/users/YazzyYaz/followers",
+      "following_url": "https://api.github.com/users/YazzyYaz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/YazzyYaz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/YazzyYaz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/YazzyYaz/subscriptions",
+      "organizations_url": "https://api.github.com/users/YazzyYaz/orgs",
+      "repos_url": "https://api.github.com/users/YazzyYaz/repos",
+      "events_url": "https://api.github.com/users/YazzyYaz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/YazzyYaz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-03T23:15:00Z",
+    "updated_at": "2019-12-03T23:15:00Z",
+    "author_association": "MEMBER",
+    "body": "@BelfordZ so, the Code of Conduct is only scoped within the ECIP repository. Anything happening outside the repository is out of scope for the ECIP Code of Conduct in question. This will help organize the ECIP better to limit doxing attacks inside the repository and allow for a way to on-board and off-board both ECIP Editors, Coordinators and Participants within the repository itself (not even the organization and the discord) to follow the Code of Conduct if they are to be given Commit Rights on the repository in question.\r\n\r\nI don't think it's necessarily a tool for litigation as the scope is limited to preserve the quality of the repository in question. As you have noticed, there's been activity within the ECIP process that's warrants the proposal of such a document.\r\n\r\nFor people who can't behave themselves, the Code of Conduct doesn't apply to them if they're on Discord, Gitter, Twitter, Medium, etc. This only applies to the ECIP repository as to maintain high quality discussions and limit trolling, harassment, and doxing.\r\n\r\nGiven that the scope of this Code of Conduct ECIP is limited only to this repository in question, does that make it more acceptable?\r\n\r\nWe want to allow for dissent within the community, but limit abuse of power within the ECIP process that can affect the other editors and participants and authors contributing to the ECIP repository in question.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/561400364/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

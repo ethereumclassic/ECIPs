@@ -1,0 +1,29 @@
+{
+    "id": 2817140811,
+    "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDI4MTcxNDA4MTE=",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/events/2817140811",
+    "actor": {
+      "login": "arvicco",
+      "id": 39557,
+      "node_id": "MDQ6VXNlcjM5NTU3",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/39557?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arvicco",
+      "html_url": "https://github.com/arvicco",
+      "followers_url": "https://api.github.com/users/arvicco/followers",
+      "following_url": "https://api.github.com/users/arvicco/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arvicco/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arvicco/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arvicco/subscriptions",
+      "organizations_url": "https://api.github.com/users/arvicco/orgs",
+      "repos_url": "https://api.github.com/users/arvicco/repos",
+      "events_url": "https://api.github.com/users/arvicco/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arvicco/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "event": "subscribed",
+    "commit_id": null,
+    "commit_url": null,
+    "created_at": "2019-11-20T23:14:37Z"
+  }

@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560476045",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/236#issuecomment-560476045",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/236",
+    "id": 560476045,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDQ3NjA0NQ==",
+    "user": {
+      "login": "husainfazel",
+      "id": 418404,
+      "node_id": "MDQ6VXNlcjQxODQwNA==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/418404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/husainfazel",
+      "html_url": "https://github.com/husainfazel",
+      "followers_url": "https://api.github.com/users/husainfazel/followers",
+      "following_url": "https://api.github.com/users/husainfazel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/husainfazel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/husainfazel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/husainfazel/subscriptions",
+      "organizations_url": "https://api.github.com/users/husainfazel/orgs",
+      "repos_url": "https://api.github.com/users/husainfazel/repos",
+      "events_url": "https://api.github.com/users/husainfazel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/husainfazel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-02T16:38:53Z",
+    "updated_at": "2019-12-02T16:38:53Z",
+    "author_association": "NONE",
+    "body": "From a bystanders point of view - splitting it like that - creates a hierarchy of editors which is probably not what you were hoping to achieve.\r\n\r\nI think it's clear enough if full names are not used if someone is \"psuedo-anonymous\" or not.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560476045/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

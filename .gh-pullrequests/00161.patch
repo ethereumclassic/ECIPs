@@ -1,0 +1,43 @@
+From e4fa53159c7f67ec8d30dce1dba71ad21a19ea7a Mon Sep 17 00:00:00 2001
+From: Bob Summerwill <bob@summerwill.net>
+Date: Fri, 1 Nov 2019 15:52:24 -0700
+Subject: [PATCH] =?UTF-8?q?Rename=20Aztl=C3=A1n=20as=20Asgard,=20which=20i?=
+ =?UTF-8?q?s=20a=20better=20known=20fictional=20place,=20easier=20to=20rem?=
+ =?UTF-8?q?ember=20and=20has=20no=20ambiguity=20of=20spelling.?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+https://twitter.com/BobSummerwill/status/1188479134533484545
+---
+ _specs/ecip-1061.md | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/_specs/ecip-1061.md b/_specs/ecip-1061.md
+index c903cdc..db90df9 100644
+--- a/_specs/ecip-1061.md
++++ b/_specs/ecip-1061.md
+@@ -1,7 +1,7 @@
+ ---
+ lang: en
+ ecip: 1061
+-title: Aztlán EVM and Protocol Upgrades
++title: Asgard EVM and Protocol Upgrades
+ status: Draft
+ type: Meta
+ author: Talha Cross (@soc1c)
+@@ -12,12 +12,12 @@ discussions-to: https://github.com/ethereumclassic/ECIPs/issues/81
+ ### Simple Summary
+ 
+ Enable the outstanding Ethereum Foundation _Istanbul_ network protocol upgrades on the Ethereum
+-Classic network in a hard-fork code-named _Aztlán_ to enable maximum compatibility across these networks.
++Classic network in a hard-fork code-named _Asgard_ to enable maximum compatibility across these networks.
+ 
+ ### Abstract
+ 
+ Add support for a subset of protocol-impacting changes introduced in the Ethereum Foundation (ETH) network via the
+-_Istanbul_ hardforks. The proposed changes for Ethereum Classic's _Aztlán_ upgrade include:
++_Istanbul_ hardforks. The proposed changes for Ethereum Classic's _Asgard_ upgrade include:
+ 
+ - TBD
+ 

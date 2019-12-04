@@ -1,0 +1,21 @@
+From 3ab7596f79aaa5ced16c8f81504ae52c893ca953 Mon Sep 17 00:00:00 2001
+From: Zachary Belford <belfordz66@gmail.com>
+Date: Tue, 3 Dec 2019 14:24:40 -0800
+Subject: [PATCH] fix: add self to editors
+
+---
+ _specs/ecip-1000.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/_specs/ecip-1000.md b/_specs/ecip-1000.md
+index 86d6e09..5cd8a47 100644
+--- a/_specs/ecip-1000.md
++++ b/_specs/ecip-1000.md
+@@ -77,6 +77,7 @@ The current ECIP editors are:
+ * Cody Burns (@realcodywburns)
+ * Afri Schoedon (@soc1c)
+ * Yaz Khoury (@YazzyYaz)
++* Zachary Belford (@BelfordZ)
+ 
+ ## ECIP Editor Responsibilities & Workflow
+ 

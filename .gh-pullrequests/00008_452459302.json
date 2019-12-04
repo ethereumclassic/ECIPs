@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/452459302",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/8#issuecomment-452459302",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/8",
+    "id": 452459302,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1MjQ1OTMwMg==",
+    "user": {
+      "login": "oberondelafay",
+      "id": 44259757,
+      "node_id": "MDQ6VXNlcjQ0MjU5NzU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/44259757?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/oberondelafay",
+      "html_url": "https://github.com/oberondelafay",
+      "followers_url": "https://api.github.com/users/oberondelafay/followers",
+      "following_url": "https://api.github.com/users/oberondelafay/following{/other_user}",
+      "gists_url": "https://api.github.com/users/oberondelafay/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/oberondelafay/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/oberondelafay/subscriptions",
+      "organizations_url": "https://api.github.com/users/oberondelafay/orgs",
+      "repos_url": "https://api.github.com/users/oberondelafay/repos",
+      "events_url": "https://api.github.com/users/oberondelafay/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/oberondelafay/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-08T21:32:50Z",
+    "updated_at": "2019-01-08T21:32:50Z",
+    "author_association": "NONE",
+    "body": "@saturn-network I have ideas.  I'm just trying to hammer them into something cohesive and digestible.  \r\n\r\nI'm trying to sort out this ECIP process and the right way to present things to you guys for discussion and approval.  I'm just a user, not a dev.  But I use ALOT of currencies and have be doing so since 2009.  In that time I've learned a lot of lessons.\r\n\r\nWhat you're doing here is trying to put a bandaid on a broken leg.  It won't work, you're only covering up a symptom and not dealing with the fundamental disease.\r\n\r\nIf ETC remains PoW regardless of algo, it is forever going to have these issues.  Changing the algo might have a short term effect, but in the long run these attacks are because it's more profitable to use it as a tool to rape people unawares than to mine it properly and honestly  \r\n\r\nEven changing from PoW to something else would only be covering a symptom and maybe making it harder to get sicker.\r\n\r\nA quick fix to the problem is to add something to official clients so that they do not show coins as received until they are past the longest known re-org and don't show them as confirmed until 2x the longest re-org.  If exchanges don't see the coins come in until it's too late for them to re-org out and be double spent, then this pushes the attacker's costs through the roof and makes it untenable to sustain, although they still might be able to pull it off for short bursts with exchanges using custom clients.\r\n\r\nHowever the real problem, the disease so to speak is the price.  \r\nIt's too low to sustain mining at current reward levels and there aren't enough users using the coin to compensate by using up the vast amount of gas available.\r\n\r\nIf we want the current attacks to stop immediately and not resume for a long time, it is sufficient to change the block reward by a factor of somewhere between 10x and 100x in order to allow huge quantities of honest miners to come here and be profitable.  The number isn't important, just make it higher in dollar terms than ETH is paying.\r\n\r\nThis will result in higher rates of inflation, thereby pushing down the price overall in the long run.  But that inflation is going to be diluted by the number of coins already in circulation.  Furthermore, the increased miner presence does translate to increased users and increased decentralization.  In short, pay your miners a living wage so they aren't forced to rent out their pickaxes to the bad guys in order to make ends meet.\r\n\r\nThe second thing to do is start working on bringing more users to the platform.  The more users we have the more valuable it is.  I'm working that angle, and there aren't any blocking issues on my end so long as gas prices remain reasonable and predictable.  Things in the pipeline include a trading card game, an MMORPG, a stablecoin and something I can't discuss right now, but there's nothing like it on ETH or anywhere else for that matter.\r\n\r\nBut there could easily be more like me, you need to work on getting the word out that ETC is a stable and economical platform for people to build mission critical applications on top of.  I can help you with some of that writing because I'm in the trenches and know what challenges they face.  But if the blockchain is being used correctly, there isn't any good reason for a company to choose ETH over ETC even with the current attacks.\r\n\r\nFinal note: \r\nIt would be helpful to have equivalents of oraclize and infura if anyone is looking for things to build that would help bring users.\r\n\r\nNone of this is really relevant to this ECIP though.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/452459302/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

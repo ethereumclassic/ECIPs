@@ -1,0 +1,55 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/349939174",
+    "pull_request_review_id": 321977498,
+    "id": 349939174,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM0OTkzOTE3NA==",
+    "diff_hunk": "@@ -1,58 +1,39 @@\n ---\n lang: en\n ecip: 1076\n-title: Mining Algorithm Change Process\n+title: Mining Algorithm Signaling Process\n author: Talha Cross (@soc1c)\n discussions-to: https://github.com/ethereumclassic/ECIPs/issues/174\n-status: Draft\n+status: Active\n type: ECBP\n created: 2019-11-16\n ---\n \n ### Abstract\n-This meta document is agnostic to any mining algorithm. Its sole purpose is specifying a process how to openly determine and select a mining algorithm for Ethereum Classic.\n+This meta document is agnostic to any mining algorithm. Its sole purpose is specifying a process for miners to signal their preferred mining algorithm for Ethereum Classic.\n \n ### Motivation\n-The decision to change the Ethereum Classic mining algorithm - or to keep it as is - is not an easy one to make. It should be done by broad consensus with all stakeholders involved - miners, investors, application and core developers, and anyone else who feels they have a stake in ETC. This meta document proposes a process of how to facilitate the potential change of the mining algorithm and parameters.\n+The decision to change the Ethereum Classic mining algorithm - or to keep it as is - is not an easy one to make. It should be done by broad consensus with all stakeholders involved - miners, investors, application and core developers, and anyone else who feels they have a stake in ETC. This meta document proposes a process of how miners could signal in favor of one potential change of the mining algorithm and parameters.\n \n ### Available Options\n Currently, the following options are debatable.\n \n - **ECBP-1076-A**: _\"Ethash Status Quo.\"_ The mining algorithm will be untouched as it is since genesis, as **Ethash** function with a statically **increasing DAG**.\n - **ECBP-1076-B**: _\"Ethash Limited DAG.\"_ The mining algorithm will be untouched as it is since genesis, as **Ethash** function. However, the **DAG size will be limited** as specified in [ECIP-1043](https://ecips.ethereumclassic.org/ECIPs/ecip-1043).\n - **ECBP-1076-C**: _\"Keccak256 (SHA3).\"_ The mining algorithm will be **changed to Keccak256** as specified in [ECIP-1049](https://ecips.ethereumclassic.org/ECIPs/ecip-1049).\n-- **ECBP-1076-D**: _\"ProgPoW.\"_ The mining algorithm will be **changed to ProgPow** as specified in [ECIP-1070](https://ecips.ethereumclassic.org/ECIPs/ecip-1070).\n+- ~~**ECBP-1076-D**: _\"ProgPoW.\"_ The mining algorithm will be **changed to ProgPow** as specified in [ECIP-1070](https://ecips.ethereumclassic.org/ECIPs/ecip-1070).~~ \n \n-Eventually, the community has to decide on one.\n+    _Note: ProgPoW was rejected by the community on Nov/20, 2019. However, miners can still signal for this option if they prefer this over the other options._\n \n-### Process\n-The following process facilitates all stakeholders in various stages.\n+Eventually, the miners have to signal in favor of one option.\n \n-1. _\"Tech Stage.\"_ Core and application developers meet in regular calls to evaluate the feasibility of the Ethash status quo, the limited DAG size proposal (ECIP-1043), the Keccak256 proposal (ECIP-1049), and the ProgPoW proposal (ECIP-1070).\n+### Signaling Process\n+Solo miners, mining farms, and mining pools can signal support by adjusting their mining node to signal in favor of one of the proposals that was promoted to \"Last Call\" state in the previous stage. Details on the signaling can be found in the subsequent subsections.\n \n-    If there is no technical objection to each of the proposals, the proposals can be **moved to \"Last Call\"** state, regardless of whether they will be considered in future or not. As a result, none, one, or many competing proposals can be in \"Last Call\" state at the same time.\n+The signaling process shall be considered finished once more than **70% of the last 1_000_000 blocks** were signed with a signal in favor of one proposal.\n \n-    This stage is finished once all proposals are either in \"Last Call,\" \"Withdrawn,\" or \"Rejected\" state.\n-\n-2. _\"Miner Stage.\"_ Solo miners, mining farms, and mining pools can signal support by adjusting their mining node to signal in favor of one of the proposals that was promoted to \"Last Call\" state in the previous stage. Details on the signaling can be found in the subsequent section.",
+    "path": "_specs/ecip-1076.md",
+    "position": 47,
+    "original_position": 47,
+    "commit_id": "91fd41171927dd80ad7217e964fd316a49b07767",
+    "original_commit_id": "91fd41171927dd80ad7217e964fd316a49b07767",
+    "user": {
+      "login": "zmitton",
+      "id": 6954889,
+      "node_id": "MDQ6VXNlcjY5NTQ4ODk=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6954889?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zmitton",
+      "html_url": "https://github.com/zmitton",
+      "followers_url": "https://api.github.com/users/zmitton/followers",
+      "following_url": "https://api.github.com/users/zmitton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zmitton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zmitton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zmitton/subscriptions",
+      "organizations_url": "https://api.github.com/users/zmitton/orgs",
+      "repos_url": "https://api.github.com/users/zmitton/repos",
+      "events_url": "https://api.github.com/users/zmitton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zmitton/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "```suggestion\r\n2. _\"Miner Stage.\"_ Solo miners, mining farms, and mining pools can signal support by adjusting their mining node to signal in favor of one of the proposals specified here. Details on the signaling can be found in the subsequent section.\r\n```",
+    "created_at": "2019-11-24T18:35:03Z",
+    "updated_at": "2019-11-24T18:36:31Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/194#discussion_r349939174",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/194",
+    "author_association": "CONTRIBUTOR",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/349939174"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/194#discussion_r349939174"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/194"
+      }
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 37,
+    "original_line": 37,
+    "side": "LEFT"
+  }

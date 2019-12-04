@@ -1,0 +1,50 @@
+{
+    "id": 352308078,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM1MjMwODA3OA==",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352308078",
+    "pull_request_review_id": 324911563,
+    "diff_hunk": "@@ -0,0 +1,103 @@\n+---\n+ecip: TBD\n+title: The Meta Fork ECIP: Establishing _Fork_ type ECIPs and their specifications and processes\n+author: Mr. Meows D. Bits\n+discussions-to: TBD\n+status: WIP\n+type: Meta\n+created: 2019-11-29T14:17:42-05:00\n+resolution: TBD\n+---\n+\n+### Abstract\n+\n+Establishing _Fork_ type ECIPs, and their standards and processes.\n+\n+#### TL;DR\n+\n+Make ECIPs with `Type` _Fork_ a thing. _Fork_ ECIPs should follow this process:\n+- A \"shell\" Fork ECIP is opened, fitting the [template provided](TODO). This ECIP __does not initially include `Activation Block Number` or `Features` specifications__.\n+- While in `WIP` or `Draft` status, one or more change sets are proposed against this document (eg. via Github Pull Requests) __modifying BOTH `Activation Block Number` and `Features` specifications__.\n+- ... Stuff happens; there are comments, emails, meetings, bribes, blogs, bragging, trolling, haranguing, arguing, debating, pondering, editing, compromising, constructive criticiziing, etc...\n+- One change set is merged to modify the Fork ECIP, yielding a COMPLETE and UNIQUE hard fork specification document.\n+\n+### Definition\n+\n+Fork ECIPs are defined as ECIPs specifying PROTOCOL ACTIVATION of any one or more Standards-Core track ECIP(s) at a specified activation block number.\n+\n+#### Standards\n+\n+Fork ECIPs should contain only placeholder information for ECIP-sets and block activation numbers while in `WIP` or `Draft` status. \n+\n+Modification to any of `Last Call`, `Accepted`, `Final`, or `Active` statuses should be accompanied by the introduction (merge) of a single change set containing COMPLETE and UNIQUE definitions of the placeholder values.\n+\n+Change sets (eg Pull Requests) editing placeholder ECIP-set and block number information should do so with neither value in isolation; change sets modifying only ECIP-set values, or only block number values, are disallowed.\n+\n+### Motivation\n+\n+Fork ECIPs represent a single idea: The next hardfork the blockchain is expected to undergo. This is a pragmatic and common approach to managing blockchain protocol maintenance and upgrades. \n+Thus, it makes sense to use accessible and conceptually-unifying procedures for this challenge.\n+\n+- __Accessibility__: Github provides an accessible user interface for viewing a Pull Request (proposed change set) against a single document.\n+\n+- __Legible and Communicable Reasoning__: Requiring UNIQUE and COMPLETE change sets against against a Fork type ECIP demand presentation and consideration of proposed specifications as a whole.\n+\n+- __Sufficient specification__: It is the job of Fork ECIPs to eventually provide precise and operable implementation specifications. Incomplete proposals (changesets) are inoperable; they are not ready for review, discussion, nor implementation. Any Fork ECIP lacking a COMPLETE feature set or block number is considered incomplete.\n+\n+- __Efficiency__: Unique proposals save time and energy.\n+\n+#### Historical motivations\n+\n+Related to and derivative of:\n+\n+- https://github.com/ethereumclassic/ECIPs/issues/217\n+- https://github.com/ethereumclassic/ECIPs/issues/215\n+- https://github.com/ethereumclassic/ECIPs/issues/175\n+- https://github.com/ethereumclassic/ECIPs/issues/131\n+- https://github.com/ethereumclassic/ECIPs/issues/177\n+- https://github.com/ethereumclassic/ECIPs/issues/135\n+- https://github.com/ethereumclassic/ECIPs/pull/218\n+- https://github.com/ethereumclassic/ECIPs/pull/212\n+- https://github.com/ethereumclassic/ECIPs/pull/207\n+- https://github.com/ethereumclassic/ECIPs/pull/214\n+- https://github.com/ethereumclassic/ECIPs/pull/199\n+- https://github.com/ethereumclassic/ECIPs/pull/196\n+\n+### Specification\n+\n+A Fork ECIP is defined as an ECIP specifying any (`n >= 1`) Standards-Core track ECIP or ECIP-set and a block activation number for this set. A Fork ECIP should be conceptually complete and unique (note that _Next hardfork_ suffices for the existing preference for ECIP uniqueness, since it is intended that there only be one at a time -- hopefully!).\n+\n+_Complete_ is defined as being fully and totally definitive; not lacking anything.\n+\n+_Unique_ means not the same as another thing; in this case, not precisely duplicating any existing ECIP.\n+\n+This proposal specifies that all Fork ECIPs in `Draft` state or earlier should contain NO information about ECIP-sets or block activation numbers (all `TBD`). Proposed specifications to fill these placeholders should be made in the form of distinct and separate propsed change sets (eg Github Pull Requests) to the Fork ECIP document. The changesets are required to be UNIQUE and COMPLETE.\n+\n+### Rationale\n+\n+The sole purpose of a Fork ECIP is to join a block number (activation block) with a set of `n >= 1` Standards-Core type ECIPs containing protocol-facing changes. The document says \"_These_ features will activate at _this_ moment.\"\n+\n+0. \"Shell\" format Fork ECIPs represent a clear, albeit abstract, idea: The blockchain's next hard fork.\n+\n+1. __Demanding fully-formed Fork ECIP Changeset proposal forces authors, editors, and reviewers to evaluate and document ECIP-set behavior and enables concrete discussion of feature sets as complete wholes.__ A Fork ECIP Changeset may represent a plurality of features, and so in order to be an _operable_ specification it should not represent an ambiguous set. Sets of ECIPs can have interoperative dependencies and outcomes; this causes a conceptual permutation and combination challenge when attempting to design a set of ECIPs for simultaneous inclusion. The intention of this specification is make these logical steps as explicit and document and accessible as possible, in order that good decisions can be made with a process of open and constructive collaboration, enabled by named and concrete options.\n+\n+2. __Fork ECIP Changesets without block numbers lack operability.__ Activation numbers _are specifications_ and should not be treated as a second class or at-convenience citizens. Implementation timelines are importantly related variables to their adjacent ECIP-sets (large set ostensibly require long timelines, hotfix sets require short ones.) We cannot reason about them in isolation.\n+\n+3. __Concrete things are easier to build language and reasoning around.__ Nuances of interoperations are documented and included in concrete proposals, leaving less theoretical abstract reasoning to manage, which is relevant in the context of group _and_ individual decision making. \"Competing\" Fork ECIP Changeset alternatives become explicit and standardized, yielding conceptual and communicable clarity in review processes and decision-making processes.\n+\n+#### Alternatives considered\n+\n+Use distinct UNIQUE and COMPLETE ECIPs to describe fork specification options.\n+\n+However, allowing fully-formed alternative and \"competing\" ECIPs is logistically and practically difficult to use. \n+Currently, our most prominently used collaboration tool, Github, does not provide an accessible UI for comparing arbitrary documents or review separate arbitrary documents as a conceptual set.\n+\n+### Implementation\n+\n+A Fork ECIP should achieve `Last Call` as a change set has been successfully merged. Conversely, a Fork ECIP with non-empty specifications may not see `Draft` or `WIP` status; it may only otherwise `Active`, `Withdrawn`, or `Rejected`.",
+    "path": "_specs/ecip-_.md",
+    "position": null,
+    "original_position": 97,
+    "commit_id": "a4c7dd1ec7a87705ba9af9ee0153b252c0e89e72",
+    "user": {
+      "login": "meowsbits",
+      "id": 45600330,
+      "node_id": "MDQ6VXNlcjQ1NjAwMzMw",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/45600330?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/meowsbits",
+      "html_url": "https://github.com/meowsbits",
+      "followers_url": "https://api.github.com/users/meowsbits/followers",
+      "following_url": "https://api.github.com/users/meowsbits/following{/other_user}",
+      "gists_url": "https://api.github.com/users/meowsbits/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/meowsbits/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/meowsbits/subscriptions",
+      "organizations_url": "https://api.github.com/users/meowsbits/orgs",
+      "repos_url": "https://api.github.com/users/meowsbits/repos",
+      "events_url": "https://api.github.com/users/meowsbits/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/meowsbits/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "Resolved with https://github.com/ethereumclassic/ECIPs/pull/224/commits/b00bdcacc07bae5436a1444f2c781c8f49508fce",
+    "created_at": "2019-11-30T22:38:32Z",
+    "updated_at": "2019-12-01T13:54:41Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/224#discussion_r352308078",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/224",
+    "author_association": "CONTRIBUTOR",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352308078"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/224#discussion_r352308078"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/224"
+      }
+    },
+    "original_commit_id": "93895296e4c969f07f99b304db1569a573268892",
+    "in_reply_to_id": 352307871
+  }

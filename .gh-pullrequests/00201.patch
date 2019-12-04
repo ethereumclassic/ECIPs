@@ -1,0 +1,107 @@
+From 2a3e76264f1c58dd3bbb8a368eafe54cabe77318 Mon Sep 17 00:00:00 2001
+From: Bob Summerwill <bob@summerwill.net>
+Date: Wed, 27 Nov 2019 09:00:59 -0800
+Subject: [PATCH] Tidying up author formatting, so it displays cleanly in the
+ web view.
+
+---
+ _specs/ecip-1047.md    | 2 +-
+ _specs/ecip-1050.md    | 2 +-
+ _specs/ecip-1053.md    | 2 +-
+ _specs/ecip-1062.md    | 2 +-
+ _specs/ecip-1064.md    | 2 +-
+ _specs/ecip-1067.md    | 2 +-
+ _specs/zh/ecip-1017.md | 2 +-
+ 7 files changed, 7 insertions(+), 7 deletions(-)
+
+diff --git a/_specs/ecip-1047.md b/_specs/ecip-1047.md
+index aa3ce7a..427f56f 100644
+--- a/_specs/ecip-1047.md
++++ b/_specs/ecip-1047.md
+@@ -2,7 +2,7 @@
+ lang: en
+ ecip: 1047
+ title: Reduce Gas Limit to 1 Million
+-author: Anthony Lusardi (ethereumclassicanthony@gmail.com)
++author: Anthony Lusardi (@pyskell)
+ status: Draft
+ type: Informational
+ created: 2019/1/3
+diff --git a/_specs/ecip-1050.md b/_specs/ecip-1050.md
+index 515dce0..c311910 100644
+--- a/_specs/ecip-1050.md
++++ b/_specs/ecip-1050.md
+@@ -2,7 +2,7 @@
+ lang: en
+ ecip: 1050
+ title: Status Codes
+-author: Brooklyn Zelenka [@expede](https://github.com/expede), [Boris Mann](https://github.com/bmann)
++author: Brooklyn Zelenka (@expede), Boris Mann (@bmann)
+ discussions-to: https://fission.codes/blockchain/ethclassic
+ status: Last Call
+ type: Standars Track
+diff --git a/_specs/ecip-1053.md b/_specs/ecip-1053.md
+index eb764a2..9f61874 100644
+--- a/_specs/ecip-1053.md
++++ b/_specs/ecip-1053.md
+@@ -2,7 +2,7 @@
+ lang: en
+ ecip: 1053
+ title: Add OpenRPC Service Discovery To JSON-RPC Services
+-author: Shane Jonas, Zachary Belford
++author: Shane Jonas (@shanejonas), Zachary Belford (@BelfordZ)
+ discussions-to: https://github.com/etclabscore/ECIPs/issues/16
+ status: Draft
+ type: Standards Track
+diff --git a/_specs/ecip-1062.md b/_specs/ecip-1062.md
+index d215a9d..e878c42 100644
+--- a/_specs/ecip-1062.md
++++ b/_specs/ecip-1062.md
+@@ -2,7 +2,7 @@
+ lang: en
+ ecip: 1062
+ title: Submit Block RPC
+-author: Zachary Belford, zachary.b@etclabs.org
++author: Zachary Belford (@BelfordZ)
+ discussions-to: Community Discord #ecips
+ status: Draft
+ type: Standards Track
+diff --git a/_specs/ecip-1064.md b/_specs/ecip-1064.md
+index e1661f4..5388f0d 100644
+--- a/_specs/ecip-1064.md
++++ b/_specs/ecip-1064.md
+@@ -4,7 +4,7 @@ ecip: 1064
+ title: Communicating with 3rd parties
+ status: Draft
+ type: Meta
+-author: Dean Pappas (deancpappas@gmail.com)
++author: Dean Pappas (@bobthegrownup)
+ discussions-to: Community Discord #ecips
+ created: 2019-08-06
+ ---
+diff --git a/_specs/ecip-1067.md b/_specs/ecip-1067.md
+index e565861..f2012b6 100644
+--- a/_specs/ecip-1067.md
++++ b/_specs/ecip-1067.md
+@@ -5,7 +5,7 @@ title: Standardize OS Level Management of Signature Handling ("invoke-signer")
+ status: Draft
+ type: Interface
+ discussions-to: https://github.com/ethereumclassic/ECIPs/issues/147
+-author: Zac Mitton
++author: Zac Mitton (@zmitton)
+ created: 2019-02-07
+ ---
+ 
+diff --git a/_specs/zh/ecip-1017.md b/_specs/zh/ecip-1017.md
+index 0a4542a..8a88790 100644
+--- a/_specs/zh/ecip-1017.md
++++ b/_specs/zh/ecip-1017.md
+@@ -2,7 +2,7 @@
+ lang: zh
+ ecip: 1017
+ title: ETC 货币政策和铸币方案最终修改 
+-author: Matthew Mazur 5n4pr011@gmail.com 
++author: Matthew Mazur <5n4pr011@gmail.com>
+ translator: Roy (以太坊原链协会 ECC) QQ:1251433202 
+ status: Final
+ type: Standards Track

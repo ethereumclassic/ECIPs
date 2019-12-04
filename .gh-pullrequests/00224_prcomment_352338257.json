@@ -1,0 +1,55 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352338257",
+    "pull_request_review_id": 324934559,
+    "id": 352338257,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM1MjMzODI1Nw==",
+    "diff_hunk": "@@ -0,0 +1,102 @@\n+---\n+ecip: 1077\n+title: The Meta Fork ECIP: Establishing _Fork_ type ECIPs and their specifications and processes\n+author: Mr. Meows D. Bits\n+discussions-to: TBD\n+status: WIP\n+type: Meta\n+created: 2019-11-29\n+---\n+\n+### Abstract\n+\n+Establishing _Fork_ type ECIPs, and their standards and processes.\n+\n+#### TL;DR\n+\n+Make ECIPs with `Type` _Fork_ a thing. _Fork_ ECIPs should follow this process:\n+- A \"shell\" Fork ECIP is opened, fitting the [template provided](TODO). This ECIP __does not initially include `Activation Block Number` or `Features` specifications__.\n+- While in `WIP` or `Draft` status, one or more change sets are proposed against this document (eg. via Github Pull Requests) __modifying BOTH `Activation Block Number` and `Features` specifications__.\n+- ... Stuff happens; there are comments, emails, meetings, bribes, blogs, bragging, trolling, haranguing, arguing, debating, pondering, editing, compromising, constructive criticiziing, etc...",
+    "path": "_specs/ecip-1077.md",
+    "position": null,
+    "original_position": 20,
+    "commit_id": "a4c7dd1ec7a87705ba9af9ee0153b252c0e89e72",
+    "original_commit_id": "b00bdcacc07bae5436a1444f2c781c8f49508fce",
+    "user": {
+      "login": "meowsbits",
+      "id": 45600330,
+      "node_id": "MDQ6VXNlcjQ1NjAwMzMw",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/45600330?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/meowsbits",
+      "html_url": "https://github.com/meowsbits",
+      "followers_url": "https://api.github.com/users/meowsbits/followers",
+      "following_url": "https://api.github.com/users/meowsbits/following{/other_user}",
+      "gists_url": "https://api.github.com/users/meowsbits/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/meowsbits/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/meowsbits/subscriptions",
+      "organizations_url": "https://api.github.com/users/meowsbits/orgs",
+      "repos_url": "https://api.github.com/users/meowsbits/repos",
+      "events_url": "https://api.github.com/users/meowsbits/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/meowsbits/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "Just posting a potential revision that I think might fit @sorpaas' intentions w/r/t to discussion at https://github.com/ethereumclassic/ECIPs/pull/224#discussion_r352308946.\r\n\r\n```suggestion\r\n- _Rough consensus_ (keyword: see [definition](https://github.com/ethereumclassic/ECIPs/blob/c87f1828bd3d13ae5505f229207b65079a2de915/_specs/ecip-1000.md#L205) and [uses](https://github.com/ethereumclassic/ECIPs/search?q=rough+consensus&unscoped_q=rough+consensus)) is achieved and a single change set is explicitly approved by [ALL acting ECIP Editors](https://github.com/ethereumclassic/ECIPs/blob/c87f1828bd3d13ae5505f229207b65079a2de915/_specs/ecip-1000.md#ecip-editors). \r\n```",
+    "created_at": "2019-12-01T11:39:45Z",
+    "updated_at": "2019-12-02T20:10:41Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/224#discussion_r352338257",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/224",
+    "author_association": "CONTRIBUTOR",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352338257"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/224#discussion_r352338257"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/224"
+      }
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": null,
+    "original_line": 20,
+    "side": "RIGHT"
+  }

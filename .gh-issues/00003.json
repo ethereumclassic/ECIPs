@@ -1,0 +1,60 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/3",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/3/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/3/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/3/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/3",
+    "id": 392701132,
+    "node_id": "MDU6SXNzdWUzOTI3MDExMzI=",
+    "number": 3,
+    "title": "ECIP migration",
+    "user": {
+      "login": "realcodywburns",
+      "id": 13103499,
+      "node_id": "MDQ6VXNlcjEzMTAzNDk5",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/13103499?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/realcodywburns",
+      "html_url": "https://github.com/realcodywburns",
+      "followers_url": "https://api.github.com/users/realcodywburns/followers",
+      "following_url": "https://api.github.com/users/realcodywburns/following{/other_user}",
+      "gists_url": "https://api.github.com/users/realcodywburns/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/realcodywburns/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/realcodywburns/subscriptions",
+      "organizations_url": "https://api.github.com/users/realcodywburns/orgs",
+      "repos_url": "https://api.github.com/users/realcodywburns/repos",
+      "events_url": "https://api.github.com/users/realcodywburns/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/realcodywburns/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2018-12-19T17:18:59Z",
+    "updated_at": "2019-01-13T17:46:04Z",
+    "closed_at": "2019-01-13T17:46:04Z",
+    "author_association": "MEMBER",
+    "body": "The former repository (https://github.com/ethereumproject/ECIPs) was compromised and generally inefficient.\r\n\r\nPlease transfer from captured repo if you wish your improvement to be recorded in this repo:\r\n\r\n## @sorpaas \r\n#### PR:\r\n- [x] ECIP-1000: Proposed ECIP Process\r\n- [x] ECIP-1022: Generalized Version Bits Voting for Consensus Soft and Hard Fork\r\n- [x] ECIP-1023: Combined CarbonVote and MinerVote for Consensus Soft and Hard Forks\r\n- [x] ECIP-1024: A CarbonVote and MinerVote Contract for Consensus Soft and Hard Forks\r\n- [x] ECIP-1025: Precompiled Contracts for zkSNARK Verification\r\n- [x] ECIP-1026: Modexp Precompiled Contract \r\n- [x] ECIP-1029: Include Uncles in Total Difficulty Calculation \r\n- [x] ECIP-1032: Readable Address and Transaction Hash\r\n- [x] ECIP-1033: Mnemonic code for public address\r\n- [x] ECIP-1034: Message Signing and Verification in JSON RPC \r\n- [x] ECIP-1040: Generalized Account Versioning Scheme for Hard Fork\r\n\r\n## @Dexaran \r\n\r\n#### PR:\r\n- [x] Current implementation of ECIP1021 doesn't match ERC223 token standard.\r\n\r\n#### Issues: \r\n- [ ] ECIP-?- Ethereum Classic Naming Service (ECNS)\r\n- [ ] EVM 2.0 Wasm\r\n- [ ] Integrated Random Number Generator\r\n- [ ] Voting mechanism\r\n- [ ] ERC223 Token standard\r\n- [ ] ERC: Address-to-Address messaging system protocol\r\n- [ ] On-chain registry of official media resources.\r\n\r\n## Dontpanic\r\n#### PR:\r\n- [x]  ECIP1043 Fixed DAG  \r\n\r\n#### Issues:\r\n- [x] Evaluate first round of metro hard fork \r\n- [x] ECIP-?: Extension of ecip 1010 timeline\r\n\r\n## @splix \r\n#### PR:\r\n- [x] ECIP-1027/28: Scaling ETC with Sidechains [WIP] \r\n- [x] ECIP-1042: GASPAY\r\n\r\n#### Issues:\r\n- [x] ECIP-? Atomic Transactions\r\n\r\n## @gagarin55\r\n- [x] ECIP-1019\r\n\r\n## @arvicco \r\n- [ ] ECIP-? Limit DAG growth\r\n- [ ] ECIP-? Protection from transaction replays\r\n- [x] ECIP-1017 ETC monetary policy and emission schedule\r\n\r\n## @pyskell \r\n#### issues:\r\n- [ ] Utilizing a second authentication method to prove ownership and facilitate fund recovery in the event of a theft\r\n- [ ] Adopt EIP-658\r\n\r\n\r\n## @bmann \r\n- [x] FISSION Status Codes\r\n\r\n## other\r\n- [ ] We didn't have accepted ECIP process user:ghost\r\n- [x] ECIP1011 for Replay Attack Fix Using Change in the Signing Process\r\n- [x] ECIP-1044: Formalize IPFS hash into ECNS resolver\r\n- [x] ECIP-1045: Support for ETH Byzantium & Constantinople EVM and Protocol Upgrades \r\n- [x] ECIP-1046: Precompiled contract for verification of Merkle Inclusion Proofs\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/3/reactions",
+      "total_count": 1,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

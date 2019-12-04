@@ -1,0 +1,77 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/14",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/14/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/14/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/14/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/14",
+    "id": 400386553,
+    "node_id": "MDU6SXNzdWU0MDAzODY1NTM=",
+    "number": 14,
+    "title": "ECIP-1047: Reduce Gas Limit to 1 Million",
+    "user": {
+      "login": "pyskell",
+      "id": 9665963,
+      "node_id": "MDQ6VXNlcjk2NjU5NjM=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9665963?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pyskell",
+      "html_url": "https://github.com/pyskell",
+      "followers_url": "https://api.github.com/users/pyskell/followers",
+      "following_url": "https://api.github.com/users/pyskell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pyskell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pyskell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pyskell/subscriptions",
+      "organizations_url": "https://api.github.com/users/pyskell/orgs",
+      "repos_url": "https://api.github.com/users/pyskell/repos",
+      "events_url": "https://api.github.com/users/pyskell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pyskell/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 1154785139,
+        "node_id": "MDU6TGFiZWwxMTU0Nzg1MTM5",
+        "url": "https://api.github.com/repos/ethereumclassic/ECIPs/labels/status:%20draft",
+        "name": "status: draft",
+        "color": "ffffff",
+        "default": false,
+        "description": "draft stage - can be assigned ecip number and merged, but requires new PR to be Accepted"
+      },
+      {
+        "id": 1154785129,
+        "node_id": "MDU6TGFiZWwxMTU0Nzg1MTI5",
+        "url": "https://api.github.com/repos/ethereumclassic/ECIPs/labels/type:%20meta",
+        "name": "type: meta",
+        "color": "cfd3d7",
+        "default": false,
+        "description": "Accepted best practices"
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 11,
+    "created_at": "2019-01-17T17:34:43Z",
+    "updated_at": "2019-11-10T12:07:24Z",
+    "closed_at": null,
+    "author_association": "MEMBER",
+    "body": "Discussion regarding ECIP-1047(#6). Please discuss here and refer to #6 for the latest version of this ECIP. ",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/14/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

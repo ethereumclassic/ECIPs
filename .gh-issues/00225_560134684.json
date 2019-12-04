@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560134684",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/225#issuecomment-560134684",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/225",
+    "id": 560134684,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDEzNDY4NA==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-01T17:31:52Z",
+    "updated_at": "2019-12-01T17:31:52Z",
+    "author_association": "MEMBER",
+    "body": "\"Oh, and 3. Governance -- what was the solution for that which supposedly existed in 2016 for Ethereum that would have been (according to you) agreeable to IBM?\"\r\n\r\nNo - it was actually seeing things like my actions with the C++ relicensing, like seeing ConsenSys actions in building \"Enterprise Ethereum\".   It really was not anything which the EF themselves were doing, other than to the degree that I was driving while being employed by the EF.\r\n\r\nIn the end the EF failed the governance test there, failed it again when they did not support the EEA, and have failed it again and again since.\r\n\r\nDo you know who has not failed that test?   ETC.\r\n\r\nThe ETC Coop is building that bridge to the EEA and Hyperledger now because we are all adults, with responsible actions and with a Duty of Care to all ecosystem participants in a way which the EF has never done.\r\n\r\nWith regard to \"Geth family will die\", I absolutely stand by that.   Because the Geth codebase and it's lack of responsible IP protections make it unacceptable for use by businesses which are savvy to these very real threats.\r\n\r\nWant to have potential for future lawsuits if you use this code?  No.  I did not think so.\r\n\r\nUse Parity-Ethereum, Hyperledger Besu or IOHK Mantis (if you could <sad face/>) and you will not have these problems.\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560134684/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

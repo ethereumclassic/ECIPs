@@ -1,0 +1,55 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/347143655",
+    "pull_request_review_id": 318027675,
+    "id": 347143655,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM0NzE0MzY1NQ==",
+    "diff_hunk": "@@ -0,0 +1,97 @@\n+---\n+lang: en\n+ecip: 1076\n+title: Mining Algorithm Change Process\n+author: Talha Cross (@soc1c)\n+discussions-to: https://github.com/ethereumclassic/ECIPs/issues/174\n+status: Draft\n+type: ECBP\n+created: 2019-11-16\n+---\n+\n+### Abstract\n+This meta document is agnostic to any mining algorithm. Its sole purpose is specifying a process how to openly determine and select a mining algorithm for Ethereum Classic.\n+\n+### Motivation\n+The decision to change the Ethereum Classic mining algorithm - or to keep it as is - is not an easy one to make. It should be done by broad consensus with all stakeholders involved - miners, investors, application and core developers, and anyone else who feels having a stake in ETC. This meta document proposes a process of how to facilitate the potential change of the mining algorithm and parameters.",
+    "path": "_specs/ecip-1076.md",
+    "position": 16,
+    "original_position": 16,
+    "commit_id": "da1b5fc7cc7432ed3e561ea9bdf64896dfb517b0",
+    "original_commit_id": "da1b5fc7cc7432ed3e561ea9bdf64896dfb517b0",
+    "user": {
+      "login": "mikeyb",
+      "id": 36461,
+      "node_id": "MDQ6VXNlcjM2NDYx",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/36461?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mikeyb",
+      "html_url": "https://github.com/mikeyb",
+      "followers_url": "https://api.github.com/users/mikeyb/followers",
+      "following_url": "https://api.github.com/users/mikeyb/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mikeyb/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mikeyb/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mikeyb/subscriptions",
+      "organizations_url": "https://api.github.com/users/mikeyb/orgs",
+      "repos_url": "https://api.github.com/users/mikeyb/repos",
+      "events_url": "https://api.github.com/users/mikeyb/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mikeyb/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "> and anyone else who feels having a stake in ETC\r\nShould this be?\r\n> and anyone else who feels they have a stake in ETC",
+    "created_at": "2019-11-17T15:44:52Z",
+    "updated_at": "2019-11-17T15:49:35Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/187#discussion_r347143655",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/187",
+    "author_association": "MEMBER",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/347143655"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/187#discussion_r347143655"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/187"
+      }
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 16,
+    "original_line": 16,
+    "side": "RIGHT"
+  }

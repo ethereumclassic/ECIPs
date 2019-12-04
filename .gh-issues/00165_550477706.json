@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550477706",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/165#issuecomment-550477706",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/165",
+    "id": 550477706,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MDQ3NzcwNg==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-06T20:03:04Z",
+    "updated_at": "2019-11-06T20:03:04Z",
+    "author_association": "MEMBER",
+    "body": "I would just highlight what @BelfordZ said here:\r\n\r\nhttps://github.com/ethereumclassic/ECIPs/pull/163#issuecomment-550028785\r\n\r\nApache 2.0 is not controversial at all, Donald, and is not authoritarian.   It protects users from the very real threat of copyright and patent lawsuits.  The real world exists.  We cannot wish it away.\r\n\r\nThis is not about laziness and rolling over to \"Corporate Communist Bob\".  Mandating Apache 2.0 for all future contributions, plus whatever we can do for previous commits would be an awesome step forward for ETC which would not be any kind of compromise.\r\n\r\n\"Real names\" a step too far?  Fine, so we don't do it.   I have NEVER proposed uncloaking anybody, by the way - just that having a real name requirement (which would have stopped precisely ZERO contributions which have been accepted to date on both ETC and ETH) would be a great deterrent to patent-trolls and other social attackers.\r\n\r\nTalking to lawyers is pragmatic when it comes to setting IP policy.  They are the experts.  If you think that is \"a crime\" then I don't know what to say.\r\n\r\n\"appealing to EF, EEA, Hyperledger, and other \"OSS foundations\" as authority of how ETC should proceed, which are all opposite to ETC ethos\"\r\n\r\nThey are not \"opposite\" - they are in some degrees parallel and in other degrees orthogonal.  This is not a zero sum game.  Open source best practice is not our enemy.  Linux Foundation is not our enemy.  They do not have \"censorship resistance\" in common, that is for sure, but on IP protection we are in complete alignment of needs.\r\n\r\nIf Bitcoin has gone another way (and Ethereum copied) that does not make what has happened there \"gospel\" any more than we need to slavishly follow what Ethereum have done in any way where we feel that was wrong.   Which is why the ECIP process is already better than EIP process, IMHO, with @sorpaas contributions on ECIP-1000 being particularly key.   And now we are kicking that up a notch again - cleaning up our existing ECIPs, and looking to what the best future policy should be.\r\n\r\nI am not your enemy, @TokenHash.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550477706/reactions",
+      "total_count": 2,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 1,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

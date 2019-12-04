@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/561360087",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/220#issuecomment-561360087",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/220",
+    "id": 561360087,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MTM2MDA4Nw==",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-03T21:15:09Z",
+    "updated_at": "2019-12-03T21:15:09Z",
+    "author_association": "MEMBER",
+    "body": "@shanejonas If your argument is that creating new ECIP is wrong, then I think you have seriously misunderstood ECIP-1000 and the spirit of ECIP process. Reading ECIP-1000 carefully, you can find this text: \r\n\r\n> We try to build consensus around an ECIP, but if that’s not possible, you can always submit a competing ECIP.\r\n\r\nYou haven't been able to provide a single argument for the logic inconsistency of the meeting notes provided by Afri, and you haven't been able to provide a single argument why dismissing another editor's reasonable objection is not a violation of the ECIP process, which makes ECIP-1061 invalid.\r\n\r\nAs a result, I don't see any clear argument from you why you're against those solid arguments and facts. I can only conclude, for now, that there's something unjustified in ECIP-1061 that you want to hide. Fortunately, all ECIP editing actions are public and editors are accountable for what they have done. Hence irregular process transition.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/561360087/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

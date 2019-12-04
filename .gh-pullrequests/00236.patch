@@ -1,0 +1,108 @@
+From 108aa5b14a437587eb6e2b6ac38de5757d129acb Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Mon, 2 Dec 2019 17:33:01 +0100
+Subject: [PATCH 1/4] Update ecip-1000.md
+
+---
+ _specs/ecip-1000.md | 7 +++++--
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+
+diff --git a/_specs/ecip-1000.md b/_specs/ecip-1000.md
+index b5b50dd..c04d6f4 100644
+--- a/_specs/ecip-1000.md
++++ b/_specs/ecip-1000.md
+@@ -73,11 +73,14 @@ A good reason to transfer ownership is because the original author no longer has
+ The current ECIP editors are:
+ 
+ * Wei Tang (@sorpaas)
+-* Isaac Ardis (@meowsbits)
+ * Cody Burns (@realcodywburns)
+-* Afri Schoedon (@soc1c)
+ * Yaz Khoury (@YazzyYaz)
+ 
++The following ECIP editors have decided to remain pesedo-anonymous, and we will only be referring to them using Github handles:
++
++* @meowsbits
++* @soc1c
++
+ ## ECIP Editor Responsibilities & Workflow
+ 
+ ### Introduction
+
+From 57864f1434ab58bace64c250031a2b0754bfe846 Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Mon, 2 Dec 2019 17:46:20 +0100
+Subject: [PATCH 2/4] Update ecip-1000.md
+
+---
+ _specs/ecip-1000.md | 7 ++-----
+ 1 file changed, 2 insertions(+), 5 deletions(-)
+
+diff --git a/_specs/ecip-1000.md b/_specs/ecip-1000.md
+index c04d6f4..eb93b46 100644
+--- a/_specs/ecip-1000.md
++++ b/_specs/ecip-1000.md
+@@ -75,11 +75,8 @@ The current ECIP editors are:
+ * Wei Tang (@sorpaas)
+ * Cody Burns (@realcodywburns)
+ * Yaz Khoury (@YazzyYaz)
+-
+-The following ECIP editors have decided to remain pesedo-anonymous, and we will only be referring to them using Github handles:
+-
+-* @meowsbits
+-* @soc1c
++* @soc1c (Anonymous)
++* @meowsbits (Anonymous)
+ 
+ ## ECIP Editor Responsibilities & Workflow
+ 
+
+From a534d7df9d2973bd4553738dbc0a6dfb4c2750c4 Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Mon, 2 Dec 2019 19:09:58 +0100
+Subject: [PATCH 3/4] Update ecip-1000.md
+
+---
+ _specs/ecip-1000.md | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/_specs/ecip-1000.md b/_specs/ecip-1000.md
+index eb93b46..f3d40c7 100644
+--- a/_specs/ecip-1000.md
++++ b/_specs/ecip-1000.md
+@@ -75,8 +75,8 @@ The current ECIP editors are:
+ * Wei Tang (@sorpaas)
+ * Cody Burns (@realcodywburns)
+ * Yaz Khoury (@YazzyYaz)
+-* @soc1c (Anonymous)
+-* @meowsbits (Anonymous)
++* @soc1c (Pseudonymous)
++* @meowsbits (Pseudonymous)
+ 
+ ## ECIP Editor Responsibilities & Workflow
+ 
+
+From 0292842103d6581de7c0e176129dae75bdcb41c2 Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Mon, 2 Dec 2019 19:48:44 +0100
+Subject: [PATCH 4/4] Update ecip-1000.md
+
+---
+ _specs/ecip-1000.md | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/_specs/ecip-1000.md b/_specs/ecip-1000.md
+index f3d40c7..5d4fa30 100644
+--- a/_specs/ecip-1000.md
++++ b/_specs/ecip-1000.md
+@@ -75,8 +75,8 @@ The current ECIP editors are:
+ * Wei Tang (@sorpaas)
+ * Cody Burns (@realcodywburns)
+ * Yaz Khoury (@YazzyYaz)
+-* @soc1c (Pseudonymous)
+-* @meowsbits (Pseudonymous)
++* @soc1c (Talha Cross, Pseudonymous)
++* @meowsbits (Mr. Meows D. Bits, Pseudonymous)
+ 
+ ## ECIP Editor Responsibilities & Workflow
+ 

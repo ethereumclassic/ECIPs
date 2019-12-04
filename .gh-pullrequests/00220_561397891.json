@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/561397891",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/220#issuecomment-561397891",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/220",
+    "id": 561397891,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MTM5Nzg5MQ==",
+    "user": {
+      "login": "YazzyYaz",
+      "id": 9094204,
+      "node_id": "MDQ6VXNlcjkwOTQyMDQ=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9094204?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/YazzyYaz",
+      "html_url": "https://github.com/YazzyYaz",
+      "followers_url": "https://api.github.com/users/YazzyYaz/followers",
+      "following_url": "https://api.github.com/users/YazzyYaz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/YazzyYaz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/YazzyYaz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/YazzyYaz/subscriptions",
+      "organizations_url": "https://api.github.com/users/YazzyYaz/orgs",
+      "repos_url": "https://api.github.com/users/YazzyYaz/repos",
+      "events_url": "https://api.github.com/users/YazzyYaz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/YazzyYaz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-03T23:06:21Z",
+    "updated_at": "2019-12-03T23:21:25Z",
+    "author_association": "MEMBER",
+    "body": "> The action of Afri violating the ECIP process was not when he merged controversial EIPs. That's totally fine.\r\n\r\nThat never happened though, you blocked it and then you merged it after you added your own competing ECIPs without allowing for discussions to happen first about the original ECIP 1061 by soc1c that has been created first.\r\n\r\nAs mentioned in the meeting notes:\r\n\r\n> Wei: Just to be clear? Are we using ECIP 1072? How long should \"last call\" last?\r\n> Afri: Three weeks \"last call\" would be sufficient to evaluate Istanbul on EF network\r\n> Everyone: Sounds good\r\n> Afri: Any final comments?\r\n> Bob: Are we calling it Yingchun now?\r\n> Wei: No, let's stick with Aztlan\r\n> Yaz: We already communicated Aztlan\r\n> Afri: Let's call it Yingchun flavored Aztlan (ECIP 1061)\r\n> Thanks everyone\r\n\r\nConsensus was agreed on 1061 that adopts the 1072 flavor, which I and others approved allowing soc1c to merge. To call it a forceful merge is inaccurate as it was approved by us as in the PR. You're following extreme robotic logic of saying \"if 1072 was mentioned, therefore 1072 is the one to be accepted\" which was not how the call happened. The call was about 1061 and going over the flavors you mentioned, even though those flavors you proposed were against the ECIP-1000 process.\r\n\r\nYou can ask me about the safety properties of the hardfork, but you're just changing the subject to show off how much you know about the technical details of the hardfork in question to take away from the fact that you are the one who violated the ECIP-1000 process to begin with. Stick to the subject matter. \r\n\r\nOne way we can perhaps resolve this issue is that we can propose 1072 as an edition, so it can be referred to as 1061-A/B/C and use that as a reference to the original 1061. Even if it was rejected before in your PR, we can revisit it since I feel it wasn't properly discussed with the wider community. That way, everyone goes home happy. ",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/561397891/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

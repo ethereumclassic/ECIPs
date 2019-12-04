@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560479985",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/220#issuecomment-560479985",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/220",
+    "id": 560479985,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDQ3OTk4NQ==",
+    "user": {
+      "login": "meowsbits",
+      "id": 45600330,
+      "node_id": "MDQ6VXNlcjQ1NjAwMzMw",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/45600330?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/meowsbits",
+      "html_url": "https://github.com/meowsbits",
+      "followers_url": "https://api.github.com/users/meowsbits/followers",
+      "following_url": "https://api.github.com/users/meowsbits/following{/other_user}",
+      "gists_url": "https://api.github.com/users/meowsbits/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/meowsbits/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/meowsbits/subscriptions",
+      "organizations_url": "https://api.github.com/users/meowsbits/orgs",
+      "repos_url": "https://api.github.com/users/meowsbits/repos",
+      "events_url": "https://api.github.com/users/meowsbits/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/meowsbits/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-02T16:48:09Z",
+    "updated_at": "2019-12-02T16:50:50Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I am afraid you may be missing the forest for the trees here @sorpaas.\r\n\r\nMan, I want to be on your side. I want to work with you! I want to build stuff together! Please keep that in mind, and know that I am doing my very damned best to be as objective as possible.\r\n\r\nWhat I'm seeing here is your pressing what is essentially and strictly a \"legal\" case, with an arbitrary \"legal sentence\" (writing a name in a chapter of a book, ie a black star). \r\n\r\nFor one, this sentence has no legislative precedent, which is why I'm being so persistent about developing a procedure for `Irregular Process Transitions` since this has never been done before (and, as you said, hopefully will never again). There is no existing specification or example that says that _this_ is how a \"broken\" ECIP specification should be handled. I am saying that if you want to press a case to achieve a given result, you need to define and have accepted and in place a process specification to handle cases of this type.\r\n\r\nSecondarily, you have not achieved \"rough consensus\" as to the validity of the content your allegation. Indeed, you have reasonable responses to concerns posed, eg. https://github.com/ethereumclassic/ECIPs/pull/220#issuecomment-560015672 -- but not yet any Editor or Participant approval. So even if potential \"sentences\" were clear assuming validation and approval of your case, we would not yet be there. We can wait and see for this.\r\n\r\nAnd summarily, I do not see _any_ benefit to users of ECIP-1000 now or later that come as a result of this change. If you do, please describe what the benefit is you have in mind.\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560479985/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

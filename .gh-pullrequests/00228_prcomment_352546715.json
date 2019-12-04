@@ -1,0 +1,55 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352546715",
+    "pull_request_review_id": 325175443,
+    "id": 352546715,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM1MjU0NjcxNQ==",
+    "diff_hunk": "@@ -4,7 +4,7 @@ ecip: 1052\n title: Smart-contract Security Auditing core\n status: Draft\n type: Meta\n-author: Dexaran, dexaran@ethereumclassic.org\n+Author: Dexaran (@dexaran)",
+    "path": "_specs/ecip-1052.md",
+    "position": null,
+    "original_position": 5,
+    "commit_id": "9ae62b8cf0abbdc18594475313b0740d813bc444",
+    "original_commit_id": "955319c96bcb0614963c179422ba5936fa5deecc",
+    "user": {
+      "login": "meowsbits",
+      "id": 45600330,
+      "node_id": "MDQ6VXNlcjQ1NjAwMzMw",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/45600330?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/meowsbits",
+      "html_url": "https://github.com/meowsbits",
+      "followers_url": "https://api.github.com/users/meowsbits/followers",
+      "following_url": "https://api.github.com/users/meowsbits/following{/other_user}",
+      "gists_url": "https://api.github.com/users/meowsbits/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/meowsbits/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/meowsbits/subscriptions",
+      "organizations_url": "https://api.github.com/users/meowsbits/orgs",
+      "repos_url": "https://api.github.com/users/meowsbits/repos",
+      "events_url": "https://api.github.com/users/meowsbits/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/meowsbits/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "```suggestion\r\nauthor: Dexaran (@dexaran)\r\n```",
+    "created_at": "2019-12-02T11:30:14Z",
+    "updated_at": "2019-12-02T17:58:44Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/228#discussion_r352546715",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/228",
+    "author_association": "CONTRIBUTOR",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352546715"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/228#discussion_r352546715"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/228"
+      }
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": null,
+    "original_line": 7,
+    "side": "RIGHT"
+  }

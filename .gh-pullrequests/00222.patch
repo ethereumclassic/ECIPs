@@ -1,0 +1,269 @@
+From 4f2e902271b8d8d5abff34875f4d8b1da8c95285 Mon Sep 17 00:00:00 2001
+From: meows <b5c6@protonmail.com>
+Date: Fri, 29 Nov 2019 15:29:06 -0500
+Subject: [PATCH 1/7] Init Forking Meta Meta ECIP specification
+
+---
+ _specs/ecip-_.md | 63 ++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 63 insertions(+)
+ create mode 100644 _specs/ecip-_.md
+
+diff --git a/_specs/ecip-_.md b/_specs/ecip-_.md
+new file mode 100644
+index 0000000..6af2169
+--- /dev/null
++++ b/_specs/ecip-_.md
+@@ -0,0 +1,63 @@
++---
++ecip: TBD
++title: The Meta Meta ECIP: Processes for Meta ECIPs
++author: Mr. Meows D. Bits
++discussions-to: TBD
++status: WIP
++type: Meta
++created: 2019-11-29T14:17:42-05:00
++resolution: TBD
++---
++
++### Abstract
++
++Forking Meta ECIPs (defined as Meta ECIPs specifying any Standards-Core track ECIP) should be complete and unique.
++
++### Motivation
++
++Incomplete proposals are inoperable; they are not ready for implementation.
++
++Definite proposals are inoperable; they are not ready for implementation.
++
++Unique proposals saves me time because I don't have to read the same thing twice.
++
++Related to and derivative of:
++
++- https://github.com/ethereumclassic/ECIPs/issues/217
++- https://github.com/ethereumclassic/ECIPs/issues/215
++- https://github.com/ethereumclassic/ECIPs/issues/175
++- https://github.com/ethereumclassic/ECIPs/issues/131
++- https://github.com/ethereumclassic/ECIPs/issues/177
++- https://github.com/ethereumclassic/ECIPs/issues/135
++- https://github.com/ethereumclassic/ECIPs/pull/218
++- https://github.com/ethereumclassic/ECIPs/pull/212
++- https://github.com/ethereumclassic/ECIPs/pull/207
++- https://github.com/ethereumclassic/ECIPs/pull/214
++- https://github.com/ethereumclassic/ECIPs/pull/199
++- https://github.com/ethereumclassic/ECIPs/pull/196
++
++### Specification
++
++A hard fork specification is documented as a Meta ECIP, and usually represents a collection of adjacent ECIPs. The sole purpose of a Forking Meta ECIP is to join a block number with this set of `n >= 1` ECIPs containing protocol-facing changes. The document says "_These_ features will activate at _this_ moment."
++
++This proposal specifies that all Forking Meta ECIPs should be COMPLETE and UNIQUE; essentially disallowing _Draft_ Forking Meta ECIPs and and/or meaningful revisions (set ECIPs, block number). A valid Forking Meta ECIP must contain a full and complete set of to-be included ECIPs, and a definitive block number. 
++
++_Complete_ is defined as being fully and totally definitive; not lacking anything.
++
++_Unique_ means not the same as another thing; in this case, not precisely duplicating any existing ECIP.
++
++### Rationale
++
++0. Forking Meta ECIPs are themselves ECIPs, and their job is to define, with certainty and clarity, technical specifications. Forking Meta ECIPs that essentially leave either field `Block number` and/or field `ECIP set` blank are functionally useless; they say only: "Will have some fork at some time." An analogue of blankness to non-Forking-Meta ECIPs would essentially say "TODO: put my next awesome feature specification here." Fill-in-the-blank ECIPs are not in good form.
++
++1. A Forking Meta ECIP may represent a plurality of features, and so in order to be an _operable_ specification it should not represent an ambiguous set. Sets of ECIPs can have interoperative dependencies and outcomes; this causes a conceptual permutation and combination challenge when attempting to design a set of ECIPs for simulateous inclusion. Demanding fully-formed Forking Meta ECIP proposals forces authors to evaluate and document ECIP-set behavior and enables concrete discussion of feature sets as complete wholes.
++
++2. Concrete ECIPs are easier to reason about. Nuances of interoperations are documented and included in concrete proposals, leaving less theoretical abstract reasoning to manage, which is relevant in the context of group _and_ individual decision making.
++
++### Implementation
++
++A Forking Meta ECIP may not be in `Draft` status. It may not undergo any meaningful changes once receiving `Last Call` status (its next status beyond `WIP`).
++
++### Copyright/Licensing
++
++MIT.
+
+From 18ba1dd84b1199180ef74f7fee27d6660f88a76e Mon Sep 17 00:00:00 2001
+From: meows <b5c6@protonmail.com>
+Date: Fri, 29 Nov 2019 15:31:12 -0500
+Subject: [PATCH 2/7] Improve language around status adjectives
+
+---
+ _specs/ecip-_.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-_.md b/_specs/ecip-_.md
+index 6af2169..b6b6e55 100644
+--- a/_specs/ecip-_.md
++++ b/_specs/ecip-_.md
+@@ -40,7 +40,7 @@ Related to and derivative of:
+ 
+ A hard fork specification is documented as a Meta ECIP, and usually represents a collection of adjacent ECIPs. The sole purpose of a Forking Meta ECIP is to join a block number with this set of `n >= 1` ECIPs containing protocol-facing changes. The document says "_These_ features will activate at _this_ moment."
+ 
+-This proposal specifies that all Forking Meta ECIPs should be COMPLETE and UNIQUE; essentially disallowing _Draft_ Forking Meta ECIPs and and/or meaningful revisions (set ECIPs, block number). A valid Forking Meta ECIP must contain a full and complete set of to-be included ECIPs, and a definitive block number. 
++This proposal specifies that all Forking Meta ECIPs should be COMPLETE and UNIQUE; essentially disallowing `Draft` status Forking Meta ECIPs and and/or meaningful revisions (set ECIPs, block number). A valid Forking Meta ECIP must contain a full and complete set of to-be included ECIPs, and a definitive block number. 
+ 
+ _Complete_ is defined as being fully and totally definitive; not lacking anything.
+ 
+
+From abf98b0dd476767c2420dad259d5544c0d430927 Mon Sep 17 00:00:00 2001
+From: meows <b5c6@protonmail.com>
+Date: Fri, 29 Nov 2019 15:35:16 -0500
+Subject: [PATCH 3/7] Add rationale section specifically for block number spec
+
+---
+ _specs/ecip-_.md | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-_.md b/_specs/ecip-_.md
+index b6b6e55..da4a181 100644
+--- a/_specs/ecip-_.md
++++ b/_specs/ecip-_.md
+@@ -52,7 +52,9 @@ _Unique_ means not the same as another thing; in this case, not precisely duplic
+ 
+ 1. A Forking Meta ECIP may represent a plurality of features, and so in order to be an _operable_ specification it should not represent an ambiguous set. Sets of ECIPs can have interoperative dependencies and outcomes; this causes a conceptual permutation and combination challenge when attempting to design a set of ECIPs for simulateous inclusion. Demanding fully-formed Forking Meta ECIP proposals forces authors to evaluate and document ECIP-set behavior and enables concrete discussion of feature sets as complete wholes.
+ 
+-2. Concrete ECIPs are easier to reason about. Nuances of interoperations are documented and included in concrete proposals, leaving less theoretical abstract reasoning to manage, which is relevant in the context of group _and_ individual decision making.
++2. Forking Meta ECIPs without block numbers lack operability. Activation numbers _are specifications_ and should not be treated as a second class or at-convenience citizens. Implementation timelines are importantly related variables to their adjacent ECIP-sets (large set ostensibly require long timelines, hotfix sets require short ones.) We cannot reason about them in independence.
++
++3. Concrete ECIPs are easier to reason about. Nuances of interoperations are documented and included in concrete proposals, leaving less theoretical abstract reasoning to manage, which is relevant in the context of group _and_ individual decision making.
+ 
+ ### Implementation
+ 
+
+From 76872bde3b069d03225da2de3af62bb5231fdcaf Mon Sep 17 00:00:00 2001
+From: meows <b5c6@protonmail.com>
+Date: Sat, 30 Nov 2019 07:33:29 -0500
+Subject: [PATCH 4/7] Fix typo (remove rough draft 'definitive' concept
+ vestige)
+
+---
+ _specs/ecip-_.md | 2 --
+ 1 file changed, 2 deletions(-)
+
+diff --git a/_specs/ecip-_.md b/_specs/ecip-_.md
+index da4a181..8c1f891 100644
+--- a/_specs/ecip-_.md
++++ b/_specs/ecip-_.md
+@@ -17,8 +17,6 @@ Forking Meta ECIPs (defined as Meta ECIPs specifying any Standards-Core track EC
+ 
+ Incomplete proposals are inoperable; they are not ready for implementation.
+ 
+-Definite proposals are inoperable; they are not ready for implementation.
+-
+ Unique proposals saves me time because I don't have to read the same thing twice.
+ 
+ Related to and derivative of:
+
+From bbf1c2f1a8400c50e7f15127844122ab11e7ff76 Mon Sep 17 00:00:00 2001
+From: meows <b5c6@protonmail.com>
+Date: Sat, 30 Nov 2019 07:38:41 -0500
+Subject: [PATCH 5/7] Fix typos
+
+---
+ _specs/ecip-_.md | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/_specs/ecip-_.md b/_specs/ecip-_.md
+index 8c1f891..389ca1c 100644
+--- a/_specs/ecip-_.md
++++ b/_specs/ecip-_.md
+@@ -48,9 +48,9 @@ _Unique_ means not the same as another thing; in this case, not precisely duplic
+ 
+ 0. Forking Meta ECIPs are themselves ECIPs, and their job is to define, with certainty and clarity, technical specifications. Forking Meta ECIPs that essentially leave either field `Block number` and/or field `ECIP set` blank are functionally useless; they say only: "Will have some fork at some time." An analogue of blankness to non-Forking-Meta ECIPs would essentially say "TODO: put my next awesome feature specification here." Fill-in-the-blank ECIPs are not in good form.
+ 
+-1. A Forking Meta ECIP may represent a plurality of features, and so in order to be an _operable_ specification it should not represent an ambiguous set. Sets of ECIPs can have interoperative dependencies and outcomes; this causes a conceptual permutation and combination challenge when attempting to design a set of ECIPs for simulateous inclusion. Demanding fully-formed Forking Meta ECIP proposals forces authors to evaluate and document ECIP-set behavior and enables concrete discussion of feature sets as complete wholes.
++1. A Forking Meta ECIP may represent a plurality of features, and so in order to be an _operable_ specification it should not represent an ambiguous set. Sets of ECIPs can have interoperative dependencies and outcomes; this causes a conceptual permutation and combination challenge when attempting to design a set of ECIPs for simultaneous inclusion. Demanding fully-formed Forking Meta ECIP proposals forces authors to evaluate and document ECIP-set behavior and enables concrete discussion of feature sets as complete wholes.
+ 
+-2. Forking Meta ECIPs without block numbers lack operability. Activation numbers _are specifications_ and should not be treated as a second class or at-convenience citizens. Implementation timelines are importantly related variables to their adjacent ECIP-sets (large set ostensibly require long timelines, hotfix sets require short ones.) We cannot reason about them in independence.
++2. Forking Meta ECIPs without block numbers lack operability. Activation numbers _are specifications_ and should not be treated as a second class or at-convenience citizens. Implementation timelines are importantly related variables to their adjacent ECIP-sets (large set ostensibly require long timelines, hotfix sets require short ones.) We cannot reason about them in isolation.
+ 
+ 3. Concrete ECIPs are easier to reason about. Nuances of interoperations are documented and included in concrete proposals, leaving less theoretical abstract reasoning to manage, which is relevant in the context of group _and_ individual decision making.
+ 
+
+From 164c68c513aa453a30de34a79d3e6c4a0f55b1ac Mon Sep 17 00:00:00 2001
+From: meows <b5c6@protonmail.com>
+Date: Sat, 30 Nov 2019 14:26:56 -0500
+Subject: [PATCH 6/7] Write a little more
+
+---
+ _specs/ecip-_.md | 24 +++++++++++++++---------
+ 1 file changed, 15 insertions(+), 9 deletions(-)
+
+diff --git a/_specs/ecip-_.md b/_specs/ecip-_.md
+index 389ca1c..df8fbf7 100644
+--- a/_specs/ecip-_.md
++++ b/_specs/ecip-_.md
+@@ -15,9 +15,9 @@ Forking Meta ECIPs (defined as Meta ECIPs specifying any Standards-Core track EC
+ 
+ ### Motivation
+ 
+-Incomplete proposals are inoperable; they are not ready for implementation.
++Incomplete proposals are inoperable; they are not ready for review, discussion, nor implementation.
+ 
+-Unique proposals saves me time because I don't have to read the same thing twice.
++Unique proposals save time and redundant complexity.
+ 
+ Related to and derivative of:
+ 
+@@ -36,28 +36,34 @@ Related to and derivative of:
+ 
+ ### Specification
+ 
+-A hard fork specification is documented as a Meta ECIP, and usually represents a collection of adjacent ECIPs. The sole purpose of a Forking Meta ECIP is to join a block number with this set of `n >= 1` ECIPs containing protocol-facing changes. The document says "_These_ features will activate at _this_ moment."
+-
+-This proposal specifies that all Forking Meta ECIPs should be COMPLETE and UNIQUE; essentially disallowing `Draft` status Forking Meta ECIPs and and/or meaningful revisions (set ECIPs, block number). A valid Forking Meta ECIP must contain a full and complete set of to-be included ECIPs, and a definitive block number. 
++A Forking Meta ECIP is defined as a Meta ECIP specifying any (`n >= 1`) Standards-Core track ECIP or ECIP-set. A Forking Meta ECIP should be complete and unique.
+ 
+ _Complete_ is defined as being fully and totally definitive; not lacking anything.
+ 
+ _Unique_ means not the same as another thing; in this case, not precisely duplicating any existing ECIP.
+ 
++This proposal specifies that all Forking Meta ECIPs should be COMPLETE and UNIQUE; essentially disallowing `Draft` status Forking Meta ECIPs and and/or meaningful revisions (set ECIPs, block number).
++
++This implies that a valid Forking Meta ECIP must contain a full and complete set of to-be included ECIPs, and a definitive block number. 
++
+ ### Rationale
+ 
+-0. Forking Meta ECIPs are themselves ECIPs, and their job is to define, with certainty and clarity, technical specifications. Forking Meta ECIPs that essentially leave either field `Block number` and/or field `ECIP set` blank are functionally useless; they say only: "Will have some fork at some time." An analogue of blankness to non-Forking-Meta ECIPs would essentially say "TODO: put my next awesome feature specification here." Fill-in-the-blank ECIPs are not in good form.
++The sole purpose of a Forking Meta ECIP is to join a block number with a set of `n >= 1` ECIPs containing protocol-facing changes. The document says "_These_ features will activate at _this_ moment."
+ 
+-1. A Forking Meta ECIP may represent a plurality of features, and so in order to be an _operable_ specification it should not represent an ambiguous set. Sets of ECIPs can have interoperative dependencies and outcomes; this causes a conceptual permutation and combination challenge when attempting to design a set of ECIPs for simultaneous inclusion. Demanding fully-formed Forking Meta ECIP proposals forces authors to evaluate and document ECIP-set behavior and enables concrete discussion of feature sets as complete wholes.
++0. __Fill-in-the-blank ECIPs are not in good form.__ Forking Meta ECIPs are themselves ECIPs, and their job is to define, with certainty and clarity, technical specifications. Forking Meta ECIPs that essentially leave either field `Block number` and/or field `ECIP set` blank are functionally useless (inoperable); they say only: "(I/we) propose to have some fork at some time." An analogue of blankness to non-Forking-Meta ECIPs would essentially say "TODO: put my next awesome feature specification here." 
+ 
+-2. Forking Meta ECIPs without block numbers lack operability. Activation numbers _are specifications_ and should not be treated as a second class or at-convenience citizens. Implementation timelines are importantly related variables to their adjacent ECIP-sets (large set ostensibly require long timelines, hotfix sets require short ones.) We cannot reason about them in isolation.
++1. __Demanding fully-formed Forking Meta ECIP proposals forces authors, editors, and reviewers to evaluate and document ECIP-set behavior and enables concrete discussion of feature sets as complete wholes.__ A Forking Meta ECIP may represent a plurality of features, and so in order to be an _operable_ specification it should not represent an ambiguous set. Sets of ECIPs can have interoperative dependencies and outcomes; this causes a conceptual permutation and combination challenge when attempting to design a set of ECIPs for simultaneous inclusion. 
+ 
+-3. Concrete ECIPs are easier to reason about. Nuances of interoperations are documented and included in concrete proposals, leaving less theoretical abstract reasoning to manage, which is relevant in the context of group _and_ individual decision making.
++2. __Forking Meta ECIPs without block numbers lack operability.__ Activation numbers _are specifications_ and should not be treated as a second class or at-convenience citizens. Implementation timelines are importantly related variables to their adjacent ECIP-sets (large set ostensibly require long timelines, hotfix sets require short ones.) We cannot reason about them in isolation.
++
++3. __Concrete ECIPs are easier to build language and reasoning around.__ Nuances of interoperations are documented and included in concrete proposals, leaving less theoretical abstract reasoning to manage, which is relevant in the context of group _and_ individual decision making. "Competing" Forking Meta ECIP alternatives become explicit and standardized, yielding conceptual and communicable clarity in review processes and decision-making processes.
+ 
+ ### Implementation
+ 
+ A Forking Meta ECIP may not be in `Draft` status. It may not undergo any meaningful changes once receiving `Last Call` status (its next status beyond `WIP`).
+ 
++Procedurally, compared to the historical and traditional practice of opening an essentially empty Forking Meta ECIP and working to fill in blanks, this proposed procedure makes only marginal and changes, demanding only that what was taken as implication, subtext, or conteext before now be made explicit. Rather than reviewing actual-or-theoretical proposed change sets to an ECIP (which sadly, have historically usually been theoretical), this forces proposed Forking Meta ECIP alternative outcomes to assume a fully qualified and standardized formats before becoming eligible for consideration. 
++
+ ### Copyright/Licensing
+ 
+ MIT.
+
+From bfd3a9c8f876b59c80c82eab5435ab0e0cf60e87 Mon Sep 17 00:00:00 2001
+From: meows <b5c6@protonmail.com>
+Date: Sat, 30 Nov 2019 14:33:21 -0500
+Subject: [PATCH 7/7] Fix Forking Meta ECIP spec to include must have
+ activation block number
+
+---
+ _specs/ecip-_.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-_.md b/_specs/ecip-_.md
+index df8fbf7..c0466fa 100644
+--- a/_specs/ecip-_.md
++++ b/_specs/ecip-_.md
+@@ -11,7 +11,7 @@ resolution: TBD
+ 
+ ### Abstract
+ 
+-Forking Meta ECIPs (defined as Meta ECIPs specifying any Standards-Core track ECIP) should be complete and unique.
++Forking Meta ECIPs (defined as Meta ECIPs specifying any Standards-Core track ECIP and an activation block number) should be complete and unique.
+ 
+ ### Motivation
+ 

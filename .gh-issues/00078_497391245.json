@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/497391245",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/78#issuecomment-497391245",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/78",
+    "id": 497391245,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ5NzM5MTI0NQ==",
+    "user": {
+      "login": "YazzyYaz",
+      "id": 9094204,
+      "node_id": "MDQ6VXNlcjkwOTQyMDQ=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9094204?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/YazzyYaz",
+      "html_url": "https://github.com/YazzyYaz",
+      "followers_url": "https://api.github.com/users/YazzyYaz/followers",
+      "following_url": "https://api.github.com/users/YazzyYaz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/YazzyYaz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/YazzyYaz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/YazzyYaz/subscriptions",
+      "organizations_url": "https://api.github.com/users/YazzyYaz/orgs",
+      "repos_url": "https://api.github.com/users/YazzyYaz/repos",
+      "events_url": "https://api.github.com/users/YazzyYaz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/YazzyYaz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-05-30T16:24:36Z",
+    "updated_at": "2019-05-31T13:31:26Z",
+    "author_association": "MEMBER",
+    "body": "Agenda: Determine whether Atlantis in accepted state or continue working.\r\n\r\nEIP-161 should be included or not?\r\n\r\nIsaac: concern about post-implementation. State-clearing process. Changes in EIP-161 makes it valid to remove dead accounts and frees up space on the machine.\r\n\r\nSomeone has to do something for this to happen.\r\n\r\nNeed to know which accounts need to be removed. Need more information about implementation.\r\n\r\nSorpaas: Foundation side. You can change each empty account to clear it out. Use Op-code to clear the empty account. Filter out all the accounts that are valid for clearing. \r\n\r\nLooking for dead accounts. 0 nonce, 0 balance, 0 code for Contract addresses.\r\n\r\nQuery for them.\r\n\r\nAny concerns to include it? It doesn’t affect transaction history.\r\n\r\nPros to include it: Technical Debt to resolve. Something we can remove from the machine. It also helps with testing. \r\n\r\nImpossible to do Atlantis without including the EIP-161, even for security concerns.\r\n\r\nAgreement on including EIP-161 reached.\r\n\r\n---\r\n\r\nStev asked about EIP-170 for contract code size. It will only stop for contract creation size that’s large.\r\n\r\nGigantic contracts will get stopped.  Increasing contract size limit shouldn’t affect immutability according to Sorpaas. Best to include it to stay 1:1 with Foundation chain, at least with the non-contentious EIPs.\r\n\r\nAnthony brought up letting miner side decide what size of contract transaction to mine. Sorpaas explains it doesn’t just affect contract creation but also internet contract calls which would also return out-of-gas errors if it’s a large contract as by EIP-170.\r\n\r\nShane asks if we are set on hard limit on gas. No contract size limit at the moment in ETC. Right now you pay gas based on how much you want to store. There’s a soft limit that can be changed.\r\n\r\nUndecided on EIP-170 due to uncertainty over having a contract limit.\r\n\r\nMakes testing easier according to Sorpaas.\r\n\r\nZach is saying that if a contract creation costs more than the gas limit, miners can vote on higher gas limits in future blocks to accommodate for contract.\r\n\r\nIt doesn’t break compatibility.\r\n\r\nAnthony against it because a hardfork breaks pre-described agreements but not as a soft fork. \r\n\r\nWe will decide in 2 weeks time for another vote on EIP-170. ",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/497391245/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

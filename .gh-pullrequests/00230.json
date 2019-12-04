@@ -1,0 +1,66 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/230",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/230/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/230/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/230/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/230",
+    "id": 530770851,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0MzQ3MzU0ODk5",
+    "number": 230,
+    "title": "Reject ECIP-1057 \"Cold Staking\"",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 4,
+    "created_at": "2019-12-01T18:13:07Z",
+    "updated_at": "2019-12-03T15:31:57Z",
+    "closed_at": null,
+    "author_association": "MEMBER",
+    "pull_request": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/230",
+      "html_url": "https://github.com/ethereumclassic/ECIPs/pull/230",
+      "diff_url": "https://github.com/ethereumclassic/ECIPs/pull/230.diff",
+      "patch_url": "https://github.com/ethereumclassic/ECIPs/pull/230.patch"
+    },
+    "body": "Other than Dexaran himself, there is no support for this proposal with the ETC ecosystem.\r\nProposals of this kind (like PoolTogether on ETH - https://www.pooltogether.com/) can happen just fine with no need for consensus across the ecosystem.\r\n\r\nI propose we Reject this proposal.   It could be passed as Informational, I suppose, but there is really no need for there to be an ECIP for this application level proposal.\r\n\r\nEven at application level, you would not need/want an ECIP for this until there were multiple implementations and this was become an architectural best practice.\r\n\r\nBest, I think, to reject.    A new ECBP could be written which generalized the pattern and that might be accepted.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/230/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

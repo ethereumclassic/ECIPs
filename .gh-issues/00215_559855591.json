@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/559855591",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/215#issuecomment-559855591",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/215",
+    "id": 559855591,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1OTg1NTU5MQ==",
+    "user": {
+      "login": "soc1c",
+      "id": 47772477,
+      "node_id": "MDQ6VXNlcjQ3NzcyNDc3",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/47772477?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/soc1c",
+      "html_url": "https://github.com/soc1c",
+      "followers_url": "https://api.github.com/users/soc1c/followers",
+      "following_url": "https://api.github.com/users/soc1c/following{/other_user}",
+      "gists_url": "https://api.github.com/users/soc1c/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/soc1c/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/soc1c/subscriptions",
+      "organizations_url": "https://api.github.com/users/soc1c/orgs",
+      "repos_url": "https://api.github.com/users/soc1c/repos",
+      "events_url": "https://api.github.com/users/soc1c/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/soc1c/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-29T17:55:56Z",
+    "updated_at": "2019-11-29T17:57:42Z",
+    "author_association": "MEMBER",
+    "body": "As stated in https://github.com/ethereumclassic/ECIPs/issues/175#issuecomment-552188293 I'm not available for a call on Dec/5.\r\n\r\nAlso, I believe there is a process in place for these cases and we should just stick to the ECIP-1000 process which allows editing draft ECIPs and therefore does not require ECIPs 1072, ..73, ..74, and ..75. Everything went downhill when Wei tried to prevent me from updating the draft ECIP 1061.\r\n\r\nWe always updated working-specs as we did for Atlantis and Agharta. I don't see why we should now change the process for Aztlan.\r\n\r\nOn the last call, we agreed on Aztlan moving to \"last call\" in the Yingchuan flavor as proposed by Wei without 1884. We did not agree on withdrawing 1061 which is the original Aztlan ECIP for months now. Having another call is superfluous in my humble opinion and I will not be willing to attend it as there are no technical differences to be discussed between 1061 and 1072.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/559855591/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

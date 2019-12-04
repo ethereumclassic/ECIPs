@@ -1,0 +1,56 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352765623",
+    "pull_request_review_id": 325452106,
+    "id": 352765623,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM1Mjc2NTYyMw==",
+    "diff_hunk": "@@ -73,10 +73,10 @@ A good reason to transfer ownership is because the original author no longer has\n The current ECIP editors are:\n \n * Wei Tang (@sorpaas)\n-* Isaac Ardis (@meowsbits)\n * Cody Burns (@realcodywburns)\n-* Afri Schoedon (@soc1c)\n * Yaz Khoury (@YazzyYaz)\n+* @soc1c (Pseudonymous)\n+* @meowsbits (Pseudonymous)",
+    "path": "_specs/ecip-1000.md",
+    "position": null,
+    "original_position": 9,
+    "commit_id": "0292842103d6581de7c0e176129dae75bdcb41c2",
+    "original_commit_id": "a534d7df9d2973bd4553738dbc0a6dfb4c2750c4",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "@meowsbits How about `Mr. Meows D. Bits, Pseudonymous`? I just want to make sure people understand this is an anonymous tag, not a real name.",
+    "created_at": "2019-12-02T18:47:13Z",
+    "updated_at": "2019-12-02T18:48:45Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/236#discussion_r352765623",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/236",
+    "author_association": "MEMBER",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352765623"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/236#discussion_r352765623"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/236"
+      }
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": null,
+    "original_line": 79,
+    "side": "RIGHT",
+    "in_reply_to_id": 352764612
+  }

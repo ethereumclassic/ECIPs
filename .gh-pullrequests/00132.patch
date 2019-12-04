@@ -1,0 +1,21 @@
+From 3cc13d1a8b9a825df1e278e06fdc44434c7626b6 Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Tue, 27 Aug 2019 14:29:09 +0200
+Subject: [PATCH] Add discussions link for ECIP-1056
+
+---
+ _specs/ecip-1056.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/_specs/ecip-1056.md b/_specs/ecip-1056.md
+index f36023d..b349a3e 100644
+--- a/_specs/ecip-1056.md
++++ b/_specs/ecip-1056.md
+@@ -5,6 +5,7 @@ title: Agharta EVM and Protocol Upgrades
+ status: Draft
+ type: Meta
+ author: Isaac Ardis <isaac.a@etclabs.org>, Wei Tang <hi@that.world>
++discussions-to: https://github.com/ethereumclassic/ECIPs/issues/131
+ created: 2019-03-25
+ ---
+ 

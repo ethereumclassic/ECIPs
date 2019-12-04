@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/552176812",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/14#issuecomment-552176812",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/14",
+    "id": 552176812,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MjE3NjgxMg==",
+    "user": {
+      "login": "phyro",
+      "id": 157733,
+      "node_id": "MDQ6VXNlcjE1NzczMw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/157733?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/phyro",
+      "html_url": "https://github.com/phyro",
+      "followers_url": "https://api.github.com/users/phyro/followers",
+      "following_url": "https://api.github.com/users/phyro/following{/other_user}",
+      "gists_url": "https://api.github.com/users/phyro/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/phyro/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/phyro/subscriptions",
+      "organizations_url": "https://api.github.com/users/phyro/orgs",
+      "repos_url": "https://api.github.com/users/phyro/repos",
+      "events_url": "https://api.github.com/users/phyro/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/phyro/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-10T09:12:31Z",
+    "updated_at": "2019-11-10T09:12:31Z",
+    "author_association": "MEMBER",
+    "body": "nice research @hitchcott !\r\n\r\n**Regarding the longer block times**. I'd like to hear arguments as to why fast blocks would be a good idea (I did very poorly when I tried to think of these reasons). My main reason for considering longer block times was because given a time interval (say 10 minutes), you have the same security regardless if your block time is 15 seconds or 2 minutes because it's the number of hashes you've tried in that interval that is the important part. Blocks can be thought of as snapshots or packaging of these hash tries (a pack of energy?) and because you don't want to store all the hashes you tried, you store a proof that shows you tried approximately this many hashes. Notice here that the way you package these things is completely irrelevant to the security. The time passed and the number of hashes that were tried during that time period is what brings security. Higher block times also bring less frequent block propagation over the network and fewer block headers (the block header issue is already solved with the flyclient but still saves some space). So far, the only use I've found for fast block times was when I was researching ways to make 51% attacks more expensive and having blocks come really fast makes it easier/faster to gather 'statistics' around who is mining the blocks. I'd love to hear other pros (and cons) of having fast blocks. The con of changing it to longer block times:\r\n1. it is changing a core part of the system\r\n2. it would likely change other things as well, possibly the monetary policy due to the uncle rewards being less frequent\r\n3. possibly other stuff\r\n\r\nWhile my current view is that longer block times are superior, I really don't like that it might be touching the monetary policy. I don't know the exact definition of what defines the policy. I'm sure we could mathematically prove that the expected emission of coins over time stays the same (looking at time ticks in 2 minutes instead of 15 seconds of course). How bad of a change we consider this is unclear to me.\r\n\r\n\r\n**Another thing I'd like us to consider is**:\r\nDeploying a contract is a constant (it happens exactly once per contract), so perhaps a deploy could be allowed a higher gas limit. I'd pair this up with a higher contract deploy cost to avoid spamming. Rationale: it makes no sense to have cheap deploys since everyone in the world will have to drag this data along. Serious projects will have no problem paying a few $ to deploy a contract. Testnets can have cheap deploy prices, but deploying on ETC is worth way more imo. I'd also argue that deploying a dapp for 10$ is still unbelievably cheap considering it will run forever.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/552176812/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

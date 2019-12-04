@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560141304",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/220#issuecomment-560141304",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/220",
+    "id": 560141304,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDE0MTMwNA==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-01T18:33:31Z",
+    "updated_at": "2019-12-01T18:33:31Z",
+    "author_association": "MEMBER",
+    "body": "\"The reason for closing your issue is rather that there's suspicions that you're spamming the ECIP repo. If you disagree, I apologize. If you still think there's substance for your issue, I'm happy to keep it open!\"\r\n\r\nI do disagree that I am \"spamming\".\r\n\r\nWe have had a huge cloud of confusion over 1061 and 1072 and I think it would be incredibly helpful to have a quick call this week to re-confirm that there is consensus in progressing with 1061 *in its current state*, which now includes you as an author, Apache 2.0 licensing and the edit which updated the scope to remove 1884.\r\n\r\nYou have withdrawn 1072 yourself, so there is no need to talk about that.\r\n\r\nBut yes, having a call to say \"We're cool with 1061, right?\" would be very helpful.    With audio recorded, and with multiple people transcribing notes, so there is ZERO space for misinterpretation.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560141304/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

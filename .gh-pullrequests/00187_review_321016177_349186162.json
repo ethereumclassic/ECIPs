@@ -1,0 +1,49 @@
+{
+    "id": 349186162,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM0OTE4NjE2Mg==",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/349186162",
+    "pull_request_review_id": 321016177,
+    "diff_hunk": "@@ -0,0 +1,97 @@\n+---\n+lang: en\n+ecip: 1076\n+title: Mining Algorithm Change Process\n+author: Talha Cross (@soc1c)\n+discussions-to: https://github.com/ethereumclassic/ECIPs/issues/174\n+status: Draft\n+type: ECBP\n+created: 2019-11-16\n+---\n+\n+### Abstract\n+This meta document is agnostic to any mining algorithm. Its sole purpose is specifying a process how to openly determine and select a mining algorithm for Ethereum Classic.\n+\n+### Motivation\n+The decision to change the Ethereum Classic mining algorithm - or to keep it as is - is not an easy one to make. It should be done by broad consensus with all stakeholders involved - miners, investors, application and core developers, and anyone else who feels having a stake in ETC. This meta document proposes a process of how to facilitate the potential change of the mining algorithm and parameters.\n+\n+### Available Options\n+Currently, the following options are debatable.\n+\n+- **ECBP-1076-A**: _\"Ethash Status Quo.\"_ The mining algorithm will be untouched as it is since genesis, as **Ethash** function with a statically **increasing DAG**.\n+- **ECBP-1076-B**: _\"Ethash Limited DAG.\"_ The mining algorithm will be untouched as it is since genesis, as **Ethash** function. However, the **DAG size will be limited** as specified in [ECIP-1043](https://ecips.ethereumclassic.org/ECIPs/ecip-1043).\n+- **ECBP-1076-C**: _\"Keccak256 (SHA3).\"_ The mining algorithm will be **changed to Keccak256** as specified in [ECIP-1049](https://ecips.ethereumclassic.org/ECIPs/ecip-1049).\n+- **ECBP-1076-D**: _\"ProgPoW.\"_ The mining algorithm will be **changed to ProgPow** as specified in [ECIP-1070](https://ecips.ethereumclassic.org/ECIPs/ecip-1070).\n+\n+Eventually, the community has to decide on one.\n+\n+### Process\n+The following process facilitates all stakeholders in various stages.",
+    "path": "_specs/ecip-1076.md",
+    "position": 29,
+    "original_position": 29,
+    "commit_id": "da1b5fc7cc7432ed3e561ea9bdf64896dfb517b0",
+    "user": {
+      "login": "zmitton",
+      "id": 6954889,
+      "node_id": "MDQ6VXNlcjY5NTQ4ODk=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6954889?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zmitton",
+      "html_url": "https://github.com/zmitton",
+      "followers_url": "https://api.github.com/users/zmitton/followers",
+      "following_url": "https://api.github.com/users/zmitton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zmitton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zmitton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zmitton/subscriptions",
+      "organizations_url": "https://api.github.com/users/zmitton/orgs",
+      "repos_url": "https://api.github.com/users/zmitton/repos",
+      "events_url": "https://api.github.com/users/zmitton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zmitton/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "```suggestion\r\nThe following process facilitates all stakeholders in various stages, with \"Tech Stage\" and the \"Miner Stage\" to occur in parallel:\r\n```",
+    "created_at": "2019-11-21T16:26:24Z",
+    "updated_at": "2019-11-21T16:27:01Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/187#discussion_r349186162",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/187",
+    "author_association": "CONTRIBUTOR",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/349186162"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/187#discussion_r349186162"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/187"
+      }
+    },
+    "original_commit_id": "da1b5fc7cc7432ed3e561ea9bdf64896dfb517b0"
+  }

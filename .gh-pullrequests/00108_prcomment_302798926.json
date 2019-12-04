@@ -1,0 +1,55 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/302798926",
+    "pull_request_review_id": 261024206,
+    "id": 302798926,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDMwMjc5ODkyNg==",
+    "diff_hunk": "@@ -43,14 +43,16 @@ When you believe your ECIP is mature and ready to progress past the draft phase,\n  - **For all other ECIPs**, open a PR changing the state of your ECIP to 'Final'. An editor will review your draft and ask if anyone objects to its finalization. If the editor decides there is no rough consensus - for instance, because contributors point out significant issues with the ECIP - they may close the PR and request that you fix the issues in the draft before trying again.\n \n # ECIP Status Terms\n-* **Draft** - An ECIP that is undergoing rapid iteration and changes.\n+* **Work in progress (WIP)** -- An ECIP where the author has asked the Ethereum Classic community whether an idea has any chance of support, he/she will write a draft ECIP as a pull request. However, if the idea is still in a very early stage, and will have a lot of commints and changes by the author, editors or contributors, it may be better to enter it as a WIP. Make sure to add [WIP] in the title (example: [WIP] ECIP-X) of the early stage ECIP so other members can mute it if they are not interested in participating at this stage. ",
+    "path": "README.md",
+    "position": null,
+    "original_position": 17,
+    "commit_id": "0f1fb987155f2d448cc5aaff1c8c7c10723959d5",
+    "original_commit_id": "5d5b78eeedcb57277f112a2acaacfd8f7342a273",
+    "user": {
+      "login": "YazzyYaz",
+      "id": 9094204,
+      "node_id": "MDQ6VXNlcjkwOTQyMDQ=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9094204?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/YazzyYaz",
+      "html_url": "https://github.com/YazzyYaz",
+      "followers_url": "https://api.github.com/users/YazzyYaz/followers",
+      "following_url": "https://api.github.com/users/YazzyYaz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/YazzyYaz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/YazzyYaz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/YazzyYaz/subscriptions",
+      "organizations_url": "https://api.github.com/users/YazzyYaz/orgs",
+      "repos_url": "https://api.github.com/users/YazzyYaz/repos",
+      "events_url": "https://api.github.com/users/YazzyYaz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/YazzyYaz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "\"commints\" is a typo.\r\n\r\nPlease change to \"commits\".",
+    "created_at": "2019-07-12T01:31:40Z",
+    "updated_at": "2019-07-12T02:36:58Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/108#discussion_r302798926",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/108",
+    "author_association": "MEMBER",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/302798926"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/108#discussion_r302798926"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/108"
+      }
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": null,
+    "original_line": 46,
+    "side": "RIGHT"
+  }

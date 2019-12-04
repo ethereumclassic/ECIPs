@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/552099532",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/11#issuecomment-552099532",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/11",
+    "id": 552099532,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MjA5OTUzMg==",
+    "user": {
+      "login": "phyro",
+      "id": 157733,
+      "node_id": "MDQ6VXNlcjE1NzczMw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/157733?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/phyro",
+      "html_url": "https://github.com/phyro",
+      "followers_url": "https://api.github.com/users/phyro/followers",
+      "following_url": "https://api.github.com/users/phyro/following{/other_user}",
+      "gists_url": "https://api.github.com/users/phyro/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/phyro/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/phyro/subscriptions",
+      "organizations_url": "https://api.github.com/users/phyro/orgs",
+      "repos_url": "https://api.github.com/users/phyro/repos",
+      "events_url": "https://api.github.com/users/phyro/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/phyro/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-09T13:16:32Z",
+    "updated_at": "2019-11-09T13:16:32Z",
+    "author_association": "MEMBER",
+    "body": "do we know how this proposal differs from a DAG that would be of constant size? Specifically, how does a DAG reset impact possible ASIC implementations compared to a DAG where you always keep it at say 3GB but you are swapping the old data with the new one?\r\nI don't know how this exactly works, I'm just wondering if it's possible that ASICs could take advantage of the reset until the DAG grows to a size that is much harder to manage which would be after `N` epochs.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/552099532/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

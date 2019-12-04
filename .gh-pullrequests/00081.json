@@ -1,0 +1,74 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/81",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/81/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/81/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/81/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/81",
+    "id": 452952794,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0Mjg1NzM5NDI1",
+    "number": 81,
+    "title": "ECIP-1061: Atzlán Hardfork Meta",
+    "user": {
+      "login": "soc1c",
+      "id": 47772477,
+      "node_id": "MDQ6VXNlcjQ3NzcyNDc3",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/47772477?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/soc1c",
+      "html_url": "https://github.com/soc1c",
+      "followers_url": "https://api.github.com/users/soc1c/followers",
+      "following_url": "https://api.github.com/users/soc1c/following{/other_user}",
+      "gists_url": "https://api.github.com/users/soc1c/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/soc1c/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/soc1c/subscriptions",
+      "organizations_url": "https://api.github.com/users/soc1c/orgs",
+      "repos_url": "https://api.github.com/users/soc1c/repos",
+      "events_url": "https://api.github.com/users/soc1c/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/soc1c/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 1428838937,
+        "node_id": "MDU6TGFiZWwxNDI4ODM4OTM3",
+        "url": "https://api.github.com/repos/ethereumclassic/ECIPs/labels/editor:%20looks-good",
+        "name": "editor: looks-good",
+        "color": "71ad0a",
+        "default": false,
+        "description": "This PR is generally fine to be merged."
+      }
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 4,
+    "created_at": "2019-06-06T10:25:51Z",
+    "updated_at": "2019-07-12T01:36:21Z",
+    "closed_at": "2019-07-12T01:36:21Z",
+    "author_association": "MEMBER",
+    "pull_request": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/81",
+      "html_url": "https://github.com/ethereumclassic/ECIPs/pull/81",
+      "diff_url": "https://github.com/ethereumclassic/ECIPs/pull/81.diff",
+      "patch_url": "https://github.com/ethereumclassic/ECIPs/pull/81.patch"
+    },
+    "body": "### Atzlán Hardfork Meta\r\n\r\nEnable the outstanding Ethereum Foundation _Istanbul_ network protocol upgrades on the Ethereum\r\nClassic network in a hard-fork code-named _Atzlán_ to enable maximum compatibility across these networks.\r\n\r\n![Aztlan-Legendary-Aztec-Land](https://user-images.githubusercontent.com/47772477/59256364-14671a00-8c34-11e9-90e7-610186e268cc.jpg)\r\n\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/81/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

@@ -1,0 +1,84 @@
+From 5911d1f58c496042f468deaee1d69acdda034894 Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Fri, 15 Nov 2019 16:34:18 +0100
+Subject: [PATCH] Rename Aztlan ECIPs with "edition format"
+
+---
+ _specs/{ecip-1061.md => ecip-1061a.md} | 4 ++--
+ _specs/{ecip-1072.md => ecip-1061b.md} | 4 ++--
+ _specs/{ecip-1073.md => ecip-1061c.md} | 4 ++--
+ _specs/{ecip-1074.md => ecip-1061d.md} | 4 ++--
+ 4 files changed, 8 insertions(+), 8 deletions(-)
+ rename _specs/{ecip-1061.md => ecip-1061a.md} (98%)
+ rename _specs/{ecip-1072.md => ecip-1061b.md} (97%)
+ rename _specs/{ecip-1073.md => ecip-1061c.md} (97%)
+ rename _specs/{ecip-1074.md => ecip-1061d.md} (97%)
+
+diff --git a/_specs/ecip-1061.md b/_specs/ecip-1061a.md
+similarity index 98%
+rename from _specs/ecip-1061.md
+rename to _specs/ecip-1061a.md
+index e410baf..a349ce0 100644
+--- a/_specs/ecip-1061.md
++++ b/_specs/ecip-1061a.md
+@@ -1,7 +1,7 @@
+ ---
+ lang: en
+-ecip: 1061
+-title: Aztlán EVM and Protocol Upgrades
++ecip: 1061a
++title: Aztlán EVM and Protocol Upgrades (Yuanchun Edition)
+ status: Draft
+ type: Meta
+ author: Talha Cross (@soc1c)
+diff --git a/_specs/ecip-1072.md b/_specs/ecip-1061b.md
+similarity index 97%
+rename from _specs/ecip-1072.md
+rename to _specs/ecip-1061b.md
+index 185b2ec..d9d2dee 100644
+--- a/_specs/ecip-1072.md
++++ b/_specs/ecip-1061b.md
+@@ -1,7 +1,7 @@
+ ---
+ lang: en
+-ecip: 1072
+-title: Yingchun EVM and Protocol Upgrades
++ecip: 1061b
++title: Aztlán EVM and Protocol Upgrades (Yingchun Edition)
+ status: Draft
+ type: Meta
+ author: Wei Tang (@sorpaas)
+diff --git a/_specs/ecip-1073.md b/_specs/ecip-1061c.md
+similarity index 97%
+rename from _specs/ecip-1073.md
+rename to _specs/ecip-1061c.md
+index 5e27f26..e04bbea 100644
+--- a/_specs/ecip-1073.md
++++ b/_specs/ecip-1061c.md
+@@ -1,7 +1,7 @@
+ ---
+ lang: en
+-ecip: 1073
+-title: Xichun EVM and Protocol Upgrades
++ecip: 1061c
++title: Aztlán EVM and Protocol Upgrades (Xichun Edition)
+ status: Draft
+ type: Meta
+ author: Wei Tang (@sorpaas)
+diff --git a/_specs/ecip-1074.md b/_specs/ecip-1061d.md
+similarity index 97%
+rename from _specs/ecip-1074.md
+rename to _specs/ecip-1061d.md
+index 5d577ba..988bf83 100644
+--- a/_specs/ecip-1074.md
++++ b/_specs/ecip-1061d.md
+@@ -1,7 +1,7 @@
+ ---
+ lang: en
+-ecip: 1074
+-title: Tanchun EVM and Protocol Upgrades
++ecip: 1061d
++title: Aztlán EVM and Protocol Upgrades (Tanchun Edition)
+ status: Draft
+ type: Meta
+ author: Wei Tang (@sorpaas)

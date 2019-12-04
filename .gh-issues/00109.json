@@ -1,0 +1,60 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/109",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/109/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/109/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/109/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/109",
+    "id": 464813687,
+    "node_id": "MDU6SXNzdWU0NjQ4MTM2ODc=",
+    "number": 109,
+    "title": "Correct URL to ECIPs website on ./ethereumclassic/ECIPs",
+    "user": {
+      "login": "TokenHash",
+      "id": 29529586,
+      "node_id": "MDQ6VXNlcjI5NTI5NTg2",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/29529586?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TokenHash",
+      "html_url": "https://github.com/TokenHash",
+      "followers_url": "https://api.github.com/users/TokenHash/followers",
+      "following_url": "https://api.github.com/users/TokenHash/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TokenHash/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TokenHash/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TokenHash/subscriptions",
+      "organizations_url": "https://api.github.com/users/TokenHash/orgs",
+      "repos_url": "https://api.github.com/users/TokenHash/repos",
+      "events_url": "https://api.github.com/users/TokenHash/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TokenHash/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 2,
+    "created_at": "2019-07-06T03:44:36Z",
+    "updated_at": "2019-10-23T16:16:52Z",
+    "closed_at": null,
+    "author_association": "MEMBER",
+    "body": "I think the link and text to the ECIPs site on ./ethereumclassic/ECIPs should be:\r\n\r\n`The Ethereum Classic Improvement Proposal repository is at https://ecips.ethereumclassic.org/`\r\n\r\nCurrently it's:\r\n\r\n`https://ethereumclassic.org/`\r\n\r\n...which takes you the home, but that is not the ECIPs site.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/109/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

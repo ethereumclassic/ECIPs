@@ -1,0 +1,39 @@
+{
+    "id": 323738370,
+    "node_id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MzIzNzM4Mzcw",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "Please could you use \"Yingchun Edition\" not \"Yingchun Flavor\", for consistency with \r\n\r\nhttps://github.com/ethereumclassic/ECIPs/pull/198/files\r\n\r\nThanks!",
+    "state": "CHANGES_REQUESTED",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/199#pullrequestreview-323738370",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/199",
+    "author_association": "MEMBER",
+    "_links": {
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/199#pullrequestreview-323738370"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/199"
+      }
+    },
+    "submitted_at": "2019-11-27T15:01:23Z",
+    "commit_id": "243eeb25ce023315923d1d0cab870e7b37c16911"
+  }

@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/559861432",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/217#issuecomment-559861432",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/217",
+    "id": 559861432,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1OTg2MTQzMg==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-29T18:34:56Z",
+    "updated_at": "2019-11-29T18:35:35Z",
+    "author_association": "MEMBER",
+    "body": "You realize that the outcome here, @sorpaas, is going to be the effective death of Multi-Geth?\r\n\r\nClassic Geth will be END-of-LIFE after Agharta.\r\nYou can obviously add support to Parity-Ethereum.\r\nHyperledger Besu won't support your \"Ethereum Classic Classic\" flavor.\r\n\r\nSo Ethereum Classic will end up with Parity-Ethereum (majority client) and Hyperledger Besu (minority client) only for Aztlan HF.    Maybe I can get Mantis revived too by March as a third client?\r\n\r\nBut Multi-Geth will only be used on Ethereum Classic Classic.\r\n\r\nI actually personally like that outcome for clients, to be honest, because Geth has an unsolvable backlog of IP risks (no known provenance for contributions, GPLv3 licensing which restricts who can use it).\r\n\r\nI have long stated that I think the whole Geth-family will likely die out in the next couple of years because of these IP issues:\r\n\r\n- Geth\r\n- Classic Geth\r\n- Multi-Geth\r\n- TurboGeth (will prove @ledgerwatch's ideas on data-structures, but not a long life itself)\r\n- JPM Quorum\r\n- Clearmatics Autonity\r\n- Axioni AxCore\r\n\r\nYour actions here would just accelerate that process.\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/559861432/reactions",
+      "total_count": 2,
+      "+1": 0,
+      "-1": 1,
+      "laugh": 1,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

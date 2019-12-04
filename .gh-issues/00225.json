@@ -1,0 +1,60 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/225",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/225/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/225/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/225/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/225",
+    "id": 530724241,
+    "node_id": "MDU6SXNzdWU1MzA3MjQyNDE=",
+    "number": 225,
+    "title": "Discussion/Informational: Random thoughts on the longevity and network participartions of client software ",
+    "user": {
+      "login": "meowsbits",
+      "id": 45600330,
+      "node_id": "MDQ6VXNlcjQ1NjAwMzMw",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/45600330?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/meowsbits",
+      "html_url": "https://github.com/meowsbits",
+      "followers_url": "https://api.github.com/users/meowsbits/followers",
+      "following_url": "https://api.github.com/users/meowsbits/following{/other_user}",
+      "gists_url": "https://api.github.com/users/meowsbits/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/meowsbits/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/meowsbits/subscriptions",
+      "organizations_url": "https://api.github.com/users/meowsbits/orgs",
+      "repos_url": "https://api.github.com/users/meowsbits/repos",
+      "events_url": "https://api.github.com/users/meowsbits/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/meowsbits/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 14,
+    "created_at": "2019-12-01T12:32:02Z",
+    "updated_at": "2019-12-01T19:48:00Z",
+    "closed_at": null,
+    "author_association": "CONTRIBUTOR",
+    "body": "Intended to pick up a tangential comment thread from #217, particularly the following comments:\r\n- https://github.com/ethereumclassic/ECIPs/issues/217#issuecomment-559861432\r\n- https://github.com/ethereumclassic/ECIPs/issues/217#issuecomment-559862589\r\n- https://github.com/ethereumclassic/ECIPs/issues/217#issuecomment-559865482\r\n- https://github.com/ethereumclassic/ECIPs/issues/217#issuecomment-559866580\r\n- https://github.com/ethereumclassic/ECIPs/issues/217#issuecomment-559881215\r\n- https://github.com/ethereumclassic/ECIPs/issues/217#issuecomment-560098079\r\n- https://github.com/ethereumclassic/ECIPs/issues/217#issuecomment-560099224\r\n- https://github.com/ethereumclassic/ECIPs/issues/217#issuecomment-560102235\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/225/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

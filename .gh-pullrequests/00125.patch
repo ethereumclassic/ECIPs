@@ -1,0 +1,24 @@
+From 4b3d21f054307db96987951bb6b3ce197e89526f Mon Sep 17 00:00:00 2001
+From: Donald McIntyre <donald@etherplan.com>
+Date: Sat, 27 Jul 2019 09:41:34 -0600
+Subject: [PATCH] Creating networking.html file
+
+It was a file missing to complete ECIP types.
+---
+ networking.html | 7 +++++++
+ 1 file changed, 7 insertions(+)
+ create mode 100644 networking.html
+
+diff --git a/networking.html b/networking.html
+new file mode 100644
+index 0000000..0aad2d4
+--- /dev/null
++++ b/networking.html
+@@ -0,0 +1,7 @@
++---
++layout: page
++title: Networking
++---
++
++{% assign eips=site.specs|where:"lang","en"|where:"type","Networking" %}
++{% include eiptable.html eips=eips %}

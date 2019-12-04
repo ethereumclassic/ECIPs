@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551231538",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/165#issuecomment-551231538",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/165",
+    "id": 551231538,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MTIzMTUzOA==",
+    "user": {
+      "login": "BelfordZ",
+      "id": 1787231,
+      "node_id": "MDQ6VXNlcjE3ODcyMzE=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1787231?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/BelfordZ",
+      "html_url": "https://github.com/BelfordZ",
+      "followers_url": "https://api.github.com/users/BelfordZ/followers",
+      "following_url": "https://api.github.com/users/BelfordZ/following{/other_user}",
+      "gists_url": "https://api.github.com/users/BelfordZ/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/BelfordZ/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/BelfordZ/subscriptions",
+      "organizations_url": "https://api.github.com/users/BelfordZ/orgs",
+      "repos_url": "https://api.github.com/users/BelfordZ/repos",
+      "events_url": "https://api.github.com/users/BelfordZ/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/BelfordZ/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-07T19:37:40Z",
+    "updated_at": "2019-11-07T19:37:40Z",
+    "author_association": "MEMBER",
+    "body": "@TheEnthusiasticAs More or less. Like I've said, there is not a whole lot of legal precedence on this matter. In theory, yes, if an ECIP lead to a system-wide issue that lost people money, an author of said ECIP may be held liable. Whether or not the author would lose in court is unknown - why put ourselves in this position when we can just follow best practices, add a license that protects contributors. \r\n\r\nAnd before Donald comes in accusing me of using fear as a tactic, seriously dude go fuck yourself with that argument. I take it as a personal insult to my integrity, something which I do not appreciate given the honest efforts I've put forth. While skepticism is healthy, uneducated blabbering, conspiracy theories and perpetuating this dialog of 'we are under attack' is not helpful.\r\n\r\nCould you please suggest an alternative to this proposal which would give legal protection to contributors, waiving liability and warranty, without adding a root license?",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551231538/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

@@ -1,0 +1,42 @@
+From ef1735619e2056b0a6acb430da2734839509b4e6 Mon Sep 17 00:00:00 2001
+From: Donald McIntyre <donald@etherplan.com>
+Date: Thu, 25 Jul 2019 21:52:27 -0600
+Subject: [PATCH] Update index.html
+
+Changed string:
+
+`<h4><a href="{{"erc"|relative_url}}">ERC</a> ({{site.specs|where:"lang","en"|where:"type","Standards Track"|where:"category","ERC"|size}})</h4>`
+
+to:
+
+`<h4><a href="{{"ecbp"|relative_url}}">ECBP</a> ({{site.specs|where:"lang","en"|where:"type","Standards Track"|where:"category","ECBP"|size}})</h4>`
+
+Note: I am adding also a string for `networking` but I don't know if that will break the site. Please check before merging.
+
+This is the new string I added (2 lines):
+
+`<h4><a href="{{"networking"|relative_url}}">Networking</a> ({{site.specs|where:"lang","en"|where:"type","Standards Track"|where:"category","Networking"|size}})</h4>
+<p>Improvements to networking protocol specifications.</p>`
+---
+ index.html | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+diff --git a/index.html b/index.html
+index ef3d8bc..e35857e 100644
+--- a/index.html
++++ b/index.html
+@@ -19,10 +19,13 @@ <h3>Standard Track ({{site.specs|where:"lang","en"|where:"type","Standards Track
+ <h4><a href="{{"core"|relative_url}}">Core</a> ({{site.specs|where:"lang","en"|where:"type","Standards Track"|where:"category","Core"|size}})</h4>
+ <p>Improvements requiring a consensus fork, as well as changes that are not necessarily consensus critical but may be relevant to “core dev” discussions.</p>
+ 
++<h4><a href="{{"networking"|relative_url}}">Networking</a> ({{site.specs|where:"lang","en"|where:"type","Standards Track"|where:"category","Networking"|size}})</h4>
++<p>Improvements to networking protocol specifications.</p>
++
+ <h4><a href="{{"interface"|relative_url}}">Interface</a> ({{site.specs|where:"lang","en"|where:"type","Standards Track"|where:"category","Interface"|size}})</h4>
+ <p>Includes improvements around client API/RPC specifications and standards, and also certain language-level standards like method names and contract ABIs. The label “interface” aligns with the interfaces repo and discussion should primarily occur in that repository before an ECIP is submitted to the ECIPs repository.</p>
+ 
+-<h4><a href="{{"erc"|relative_url}}">ERC</a> ({{site.specs|where:"lang","en"|where:"type","Standards Track"|where:"category","ERC"|size}})</h4>
++<h4><a href="{{"ecbp"|relative_url}}">ECBP</a> ({{site.specs|where:"lang","en"|where:"type","Standards Track"|where:"category","ECBP"|size}})</h4>
+ <p>Application-level standards and conventions, including contract standards such as token standards, name registries, URI schemes, library/package formats, and wallet formats.</p>
+ 
+ <h3><a href="{{"meta"|relative_url}}">Meta</a> ({{site.specs|where:"lang","en"|where:"type","Meta"|size}})</h3>

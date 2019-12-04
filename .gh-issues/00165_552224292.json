@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/552224292",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/165#issuecomment-552224292",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/165",
+    "id": 552224292,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MjIyNDI5Mg==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-10T19:15:14Z",
+    "updated_at": "2019-11-10T19:15:14Z",
+    "author_association": "MEMBER",
+    "body": "Thanks, @zmitton.\r\n\r\nMy counter to your \"no explicit license\" point is that having the ability for proposals to be submitted without any explicit license just introduces subjectivity into the process with no practical upside whatsoever.   Even CC0 is better than \"not specified\" in terms of managing potential legal risk to ETC end-users and businesses using ETC network.\r\n\r\nBeyond \"protest\", I see no practical reason whatsoever why even for information proposals like Anthony's that you would not want an explicit license.\r\n\r\nIt is just a loophole.   And somebody will exploit it someday, or try to, and then we will have to expend time and effort on that.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/552224292/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

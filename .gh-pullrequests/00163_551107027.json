@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551107027",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/163#issuecomment-551107027",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/163",
+    "id": 551107027,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MTEwNzAyNw==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-07T14:39:15Z",
+    "updated_at": "2019-11-07T14:39:15Z",
+    "author_association": "MEMBER",
+    "body": "BTW - Microsoft have done a complete 180 in the last few years under Satya Nadella, and are utterly unlike Steve Ballmer's \"Linux is a Cancer\" Microsoft.  There are real allies of open source now.\r\n\r\n- https://arstechnica.com/tech-policy/2014/10/lawsuit-reveals-samsung-paid-microsoft-1-billion-a-year-for-android-patents/\r\n- https://www.androidpolice.com/2018/10/10/report-microsoft-making-patents-royalty-free-android-oems/\r\n- https://www.zdnet.com/article/microsoft-open-sources-its-entire-patent-portfolio/\r\n\r\nSee also https://www.hanselman.com/blog/MicrosoftKilledMyPappy.aspx.\r\n\r\nThis is NOT to say that Microsoft is not what we would like it to be in other axis, but for open source they are very good now.  Windows has \"spyware\" in it.   They are legally compliant so will shut down things on GitHub when asked to by governments.\r\n\r\nSo they are not aligned on censorship resistance, but purely on the \"open source friendly\", we don't need to be afraid of them anymore.  Apple are \"the baddies\" on that score, but many people give them a pass because of their privacy-respecting best practices.   They do that because privacy is an absolute competitive advance for Apple over Google - not because they are \"good people\":\r\n\r\nhttps://ar.al/notes/apple-vs-google-on-privacy-a-tale-of-absolute-competitive-advantage/",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551107027/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550446098",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/163#issuecomment-550446098",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/163",
+    "id": 550446098,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MDQ0NjA5OA==",
+    "user": {
+      "login": "TokenHash",
+      "id": 29529586,
+      "node_id": "MDQ6VXNlcjI5NTI5NTg2",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/29529586?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TokenHash",
+      "html_url": "https://github.com/TokenHash",
+      "followers_url": "https://api.github.com/users/TokenHash/followers",
+      "following_url": "https://api.github.com/users/TokenHash/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TokenHash/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TokenHash/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TokenHash/subscriptions",
+      "organizations_url": "https://api.github.com/users/TokenHash/orgs",
+      "repos_url": "https://api.github.com/users/TokenHash/repos",
+      "events_url": "https://api.github.com/users/TokenHash/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TokenHash/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-06T18:43:41Z",
+    "updated_at": "2019-11-06T18:43:41Z",
+    "author_association": "MEMBER",
+    "body": "To establish a blanket license, irrespective of which one and how good it is, and to exclude those who don't want to use it, when there are several variations in ECIP-1000 that are totally acceptable, as seen in ETC and Bitcoin, is a security hole as this \"small\" and what appears as an \"irrelevant\" action is an unnecessary restriction to a single license and establishes \"restriction\" in itself as a philosophical norm, in ETC.\r\n\r\nThere is a long tradition of \"least authority\" in crypto, but this is exactly the opposite: an unnecessary and not justified \"most authority\" action.\r\n\r\nThis, as a first action of establishing a \"most authority\" philosophy pushed by @bobsummerwill will inexorably be followed by promoting more restrictions as already mentioned by him:\r\n\r\n• DCO\r\n• naming developers and killing anonymity\r\n• introducing more \"protections\" such as \"trademarks and trade secrets\"\r\n• speaking with lawyers to appeal to authority to impose more restrictions\r\n• appealing to EF, EEA, Hyperledger, and other \"OSS foundations\" as authority of how ETC should proceed, which are all opposite to ETC ethos\r\n\r\nSummerwill, has the wrong mindset, and all other participants in ETC have a lazy mindset that prefer to move on with what they consider as \"irrelevant\" or \"BS\" or \"a waste of time\", but they don't see they are opening the door to further attacks with more restrictions in ETC in the future. Just because there is one attacker being bothersome enough to push all to an unnecessary change. \r\n\r\nThe \"I am protecting you\" is the oldest excuse by authoritarians who then violate people with top down governance and restrictions, especially corporatist in this case. Summerwill has only spoken about top down authoritarian measures in ETC for months.\r\n\r\nAnd \"I am going to annoy you until you capitulate\", and the fact all people in ETC actually capitulate and rationalize their capitulation, is another way of introducing these negative changes.\r\n\r\nJust because ECIP-1000 was approved late in the life cycle of ETC (in 2019), that editors have not enforced the copyright/licensing section in new ECIPs, and that it is easy and comfortable to put a root license does not mean that can't be solved by using best practices from now on.\r\n\r\nETC is NOT Linux or Apache or any old OSS system. ETC is a system that needs to have the highest standards of trust minimization, unlike any other type of OSS system, to protect a global platform of money, property and agreements. This has nothing to do, or has anything in common, with other OSS systems, or private networks, that can be used in isolation or have no property and agreements inside, or are fine with top down trust maximization.\r\n\r\nThere is no reason to use a single root license and not do what Bitcoin already does ever since 2017 of using a portfolio of acceptable options. \"I am lazy\" and \"this bother me\", is not an argument. Therefore I oppose this action.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550446098/reactions",
+      "total_count": 2,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 1
+    }
+  }

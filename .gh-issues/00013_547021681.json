@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/547021681",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/13#issuecomment-547021681",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/13",
+    "id": 547021681,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU0NzAyMTY4MQ==",
+    "user": {
+      "login": "AndreaLanfranchi",
+      "id": 15280851,
+      "node_id": "MDQ6VXNlcjE1MjgwODUx",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/15280851?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AndreaLanfranchi",
+      "html_url": "https://github.com/AndreaLanfranchi",
+      "followers_url": "https://api.github.com/users/AndreaLanfranchi/followers",
+      "following_url": "https://api.github.com/users/AndreaLanfranchi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AndreaLanfranchi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AndreaLanfranchi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AndreaLanfranchi/subscriptions",
+      "organizations_url": "https://api.github.com/users/AndreaLanfranchi/orgs",
+      "repos_url": "https://api.github.com/users/AndreaLanfranchi/repos",
+      "events_url": "https://api.github.com/users/AndreaLanfranchi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AndreaLanfranchi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-10-28T16:11:23Z",
+    "updated_at": "2019-10-28T16:39:30Z",
+    "author_association": "NONE",
+    "body": "@p3c-bot \r\n\r\n> The concern is that right now, Ethash is so poorly documented, only 1 or 2 companies knows how to build a profitable ASIC for it.\r\n\r\nThe \"lack\" of documentation for ethash is pure fallacy.\r\nThe algorithm is as well documented as it relies on the same SHA3: thus if enough documentation on SHA3 then enough documentation on ethash where the \"only\" addition is DAG (generated also using SHA3) and DAG accesses.\r\nIts all described here https://github.com/ethereum/wiki/wiki/Ethash\r\n\r\nAnyone with basic programming skills can build a running implementation in the language they prefer.\r\n\r\nASIC makers never had problems in \"understanding\" the algo (which also has a widely used open-source implementation here https://github.com/ethereum-mining/ethminer) and there is no \"secret\" behind. The problem of ASICs has always been how to overcome the memory hardness barrier: but this has nothing to do with the algo itself rather with how ASICs are built.\r\n\r\nP.s. Before anyone argues about SHA3 != Keccak256 please recall that Keccak allows different paddings which do not interfere with cryptographic strength of the **function**. SAH3 and Keccak246 (in ethash) are same keccak with different paddings.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/547021681/reactions",
+      "total_count": 1,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 1
+    }
+  }

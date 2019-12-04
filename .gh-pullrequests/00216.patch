@@ -1,0 +1,31 @@
+From 033c4cccf9d85e4c992a448f08fa721fbc50186f Mon Sep 17 00:00:00 2001
+From: Bob Summerwill <bob@summerwill.net>
+Date: Fri, 29 Nov 2019 09:49:36 -0800
+Subject: [PATCH] Update licensing to Apache 2.0, to reflect inclusion of
+ specifications authored by Wei Tang under Apache 2.0 licensing.
+
+---
+ _specs/ecip-1061.md | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+diff --git a/_specs/ecip-1061.md b/_specs/ecip-1061.md
+index ba6bc17..242c0d0 100644
+--- a/_specs/ecip-1061.md
++++ b/_specs/ecip-1061.md
+@@ -13,7 +13,7 @@ discussions-to: https://github.com/ethereumclassic/ECIPs/issues/81
+ ### Simple Summary
+ 
+ Enable the outstanding Ethereum Foundation _Istanbul_ network protocol upgrades on the Ethereum
+-Classic network without any gas-cost assumptions in a hard-fork code-named _Aztlán_ to enable 
++Classic network without any gas-cost assumptions in a hard-fork code-named _Aztlán (Yingchun Edition)_ to enable 
+ maximum compatibility across these networks. 
+ 
+ The _Yingchun_ Edition refers to the preferred variant of _Aztlán_ without any repricing of state-trie 
+@@ -85,4 +85,5 @@ Both, the Geth Classic client and the Morden testnet will no longer be supported
+ 
+ ## Copyright
+ 
+-Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
++This work is licensed under [Apache License, Version
++2.0](http://www.apache.org/licenses/).
+\ No newline at end of file

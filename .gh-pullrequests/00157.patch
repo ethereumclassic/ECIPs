@@ -1,0 +1,38 @@
+From f57031f82309d7c07a665c225c669b970af3148b Mon Sep 17 00:00:00 2001
+From: Talha Cross <47772477+soc1c@users.noreply.github.com>
+Date: Sun, 27 Oct 2019 19:29:30 +0100
+Subject: [PATCH] ecip-1061: correct the aztlan spelling as per community
+ request
+
+---
+ _specs/ecip-1061.md | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/_specs/ecip-1061.md b/_specs/ecip-1061.md
+index 8052678..c903cdc 100644
+--- a/_specs/ecip-1061.md
++++ b/_specs/ecip-1061.md
+@@ -1,7 +1,7 @@
+ ---
+ lang: en
+ ecip: 1061
+-title: Atzlán EVM and Protocol Upgrades
++title: Aztlán EVM and Protocol Upgrades
+ status: Draft
+ type: Meta
+ author: Talha Cross (@soc1c)
+@@ -12,12 +12,12 @@ discussions-to: https://github.com/ethereumclassic/ECIPs/issues/81
+ ### Simple Summary
+ 
+ Enable the outstanding Ethereum Foundation _Istanbul_ network protocol upgrades on the Ethereum
+-Classic network in a hard-fork code-named _Atzlán_ to enable maximum compatibility across these networks.
++Classic network in a hard-fork code-named _Aztlán_ to enable maximum compatibility across these networks.
+ 
+ ### Abstract
+ 
+ Add support for a subset of protocol-impacting changes introduced in the Ethereum Foundation (ETH) network via the
+-_Istanbul_ hardforks. The proposed changes for Ethereum Classic's _Atzlán_ upgrade include:
++_Istanbul_ hardforks. The proposed changes for Ethereum Classic's _Aztlán_ upgrade include:
+ 
+ - TBD
+ 

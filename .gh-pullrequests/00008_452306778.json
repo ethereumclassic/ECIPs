@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/452306778",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/8#issuecomment-452306778",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/8",
+    "id": 452306778,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1MjMwNjc3OA==",
+    "user": {
+      "login": "saturn-network",
+      "id": 44673408,
+      "node_id": "MDQ6VXNlcjQ0NjczNDA4",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/44673408?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/saturn-network",
+      "html_url": "https://github.com/saturn-network",
+      "followers_url": "https://api.github.com/users/saturn-network/followers",
+      "following_url": "https://api.github.com/users/saturn-network/following{/other_user}",
+      "gists_url": "https://api.github.com/users/saturn-network/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/saturn-network/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/saturn-network/subscriptions",
+      "organizations_url": "https://api.github.com/users/saturn-network/orgs",
+      "repos_url": "https://api.github.com/users/saturn-network/repos",
+      "events_url": "https://api.github.com/users/saturn-network/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/saturn-network/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-08T13:56:55Z",
+    "updated_at": "2019-01-08T13:56:55Z",
+    "author_association": "NONE",
+    "body": "A good counter-point to ProgPow is that since it's relatively easy to own/rent more GPU hashpower (i.e. a botnet or mining pools) then any ProgPow chain will become more vulnerable to 51% than before - and thus ProgPow is a trojan horse.\r\n\r\nPerhaps we should embrace ASICs, but make manufacturing them so easy that no one company gets a monopoly on them. If all three of\r\n\r\n* ETC picks an easily ASIC'able algo\r\n* ASICs are manufactured my many competing companies without price fixing and are easy to buy and run\r\n* ETC is the top coin on this algo measured by hashrate\r\n\r\nthen we may consider it secure.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/452306778/reactions",
+      "total_count": 1,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

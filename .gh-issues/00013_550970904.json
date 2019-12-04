@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550970904",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/13#issuecomment-550970904",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/13",
+    "id": 550970904,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MDk3MDkwNA==",
+    "user": {
+      "login": "DiverterBTC",
+      "id": 56491191,
+      "node_id": "MDQ6VXNlcjU2NDkxMTkx",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/56491191?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DiverterBTC",
+      "html_url": "https://github.com/DiverterBTC",
+      "followers_url": "https://api.github.com/users/DiverterBTC/followers",
+      "following_url": "https://api.github.com/users/DiverterBTC/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DiverterBTC/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DiverterBTC/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DiverterBTC/subscriptions",
+      "organizations_url": "https://api.github.com/users/DiverterBTC/orgs",
+      "repos_url": "https://api.github.com/users/DiverterBTC/repos",
+      "events_url": "https://api.github.com/users/DiverterBTC/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DiverterBTC/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-07T08:12:48Z",
+    "updated_at": "2019-11-07T08:12:48Z",
+    "author_association": "NONE",
+    "body": "Can't code, so I am forced to rely on the trusted third party devs and documentation as to the security of SHA3. However if the documentation and devs are to be believed, I believe SHA3 to be a better choice than ProgPoW. On the matter of ASIC resistance; Though Ethash may not be totally \"ASIC resistant\", it has seemed to this point to be fairly retardant, for various (arguable) reasons. Perhaps in an ideal world ETC would not need to change algos, ETH 2.0 would be implemented tomorrow, and everything is fine. Unfortunately in the real world danger lurks daily for ETC holders, and the holders of any coin not \"dominant\" on their respective chain. Securing the funds of all holders must be top priority, well above any debate about whether or not ASIC resistance is preferable or even achievable. It seems to me to be an exercise in futility for any coin that has any measurable value. The alternative of hard-forking periodically (i.e Monero) to me is absolutely not an option. Security and trust-minimization are paramount. Each time a hard-fork takes place, holders such as myself must further trust that devs haven't altered some rule that we are unaware of or disagree with otherwise. I don't want to have to trust hard-forks every 6 months, and I don't want to have to trust current ETH miners to not rewrite ETC daily. One only has to look at BCH/BSV debacle in Bitcoin to see the dangers of frequent hard forks and devs implementing (or re-implementing previously removed) protocols if political priorites and followings find their way into ETC. I have begun seeing this very thing seemingly starting seeping in from the ETH parity side of ETC already. It seems to me that I am thus left with supporting ProgPoW or SHA3--in which case the preferable option (for various debatable reasons) is SHA3. If SHA3 is secure as documented, can be implemented with a single hard-fork, allows for easy smart contract deployment, and relieves 51% attack vector, it receives my confirmation. Again, as someone unable to contribute technically, I can only speak to the social trust minimization and security aspects as they appear. ASICs will be developed and mining will inevitably find its way toward lower cost electricity; this we already know. Bitcoin has not experienced a double spend/successful \"attack\" to date, and if ETC price rises and attracts more holders and devs, the hashrate will increase and take the cost of attacking ETC upwards with it. All the \"centralized mining\" arguments against PoW and Bitcoin--for all their merits--have seemingly remained only theoretical problems from a network security standpoint. If ASIC manufacturing for SHA3 can in fact be entered by some new (old) players such as Intel due to its other uses, I agree with the stance that this at least contributes to mining decentralization in the theoretical sense that more manufacturers creates more competition for customers creates a \"price war\" which creates a lower barrier to entry for \"everyday\" miners to join the network. If I've made some technical errors in my novel I'm sure some will correct me, which I can/will accept and offer apologies for. However I stand by my opinion that the fight for ASIC resistance is futile and/or unfavorable for larger appeal, and staying on Ethash any more than absolutely necessary is a daily security risk which could cripple ETC as we try to carve out our own space. It's a yes from me. ",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550970904/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

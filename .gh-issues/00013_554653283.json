@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/554653283",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/13#issuecomment-554653283",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/13",
+    "id": 554653283,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1NDY1MzI4Mw==",
+    "user": {
+      "login": "TheEnthusiasticAs",
+      "id": 48069525,
+      "node_id": "MDQ6VXNlcjQ4MDY5NTI1",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/48069525?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TheEnthusiasticAs",
+      "html_url": "https://github.com/TheEnthusiasticAs",
+      "followers_url": "https://api.github.com/users/TheEnthusiasticAs/followers",
+      "following_url": "https://api.github.com/users/TheEnthusiasticAs/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TheEnthusiasticAs/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TheEnthusiasticAs/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TheEnthusiasticAs/subscriptions",
+      "organizations_url": "https://api.github.com/users/TheEnthusiasticAs/orgs",
+      "repos_url": "https://api.github.com/users/TheEnthusiasticAs/repos",
+      "events_url": "https://api.github.com/users/TheEnthusiasticAs/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TheEnthusiasticAs/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-16T16:41:58Z",
+    "updated_at": "2019-11-16T16:41:58Z",
+    "author_association": "MEMBER",
+    "body": "OK, maybe then etc should have 50% ethash & 50% keccak algo? ",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/554653283/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

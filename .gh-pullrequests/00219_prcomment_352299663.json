@@ -1,0 +1,55 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352299663",
+    "pull_request_review_id": 324904767,
+    "id": 352299663,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM1MjI5OTY2Mw==",
+    "diff_hunk": "@@ -0,0 +1,63 @@\n+---\n+ecip: TBD\n+title: The Meta Meta ECIP: Processes for Meta ECIPs\n+author: Mr. Meows D. Bits\n+discussions-to: TBD\n+status: WIP\n+type: Meta\n+created: 2019-11-29T14:17:42-05:00\n+resolution: TBD\n+---\n+\n+### Abstract\n+\n+Forking Meta ECIPs (defined as Meta ECIPs specifying any Standards-Core track ECIP) should be complete and unique.\n+\n+### Motivation\n+\n+Incomplete proposals are inoperable; they are not ready for implementation.\n+\n+Unique proposals saves me time because I don't have to read the same thing twice.\n+\n+Related to and derivative of:\n+\n+- https://github.com/ethereumclassic/ECIPs/issues/217\n+- https://github.com/ethereumclassic/ECIPs/issues/215\n+- https://github.com/ethereumclassic/ECIPs/issues/175\n+- https://github.com/ethereumclassic/ECIPs/issues/131\n+- https://github.com/ethereumclassic/ECIPs/issues/177\n+- https://github.com/ethereumclassic/ECIPs/issues/135\n+- https://github.com/ethereumclassic/ECIPs/pull/218\n+- https://github.com/ethereumclassic/ECIPs/pull/212\n+- https://github.com/ethereumclassic/ECIPs/pull/207\n+- https://github.com/ethereumclassic/ECIPs/pull/214\n+- https://github.com/ethereumclassic/ECIPs/pull/199\n+- https://github.com/ethereumclassic/ECIPs/pull/196\n+\n+### Specification\n+\n+A hard fork specification is documented as a Meta ECIP, and usually represents a collection of adjacent ECIPs. The sole purpose of a Forking Meta ECIP is to join a block number with this set of `n >= 1` ECIPs containing protocol-facing changes. The document says \"_These_ features will activate at _this_ moment.\"\n+\n+This proposal specifies that all Forking Meta ECIPs should be COMPLETE and UNIQUE; essentially disallowing `Draft` status Forking Meta ECIPs and and/or meaningful revisions (set ECIPs, block number). A valid Forking Meta ECIP must contain a full and complete set of to-be included ECIPs, and a definitive block number. \n+\n+_Complete_ is defined as being fully and totally definitive; not lacking anything.\n+\n+_Unique_ means not the same as another thing; in this case, not precisely duplicating any existing ECIP.\n+\n+### Rationale\n+\n+0. Forking Meta ECIPs are themselves ECIPs, and their job is to define, with certainty and clarity, technical specifications. Forking Meta ECIPs that essentially leave either field `Block number` and/or field `ECIP set` blank are functionally useless; they say only: \"Will have some fork at some time.\" An analogue of blankness to non-Forking-Meta ECIPs would essentially say \"TODO: put my next awesome feature specification here.\" Fill-in-the-blank ECIPs are not in good form.\n+\n+1. A Forking Meta ECIP may represent a plurality of features, and so in order to be an _operable_ specification it should not represent an ambiguous set. Sets of ECIPs can have interoperative dependencies and outcomes; this causes a conceptual permutation and combination challenge when attempting to design a set of ECIPs for simultaneous inclusion. Demanding fully-formed Forking Meta ECIP proposals forces authors to evaluate and document ECIP-set behavior and enables concrete discussion of feature sets as complete wholes.\n+\n+2. Forking Meta ECIPs without block numbers lack operability. Activation numbers _are specifications_ and should not be treated as a second class or at-convenience citizens. Implementation timelines are importantly related variables to their adjacent ECIP-sets (large set ostensibly require long timelines, hotfix sets require short ones.) We cannot reason about them in isolation.\n+\n+3. Concrete ECIPs are easier to reason about. Nuances of interoperations are documented and included in concrete proposals, leaving less theoretical abstract reasoning to manage, which is relevant in the context of group _and_ individual decision making.\n+\n+### Implementation\n+\n+A Forking Meta ECIP may not be in `Draft` status. It may not undergo any meaningful changes once receiving `Last Call` status (its next status beyond `WIP`).",
+    "path": "_specs/ecip-_.md",
+    "position": 63,
+    "original_position": 59,
+    "commit_id": "bfd3a9c8f876b59c80c82eab5435ab0e0cf60e87",
+    "original_commit_id": "bbf1c2f1a8400c50e7f15127844122ab11e7ff76",
+    "user": {
+      "login": "shanejonas",
+      "id": 364566,
+      "node_id": "MDQ6VXNlcjM2NDU2Ng==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/364566?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/shanejonas",
+      "html_url": "https://github.com/shanejonas",
+      "followers_url": "https://api.github.com/users/shanejonas/followers",
+      "following_url": "https://api.github.com/users/shanejonas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/shanejonas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/shanejonas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/shanejonas/subscriptions",
+      "organizations_url": "https://api.github.com/users/shanejonas/orgs",
+      "repos_url": "https://api.github.com/users/shanejonas/repos",
+      "events_url": "https://api.github.com/users/shanejonas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/shanejonas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "I think `draft` is a valid state for a meta ECIP just as any other",
+    "created_at": "2019-11-30T19:12:13Z",
+    "updated_at": "2019-11-30T19:33:28Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/219#discussion_r352299663",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/219",
+    "author_association": "MEMBER",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352299663"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/219#discussion_r352299663"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/219"
+      }
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 63,
+    "original_line": 59,
+    "side": "RIGHT"
+  }

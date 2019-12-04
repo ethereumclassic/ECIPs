@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560135086",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/225#issuecomment-560135086",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/225",
+    "id": 560135086,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDEzNTA4Ng==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-01T17:35:54Z",
+    "updated_at": "2019-12-01T17:35:54Z",
+    "author_association": "MEMBER",
+    "body": "Current reality for Geth family - BAD\r\nBetter reality - GPLv3 + DCOs\r\nBest reality - Apache 2.0 + DCOs\r\n\r\nI know this will never happen while EF is steering the ship, so the inevitable consequence is death of Geth-family.   That happens when ETH2 ships and Geth gets defunded.    If ETH2 even happens.\r\n\r\nThe only thing keeping the lights on for Geth is the EF's ongoing investment.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560135086/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

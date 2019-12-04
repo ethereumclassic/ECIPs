@@ -1,0 +1,56 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/343533820",
+    "pull_request_review_id": 313184484,
+    "id": 343533820,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM0MzUzMzgyMA==",
+    "diff_hunk": "@@ -0,0 +1,239 @@\n+---\n+lang: en\n+ecip: 1040\n+title: Generalized Account Versioning Scheme\n+author: Wei Tang (@sorpaas)\n+discussions-to: https://github.com/ethereumclassic/ECIPs/issues/169\n+status: Draft\n+type: Standards Track\n+category: Core\n+created: 2017-12-30",
+    "path": "_specs/ecip-1040.md",
+    "position": 10,
+    "original_position": 10,
+    "commit_id": "818bf0823a3f09626028b0eb25e95e72534eef16",
+    "original_commit_id": "818bf0823a3f09626028b0eb25e95e72534eef16",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "I don’t see why that’s needed. There’s technically no EIPs for those two extensions as they are never merged.",
+    "created_at": "2019-11-07T08:51:45Z",
+    "updated_at": "2019-11-07T08:51:45Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/170#discussion_r343533820",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/170",
+    "author_association": "MEMBER",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/343533820"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/170#discussion_r343533820"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/170"
+      }
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 10,
+    "original_line": 10,
+    "side": "RIGHT",
+    "in_reply_to_id": 343452383
+  }

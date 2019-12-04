@@ -1,0 +1,30 @@
+From a12b0eeb881a60946f4d4ee23309926af0eecc9b Mon Sep 17 00:00:00 2001
+From: Bob Summerwill <bob@summerwill.net>
+Date: Sun, 1 Dec 2019 10:12:44 -0800
+Subject: [PATCH] Reject ECIP-1057 "Cold Staking"
+
+Other than Dexaran himself, there is no support for this proposal with the ETC ecosystem.
+Proposals of this kind (like PoolTogether on ETH - https://www.pooltogether.com/) can happen just fine with no need for consensus across the ecosystem.
+
+I propose we Reject this proposal.   It could be passed as Informational, I suppose, but there is really no need for there to be an ECIP for this application level proposal.
+
+Even at application level, you would not need/want an ECIP for this until there were multiple implementations and this was become an architectural best practice.
+
+Best, I think, to reject.    A new ECBP could be written which generalized the pattern and that might be accepted.
+---
+ _specs/ecip-1057.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-1057.md b/_specs/ecip-1057.md
+index 51b5b9f..a05e0c9 100644
+--- a/_specs/ecip-1057.md
++++ b/_specs/ecip-1057.md
+@@ -4,7 +4,7 @@ ecip: 1057
+ title: Cold Staking
+ Author: Dexaran (@dexaran)
+ discussions-To: https://github.com/ethereumclassic/ECIPs/issues/65
+-status: Draft
++status: Rejected
+ type: Standards Track
+ category: Core
+ created: 2019-03-31

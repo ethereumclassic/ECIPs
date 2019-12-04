@@ -1,0 +1,64 @@
+From 4d227a254e69cd1def7765c0d5da91a6606050f1 Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Sat, 22 Jun 2019 21:23:50 +0200
+Subject: [PATCH 1/2] Use account versioning for Agharta hard fork
+
+---
+ ECIPs/ECIP-1056.md | 10 ++++++++--
+ 1 file changed, 8 insertions(+), 2 deletions(-)
+
+diff --git a/ECIPs/ECIP-1056.md b/ECIPs/ECIP-1056.md
+index 5cb72f7..c94654e 100644
+--- a/ECIPs/ECIP-1056.md
++++ b/ECIPs/ECIP-1056.md
+@@ -4,7 +4,7 @@
+     Title: Agharta EVM and Protocol Upgrades
+     Status: Draft
+     Type: Standards Track
+-    Author: Isaac Ardis <isaac.a@etclabs.org>
++    Author: Isaac Ardis <isaac.a@etclabs.org>, Wei Tang <hi@that.world>
+     Created: 2019-03-25
+ 
+ ### Simple Summary
+@@ -37,12 +37,18 @@ networks, all of which have been in use on the Ethereum Foundation networks sinc
+ 
+ ### Specification
+ 
+-Technical specifications for each EIP can be found at those documents respectively:
++Enable the following three hard fork features via a new account version `0x1`, as specified in [EIP-1702](https://eips.ethereum.org/EIPS/eip-1702) "Specification" section (commonly known as EIP-1702 variant I):
+ 
+ - [EIP 145](https://eips.ethereum.org/EIPS/eip-145) (Bitwise shifting instructions)
+ - [EIP 1014](https://eips.ethereum.org/EIPS/eip-1014) (Skinny `CREATE2` opcode)
+ - [EIP 1052](https://eips.ethereum.org/EIPS/eip-1052) (`EXTCODEHASH` opcode)
+ 
++Specifically with definition from EIP-1702 "Usage Template" section:
++
++- **Version**: `0x1`.
++- **Parent version**: `0x0`.
++- **Features**: EIP 145, EIP 1014 and EIP 1052.
++
+ ### Rationale
+ 
+ __Atomicity__: This protocol specification notably merges the scheduled features of the anticipated _Petersburg_
+
+From bb452417c485fb4172bc5c6a5c794ab8071c0813 Mon Sep 17 00:00:00 2001
+From: soc1c <soc1c@users.noreply.github.com>
+Date: Fri, 12 Jul 2019 13:21:33 +0200
+Subject: [PATCH 2/2] fix formatting
+
+---
+ _specs/ecip-1056.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/_specs/ecip-1056.md b/_specs/ecip-1056.md
+index d373e41..f36023d 100644
+--- a/_specs/ecip-1056.md
++++ b/_specs/ecip-1056.md
+@@ -43,6 +43,7 @@ Enable the following three hard fork features via a new account version `0x1`, a
+ - [EIP 145](https://eips.ethereum.org/EIPS/eip-145) (Bitwise shifting instructions)
+ - [EIP 1014](https://eips.ethereum.org/EIPS/eip-1014) (Skinny `CREATE2` opcode)
+ - [EIP 1052](https://eips.ethereum.org/EIPS/eip-1052) (`EXTCODEHASH` opcode)
++
+ Specifically with definition from EIP-1702 "Usage Template" section:
+ 
+ - **Version**: `0x1`.

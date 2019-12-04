@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/468043718",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/58#issuecomment-468043718",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/58",
+    "id": 468043718,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ2ODA0MzcxOA==",
+    "user": {
+      "login": "phyro",
+      "id": 157733,
+      "node_id": "MDQ6VXNlcjE1NzczMw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/157733?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/phyro",
+      "html_url": "https://github.com/phyro",
+      "followers_url": "https://api.github.com/users/phyro/followers",
+      "following_url": "https://api.github.com/users/phyro/following{/other_user}",
+      "gists_url": "https://api.github.com/users/phyro/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/phyro/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/phyro/subscriptions",
+      "organizations_url": "https://api.github.com/users/phyro/orgs",
+      "repos_url": "https://api.github.com/users/phyro/repos",
+      "events_url": "https://api.github.com/users/phyro/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/phyro/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-02-27T21:47:03Z",
+    "updated_at": "2019-02-27T21:54:16Z",
+    "author_association": "MEMBER",
+    "body": "Thanks for starting the discussion @sorpaas . I'm not familiar with the assigning a number part. Do we mean that when a PR is ready we tell the author to change the filename of the ECIP and the auxiliary files to include the number and then merge?\r\n\r\n> Software authors are encouraged to publish summaries of what ECIPs their software supports to aid in verification of status changes\r\n\r\nThe links for these examples are dead (so are some other things like the process image but this can be fixed later). What I wanted to mention here is that if openrpc becomes a thing perhaps we should encourage the node clients to add the the ECIPs implemented as some sort of metadata (if anyone is interested in what i'm talking about here is the ECLIP https://github.com/etclabscore/ECLIPs/pull/3). I'm guessing this would be another update to the process later ",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/468043718/reactions",
+      "total_count": 1,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

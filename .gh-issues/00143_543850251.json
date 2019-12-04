@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/543850251",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/143#issuecomment-543850251",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/143",
+    "id": 543850251,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU0Mzg1MDI1MQ==",
+    "user": {
+      "login": "realcodywburns",
+      "id": 13103499,
+      "node_id": "MDQ6VXNlcjEzMTAzNDk5",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/13103499?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/realcodywburns",
+      "html_url": "https://github.com/realcodywburns",
+      "followers_url": "https://api.github.com/users/realcodywburns/followers",
+      "following_url": "https://api.github.com/users/realcodywburns/following{/other_user}",
+      "gists_url": "https://api.github.com/users/realcodywburns/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/realcodywburns/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/realcodywburns/subscriptions",
+      "organizations_url": "https://api.github.com/users/realcodywburns/orgs",
+      "repos_url": "https://api.github.com/users/realcodywburns/repos",
+      "events_url": "https://api.github.com/users/realcodywburns/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/realcodywburns/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-10-18T17:30:10Z",
+    "updated_at": "2019-10-18T17:30:10Z",
+    "author_association": "MEMBER",
+    "body": "Great! Atlantis went well I think. Ideally I think there would be 4 contact points.\r\n1) initial heads up a fork is being discussed, get updated contact info\r\n2) fork blocks have been decided\r\n3) fork is 2 weeks out\r\n4) fork happened and is good to go\r\n\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/543850251/reactions",
+      "total_count": 1,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

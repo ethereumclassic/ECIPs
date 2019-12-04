@@ -1,0 +1,23 @@
+From 85e461c8959631cc9768b1cbac1c4d193392a407 Mon Sep 17 00:00:00 2001
+From: Donald McIntyre <donald@etherplan.com>
+Date: Thu, 25 Jul 2019 21:31:28 -0600
+Subject: [PATCH] Changed category to ECBP
+
+From ERC to ECBP.
+---
+ _specs/ecip-1013.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-1013.md b/_specs/ecip-1013.md
+index 1adda79..7c4813d 100644
+--- a/_specs/ecip-1013.md
++++ b/_specs/ecip-1013.md
+@@ -4,7 +4,7 @@ ecip: 1013
+ title: ETC On-Chain Cryptographic Signing and Authentication Protocol
+ status: Draft
+ type: Standards Track
+-category: ERC
++category: ECBP
+ author: Cody W Burns <cody.w.burns@ethereumclassic.org>
+ created: 2016-10-10
+ ---

@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/497393690",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/78#issuecomment-497393690",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/78",
+    "id": 497393690,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ5NzM5MzY5MA==",
+    "user": {
+      "login": "pyskell",
+      "id": 9665963,
+      "node_id": "MDQ6VXNlcjk2NjU5NjM=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9665963?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pyskell",
+      "html_url": "https://github.com/pyskell",
+      "followers_url": "https://api.github.com/users/pyskell/followers",
+      "following_url": "https://api.github.com/users/pyskell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pyskell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pyskell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pyskell/subscriptions",
+      "organizations_url": "https://api.github.com/users/pyskell/orgs",
+      "repos_url": "https://api.github.com/users/pyskell/repos",
+      "events_url": "https://api.github.com/users/pyskell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pyskell/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-05-30T16:31:31Z",
+    "updated_at": "2019-05-30T16:31:31Z",
+    "author_association": "MEMBER",
+    "body": "My opposition is the following:\r\n\r\n1. These rules can simply be applied to transaction validation rather than block validation, making it a soft fork rather than a hard fork.\r\n2. In practical terms this will make no difference, miners will download one of the clients that has these types of transactions excluded by default and future blocks will not contain any such transactions.\r\n3. It's vitally important to stick to pre-agreed rules when they're defined. In this case gas limit is a rule that governs computational size of transactions and there was no bound on physical data/contract size.\r\n4. There's precedent for these types of things in other cryptocurrencies, example: https://github.com/bitcoin/bitcoin/commit/6a4c196dd64da2fd33dc7ae77a8cdd3e4cf0eff1\r\n5. Whether this is a contract creation call or an internal contract call shouldn't matter, both types of transactions can simply be rejected from inclusion in a block if their `data` is greater than `maxCodeSize` (per geth's implementation). As per point 2 I believe most clients will update and enforce the soft fork.\r\n\r\nRegardless I don't want to delay the Atlantis hard fork and apologize for the late comment.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/497393690/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

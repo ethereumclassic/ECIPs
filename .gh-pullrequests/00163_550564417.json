@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550564417",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/163#issuecomment-550564417",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/163",
+    "id": 550564417,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MDU2NDQxNw==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-07T00:30:42Z",
+    "updated_at": "2019-11-07T00:31:28Z",
+    "author_association": "MEMBER",
+    "body": "@meowsbits The real name part is not to do with collecting royalties.  It is the other way around.\r\n\r\nIf somebody contributes a change through a pseudonym then the copyright and patent protection you think you are getting through using Apache 2.0 with DCOs is nullified.  Because somebody \"signed the contract\" with a fake name.   You might be in receipt of code/spec they copied from elsewhere and the original author can then make legal claims against ETC users/companies/exchanges etc.\r\n\r\nYou might have patented content which you \"sucked up\" which they slipped in through this pseudonymous approach.  There is nobody to go and kick in the balls.  At least with a real name requirement, if some patsy is put up as a front you can go and get them.\r\n\r\nUltimately all of this is just game theory.  There is no perfect answer, but having no defences is the very worst answer.   The better defences we can have (as long as they are not adding too much friction - which I don't think any of this will) the less likely we are to be attacked.\r\n\r\nMaybe social defence is good enough for ETC?   Because we are so practiced at spotting social attacks.   Whatever the case, if \"real name\" is too much then it is too much, and that is fine.\r\n\r\nKernel of that thread was https://github.com/ethereumclassic/ECIPs/pull/162, which I withdrew because @BelfordZ's proposal here was much simpler and better.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/550564417/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

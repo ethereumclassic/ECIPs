@@ -1,0 +1,74 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/185",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/185/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/185/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/185/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/185",
+    "id": 523539648,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0MzQxNTIyNjYy",
+    "number": 185,
+    "title": "Rename Aztlan ECIPs with \"edition format\"",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 1154785129,
+        "node_id": "MDU6TGFiZWwxMTU0Nzg1MTI5",
+        "url": "https://api.github.com/repos/ethereumclassic/ECIPs/labels/type:%20meta",
+        "name": "type: meta",
+        "color": "cfd3d7",
+        "default": false,
+        "description": "Accepted best practices"
+      }
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 8,
+    "created_at": "2019-11-15T15:37:33Z",
+    "updated_at": "2019-11-16T13:25:20Z",
+    "closed_at": "2019-11-16T13:25:16Z",
+    "author_association": "MEMBER",
+    "pull_request": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/185",
+      "html_url": "https://github.com/ethereumclassic/ECIPs/pull/185",
+      "diff_url": "https://github.com/ethereumclassic/ECIPs/pull/185.diff",
+      "patch_url": "https://github.com/ethereumclassic/ECIPs/pull/185.patch"
+    },
+    "body": "Rename so that Aztlan ECIPs clearly shows four different options:\r\n\r\n- ECIP-1061 as ECIP-1061A\r\n- ECIP-1072 as ECIP-1061B\r\n- ECIP-1073 as ECIP-1061C\r\n- ECIP-1074 as ECIP-1061D\r\n\r\nNote that we cannot yet merge this because names like \"ECIP-1061A\" does not comply to the ECIP-1000 procedure. It's a trivial change, but I'll wait @bobsummerwill to know whether we can just do that (or should go through the whole process of creating another ECIP).",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/185/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

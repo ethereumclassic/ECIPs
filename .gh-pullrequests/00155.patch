@@ -1,0 +1,98 @@
+From 97a95433852528e46864594440e11ba6704533ac Mon Sep 17 00:00:00 2001
+From: Talha Cross <47772477+soc1c@users.noreply.github.com>
+Date: Thu, 24 Oct 2019 23:20:18 +0200
+Subject: [PATCH 1/2] move ecip 1056 to last call
+
+---
+ _specs/ecip-1056.md | 23 ++++++++++-------------
+ 1 file changed, 10 insertions(+), 13 deletions(-)
+
+diff --git a/_specs/ecip-1056.md b/_specs/ecip-1056.md
+index b349a3e..ccf21f8 100644
+--- a/_specs/ecip-1056.md
++++ b/_specs/ecip-1056.md
+@@ -2,7 +2,7 @@
+ lang: en
+ ecip: 1056
+ title: Agharta EVM and Protocol Upgrades
+-status: Draft
++status: Last Call
+ type: Meta
+ author: Isaac Ardis <isaac.a@etclabs.org>, Wei Tang <hi@that.world>
+ discussions-to: https://github.com/ethereumclassic/ECIPs/issues/131
+@@ -25,9 +25,10 @@ _Constaninople_ and _Petersburg_ hardforks. The proposed changes for Ethereum Cl
+ 
+ This document proposes the following blocks at which to implement these changes in the Classic networks:
+ 
+-- `1_500_000` on Kotti Classic PoA-testnet (early November 2019)
+-- `5_200_000` on Morden Classic PoW-testnet (early November 2019)
+-- `9_200_000` on Ethereum Classic PoW-mainnet (early December 2019)
++- `TBD` on Morden Classic Testnet (November 13, 2019)
++- `TBD` on Mordor Classic Testnet (November 20, 2019)
++- `TBD` on Kotti Classic Testnet (December 11, 2019)
++- `TBD` on Ethereum Classic Mainnet (January 15, 2020)
+ 
+ For more information on the opcodes and their respective EIPs and implementations, please see the _Specification_
+ section of this document.
+@@ -39,18 +40,12 @@ networks, all of which have been in use on the Ethereum Foundation networks sinc
+ 
+ ### Specification
+ 
+-Enable the following three hard fork features via a new account version `0x1`, as specified in [EIP-1702](https://eips.ethereum.org/EIPS/eip-1702) "Specification" section (commonly known as EIP-1702 variant I):
++Enable the following three hard fork features:
+ 
+ - [EIP 145](https://eips.ethereum.org/EIPS/eip-145) (Bitwise shifting instructions)
+ - [EIP 1014](https://eips.ethereum.org/EIPS/eip-1014) (Skinny `CREATE2` opcode)
+ - [EIP 1052](https://eips.ethereum.org/EIPS/eip-1052) (`EXTCODEHASH` opcode)
+ 
+-Specifically with definition from EIP-1702 "Usage Template" section:
+-
+-- **Version**: `0x1`.
+-- **Parent version**: `0x0`.
+-- **Features**: EIP 145, EIP 1014 and EIP 1052.
+-
+ ### Rationale
+ 
+ __Atomicity__: This protocol specification notably merges the scheduled features of the anticipated _Petersburg_
+@@ -71,10 +66,12 @@ Adoption of the content of this ECIP requires a hard fork as it introduces chang
+ 
+ The following clients with Ethereum Classic support implement the _Constaninople_ and _Petersburg_ features currently:
+ 
+-- Geth Classic: no support
++- Geth Classic: full support in `v6.1.0` and later
+ - Parity Ethereum: all features due to Ethereum Foundation compatibility
+ - Multi Geth: all features due to Ethereum Foundation compatibility
+-- Mantis: all features due to Ethereum Foundation compatibility
++- IOHK Mantis: _no support_
++- Hyperledger Besu: all features due to Ethereum Foundation compatibility
++
+ 
+ ## Copyright
+ 
+
+From 3d2ec4e652f3662f6c8ee747d71d173133dde9c1 Mon Sep 17 00:00:00 2001
+From: Talha Cross <47772477+soc1c@users.noreply.github.com>
+Date: Mon, 28 Oct 2019 10:53:36 +0100
+Subject: [PATCH 2/2] add testnet block numbers for agharta
+
+---
+ _specs/ecip-1056.md | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/_specs/ecip-1056.md b/_specs/ecip-1056.md
+index ccf21f8..33e8e6e 100644
+--- a/_specs/ecip-1056.md
++++ b/_specs/ecip-1056.md
+@@ -25,9 +25,9 @@ _Constaninople_ and _Petersburg_ hardforks. The proposed changes for Ethereum Cl
+ 
+ This document proposes the following blocks at which to implement these changes in the Classic networks:
+ 
+-- `TBD` on Morden Classic Testnet (November 13, 2019)
+-- `TBD` on Mordor Classic Testnet (November 20, 2019)
+-- `TBD` on Kotti Classic Testnet (December 11, 2019)
++- `5_000_381` on Morden Classic Testnet (November 13, 2019)
++- `301_243` on Mordor Classic Testnet (November 20, 2019)
++- `1_705_549` on Kotti Classic Testnet (December 11, 2019)
+ - `TBD` on Ethereum Classic Mainnet (January 15, 2020)
+ 
+ For more information on the opcodes and their respective EIPs and implementations, please see the _Specification_

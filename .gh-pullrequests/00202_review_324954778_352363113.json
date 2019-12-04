@@ -1,0 +1,50 @@
+{
+    "id": 352363113,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM1MjM2MzExMw==",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352363113",
+    "pull_request_review_id": 324954778,
+    "diff_hunk": "@@ -3,7 +3,7 @@ lang: en\n ecip: 1019\n title: (Epoch Decay 10) Monetary Policy and Final Modification to the Ethereum Classic Emission Schedule\n author: Mike Boremi <ecip-1019@mikes.email>\n-status: Draft\n+status: Withdrawn",
+    "path": "_specs/ecip-1019.md",
+    "position": 5,
+    "original_position": 5,
+    "commit_id": "1569949170c18fa5a4f4d84cc866c9eb34354f7f",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "Maybe this should actually be \"Replaced\"?\r\n\r\nhttps://ecips.ethereumclassic.org/ECIPs/ecip-1017 and\r\nhttps://ecips.ethereumclassic.org/ECIPs/ecip-1039\r\n\r\nOr am I reading something wrong into this history, @meowsbits?",
+    "created_at": "2019-12-01T18:25:16Z",
+    "updated_at": "2019-12-01T18:25:17Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/202#discussion_r352363113",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/202",
+    "author_association": "MEMBER",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352363113"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/202#discussion_r352363113"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/202"
+      }
+    },
+    "original_commit_id": "1569949170c18fa5a4f4d84cc866c9eb34354f7f",
+    "in_reply_to_id": 352341919
+  }

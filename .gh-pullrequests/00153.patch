@@ -1,0 +1,22 @@
+From 8dda72c241e354f89d6c566e60739dcb186f0acb Mon Sep 17 00:00:00 2001
+From: Talha Cross <47772477+soc1c@users.noreply.github.com>
+Date: Wed, 23 Oct 2019 18:19:32 +0200
+Subject: [PATCH] Finalize ECIP 1041
+
+---
+ _specs/ecip-1041.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-1041.md b/_specs/ecip-1041.md
+index 2018afa..edec038 100644
+--- a/_specs/ecip-1041.md
++++ b/_specs/ecip-1041.md
+@@ -3,7 +3,7 @@ lang: en
+ ecip: 1041
+ title: Remove Difficulty Bomb
+ author: Igor Artamonov <splix@etcdevteam.com>
+-status: Accepted
++status: Final
+ type: Standards Track
+ category: Core
+ created: 2018-01-10

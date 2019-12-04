@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/558101694",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/13#issuecomment-558101694",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/13",
+    "id": 558101694,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1ODEwMTY5NA==",
+    "user": {
+      "login": "AndreaLanfranchi",
+      "id": 15280851,
+      "node_id": "MDQ6VXNlcjE1MjgwODUx",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/15280851?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AndreaLanfranchi",
+      "html_url": "https://github.com/AndreaLanfranchi",
+      "followers_url": "https://api.github.com/users/AndreaLanfranchi/followers",
+      "following_url": "https://api.github.com/users/AndreaLanfranchi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AndreaLanfranchi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AndreaLanfranchi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AndreaLanfranchi/subscriptions",
+      "organizations_url": "https://api.github.com/users/AndreaLanfranchi/orgs",
+      "repos_url": "https://api.github.com/users/AndreaLanfranchi/repos",
+      "events_url": "https://api.github.com/users/AndreaLanfranchi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AndreaLanfranchi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-25T10:54:02Z",
+    "updated_at": "2019-11-25T11:11:35Z",
+    "author_association": "NONE",
+    "body": "@p3c-bot \r\nyou're probably mixing `mixHash` with `seedHash`. \r\nThe first has nothing to do with DAG generation and is partial output of Ethash algo for quick verification.\r\nThe latter is the hash used for linear search of DAG epoch and is **constant** during all epoch duration (i.e. 30k blocks). \r\n\r\nThere is no `mixHash` pushed from work provider (pool or node) to work consumer (miner).\r\n\r\nDue to this your method summarizes to _some epochs make use of Ethash some other make use of Keccak256 only_ : and this implies a huge work on nodes softwares as they need to adjust diff to hashrate which would vary a lot.\r\n\r\nImplementation of two algo with so different hashrates (given constant hardware) is not trivial for nodes. Also this would break ASIC/noASIC balance as a series of blocks would be mined by ASIC only and others by GPUs mostly.\r\n\r\n> If ECIP1049 is activated, no new tools need to be written, \r\n\r\nA lot of tools have to be (re)written, tested, deployed ... a lot of work.\r\nNodes **must** agree on hashing algorithm **before** the block gets mined.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/558101694/reactions",
+      "total_count": 2,
+      "+1": 2,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560151388",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/227#issuecomment-560151388",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/227",
+    "id": 560151388,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDE1MTM4OA==",
+    "user": {
+      "login": "meowsbits",
+      "id": 45600330,
+      "node_id": "MDQ6VXNlcjQ1NjAwMzMw",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/45600330?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/meowsbits",
+      "html_url": "https://github.com/meowsbits",
+      "followers_url": "https://api.github.com/users/meowsbits/followers",
+      "following_url": "https://api.github.com/users/meowsbits/following{/other_user}",
+      "gists_url": "https://api.github.com/users/meowsbits/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/meowsbits/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/meowsbits/subscriptions",
+      "organizations_url": "https://api.github.com/users/meowsbits/orgs",
+      "repos_url": "https://api.github.com/users/meowsbits/repos",
+      "events_url": "https://api.github.com/users/meowsbits/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/meowsbits/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-01T19:53:38Z",
+    "updated_at": "2019-12-01T19:55:46Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "@bobsummerwill Can you please describe in detail the attack vector given the current Atlzan specification set before we start working to approach resolution(s)? (I would encourage you to edit the first https://github.com/ethereumclassic/ECIPs/issues/227#issue-530763131, since I think a clear statement of problem is essential to understanding best paths to solutions).",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/560151388/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

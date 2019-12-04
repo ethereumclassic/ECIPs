@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/554614687",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/13#issuecomment-554614687",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/13",
+    "id": 554614687,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1NDYxNDY4Nw==",
+    "user": {
+      "login": "serialp",
+      "id": 1479761,
+      "node_id": "MDQ6VXNlcjE0Nzk3NjE=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1479761?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/serialp",
+      "html_url": "https://github.com/serialp",
+      "followers_url": "https://api.github.com/users/serialp/followers",
+      "following_url": "https://api.github.com/users/serialp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/serialp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/serialp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/serialp/subscriptions",
+      "organizations_url": "https://api.github.com/users/serialp/orgs",
+      "repos_url": "https://api.github.com/users/serialp/repos",
+      "events_url": "https://api.github.com/users/serialp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/serialp/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-16T07:57:16Z",
+    "updated_at": "2019-11-16T08:03:46Z",
+    "author_association": "NONE",
+    "body": "> ### Is keccak256 suitable?\r\n> Yes. It is well-known and widely implemented. No major chain uses it. ETC will be the most valuable keccak256 chain. Semi-optimized GPU implementations exist. It is available on most chains we will want to interoperate with. It is extremely unlikely to be broken or backdoored.\r\n> ### Summary\r\n> Change algorithms. Keccak256 is one of the better choices available.\r\n\r\nTotally agree with that proposal.\r\n\r\nAnother one would be about implementing a solution of multiple algorithms with a limitation of each to a certain percentage like 20% whereas the 51% attack would be nearly impossible to realize like digibyte implemented on their network ?\r\n\r\nhttps://digibyte.io/about-digibyte-blockchain\r\n\r\nThey even put recently in place a new algo adocrypt (based on SHA3) that change itself every 10days. How about that...\r\n\r\nThe wiser way would be to go not only with Keccak256, but to have multi-mining algorithms in a more decentralized & secured way\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/554614687/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

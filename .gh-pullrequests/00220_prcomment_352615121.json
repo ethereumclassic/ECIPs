@@ -1,0 +1,55 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352615121",
+    "pull_request_review_id": 325262702,
+    "id": 352615121,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM1MjYxNTEyMQ==",
+    "diff_hunk": "@@ -353,6 +353,12 @@ In addition, it is recommended that literal code included in the ECIP be dual-li\n * Some ECIPs, especially consensus layer, may include literal code in the ECIP itself which may not be available under the exact license terms of the ECIP.\n * Despite this, not all software licenses would be acceptable for content included in ECIPs.\n \n+# Appendix: Irregular Process Transitions\n+\n+As a decentralized community, it is important that for all governance actions, especially in ECIP, the established process is followed. In this section, we document irregular process transitions, and give special permissions to them, to state that they followed the process. Note that this is essentially similar to theDAO hard fork in Ethereum, and should only be added in extreme cases.\n+\n+* In [PR#199](https://github.com/ethereumclassic/ECIPs/pull/199), Afri Schoedon merged a PR moving ECIP-1061 to \"Last Call\" status. At the time, Afri dismissed a review of clear objections from ECIP editor Wei Tang, without waiting for consultations of the community, or resolutions with the review submitter. We here declare that this particular action from Afri followed the ECIP process. ",
+    "path": "_specs/ecip-1000.md",
+    "position": 8,
+    "original_position": 8,
+    "commit_id": "bf7aa5cc40f8207b777f68f0a1adf9eaba74a073",
+    "original_commit_id": "bf7aa5cc40f8207b777f68f0a1adf9eaba74a073",
+    "user": {
+      "login": "meowsbits",
+      "id": 45600330,
+      "node_id": "MDQ6VXNlcjQ1NjAwMzMw",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/45600330?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/meowsbits",
+      "html_url": "https://github.com/meowsbits",
+      "followers_url": "https://api.github.com/users/meowsbits/followers",
+      "following_url": "https://api.github.com/users/meowsbits/following{/other_user}",
+      "gists_url": "https://api.github.com/users/meowsbits/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/meowsbits/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/meowsbits/subscriptions",
+      "organizations_url": "https://api.github.com/users/meowsbits/orgs",
+      "repos_url": "https://api.github.com/users/meowsbits/repos",
+      "events_url": "https://api.github.com/users/meowsbits/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/meowsbits/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "See content at https://github.com/ethereumclassic/ECIPs/pull/220#issuecomment-560417451",
+    "created_at": "2019-12-02T14:11:58Z",
+    "updated_at": "2019-12-02T14:33:36Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/220#discussion_r352615121",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/220",
+    "author_association": "CONTRIBUTOR",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/352615121"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/220#discussion_r352615121"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/220"
+      }
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 360,
+    "original_line": 360,
+    "side": "RIGHT"
+  }

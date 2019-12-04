@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551344366",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/163#issuecomment-551344366",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/163",
+    "id": 551344366,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MTM0NDM2Ng==",
+    "user": {
+      "login": "BelfordZ",
+      "id": 1787231,
+      "node_id": "MDQ6VXNlcjE3ODcyMzE=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1787231?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/BelfordZ",
+      "html_url": "https://github.com/BelfordZ",
+      "followers_url": "https://api.github.com/users/BelfordZ/followers",
+      "following_url": "https://api.github.com/users/BelfordZ/following{/other_user}",
+      "gists_url": "https://api.github.com/users/BelfordZ/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/BelfordZ/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/BelfordZ/subscriptions",
+      "organizations_url": "https://api.github.com/users/BelfordZ/orgs",
+      "repos_url": "https://api.github.com/users/BelfordZ/repos",
+      "events_url": "https://api.github.com/users/BelfordZ/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/BelfordZ/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-08T01:34:49Z",
+    "updated_at": "2019-11-08T02:35:58Z",
+    "author_association": "MEMBER",
+    "body": "Thank you @TokenHash for the well constructed criticism. \r\n\r\nHere are the main reasons for why I propose apache 2.0 for all, without exception:\r\n1. Avoid copyleftist licenses and all licenses which have political implications\r\n1. Avoid contagious licenses that may taint the validity of Apache 2.0. \r\n1. Avoid unknown issues that may arise in having a project that contains multiple licenses.\r\n1. Any works licensed under Apache 2.0 can be copied and relicensed without issue - If you want slightly change an ECIP and relicense it, patent it, what ever, go ahead. Apache 2 is freedom.\r\n\r\nThat said, this isnt a hill im willing to die on. Should this be a deal breaker for you folks, I'm happy to meet halfway, adding root license of apache 2.0, allowing other licenses to be specified, but I would urge that any GNU, GPL, or as I put, politically infused licenses not be included in the allowable list. But just typing those words makes me feel dirty, as I don't really want to be an accomplice in having more than 1 license to maybe one day have to deal with.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551344366/reactions",
+      "total_count": 1,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

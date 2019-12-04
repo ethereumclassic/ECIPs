@@ -1,0 +1,49 @@
+{
+    "id": 342224873,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM0MjIyNDg3Mw==",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/342224873",
+    "pull_request_review_id": 311299526,
+    "diff_hunk": "@@ -293,64 +293,137 @@ To avoid doubt: comments and status are unrelated metrics to judge an ECIP, and\n \n ### Specification\n \n-New ECIPs may be accepted with the following licenses. Each new ECIP must identify at least one acceptable license in its preamble. The License header in the preamble must be placed after the Created header. Each license must be referenced by their respective abbreviation given below.\n+All new ECIPs should use Apache 2.0 or newer licensing for the specification and",
+    "path": "_specs/ecip-1000.md",
+    "position": 5,
+    "original_position": 5,
+    "commit_id": "e7331b9e0e14c455a9b9c7e3ebc5d38b3ad36a1f",
+    "user": {
+      "login": "BelfordZ",
+      "id": 1787231,
+      "node_id": "MDQ6VXNlcjE3ODcyMzE=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1787231?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/BelfordZ",
+      "html_url": "https://github.com/BelfordZ",
+      "followers_url": "https://api.github.com/users/BelfordZ/followers",
+      "following_url": "https://api.github.com/users/BelfordZ/following{/other_user}",
+      "gists_url": "https://api.github.com/users/BelfordZ/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/BelfordZ/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/BelfordZ/subscriptions",
+      "organizations_url": "https://api.github.com/users/BelfordZ/orgs",
+      "repos_url": "https://api.github.com/users/BelfordZ/repos",
+      "events_url": "https://api.github.com/users/BelfordZ/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/BelfordZ/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "All code contributed to a repository assumes the repositories license. Best to let legal precedent do the talking, and not even mention license at all.",
+    "created_at": "2019-11-04T19:20:39Z",
+    "updated_at": "2019-11-04T19:20:39Z",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/162#discussion_r342224873",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/162",
+    "author_association": "MEMBER",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/comments/342224873"
+      },
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/162#discussion_r342224873"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/162"
+      }
+    },
+    "original_commit_id": "e7331b9e0e14c455a9b9c7e3ebc5d38b3ad36a1f"
+  }

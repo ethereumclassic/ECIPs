@@ -1,0 +1,29 @@
+{
+    "id": 2784546919,
+    "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDI3ODQ1NDY5MTk=",
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/events/2784546919",
+    "actor": {
+      "login": "cseberino",
+      "id": 4721990,
+      "node_id": "MDQ6VXNlcjQ3MjE5OTA=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4721990?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cseberino",
+      "html_url": "https://github.com/cseberino",
+      "followers_url": "https://api.github.com/users/cseberino/followers",
+      "following_url": "https://api.github.com/users/cseberino/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cseberino/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cseberino/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cseberino/subscriptions",
+      "organizations_url": "https://api.github.com/users/cseberino/orgs",
+      "repos_url": "https://api.github.com/users/cseberino/repos",
+      "events_url": "https://api.github.com/users/cseberino/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cseberino/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "event": "subscribed",
+    "commit_id": null,
+    "commit_url": null,
+    "created_at": "2019-11-08T21:06:45Z"
+  }

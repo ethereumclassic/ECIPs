@@ -1,0 +1,23 @@
+From e46a2c9a333b6163c3446ee78a72ef81c36a6a90 Mon Sep 17 00:00:00 2001
+From: Donald McIntyre <donald@etherplan.com>
+Date: Thu, 25 Jul 2019 21:33:18 -0600
+Subject: [PATCH] Changed category to ECBP
+
+From ERC to ECBP.
+---
+ _specs/ecip-1044.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-1044.md b/_specs/ecip-1044.md
+index 4824653..a1cf7aa 100644
+--- a/_specs/ecip-1044.md
++++ b/_specs/ecip-1044.md
+@@ -5,7 +5,7 @@ title: Formalize IPFS hash into ECNS (Ethereum Classic Name Service) resolver
+ author: Phyrex Tsai <phyrex@portal.network>, Portal Network Team
+ status: Draft
+ type: Standards Track
+-category: ERC
++category: ECBP
+ created: 2018-05-12
+ ---
+ 

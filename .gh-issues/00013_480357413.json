@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/480357413",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/13#issuecomment-480357413",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/13",
+    "id": 480357413,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ4MDM1NzQxMw==",
+    "user": {
+      "login": "saturn-network",
+      "id": 44673408,
+      "node_id": "MDQ6VXNlcjQ0NjczNDA4",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/44673408?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/saturn-network",
+      "html_url": "https://github.com/saturn-network",
+      "followers_url": "https://api.github.com/users/saturn-network/followers",
+      "following_url": "https://api.github.com/users/saturn-network/following{/other_user}",
+      "gists_url": "https://api.github.com/users/saturn-network/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/saturn-network/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/saturn-network/subscriptions",
+      "organizations_url": "https://api.github.com/users/saturn-network/orgs",
+      "repos_url": "https://api.github.com/users/saturn-network/repos",
+      "events_url": "https://api.github.com/users/saturn-network/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/saturn-network/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-04-05T17:28:36Z",
+    "updated_at": "2019-04-05T17:28:36Z",
+    "author_association": "NONE",
+    "body": "Re: Quantum resistance of hash functions\r\n\r\n1. By the time it is possible to build a quantum computer that can crack keccak256 (sha3) there will be another generation or two of hash functions (think sha4 and sha5).\r\n2. Elliptic curve cryptography in Ethereum's private/public keys (for the vast majority of cryptocurrencies, really, including ETH BTC ETC TRX...) will be cracked much sooner than that. Who cares about mining crypto when you can literally steal other people's money (i.e. steal Satoshi's bitcoin).\r\n\r\nI do not think we should worry about quantum resistance in this ECIP.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/480357413/reactions",
+      "total_count": 2,
+      "+1": 2,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/497354676",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/78#issuecomment-497354676",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/78",
+    "id": 497354676,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ5NzM1NDY3Ng==",
+    "user": {
+      "login": "meowsbits",
+      "id": 45600330,
+      "node_id": "MDQ6VXNlcjQ1NjAwMzMw",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/45600330?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/meowsbits",
+      "html_url": "https://github.com/meowsbits",
+      "followers_url": "https://api.github.com/users/meowsbits/followers",
+      "following_url": "https://api.github.com/users/meowsbits/following{/other_user}",
+      "gists_url": "https://api.github.com/users/meowsbits/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/meowsbits/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/meowsbits/subscriptions",
+      "organizations_url": "https://api.github.com/users/meowsbits/orgs",
+      "repos_url": "https://api.github.com/users/meowsbits/repos",
+      "events_url": "https://api.github.com/users/meowsbits/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/meowsbits/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-05-30T14:42:36Z",
+    "updated_at": "2019-05-30T14:42:36Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Introducing EIP170 as a feature that enables at and beyond a given block transition value (ie some block height _n_ (the value for the proposed fork)) would not impact contracts deployed in blocks below that value. This is how go-ethereum and multi-geth handle this logic (below). \r\n\r\n```go\r\nret, err := run(evm, contract, nil, false)\r\n\r\n\t// check whether the max code size has been exceeded\r\n\tmaxCodeSizeExceeded := evm.ChainConfig().IsEIP170F(evm.BlockNumber) && len(ret) > params.MaxCodeSize\r\n\t// if the contract creation ran successfully and no errors were returned\r\n\t// calculate the gas required to store the code. If the code could not\r\n\t// be stored due to not enough gas set an error and let it be handled\r\n\t// by the error checking condition below.\r\n\tif err == nil && !maxCodeSizeExceeded {\r\n\t\tcreateDataGas := uint64(len(ret)) * params.CreateDataGas\r\n\t\tif contract.UseGas(createDataGas) {\r\n\t\t\tevm.StateDB.SetCode(address, ret)\r\n\t\t} else {\r\n\t\t\terr = ErrCodeStoreOutOfGas\r\n\t\t}\r\n\t}\r\n\r\n\t// When an error was returned by the EVM or when setting the creation code\r\n\t// above we revert to the snapshot and consume any gas remaining. Additionally\r\n\t// when we're in homestead this also counts for code storage gas errors.\r\n\tif maxCodeSizeExceeded || (err != nil && (evm.ChainConfig().IsEIP2F(evm.BlockNumber) || err != ErrCodeStoreOutOfGas)) {\r\n\t\tevm.StateDB.RevertToSnapshot(snapshot)\r\n\t\tif err != errExecutionReverted {\r\n\t\t\tcontract.UseGas(contract.Gas)\r\n\t\t}\r\n\t}\r\n\t// Assign err if contract code size exceeds the max while the err is still empty.\r\n\tif maxCodeSizeExceeded && err == nil {\r\n\t\terr = errMaxCodeSizeExceeded\r\n\t}\r\n\tif evm.vmConfig.Debug && evm.depth == 0 {\r\n\t\tevm.vmConfig.Tracer.CaptureEnd(ret, gas-contract.Gas, time.Since(start), err)\r\n\t}\r\nreturn ret, address, contract.Gas, err\r\n```\r\nhttps://github.com/multi-geth/multi-geth/blob/master/core/vm/evm.go#L408\r\n\r\nParity:\r\n```rust\r\n\t/// See main EthashParams docs.\r\n\tpub max_code_size: Option<Uint>,\r\n\t/// Maximum size of transaction RLP payload.\r\n\tpub max_transaction_size: Option<Uint>,\r\n\t/// See main EthashParams docs.\r\n\tpub max_code_size_transition: Option<Uint>,\r\n/// Transaction permission contract address.\r\n```\r\nhttps://github.com/paritytech/parity-ethereum/blob/master/json/src/spec/params.rs#L111-L116\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/497354676/reactions",
+      "total_count": 2,
+      "+1": 2,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

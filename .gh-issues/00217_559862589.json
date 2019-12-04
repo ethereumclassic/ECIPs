@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/559862589",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/217#issuecomment-559862589",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/217",
+    "id": 559862589,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1OTg2MjU4OQ==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-29T18:43:17Z",
+    "updated_at": "2019-11-29T18:43:17Z",
+    "author_association": "MEMBER",
+    "body": "I think there is a decent opportunity here to get TurboGeth as a replacement Geth-family codebase for ETC by March.\r\n\r\nhttps://github.com/ledgerwatch/turbo-geth/issues/162 (by @antsankov)\r\n\r\nA community member approached me looking for ways he could help ETC and I pointed him at that potential opportunity.   It would just involve side-porting of ETC support diffs from Multi-Geth into TurboGeth.\r\n\r\nFirst step would be just the ETC support.\r\nThen from there we could do the SHA3/Keccak256 support and Astor testnet support.\r\n\r\n@zmitton would you be happy to do SHA3/Keccak256 support against TurboGeth rather than Multi-Geth?  CC @YazzyYaz ",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/559862589/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

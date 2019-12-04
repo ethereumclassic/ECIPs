@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/553184368",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/174#issuecomment-553184368",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/174",
+    "id": 553184368,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MzE4NDM2OA==",
+    "user": {
+      "login": "developerkevin",
+      "id": 29807183,
+      "node_id": "MDQ6VXNlcjI5ODA3MTgz",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/29807183?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/developerkevin",
+      "html_url": "https://github.com/developerkevin",
+      "followers_url": "https://api.github.com/users/developerkevin/followers",
+      "following_url": "https://api.github.com/users/developerkevin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/developerkevin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/developerkevin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/developerkevin/subscriptions",
+      "organizations_url": "https://api.github.com/users/developerkevin/orgs",
+      "repos_url": "https://api.github.com/users/developerkevin/repos",
+      "events_url": "https://api.github.com/users/developerkevin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/developerkevin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-13T00:42:46Z",
+    "updated_at": "2019-11-19T07:43:32Z",
+    "author_association": "MEMBER",
+    "body": "My opinion is to consider and prioritize the essential (needed, time sensitive) before the non-essential (desired, wanted, not time sensitive) changes to the network. In general, my view about adding changes via hard fork is do it as least as necessary.\r\n\r\nMy priority of changes.\r\n\r\n1. Keep Ethash (for now) - my opinion is to keep it as is. \r\n\r\n2.  [Restrict DAG Limit (ECIP-1043)](https://github.com/ethereumclassic/ECIPs/issues/11) DAG limit was used to incentivize miners to stop mining on ethereum. Just like the \"Difficulty Bomb\" removal to continue PoW mining or ETC miners, ECIP-1043 is the same. ETC must retain as many miners as possible and removing this limit should have been considered years ago. The larger the DAG gets the more miners will leave the network. We need more not less.\r\n \r\n- [Linzhi ECIP-1043 PR: Provided data points, risk considerations, implementation options, references](https://github.com/ethereumclassic/ECIPs/pull/149/commits/dde5c8f4c3c6d33cafe9897862335b468afea29e)\r\n\r\n3. [Gas Limit (ECIP-1047)](https://ecips.ethereumclassic.org/ECIPs/ecip-1047) (or via soft fork @pyskell)\r\n- [Info on Gas-Limit by MyEtherPlan](https://etherplan.com/2019/09/22/the-ethereum-classic-gas-system-and-the-miner-tragedy-of-the-commons/8789/)\r\n\r\n4. [SHA3 Implementation](https://github.com/ethereumclassic/ECIPs/issues/13) SHA3 is objectively better than Ethash, and if I were designing ETC from scratch I would implement it no question, but this late in the game I don't think is the right time to make such a change, (**yet?**) . I think this change could have a place in ETC's future. In my opinion, there's just more important changes to be completed before forcing desired features on the network.\r\n\r\n5. ProgPoW - **Hell No** ",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/553184368/reactions",
+      "total_count": 1,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

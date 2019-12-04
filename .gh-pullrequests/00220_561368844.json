@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/561368844",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/220#issuecomment-561368844",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/220",
+    "id": 561368844,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MTM2ODg0NA==",
+    "user": {
+      "login": "YazzyYaz",
+      "id": 9094204,
+      "node_id": "MDQ6VXNlcjkwOTQyMDQ=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9094204?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/YazzyYaz",
+      "html_url": "https://github.com/YazzyYaz",
+      "followers_url": "https://api.github.com/users/YazzyYaz/followers",
+      "following_url": "https://api.github.com/users/YazzyYaz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/YazzyYaz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/YazzyYaz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/YazzyYaz/subscriptions",
+      "organizations_url": "https://api.github.com/users/YazzyYaz/orgs",
+      "repos_url": "https://api.github.com/users/YazzyYaz/repos",
+      "events_url": "https://api.github.com/users/YazzyYaz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/YazzyYaz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-03T21:39:18Z",
+    "updated_at": "2019-12-03T21:39:18Z",
+    "author_association": "MEMBER",
+    "body": "> We try to build consensus around an ECIP, but if that’s not possible, you can always submit a competing ECIP.\r\n\r\n@sorpaas we didn't get the opportunity to initially build consensus around 1061 while it was in Draft stage because you immediately submitted three competing ECIPs that are similar to 1061 with some properties mixed and matched. You still submitted different editions of Aztlan which does violate `a single ECIP contain a single key proposal or new idea` from the ECIP-1000.\r\n\r\nYou have then chosen to withdraw them and follow the ECIP-1000 process, which I'm glad you did. However, to create this PR to call what happened an irregular process transition on the call is just untrue. \r\n\r\nIf it was an irregular process transition, then we need to amend this PR to include your actions of also irregularly modifying the ECIP 1000 process by submitting competing changes to ECIP-1061 before the consensus and discussions on 1061 even began.\r\n\r\nWe can chose to add your actions to the PR or remove it entirely and call your actions simply a misunderstanding of the ECIP-1000 process.\r\n\r\nOnce again, I'm glad you chose to follow the ECIP-1000 process and withdraw your three competing submissions to Aztlan.\r\n\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/561368844/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

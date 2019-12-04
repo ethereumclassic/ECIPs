@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/478368643",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/65#issuecomment-478368643",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/65",
+    "id": 478368643,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3ODM2ODY0Mw==",
+    "user": {
+      "login": "stevanlohja",
+      "id": 10556209,
+      "node_id": "MDQ6VXNlcjEwNTU2MjA5",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10556209?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stevanlohja",
+      "html_url": "https://github.com/stevanlohja",
+      "followers_url": "https://api.github.com/users/stevanlohja/followers",
+      "following_url": "https://api.github.com/users/stevanlohja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stevanlohja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stevanlohja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stevanlohja/subscriptions",
+      "organizations_url": "https://api.github.com/users/stevanlohja/orgs",
+      "repos_url": "https://api.github.com/users/stevanlohja/repos",
+      "events_url": "https://api.github.com/users/stevanlohja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stevanlohja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-31T18:51:37Z",
+    "updated_at": "2019-03-31T20:42:30Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Dividends for holdings puts participants at risk to securities laws as well as the regulatory perception of our network. SEC says Ethereum is not a security - let's keep it that way. Nay from me.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/478368643/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

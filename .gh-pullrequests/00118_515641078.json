@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/515641078",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/118#issuecomment-515641078",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/118",
+    "id": 515641078,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUxNTY0MTA3OA==",
+    "user": {
+      "login": "TokenHash",
+      "id": 29529586,
+      "node_id": "MDQ6VXNlcjI5NTI5NTg2",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/29529586?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TokenHash",
+      "html_url": "https://github.com/TokenHash",
+      "followers_url": "https://api.github.com/users/TokenHash/followers",
+      "following_url": "https://api.github.com/users/TokenHash/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TokenHash/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TokenHash/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TokenHash/subscriptions",
+      "organizations_url": "https://api.github.com/users/TokenHash/orgs",
+      "repos_url": "https://api.github.com/users/TokenHash/repos",
+      "events_url": "https://api.github.com/users/TokenHash/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TokenHash/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-07-27T01:32:28Z",
+    "updated_at": "2019-07-27T01:32:28Z",
+    "author_association": "MEMBER",
+    "body": "If Everything went right I think I merged #119 + #117 + #116 + #115 + #114 all into #118.\r\n\r\nI don't know why the PRs are still individually listed in the PR tab, but maybe the have to be closed.\r\n\r\nAll should be inside this one which is #118>\r\n\r\nThanks @BelfordZ for explaining how to merge the PRs! (I hope I did it right!)",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/515641078/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

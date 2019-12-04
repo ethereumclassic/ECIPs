@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/499126658",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/80#issuecomment-499126658",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/80",
+    "id": 499126658,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ5OTEyNjY1OA==",
+    "user": {
+      "login": "wired1924",
+      "id": 51412681,
+      "node_id": "MDQ6VXNlcjUxNDEyNjgx",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/51412681?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wired1924",
+      "html_url": "https://github.com/wired1924",
+      "followers_url": "https://api.github.com/users/wired1924/followers",
+      "following_url": "https://api.github.com/users/wired1924/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wired1924/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wired1924/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wired1924/subscriptions",
+      "organizations_url": "https://api.github.com/users/wired1924/orgs",
+      "repos_url": "https://api.github.com/users/wired1924/repos",
+      "events_url": "https://api.github.com/users/wired1924/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wired1924/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-06-05T15:13:40Z",
+    "updated_at": "2019-06-05T15:13:40Z",
+    "author_association": "NONE",
+    "body": "Where is the link for the call? ",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/499126658/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

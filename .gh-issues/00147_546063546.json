@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/546063546",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/147#issuecomment-546063546",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/147",
+    "id": 546063546,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU0NjA2MzU0Ng==",
+    "user": {
+      "login": "zmitton",
+      "id": 6954889,
+      "node_id": "MDQ6VXNlcjY5NTQ4ODk=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6954889?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zmitton",
+      "html_url": "https://github.com/zmitton",
+      "followers_url": "https://api.github.com/users/zmitton/followers",
+      "following_url": "https://api.github.com/users/zmitton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zmitton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zmitton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zmitton/subscriptions",
+      "organizations_url": "https://api.github.com/users/zmitton/orgs",
+      "repos_url": "https://api.github.com/users/zmitton/repos",
+      "events_url": "https://api.github.com/users/zmitton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zmitton/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-10-24T19:17:58Z",
+    "updated_at": "2019-10-24T19:17:58Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Im not an expert on wallet connect. That seems to solve a different problem. It requires servers to bridge devices which would not address the UX issue being solved by the ECIP. wallet connect might be useful for processes requiring automatic signing (like staking), but not for what we are currently seeing as user's behavior.\r\n\r\nThe issue addressed by the ECIP is dapp signing.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/546063546/reactions",
+      "total_count": 1,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

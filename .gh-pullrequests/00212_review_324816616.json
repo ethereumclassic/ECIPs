@@ -1,0 +1,39 @@
+{
+    "id": 324816616,
+    "node_id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MzI0ODE2NjE2",
+    "user": {
+      "login": "meowsbits",
+      "id": 45600330,
+      "node_id": "MDQ6VXNlcjQ1NjAwMzMw",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/45600330?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/meowsbits",
+      "html_url": "https://github.com/meowsbits",
+      "followers_url": "https://api.github.com/users/meowsbits/followers",
+      "following_url": "https://api.github.com/users/meowsbits/following{/other_user}",
+      "gists_url": "https://api.github.com/users/meowsbits/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/meowsbits/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/meowsbits/subscriptions",
+      "organizations_url": "https://api.github.com/users/meowsbits/orgs",
+      "repos_url": "https://api.github.com/users/meowsbits/repos",
+      "events_url": "https://api.github.com/users/meowsbits/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/meowsbits/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "body": "ECIP 1061 and ECIP 1072 are technically equivalent (duplicates). \r\n> Duplicate of ECIP 1061. (https://github.com/ethereumclassic/ECIPs/pull/198#pullrequestreview-324097875)\r\n\r\n> This is just procedural issue (https://github.com/ethereumclassic/ECIPs/pull/199#pullrequestreview-323755348)\r\n\r\n[ECIP 1061 is in `Last Call`](https://github.com/ethereumclassic/ECIPs/blob/05a47c492a5a9eacec4cb7bde4dbfadc0003d6cf/_specs/ecip-1061.md), so [ECIP 1072](https://github.com/ethereumclassic/ECIPs/blob/05a47c492a5a9eacec4cb7bde4dbfadc0003d6cf/_specs/ecip-1072.md) should be too.\r\n\r\nI don't care if there are documents presenting duplicate ideas in this repo. \r\n\r\nThis review is itself a duplicate, of: https://github.com/ethereumclassic/ECIPs/pull/214#pullrequestreview-324814748",
+    "state": "CHANGES_REQUESTED",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/212#pullrequestreview-324816616",
+    "pull_request_url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/212",
+    "author_association": "CONTRIBUTOR",
+    "_links": {
+      "html": {
+        "href": "https://github.com/ethereumclassic/ECIPs/pull/212#pullrequestreview-324816616"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/212"
+      }
+    },
+    "submitted_at": "2019-11-29T17:34:13Z",
+    "commit_id": "03dd0434170e81abda275e777f9d7bfd448e7a9b"
+  }

@@ -1,0 +1,74 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/110",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/110/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/110/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/110/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/110",
+    "id": 469887106,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0Mjk5MDA5OTky",
+    "number": 110,
+    "title": "Correcting EIP -> ECIP typo",
+    "user": {
+      "login": "TokenHash",
+      "id": 29529586,
+      "node_id": "MDQ6VXNlcjI5NTI5NTg2",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/29529586?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TokenHash",
+      "html_url": "https://github.com/TokenHash",
+      "followers_url": "https://api.github.com/users/TokenHash/followers",
+      "following_url": "https://api.github.com/users/TokenHash/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TokenHash/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TokenHash/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TokenHash/subscriptions",
+      "organizations_url": "https://api.github.com/users/TokenHash/orgs",
+      "repos_url": "https://api.github.com/users/TokenHash/repos",
+      "events_url": "https://api.github.com/users/TokenHash/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TokenHash/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 1428838937,
+        "node_id": "MDU6TGFiZWwxNDI4ODM4OTM3",
+        "url": "https://api.github.com/repos/ethereumclassic/ECIPs/labels/editor:%20looks-good",
+        "name": "editor: looks-good",
+        "color": "71ad0a",
+        "default": false,
+        "description": "This PR is generally fine to be merged."
+      }
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2019-07-18T17:07:48Z",
+    "updated_at": "2019-07-24T14:50:18Z",
+    "closed_at": "2019-07-24T14:50:13Z",
+    "author_association": "MEMBER",
+    "pull_request": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/110",
+      "html_url": "https://github.com/ethereumclassic/ECIPs/pull/110",
+      "diff_url": "https://github.com/ethereumclassic/ECIPs/pull/110.diff",
+      "patch_url": "https://github.com/ethereumclassic/ECIPs/pull/110.patch"
+    },
+    "body": "Corrected EIP to ECIP under `Active` status term.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/110/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

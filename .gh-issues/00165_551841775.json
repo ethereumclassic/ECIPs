@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551841775",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/165#issuecomment-551841775",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/165",
+    "id": 551841775,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MTg0MTc3NQ==",
+    "user": {
+      "login": "kimisan",
+      "id": 8416967,
+      "node_id": "MDQ6VXNlcjg0MTY5Njc=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/8416967?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kimisan",
+      "html_url": "https://github.com/kimisan",
+      "followers_url": "https://api.github.com/users/kimisan/followers",
+      "following_url": "https://api.github.com/users/kimisan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kimisan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kimisan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kimisan/subscriptions",
+      "organizations_url": "https://api.github.com/users/kimisan/orgs",
+      "repos_url": "https://api.github.com/users/kimisan/repos",
+      "events_url": "https://api.github.com/users/kimisan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kimisan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-08T14:10:32Z",
+    "updated_at": "2019-11-08T14:10:32Z",
+    "author_association": "MEMBER",
+    "body": "> @kimisan if that is true, then maybe it should be included in the list of options in ECIP-1000.\r\n\r\nIt should be included in the list of options in ECIP-1000.\r\nThat we will have West (Apache Software Foundation) and China(China Open Source Cloud League) together.\r\nIt is better for ETC as we have West and China community ^^\r\n\r\n1. The Apache Software Foundation (ASF) is an American non-profit corporation (classified as a \r\n organization in the United States)\r\n\r\n2. COSCL, China Open Source Cloud League run by Ministry of Industry and Information Technology (MIIT) of the Chinese government and CHINA Electronics Standardization Institute（CESI).\r\n中國開源雲聯盟（COSCL, China Open Source Cloud League）成立於2012年8月，在工業和信息化部信息化和軟件服務業司指導下，挂靠在中國電子技術標準化研究院.\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551841775/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

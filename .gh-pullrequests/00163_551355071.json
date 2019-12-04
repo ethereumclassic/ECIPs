@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551355071",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/163#issuecomment-551355071",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/163",
+    "id": 551355071,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MTM1NTA3MQ==",
+    "user": {
+      "login": "TokenHash",
+      "id": 29529586,
+      "node_id": "MDQ6VXNlcjI5NTI5NTg2",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/29529586?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TokenHash",
+      "html_url": "https://github.com/TokenHash",
+      "followers_url": "https://api.github.com/users/TokenHash/followers",
+      "following_url": "https://api.github.com/users/TokenHash/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TokenHash/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TokenHash/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TokenHash/subscriptions",
+      "organizations_url": "https://api.github.com/users/TokenHash/orgs",
+      "repos_url": "https://api.github.com/users/TokenHash/repos",
+      "events_url": "https://api.github.com/users/TokenHash/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TokenHash/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-08T02:21:17Z",
+    "updated_at": "2019-11-08T02:21:38Z",
+    "author_association": "MEMBER",
+    "body": "Thanks @BelfordZ,\r\n\r\n> 1. Avoid copyleftist licenses and all licenses which have political implications\r\n> 2. Avoid contagious licenses that may taint the validity of Apache 2.0.\r\n> 3. Avoid unknown issues that may arise in having a project that contains multiple licenses.\r\n> 4. Any works licensed under Apache 2.0 can be copied and relicensed without issue.\r\n\r\nThose are reasonable arguments. Especially the possible mixing of licenses that may invalidate or neutralize the others, thus possibly defaulting to copyright or other nefarious stuff.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/551355071/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

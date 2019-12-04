@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/530300631",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/130#issuecomment-530300631",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/130",
+    "id": 530300631,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUzMDMwMDYzMQ==",
+    "user": {
+      "login": "Athethepainter",
+      "id": 42865291,
+      "node_id": "MDQ6VXNlcjQyODY1Mjkx",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/42865291?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Athethepainter",
+      "html_url": "https://github.com/Athethepainter",
+      "followers_url": "https://api.github.com/users/Athethepainter/followers",
+      "following_url": "https://api.github.com/users/Athethepainter/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Athethepainter/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Athethepainter/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Athethepainter/subscriptions",
+      "organizations_url": "https://api.github.com/users/Athethepainter/orgs",
+      "repos_url": "https://api.github.com/users/Athethepainter/repos",
+      "events_url": "https://api.github.com/users/Athethepainter/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Athethepainter/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-09-11T09:29:19Z",
+    "updated_at": "2019-09-11T09:29:19Z",
+    "author_association": "MEMBER",
+    "body": "Hi everyone, \r\n\r\n[https://www.cruxpool.com/etc](url) is ready for the fork ! ",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/530300631/reactions",
+      "total_count": 1,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

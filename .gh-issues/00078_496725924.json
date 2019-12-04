@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/496725924",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/78#issuecomment-496725924",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/78",
+    "id": 496725924,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ5NjcyNTkyNA==",
+    "user": {
+      "login": "meowsbits",
+      "id": 45600330,
+      "node_id": "MDQ6VXNlcjQ1NjAwMzMw",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/45600330?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/meowsbits",
+      "html_url": "https://github.com/meowsbits",
+      "followers_url": "https://api.github.com/users/meowsbits/followers",
+      "following_url": "https://api.github.com/users/meowsbits/following{/other_user}",
+      "gists_url": "https://api.github.com/users/meowsbits/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/meowsbits/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/meowsbits/subscriptions",
+      "organizations_url": "https://api.github.com/users/meowsbits/orgs",
+      "repos_url": "https://api.github.com/users/meowsbits/repos",
+      "events_url": "https://api.github.com/users/meowsbits/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/meowsbits/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-05-28T23:23:20Z",
+    "updated_at": "2019-05-30T13:59:25Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Related to [EIP161](http://eips.ethereum.org/EIPS/eip-161):\r\n\r\n- [EIP168 \"Killing dust accounts\"](https://github.com/ethereum/EIPs/issues/168) will be useful background reference. \r\n- [EIP169 \"Dust account replay security\"](https://github.com/ethereum/EIPs/issues/169)\r\n- [Parity PR 4757 \"EIP-168, 169: Dust protection\"](https://github.com/paritytech/parity-ethereum/pull/4757)\r\n- > [\"A bunch of transactions were subsequently fired which cleared these spam accounts from the state.\"](https://github.com/ethereumbook/ethereumbook/issues/477#issuecomment-383556405)\r\n- > [\"... the new Geth behavior matches Parity’s, and empty accounts will cease to be a source of concern in general in about one week once the state clearing process finishes.\"](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-161.md)\r\n- ... ...: anyone know exactly where these contracts are? ",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/496725924/reactions",
+      "total_count": 1,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 1
+    }
+  }

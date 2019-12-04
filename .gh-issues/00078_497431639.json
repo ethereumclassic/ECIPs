@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/497431639",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/78#issuecomment-497431639",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/78",
+    "id": 497431639,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ5NzQzMTYzOQ==",
+    "user": {
+      "login": "phyro",
+      "id": 157733,
+      "node_id": "MDQ6VXNlcjE1NzczMw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/157733?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/phyro",
+      "html_url": "https://github.com/phyro",
+      "followers_url": "https://api.github.com/users/phyro/followers",
+      "following_url": "https://api.github.com/users/phyro/following{/other_user}",
+      "gists_url": "https://api.github.com/users/phyro/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/phyro/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/phyro/subscriptions",
+      "organizations_url": "https://api.github.com/users/phyro/orgs",
+      "repos_url": "https://api.github.com/users/phyro/repos",
+      "events_url": "https://api.github.com/users/phyro/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/phyro/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-05-30T18:20:51Z",
+    "updated_at": "2019-05-30T18:50:06Z",
+    "author_association": "MEMBER",
+    "body": "@pyskell thanks for the explanation of the idea. I have a different kind of question regarding \r\n> It's vitally important to stick to pre-agreed rules when they're defined. In this case gas limit is a rule that governs computational size of transactions and there was no bound on physical data/contract size.\r\n\r\nI'm wondering what happens if the initial design of Ethereum is 'flawed'. I personally believe that some things are 'flawed' (though I'm open to being convinced otherwise) like for example:\r\n\r\n1. I believe we should limit the block size to have a guarantee that the chain size is able to scale (on L1) in a slow enough way so that majority can actually run it for the next decades\r\n\r\n1. I also think that having 15 second blocks isn't really beneficial for a store of value coin because you will always need more than 1 confirmation (reasoning from the fact that security is a function of time & energy, not the number of blocks). So we're basically just adding block headers for no good reason - I could be missing stuff here (actually there is one benefit that I know of, which is that you can gather the statistical data on the fly about things included in the block header, but I don't think this is used yet)\r\n\r\n\r\nDo we say these rules are pre-agreed and that we MUST stick to them?\r\n\r\n\r\nBtw, regarding the proposal from pyskell. I'm still slightly more in favor for a hard cap, but we could try the soft fork solution to see if it catches on and we could do a hard cap later on if needed. Assuming pyskell solution has no attack vectors and that the miners do adopt it, how much harder does this make it for devs?",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/497431639/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

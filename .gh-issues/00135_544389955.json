@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/544389955",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/135#issuecomment-544389955",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/135",
+    "id": 544389955,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU0NDM4OTk1NQ==",
+    "user": {
+      "login": "nishantsharma87",
+      "id": 22880897,
+      "node_id": "MDQ6VXNlcjIyODgwODk3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/22880897?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nishantsharma87",
+      "html_url": "https://github.com/nishantsharma87",
+      "followers_url": "https://api.github.com/users/nishantsharma87/followers",
+      "following_url": "https://api.github.com/users/nishantsharma87/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nishantsharma87/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nishantsharma87/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nishantsharma87/subscriptions",
+      "organizations_url": "https://api.github.com/users/nishantsharma87/orgs",
+      "repos_url": "https://api.github.com/users/nishantsharma87/repos",
+      "events_url": "https://api.github.com/users/nishantsharma87/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nishantsharma87/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-10-21T07:41:21Z",
+    "updated_at": "2019-10-21T07:41:21Z",
+    "author_association": "NONE",
+    "body": "+1 to @TokenHash's  post for adding the discussion about ECIP-1043 to the agenda. IMO although this solution may seem like only kicking the can farther down the road, this can resolve the anti-competitive bug that the DAG is for ETC mining until the time more permanent solutions, some of which are under discussion by the community (such as SHA3), are implemented.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/544389955/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

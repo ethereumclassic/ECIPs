@@ -1,0 +1,205 @@
+From 15c75d93d6b635f48bf06262715a0fec6c7ba4f5 Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Sun, 6 Oct 2019 03:16:05 -0700
+Subject: [PATCH 1/5] ECIP-1065
+
+---
+ _specs/ecip-1065.md | 83 +++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 83 insertions(+)
+ create mode 100644 _specs/ecip-1065.md
+
+diff --git a/_specs/ecip-1065.md b/_specs/ecip-1065.md
+new file mode 100644
+index 0000000..9138452
+--- /dev/null
++++ b/_specs/ecip-1065.md
+@@ -0,0 +1,83 @@
++---
++lang: en
++ecip: 1061
++title: Kunming EVM and Protocol Upgrades
++status: Draft
++type: Meta
++author: Wei Tang <hi@that.world>
++created: 2019-10-05
++---
++
++### Simple Summary
++
++This protocol upgrade provides a backward compatibility foundation to
++enable future protocol upgrades to be applied with significantly lower
++chance of breaking existing contracts.
++
++### Abstract
++
++This document proposes the following blocks at which to implement the
++changes specified in "Specification" section.
++
++- `10_000_000` on Ethereum Classic PoW-mainnet.
++
++### Specification
++
++At hard fork block, enable EIP-1702:
++
++* Define the previous EVM version as version `0`.
++* Define a new version `1`, with the following EVM modifications
++  applied on it.
++  * **38-PROBE**: Enable the `HAS_FEATURE` feature probe opcode.
++  * **39-UNGAS**: Remove all observable behavior of gas cost in EVM
++    and change out-of-gas exception to trap the whole transaction.
++  * **40-UNUSED**: Disable deployment of unused opcodes.
++  
++### Discussion
++
++#### Feature Upgrades
++
++Once the hard fork is enabled, future feature upgrades can be applied
++directly on version `1`, without the need to define additional new
++versions. This simplifies client maintainence, which was one of the
++main resistence to apply EIP-1702 in Istanbul.
++
++Any gas cost changes can be applied without worry about backward
++compatibility issues, because gas cost is now an unobservable behavior
++in EVM. Any addition of opcodes can be applied without worry about
++backward compatibility issues, because deployment of unused opcode is
++disabled. This nearly covers all EVM upgrade paths we need to care
++about.
++
++#### Ecosystem
++
++It is possible to deploy a helper contract to allow version `0`
++contracts continue to be created. This allows unmodified Solidity code
++to be deployed, just like what we have now.
++
++However, for version `1`, because we made several changes related to
++gas cost, which impacts the semantics of certain opcodes such as
++`CALL*` and `CREATE*`, Solidity compiler must be modified to support
++version `1`.
++
++Existing common practices might need to change as well. Some practices
++relies on the observable behavior of gas cost. Relying on gas cost is
++usually considered to be a bad practice because gas cost can and will
++change.
++
++On the other hand, version `1` enables some new practices that wasn't
++possible before. For example, a contract can now refuse to be invoked
++by any other contracts.
++
++#### Emergency Hard Fork
++
++Our current gas cost scheme might contain DoS attack vectors. If those
++attack vectors must be fixed by changing existing gas cost schemes,
++then it must change gas costs specified in version `0`. In those
++emergency hard fork scenarios, we will inevitably break backward
++compatibility.
++
++## License
++
++This work is licensed under [Apache License, Version
++2.0](http://www.apache.org/licenses/).
+
+From cef1e8219f9e2565e3d4aefd885f3a14498a91f3 Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Sun, 6 Oct 2019 03:19:15 -0700
+Subject: [PATCH 2/5] Add links
+
+---
+ _specs/ecip-1065.md | 13 ++++++++-----
+ 1 file changed, 8 insertions(+), 5 deletions(-)
+
+diff --git a/_specs/ecip-1065.md b/_specs/ecip-1065.md
+index 9138452..da21b73 100644
+--- a/_specs/ecip-1065.md
++++ b/_specs/ecip-1065.md
+@@ -23,15 +23,18 @@ changes specified in "Specification" section.
+ 
+ ### Specification
+ 
+-At hard fork block, enable EIP-1702:
++At hard fork block, enable [EIP-1702](https://eips.ethereum.org/EIPS/eip-1702):
+ 
+ * Define the previous EVM version as version `0`.
+ * Define a new version `1`, with the following EVM modifications
+   applied on it.
+-  * **38-PROBE**: Enable the `HAS_FEATURE` feature probe opcode.
+-  * **39-UNGAS**: Remove all observable behavior of gas cost in EVM
+-    and change out-of-gas exception to trap the whole transaction.
+-  * **40-UNUSED**: Disable deployment of unused opcodes.
++  * **[38-PROBE](https://specs.that.world/38-probe/)**: Enable the
++    `HAS_FEATURE` feature probe opcode.
++  * **[39-UNGAS](https://specs.that.world/39-ungas/)**: Remove all
++    observable behavior of gas cost in EVM and change out-of-gas
++    exception to trap the whole transaction.
++  * **[40-UNUSED](https://specs.that.world/40-unused/)**: Disable
++    deployment of unused opcodes.
+   
+ ### Discussion
+ 
+
+From 391b2dac1242f75fc7782feed805e72a626dd89d Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Sun, 6 Oct 2019 19:46:15 -0700
+Subject: [PATCH 3/5] Fix ecip number
+
+---
+ _specs/ecip-1065.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-1065.md b/_specs/ecip-1065.md
+index da21b73..dc15caa 100644
+--- a/_specs/ecip-1065.md
++++ b/_specs/ecip-1065.md
+@@ -1,6 +1,6 @@
+ ---
+ lang: en
+-ecip: 1061
++ecip: 1065
+ title: Kunming EVM and Protocol Upgrades
+ status: Draft
+ type: Meta
+
+From c21be5c1a108150e0015bcbf8b9bea43709f1659 Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Wed, 23 Oct 2019 18:30:41 +0200
+Subject: [PATCH 4/5] Update ecip-1065.md
+
+---
+ _specs/ecip-1065.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-1065.md b/_specs/ecip-1065.md
+index dc15caa..d649266 100644
+--- a/_specs/ecip-1065.md
++++ b/_specs/ecip-1065.md
+@@ -19,7 +19,7 @@ chance of breaking existing contracts.
+ This document proposes the following blocks at which to implement the
+ changes specified in "Specification" section.
+ 
+-- `10_000_000` on Ethereum Classic PoW-mainnet.
++- Undecided on Ethereum Classic PoW-mainnet.
+ 
+ ### Specification
+ 
+
+From 1ab117c4b5ceb7711cb71d7e367c08b5e8ba834e Mon Sep 17 00:00:00 2001
+From: Wei Tang <hi@that.world>
+Date: Wed, 23 Oct 2019 18:31:46 +0200
+Subject: [PATCH 5/5] Update ecip-1065.md
+
+---
+ _specs/ecip-1065.md | 2 --
+ 1 file changed, 2 deletions(-)
+
+diff --git a/_specs/ecip-1065.md b/_specs/ecip-1065.md
+index d649266..1ac3526 100644
+--- a/_specs/ecip-1065.md
++++ b/_specs/ecip-1065.md
+@@ -28,8 +28,6 @@ At hard fork block, enable [EIP-1702](https://eips.ethereum.org/EIPS/eip-1702):
+ * Define the previous EVM version as version `0`.
+ * Define a new version `1`, with the following EVM modifications
+   applied on it.
+-  * **[38-PROBE](https://specs.that.world/38-probe/)**: Enable the
+-    `HAS_FEATURE` feature probe opcode.
+   * **[39-UNGAS](https://specs.that.world/39-ungas/)**: Remove all
+     observable behavior of gas cost in EVM and change out-of-gas
+     exception to trap the whole transaction.

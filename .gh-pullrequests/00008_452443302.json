@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/452443302",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/8#issuecomment-452443302",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/8",
+    "id": 452443302,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1MjQ0MzMwMg==",
+    "user": {
+      "login": "saturn-network",
+      "id": 44673408,
+      "node_id": "MDQ6VXNlcjQ0NjczNDA4",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/44673408?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/saturn-network",
+      "html_url": "https://github.com/saturn-network",
+      "followers_url": "https://api.github.com/users/saturn-network/followers",
+      "following_url": "https://api.github.com/users/saturn-network/following{/other_user}",
+      "gists_url": "https://api.github.com/users/saturn-network/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/saturn-network/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/saturn-network/subscriptions",
+      "organizations_url": "https://api.github.com/users/saturn-network/orgs",
+      "repos_url": "https://api.github.com/users/saturn-network/repos",
+      "events_url": "https://api.github.com/users/saturn-network/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/saturn-network/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-08T20:38:53Z",
+    "updated_at": "2019-01-08T20:38:53Z",
+    "author_association": "NONE",
+    "body": "@p3c-bot SHA3 and Keccak256 are basically [same thing](https://crypto.stackexchange.com/questions/15727/what-are-the-key-differences-between-the-draft-sha-3-standard-and-the-keccak-sub).\r\n\r\nFurthermore, FPGA keccak256 mining will definitely be a thing if ETC decides to adopt it before you can say \"hard fork\". This is not necessarily a bad thing, but the community needs to be aware before the decision is made.\r\n\r\n@oberondelafay if you have ideas of what consensus algorithm can guarantee uninterrupted decentralized operation of *code is law* smart contract platform I'm sure this community would love to hear that. I don't think that we can do better than PoW in this aspect though.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/452443302/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

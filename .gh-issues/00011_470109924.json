@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/470109924",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/11#issuecomment-470109924",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/11",
+    "id": 470109924,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3MDEwOTkyNA==",
+    "user": {
+      "login": "xazax310",
+      "id": 38053848,
+      "node_id": "MDQ6VXNlcjM4MDUzODQ4",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/38053848?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/xazax310",
+      "html_url": "https://github.com/xazax310",
+      "followers_url": "https://api.github.com/users/xazax310/followers",
+      "following_url": "https://api.github.com/users/xazax310/following{/other_user}",
+      "gists_url": "https://api.github.com/users/xazax310/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/xazax310/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/xazax310/subscriptions",
+      "organizations_url": "https://api.github.com/users/xazax310/orgs",
+      "repos_url": "https://api.github.com/users/xazax310/repos",
+      "events_url": "https://api.github.com/users/xazax310/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/xazax310/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-06T13:38:15Z",
+    "updated_at": "2019-03-06T13:41:37Z",
+    "author_association": "NONE",
+    "body": "I don't think changing the DAG realizes what you're envisioning. Your only argument is that ASICs are on the network then the DAG is pointless. Why keep Ethhash at all? Move to another Algorithm. Keeping Ethhash and resetting the DAG to allow GPUs with smaller GB limits doesn't accomplish much as most of the network is more than likely AMDs with 4GB + or ASICs. Small percentage makes up 3GB or less GPUs\r\nAccording to EthOS 5000 1060 3GBs are running, and AMDs with 2GB and lower are in the 100's. Acccording to HiveOS 1060 3GB are about 18%. Of course there are none AMDs with 3GB or less.\r\n\r\nIt doesn't pull in any more security from smaller GPU miners and unless you ditch the DAG entirely you're still facing the same problem every few years. ETC needs to decide. Are they GPU friendly or ASIC friendly? Choose the appropriate move to an algorithm from there. The DAG will just keep throwing off investments anyone wants to make in ASIC or GPUs if ETC is to stay on PoW for it's lifespan.\r\n\r\nSources\r\nhttp://ethosdistro.com/versions/\r\nhttps://hiveos.farm/statistics/\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/470109924/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

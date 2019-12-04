@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/553061307",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/13#issuecomment-553061307",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/13",
+    "id": 553061307,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MzA2MTMwNw==",
+    "user": {
+      "login": "pyskell",
+      "id": 9665963,
+      "node_id": "MDQ6VXNlcjk2NjU5NjM=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9665963?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pyskell",
+      "html_url": "https://github.com/pyskell",
+      "followers_url": "https://api.github.com/users/pyskell/followers",
+      "following_url": "https://api.github.com/users/pyskell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pyskell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pyskell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pyskell/subscriptions",
+      "organizations_url": "https://api.github.com/users/pyskell/orgs",
+      "repos_url": "https://api.github.com/users/pyskell/repos",
+      "events_url": "https://api.github.com/users/pyskell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pyskell/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-12T19:03:27Z",
+    "updated_at": "2019-11-12T19:03:27Z",
+    "author_association": "MEMBER",
+    "body": "Just want to clarify a few thoughts:\r\n\r\n> An inherent requirement of PoW consensus is that the heaviest valid chain is expensive to produce. This is not currently true for ETC.\r\n\r\nThis is true for ETC, nodes follow the heaviest valid chain with its rule set. Though @prestwich's other comments regarding vulnerability to other Ethash pools remains valid regardless.\r\n\r\n> ETC and ETH compete for the same hardware\r\n\r\nETC, ETH, and all other non-ASIC mined chains compete for the same hardware (GPUs). Excepting for present day market conditions (most purchasable hashrate sticks to one algorithm), and some potential performance advantages for specific GPUs there is materially little that makes various GPU-mined algorithms distinct.\r\n\r\nNote: I'm not commenting on the above proposal or any other comments provided.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/553061307/reactions",
+      "total_count": 4,
+      "+1": 4,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

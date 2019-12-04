@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/518596232",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/126#issuecomment-518596232",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/126",
+    "id": 518596232,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUxODU5NjIzMg==",
+    "user": {
+      "login": "bobthegrownup",
+      "id": 47165999,
+      "node_id": "MDQ6VXNlcjQ3MTY1OTk5",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/47165999?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobthegrownup",
+      "html_url": "https://github.com/bobthegrownup",
+      "followers_url": "https://api.github.com/users/bobthegrownup/followers",
+      "following_url": "https://api.github.com/users/bobthegrownup/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobthegrownup/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobthegrownup/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobthegrownup/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobthegrownup/orgs",
+      "repos_url": "https://api.github.com/users/bobthegrownup/repos",
+      "events_url": "https://api.github.com/users/bobthegrownup/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobthegrownup/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-08-06T09:45:31Z",
+    "updated_at": "2019-08-06T09:45:31Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I'm pretty sure i made a mistake and submitted to update ecip-x.md instead of create a new file.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/518596232/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/559869674",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/216#issuecomment-559869674",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/216",
+    "id": 559869674,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1OTg2OTY3NA==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-29T19:35:27Z",
+    "updated_at": "2019-11-29T19:35:27Z",
+    "author_association": "MEMBER",
+    "body": "@soc1c After the call with Mishi and Eben, I have a better understanding of what would be best moving forward (CC-BY-SA + patent covenant + DCOs (not real name).\r\n\r\nI will make a new ECIP about that at some point soon, but in the meantime there is no specific DOWNSIDE to switching to Apache 2.0.   It won't protect us either, but is not actively bad, and gets us past Wei's concern on this specific ECIP.\r\n\r\nPlease can you approve so we can move on?  Thank you :-)\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/559869674/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

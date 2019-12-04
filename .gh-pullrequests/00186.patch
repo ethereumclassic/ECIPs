@@ -1,0 +1,495 @@
+From 9be554b44c1fa89ad1bdd1e07bd9c901461c16fe Mon Sep 17 00:00:00 2001
+From: Bob Summerwill <bob@summerwill.net>
+Date: Sat, 16 Nov 2019 06:02:10 -0800
+Subject: [PATCH 1/4] Created a new ECIP-1075 from Afri's ECIP-1061, which is
+ the "Basic Edition".
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Reworked ECIP-1061 to point to the four proposed Aztlán "Editions", with ECIP-1061 now only containing minimal content.
+---
+ _specs/ecip-1061.md | 54 +++++-----------------------------
+ _specs/ecip-1072.md |  9 +-----
+ _specs/ecip-1073.md |  9 +-----
+ _specs/ecip-1074.md |  9 +-----
+ _specs/ecip-1075.md | 71 +++++++++++++++++++++++++++++++++++++++++++++
+ 5 files changed, 82 insertions(+), 70 deletions(-)
+ create mode 100644 _specs/ecip-1075.md
+
+diff --git a/_specs/ecip-1061.md b/_specs/ecip-1061.md
+index e410baf..42ec5bc 100644
+--- a/_specs/ecip-1061.md
++++ b/_specs/ecip-1061.md
+@@ -17,14 +17,15 @@ Classic network in a hard-fork code-named _Aztlán_ to enable maximum compatibil
+ ### Abstract
+ 
+ Add support for a subset of protocol-impacting changes introduced in the Ethereum Foundation (ETH) network via the
+-_Istanbul_ hardforks. The proposed changes for Ethereum Classic's _Aztlán_ upgrade include:
++_Istanbul_ hardforks.
+ 
+-- Add Blake2 compression function `F` precompile
+-- Reduce alt_bn128 precompile gas costs
+-- Add ChainID opcode
+-- Repricing for trie-size-dependent opcodes
+-- Calldata gas cost reduction
+-- Rebalance net-metered SSTORE gas cost with consideration of SLOAD gas cost change
++There are four alterative proposals with varying levels of backwards and
++forwards compatibility for the _Aztlán_ upgrade:
++
++- [ECIP-1072](https://ecips.ethereum.org/ECIPS/ecip-1072) - Yuanchun Edition
++- [ECIP-1073](https://ecips.ethereum.org/ECIPS/ecip-1073) - Xichun Edition
++- [ECIP-1074](https://ecips.ethereum.org/ECIPS/ecip-1074) - Tanchun Edition
++- [ECIP-1075](https://ecips.ethereum.org/ECIPS/ecip-1075) - Basic Edition
+ 
+ This document proposes the following blocks at which to implement these changes in the Classic networks:
+ 
+@@ -35,47 +36,8 @@ This document proposes the following blocks at which to implement these changes
+ For more information on the opcodes and their respective EIPs and implementations, please see the _Specification_
+ section of this document.
+ 
+-### Motivation
+-
+-To enhance the Ethereum Virtual Machine's (EVM) capabilities, various opcodes shall be added to the Ethereum Classic
+-networks, all of which have been in use on the Ethereum Foundation networks since end of 2019.
+-
+-### Specification
+-
+-Technical specifications for each EIP can be found at those documents respectively:
+-
+-- [EIP-152](https://eips.ethereum.org/EIPS/eip-152): Add Blake2 compression function `F` precompile
+-- [EIP-1108](https://eips.ethereum.org/EIPS/eip-1108): Reduce alt_bn128 precompile gas costs
+-- [EIP-1344](https://eips.ethereum.org/EIPS/eip-1344): Add ChainID opcode
+-- [EIP-1884](https://eips.ethereum.org/EIPS/eip-1884): Repricing for trie-size-dependent opcodes
+-- [EIP-2028](https://eips.ethereum.org/EIPS/eip-2028): Calldata gas cost reduction
+-- [EIP-2200](https://eips.ethereum.org/EIPS/eip-2200): Rebalance net-metered SSTORE gas cost with consideration of SLOAD gas cost change
+-
+-### Rationale
+-
+-__Interoperability__: Establishing and maintaining interoperable behavior between Ethereum clients is essential for
+-developers and end-user adoption, yielding benefits for all participating chains (e.g., ETH and ETC, Ropsten and Mordor,
+-Görli and Kotti).
+-
+-__Immutability__: None of the introduced new opcodes in the EVM has the potential to change the behavior of existing
+-contracts; in the case where previously an arbitrary invalid bytecode would have been deployed to the network, none of
+-them would be able to modify the state of the Ethereum Classic networks retrospectively. Adding opcodes to the EVM
+-increases its functionality and should be considered a feature upgrade rather than a modification.
+-
+-### Implementation
+-
+-Adoption of the content of this ECIP requires a hard fork as it introduces changes that are not backward compatible.
+-
+-The following clients with Ethereum Classic support implement the _Istanbul_ features currently:
+-
+-- Parity Ethereum
+-- Multi-Geth
+-- Hyperledger Besu
+-
+ ### Final Note
+ 
+-Both, the Geth Classic client and the Morden testnet will no longer be supported by the community and not recieve the Aztlán ugrades.
+-
+ - Users of the Geth Classic client are urged to migrate their services to Parity Ethereum, Multi-Geth, or Hyperledger Besu. It is no longer recommended to run Geth Classic in production.
+ - Users of the Morden Classic testnet are urged to migrate their applications to the Kotti Classic or Morder Classic testnets.
+ 
+diff --git a/_specs/ecip-1072.md b/_specs/ecip-1072.md
+index 185b2ec..6a3b4f0 100644
+--- a/_specs/ecip-1072.md
++++ b/_specs/ecip-1072.md
+@@ -1,7 +1,7 @@
+ ---
+ lang: en
+ ecip: 1072
+-title: Yingchun EVM and Protocol Upgrades
++title: Aztlán EVM and Protocol Upgrades (Yuanchun Edition)
+ status: Draft
+ type: Meta
+ author: Wei Tang (@sorpaas)
+@@ -25,13 +25,6 @@ Add support for a subset of protocol-impacting changes introduced in
+ the Ethereum Foundation (ETH) network via the _Istanbul_
+ hardforks.
+ 
+-This document proposes the following blocks at which to implement
+-these changes in the Classic networks:
+-
+-- `TBD` on Mordor Classic PoW-testnet (Feb 5th, 2020)
+-- `TBD` on Kotti Classic PoA-testnet (Feb 12th, 2020)
+-- `TBD` on Ethereum Classic PoW-mainnet (March 25th, 2020)
+-
+ For more information on the opcodes and their respective EIPs and
+ implementations, please see the _Specification_ section of this
+ document.
+diff --git a/_specs/ecip-1073.md b/_specs/ecip-1073.md
+index 5e27f26..47c1504 100644
+--- a/_specs/ecip-1073.md
++++ b/_specs/ecip-1073.md
+@@ -1,7 +1,7 @@
+ ---
+ lang: en
+ ecip: 1073
+-title: Xichun EVM and Protocol Upgrades
++title: Aztlán EVM and Protocol Upgrades (Xichun Edition)
+ status: Draft
+ type: Meta
+ author: Wei Tang (@sorpaas)
+@@ -23,13 +23,6 @@ In particular, enables account versioning EIP-1702.
+ Add support for a subset of protocol-impacting changes introduced in
+ the Ethereum Foundation (ETH) network via the _Istanbul_ hardforks.
+ 
+-This document proposes the following blocks at which to implement
+-these changes in the Classic networks:
+-
+-- `TBD` on Mordor Classic PoW-testnet (Feb 5th, 2020)
+-- `TBD` on Kotti Classic PoA-testnet (Feb 12th, 2020)
+-- `TBD` on Ethereum Classic PoW-mainnet (March 25th, 2020)
+-
+ For more information on the opcodes and their respective EIPs and
+ implementations, please see the _Specification_ section of this
+ document.
+diff --git a/_specs/ecip-1074.md b/_specs/ecip-1074.md
+index 5d577ba..5c3ca74 100644
+--- a/_specs/ecip-1074.md
++++ b/_specs/ecip-1074.md
+@@ -1,7 +1,7 @@
+ ---
+ lang: en
+ ecip: 1074
+-title: Tanchun EVM and Protocol Upgrades
++title: Aztlán EVM and Protocol Upgrades (Tanchun Edition)
+ status: Draft
+ type: Meta
+ author: Wei Tang (@sorpaas)
+@@ -24,13 +24,6 @@ forward-compatible EVM changes.
+ Add support for a subset of protocol-impacting changes introduced in
+ the Ethereum Foundation (ETH) network via the _Istanbul_ hardforks.
+ 
+-This document proposes the following blocks at which to implement
+-these changes in the Classic networks:
+-
+-- `TBD` on Mordor Classic PoW-testnet (Feb 5th, 2020)
+-- `TBD` on Kotti Classic PoA-testnet (Feb 12th, 2020)
+-- `TBD` on Ethereum Classic PoW-mainnet (March 25th, 2020)
+-
+ For more information on the opcodes and their respective EIPs and
+ implementations, please see the _Specification_ section of this
+ document.
+diff --git a/_specs/ecip-1075.md b/_specs/ecip-1075.md
+new file mode 100644
+index 0000000..0f177dc
+--- /dev/null
++++ b/_specs/ecip-1075.md
+@@ -0,0 +1,71 @@
++---
++lang: en
++ecip: 1075
++title: Aztlán EVM and Protocol Upgrades (Basic Edition)
++status: Draft
++type: Meta
++author: Talha Cross (@soc1c)
++created: 2019-06-06
++discussions-to: https://github.com/ethereumclassic/ECIPs/issues/81
++---
++
++### Simple Summary
++
++Enable the outstanding Ethereum Foundation _Istanbul_ network protocol upgrades on the Ethereum
++Classic network in a hard-fork code-named _Aztlán_ to enable maximum compatibility across these networks.
++
++### Abstract
++
++Add support for a subset of protocol-impacting changes introduced in the Ethereum Foundation (ETH) network via the
++_Istanbul_ hardforks. The proposed changes for Ethereum Classic's _Aztlán_ upgrade include:
++
++- Add Blake2 compression function `F` precompile
++- Reduce alt_bn128 precompile gas costs
++- Add ChainID opcode
++- Repricing for trie-size-dependent opcodes
++- Calldata gas cost reduction
++- Rebalance net-metered SSTORE gas cost with consideration of SLOAD gas cost change
++
++For more information on the opcodes and their respective EIPs and implementations, please see the _Specification_
++section of this document.
++
++### Motivation
++
++To enhance the Ethereum Virtual Machine's (EVM) capabilities, various opcodes shall be added to the Ethereum Classic
++networks, all of which have been in use on the Ethereum Foundation networks since end of 2019.
++
++### Specification
++
++Technical specifications for each EIP can be found at those documents respectively:
++
++- [EIP-152](https://eips.ethereum.org/EIPS/eip-152): Add Blake2 compression function `F` precompile
++- [EIP-1108](https://eips.ethereum.org/EIPS/eip-1108): Reduce alt_bn128 precompile gas costs
++- [EIP-1344](https://eips.ethereum.org/EIPS/eip-1344): Add ChainID opcode
++- [EIP-1884](https://eips.ethereum.org/EIPS/eip-1884): Repricing for trie-size-dependent opcodes
++- [EIP-2028](https://eips.ethereum.org/EIPS/eip-2028): Calldata gas cost reduction
++- [EIP-2200](https://eips.ethereum.org/EIPS/eip-2200): Rebalance net-metered SSTORE gas cost with consideration of SLOAD gas cost change
++
++### Rationale
++
++__Interoperability__: Establishing and maintaining interoperable behavior between Ethereum clients is essential for
++developers and end-user adoption, yielding benefits for all participating chains (e.g., ETH and ETC, Ropsten and Mordor,
++Görli and Kotti).
++
++__Immutability__: None of the introduced new opcodes in the EVM has the potential to change the behavior of existing
++contracts; in the case where previously an arbitrary invalid bytecode would have been deployed to the network, none of
++them would be able to modify the state of the Ethereum Classic networks retrospectively. Adding opcodes to the EVM
++increases its functionality and should be considered a feature upgrade rather than a modification.
++
++### Implementation
++
++Adoption of the content of this ECIP requires a hard fork as it introduces changes that are not backward compatible.
++
++The following clients with Ethereum Classic support implement the _Istanbul_ features currently:
++
++- Parity Ethereum
++- Multi-Geth
++- Hyperledger Besu
++
++## Copyright
++
++Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+
+From 70d44003d14f9852fe9114136e5da2daeaba389a Mon Sep 17 00:00:00 2001
+From: Bob Summerwill <bob@summerwill.net>
+Date: Sat, 16 Nov 2019 08:02:56 -0800
+Subject: [PATCH 2/4] Switch ECIP-1061 and ECIP-1075 around.
+
+---
+ _specs/ecip-1061.md | 59 ++++++++++++++++++++++++++++++++-------------
+ _specs/ecip-1075.md | 59 +++++++++++++--------------------------------
+ 2 files changed, 59 insertions(+), 59 deletions(-)
+
+diff --git a/_specs/ecip-1061.md b/_specs/ecip-1061.md
+index 42ec5bc..56c8a0e 100644
+--- a/_specs/ecip-1061.md
++++ b/_specs/ecip-1061.md
+@@ -1,7 +1,7 @@
+ ---
+ lang: en
+ ecip: 1061
+-title: Aztlán EVM and Protocol Upgrades
++title: Aztlán EVM and Protocol Upgrades (Basic Edition)
+ status: Draft
+ type: Meta
+ author: Talha Cross (@soc1c)
+@@ -17,29 +17,54 @@ Classic network in a hard-fork code-named _Aztlán_ to enable maximum compatibil
+ ### Abstract
+ 
+ Add support for a subset of protocol-impacting changes introduced in the Ethereum Foundation (ETH) network via the
+-_Istanbul_ hardforks.
++_Istanbul_ hardforks. The proposed changes for Ethereum Classic's _Aztlán_ upgrade include:
+ 
+-There are four alterative proposals with varying levels of backwards and
+-forwards compatibility for the _Aztlán_ upgrade:
++- Add Blake2 compression function `F` precompile
++- Reduce alt_bn128 precompile gas costs
++- Add ChainID opcode
++- Repricing for trie-size-dependent opcodes
++- Calldata gas cost reduction
++- Rebalance net-metered SSTORE gas cost with consideration of SLOAD gas cost change
+ 
+-- [ECIP-1072](https://ecips.ethereum.org/ECIPS/ecip-1072) - Yuanchun Edition
+-- [ECIP-1073](https://ecips.ethereum.org/ECIPS/ecip-1073) - Xichun Edition
+-- [ECIP-1074](https://ecips.ethereum.org/ECIPS/ecip-1074) - Tanchun Edition
+-- [ECIP-1075](https://ecips.ethereum.org/ECIPS/ecip-1075) - Basic Edition
++For more information on the opcodes and their respective EIPs and implementations, please see the _Specification_
++section of this document.
+ 
+-This document proposes the following blocks at which to implement these changes in the Classic networks:
++### Motivation
+ 
+-- `TBD` on Mordor Classic PoW-testnet (Feb 5th, 2020)
+-- `TBD` on Kotti Classic PoA-testnet (Feb 12th, 2020)
+-- `TBD` on Ethereum Classic PoW-mainnet (March 25th, 2020)
++To enhance the Ethereum Virtual Machine's (EVM) capabilities, various opcodes shall be added to the Ethereum Classic
++networks, all of which have been in use on the Ethereum Foundation networks since end of 2019.
+ 
+-For more information on the opcodes and their respective EIPs and implementations, please see the _Specification_
+-section of this document.
++### Specification
++
++Technical specifications for each EIP can be found at those documents respectively:
++
++- [EIP-152](https://eips.ethereum.org/EIPS/eip-152): Add Blake2 compression function `F` precompile
++- [EIP-1108](https://eips.ethereum.org/EIPS/eip-1108): Reduce alt_bn128 precompile gas costs
++- [EIP-1344](https://eips.ethereum.org/EIPS/eip-1344): Add ChainID opcode
++- [EIP-1884](https://eips.ethereum.org/EIPS/eip-1884): Repricing for trie-size-dependent opcodes
++- [EIP-2028](https://eips.ethereum.org/EIPS/eip-2028): Calldata gas cost reduction
++- [EIP-2200](https://eips.ethereum.org/EIPS/eip-2200): Rebalance net-metered SSTORE gas cost with consideration of SLOAD gas cost change
++
++### Rationale
++
++__Interoperability__: Establishing and maintaining interoperable behavior between Ethereum clients is essential for
++developers and end-user adoption, yielding benefits for all participating chains (e.g., ETH and ETC, Ropsten and Mordor,
++Görli and Kotti).
++
++__Immutability__: None of the introduced new opcodes in the EVM has the potential to change the behavior of existing
++contracts; in the case where previously an arbitrary invalid bytecode would have been deployed to the network, none of
++them would be able to modify the state of the Ethereum Classic networks retrospectively. Adding opcodes to the EVM
++increases its functionality and should be considered a feature upgrade rather than a modification.
++
++### Implementation
++
++Adoption of the content of this ECIP requires a hard fork as it introduces changes that are not backward compatible.
+ 
+-### Final Note
++The following clients with Ethereum Classic support implement the _Istanbul_ features currently:
+ 
+-- Users of the Geth Classic client are urged to migrate their services to Parity Ethereum, Multi-Geth, or Hyperledger Besu. It is no longer recommended to run Geth Classic in production.
+-- Users of the Morden Classic testnet are urged to migrate their applications to the Kotti Classic or Morder Classic testnets.
++- Parity Ethereum
++- Multi-Geth
++- Hyperledger Besu
+ 
+ ## Copyright
+ 
+diff --git a/_specs/ecip-1075.md b/_specs/ecip-1075.md
+index 0f177dc..66c79de 100644
+--- a/_specs/ecip-1075.md
++++ b/_specs/ecip-1075.md
+@@ -1,7 +1,7 @@
+ ---
+ lang: en
+ ecip: 1075
+-title: Aztlán EVM and Protocol Upgrades (Basic Edition)
++title: Aztlán EVM and Protocol Upgrades
+ status: Draft
+ type: Meta
+ author: Talha Cross (@soc1c)
+@@ -17,54 +17,29 @@ Classic network in a hard-fork code-named _Aztlán_ to enable maximum compatibil
+ ### Abstract
+ 
+ Add support for a subset of protocol-impacting changes introduced in the Ethereum Foundation (ETH) network via the
+-_Istanbul_ hardforks. The proposed changes for Ethereum Classic's _Aztlán_ upgrade include:
++_Istanbul_ hardforks.
+ 
+-- Add Blake2 compression function `F` precompile
+-- Reduce alt_bn128 precompile gas costs
+-- Add ChainID opcode
+-- Repricing for trie-size-dependent opcodes
+-- Calldata gas cost reduction
+-- Rebalance net-metered SSTORE gas cost with consideration of SLOAD gas cost change
++There are four alterative proposals with varying levels of backwards and
++forwards compatibility for the _Aztlán_ upgrade:
+ 
+-For more information on the opcodes and their respective EIPs and implementations, please see the _Specification_
+-section of this document.
+-
+-### Motivation
+-
+-To enhance the Ethereum Virtual Machine's (EVM) capabilities, various opcodes shall be added to the Ethereum Classic
+-networks, all of which have been in use on the Ethereum Foundation networks since end of 2019.
+-
+-### Specification
+-
+-Technical specifications for each EIP can be found at those documents respectively:
++- [ECIP-1072](https://ecips.ethereum.org/ECIPS/ecip-1072) - Yuanchun Edition
++- [ECIP-1073](https://ecips.ethereum.org/ECIPS/ecip-1073) - Xichun Edition
++- [ECIP-1074](https://ecips.ethereum.org/ECIPS/ecip-1074) - Tanchun Edition
++- [ECIP-1075](https://ecips.ethereum.org/ECIPS/ecip-1075) - Basic Edition
+ 
+-- [EIP-152](https://eips.ethereum.org/EIPS/eip-152): Add Blake2 compression function `F` precompile
+-- [EIP-1108](https://eips.ethereum.org/EIPS/eip-1108): Reduce alt_bn128 precompile gas costs
+-- [EIP-1344](https://eips.ethereum.org/EIPS/eip-1344): Add ChainID opcode
+-- [EIP-1884](https://eips.ethereum.org/EIPS/eip-1884): Repricing for trie-size-dependent opcodes
+-- [EIP-2028](https://eips.ethereum.org/EIPS/eip-2028): Calldata gas cost reduction
+-- [EIP-2200](https://eips.ethereum.org/EIPS/eip-2200): Rebalance net-metered SSTORE gas cost with consideration of SLOAD gas cost change
++This document proposes the following blocks at which to implement these changes in the Classic networks:
+ 
+-### Rationale
++- `TBD` on Mordor Classic PoW-testnet (Feb 5th, 2020)
++- `TBD` on Kotti Classic PoA-testnet (Feb 12th, 2020)
++- `TBD` on Ethereum Classic PoW-mainnet (March 25th, 2020)
+ 
+-__Interoperability__: Establishing and maintaining interoperable behavior between Ethereum clients is essential for
+-developers and end-user adoption, yielding benefits for all participating chains (e.g., ETH and ETC, Ropsten and Mordor,
+-Görli and Kotti).
+-
+-__Immutability__: None of the introduced new opcodes in the EVM has the potential to change the behavior of existing
+-contracts; in the case where previously an arbitrary invalid bytecode would have been deployed to the network, none of
+-them would be able to modify the state of the Ethereum Classic networks retrospectively. Adding opcodes to the EVM
+-increases its functionality and should be considered a feature upgrade rather than a modification.
+-
+-### Implementation
+-
+-Adoption of the content of this ECIP requires a hard fork as it introduces changes that are not backward compatible.
++For more information on the opcodes and their respective EIPs and implementations, please see the _Specification_
++section of this document.
+ 
+-The following clients with Ethereum Classic support implement the _Istanbul_ features currently:
++### Final Note
+ 
+-- Parity Ethereum
+-- Multi-Geth
+-- Hyperledger Besu
++- Users of the Geth Classic client are urged to migrate their services to Parity Ethereum, Multi-Geth, or Hyperledger Besu. It is no longer recommended to run Geth Classic in production.
++- Users of the Morden Classic testnet are urged to migrate their applications to the Kotti Classic or Morder Classic testnets.
+ 
+ ## Copyright
+ 
+
+From cba0c0e483ed6a561654aa3a59395ac1efc57518 Mon Sep 17 00:00:00 2001
+From: Bob Summerwill <bob@summerwill.net>
+Date: Sat, 16 Nov 2019 08:09:50 -0800
+Subject: [PATCH 3/4] =?UTF-8?q?Corrected=20author=20for=20ECIP-1075,=20whi?=
+ =?UTF-8?q?ch=20is=20now=20a=20net-new=20ECIP,=20pointing=20to=20the=20var?=
+ =?UTF-8?q?ious=20Aztl=C3=A1n=20editions.=20This=20would=20become=20the=20?=
+ =?UTF-8?q?primary=20"Meta"=20for=20Aztl=C3=A1n.?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ _specs/ecip-1075.md | 10 ++++++----
+ 1 file changed, 6 insertions(+), 4 deletions(-)
+
+diff --git a/_specs/ecip-1075.md b/_specs/ecip-1075.md
+index 66c79de..0b2a162 100644
+--- a/_specs/ecip-1075.md
++++ b/_specs/ecip-1075.md
+@@ -4,9 +4,10 @@ ecip: 1075
+ title: Aztlán EVM and Protocol Upgrades
+ status: Draft
+ type: Meta
+-author: Talha Cross (@soc1c)
+-created: 2019-06-06
+-discussions-to: https://github.com/ethereumclassic/ECIPs/issues/81
++author: Bob Summerwill (@bobsummerwill)
++created: 2019-11-16
++discussions-to: https://github.com/ethereumclassic/ECIPs/issues/188
++license: Apache-2.0
+ ---
+ 
+ ### Simple Summary
+@@ -43,4 +44,5 @@ section of this document.
+ 
+ ## Copyright
+ 
+-Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
++This work is licensed under [Apache License, Version
++2.0](http://www.apache.org/licenses/).
+
+From 7b305d278a92d556d0b4f14dcdde439b2ba24bfa Mon Sep 17 00:00:00 2001
+From: Bob Summerwill <bob@summerwill.net>
+Date: Sat, 16 Nov 2019 12:47:31 -0800
+Subject: [PATCH 4/4] Added DCO equivalent section to ECIP-1075.
+
+---
+ _specs/ecip-1075.md | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+diff --git a/_specs/ecip-1075.md b/_specs/ecip-1075.md
+index 0b2a162..da850cd 100644
+--- a/_specs/ecip-1075.md
++++ b/_specs/ecip-1075.md
+@@ -44,5 +44,6 @@ section of this document.
+ 
+ ## Copyright
+ 
+-This work is licensed under [Apache License, Version
+-2.0](http://www.apache.org/licenses/).
++This work is licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).  The author, Bob Summerwill, attests to his sole authorship of this work, and that he is able to contribute this work to the ECIP process under the Apache 2.0 licence.
++
++He further attests that he neither holds nor is aware of any patents, trademarks, copyright issues or other IP hinderances associated with this work.

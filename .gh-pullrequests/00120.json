@@ -1,0 +1,66 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/120",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/120/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/120/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/120/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/120",
+    "id": 473583971,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0MzAxNzIzNTU2",
+    "number": 120,
+    "title": "Update index.html",
+    "user": {
+      "login": "TokenHash",
+      "id": 29529586,
+      "node_id": "MDQ6VXNlcjI5NTI5NTg2",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/29529586?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TokenHash",
+      "html_url": "https://github.com/TokenHash",
+      "followers_url": "https://api.github.com/users/TokenHash/followers",
+      "following_url": "https://api.github.com/users/TokenHash/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TokenHash/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TokenHash/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TokenHash/subscriptions",
+      "organizations_url": "https://api.github.com/users/TokenHash/orgs",
+      "repos_url": "https://api.github.com/users/TokenHash/repos",
+      "events_url": "https://api.github.com/users/TokenHash/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TokenHash/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2019-07-27T01:23:58Z",
+    "updated_at": "2019-07-27T01:24:19Z",
+    "closed_at": "2019-07-27T01:24:19Z",
+    "author_association": "MEMBER",
+    "pull_request": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/120",
+      "html_url": "https://github.com/ethereumclassic/ECIPs/pull/120",
+      "diff_url": "https://github.com/ethereumclassic/ECIPs/pull/120.diff",
+      "patch_url": "https://github.com/ethereumclassic/ECIPs/pull/120.patch"
+    },
+    "body": "Changed string:\r\n\r\n`<h4><a href=\"{{\"erc\"|relative_url}}\">ERC</a> ({{site.specs|where:\"lang\",\"en\"|where:\"type\",\"Standards Track\"|where:\"category\",\"ERC\"|size}})</h4>`\r\n\r\nto:\r\n\r\n`<h4><a href=\"{{\"ecbp\"|relative_url}}\">ECBP</a> ({{site.specs|where:\"lang\",\"en\"|where:\"type\",\"Standards Track\"|where:\"category\",\"ECBP\"|size}})</h4>`\r\n\r\nNote: I am adding also a string for `networking` but I don't know if that will break the site. Please check before merging.\r\n\r\nThis is the new string I added (2 lines):\r\n\r\n`<h4><a href=\"{{\"networking\"|relative_url}}\">Networking</a> ({{site.specs|where:\"lang\",\"en\"|where:\"type\",\"Standards Track\"|where:\"category\",\"Networking\"|size}})</h4>\r\n<p>Improvements to networking protocol specifications.</p>`",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/120/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

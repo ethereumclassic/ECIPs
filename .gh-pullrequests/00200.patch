@@ -1,0 +1,71 @@
+From f99cc5705ca31624a02bee8fa8c632110a0897e0 Mon Sep 17 00:00:00 2001
+From: Bob Summerwill <bob@summerwill.net>
+Date: Wed, 27 Nov 2019 08:21:31 -0800
+Subject: [PATCH] Proposal to reject the following proposals:
+
+ECIP-1021 - Token standard (= ERC-223 in Ethereum)
+ECIP-1051 - Ethereum Classic Treasury system
+ECIP-1052 - Smart-contract Security Auditing core
+ECIP-1057 - Cold Staking
+
+There is no real support for these proposals.
+Realistically they will never happen.
+If new champions wish to propose similar changes in the future they should create new ECIPs.
+We should reduce our cognitive load and the clarify of our "working set" by pruning out such inactive or "never going to happen" proposals.
+
+Dexaran has indicated that his efforts will now be applied against EOS and I wish him the best with that approach.
+
+Nobody has championed treasury proposals except for Dexaran either, and treasury proposals are deeply unpopular within ETC.
+---
+ _specs/ecip-1021.md | 4 ++--
+ _specs/ecip-1052.md | 4 ++--
+ _specs/ecip-1057.md | 4 ++--
+ 3 files changed, 6 insertions(+), 6 deletions(-)
+
+diff --git a/_specs/ecip-1021.md b/_specs/ecip-1021.md
+index f1a5c02..a020d1e 100644
+--- a/_specs/ecip-1021.md
++++ b/_specs/ecip-1021.md
+@@ -2,8 +2,8 @@
+ lang: en
+ ecip: 1021
+ title: Token standard
+-author: Dexaran, <dexaran820@gmail.com>
+-status: Draft
++author: Dexaran (@Dexaran)
++status: Rejected
+ type: Standards Track
+ category: ECBP
+ created: 2017-03-07
+diff --git a/_specs/ecip-1052.md b/_specs/ecip-1052.md
+index 6bc89bc..687b868 100644
+--- a/_specs/ecip-1052.md
++++ b/_specs/ecip-1052.md
+@@ -2,9 +2,9 @@
+ lang: en
+ ecip: 1052
+ title: Smart-contract Security Auditing core
+-status: Draft
++status: Rejected
+ type: Meta
+-author: Dexaran, dexaran@ethereumclassic.org
++author: Dexaran (@Dexaran)
+ created: 2018-12-31
+ ---
+ 
+diff --git a/_specs/ecip-1057.md b/_specs/ecip-1057.md
+index 3761165..a162539 100644
+--- a/_specs/ecip-1057.md
++++ b/_specs/ecip-1057.md
+@@ -2,9 +2,9 @@
+ lang: en
+ ecip: 1057
+ title: Cold Staking
+-author: Dexaran, dexaran@ethereumclassic.org
++author: Dexaran (@Dexaran)
+ discussions-To: https://github.com/ethereumclassic/ECIPs/issues/65
+-status: Draft
++status: Rejected
+ type: Standards Track
+ category: Core
+ created: 2019-03-31

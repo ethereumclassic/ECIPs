@@ -1,0 +1,23 @@
+From 7d3799cd4d77ddf4f18a9a5d7cf15a3c4b54e82a Mon Sep 17 00:00:00 2001
+From: Donald McIntyre <donald@etherplan.com>
+Date: Sun, 15 Sep 2019 12:51:40 -0600
+Subject: [PATCH] Change status to final
+
+Changing status to final according to ECIP-1000.
+---
+ _specs/ecip-1054.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/_specs/ecip-1054.md b/_specs/ecip-1054.md
+index 310e165..d4c96f0 100644
+--- a/_specs/ecip-1054.md
++++ b/_specs/ecip-1054.md
+@@ -2,7 +2,7 @@
+ lang: en
+ ecip: 1054
+ title: Atlantis EVM and Protocol Upgrades
+-status: Accepted
++status: Final
+ type: Meta
+ author: Isaac Ardis <isaac.a@etclabs.org>
+ created: 2019-02-11

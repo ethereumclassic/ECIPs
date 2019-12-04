@@ -1,0 +1,21 @@
+From 46e6e9dd9ebd5af3cbf20a9b7818e17fe559aad9 Mon Sep 17 00:00:00 2001
+From: Yaz Khoury <yaz.khoury@gmail.com>
+Date: Wed, 30 Oct 2019 08:25:41 -0400
+Subject: [PATCH] fix: Make Last Call consistent
+
+---
+ _data/statuses.yaml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/_data/statuses.yaml b/_data/statuses.yaml
+index dca2885..51277da 100644
+--- a/_data/statuses.yaml
++++ b/_data/statuses.yaml
+@@ -1,6 +1,6 @@
+ - WIP
+ - Draft
+-- Last call
++- Last Call
+ - Accepted
+ - Final
+ - Deferred

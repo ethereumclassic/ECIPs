@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/544614307",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/135#issuecomment-544614307",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/135",
+    "id": 544614307,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU0NDYxNDMwNw==",
+    "user": {
+      "login": "bobsummerwill",
+      "id": 3788156,
+      "node_id": "MDQ6VXNlcjM3ODgxNTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3788156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobsummerwill",
+      "html_url": "https://github.com/bobsummerwill",
+      "followers_url": "https://api.github.com/users/bobsummerwill/followers",
+      "following_url": "https://api.github.com/users/bobsummerwill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobsummerwill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobsummerwill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobsummerwill/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobsummerwill/orgs",
+      "repos_url": "https://api.github.com/users/bobsummerwill/repos",
+      "events_url": "https://api.github.com/users/bobsummerwill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobsummerwill/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-10-21T17:11:58Z",
+    "updated_at": "2019-10-21T17:11:58Z",
+    "author_association": "MEMBER",
+    "body": "@soc1c \"Agharta is basically ready to be tested, why not just do it?\"\r\nSure - I guess we can.\r\n\r\n@GregTheGreek We will likely also be doing EIP-1702 and EIP-615, and maybe FlyClient, maybe some Swarm bits which may or may not need including in the HF(s).",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/544614307/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

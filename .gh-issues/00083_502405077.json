@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/502405077",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/83#issuecomment-502405077",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/83",
+    "id": 502405077,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUwMjQwNTA3Nw==",
+    "user": {
+      "login": "phyro",
+      "id": 157733,
+      "node_id": "MDQ6VXNlcjE1NzczMw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/157733?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/phyro",
+      "html_url": "https://github.com/phyro",
+      "followers_url": "https://api.github.com/users/phyro/followers",
+      "following_url": "https://api.github.com/users/phyro/following{/other_user}",
+      "gists_url": "https://api.github.com/users/phyro/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/phyro/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/phyro/subscriptions",
+      "organizations_url": "https://api.github.com/users/phyro/orgs",
+      "repos_url": "https://api.github.com/users/phyro/repos",
+      "events_url": "https://api.github.com/users/phyro/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/phyro/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-06-15T22:51:10Z",
+    "updated_at": "2019-06-15T22:51:10Z",
+    "author_association": "MEMBER",
+    "body": "I suggest people come up with reasons as to why they believe we should choose a specific block. We need to provide arguments if we want to come to a conclusion and this can only be done if we all list the pros/cons and explain why these matter **for ETC network**. We should always make decisions that prioritize network stability/security because some errors can cause huge damage to the ETC network and consequently its stakeholders.\r\nAnswers like `I don't want to fork at block 'X'` or `we already agreed on the date` are IMO invalid. The reason being is:\r\n\r\n1. the \"Asian miner/exchange community\" assumption from which the date was set appears to have been incorrect\r\n2. a new Atlantis client appeared out of thin air and was not taken into account when choosing the date the first time\r\n\r\nWe can learn a couple of things from this:\r\n1. we should communicate more openly about what the intents of the parties are\r\n2. we need to share information regarding clients openly and the code should be open source and available to read instead of dropped at the community in the last moment\r\n\r\nLets openly state if there is work done that it touching the ETC network. Software estimation is hard as is, such information needs to be public in order for people to give a valid estimate.\r\n\r\nSo please, come up with **rational arguments**. Everything else will be discarded.\r\nWe should optimize for 2 things. Keep ETC decentralized and avoid a network split. If any of these two fails, ETC loses its core value.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/502405077/reactions",
+      "total_count": 8,
+      "+1": 3,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 5,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

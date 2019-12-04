@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/554674998",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/13#issuecomment-554674998",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/13",
+    "id": 554674998,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1NDY3NDk5OA==",
+    "user": {
+      "login": "prestwich",
+      "id": 10149425,
+      "node_id": "MDQ6VXNlcjEwMTQ5NDI1",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10149425?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/prestwich",
+      "html_url": "https://github.com/prestwich",
+      "followers_url": "https://api.github.com/users/prestwich/followers",
+      "following_url": "https://api.github.com/users/prestwich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/prestwich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/prestwich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/prestwich/subscriptions",
+      "organizations_url": "https://api.github.com/users/prestwich/orgs",
+      "repos_url": "https://api.github.com/users/prestwich/repos",
+      "events_url": "https://api.github.com/users/prestwich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/prestwich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-16T21:14:43Z",
+    "updated_at": "2019-11-16T21:14:43Z",
+    "author_association": "NONE",
+    "body": "Changing the hash function has temporary impact on the chain's security, but negligible impact on its security model. The properties of the hash function are relatively unimportant to analysis of PoW security, so long as they fit a few prerequisites (memoryless, cheap to verify, etc).\r\n\r\nOn the other hand, using a finalization mechanism or changing to multi-algorithm PoW would have dramatic effects on the security model that have not been rigorously analyzed. We could open up a much broader conversation about changing the security model, e.g. introducing subjectivity, but it's entirely orthogonal to the ethash/keccak256 conversation",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/554674998/reactions",
+      "total_count": 7,
+      "+1": 7,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

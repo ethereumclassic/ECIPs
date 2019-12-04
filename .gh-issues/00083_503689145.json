@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/503689145",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/83#issuecomment-503689145",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/83",
+    "id": 503689145,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUwMzY4OTE0NQ==",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-06-19T19:04:16Z",
+    "updated_at": "2019-06-19T20:46:10Z",
+    "author_association": "MEMBER",
+    "body": "Hey everyone, I'm currently not sure whether I will be able to join tomorrow's meeting. So just want to post some of my comments. First of all, congratulations everyone! From what I know ETCLabs finally turned back and agreed to push the hard fork date back to September. Thanks all community members who have defended the integrity and security of Ethereum Classic.\r\n\r\nTo re-hash issues why we definitely cannot hard fork in August:\r\n\r\n* There were 2 consensus bugs discovered in Classic Geth recently (https://github.com/eth-classic/go-ethereum/issues/55 https://github.com/eth-classic/go-ethereum/issues/67). Both of them are serious issues which, if undiscovered, will cause a consensus split. This shows that the Classic Geth codebase is not yet matured for production usage. As a result, we need to have at least an extra month or more for the extended testing period. Considering that we need an additional 6 weeks after testing period to inform miners/exchanges/nodes, this puts the earliest possible hard fork date back to September.\r\n* As much as we like Kensington, the testnet is not enough. In particular, one feature added this time is EIP-161, which operates on empty accounts. However, the transition period for Kensington is too early that there is never an empty account on chain. As a result, EIP-161 remains untested no matter what we do on Kensington, and we need another testnet to make sure everything works. This requires extra time.\r\n* We also need to plan for additional code reviews and also importantly, fuzzy testing. All of this take time.\r\n\r\nRegarding @soc1c's comments on predicting the hard fork date: the issue is that we cannot. ETC has only around 1/10 of ETH's hashrate, which means because we're sharing the same algorithm, total network hashrate can fluctuate a lot. This makes the actual time unpredictable. Especially during hard fork, miners may have incentive to switch chains to take advantage of the fork. This is something that has happened in the past. So picking block numbers based on prediction of whether it's on weekdays or weekends probably does not make much sense.\r\n\r\nRegarding the block number -- anything in September should be fine. A slight consideration is that we may have some members in the community who just do not want to hard fork before 8.75m, either due to politics, philosophy or practical planning issues. So it's best to pick the block number to be on or after 8.75m. That is, choose from `8750000`, `8772000`, etc.\r\n\r\nGood luck everyone tomorrow! And congratulations!\r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/503689145/reactions",
+      "total_count": 6,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 3,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 3,
+      "eyes": 0
+    }
+  }

@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/559907758",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/209#issuecomment-559907758",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/209",
+    "id": 559907758,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1OTkwNzc1OA==",
+    "user": {
+      "login": "zoulaihui",
+      "id": 15258122,
+      "node_id": "MDQ6VXNlcjE1MjU4MTIy",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/15258122?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zoulaihui",
+      "html_url": "https://github.com/zoulaihui",
+      "followers_url": "https://api.github.com/users/zoulaihui/followers",
+      "following_url": "https://api.github.com/users/zoulaihui/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zoulaihui/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zoulaihui/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zoulaihui/subscriptions",
+      "organizations_url": "https://api.github.com/users/zoulaihui/orgs",
+      "repos_url": "https://api.github.com/users/zoulaihui/repos",
+      "events_url": "https://api.github.com/users/zoulaihui/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zoulaihui/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-30T03:06:44Z",
+    "updated_at": "2019-11-30T03:07:37Z",
+    "author_association": "MEMBER",
+    "body": "I'm proposing @developerkevin  & @TokenHash. ",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/559907758/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

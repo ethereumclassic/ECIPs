@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/549617969",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/163#issuecomment-549617969",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/163",
+    "id": 549617969,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU0OTYxNzk2OQ==",
+    "user": {
+      "login": "TokenHash",
+      "id": 29529586,
+      "node_id": "MDQ6VXNlcjI5NTI5NTg2",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/29529586?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TokenHash",
+      "html_url": "https://github.com/TokenHash",
+      "followers_url": "https://api.github.com/users/TokenHash/followers",
+      "following_url": "https://api.github.com/users/TokenHash/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TokenHash/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TokenHash/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TokenHash/subscriptions",
+      "organizations_url": "https://api.github.com/users/TokenHash/orgs",
+      "repos_url": "https://api.github.com/users/TokenHash/repos",
+      "events_url": "https://api.github.com/users/TokenHash/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TokenHash/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-05T01:07:53Z",
+    "updated_at": "2019-11-05T01:07:53Z",
+    "author_association": "MEMBER",
+    "body": "I disagree on changing licensing conditions in the current ECIP-1000 in this repo and making past ECIP contributors to agree on a single option retroactively based on no rational argument whatsoever.\r\n\r\nRelated to #162 and what is written in the comments here, there is no rational argument, even less rough consensus, on making past contributors retroactively agree on DCOs.\r\n\r\nAny new changes conditions should apply going forward.\r\n\r\nThe option of \"decloaking\" retroactively or imposing using developer legal name should not even be  under discussion in ETC.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/549617969/reactions",
+      "total_count": 4,
+      "+1": 4,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

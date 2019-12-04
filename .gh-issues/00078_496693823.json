@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/496693823",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/78#issuecomment-496693823",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/78",
+    "id": 496693823,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ5NjY5MzgyMw==",
+    "user": {
+      "login": "antsankov",
+      "id": 2533512,
+      "node_id": "MDQ6VXNlcjI1MzM1MTI=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2533512?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antsankov",
+      "html_url": "https://github.com/antsankov",
+      "followers_url": "https://api.github.com/users/antsankov/followers",
+      "following_url": "https://api.github.com/users/antsankov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/antsankov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/antsankov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/antsankov/subscriptions",
+      "organizations_url": "https://api.github.com/users/antsankov/orgs",
+      "repos_url": "https://api.github.com/users/antsankov/repos",
+      "events_url": "https://api.github.com/users/antsankov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/antsankov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-05-28T21:18:41Z",
+    "updated_at": "2019-05-29T22:43:58Z",
+    "author_association": "NONE",
+    "body": "Would like to share progress on Astor SHA3 testnet \r\n- What has been done so far, \r\n- What are the next steps,\r\n- Community feedback\r\n\r\nhttps://astor.host - home page\r\nhttps://stats.astor.host - stats page\r\nhttps://explore.astor.host - block explorer ",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/496693823/reactions",
+      "total_count": 1,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 1
+    }
+  }

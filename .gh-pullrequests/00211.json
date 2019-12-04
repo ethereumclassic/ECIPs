@@ -1,0 +1,66 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/211",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/211/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/211/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/211/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/211",
+    "id": 530328564,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0MzQ3MDMzMjI4",
+    "number": 211,
+    "title": "ECIP-1000: ECIP Coordinators",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2019-11-29T12:45:33Z",
+    "updated_at": "2019-11-29T12:49:45Z",
+    "closed_at": null,
+    "author_association": "MEMBER",
+    "pull_request": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/211",
+      "html_url": "https://github.com/ethereumclassic/ECIPs/pull/211",
+      "diff_url": "https://github.com/ethereumclassic/ECIPs/pull/211.diff",
+      "patch_url": "https://github.com/ethereumclassic/ECIPs/pull/211.patch"
+    },
+    "body": "For important ECIP issues, core developers regularly hold meetings to gather rough consensus from the community. Those meetings may be conducted by ECIP editors, ECIP coordinators, or anyone else in the community who might be willing to volunteer. Coordinators of a meeting should:\r\n\r\n* Decide on a meeting date, time and location that is available to as many community members as possible.\r\n* Provide an acceptable meeting agenda, and on the call, drive the meeting agenda forward for participants.\r\n* Record the meeting notes and make it available to the public.\r\n\r\nMeeting coordinators should be rotating, in order to offload the burden, and to avoid abuse of the meeting process.\r\n\r\nFor this PR, I'm adding the initial ECIP Coordinators list as https://github.com/ethereumclassic/ECIPs/issues/209 grows (excluding already-assigned ECIP editors, as I assume they're already coordinators).",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/211/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

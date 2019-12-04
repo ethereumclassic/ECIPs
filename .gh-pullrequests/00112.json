@@ -1,0 +1,66 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/112",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/112/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/112/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/112/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/112",
+    "id": 470852378,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0Mjk5Njg1Mjc5",
+    "number": 112,
+    "title": "ECIP-1063.md",
+    "user": {
+      "login": "26jesse",
+      "id": 52479948,
+      "node_id": "MDQ6VXNlcjUyNDc5OTQ4",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/52479948?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/26jesse",
+      "html_url": "https://github.com/26jesse",
+      "followers_url": "https://api.github.com/users/26jesse/followers",
+      "following_url": "https://api.github.com/users/26jesse/following{/other_user}",
+      "gists_url": "https://api.github.com/users/26jesse/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/26jesse/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/26jesse/subscriptions",
+      "organizations_url": "https://api.github.com/users/26jesse/orgs",
+      "repos_url": "https://api.github.com/users/26jesse/repos",
+      "events_url": "https://api.github.com/users/26jesse/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/26jesse/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 2,
+    "created_at": "2019-07-22T01:28:19Z",
+    "updated_at": "2019-08-14T21:33:07Z",
+    "closed_at": "2019-08-14T21:33:07Z",
+    "author_association": "CONTRIBUTOR",
+    "pull_request": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/112",
+      "html_url": "https://github.com/ethereumclassic/ECIPs/pull/112",
+      "diff_url": "https://github.com/ethereumclassic/ECIPs/pull/112.diff",
+      "patch_url": "https://github.com/ethereumclassic/ECIPs/pull/112.patch"
+    },
+    "body": "What do you guys think of this idea? I like the idea of having decentralized oracles and smart contracts for Ethereum Classic.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/112/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

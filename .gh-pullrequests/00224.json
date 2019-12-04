@@ -1,0 +1,66 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/224",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/224/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/224/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/224/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/224",
+    "id": 530637110,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0MzQ3MjY0NzYw",
+    "number": 224,
+    "title": "ECIP-1077: Meta Specification Establishing Fork ECIPs (Using Pull Request development pattern)",
+    "user": {
+      "login": "meowsbits",
+      "id": 45600330,
+      "node_id": "MDQ6VXNlcjQ1NjAwMzMw",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/45600330?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/meowsbits",
+      "html_url": "https://github.com/meowsbits",
+      "followers_url": "https://api.github.com/users/meowsbits/followers",
+      "following_url": "https://api.github.com/users/meowsbits/following{/other_user}",
+      "gists_url": "https://api.github.com/users/meowsbits/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/meowsbits/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/meowsbits/subscriptions",
+      "organizations_url": "https://api.github.com/users/meowsbits/orgs",
+      "repos_url": "https://api.github.com/users/meowsbits/repos",
+      "events_url": "https://api.github.com/users/meowsbits/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/meowsbits/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 4,
+    "created_at": "2019-11-30T22:21:30Z",
+    "updated_at": "2019-12-02T20:10:41Z",
+    "closed_at": null,
+    "author_association": "CONTRIBUTOR",
+    "pull_request": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/224",
+      "html_url": "https://github.com/ethereumclassic/ECIPs/pull/224",
+      "diff_url": "https://github.com/ethereumclassic/ECIPs/pull/224.diff",
+      "patch_url": "https://github.com/ethereumclassic/ECIPs/pull/224.patch"
+    },
+    "body": "### TL;DR\r\n\r\nMake ECIPs with `Type` _Fork_ a thing, where _Fork_ ECIPs should follow this process:\r\n- A \"shell\" Fork ECIP is opened, fitting the [template provided](TODO). This ECIP __does not initially include `Activation Block Number` or `Features` specifications__.\r\n- While in `WIP` or `Draft` status, one or more change sets are proposed against this document (eg. via Github Pull Requests) __modifying BOTH `Activation Block Number` and `Features` specifications__.\r\n- ... Stuff happens; there are comments, emails, meetings, bribes, blogs, bragging, trolling, haranguing, arguing, debating, pondering, editing, compromising, constructive critique, etc...\r\n- One change set is merged to modify the Fork ECIP, yielding a COMPLETE and UNIQUE hard fork specification document, and status is moved to `Last Call`. By virtue of the process specification provided, a Fork ECIP achieving `Last Call` may not see `Draft` nor `WIP` status again (because doing so would require a merging a change set holding INCOMPLETE specification variables). \r\n\r\n---\r\n\r\nRelated to and building from #223 , #222 , #221, #219 .\r\n\r\n---\r\n\r\n#### Discussion preamble from the author\r\n\r\nThis specification requires that Fork _Features_ and _Activation_ numbers are handled inextricably, and that once merged a Fork specification ECIP becomes finalized.\r\n\r\nThere are some important cases and implications to consider for this:\r\n- If, say, a Fork ECIP specification is finalized (having been fully specified with Activation Block Number and Feature Set via a merged change set)... BUT subsequently a bug is found during testing causing a loss of confidence in sucessfully achieving the fork at the specified block number, then the Fork ECIP would want to be `Deferred` or `Withdrawn` or `Rejected`, and then eventually replaced with a new UNIQUE ECIP containing a revised Activation Block Number and possibly also Feature Set parameters. \r\n\r\n- Change sets (here, Pull Requests) are expected to take on a more considerable role for Fork specification development; proposed Feature Set + Activation schedule should be documented explicitly and then discussed relatively. Sensible use of Github's linking tools (Issue/PR references) should be used liberally, and it would probably be good establish a practical naming scheme for proposed Fork ECIP modifications (eg. `FORK-ECIP-9999 Spec: <My features> @ <My block>`) ",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/224/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

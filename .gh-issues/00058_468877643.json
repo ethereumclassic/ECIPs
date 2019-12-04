@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/468877643",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/58#issuecomment-468877643",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/58",
+    "id": 468877643,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ2ODg3NzY0Mw==",
+    "user": {
+      "login": "zoulaihui",
+      "id": 15258122,
+      "node_id": "MDQ6VXNlcjE1MjU4MTIy",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/15258122?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zoulaihui",
+      "html_url": "https://github.com/zoulaihui",
+      "followers_url": "https://api.github.com/users/zoulaihui/followers",
+      "following_url": "https://api.github.com/users/zoulaihui/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zoulaihui/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zoulaihui/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zoulaihui/subscriptions",
+      "organizations_url": "https://api.github.com/users/zoulaihui/orgs",
+      "repos_url": "https://api.github.com/users/zoulaihui/repos",
+      "events_url": "https://api.github.com/users/zoulaihui/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zoulaihui/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-02T03:16:41Z",
+    "updated_at": "2019-03-02T03:17:37Z",
+    "author_association": "MEMBER",
+    "body": "Thank you Wei for creating this issue. I don't understand why there is ECLIP? What is the necessity to create a new protocol improvement standard for ETC?",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/468877643/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

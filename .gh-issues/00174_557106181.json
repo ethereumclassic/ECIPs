@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/557106181",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/174#issuecomment-557106181",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/174",
+    "id": 557106181,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1NzEwNjE4MQ==",
+    "user": {
+      "login": "soc1c",
+      "id": 47772477,
+      "node_id": "MDQ6VXNlcjQ3NzcyNDc3",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/47772477?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/soc1c",
+      "html_url": "https://github.com/soc1c",
+      "followers_url": "https://api.github.com/users/soc1c/followers",
+      "following_url": "https://api.github.com/users/soc1c/following{/other_user}",
+      "gists_url": "https://api.github.com/users/soc1c/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/soc1c/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/soc1c/subscriptions",
+      "organizations_url": "https://api.github.com/users/soc1c/orgs",
+      "repos_url": "https://api.github.com/users/soc1c/repos",
+      "events_url": "https://api.github.com/users/soc1c/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/soc1c/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-11-21T14:21:38Z",
+    "updated_at": "2019-11-22T06:16:33Z",
+    "author_association": "MEMBER",
+    "body": "Attendees\r\n- BTCLovera\r\n- Bwana\r\n- Classic_Kevin_IOHK\r\n- Craig[Bot]\r\n- donsyang\r\n- foenix\r\n- GregTheGreek\r\n- isaac\r\n- Kimi Sian-Yu Chen\r\n- Liz\r\n- mikers\r\n- MikO\r\n- OmniEdge\r\n- Roy Zou\r\n- soc1c\r\n- sorpaas\r\n- stev\r\n- Tj\r\n- tzdybal\r\n- wolf_li\r\n- yaz\r\n- Yebisu\r\n- zacmitton\r\n- zcstarr\r\n\r\nClient team checked in\r\n- [x] ChainSafe\r\n- [x] ETCLabs Core\r\n- [x] Multi-Geth\r\n\r\nECIP-1076 **\"ECBP\" mining change process**?\r\n- Alex: can we add testnet stage?\r\n- Afri: gives ECBP 1076 Overview\r\n- Tomek: only miners decision, is that good?\r\n- Zac: agrees with Tomek\r\n- Terry: Has this been used before?\r\n- Zac: Yes, all Bitcoin softforks\r\n- Problem: this is a hardfork not a softfork\r\n- Alex: But 51% attack can manipulate the signal\r\n- Greg: We did no analysis on client performance\r\n- Afri: increase block range to mitigate 51% attack\r\n- Alex: Core devs should provide defaults \r\n- Zac: agrees, security benefits\r\n- Alex: miners might be invested in certain interests\r\n- Isaac: supports miner voting, proposes 5 million block range?\r\n- Isaac: miners not only service providers, rather the life blood in this space\r\n- Afri: not programmatically enforced but we should stick to the process\r\n- Yaz: Extradata is a good way of signaling\r\n- Kevin: What's our timeline?\r\n- Afri: 5 million blocks are ~ 2 years\r\n- Kevin: asks for delay\r\n- Afri: is confused\r\n- Zac: Do we have rough consensus on miner signaling?\r\n- Bwana: Problem is clearly the decision stage. Signal yes, but not have this binding trigger.\r\n- Afri: proposes to just use the signal and not commit to the binding decision.\r\n- Zac: 5 years is too much\r\n- Afri: proposes 6 months - 1 million blocks\r\n- **rough consensus on the ECBP without binding decision trigger and longer signaling range (1m blocks?)\r\n\r\nECIP-1070: **ProgPOW**\r\n- Yaz: let's reject it\r\n- Greg: let's not jump conclusion\r\n- Greg: upstream clients have it, so we should consider it at least\r\n- Alex: ProgPOW has to be continously tweaked, enormouse security hole\r\n- Greg: but what about Asic resistance?\r\n- Alex: but the quality of the SHA-3 hashing algorithm, disagree with Asic resistance\r\n- Yaz: ProgPOW Asic is easily possible\r\n- Zac: ProgPOW is cool but not for blockchain, we dont want to tweak this over and over again\r\n- Afri: does anyone really want ProgPOW? does anyone disagree with rejecting it?\r\n- Greg disagrees\r\n- Alex: someone has to champion it then\r\n- Yaz: we should send a clear signal to ETH and reject it\r\n- Wei: But we should have an open process to allow it in future\r\n- **rough consensus to reject it but open to put it back in draft if someone champions it**\r\n\r\nECIP-1049: **Keccak-256**\r\n- Alex: introduction and motivation on SHA-3\r\n- Wei: has reservations, SHA-3 needs some work done\r\n- Wei: good way of liberation, high performant\r\n- Alex: we want Asics on the network\r\n- Wei: we should have Asics first\r\n- Tomek: without Asics we don't know efficiency, security concerns\r\n- Zac: we won't get Asics unless we change the algorithm\r\n- Mike: GPU and FPGA performance for SHA3 is very good and energy efficient\r\n- Terry: technical benefits are not clear enough to do such a drastic change \r\n- Alex: What's not clear, security or benefits?\r\n- Stev: we need more research and data, how can we be sure not being 51% attacked\r\n- Yaz: consider security of Nakamoto consensus\r\n- Yaz: Ethash was just designed for Ethereum to sustain ETH till PoS\r\n- Afri: states his opinion\r\n- **no conclusion yet**\r\n- _next call to be announced_ for the remaining decisions (probably Jan/2020)",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/557106181/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }
