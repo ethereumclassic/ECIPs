@@ -41,7 +41,7 @@ When you believe your ECIP is mature and ready to progress past the draft phase,
 
  - **For a Standards Track ECIP of type Core**, ask to have your issue added to the agenda of an upcoming core developer team meeting. There, it can be discussed for inclusion in a future hard fork. If developers agree to include it, the ECIP editors will update the state of your ECIP to 'Accepted'.
  - **For all other ECIPs**, open a PR changing the state of your ECIP to 'Final'. An editor will review your draft and ask if anyone objects to its finalization. If the editor decides there is no rough consensus - for instance, because contributors point out significant issues with the ECIP - they may close the PR and request that you fix the issues in the draft before trying again.
-
+ 
 # ECIP Status Terms
 * **Work in progress (WIP)** -- An ECIP where the author has asked the Ethereum Classic community whether an idea has any chance of support, he/she will write a draft ECIP as a pull request. However, if the idea is still in a very early stage, and will have a lot of commits and changes by the author, editors or contributors, it may be better to enter it as a WIP. Make sure to add [WIP] in the title (example: [WIP] ECIP-X) of the early stage ECIP so other members can mute it if they are not interested in participating at this stage. 
 * **Draft** - An ECIP that is still undergoing iteration and changes, but is ready for general review. Make sure to remove [WIP] from the title so those who have muted the ECIP get the new status and can participate. 
@@ -69,6 +69,15 @@ Every pull request will be reviewed and discussed by core and volunteer Ethereum
 *Figure 1: Status Terms and Process*
 
 Having an ECIP within the folder of the repository does not make it a formally accepted standard until its status becomes "Final". For an ECIP to become Final it requires the common consent of the ecosystem. Those proposing changes should consider that, ultimately, consent may rest with the consensus of the Ethereum Classic implementers and users.
+
+## Disourse Archives
+
+The ECIP Process (and thus, ECIP content) is informed by discourse around it.
+
+Listed below are sovereign archives of discourse pertaining to this [ECIPs repository](https://github.com/ethereumclassic/ECIPs) repository. If you'd like to collect your own archives, a basic tool you can use for reference to collect your own can be found at [this gist](https://gist.github.com/meowsbits/b5a8f9d1304a77c72807c2b981091452). If you have or regularly collect archives of your own, please feel welcome to add to this list.
+
+- https://github.com/meowsbits/ECIPs/tree/gh
+
 
 ## ECIPs Historical Background
 
