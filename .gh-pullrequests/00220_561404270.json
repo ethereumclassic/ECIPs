@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/561404270",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/220#issuecomment-561404270",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/220",
+    "id": 561404270,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MTQwNDI3MA==",
+    "user": {
+      "login": "YazzyYaz",
+      "id": 9094204,
+      "node_id": "MDQ6VXNlcjkwOTQyMDQ=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9094204?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/YazzyYaz",
+      "html_url": "https://github.com/YazzyYaz",
+      "followers_url": "https://api.github.com/users/YazzyYaz/followers",
+      "following_url": "https://api.github.com/users/YazzyYaz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/YazzyYaz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/YazzyYaz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/YazzyYaz/subscriptions",
+      "organizations_url": "https://api.github.com/users/YazzyYaz/orgs",
+      "repos_url": "https://api.github.com/users/YazzyYaz/repos",
+      "events_url": "https://api.github.com/users/YazzyYaz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/YazzyYaz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-03T23:28:39Z",
+    "updated_at": "2019-12-03T23:28:39Z",
+    "author_association": "MEMBER",
+    "body": "@sorpaas your notes are your own fabrication. You presented them 5 days after the call and they contain things I don't remember from the call. You conveniently only have the notes of the call for the issue you're raising in question.\r\n\r\nI also dispute the content of your meeting notes. Your initial question about Last Call was whether it should be 2 weeks. soc1c said three weeks is better.\r\n>Wei: Just to make it clear, does this mean we move forward with 1072 to \"Last Call\" status? If that is the case, how long should be the last call period? Three weeks?\r\n> Afri: Three weeks should be sufficient. We also get to evaluate it on the Ethereum network first.\r\nYou said 2 weeks and Afri said three weeks to allow for it to activate on Ethereum. Your notes indicate something different.\r\n\r\nAlso, my comment:\r\n> Yaz: [Repeat what Wei has said] The hard fork name is already decided to be Aztlan, so that's what it should be called. I do not object giving it a small \"hat\" name Yingchun.\r\n> Afri: Okay, then let's call it Aztlan with Yingchun edition.\r\n\r\n`small \"hat\" name` is not something I said. Again, I dispute the content of your meeting notes as they were only conveniently shown 5 days after the call, and not presented upon you raising issues with Last Call merge on 1061.\r\n\r\nNow you have issues with the discussions of 1061 vs. 1072 since it's not related to this PR. I disagree, it does. You have a personal vendetta against soc1c so your are adding this section here to the ECIP process as to have revenge against 1061 being the one accepted to Last Call. If you'd like to close this PR and open a new one where 1072 is an edition of 1061 that 1061 can reference 1072 as an edition, everyone is happy and can move on.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/561404270/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/561406502",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/220#issuecomment-561406502",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/220",
+    "id": 561406502,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MTQwNjUwMg==",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-03T23:37:20Z",
+    "updated_at": "2019-12-03T23:37:41Z",
+    "author_association": "MEMBER",
+    "body": "@YazzyYaz So your only reason for the actual dispute is that I published my notes late? Do you know Kevin also have notes on the meeting but it's still unpublished until today? I agree my note won't be entirely accurate, but your logic seems to be Afri's note is entirely accurate (which you used to reached your conclusion on ECIP-1061). That's just double standard, or is this a personal attack against me that violates the Code of Conduct?\r\n\r\nThe logic inconsistency I listed about ECIP-1061 is based on the common facts of both me and Afri's notes. By arguing my note was not \"entirely\" accurate, you did nothing to dispute it.\r\n\r\nI don't think what we do about 1072 matters any more, even if it becomes an \"edition\" of 1061 (which originally it wasn't), this PR still stands, and it still won't hide the fact that 1061 is an irregular state transition.\r\n\r\n> You have a personal vendetta\r\n\r\nPlease stop this. This is clearly personal attack and violation of Code of Conduct, which should get you issued an warning.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/561406502/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

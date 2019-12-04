@@ -39,9 +39,9 @@
 
     ],
     "milestone": null,
-    "comments": 29,
+    "comments": 31,
     "created_at": "2019-11-29T17:35:39Z",
-    "updated_at": "2019-12-03T01:42:16Z",
+    "updated_at": "2019-12-04T05:42:31Z",
     "closed_at": null,
     "author_association": "MEMBER",
     "body": "### ETC Core Devs Call - Confirm consensus for Aztlán Upgrade (Yingchun Edition)\r\n\r\nWhen: **Thursday, December 5, 2019, 1pm UTC**, 60 minutes max.\r\n\r\nWhere: **Ethereum Classic Discord** https://discord.gg/dwxb6nf `#ecips` channel. Will use/create a voice channel _ad hoc._\r\n\r\nMeeting Coordinator: @developerkevin.\r\n\r\n### Agenda\r\n\r\n- Aztlán Upgrade (Yingchun Edition) ([ECIP-1061](https://ecips.ethereumclassic.org/ECIPs/ecip-1061)) is in _\"Last Call\"_ status with review ending on 19th Dec 2019.\r\n  - Establish that we have new consensus on ECIP-1061, after several days of crisis.\r\n  - No finger-pointing, blame or post-mortem in this specific meeting.   It would make a lot of sense to do a post-mortem on the last few days, and anybody is welcome to create an issue to start that process, or to publish their own post-mortem, etc.    Just out of scope HERE.\r\n  - No discussion of #221 and #224 or other process clarifications.   Similar to post-mortem, these have value and when we have fully-formed ECIPs we should certainly discuss those.   Just out of scope HERE.\r\n\r\nThis is the full scope of the agenda.  We won't add any items to this call.  Laser focus.\r\n\r\nThe aim of the meeting is to calm everybody's nerves and to get back on track.   We should record the audio.   Multiple people should take minutes.   The outcome should be reported on.",

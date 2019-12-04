@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/561374021",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/220#issuecomment-561374021",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/220",
+    "id": 561374021,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MTM3NDAyMQ==",
+    "user": {
+      "login": "YazzyYaz",
+      "id": 9094204,
+      "node_id": "MDQ6VXNlcjkwOTQyMDQ=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9094204?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/YazzyYaz",
+      "html_url": "https://github.com/YazzyYaz",
+      "followers_url": "https://api.github.com/users/YazzyYaz/followers",
+      "following_url": "https://api.github.com/users/YazzyYaz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/YazzyYaz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/YazzyYaz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/YazzyYaz/subscriptions",
+      "organizations_url": "https://api.github.com/users/YazzyYaz/orgs",
+      "repos_url": "https://api.github.com/users/YazzyYaz/repos",
+      "events_url": "https://api.github.com/users/YazzyYaz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/YazzyYaz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-03T21:53:52Z",
+    "updated_at": "2019-12-03T21:53:52Z",
+    "author_association": "MEMBER",
+    "body": "> We clearly could not build consensus on ECIP-1061 when Afri tried to merge EIPs in without community consensus #176 (review).\r\n\r\nThis is where we disagree, @sorpaas \r\n\r\n@soc1c didn't violate the ECIP-1000 Process. According to the ECIP-1000 process:\r\n> 4: During the life cycle of the ECIP, the author may update the draft as necessary in the git repository. Updates to drafts should also be submitted by the author as pull requests.\r\n\r\nECIP-1061 was still in Draft stage which means it can be updated later as he said it would be following a call the community would have. You blocked it to propose 3 competing ECIPs for the same idea while the initial idea was still in Draft stage and not violating the ECIP-1000.\r\n\r\nSo, you violated the ECIP-1000 process. @soc1c hasn't.\r\n\r\nYou withdrew your competing ECIPs because you realized you violated it, which gives me a lot of respect for you. Now, for this portion that claims @soc1c pushed for an irregular transition, that is where I disagree with you. If @soc1c added a new EIP to ECIP-1061 after it went to Last Call after we had a call, then I would agree with you. But he didn't. It was simply in Draft stage.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/561374021/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

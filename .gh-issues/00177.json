@@ -75,9 +75,9 @@
       "due_on": null,
       "closed_at": null
     },
-    "comments": 25,
+    "comments": 26,
     "created_at": "2019-11-07T17:22:16Z",
-    "updated_at": "2019-12-02T15:31:45Z",
+    "updated_at": "2019-12-03T22:47:18Z",
     "closed_at": "2019-11-28T06:29:12Z",
     "author_association": "MEMBER",
     "body": "Ref [ECIP-1061](https://github.com/ethereumclassic/ECIPs/blob/master/_specs/ecip-1061.md) #81 #157 #176 \r\n\r\n### ETC Core Devs Call - ECIP-1061 Aztlán Finalization\r\n\r\nWhen: **Wednesday, November 27, 2019, 1pm UTC**, 60 minutes max.\r\n\r\nWhere: **Ethereum Classic Discord** https://discord.gg/dwxb6nf `#ecips` channel. Will use/create a voice channel _ad hoc._\r\n\r\n### Agenda\r\n\r\n- Quick client teams check-in\r\n  - Parity Ethereum / Parity Tech\r\n  - Geth Classic / ChainSafe, ETCLabs Core\r\n  - Multi-Geth / Multi-Geth, ETCLabs Core \r\n  - Hyperledger Besu / ChainSafe, PegaSys\r\n- Aztlán (ECIP-1061) needs to be either **accepted** or _updated_ (or _rejected_)\r\n  - discuss included EIPs\r\n  - discuss a timeline for the protocol upgrade\r\n    - Mordor Classic and Kotti Classic testnet (February?)\r\n    - Ethereum Classic mainnet (March?)\r\n- anything else related to Aztlán\r\n\r\nPlease comment to add items to the agenda",

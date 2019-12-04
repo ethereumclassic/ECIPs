@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/561572708",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/238#issuecomment-561572708",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/238",
+    "id": 561572708,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MTU3MjcwOA==",
+    "user": {
+      "login": "YazzyYaz",
+      "id": 9094204,
+      "node_id": "MDQ6VXNlcjkwOTQyMDQ=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9094204?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/YazzyYaz",
+      "html_url": "https://github.com/YazzyYaz",
+      "followers_url": "https://api.github.com/users/YazzyYaz/followers",
+      "following_url": "https://api.github.com/users/YazzyYaz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/YazzyYaz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/YazzyYaz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/YazzyYaz/subscriptions",
+      "organizations_url": "https://api.github.com/users/YazzyYaz/orgs",
+      "repos_url": "https://api.github.com/users/YazzyYaz/repos",
+      "events_url": "https://api.github.com/users/YazzyYaz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/YazzyYaz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-04T10:18:52Z",
+    "updated_at": "2019-12-04T10:18:52Z",
+    "author_association": "MEMBER",
+    "body": "@sorpaas since it's not explicitly stated in the ECIP-1000, you can't say that community can't reach a decision in a call since no violation of the ECIP-1000 occurs. \r\n\r\n> You cannot, however, just say you \"reached a decision\" on the call and use that as the argument to move forward ECIPs. The call does not have that privilege.\r\n\r\nThat's provably false based on the ECIP-1000 mentioning that development calls have that privilege.\r\n\r\nYour other point is:\r\n\r\n> To me that means it's \"just for reference\".\r\n\r\nwhich contradicts the ECIP-1000:\r\n\r\n> Such a proposal is said to have rough consensus if it has been open to discussion on the development calls, Discord channel, other groups or the mailing list\r\n\r\nRough consensus means a development call can be used to make a decision about an ECIP that's non-hardfork related according to ECIP-1000.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/561572708/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

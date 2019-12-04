@@ -1,0 +1,66 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/237",
+    "repository_url": "https://api.github.com/repos/ethereumclassic/ECIPs",
+    "labels_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/237/labels{/name}",
+    "comments_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/237/comments",
+    "events_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/237/events",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/pull/237",
+    "id": 532037468,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0MzQ4MzcxMTc5",
+    "number": 237,
+    "title": "WIP: ECIP-1000: Irregular Process Transitions (Citations version)",
+    "user": {
+      "login": "meowsbits",
+      "id": 45600330,
+      "node_id": "MDQ6VXNlcjQ1NjAwMzMw",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/45600330?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/meowsbits",
+      "html_url": "https://github.com/meowsbits",
+      "followers_url": "https://api.github.com/users/meowsbits/followers",
+      "following_url": "https://api.github.com/users/meowsbits/following{/other_user}",
+      "gists_url": "https://api.github.com/users/meowsbits/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/meowsbits/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/meowsbits/subscriptions",
+      "organizations_url": "https://api.github.com/users/meowsbits/orgs",
+      "repos_url": "https://api.github.com/users/meowsbits/repos",
+      "events_url": "https://api.github.com/users/meowsbits/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/meowsbits/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 5,
+    "created_at": "2019-12-03T14:47:18Z",
+    "updated_at": "2019-12-03T18:42:44Z",
+    "closed_at": null,
+    "author_association": "CONTRIBUTOR",
+    "pull_request": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/pulls/237",
+      "html_url": "https://github.com/ethereumclassic/ECIPs/pull/237",
+      "diff_url": "https://github.com/ethereumclassic/ECIPs/pull/237.diff",
+      "patch_url": "https://github.com/ethereumclassic/ECIPs/pull/237.patch"
+    },
+    "body": "Based on #220.\r\n\r\nThe intention of commits  https://github.com/ethereumclassic/ECIPs/commit/164071a9ff07499edbe2c042772ab9e188fa7c53, https://github.com/ethereumclassic/ECIPs/commit/2784614c62823b0df2ff8385f0113d0e917d93cb, and https://github.com/ethereumclassic/ECIPs/commit/219c88f91eb5737bfa5fbc769b54073923c13108 are to cite the bespoke subject matter for convenient and specific reference.\r\n\r\nMy intention is limited strictly to using primary source citations as a self-evidencing account of events.\r\n\r\nI have used Github metadata included on [branch: gh](https://github.com/ethereumclassic/ECIPs/tree/gh) as sources for citations. This location can be considered tentative and _adhoc_, with the specific location of the cited data of no importance. (I'm happy to get rid of this branch on this remote if it bothers anybody, but there are a lot of other seemingly-\"junk\" branches here as well.) An equivalent branch and data set can be found at https://github.com/meowsbits/ECIPs/tree/gh. With #235 I have proposed adding this data and possibly maintenance processes for it in a more permanent way.\r\n\r\n---\r\n\r\n### TODO\r\n\r\n- [ ] Finish citation for the following clause:\r\n\r\n  > `This constituted a process deviating from the then-established [procedural specification](TODO).`\r\n\r\nIn [ECIP-1000 #Contributing > Tips](https://github.com/ethereumclassic/ECIPs#tips) I found:\r\n\r\n> - For a Standards Track ECIP of type Core, ask to have your issue added to the agenda of an upcoming core developer team meeting. There, it can be discussed for inclusion in a future hard fork. If developers agree to include it, the ECIP editors will update the state of your ECIP to 'Accepted'.\r\n> - For all other ECIPs, open a PR changing the state of your ECIP to 'Final'. An editor will review your draft and ask if anyone objects to its finalization. If the editor decides there is no rough consensus - for instance, because contributors point out significant issues with the ECIP - they may close the PR and request that you fix the issues in the draft before trying again.\r\n\r\nIn [ECIP-1000 #ECIP Status Terms](https://github.com/ethereumclassic/ECIPs#ecip-status-terms) I found: \r\n\r\n> Accepted - An ECIP that has been in Last Call for at least 2 weeks and any technical changes that were requested have been addressed by the author.\r\n\r\nIn [ECIP-1000 #Process Overview](https://github.com/ethereumclassic/ECIPs#process-overview) I found: \r\n\r\n> Having an ECIP within the folder of the repository does not make it a formally accepted standard until its status becomes \"Final\". For an ECIP to become Final it requires the common consent of the ecosystem. Those proposing changes should consider that, ultimately, consent may rest with the consensus of the Ethereum Classic implementers and users.\r\n\r\nThese handle `Accepted` and `Final` status merge qualifications, but I can't seem to find the right specifications to fit our needs for the deviant `Last Call` status merge.  @sorpaas Can you please help with this? \r\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/237/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }
