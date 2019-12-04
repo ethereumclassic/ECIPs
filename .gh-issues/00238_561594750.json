@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/561594750",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/238#issuecomment-561594750",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/238",
+    "id": 561594750,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MTU5NDc1MA==",
+    "user": {
+      "login": "YazzyYaz",
+      "id": 9094204,
+      "node_id": "MDQ6VXNlcjkwOTQyMDQ=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9094204?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/YazzyYaz",
+      "html_url": "https://github.com/YazzyYaz",
+      "followers_url": "https://api.github.com/users/YazzyYaz/followers",
+      "following_url": "https://api.github.com/users/YazzyYaz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/YazzyYaz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/YazzyYaz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/YazzyYaz/subscriptions",
+      "organizations_url": "https://api.github.com/users/YazzyYaz/orgs",
+      "repos_url": "https://api.github.com/users/YazzyYaz/repos",
+      "events_url": "https://api.github.com/users/YazzyYaz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/YazzyYaz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-04T11:01:14Z",
+    "updated_at": "2019-12-04T11:01:14Z",
+    "author_association": "MEMBER",
+    "body": "> Can you stop personal attacks when this discussion is about Code of Conduct?\r\n\r\nIt's not a personal attack. I encourage you to look up the definition. You are spamming this ticket with off-topic discussion, which doesn't necessarily means its malicious but is still spam nevertheless.\r\n\r\n> has a time aspect in it, as mentioned in ECIP-1000\r\n\r\nAgreed, its part of the ECIP-1000 specs.\r\n\r\n> Note that the above almost only happens if no discussions happen in other channels, which is seldom the case.\r\n\r\nIt violates the ECIP-1000 as ECIP-1000 clearly states \"or\" as an option for communications as in the following quotes:\r\n> open to discussion on the development calls, Discord channel, other groups or the mailing list\r\n\r\n\"Or\" is the key here. If a call is scheduled and rough consensus is achieved there, it's considered canon as per the ECIP process.\r\n\r\n> what you previously said \"calls is the canon consensus process\", which is false.\r\n\r\nI never said that, please I encourage you to read what I said more closely: \r\n> \"In both examples shown, it says development calls is considered part of the rough consensus process and not just for reference.\"\r\n\r\nThis clearly shows that I'm not saying calls are the canon consensus process but they're a part of it.\r\n\r\nI attached a screenshot of what you wrote in case you edit your false accusations.\r\n<img width=\"815\" alt=\"Screen Shot 2019-12-04 at 11 59 05 AM\" src=\"https://user-images.githubusercontent.com/9094204/70137173-a7d25280-168d-11ea-8af9-8701e7088211.png\">\r\n\r\nPlease, again, stop spamming this channel with this tangent. Let's isolate the issues. I won't continue this discussion until you respect that your points are off-topic for this issue and warrant a separate issue. Best wishes.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/561594750/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

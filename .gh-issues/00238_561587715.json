@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/561587715",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/238#issuecomment-561587715",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/238",
+    "id": 561587715,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MTU4NzcxNQ==",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-04T10:49:50Z",
+    "updated_at": "2019-12-04T10:51:50Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "> We don't need to spam this ticket with your tangential rhetoric.\r\n\r\nCan you stop personal attacks when this discussion is about Code of Conduct?\r\n\r\n> If a decision was made on a community call to achieve rough consensus and no one objects to it on other communication mediums, it's considered canon.\r\n\r\nThat's partially true, but it has a time aspect in it, as mentioned in ECIP-1000. The better one is as follows:\r\n\r\n> If a decision was made on a community call to achieve rough consensus and no one objects to it on other communication mediums for a certain amount of time after the call (one month, for example), then it's considered canon.\r\n\r\nNote that the above almost only happens if no discussions happen in other channels, which is seldom the case.\r\n\r\n> Calls are part of the canon per the ECIP-1000 rules so whether you wrote it or not\r\n\r\nWell, that's entirely different than what you previously said \"calls is the canon consensus process\", which is false. Calls can participate in the consensus process, or if you insist on your words, calls can be part of the process. However, it certainly does not have any privilege in the process, and other discussion channels can overwrite decisions of the call if it reached a different one, or if the call does not represent community consensus.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/561587715/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

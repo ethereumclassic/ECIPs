@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/561580041",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/238#issuecomment-561580041",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/238",
+    "id": 561580041,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MTU4MDA0MQ==",
+    "user": {
+      "login": "YazzyYaz",
+      "id": 9094204,
+      "node_id": "MDQ6VXNlcjkwOTQyMDQ=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9094204?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/YazzyYaz",
+      "html_url": "https://github.com/YazzyYaz",
+      "followers_url": "https://api.github.com/users/YazzyYaz/followers",
+      "following_url": "https://api.github.com/users/YazzyYaz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/YazzyYaz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/YazzyYaz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/YazzyYaz/subscriptions",
+      "organizations_url": "https://api.github.com/users/YazzyYaz/orgs",
+      "repos_url": "https://api.github.com/users/YazzyYaz/repos",
+      "events_url": "https://api.github.com/users/YazzyYaz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/YazzyYaz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-04T10:31:08Z",
+    "updated_at": "2019-12-04T10:31:08Z",
+    "author_association": "MEMBER",
+    "body": "According to ECIP-1000, calls are considered canon, regardless of the nature of the ECIP itself. You can try continuing to argue your own interpretations based on concisely written rules in the process, but so far, your own interpretations hold no water as the ECIP-1000 clearly says calls can be used for rough consensus.\r\n\r\nSimple solution to your argument is for you to join the call. If you're too busy, maybe make a PR to rectify the ECIP-1000 to suit your schedule.",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/561580041/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

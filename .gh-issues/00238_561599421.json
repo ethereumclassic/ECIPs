@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/561599421",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/238#issuecomment-561599421",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/238",
+    "id": 561599421,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MTU5OTQyMQ==",
+    "user": {
+      "login": "sorpaas",
+      "id": 6277322,
+      "node_id": "MDQ6VXNlcjYyNzczMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6277322?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sorpaas",
+      "html_url": "https://github.com/sorpaas",
+      "followers_url": "https://api.github.com/users/sorpaas/followers",
+      "following_url": "https://api.github.com/users/sorpaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sorpaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sorpaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sorpaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/sorpaas/orgs",
+      "repos_url": "https://api.github.com/users/sorpaas/repos",
+      "events_url": "https://api.github.com/users/sorpaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sorpaas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-04T11:14:50Z",
+    "updated_at": "2019-12-04T11:15:16Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "> It's not a personal attack.\r\n\r\nAre you setting up a precedent that the violator of the CoC is the ultimate judge of the violation? I'm fine with it, and I actually just don't mind if we don't have CoC at all, but that precedent will just make the CoC you wrote nearly useless.\r\n\r\nI don't make accusations without reasons. But \"calls is the canon consensus process\" is indeed what you said:\r\n\r\n> According to ECIP-1000, calls are considered canon, regardless of the nature of the ECIP itself.\r\n\r\n---\r\n\r\n> \"Or\" is the key here. If a call is scheduled and rough consensus is achieved there, it's considered canon as per the ECIP process.\r\n\r\nYes, as you mentioned, \"or\" is the key here. If a decision was already reached in Discord channels or mailing list, it is also considered \"canon\" as per the ECIP process. If you later say, \"I also want to have a call\", should the call be considered invalid because a decision has already reached in other channel? If you want a healthy ECIP process, you certainly shouldn't be ignoring arguments. \r\n\r\nThat's also why calls don't have special privilege, and that's why other channels may and can overwrite decisions you reached in calls. ECIP process is multi-channel. Calls participate as a channel, but that will just be it -- it's a \"reference\".",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/561599421/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }

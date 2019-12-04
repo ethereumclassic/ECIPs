@@ -1,0 +1,43 @@
+{
+    "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/561584653",
+    "html_url": "https://github.com/ethereumclassic/ECIPs/issues/238#issuecomment-561584653",
+    "issue_url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/238",
+    "id": 561584653,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MTU4NDY1Mw==",
+    "user": {
+      "login": "YazzyYaz",
+      "id": 9094204,
+      "node_id": "MDQ6VXNlcjkwOTQyMDQ=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9094204?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/YazzyYaz",
+      "html_url": "https://github.com/YazzyYaz",
+      "followers_url": "https://api.github.com/users/YazzyYaz/followers",
+      "following_url": "https://api.github.com/users/YazzyYaz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/YazzyYaz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/YazzyYaz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/YazzyYaz/subscriptions",
+      "organizations_url": "https://api.github.com/users/YazzyYaz/orgs",
+      "repos_url": "https://api.github.com/users/YazzyYaz/repos",
+      "events_url": "https://api.github.com/users/YazzyYaz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/YazzyYaz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-12-04T10:41:29Z",
+    "updated_at": "2019-12-04T10:41:29Z",
+    "author_association": "MEMBER",
+    "body": "I'll let others decide what ECIP-1000 actually means in reference to calls. Calls are part of the canon per the ECIP-1000 rules so whether you wrote it or not, you clearly don't seem to follow what is written in it and you are claiming its being subverted just because you don't have time to join a call.\r\n\r\nIf a decision was made on a community call to achieve rough consensus and no one objects to it on other communication mediums, it's considered canon.\r\n\r\nIf you don't mind, can you move this discussion to a new issue to fully explore your own interpretations of the concisely written ECIP-1000 as they're considered off topic to this current ticket? We don't need to spam this ticket with your tangential rhetoric. ",
+    "reactions": {
+      "url": "https://api.github.com/repos/ethereumclassic/ECIPs/issues/comments/561584653/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
+  }
