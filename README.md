@@ -74,7 +74,7 @@ Having an ECIP within the folder of the repository does not make it a formally a
 
 The ECIP Process (and thus, ECIP content) is informed by discourse around it.
 
-Listed below are sovereign archives of discourse pertaining to this [ECIPs repository](https://github.com/ethereumclassic/ECIPs). If you'd like to collect your own archives, a basic tool you can use for reference to collect your own can be found at [this gist](https://gist.github.com/meowsbits/b5a8f9d1304a77c72807c2b981091452). If you have or regularly collect archives of your own, please feel welcome to add to this list.
+Listed below are sovereign archives of discourse pertaining to this [ECIPs repository](https://github.com/ethereumclassic/ECIPs). If you'd like to collect your own archives, a basic tool you can use for reference to collect them can be found at [this gist](https://gist.github.com/meowsbits/b5a8f9d1304a77c72807c2b981091452). If you have or regularly collect archives, please feel welcome to add to this list.
 
 - https://github.com/meowsbits/ECIPs/tree/gh
 
