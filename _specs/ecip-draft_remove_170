@@ -2,7 +2,7 @@
 ecip: <ECIP number>
 title: Remove Contract Size Limit
 author: Zachary Belford <@BelfordZ>, Mudit Gupta <@maxsam4>
-discussions-to: TBD
+discussions-to: https://github.com/ethereum/EIPs/issues/1662
 status: WIP
 type: Standards Track (Core)
 created: 2019-12-20
