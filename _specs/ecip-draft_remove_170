@@ -1,0 +1,37 @@
+---
+ecip: <ECIP number>
+title: Remove Contract Size Limit
+author: Zachary Belford <@BelfordZ>, Mudit Gupta <@maxsam4>
+discussions-to: TBD
+status: WIP
+type: Standards Track (Core)
+created: 2019-12-20
+---
+
+### Abstract
+
+As brought up in the Atlantis HF dev call, [EIP-170](https://eips.ethereum.org/EIPS/eip-170) was added as part of [the ECIP-1054 atlantis upgrade](https://github.com/ethereumclassic/ECIPs/blob/0a4afcab7f9b97993a255079ceba848db2495b45/_specs/ecip-1054.md). There are alternate proposals for solving the disproportionate gas cost and possible DoS vector that are detailed in [the ethereum/eips issues section](https://github.com/ethereum/EIPs/issues/1662), as well as a number of arguments as to why it hampers smart contract development significantly. This ECIP is to serve as a mirror of such thread, and hopefully get some discourse around reconsidering this change. I've added @maxsam4 as an author as much of this is copy pasted from the afforementioned issue.
+
+### Motivation
+
+Complex dApps require complex smart contracts. I have seen a lot of dApp developers struggle with this and a lot of alternative solutions are being used like using delegate calls. Delegate calls reduce code readability while developing and while verifying source code on tools like etherscan. They also introduce another attack surface and added complexity.
+
+### Specification
+
+As suggested by @jbaylina in [this comment](https://github.com/ethereum/EIPs/issues/170#issuecomment-258416413):
+![image](https://user-images.githubusercontent.com/1787231/61341343-ba411200-a7fa-11e9-8094-6b248085c9ff.png)
+
+### Rationale
+
+The only reason why contract size was limited was to prevent people from exploiting the fixed costs. We can overcome this by making the costs variable. The suggestion by @jbaylina is more representative of real-world cost of the computation. Fetching is expensive and cache is cheap, and so the cost should be reflected as such.
+
+### Implementation
+
+TBD. Preliminary discussion of alternatives is required.
+
+### References
+
+https://eips.ethereum.org/EIPS/eip-170
+https://github.com/ethereumclassic/ECIPs/blob/0a4afcab7f9b97993a255079ceba848db2495b45/_specs/ecip-1054.md
+https://github.com/ethereum/EIPs/issues/1662
+https://github.com/ethereum/EIPs/issues/170
