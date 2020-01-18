@@ -8,7 +8,7 @@ type: Standards Track
 category: Core
 created: 2020-01-17
 license: Apache-2.0
-discussions-to: https://github.com/ethereumclassic/ECIPs/issues/174
+discussions-to: https://github.com/ethereumclassic/ECIPs/issues/260
 ---
 
 ## Abstract
