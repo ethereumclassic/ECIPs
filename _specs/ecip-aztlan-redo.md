@@ -68,7 +68,7 @@ After HARD_FORK_BLOCK, apply the following changes.
 - Enable [EIP-1344](https://eips.ethereum.org/EIPS/eip-1344)
 - Enable [EIP-2028](https://eips.ethereum.org/EIPS/eip-2028)
 - Enable [EIP-1283](https://eips.ethereum.org/EIPS/eip-1283) with [EIP-1706](https://eips.ethereum.org/EIPS/eip-1706).
-- Enable [50-SELFBALANCE](https://specs.corepaper.org/50-selfbalance) - TODO - create an ECIP for this.
+- Enable [SELFBALANCE opcode](https://github.com/ethereumclassic/ECIPs/issues/266)
 
 
 ### Rationale
@@ -76,10 +76,27 @@ After HARD_FORK_BLOCK, apply the following changes.
 [ECIP 1061: Aztlán EVM and Protocol Upgrades (Yingchun Edition)](https://ecips.ethereumclassic.org/ECIPs/ecip-1061) as defined is "broken" and it would be inadvisable to activate on the ETC mainnet in
 its current state.
 
-Two better options are:
+See [EIP 1884: Repricing for trie-size-dependent opcodes](https://eips.ethereum.org/EIPS/eip-1884) for
+the original rationale for the gas-repricings for ETH.
 
-1. "fix it" and proceed on the existing timeline, if there is enough time to do that.
-2. Withdraw it and build consensus for a new HF on a more conservative timeline.
+These changes are sensible, but they [broke 680 deployed Aragon smart contracts](https://www.coindesk.com/ethereums-istanbul-upgrade-will-break-680-smart-contracts-on-aragon) along with various other deployed
+smart contacts by applying the repricings retroactively and unconditionally.
+
+The new SELFBALANCE opcode does not break backwards compatibility.  For compatibility with ETH it is both
+necessary and desirable.
+
+Short of imminent and catatrophic danger to the ETC network, making retroactive changes which break
+backwards compatibility is counter to ETC values and philosophy.
+
+Gas-repricings to balance EVM gas prices with real world resource usage is entirely rational and is
+happening on the ETC protocol too, but will be done in a backwards-compatible ways wherever possible.
+Unconditional retroactive ("emergency") repricings would only happen when the network has been halted
+or has been rendered unusable.
+
+An example of such a situation occurred following the Shanghai attacks on ETH and ETC networks:
+
+[ECIP 1015: Long-term gas cost changes for IO-heavy operations to mitigate transaction spam attacks](https://ecips.ethereumclassic.org/ECIPs/ecip-1015), which has ETC's equivalent to [ETH Tangerine Whistle](https://eips.ethereum.org/EIPS/eip-608),
+with both chains implementing [EIP 150: Gas cost changes for IO-heavy operations](https://eips.ethereum.org/EIPS/eip-150).
 
 
 ### Implementation
