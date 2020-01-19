@@ -7,7 +7,7 @@ status: Draft
 type: Meta
 created: 2020-01-19
 license: Apache-2.0
-discussions-to: TBD
+discussions-to: https://github.com/ethereumclassic/ECIPs/issues/262
 ---
 
 ### Simple Summary
