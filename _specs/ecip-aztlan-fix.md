@@ -19,15 +19,16 @@ did not match the original intent.
 
 ### Abstract
 
-The network participants who took part in the ETC Core Developers call on xx/xx/xx were under the
-impression at the time that the scope we agreed ("Instanbul without the backward-compatibility
-breaking parts of EIP-1884") - ECIP-1061 / ECIP-1072 - would move the ETC protocol to a place where
-it was 100% compatible with the ETH mainnet.
+The network participants who took part in the
+[ETC Core Developers call](https://github.com/ethereumclassic/ECIPs/issues/177) on 27th November 2019
+were under the impression at the time that the scope we agreed ("Instanbul without the
+backward-compatibility breaking parts of EIP-1884") - ECIP-1061 / ECIP-1072 - would move the ETC
+protocol to a place where it was 100% compatible with the ETH mainnet.
 
 [Wei Tang](https://github.com/sorpaas)'s implementation of ECIP-1061 shortly afterwards revealed
 two flaws in the specification, together with recommendations on how to address those shortcomings.
 
-This ECIP codifies those recommendations.
+This ECIP codifies [those recommendations](https://specs.corepaper.org/49-aztlanfix).
 
 Both hard-forks would be activated at the same block and the combination of both sets of changes
 would result in protocol changes which met the original intent.
