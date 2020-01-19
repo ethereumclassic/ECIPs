@@ -1,0 +1,72 @@
+---
+lang: en
+ecip: Unassigned
+title: SELFBALANCE opcode
+author: Bob Summerwill (@bobsummerwill)
+status: Draft
+type: Meta
+created: 2020-01-19
+license: Apache-2.0
+discussions-to: https://github.com/ethereumclassic/ECIPs/issues/262
+---
+
+### Simple Summary
+
+This is a standalone ECIP for the addition of the SELFBALANCE opcode.  This opcode
+was added to the ETH protocol as part of the broader [EIP 1884: Repricing for trie-size-dependent opcodes](https://eips.ethereum.org/EIPS/eip-1884) which was activated in the [Instanbul hardfork](https://eips.ethereum.org/EIPS/eip-1679).  The 1884 EIP was rejected during the
+[ETC Core Developers call](https://github.com/ethereumclassic/ECIPs/issues/177) on 27th November 2019 because
+it broke backwards compatbility, but in this case the baby was accidentally thrown out with the bathwater.
+
+
+### Abstract
+
+This ECIP is a standalone SELFBALANCE specification, which would be implemented
+as part of the "Phoenix" hardfork which would either ["fix" Aztlán](https://github.com/ethereumclassic/ECIPs/issues/262)
+or would [replace Aztlán](https://github.com/ethereumclassic/ECIPs/issues/264).
+
+The network participants who took part in the
+[ETC Core Developers call](https://github.com/ethereumclassic/ECIPs/issues/177) on 27th November 2019
+were under the impression at the time that the scope we agreed ("Instanbul without the
+backward-compatibility breaking parts of EIP-1884") - ECIP-1061 / ECIP-1072 - would move the ETC
+protocol to a place where it was 100% compatible with the ETH mainnet.
+
+
+### Specification
+
+Thanks to [Wei Tang](https://github.com/sorpaas) for
+[identifying the mis-specification](https://ethereum.corepaper.org/fork/istanbul/#ethereum-classic) and
+for providing his recommendation on how to [rectify it](https://specs.corepaper.org/50-selfbalance).
+
+- A new opcode, `SELFBALANCE` is introduced at `0x47`. 
+  - `SELFBALANCE` pops `0` arguments off the stack, 
+  - `SELFBALANCE` pushes the `balance` of the current address to the stack,
+  - `SELFBALANCE` is priced as `GasFastStep`, at `5` gas. 
+
+
+### Rationale
+
+See [EIP 1884: Repricing for trie-size-dependent opcodes](https://eips.ethereum.org/EIPS/eip-1884) for
+the original rationale for the gas-repricings for ETH.
+
+These changes are sensible, but they [broke 680 deployed Aragon smart contracts](https://www.coindesk.com/ethereums-istanbul-upgrade-will-break-680-smart-contracts-on-aragon) along with various other deployed
+smart contacts by applying the repricings retroactively and unconditionally.
+
+This new opcode does not break backwards compatibility.  For compatibility with ETH it is both
+necessary and desirable.
+
+
+### Implementation
+
+The following clients with Ethereum Classic support already implement the SELFBALANCE opcode, but
+not in this standalone form yet.  The work to support standalone would be minimal.
+
+- Parity Ethereum
+- Multi-Geth
+- Hyperledger Besu
+
+
+## Copyright
+
+This work is licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).  The author, Bob Summerwill, attests to his sole authorship of this work, and that he is able to contribute this work to the ECIP process under the Apache 2.0 licence.
+
+He further attests that he neither holds nor is aware of any patents, trademarks, copyright issues or other IP hinderances associated with this work.
