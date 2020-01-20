@@ -15,11 +15,11 @@ I propose Wei Tang (@sorpaas) be expelled from the Ethereum Classic organization
 
 ### Rationale
 
-He doxxed two editors in ECIP-1000 and fails to correct that doxxing even after being called out for it.
-Abuses his position as ECIP 'editor' and ECIP-1000 'author' to impose false process rules and procedures that only advance his ideas and agenda.
-He constantly lies about how the ECIP process 'should' be according to imaginary rules he makes up, just to stop others from opining and introducing their ideas.
-He is persistently abusive and bully to other developers and contributors by threatening and telling them they 'want bugs' on ETC and that they promote a new 'theDAO'.
-He falsely creates an equivalency between the operating blockchain and the ECIP process as if the ECIP process were as sacred as the blockchain, and property and agreements within it.
+1. He doxxed two editors in ECIP-1000 and fails to correct that doxxing even after being called out for it.
+2. Abuses his position as ECIP 'editor' and ECIP-1000 'author' to impose false process rules and procedures that only advance his ideas and agenda.
+3. He constantly lies about how the ECIP process 'should' be according to imaginary rules he makes up, just to stop others from opining and introducing their ideas.
+4. He is persistently abusive and bully to other developers and contributors by threatening and telling them they 'want bugs' on ETC and that they promote a new 'theDAO'.
+5. He falsely creates an equivalency between the operating blockchain and the ECIP process as if the ECIP process were as sacred as the blockchain, and property and agreements within it.
 
 ### Motivation
 
