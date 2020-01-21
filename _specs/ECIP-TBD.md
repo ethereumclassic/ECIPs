@@ -6,7 +6,7 @@ discussions-to: https://github.com/ethereumclassic/ECIPs/issues/273
 status: Draft
 type: Meta
 created: 2020-01-20
-license: Apache-1
+license: Apache-2
 ---
 
 ### Proposal
