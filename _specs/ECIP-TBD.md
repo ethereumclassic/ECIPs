@@ -69,6 +69,10 @@ Claiming that an "irregular" path is created, making the false analogy to theDAO
  
 There is much more evidence from past conversations with others in the recent months.
 
+EDIT 01-21-2020: Additional evidence of Sorpaas abuse of his position in his recent action: He vandalized this ECIP candidate by posting all the ECIPs he has written in the history of ETC as deleted, so they would be deleted when this ECIP were approved. This is a clear attempt to block his removal by using malicious tactics, rather than arguing in his favor.
+
+![33](https://user-images.githubusercontent.com/29529586/72848386-b686c000-3c61-11ea-9140-637cf23da668.png)
+
 ### Copyright/Licensing
 
 Apache -2
