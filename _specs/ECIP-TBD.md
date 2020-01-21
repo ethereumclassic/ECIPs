@@ -35,7 +35,7 @@ When this ECIP is accepted by rough consensus, the modifications proposed could 
 
 A. Sorpaas doxxing of two editors in ECIP-1000:
 
-![You can see the ECIP-1000 document where two editors are doxxed (this will not be visible once it is corrected.).](https://ecips.ethereumclassic.org/ECIPs/ecip-1000)
+[You can see the ECIP-1000 document where two editors are doxxed (this will not be visible once it is corrected).](https://ecips.ethereumclassic.org/ECIPs/ecip-1000)
 
 B. Example of lying claiming that an 'accepted' ECIP cannot be changed:
 
