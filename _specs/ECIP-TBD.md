@@ -11,7 +11,7 @@ license: Apache-2
 
 ### Proposal
 
-I propose Wei Tang (@sorpaas) to be removed as 'editor' in the ECIP process: ECIP-1000.
+I propose Wei Tang (@sorpaas) to be removed as 'editor' in the Ethereum Classic Improvement Proposal process (ECIP process), which includes removing his Github user (Wei Tang @sorpaas) from ECIP-1000 as an editor, and removing his "write" access to the ECIPs repo by removing him from the "All Hands" team in the Ethereum Classic Github Organization.
 
 ### Rationale
 
@@ -29,7 +29,7 @@ For the above I make this proposal for his removal as ECIP-1000 editor.
 
 ### Implementation
 
-When this ECIP is accepted by rough consensus, the modifications proposed could be implemented by Ethereum Classic Organization owners on Github and ECIP editors directly on the corresponding ECIPs.
+When this ECIP is accepted by rough consensus, the modifications proposed could be implemented by Ethereum Classic Organization owners on Github and/or ECIP editors directly on the corresponding ECIPs.
 
 ### Some Evidence That Informs This Proposal
 
