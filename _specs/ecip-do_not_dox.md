@@ -1,0 +1,43 @@
+---
+lang: en
+ecip: Unassigned
+title: Do Not Dox ECIP Editors
+author: Bob Summerwill (@bobsummerwill)
+status: Draft
+type: Meta
+created: 2020-01-19
+license: Apache-2.0
+discussions-to: https://github.com/ethereumclassic/ECIPs/issues/272
+---
+
+### Abstract
+
+Both [soc1c](https://github.com/soc1c) and [meowbits](https://github.com/meowbits) have
+made it crystal clear in multiple posts across Github and the ETC Discord server
+that they do not want their real names to be used in ECIP-1000 anymore, but instead
+will be using "Talha Cross" and "Mr. Meows D. Bits" respectively as their pseudonyms.
+
+Their contact details remain the same and they are readily contactable.
+
+
+### Motivation
+
+Donald expressed this [very well](https://github.com/ethereumclassic/ECIPs/pull/236#issuecomment-574242091)
+in a recent Github comment:
+
+"... it is absolutely acceptable to work pseudonymously. It is a long tradition of
+decades in the cypherpunk philosophy (the source and likely creators or Bitcoin) and
+Bitcoin, the first implementation of a PoW blockchain, was, in fact, created by a
+pseudonymous individual or team.
+
+As it is imperative in the crypto industries (both cryptography and blockchain) to let
+people work in the level of privacy they prefer, it is irrelevant for the ECIP process
+what names contributors choose to use, therefore it is not appropriate, "important",
+nor advisable to mark participants by their levels of privacy."
+
+
+## Copyright
+
+This work is licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).  The author, Bob Summerwill, attests to his sole authorship of this work, and that he is able to contribute this work to the ECIP process under the Apache 2.0 licence.
+
+He further attests that he neither holds nor is aware of any patents, trademarks, copyright issues or other IP hinderances associated with this work.
