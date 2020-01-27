@@ -1,6 +1,6 @@
 ---
 lang: en
-ecip: **Please assign a number here <-**
+ecip: **Please assign a number here and on the ECIP URL <-**
 title: Do Not Dox ECIP Editors
 author: Bob Summerwill (@bobsummerwill)
 status: Draft
