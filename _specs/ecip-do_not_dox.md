@@ -1,6 +1,6 @@
 ---
 lang: en
-ecip: Unassigned
+ecip: **Please assign a number here <-**
 title: Do Not Dox ECIP Editors
 author: Bob Summerwill (@bobsummerwill)
 status: Draft
