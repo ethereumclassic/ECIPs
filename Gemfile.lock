@@ -265,6 +265,7 @@ DEPENDENCIES
   jekyll (~> 3.6.2)
   jekyll-feed (~> 0.6)
   minima (~> 2.0)
+  nokogiri (>= 1.10.8)
   tzinfo-data
 
 BUNDLED WITH
