@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/meowsbits/ecip_validator
+  revision: 29f45d2fb81d37676729be3e1899633849b006c1
+  specs:
+    ecip_validator (0.8.2)
+      activemodel
+      front_matter_parser (~> 0.1.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -20,9 +28,6 @@ GEM
     commonmarker (0.17.13)
       ruby-enum (~> 0.5)
     concurrent-ruby (1.1.6)
-    eip_validator (0.8.2)
-      activemodel
-      front_matter_parser (~> 0.1.1)
     ethon (0.12.0)
       ffi (>= 1.3.0)
     execjs (2.7.0)
@@ -259,7 +264,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  eip_validator (>= 0.8.0)
+  ecip_validator!
   github-pages
   html-proofer (>= 3.3.1)
   jekyll (~> 3.6.2)
