@@ -6,8 +6,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
     - name: Validate the ECIP spec files
-    - run: bundle install
-    - run: bundle exec ecip_validator _specs/*
-
+      run: bundle install && bundle exec ecip_validator _specs/*
