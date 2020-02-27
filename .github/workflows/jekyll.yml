@@ -3,7 +3,6 @@ name: Jekyll Workflow
 on: [push]
 
 jobs:
-  if: github.repository == 'ethereumclassic/ECIPs'
   build:
 
     runs-on: ubuntu-latest
@@ -11,6 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Build the site in the jekyll/builder container
+      if: github.repository == 'ethereumclassic/ECIPs'
       run: |
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
