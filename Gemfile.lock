@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/meowsbits/ecip_validator
-  revision: d7ff58ad3c28791df33b99aec2abe7ed57e640f2
+  revision: c811b098193459e6adf5a4624a395705515b9818
   specs:
     ecip_validator (0.8.2)
       activemodel
