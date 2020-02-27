@@ -1,0 +1,13 @@
+name: ECIP Validation Workflow
+
+on: [pull_request, push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Validate the ECIP spec files
+    - run: bundle install
+    - run: bundle exec ecip_validator _specs/*
+

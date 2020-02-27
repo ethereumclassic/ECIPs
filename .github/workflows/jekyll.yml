@@ -1,4 +1,4 @@
-name: Ethereum Classic Improvement Proposals CI
+name: Jekyll Workflow
 
 on: [push]
 
