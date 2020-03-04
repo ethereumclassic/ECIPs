@@ -9,6 +9,7 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll", "~> 3.6.2"
+gem "nokogiri", ">= 1.10.8"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.0"
@@ -31,4 +32,4 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 gem "html-proofer", '>=3.3.1'
 
-gem "eip_validator", ">=0.8.0"
+gem 'ecip_validator', '>= 0.9.0'
