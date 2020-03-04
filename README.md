@@ -70,6 +70,15 @@ Every pull request will be reviewed and discussed by core and volunteer Ethereum
 
 Having an ECIP within the folder of the repository does not make it a formally accepted standard until its status becomes "Final". For an ECIP to become Final it requires the common consent of the ecosystem. Those proposing changes should consider that, ultimately, consent may rest with the consensus of the Ethereum Classic implementers and users.
 
+## Discourse Archives
+
+The ECIP Process (and thus, ECIP content) is informed by discourse around it.
+
+Listed below are sovereign archives of discourse pertaining to this [ECIPs repository](https://github.com/ethereumclassic/ECIPs). If you'd like to collect your own archives, a basic tool you can use for reference to collect them can be found at [this gist](https://gist.github.com/meowsbits/b5a8f9d1304a77c72807c2b981091452). If you have or regularly collect archives, please feel welcome to add to this list.
+
+- https://github.com/meowsbits/ECIPs/tree/gh
+
+
 ## ECIPs Historical Background
 
 ECIPs were born out of the [Ethereum](https://github.com/ethereum/EIPs) (or Ethereum Foundation) EIP repository after [TheDAO hard fork](https://en.wikipedia.org/wiki/The_DAO_(organization)). At that time no other differences between Ethereum Classic (the original mainnet) and Ethereum existed besides TheDAO hard-fork. Changes have since been added such as the early defusal of the difficulty bomb and a change of the monetary policy to a fixed supply.

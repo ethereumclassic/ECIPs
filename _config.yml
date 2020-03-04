@@ -4,6 +4,7 @@ description: >-
   platform, including core protocol specifications, client APIs, and contract
   standards.
 url: "http://ecips.ethereumclassic.org"
+repository: ethereumclassic/ECIPS
 
 markdown: kramdown
 theme: minima
