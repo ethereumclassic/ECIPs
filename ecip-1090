@@ -1,0 +1,27 @@
+---
+ecip: <1090>
+title: <CHAINID=0>
+lang: <en | zh | <any>>
+translator: <if a translation, name or pseudonym of translator>
+author: <MichaelJoseph: mjspennies@gmail.com>
+discussions-to: <email address or accessible online forum>
+status: <Draft>
+type: <Meta>
+category: <Core>
+created: <2020-04-05>
+replaces: <EIP 155>
+superseded-by: <ECIP number>
+resolution: <url>
+---
+
+### Abstract
+set CHAINID to equal 0, or if hashrates permit, Pi.
+### Motivation
+
+### Specification
+
+### Rationale
+Doing so will legitimize our chain as the original Ethereum Blockchain: immudatbility and future immutability is assured.
+### Implementation
+
+### Copyright/Licensing
