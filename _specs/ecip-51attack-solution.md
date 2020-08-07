@@ -28,10 +28,6 @@ The description of the protocol states that instead of automatically syncing wit
 
 This protocol is already implemented in Pirl and Callisto Network. The protocol has a working time tested reference implementation. The proposed change requires minimal modifications of the Ethereum CLassic protocol while offers a reliable method of protecting against the recent attacks and the relevant threat of newer similar attacks.
 
-# Backwards Compatibility
-
-Requires hardfork.
-
 # Implementations
 
 Here is a reference implementation of the protocol in GO lang: https://github.com/EthereumCommonwealth/go-callisto/blob/master/core/pirl_guard.go
