@@ -14,8 +14,10 @@ created: 2020-08-07
 A proposal to replace the current Ethereum Classic proof of work algorithm with RandomX.
 
 ### Motivation
-Ethereum CLassic suffered a second round of 51% attacks due to dwindling hashrate.
-* [July 31, 2020](https://blog.bitquery.io/attacker-stole-807k-etc-in-ethereum-classic-51-attack) you can find an article from Cointelegraph describing the 51% attack on 6 Aug 2020. * [August 7, 2020](https://blog.bitquery.io/ethereum-classic-attack-8-august-catch-me-if-you-can). This ECIP is presented to provide an ASIC-resistant option for the discussion of possible solutions.
+Ethereum Classic suffered a second round of 51% attacks due to dwindling hashrate on the Ethash algorithm.
+* [July 31, 2020](https://blog.bitquery.io/attacker-stole-807k-etc-in-ethereum-classic-51-attack) * [August 6, 2020](https://blog.bitquery.io/ethereum-classic-attack-8-august-catch-me-if-you-can).
+
+This ECIP is presented to provide an ASIC-resistant option for the discussion of possible solutions.
 
 # Specification
 
