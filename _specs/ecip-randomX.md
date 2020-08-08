@@ -7,7 +7,7 @@ type: Standards Track
 category: Core
 discussions-to: https://github.com/ethereumclassic/ECIPs/issues/329
 author: r0n1n (gitr0n1n@protonmail.com)
-created: 2020-07-08
+created: 2020-08-07
 ---
 
 ### Abstract
