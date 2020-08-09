@@ -1,6 +1,6 @@
 ---
 lang: en
-ecip: ?
+ecip: To Be Determined
 title: Change the ETC Proof of Work Algorithm to RandomX
 status: Draft
 type: Standards Track
@@ -15,9 +15,19 @@ A proposal to replace the current Ethereum Classic proof of work algorithm with 
 
 ### Motivation
 Ethereum Classic suffered a second round of 51% attacks due to dwindling hashrate on the Ethash algorithm.
-* [July 31, 2020](https://blog.bitquery.io/attacker-stole-807k-etc-in-ethereum-classic-51-attack) * [August 6, 2020](https://blog.bitquery.io/ethereum-classic-attack-8-august-catch-me-if-you-can).
 
-This ECIP is presented to provide an ASIC-resistant option for the discussion of possible solutions.
+* [July 31, 2020](https://blog.bitquery.io/attacker-stole-807k-etc-in-ethereum-classic-51-attack)
+* [August 6, 2020](https://blog.bitquery.io/ethereum-classic-attack-8-august-catch-me-if-you-can).
+
+This ECIP is presented to provide an ASIC-resistant option for the discussion of switching to a new algorithm.
+
+This PR is to compliment the algorithm discussions. If we consider an algorithm change this provides an ASIC-resistant option, opposed to the SHA3 all-in ASIC option.
+
+Related:
+- Do nothing. Stay on Ethash.
+- Fix the DAG. Stay on Ethash. https://github.com/ethereumclassic/ECIPs/issues/11
+- Change algorithm to ASIC-friendly SHA3. https://github.com/ethereumclassic/ECIPs/issues/13
+- Change algorithm to ASIC-resistant RandomX. https://github.com/ethereumclassic/ECIPs/issues/329
 
 # Specification
 
