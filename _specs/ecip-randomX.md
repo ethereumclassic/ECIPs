@@ -31,7 +31,7 @@ Related:
 
 # Specification
 
-The proposed solution refers to the [RandomX](https://web.getmonero.org/resources/moneropedia/randomx.html). This spec was sourced from the [Monero Community](https://github.com/tevador/RandomX).
+The proposed solution refers to [RandomX](https://web.getmonero.org/resources/moneropedia/randomx.html). This spec was sourced from the [Monero Community](https://github.com/tevador/RandomX). Thank you to all the wonderful researchers contributing to the goal of ASIC resistant algorithms.
 
 # RandomX
 RandomX is a proof-of-work (PoW) algorithm that is optimized for general-purpose CPUs. RandomX uses random code execution (hence the name) together with several memory-hard techniques to minimize the efficiency advantage of specialized hardware.
