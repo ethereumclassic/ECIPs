@@ -1,6 +1,6 @@
 ---
 lang: en
-ecip: To Be Determined
+ecip: ECIP-1093
 title: Change the ETC Proof of Work Algorithm to RandomX
 status: Draft
 type: Standards Track
