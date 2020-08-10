@@ -1,6 +1,6 @@
 ---
 lang: en
-ecip: ?
+ecip: 1092
 title: 51% attack solution: PirlGuard & Callisto
 status: Draft
 type: Core
