@@ -5,7 +5,7 @@ title: 51% attack solution: PirlGuard & Callisto
 status: Draft
 type: Core
 discussions-to: https://github.com/ethereumclassic/ECIPs/issues/327
-author: Dexaran (dexaran@callisto.network)
+author: dexaran (@dexaran)
 created: 2020-07-08
 license: LGPL-v3
 ---
