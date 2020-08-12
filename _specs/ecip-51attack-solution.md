@@ -1,0 +1,39 @@
+---
+lang: en
+ecip: 1092
+title: 51% attack solution: PirlGuard & Callisto
+status: Draft
+type: Core
+discussions-to: https://github.com/ethereumclassic/ECIPs/issues/327
+author: dexaran (@dexaran)
+created: 2020-07-08
+license: LGPL-v3
+---
+
+# Abstract
+
+The following describes a method of preventing a 51% attack on Ethash-based POW chains.
+
+# Motivation
+
+Ethereum CLassic suffered a number of 51% attacks already. [Here](https://cointelegraph.com/news/is-etc-102-screwed-after-second-51-attack) you can find an article from Cointelegraph describing the 51% attack on 6 Aug 2020. [Here](https://cointelegraph.com/news/ethereum-classic-51-attack-the-reality-of-proof-of-work) you can find another article describing the 51% attack on 10 Jan 2019. As long as ETC protocol remains unchanged it is susceptible for more 51% attacks.
+
+# Specification
+
+The proposed solution refers to the [PirlGuard protocol](https://pirl.io/en/pirlguard-innovative-solution-against-51-attacks/). 
+
+The description of the protocol states that instead of automatically syncing with any privately-mined chain branch the new protocol should require the peer proposing the privately-chain (and the reversal of the publicly mined and synced blocks) to mine  a number of "penalty" blocks. The number of penalty blocks must depend on the number of the original blocks that would be reverted if the chain will reorganize and sync to the proposed (privately-mined) branch. Thus the cost of the 51% attack will dramatically increase as the attacker will not be able to mine his private branch and then broadcast it to the network thus reverting all the transactions from the "main" branch.
+
+# Rationale
+
+This protocol is already implemented in Pirl and Callisto Network. The protocol has a working time tested reference implementation. The proposed change requires minimal modifications of the Ethereum CLassic protocol while offers a reliable method of protecting against the recent attacks and the relevant threat of newer similar attacks.
+
+# Implementations
+
+Here is a reference implementation of the protocol in GO lang: https://github.com/EthereumCommonwealth/go-callisto/blob/master/core/pirl_guard.go
+
+https://github.com/EthereumCommonwealth/go-callisto/blob/master/core/blockchain.go#L1540
+
+# Copyright
+
+This ECIP is licensed under [GNU Lesser General Public License v3.0](https://www.gnu.org/licenses/lgpl-3.0.en.html).
