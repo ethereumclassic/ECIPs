@@ -568,3 +568,8 @@ Additionally, the anti-censorship capabilities that VeriBlock introduces through
 Proof-of-Proof doesn’t replace Ethereum Classic’s existing Proof-of-Work algorithm but provides reinforcement of it based on Bitcoin, and doesn’t introduce any centralized system or modify the blockchain’s governance system (adoption of hard forks, etc. is still done by consensus amongst PoW miners).
 
 Adjustments can be made to how Proof-of-Proof is integrated into Ethereum Classic based on tradeoffs between backwards compatibility with existing software, ease of implementation, data size, and tolerable levels of introduced complexity. As well, some parts of the VeriBlock integration can be skipped; the transaction offloading system that provides protection against 51% censorship attacks could be removed while still integrating Proof-of-Proof to provide security against surprise long-range reorganizations, and the integration of the `BITCOINFINALITY` opcode can be skipped to reduce the amount of data required to be stored directly on-chain (versus acquired by only nodes wanting to access Bitcoin finality statistics) if desired. 
+
+## Copyright
+
+This work is licensed under [Apache License, Version
+2.0](http://www.apache.org/licenses/).
