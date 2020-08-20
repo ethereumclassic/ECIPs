@@ -1,7 +1,7 @@
 ---
 lang: en
 ecip: ECIP 1094
-title: Proof-of-Proof 51% Attack Prevention
+title: VeriBlock Proof-of-Proof 51%-Attack Prevention
 status: Draft
 type: Standards Track
 discussions-to: https://github.com/max-sanchez/ECIPs-1/issues/?
