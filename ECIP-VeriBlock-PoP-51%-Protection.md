@@ -1,6 +1,6 @@
 ---
 lang: en
-ecip: ECIP ????
+ecip: ECIP 1094
 title: Proof-of-Proof 51% Attack Prevention
 status: Draft
 type: Standards Track
