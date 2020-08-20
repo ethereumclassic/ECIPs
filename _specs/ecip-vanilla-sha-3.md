@@ -1,0 +1,73 @@
+```
+ECIP: TBD
+Title: Change the ETC Proof of Work Algorithm to _vanilla_ Sha-3
+Status: Draft
+Type: Network
+Discussion: TBD
+Author: Stevan Lohja (stevanio@protonmail.com)
+License: Apache-2.0
+Created: 2020-08-20
+```
+
+# Change the ETC Proof of Work Algorithm to _vanilla_ Sha-3
+
+__Abstract.__ Make Sha-3-256 Standard the Proof of Work algorithm for Ethereum Classic. Ethereum’s development coincided with the development of the Sha-3 standard, but the Sha-3 standard was finalized shortly after Ethereum launched. So, Ethereum was left with a variant of Sha-3 that did not produce standard Sha-3 hashes. This variant of Sha-3 utilized in Ethereum was named Keccak-256 to avoid confusion. Keccak-256 is utilized in the EVM, but the Proof of Work algorithm is Ethash. Ethash is combination of Keccak256 & Daggerhashimoto which contibutes the memory intensive feature (Dag). The Dag was added due to the premise of ASIC resistance, but that premise since Ethash ASICs exist. So, Ethash’s Dag is built on the false premise of ASIC resistance and not utilizing the official Sha-3 Standard algorithem.
+
+Ethereum Classic's hashrate is also a minority of Ethereum's and the amount of rentable hashrate is available on the market to 51% attack the Ethereum Classic network. In short summary, this proposal seeks to:
+
+- Remove Daggerhashimoto (Dag)
+- Bump Keccak-256 to Sha-3-256 Standard
+- Become a majority PoW algorithem in the industry
+
+__Disclaimer.__ This is an alternative proposal to ECIP-1049 [1] since Keccak-256 and _vanilla_ Sha-3 produce different hashing results. However, most of the arguments in this proposal are compatible with ECIP-1049 since Keccak-256 and _vanilla_ Sha-3 differ in padding. ECIP-1049 and this proposal are both in support of switching the PoW to a Sha-3-based algorithem.
+
+__Motivation.__ The motivation of this proposal is to standardize the cryptographic hash function of the Ethereum Classic network with _vanilla_ Sha-3 and become a majority chain in it's respective PoW.
+
+__Rationale.__ 
+
+- __Cryptographic standardization__: By bumping Keccak-256 to _vanilla_ Sha-3, Ethereum Classic will have the official Sha-3 algorithem recognized by NIST. Sha-3 features:
+  - __Enhanced security__: Sha-3 is the latest member of the Secure Hash Algorithm family of standards and certified by the Federal Information Processing Standards (FIPS) [2].
+  - __Reduced risk of non-compliance__: Software agreements can have complex compliance criteria and compliance audits can be time consuming or simply a deal-breaker. Having a standardized cryptographic hash function would reduce the risk of non-compliance as _vanilla_ Sha-3 is certified by trusted organizations and has been thoroughly vetted to obtain its place in the Sha family [3].
+  - __Enhanced productivity__: Sha-3 is a solidified cryptographic function with certification and documentation. This reduces research and maintenance costs for engineers especially since Sha-3 ASIC chip designs are available.
+- __Less PoW Competition__: There are no major public blockchains whom use Sha-3 for PoW. Ethereum Classic's current market status to adopt Sha-3 would make it the majority chain for its respective PoW without having to compete in existing PoW ecosystems for miners.
+
+__Design.__
+
+As mentioned in ECIP-1049:
+
+> 1. The Proof of work function needs to be replaced with Keccak256
+> 2. The Function that checks the nonce-header in the block needs to know to accept Keccak256 hashes as valid for a block.
+
+Diagram: https://camo.githubusercontent.com/97974a2041c7633669309cf41902e4ad6b78e4cc/68747470733a2f2f692e696d6775722e636f6d2f32686f62714f4c2e706e67
+
+Instead: 
+
+1. Replace the PoW function in the EVM with _vanilla_ Sha-3-256.
+2. The function that checks the nonce-header in a block needs to accept _vanilla_ Sha-3 as valid.
+
+__Development & Testing.__
+
+Since switching to Sha-3 is resetting the mining algorithem, we need "open-source" tools and resources to help facilitate the adoption of the new PoW.
+
+- __Client implementation__: All major Ethereum Classic protocol providing clients such as Core-geth and Besu need a Sha-3 implementation.
+- __Mining-pool software__: A mining pool tool will allow anyone to contribute a mining pool to the Etherem Classic network.
+- __Mining software__: Existing AMD+NVIDIA GPU mining software for Ethash is available, but there is not solidified Sha-3 variant. We can collaborate with existing mining software providers or build new ones.
+- __Mining hardware__: We need to know the performance difference between commodity GPUs and a Sha-3 ASIC. Sha-3 is ASIC friendly and cheaper to build ASICs for than Ethash. Some chip manufacturers may be interested in participating in the initiative since is may be economically rewarding.
+- __Sha-3 testnet launch__: Launch of a Sha-3 Ethereum Classic testnet.
+- __Sha-3 network testing__: Test all operations of the testnet from mining, transactions, and smart contracts.
+
+__Implementation.__
+
+- __Recounciliation__: 
+  - Get commitment from miners and pools to contribute to the new PoW network.
+  - Have community recounciliation of testing results and make changes as needed.
+- __Set a Hard-fork date__: Assuming the Sha-3 testnet is deemed suitable for mainnet adoption, plan a hard-fork with enough time to coodinate stakeholders.
+
+References:
+1. Alexander Tsankov. ECIP-1049 Change the ETC Proof of Work Algorithm to Keccak256. URL: https://ecips.ethereumclassic.org/ECIPs/ecip-1049
+2. Federal Information Processing Standards (FIPS). PUB 202. 2015. URL: https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.202.pdf 
+3. NIST. Approved Algorithms. URL: https://csrc.nist.gov/projects/hash-functions
+
+
+
+
