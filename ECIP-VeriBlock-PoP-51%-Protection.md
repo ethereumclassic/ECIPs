@@ -2,7 +2,7 @@
 lang: en
 ecip: ECIP ????
 title: Proof-of-Proof 51% Attack Prevention
-status: Active
+status: Draft
 type: Standards Track
 discussions-to: https://github.com/max-sanchez/ECIPs-1/issues/?
 author: Max Sanchez (@max-sanchez)
