@@ -6,7 +6,7 @@ status: Draft
 type: Standards Track
 category: Core
 discussions-to: https://github.com/ethereumclassic/ECIPs/issues/343
-author: Sergio Lerner (@SergioDemianLerner) and Martin Medina  (@martinmedina) 
+author: Sergio Lerner (@SergioDemianLerner) and Martin Medina (@martinmedina) 
 created: 2020-08-22
 ---
 
@@ -54,6 +54,7 @@ Hit Confirmations can prove not to contain the merge-mining tag and merge-mining
 
 The format of a VisibilityProof message is the following:
 
+```
 VisibilityProof = { Payload , Signature } 
 Payload = { ETC-Block-Height, list of Merge-Mining-Proof [, ETC-Address] }
 Merge-Mining-Proof = {Bitcoin-Header, Transaction-Membership-Proof,Coinbase-Tail, SHA256-Mid-State [,MM-Proof] [,Armadillo-Data] }
@@ -71,6 +72,7 @@ Terminal-Hash = Array[0..19] of Byte
 Armadillo-Data = Commit-To-Parents-Vector, Total-Difficulty-Compressed
 Commits-To-Parent-Vector = Array[0..7] of Uint16
 Total-Difficulty-Compressed = Uint64
+```
 
 For Membership Proofs("RSKBLOCK:"):
 Terminal-Hash = Keccack(ChainID | ETC-Block-Hash | ETC-Address | Armadillo-Data)[0..11]
