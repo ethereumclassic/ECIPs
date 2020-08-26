@@ -1,0 +1,450 @@
+---
+lang: en
+ECIP: ECIP-XXX
+Title: Proto Treasury System 
+Author: Julian Mendiola, Nicolas Tallar, Brian McKenna 
+Discussions-To: TBD
+Status: Draft
+Type: Standards Track
+Category: Core
+Created: 2020-08-26
+---
+
+### Abstract
+This document outlines a proposal for the implementation of a proto-treasury system in Ethereum Classic.  It describes the high-level structure of the **proto-Ethereum Classic Treasury System (p-ECTS**), and its general properties. Detailed specifications for each part of the system, as well as reference implementation, can be found in the [GitHub repository]( https://github.com/input-output-hk/etc_treasury_system).
+
+### Motivation
+The primary motives of the p-ECTS is to establish a stable and reliable funding mechanism for independent teams, each of whom are capable of both maintaining core clients and evolving the development of the Ethereum Classic platform, as well as initiating the funding of a Gitcoin grants pool for wider community development. 
+
+The current approach of relying on voluntarism and benefactors to support the ETC eco-system has failed. A clear signal needs to be sent to the wider community that ETC means to move forward with confidence with a clear vision to deliver a stable stream of funding that encourages developer engagement.
+
+To realise this ambitious vision, innovation must be encouraged and the ETC network must be consistently maintained and continuously improved. Blockchain protocols are highly complex distributed systems that are proven to be expensive to research, develop, and implement while operating within an  increasingly competitive developer market. ETC needs to position itself as a desirable platform for innovation where developers want to invest their time making improvements and building new applications.
+
+ETC can gain significant competitive advantage in the medium and long-term outlook by delivering a stable, decentralized and community-driven funding system for protocol development that is backed by a clear technical roadmap. To achieve this goal, stable and reliable funding is required, under the transparent and verifiable control of the Ethereum Classic community, through the ECIP process. With full transparency, proposals can be thoroughly questioned and rigorously examined by fellow community members, with community members themselves making collective funding decisions.
+
+ETC needs a vision to inspire developers - particularly those currently outside the ETC ecosystem, to build on the platform, ahead of the many other well-funded competitor platforms in the space. This treasury system is designed to do this quickly and efficiently and having a high value ETC will also mitigate against potential 51% attacks.
+
+We recognise this proposal outlines a significant change to the future governance of ETC. For this reason, we are proposing an element of built in obsolescence so the community has the opportunity to directly assess the value of the treasury system and in time, actively vote for its continuation and further development or indeed to allow it to be reversed.
+
+This proposal is not designed to deliver an end-state system, but a stepping stone solution on the path to the launch of a fully decentralized treasury system.
+
+
+### Specification
+
+#### Solution Overview and Rationale 
+
+This proposal opts for the most simple solution for the p-ECTS to encourage collaboration and transparency for this first-step treasury system.
+
+This specification represents the p-ECTS only, and a best-in-class treasury and governance model, such as outlined in [[1]](https://eprint.iacr.org/2018/435.pdf
+), can be proposed by the community via the ECIP mechanism in the future.
+
+We would also put forward that this treasury system would go through a formal verification process to ensure that it behaves as per the final specification.
+
+#### Parameters
+
+| Name | Description | Proposed value |
+|---|---|---|
+|**FORK_BLKNUM**|Block on which the Hard Fork will take place.|TBD|
+|**Initial client members addresses**|Collections of all MemberType.Client.|TBD|
+|**gitcoinAddress**|Gitcoin grant address.|TBD|
+|**treasuryBlockReward**|Amount of ETC received by the treasury.|20% portion of the block reward|
+|**gitcoinRewardPerc**|Percentage of reward that the MemberType.Gitcoin will receive.|10%|
+|**proposalMinDeposit**| Minimum amount of ETC required to submit a proposal.|100 ETC|
+|**proposalDebatePeriod**| Amount of time the proposal can be voted on.|30 days|
+|**proposalPreSupportPeriod**| Amount of time before the proposal voting deadline, on which the pre_support_flag can be evaluated.|2 days|
+|**proposalMinQuourum**| Minimum amount of ETC required to have participated in voting for a proposal (either yes/no) to be considered applicable. | 1/3 of total ETC supply (*)|
+|**proposalMajorityPerc**| Percentage of majority (yes over no votes) required for any proposal to be passed.|60%|
+|**lockedWaitingTime**| Time since funds are locked until they can be used for proposal voting.|1 day|
+|**shutdownGacePeriod**| Period of time after a shutdown proposal has been approved, where proposals can no longer be submitted, but funds can be recovered.|7 days|
+
+(*) Obtaining the exact total supply from a smart contract is not easy, and we'll probably need to make some estimations, like taking the average of a lower and upper bound.
+
+#### Data Dictionary
+
+- **Member**: Entity that will receive funding, identified by an address.
+- **MemberType**: 
+    - Client
+    - Gitcoin
+- **N**: number of active MemberType.Client to receive funding on a given time.
+
+#### Protocol changes: Treasury Fund
+
+Currently, when a block is successfully mined on the Ethereum Classic blockchain, the miner receives 3.2 ETC as a block reward. For now, all rewards and fees are taken by the miners who have produced the blocks; it is possible to take a portion of the reward to fund the treasury.  This change proposes that the block reward is adjusted so that:
+- 80% of the block reward goes to the miners
+- 20% goes to the p-ECTS smart contract address or the burn address (0x0)
+(note: transaction fees will not be included in the treasury fund)
+
+The miner will be able to choose whether they want to send the 20% to the defined address, or burn the funds completely. 
+
+In the special case where the treasury contracts have been shut off, the miner will reclaim the 20% and receive the full block reward.
+
+The funds allocation for the treasury contract, or the burn address, will be allocated in the same way as the coinbase funds. That is, with direct intervention on the balance of those accounts.
+
+
+#### Funds distribution
+
+Treasury funds will be held in escrow in the p-ECTS smart contract. Capability to withdraw from the p-ECTS will be limited to the contract members, initially three *MemberType.Client*  for the core ETC development teams and a single *MemberType.Gitcoin* Gitcoin grant.
+
+Funds will be distributed as follows:
+
+    gitcoinFunds = treasuryBlockReward * gitcoinRewardPerc
+    clientFunds =  (treasuryBlockReward - gitcoinReward) / N 
+
+_Note that if the division by N might has some leftover dust, it will be "collected" by future distributions._
+
+So, for example for the initial proposed state, on which we have three client members, the distribution will be:
+
+- *Gitcoin grant*: 10%
+- *Client Member 1*: 30%
+- *Client Member 2*: 30%
+- *Client Member 3*: 30%
+
+
+Note that as the funds are allocated directly on the treasury contract address, a transaction will be needed to actually distribute ( *distributeFunds()*) them and make them available for withdrawal to each of the members, then each one will need an extra call to do so ( *withdrawFunds()*). 
+As *distributeFunds* considers the state of the contract at that moment, it’s important that any method that alters this state, first executes it.
+
+#### Governance of p-ECTS
+
+##### Proposal and voting mechanics
+
+Governance participation is open to all ETC holders who can vote on any proposed changes to the p-ECTS. 
+
+Votes will be counted as total locked ETC that has participated (voted yes/no) on each proposal.
+
+Anyone can submit a new proposal to update the p-ECTS, but they need to include a minimum amount of funds (*proposalMinDeposit*), those funds will be locked until the proposal ends (not *active*) and will be counted as *yes* votes.
+
+A similar lockdown mechanism applies for the voting, the voter will need to lock their funds for *lockedWaitingTime* until they're elegible and they can cast any vote with them. If the same user wants to register more funds with the same address, all their previous funds will be locked for the new *lockedWaitingTime* period as well.
+
+Participants will be able to unlock these funds and take them back, as long as they are not currently being used as votes on another proposal in progress.
+
+Participants can use the same eligible stake for voting simultaneously on any proposals under consideration.
+
+Participants can change their vote at any time during the proposal period, but all their funds will be taken into account and they will all need to be unlocked. For example, if I vote *yes* with 10ETC, then lock an extra 5ETC, wait the *lockedWaitingTime* and now re-vote as *no*, this will count as a 15ETC *no* vote.
+
+Participants, with the exception of the proposal submitter, can also unregister votes, and the same locking funds restrictions apply. For example, if I vote *yes* with 10ETC, then lock an extra 5ETC, wait the *lockedWaitingTime* and now unregister my votes, naturally, only my 10ETC *yes* vote will be revoked. The funds however, will remain blocked for withdrawl until the proposal finihed.
+
+A proposal lifecycle for updates to p-ECTS consists of the following phases, delimited with certain events:
+    - **Proposal creation event**: The proposal gets created, its author's stake is registered as a *yes* vote and it immediately enters the *voting phase*.
+    - **Voting phase**: Since creation, and up to *proposalCreationTime* + *proposalDebatePeriod*; the proposal can register new votes, change votes or unvote.
+    - **Proposal pre-support event**: Before the proposal's voting ends, there is a *proposalPreSupportPeriod* in which the *preSupport* flag can be evaluated. If a majority has voted yes and has a quorum, this flag will be activated, which is a pre-condition for the proposal to pass. (See: [Ambush attacks prevention](#ambush-attacks-prevention) Section)
+    - **Proposal voting deadline event**: After *proposalCreationTime* + *proposalDebatePeriod*, the proposal no longer accepts votes, meaning that the proposal outcome is settled at this moment.
+    - **Proposal execution phase**: After the deadline event, if the proposal gets approved, it's publicly available to be executed, making the change effective immediately.
+    
+##### Proposal approval criteria
+
+- The Treasury cannot be in shutdown state.
+- It needs to be active (have not been executed before) and have completed the *proposalDebatePeriod*.
+- It needs to have the pre-support flag on.
+- It needs to have reached minimun quorum. Meaning that the sum of all yes and no votes has to be equal, or bigger than *proposalMinQuorum* at closing time.
+- It needs to have majority consensus, meaning that amount of *yes votes*, over *no votes*, needs to be equal or bigger than *proposalMajorityPerc*.
+
+
+##### Members add & remove
+
+Through the proposal mechanism, the community has the power to **remove a member** from the p-ECTS. It can be both a MemberType.Client or MemberType.Gitcoin.
+
+The community also has the power to **add members** to the p-ECTS. Only MemberType.Client can be added. There is no limit to the number of clients.
+
+##### Members address update
+
+Through the proposal mechanism, the community has the power to **update a member address** from the p-ECTS. It can be both a MemberType.Client or MemberType.Gitcoin.
+The fundamental difference with remove/add is that in this case, the accumulated funds for this member remain available for them to withdraw, using this updated address.
+This is particularly useful if a member loses their private keys or their keys become compromised.
+It applies for all MemberTypes.
+
+Please also review the [Notes section](#client-account-maintenance) on this topic.
+
+
+##### Treasury shutdown
+
+Through the proposal mechanism, the community has the power to shut down the p-ECTS, and from that point forward the full block reward will revert to the miners.
+
+The shutdown is carried out in two steps. First, the proposal execution sets the *shutdownScheduledAt* time and the *shutdownGracePeriod* starts. During this time, no new proposal can be submitted, nor votes cast. Also, all the funds are unblocked and available to be withdrawn.
+Secondly, after *shutdownGracePeriod*, the actual shutdown method is enabled and the contract can be effectively self destructed. The operation is irreversible, and whatever funds are left in it, become "burned".
+
+
+#### Interface
+
+```sol
+interface ITreasury {
+
+    // ---------------------
+    // EVENTS
+    // ---------------------
+
+    /// @dev emitted when a proposal to add a new client is created
+    event AddClientProposal(uint256 _proposalID, address submitter, address clientToAdd);
+
+    /// @dev emitted when a proposal to remove a client is created
+    event RemoveClientProposal(uint256 _proposalID, address submitter, address clientToRemove);
+
+    /// @dev emitted when a proposal to remove gitcoin is created
+    event RemoveGitcoinProposal(uint256 _proposalID, address submitter);
+
+    /// @dev emitted when a proposal to update the address of a member is created
+    event UpdateMemberAddressProposal(uint256 _proposalID, address submitter, address oldClientAddress, address newClientAddress);
+
+    /// @dev emitted when a proposal to shutdown treasury is created
+    event ShutdownProposal(uint256 _proposalID, address submitter);
+
+
+    /// @dev emitted when a client is added (after proposal execution)
+    event ClientAdded(address clientAdded);
+
+    /// @dev emitted when a client is removed (after proposal execution)
+    event ClientRemoved(address clientRemoved);
+
+    /// @dev emitted when a member address is updated (after proposal execution)
+    event MemberAddressUpdated(address oldClientAddress, address newClientAddress);
+
+    /// @dev emitted when gitcoin is removed (after proposal execution)
+    event GitcoinRemoved();
+
+    /// @dev emitted when shutdown is scheduled (after proposal execution)
+    event ShutdownScheduled();
+
+    /// @dev emitted when an unsuccessful proposal is closed
+    event ClosedProposal(uint256 _proposalID);
+
+
+    // ---------------------
+    // WITHDRAWAL
+    // ---------------------
+
+    /// @notice Accepts donations 
+    receive() external payable;
+
+    /// @notice Calculates the funds corresponding to each member based on this.balance,
+    ///         distributing the accordingly, for future withdraw by each member
+    function distributeFunds() external;
+
+    /// @notice Withdraws pending funds corresponding to the sender
+    /// @return Whether the withdraw was successful or not
+    function withdrawFunds() external returns(bool);
+
+
+    // ---------------------
+    // LOCKING/UNLOCKING
+    // ---------------------
+
+    /// @notice Locks transfered funds on the smart contract, to be eventually used for
+    ///         voting proposals. The sender won't be able to use any of their locked
+    ///         funds (including previous locks) till locked_waiting_time time passes
+    /// @return Whether lock was successful or not
+    function lockFunds() external payable returns(bool);
+
+
+    /// @notice Partially unlocks senders' funds and transfers them back to the owner
+    /// @param amount Funds (in wei) that the sender wants to remove
+    function unlockFunds(uint256 amount) external;
+
+
+    // ---------------------
+    // PROPOSAL CREATION
+    // ---------------------
+
+    /// @notice Creates a proposal for adding a new client
+    ///         The sender needs to send at least proposalMinDeposit, which will be exclusively
+    ///         used for this proposal (and will count as positive votes) and will return to the
+    ///         creator once the proposal is executed or closed
+    /// @param clientToAdd the new client to be added if the proposal succeeds
+    function proposeAddClient(address clientToAdd) payable external;
+
+    /// @notice Creates a proposal for adding a removing member
+    ///         The sender needs to send at least proposalMinDeposit, which will be exclusively
+    ///         used for this proposal (and will count as positive votes) and will return to the
+    ///         creator once the proposal is executed or closed
+    /// @param clientToRemove the existing member to be removed if the proposal succeeds
+    function proposeRemoveClient(address clientToRemove) payable external;
+
+    /// @notice Creates a proposal for updating a member address
+    ///         The sender needs to send at least proposalMinDeposit, which will be exclusively
+    ///         used for this proposal (and will count as positive votes) and will return to the
+    ///         creator once the proposal is executed or closed
+    /// @param memberToUpdate the existing member to be updated if the proposal succeeds
+    /// @param newMemberAddress new member address
+    function proposeUpdateMemberAddress(address memberToUpdate, address newMemberAddress) payable external;
+
+    /// @notice Creates a proposal for removing the gitcoin member
+    ///         The sender needs to send at least proposalMinDeposit, which will be exclusively
+    ///         used for this proposal (and will count as positive votes) and will return to the
+    ///         creator once the proposal is executed or closed
+    function proposeRemoveGitcoin() payable external;
+
+    /// @notice Creates a proposal for shutting down treasury
+    ///         The sender needs to send at least proposalMinDeposit, which will be exclusively
+    ///         used for this proposal (and will count as positive votes) and will return to the
+    ///         creator once the proposal is executed or closed
+    function proposeShutdown() payable external;
+
+
+    // ---------------------
+    // PROPOSAL VOTING
+    // ---------------------
+
+    /// @notice Vote for a proposal, with all your unlocked staked
+    ///         Requires:
+    ///          - voting period to not have ended
+    ///          - any locked locks already available for usage
+    /// @param _proposalID of the proposal being voted on
+    /// @param _supportsProposal whether the vote is in favour or against it
+    function vote(uint256 _proposalID, bool _supportsProposal) external;
+
+    /// @notice Remove the vote for a proposal
+    /// @param _proposalID of the proposal from where votes are being removed
+    function unvote(uint _proposalID) external;
+
+
+    // ---------------------
+    // PROPOSAL EXECUTION
+    // ---------------------
+
+    /// @notice Pre-approves a proposal that already reached quorum and majority in favour
+    /// @param _proposalID Id of the proposal being pre-approved
+    function preApprove(uint _proposalID) external;
+
+    /// @notice Executes the proposal, calling first distributeFunds and then applying the effects of it
+    ///         - Added/removed member (including gitcoin) results in change in the distribution since next block
+    ///         - Updated member address results in pending and future funds for previous address to
+    ///           be given to the new one
+    ///         - Shutdown results in it to be scheduled after the shutdownGracePeriod
+    /// @param _proposalID Id of the proposal to execute
+    /// @param clientIndex For client removeal or update, the index on the members array should be passed
+    function execProposal(uint256 _proposalID, uint256 clientIndex) external;
+
+    /// @notice Closes an unsuccessful proposal. A proposal is considered unsuccessful if:
+    ///          - it wasn't pre-approved
+    ///          - since pre-support it lost it's quorum or majority in favour of it
+    /// @param _proposalID Id of the proposal to close
+    function closeProposal(uint256 _proposalID) external;
+
+    /// @notice Allows a proposal creator to recover it's deposit once the proposal has been
+    ///         closed or executed
+    /// @param _proposalID Id of the proposal the deposit is being recovered
+    function recoverProposalDeposit(uint _proposalID) external;
+
+
+    // ---------------------
+    // SHUTDOWN
+    // ---------------------
+
+    /// @notice Executes the shutdown and selfdestructs the contract
+    ///         Requires a shutdown to have been scheduled shutdownGracePeriod before
+    function shutdown() external;
+
+
+    // ---------------------
+    // QUERYING
+    // ---------------------
+
+    /// @notice Returns the available balance the member can withdraw at this moment
+    function getAvailableWithdrawBalance(address memberAddress) external view returns(uint256);
+
+    /// @notice true if there locked funds are not been blocked by a debating poposal 
+    function canUnlockFunds() external view returns(bool);
+
+    /// @notice Returns the amount locked by a participant
+    /// @param participant address from which we desire to query the amount of funds
+    /// @return amount locked with the participant
+    function getLockedAmount(address participant) external view returns(uint256);
+
+    /// @notice Returns the amount of active members of client type.
+    function getClientMembersSize() external view returns(uint256);
+    
+    /// @notice Returns the address and the name of the Client member in the index array position
+    function getClientMemberAt(uint256 index) external view returns(address, string memory);
+    
+    /// @notice Returns the address of the gitcoin members.
+    function getGitcoinAddress() external view returns(address);
+
+    /// @notice Returns the state of a proposal
+    /// @return active whether the proposal was executed/closed or not
+    /// @return preSupport whether the proposal has been pre-approved or not
+    /// @return proposedAtTime time when the proposal was created
+    /// @return endsAtTime time when the proposal voting period will end and it will be open to closing/executing
+    /// @return yesVotes amount of stake in favour of the proposal
+    /// @return noVotes amount of stake against a proposal
+    function getProposalState(uint256 proposalId) external view returns(bool active, bool preSupport, uint256 proposedAtTime, uint256 endsAtTime, uint256 yesVotes, uint256 noVotes);
+
+    /// @notice true if there a proposal for shutdown was executed 
+    function withShutdownInProgress() external view returns(bool);
+}
+```
+
+#### Notes and considerations
+
+##### Client account maintenance
+
+In the event that a client funding account has been lost or compromised, we had incorporated a proposal type (*ProposalType.UpdateClientAddress*) to make the change, but going through the proposal process to make such a update might be overkill and there is no need to involve the whole community in something that is solely the client's responsibility.
+
+We suggest an alternative mechanism to cover this, in which each client would have two different sets of keys; one **spending key** that would allow them to manage their funds and acts as a *hot wallet* and a second one that can act as a **revocation key/certificate**. This second key doesn't neccessarily have to be an ETC account but could follow another standard (such as PGP for example).
+This would facilitate the client in making a more frequent rotation of their spending keys in a secure way.
+
+##### Ambush attacks prevention
+
+**Ambush attack**: "Surprise" that a huge approval is given to a proposal at the last minute. A proposal that seems to be going towards a "No" outcome, suddenly receives a big amount of yes votes and the result is flipped at the last minute.
+
+**Prevention**: Successful proposals require early pre-support, which already raises warnings that this approval might go through, so anyone that wants to counteract, can intervene during this period.
+
+###### No version/upgradability rationale
+
+Adhering to the ECIP's rationale on keeping the solution simple and with the unmutability principles of ETC,  we chose to model the governece protocol as a fixed set of pre-defined operations. 
+Other models, that allow proxy-like structures on which the logic can be upgraded ( like [OpenZeppelinProxies](https://docs.openzeppelin.com/upgrades/2.8/proxies])) are much more versatile, but they add more complexity and it's evolution is impossible to predict.
+
+###### Treasury fixed reward
+
+In the p-ECTS, the 20% reward that goes into the treasury is fixed, meaning that changing this allocated reward percentage would require a new hard fork.
+
+We evaluated allowing the treasury governance to have the possibility of updating this reward allocation. For example, allowing the treasury smart contract to give back some portion to the miner or allowing the miners to dynamically "read" from the contract state the percentage they need to send.
+
+However, this feature presents a technical challenge that we think exceeds its benefits, and we propose that such an important network parameter needs to be changed via a hard fork.
+
+We have decided not to include this functionality. As this ECIP is open for input from the ETC Community, this decision can be discussed further to guage if there is broad support for this approach.
+
+###### Even distribution for clients
+
+Even if the initial distribution (10% & 3x30%) can be settled in the beginning, it can be argued that it's too rigid whilst adding/removing new members. Again, keeping things simple was the cornerstone of this proposal but we might want to consider the ability to include new distribution schemas, either as a new proposal type and/or on the adding/removing operation itself.
+On the other hand, agreeing on what percentages go to each member could be a difficult decision and could lead to unnecessary unrest in the community. The even distrubution, although being a rather blunt instrument, seems easier to accept. 
+
+###### Shutdown selfdestruction rationale
+
+As the consensus layer needs to know when the treasury has been shut-off (so that miners can take their 20% back), we think it's convenient to utilize the self-destruct feature [3]. It's an effective mechanism to "state" that a contract is not longer valid, and it's easy to validate this condition at the consensus layer.
+
+###### No Members left
+
+The contract would allow for a situation in which all members get removed, and if some miners keep sending the treasury reward instead of burning it, the contract will accumulate all the funds - if someone executes the distribute method under these circumstances, the funds won't be affected.
+
+When a new client member is added, he will be able to reclaim all the funds.
+We think this is the correct behavior undestanding that the treasury funds are above any client or executor, but we don't expect either an empty, or single member, situation should happen.
+The gitcoin member is fundamentally different, as they're an external partner, so removing them will result in re-assigning their current and future funds to the treasury's reserves.
+
+###### No Proposal pruning
+
+To keep things simple, we exclude any pruning possibility, especially on the proposal structure where gas efficiency could be improved.
+
+### Assumptions
+
+The following assumptions apply to this proposal:
+
+* Each p-ECTS member should ensure transparency by producing weekly and monthly development reports and meeting regularly to coordinate development efforts.
+* All smart contracts will go through one or more professional security audits before deployment.
+* After deployment, independent parties will need to verify that the deployed contract corresponds exactly to the audited version. All ETC clients will include this in their actual hard fork proposal. 
+* Supply changes will require a hard fork.
+* Gitcoin grant [2] has ETC integrations and allows an active account to periodically receive funds.
+* The treasury system should have an open, user-friendly UI to support community participation and engagement.
+
+### Reference Implementation
+
+A basic prototype implementation is included to illustrate the mechanics of the treasury smart contract. 
+It is **not production code** and it's only intention at this point is to be a playground for experimentation and a driver for discussion.
+
+You can find it here: [ETC Treasury System](https://github.com/input-output-hk/etc_treasury_system)
+
+### References
+[1] https://iohk.io/en/research/library/papers/a-treasury-system-for-cryptocurrenciesenabling-better-collaborative-intelligence/
+
+[2] https://gitcoin.co/grants/
+
+[3] https://solidity.readthedocs.io/en/v0.6.12/introduction-to-smart-contracts.html#deactivate-and-self-destruct
+
+
