@@ -3,7 +3,7 @@ ecip: <ECIP number>
 title: 51% Attack Resistance 
 lang: en
 author: Dimitris Karokostas, Radek Tkaczyk, Romain Pellerin, Brian McKenna
-discussions-to: LINK_TO_ISSUE 
+discussions-to: https://github.com/ethereumclassic/ECIPs/issues/348 | https://github.com/input-output-hk/ECIPs/issues/1
 status: Draft
 type: Standards Track
 category: Core
