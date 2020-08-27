@@ -3,7 +3,7 @@ lang: en
 ECIP: ECIP-XXX
 Title: Proto Treasury System 
 Author: Julian Mendiola, Nicolas Tallar, Brian McKenna 
-Discussions-To: TBD
+Discussions-To: https://github.com/ethereumclassic/ECIPs/issues/350 | https://github.com/input-output-hk/ECIPs/issues/2
 Status: Draft
 Type: Standards Track
 Category: Core
