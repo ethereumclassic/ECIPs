@@ -143,12 +143,23 @@ In order to get the information validated, "merge-mining proof time" must be bou
 Internally, once the contract receives the data from the auction winner, RSK mining nodes start mining Bitcoin blocks with the given information in the merge-mining Merkle tree, whose root is specified in the coinbase transaction. 
 Not all RSK blocks fulfill Bitcoin difficulty, and therefore the UMM system only focuses on the blocks that occur after the first hit (including the hit). 
 
-## Detecting and Preventing Double-Spend Attacks
+## Detecting and Preventing Visible Double-Spend Attacks
 
 An ad-hoc double-spend monitoring system similar to RSK's [Armadillo](https://bitslog.com/2019/08/01/armadillo-more-consensus-security-for-rsk/) protection system should be deployed.
 This system can product succinct proofs that can convince any node that an attack is ongoing without the need for this node to connect to the Bitcoin network. This enables the creation of an alert system embedded into the ETC network that can propagate alerts and automatically protect nodes, increasing the soundness at the cost of availability. However, the sole existence of the system is enough of a deterrent to  prevent attacks and therefore availability is not normally affected.
 Exchanges can stop confirming deposits during attack periods to prevent being affected by double-spend attacks. 
 
+
+## Detecting and Preventing Hidden Double-Spend Attacks
+
+We've shown that the VisibilityProof system provides monetary incentives to include visibility proofs, but the incentives are too low to guarantee protection against a hidden attacker that double-spends against an online exchage. We must ensure that there are stronger incentives for VisibilityProofs to exists, forcing the malicious fork to be become public. Once the fork is public, the Armadillo monitoring system can produce useful alerts.
+Since several methods are possible to increase the need of VisibilityProofs, we think the method chosen should be specified in a separate ECIP.
+
+However here we present some possibilities:
+
+* Request at least 33% of the Bitcoin hashrate providing visibility proofs with at least one visibility proof every 3 hours, in order to consider the fork valid. The forked chain can achieve this by including a single VisibilityProof hit every 3 hours. 
+
+* Using a system such as PirGuard to penalize forks that do not provide visibility proofs. Our suggestion is that a fixed visibility threshold is chosen, and penalization either occurs or not (boolean). It's also possible to penalize in inverse proportion to the visibility of a fork, but the effects on the stability of the blockchain in this case must be further studied.  
 
 ## Copyright/Licensing
 
