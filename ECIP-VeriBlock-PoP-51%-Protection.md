@@ -5,7 +5,7 @@ title: VeriBlock Proof-of-Proof 51%-Attack Prevention
 category: core
 status: Draft
 type: Standards Track
-discussions-to: https://github.com/max-sanchez/ECIPs-1/issues/?
+discussions-to: https://github.com/ethereumclassic/ECIPs/issues/360
 author: Max Sanchez (@max-sanchez)
 created: 2020-08-19
 license: Apache-2
