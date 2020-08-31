@@ -1,6 +1,6 @@
 ---
 lang: en
-ecip: ECIP 1094
+ecip: 1094
 title: VeriBlock Proof-of-Proof 51%-Attack Prevention
 category: core
 status: Draft
