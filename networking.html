@@ -3,5 +3,5 @@ layout: page
 title: Networking
 ---
 
-{% assign eips=site.specs|where:"lang","en"|where:"type","Networking" %}
+{% assign eips=site.specs|where:"lang","en"|where:"category","Networking" %}
 {% include eiptable.html eips=eips %}
