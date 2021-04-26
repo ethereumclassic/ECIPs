@@ -8,7 +8,6 @@ status: Draft
 type: Standards Track
 category: ECBP
 created: 2020-09-04
-license: Apache-2
 ---
 
 
