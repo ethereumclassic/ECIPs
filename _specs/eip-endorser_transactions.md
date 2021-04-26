@@ -109,4 +109,5 @@ This solution does not rely on any single oracle or oracles, whereas most checkp
 
 ## Copyright/Licensing
 
-Copyright 2020 Isaac A. \<b5c6@protonmail.com\>
+Copyright and related rights waived via
+[CC0](https://creativecommons.org/publicdomain/zero/1.0/).
