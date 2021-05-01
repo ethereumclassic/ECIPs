@@ -21,7 +21,7 @@ Provide a way for node operators to prefer an arbitrary chain segment, and to us
 
 A low hash rate has caused Ethereum Classic's consensus algorithms to yield inconvenient and undesirable finality rates.
 
-The motivation of this proposal is to achieve a solution that alleviates a slow finality curve, while creatively managing the effects of tampering with existing "hard" consensus protocols.
+This proposal describes a method for collective chain discretion which is currently achievable, avoiding any required modifications to existing consensus protocol.
 
 ## Specification
 
