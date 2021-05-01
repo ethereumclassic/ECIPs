@@ -1,13 +1,13 @@
 ---
-eip: 3534
+ecip: TBD
 title: Restricted Chain Context Type Transactions
-author: Isaac Ardis (@whilei)
-discussions-to: https://ethereum-magicians.org/t/eip-3534-restricted-chain-context-transaction-type/6112
+author: Isaac (@meowsbits)
+discussions-to: https://github.com/ethereumclassic/ECIPs/issues/422
 status: Draft
 type: Standards Track
 category: Core
 created: 2021-04-20
-requires: 2718, 2930
+requires: EIP-2718, EIP-2930
 ---
 
 ## Simple Summary
@@ -186,14 +186,14 @@ From this constraint hierarchy, we note that an implementation of `ancestorId` c
 The transaction is only valid when included in a block having an `etherbase` contained in the annotated list of addresses.
 The use of "whitelist" (`eligibleMinerList`) in conjunction with a "blacklist" (`ineligibleMinerList`) is logically inconsistent; their conjunction is not allowed.
 
-A `MAX_ELEMENTS` limit of `3` is chosen to balance the interests of limiting the potential size of transactions, and to provide a sufficient level of articulation for the user. At the time of writing, the top 3 miners of Ethereum (by block, measured by known public addresses) account for 52% of all blocks produced.
+A `MAX_ELEMENTS` limit of `3` is chosen to balance the interests of limiting the potential size of transactions, and to provide a sufficient level of articulation for the user. At the time of writing, the top 3 miners of Ethereum (by block, measured by known public addresses) account for 68% of all blocks produced.
 
 #### `ineligibleMinerList`
 
 The transaction is only valid when included in a block having an `etherbase` _not_ contained in the annotated list of addresses.
 The use of "blacklist" (`ineligibleMinerList`) in conjunction with a "whitelist" (`eligibleMinerList`) is logically inconsistent; their conjunction is not allowed.
 
-A `MAX_ELEMENTS` limit of `3` is chosen to balance the interests of limiting the potential size of transactions, and to provide a sufficient level of articulation for the user. At the time of writing, the top 3 miners of Ethereum (by block, measured by known public addresses) account for 52% of all blocks produced.
+A `MAX_ELEMENTS` limit of `3` is chosen to balance the interests of limiting the potential size of transactions, and to provide a sufficient level of articulation for the user. At the time of writing, the top 3 miners of Ethereum (by block, measured by known public addresses) account for 68% of all blocks produced.
 
 #### `expiry`
 
