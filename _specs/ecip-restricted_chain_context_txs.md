@@ -1,18 +1,18 @@
 ---
-ecip: TBD
+eip: 3534
 title: Restricted Chain Context Type Transactions
-author: Isaac (@meowsbits)
-discussions-to: https://github.com/ethereumclassic/ECIPs/issues/422
+author: Isaac Ardis (@whilei)
+discussions-to: https://ethereum-magicians.org/t/eip-3534-restricted-chain-context-transaction-type/6112
 status: Draft
 type: Standards Track
 category: Core
 created: 2021-04-20
-requires: EIP-2718, EIP-2930
+requires: 2718, 2930
 ---
 
 ## Simple Summary
 
-Defines a new transaction type with constraints on ancestor block hash, block author, and/or block timestamp maximum.
+Defines a new transaction type with constraints on ancestor block hash, block author, and/or block timestamp.
 
 ## Abstract
 
@@ -25,7 +25,7 @@ This proposed `chainContext` element adds a constraint on the validity of a tran
 - `ineligibleMinerList`
 - `expiry`
 
-These contexts can be used in arbitrary combinations. Annotated context value combinations are referenced by an integer prefix on the annotation.
+These contexts can be used in arbitrary combinations. Annotated context value combinations are referenced by a composite integer prefix on the annotation.
 
 ## Motivation
 
@@ -38,8 +38,8 @@ Generally, these constraints give the consumer (the transactor) an ability to ex
     - Introduces a way for transactions to describe ancestral dependencies at a "macro" (block) level. 
     Indirectly, this offers a way for a transaction to depend on the presence of another, so long as the dependent transaction is in a different block.
 - Restrict transaction applicability to blocks benefitting, or _not_ benefitting, a preferred/spurned miner address or addresses.
-    - Introduces an opportunity/market for miners to compete for consumers' transactions; under the status quo, the current miner-transaction processing service is almost perfectly homogenous from the consumer perspective.
-- Restrict transaction applicability timespan.
+    - Introduces an opportunity/market for miners to compete for consumers' transactions; under the status quo, the current miner-transaction processing service is almost perfectly homogeneous from the consumer perspective.
+- Restrict transaction applicability time span.
     - Introduces an alternative (to the status quo) way for consumers/transactors to have transactions invalidated/ejected from the transaction pool.
 
 ## Specification
@@ -70,7 +70,7 @@ The `chainContext` value should be encoded as `ANNOTATION_COMPOSITE_PREFIX || rl
 ### Validation
 
 The values defined as subclasses below acts as constraints on transaction validity for specific chain contexts.
-Transactions defining contraints which are not satisfied by their chain context should be rejected as invalid.
+Transactions defining constraints which are not satisfied by their chain context should be rejected as invalid.
 Blocks containing invalid transactions should be rejected as invalid themselves, per the _status quo_.
 
 ### Subclass Combination
@@ -104,7 +104,8 @@ The `ANCESTOR_ID` value should be RLP encoded as a byte array for hashing and tr
 - `ELIGIBLE_MINER_LIST` `[address...]`. A list of addresses.
 - `MAX_ELEMENTS` `3`. The maximum number of addresses that can be provided.
 
-The `ELIGIBLE_MINER_LIST` value is an array of valid [address hashes](https://github.com/ethereum/yellowpaper/blob/41c1837f7b1ddcd65f135763c8e965146cd0ab70/Paper.tex#L321) referencing an exclusive, unique set of allowed [`beneficiary`](https://github.com/ethereum/yellowpaper/blob/41c1837f7b1ddcd65f135763c8e965146cd0ab70/Paper.tex#L336) values.
+The `ELIGIBLE_MINER_LIST` value is an array of unique, valid addresses.
+Any block containing a transaction using this value must have a block beneficiary included in this set.
 
 The `ELIGIBLE_MINER_LIST` value should be of the type `[{20 bytes}+]`, where `+` means "one or more of the thing to the left." 
 Non-unique values are not permitted.
@@ -119,7 +120,8 @@ An `ELIGIBLE_MINER_LIST` value may NOT be provided adjacent to an `INELIGIBLE_MI
 - `INELIGIBLE_MINER_LIST` `[address...]`. A list of addresses.
 - `MAX_ELEMENTS` `3`. The maximum number of addresses that can be provided.
 
-The `INELIGIBLE_MINER_LIST` value is an array of valid [address hashes](https://github.com/ethereum/yellowpaper/blob/41c1837f7b1ddcd65f135763c8e965146cd0ab70/Paper.tex#L321) referencing an unique set of disallowed [`beneficiary`](https://github.com/ethereum/yellowpaper/blob/41c1837f7b1ddcd65f135763c8e965146cd0ab70/Paper.tex#L336) values.
+The `INELIGIBLE_MINER_LIST` value is an array of unique, valid addresses.
+Any block containing a transaction using this value must not have a block beneficiary included in this set.
 
 The `INELIGIBLE_MINER_LIST` value should be of the type `[{20 bytes}+]`, where `+` means "one or more of the thing to the left." 
 Non-unique values are not permitted.
@@ -133,7 +135,7 @@ An `INELIGIBLE_MINER_LIST` value may NOT be provided adjacent to an `ELIGIBLE_MI
 - `ANNOTATION_PREFIX` `8`.
 - `EXPIRY` `integer`. A positive, unsigned scalar.
 
-The `EXPIRY` value is a scalar equal to the maximum valid [`timestamp`](https://github.com/ethereum/yellowpaper/blob/41c1837f7b1ddcd65f135763c8e965146cd0ab70/Paper.tex#L345) of a block header for a block including this transaction.
+The `EXPIRY` value is a scalar equal to the maximum valid block `timestamp` for a block including this transaction.
 
 The `EXPIRY` value should be RLP encoded as an integer for hashing and transmission.
 
@@ -148,7 +150,7 @@ This design is intended to form a proposal which offers a concrete set of specif
 
 #### `ANNOTATION_PREFIX`
 
-`ANNOTATION_PREFIX` values' use of octal-derived values, ie. `1, 2, 4, 8, 16, 32, 64, 128`, follows a conventional pattern of representing combinations from a limited set uniquely and succinctly, eg. Unix-style file permissioning.
+`ANNOTATION_PREFIX` values' use of octal-derived values, ie. `1, 2, 4, 8, 16, 32, 64, 128`, follows a conventional pattern of representing combinations from a limited set uniquely and succinctly, eg. Unix-style file permissions.
 This EIP defines four of the eight possible context subclasses; this seems to leave plenty of room for future growth in this direction if required.
 If this limit is met or exceeded, doing so will require a hard fork _de facto_ (by virtue of making consensus protocol facing changes to transaction validation schemes), so revising this scheme as needed should be only incidental and trivial.
 
@@ -161,11 +163,11 @@ Practically, the "designated allowable chain segment" can be understood as the s
 
 ##### Redundancy to `chainId`
 
-This pattern can be understood as a correlate of [EIP-155](https://eips.ethereum.org/EIPS/eip-155)'s `chainId` specification.
+This pattern can be understood as a correlate of [EIP-155](./eip-155)'s `chainId` specification.
 EIP155 defines the restriction of transactions between chains; limiting the applicability of any EIP-155 transaction to a chain with the annotated ChainID. 
 `ancestorId` further restricts transaction application to one subsection ("segment") of one chain.
 
-From this constraint hierarchy, we note that an implementation of `ancestorId` makes `chainId` conceptually redundant.
+From this constraint hierarchy, we note that an implementation of `ancestorId` can make `chainId` conceptually redundant.
 
 ##### So why keep `chainId`?
 
@@ -173,6 +175,7 @@ From this constraint hierarchy, we note that an implementation of `ancestorId` m
 
 - The use of the transaction type proposed by this EIP is optional, implying the continued necessity of `chainId` in the protocol infrastructure and tooling for legacy and other transaction types.
 - The presence of `ancestorId` in the transaction type proposed by this EIP is optional. If the value is not filled by an RCC transaction, the demand for `chainId` remains.
+- A `chainId` value is not necessarily redundant to `ancestorId`, namely in cases where forks result in living chains. For example, an `ancestorId` reference to block `1_919_999` would be ambiguous between Ethereum and Ethereum Classic.
 - It would be possible to specify the omission of `chainId` in case of `ancestorId`'s use. This would add infrastructural complexity for the sake of removing the few bytes `chainId` typically requires; we do not consider this trade-off worth making.
     - `chainId` is used as the `v` value (of `v,r,s`) in the transaction signing scheme; removing or modifying this incurs complexity at a level below encoded transaction fields, demanding additional infrastructural complexity for implementation.
 - The proposed design for `ancestorId` does not provide perfect precision (at the benefit of byte-size savings). 
@@ -183,14 +186,14 @@ From this constraint hierarchy, we note that an implementation of `ancestorId` m
 The transaction is only valid when included in a block having an `etherbase` contained in the annotated list of addresses.
 The use of "whitelist" (`eligibleMinerList`) in conjunction with a "blacklist" (`ineligibleMinerList`) is logically inconsistent; their conjunction is not allowed.
 
-A `MAX_ELEMENTS` limit of `3` is chosen to balance the interests of limiting the potential size of transactions, and to provide a sufficient level of articulation for the user. At the time of writing, the top 3 miners of Ethereum Classic (by block, measured by known public addresses) account for 68% of all blocks produced.
+A `MAX_ELEMENTS` limit of `3` is chosen to balance the interests of limiting the potential size of transactions, and to provide a sufficient level of articulation for the user. At the time of writing, the top 3 miners of Ethereum (by block, measured by known public addresses) account for 52% of all blocks produced.
 
 #### `ineligibleMinerList`
 
 The transaction is only valid when included in a block having an `etherbase` _not_ contained in the annotated list of addresses.
 The use of "blacklist" (`ineligibleMinerList`) in conjunction with a "whitelist" (`eligibleMinerList`) is logically inconsistent; their conjunction is not allowed.
 
-A `MAX_ELEMENTS` limit of `3` is chosen to balance the interests of limiting the potential size of transactions, and to provide a sufficient level of articulation for the user. At the time of writing, the top 3 miners of Ethereum Classic (by block, measured by known public addresses) account for 68% of all blocks produced.
+A `MAX_ELEMENTS` limit of `3` is chosen to balance the interests of limiting the potential size of transactions, and to provide a sufficient level of articulation for the user. At the time of writing, the top 3 miners of Ethereum (by block, measured by known public addresses) account for 52% of all blocks produced.
 
 #### `expiry`
 
@@ -232,7 +235,7 @@ This is done to ensure that the transaction cannot be “re-interpreted” as a 
 
 ## Backwards Compatibility
 
-This EIP requires a hard fork.
+There are no known backward compatibility issues.
 
 ## Test Cases
 
@@ -248,9 +251,9 @@ Further test cases, TODO.
 
 ## Security Considerations
 
-#### Why 4 bytes of a block hash is "safe enough" for the `ancestorId`
+### Why 4 bytes of a block hash is "safe enough" for the `ancestorId`
 
-__TL;DR__: The chance of an ineffectual `ancestorId` is about 1 in between ~4 billion and ~40 billion (the greater chance for intentional duplication scenarios, eg. malicious reorgs).
+__TL;DR__: The chance of an ineffectual `ancestorId` is about 1 in between ~4 billion and ~40 billion, with the greater chance for intentional duplication scenarios, eg. malicious reorgs.
 
 __If a collision _does_ happen__, that means the transaction will be valid on both segments (as is the case under the status quo).
 
@@ -260,37 +263,28 @@ Using the whole hash would result in a "perfectly safe" implementation, and ever
 The goal of the `ancestorId` is to disambiguate one chain segment from another, and in doing so, enable a transaction to define with adequate precision which chain it needs to be on.
 When a transaction's `ancestorId` references a block, we want to be pretty sure that that reference won't get confused with a different block than the one the author of the transaction had in mind.
 
-Block hashes are effectively unique (at least ethereum/go-ethereum assumes so in their database schema), and are [cited as approximations for random numbers in the yellow paper](https://github.com/ethereum/yellowpaper/blob/41c1837f7b1ddcd65f135763c8e965146cd0ab70/Paper.tex#L1261).
-We assume this trait is uniformly applicable to all possible subsets of the hash value; that is: whether the whole hash, in the first 4 bytes, the first 14, the middle 8, or the last 30; any piece is as random as any other piece. 
-
-- `e78b1ec31bcb535548ce4b6ef384deccad1e7dc599817b65ab5124eeaaee3e58`. Whole hash, random.
-- `e78b1ec3`. First 4 bytes, random.
-- `e78b1ec31bcb535548ce4b6ef384`. First 14 bytes, random.
-- `384deccad1e7dc59`. Middle 8 bytes, random.
-- `1ec31bcb535548ce4b6ef384deccad1e7dc599817b65ab5124eeaaee3e58`. Last 30 bytes, random.
-
-So our preference of using the _first_ 4 bytes is arbitrary and functionally equivalent to any other subset of equal length.
+We assume the trait of collision resistance is uniformly applicable to all possible subsets of the block hash value, so our preference of using the _first_ 4 bytes is arbitrary and functionally equivalent to any other subset of equal length.
 
 For the sake of legibility and accessibility, the following arguments will reference the hex representation of 4 bytes, which is 8 characters in length, eg. `e78b1ec3`. 
 
 The chance of a colliding `ancestorId` is `1/(16^8=4_294_967_296)` times whatever we take the chance of the existence of an equivalently-numbered block (on an alternative chain) to be. Assuming a generous ballpark chance of 10% (`1/10`) for any given block having a public uncle, this yields `(1/(16^8=4_294_967_296) * 1/10`. Note that this ballpark assumes "normal" chain and network behavior. In the case of an enduring competing chain segment, this value rises to 100% (`1`).
 
-#### `eligibleMinerList`
+### `eligibleMinerList`
 
 Miners who do not find themselves listed in an annotated `eligibleMinerList` should be expected to immediately remove the transaction from their transaction pool. 
 
 In a pessimistic outlook, we should also expect that these ineligible nodes would not offer rebroadcasts of these transactions, potentially impacting the distribution (and availability) of the transactions to their intended miners. On the other hand, miners are incentivized to make themselves available for reception of such transactions, and there are many ways this is feasible both on-network and off-.
 
-The author of a transaction using the `eligibleMinerList` must assume that the "general availability" of the blockchain state database for such a transaction will be lower than an unrestrictive transaction (since only a subset of miners will be able to process the transaction). 
+The author of a transaction using the `eligibleMinerList` must assume that the "general availability" of the blockchain state database for such a transaction will be lower than a nonrestrictive transaction (since only a subset of miners will be able to process the transaction). 
 
 A final consideration is the economics of a whitelisted miner concerning the processing order of transactions in which they are whitelisted and those without whitelists.
 Transactions without whitelists would appear at first glean to be more competitive, and thus should be processed with priority.
 However, miners following such a strategy may find their reputation diminished, and, in the worst case, see the assertive preferences of transaction authors shift to their competitors and beyond their reach.
 
-#### `ineligibleMinerList`
+### `ineligibleMinerList`
 
-In addition to identical concerns and arguments presented by `eligibleMinerList` above, there is a unique concern for `ineligibleMinerList`: in order for a miner entity to avoid ineligibility by a blacklist, they would only need to use an alternative adhoc address as the block beneficiary.
-In principle, this is inevitable.
+In addition to the concerns and arguments presented by `eligibleMinerList` above, there is a unique concern for `ineligibleMinerList`: in order for a miner entity to avoid ineligibility by a blacklist, they only need to use an alternative adhoc address as the block beneficiary.
+In principle, this is ineluctable.
 
 However, there are associated costs to the "dodging" miner that should be considered.
 
@@ -298,16 +292,16 @@ However, there are associated costs to the "dodging" miner that should be consid
 - The transfer of funds from multiple accounts requires a commensurate number of transactions. Block rewards are applied after transactions are processed, so the miner is unable to simultaneously shift funds from an adhoc account to a target account in the same block they mine (which would otherwise be a "free" transaction).
 - In using an adhoc address to dodge a blacklist, the miner may also cause their ineligibility from contemporary whitelist transactions.
 
-#### Validation costs
+### Validation costs
 
-Miner lists and expiry depend on easily cacheable and contextually available conditions (ie. the containing block header). The infrastructural overhead costs for enforcing these validations are expected to be nominal.
+Miner lists and expiry depend on easily cached and contextually available conditions (ie. the containing block header). The infrastructural overhead costs for enforcing these validations are expected to be nominal.
 
 Validation of `ancestorId` demands the assertion of a positive database hit by block number (thereby cross-referencing a stored block's hash). 
 This necessary lookup can be (and maybe already is) cached, but we must expect less than 100% hits on cached values, since the lookup value is arbitrary.
 With that in mind, however, the value provided to a transaction using a deep `ancestorId` is increasingly marginal, so we should expect
 most transactions using this field to use a relatively small set of common, shallow, cache-friendly values.
 
-#### Transaction size increase
+### Transaction size increase
 
 The proposed additional fields potentially increase transaction size.
 The proposed fields are not associated with any gas costs, establishing no protocol-defined economic mitigation for potential spam.
