@@ -2,7 +2,7 @@
 ecip: TBD
 title: Endorser Transactions
 lang: en
-author: Isaac <b5c6@protonmail.com>
+author: Isaac (@meowsbits)
 discussions-to: TODO
 status: Draft
 type: Informational
