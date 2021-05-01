@@ -3,7 +3,7 @@ ecip: TBD
 title: Endorser Transactions
 lang: en
 author: Isaac (@meowsbits)
-discussions-to: TODO
+discussions-to: https://github.com/ethereumclassic/ECIPs/issues/423
 status: Draft
 type: Informational
 created: 2020-09-04
