@@ -83,7 +83,7 @@ No. Proof of Authority networks use identity authorization as a condition of blo
 
 The cases in which these decisions would occur have been such that a pure proof-of-work consensus is at odds with social benefit. This approach intends to provide a tool whereby node operators can express and observe an aspect of the social and economic context, at the behest of the node operator.
 
-## How is this different than other "Checkpoint" solutions?
+### How is this different than other "Checkpoint" solutions?
 
 This solution does not offer any canonical checkpoint, nor any means of establishing one. Most checkpointing solutions do this.
 
