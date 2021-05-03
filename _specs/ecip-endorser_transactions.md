@@ -31,14 +31,14 @@ Such transactions can be observed and acted upon in case of chain identification
 
 ### Endorser Transactions
 
-Transactions are made by an endorsing entity including information in the `data` field referencing the block hash (or some other unique characteristic) of some endorsed ancestor.
+Transactions are made by an endorsing entity including information in the `data` field referencing the block hash (or some other unique characteristic) of some endorsed ancestor block.
 
 The construction of this value could be of the form `0xff<block hash>`.
 
 ### Endorsement Observation
 
 A node registers some list of trustee entities from whom they wish to acknowledge endorsements.
-These entities are registered via transaction author identities (sender address, `from`).
+These entities are encoded as transaction author identities (sender address, `from`).
 
 Transactions with a `data` field value matching the general pattern described above are filtered from the set of on-chain transactions.
 This set of filtered transactions are filtered again for positive matches against the local list of trustee authors.
