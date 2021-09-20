@@ -1,5 +1,5 @@
 ---
-ecip: 1105
+ecip: 1106
 title: Endorser Transactions
 lang: en
 author: Isaac (@meowsbits)
