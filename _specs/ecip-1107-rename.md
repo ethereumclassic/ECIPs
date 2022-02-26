@@ -1,7 +1,7 @@
 ---
 lang: en
 ecip: 1107
-title: ECIP Process
+title: ECIP Process (2020 Update)
 status: Withdrawn
 type: Meta
 discussions-to: https://github.com/ethereumclassic/ECIPs/issues/276
