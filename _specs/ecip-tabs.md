@@ -1,0 +1,130 @@
+# TABS ECIP
+
+- depends on AHA (which facilitates a new, critical characteristic: chain state dependent transactions)
+-
+- ---
+-
+- # Abstract
+-
+- # Motivation
+-
+- The work that currently drives the Ethereum Classic blockchain represents a minority of the work available (to it) globally.
+- The blockchain's expected characteristic 'finality' (or "consistency") is diminished because of this situation.
+- Double-spend attacks are a perpetually looming, disconcerting potential.
+- Expectations of chain state finality are heuristically visible as transactional confirmation delay intervals.
+- The magnitude of confirmation delay expresses an absence of confidence for the segment spanned.
+-
+- This proposal seeks to ameliorate this circumstance by increasing the cost of producing a competitive chain segment in private.
+- It aims to maintain all existing assumptions and incentives associated with the incumbent proof-of-work protocol.
+-
+- # Specification
+-
+-
+-
+-
+- # Rationale
+-
+-
+- ### What happens if no one uses chain state exclusive transactions?
+-
+- The AHA proposal does not define any demand on the use of that transaction type.
+- As such, it may be that transactors on the public chain do not make use of it, or use it with distant chain state references.
+-
+- The rate at which a private chain cannot include transactions available to the public chain determines the relative, differential finality expectation.
+-
+- If AHA is unused or otherwise does not express exclusive demands on chain state, the marginal augmentation of expected state finality under TABS diminishes,
+- approaching the expectations incumbent under the proof-of-work protocol without it.
+-
+- AHA is NOT the only mechanism that could be used to implement chain state exclusivity for transactions.
+- For example, if we explore a thought experiment where the global transaction pool has become disused,
+- and in its place convention has become direct-to-miner publication of transactions (say, via email) and that,
+- by an incentivized convention, miners do not share their available transactions freely with one another,
+- then those "direct-message" transactions will not be available for inclusion on the attacker's chain.
+-
+- ### Are richer miners rewarded preferentially?
+-
+- Yes, but probably only marginally.
+-
+- Richer miners are preferred as a function of the determining factors of probably infrequent tie-break scenarios.
+- Assume: Unequal distribution of capital between miners (richness, poorness).
+- Assume: Randomness in global transaction pool availability. TODO: What distribution? Normal? Whats the variance? Exponential?
+-
+- ### How should miners sort transactions?
+-
+- If blocks are not full (block space is not scarce), then sorting is a moot point. Include all of them.
+-
+- Sorting by balance can yield a sometimes-higher expectation of canonical status; on which miner revenues depend.
+- Miner revenues also depend on transaction fees.
+-
+- If the expected benefit (profit) from an additional marginal probability of canonicalization offered by a balance-sort exceeds the marginal losses in transaction fees,
+- then the miner should sort by balance. Otherwise, they should continue to sort by fee.
+-
+- To the extent that the transaction pool offers unpredictable and variable aggregate balances, incentive to sort by balance is reduced.
+-
+- In most cases, the earnest race to discover and publish block solutions will easily outpace any marginal gains offered by balance-based transaction sorting.
+-
+- It is important to note that the incumbent protocol does not define a sort order: it is left to the market, to the presumed classically-greedy capitalistic whims of the miners and the developers who build defaults.
+- A transaction sort order cannot be adequately defined by the availability of transactions (the "global" transaction pool) to miners is not guaranteed nor within the scope of the consensus-facing protocol.
+- Thus, any model or algorithm this proposal provides in this regard should be considered only as an approach to a probably-sane default for an optimization problem, rather than a any demand on validity.
+-
+- TODO
+-
+- Naive?:
+- If blocks are full, then sort by balance while pending TABS score is below that of the parent block.
+- If the balances of all available transactions are insufficient to push the TABS value up, use fee sorting instead.
+- Problem?:
+- This explanation does not have the probability math, and it needs it.
+-
+- ### Will miners "stuff" blocks with their own transactions?
+-
+- We assume a (some) miner controls some finite amount of capital as blockchain currency (ie balance).
+- In the cases where a miner is incentivized to include a self-signed transaction activating their own balance in a block they author,
+- one transaction is theoretically sufficient.
+- The use of more than sufficient transactions for the purpose is inefficient (and thus disincentivized) because, attributable to the block gas limit, 
+- they do so at the expense of cannibalizing space (and time) for a revenue-producing transaction.
+-
+- So: Indeed, they may "stuff" blocks with transactions of their own, but they expect to profit most 
+- by using only one transaction (using the least amount of gas) per block.
+-
+- ### How much is finality improved?
+-
+- Finality is measured as the expected likelihood of some state being eventually and ultimately permanent.
+-
+- In the case of a double-spend scenario, the incumbent cost of an attack (ie. a 51% attack) is the cost of capital available to provide the necessary proof-of-work solutions.
+- TABS augments this cost by the aggregated balances of the senders of all exclusive transactions in the contending, public blocks.
+- If the `gasLimit` is `10_000_000` and the average transaction requires `30000` gas, then a block will fit 333 transactions.
+- We define an assumption that the average balance of a transaction sender address is `10ETC`.
+- We assume that _all_ of these transactions define chain state dependencies concurrent with the contentious chain segment in question.
+- Under these assumptions, the cost of a viable attack is increased by `333 * 10ETC = 3330ETC + epsilon`. 
+-
+- If we modify the assumptions to use a 50% rate of relevant chain-state exclusive transactions (ie. 50% adoption and relevant use of AHA), 
+- the value becomes `333 * 10ETC * 0.5 = 1665ETC + epsilon`.
+-
+- It is noteworthy that this additional cost does not represent "spent" capital, rather _available_ capital.
+- If the required capital is available to an attacker and yet the attack is not successful, the balance capital is recovered while the proof-of-work capital is not.
+- An attacker must have _access_ to this additional capital, but does not have to actually part with it.
+-
+- ### Are there known vulnerabilities introduced?
+-
+- TABS Poisoning
+-
+- The attacker attempts to cause the public chain's TABS score to drop by filling the public transaction pool with high-fee, low-balance transactions.
+-
+-
+- # Tests
+-
+- ---
+-
+- > Internal: scratch, drafts, questions, feedback below...
+-
+- # Scratch
+-
+- # Drafts
+-
+- # Q&A
+-
+- # Feedback
+-
+-
+-
+-
