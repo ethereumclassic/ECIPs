@@ -1,6 +1,6 @@
 ---
 ecip: 110x
-title: TD*TABS Consensus Arbitration
+title: A 2-Dimensional Consensus Arbitration Protocol, Difficulty * TABS
 author: Isaac (https://github.com/whilei)
 discussions-to: TODO
 status: Draft
@@ -13,7 +13,7 @@ lang: en
 
 # Abstract
 
-Use a heuristic of chain state capitalization as an augmentive factor in consensus arbitration to improve normal finality rates and increase the cost of private chain production.
+Use a heuristic of chain state capitalization as an augmentive factor in consensus arbitration to improve normal finality rates and increase the cost of abnormal private chain production.
 
 # Motivation
 
@@ -21,13 +21,11 @@ Use a heuristic of chain state capitalization as an augmentive factor in consens
 
 ![](https://i.imgur.com/c2biCLD.png)
 
-This proposal intends to increase the cost of producing a private, competitive chain segment, which is characteristic of double-spend attacks. It aims to improve finality expectations.
-
-It aims to maintain all existing assumptions and incentives associated with the incumbent proof-of-work protocol.
+This proposal intends to increase the cost of producing a private, competitive chain segment, which is characteristic of double-spend attacks. It aims to improve finality expectations by increasing the cost of attack, while maintaining existing assumptions and incentives associated with the incumbent proof-of-work protocol.
 
 # Specification
 
-This specification is defined as a modification of the general,[^1] currently existing canon-arbitration algorithm, namely "Modified GHOST," currently in use on Ethereum and Ethereum Classic networks.
+This specification is defined as a modification of the general,[^1] currently existing canon-arbitration algorithm, namely "Modified GHOST," currently in use on the Ethereum and Ethereum Classic networks.
 
 [^1]: Difficulty bomb and/or delay features are ignored.
 
@@ -176,25 +174,46 @@ In the case of ties, subsequent protocol canon-arbitration conditions are preser
 
 ## Codependent Production-Race Characteristics
 
-PoW resilience against double-spend attacks depends on an assumption that no entity controls more than "51\%" of the network's hashrate over some time.
+PoW resilience against double-spend attacks depends on an assumption that no entity controls more than the "honest"/public network's hashrate over some time.
 
-The logic of this proposal depends on an additional assumption that no entity controls more than the network's TABS value in capital over some time.
+The logic of this proposal depends on an _additional assumption_ that no entity controls more than the network's TABS value in capital over some time.
 
-These assumptions are codependent. If an entity is able to break either of these assumptions, normal finality expectations are invalidated.
+These assumptions are codependent. If an entity is able to break either of these unit assumptions, the degree to which they are compromised is borne by the other unit.
 
-For example, the rate at which an entity controls more than the network's TABS for some time would lessen the demand on their relative control of hashrate for the same period. For example, exceeding the network's TABS score by 10\% for an hour might mean that an attack would demand only "45\%" relative hashrate to build a competitive chain segment in private. Likewise, the extent to which the attacker can beat the "51\%" hashrate demand lessens the demand on their required rate of available capital.
+
+```go
+// Equilibrium Example Schema
+
+// D: Difficulty
+// S: TABS
+// a, b, x, y: Coefficients
+(a*D) * (b*S) = (x*D) * (y*S)
+```
+
+For example, while maintaining an equivalence in consensus scores, a relatively greater  difficulty value lessens the demand on TABS.
+```go
+var publicChainConsensusScore = (1*D) * (1*S)
+
+// An attacker with 110% hashrate of the "honest"/public net
+// needs 91% of the public TABS value to be competitive.
+var attackChainConsensusScore_Hasher = (1.1*D) * (/*1.1/1=*/0.91*S)
+
+// An attacker with 91% hashrate of the "honest"/public net
+// needs 110% of the public TABS value to be competitive.
+var attackChainConsensusScore_Richer = (0.91*D) * (1.1*S)
+```
 
 ## Block Space Opportunity Cost for Miners
 
-Miners can include "local" transactions on their own behalf at no currency cost, but at the opportunity cost of the inclusion of a revenue-generating transaction: cannibalism.[^2]
+Miners can include "local" transactions on their own behalf at no currency cost, but at the opportunity cost of the inclusion of a revenue-generating transaction.[^2]
 
 [^2]: :dragon: This changes with EIP-1559 or other transaction burn-fee schemes.
 
 Miner participation in the TABS competition is expected, since expected block revenues are driven, in part, by the competitiveness of the capital they represent on their own behalf.
 
-Since a miner can and should (optimally) represent their capital as a single transaction in the blocks they mine, they are expected to at least sometimes cannibalize one balance-transfer transaction's worth of block space (the minimum, currently `21,000 / ~10,000,000 = 0.02%`) in their own interest.
+Since a miner can and should (optimally) represent their self-interested capital as a single transaction in the blocks they mine, they are expected to at least sometimes cannibalize one balance-transfer transaction's worth of block space (the minimum, currently `21,000 / ~10,000,000 = 0.02%`) in their own interest.
 
-PS. No they don't have to actually send any balance to anyone. Just a signed transaction to themselves, for example, where they recoup the gas fee (as the credited coinbase) or charge themselves a zero gas price.
+PS. No, miners don't have to actually send any balance to anyone. Just a signed transaction to themselves, for example, where they recoup the gas fee (as the credited coinbase) or charge themselves a zero gas price.
 
 ## Short-Term Finality Rate Increases
 
@@ -218,13 +237,13 @@ The proposed algorithm "synthesizing" TABS is an implementation of a median-seek
 
 From this, and by definition, we expect that eventually for some set of blocks, half will have TAB values above and half below the resulting TABS value. 
 
-Further investigation and analysis is encouraged for alternative adjustment algorithms, eg. moving averages.[^3]
+Further investigation and analysis is encouraged for alternative adjustment algorithms, eg. moving averages, sequential weights.[^3]
 
 [^3]: Another idea uses a count of sequential TABS drops (adjustments downward) to cause the TABS value to fall _faster_ when it is only (or usually) falling.
 
 ## PoW Race Incentives are (Mostly) Maintained
 
-A miner with access to 90\% of the TABS capital cannot produce blocks in isolation competitively; their private chain's TABS score will drop to 90\% of the public TABS and they will need something like 55\% hashrate to compensate if they want to compete independently over time.
+A miner with access to 90\% of the TABS capital cannot produce blocks in isolation competitively; their private chain's TABS score will drop to 90\% of the public TABS and they will need something like 110\% hashrate to compensate if they want to compete independently over time.
 
 So the rich (but not too-rich) miner must compete in the proof-of-work race, and whether or not they can exceed some parent block's TABS will depend on the aggregated TAB value of the public transactions pending block inclusion.
 
@@ -241,7 +260,7 @@ So, unless the miner has `"51%" * 4095/4096` of the hashrate, the best strategy 
 
 ## Observable, Domain-Specific Competition Drives Security
 
-Heuristics about PoW finality expectations depend on "chain external" variables, like universally (on- and off-network) available hashrate. For example, hashrate from another network, networks, or any other applicable technologic domain like computer gaming; the state of the art of the work itself; the applicable market(s) for electricity, etc.
+Heuristics about PoW finality expectations depend on "off-chain" variables, like universally (on- and off-network) available applicable hashrate. For example, hashrate from another network, networks, or any other applicable technologic domain like computer gaming; the state of the art of the work itself; the applicable market(s) for electricity, etc.
 
 Unlike fuzzy estimates about (potentially) globally available hashrate relative to the PoW network in question, all of the functional TABS protocol parameters are observable as on-chain values, namely balance distribution and overall currency supply.
 
@@ -261,16 +280,16 @@ TLDR; theoretically, existing APIs for "local" transactions can sufficiently dif
 
 ## Simulation Programs
 
-I have written a couple programs that I've used to simulate and observe chain production.
+I have written a couple programs that I've used to simulate and observe chain production characteristics.
 
 - `go-miner-sim` simulates PoW/TABS production.
-- `go-block-step` simulates an abstracted version of block production (a single case). Helps me with statistics.
+- `go-block-step` simulates an abstracted version of the block production race.
 
 I would love review, feedback, and collaboration on these.
 
 ## Empirical Context
 
-TAB and TABS values can be derived retrospectively for Ethereum and Ethereum Classic chains.
+TAB and TABS value estimates can be derived retrospectively for Ethereum and Ethereum Classic chains.
 
 At the time of writing, and with limited sample sizes, I estimate TABS values as follows.
 
@@ -295,7 +314,7 @@ This strategy would be observable in real time by the public.
 
 An attacker could challenge the assumption that no entity controls more than the public TABS value for some time.
 
-This attack, like a PoW 51\% attack, would be invisible until published.
+This attack, like a pure-PoW double-spend attack, would be invisible until published.
 
 
 
