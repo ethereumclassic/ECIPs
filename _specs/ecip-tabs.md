@@ -42,10 +42,10 @@ The TAB value of a block is the sum of the balances (at the parent block state) 
 Pseudo-code is provided as:
 
 ```go
-// blockTab returns the "raw" TAB value for a block.
+// blockTAB returns the "raw" TAB value for a block.
 // This value is the sum of the balances (at the parent state) 
 // of all transaction senders in this block.
-func blockTab(block *Block) (tab *big.Int) {
+func blockTAB(block *Block) (tab *big.Int) {
     
     // uniqueSenders is a lookup to de-dupe sender accounts.
     // Each sender account only gets counted once.
@@ -99,7 +99,7 @@ func blockTABS(parentBlock, currentBlock *Block) (tabs *big.Int) {
     // tab is the "raw" 'Total Active Balance' value.
     // This is the sum of the balances of all transaction senders
     // in this block.
-    var tab = blockTab(currentBlock)
+    var tab = blockTAB(currentBlock)
     
     var numerator *big.Int
     if tab > parentBlock.tabs {
