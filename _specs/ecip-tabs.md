@@ -19,8 +19,6 @@ Use a heuristic of chain state capitalization as an augmentive factor in consens
 
 ## State Finality Is Low and Slow
 
-![](https://i.imgur.com/c2biCLD.png)
-
 This proposal intends to increase the cost of producing a private, competitive chain segment, which is characteristic of double-spend attacks. It aims to improve finality expectations by increasing the cost of attack, while maintaining existing assumptions and incentives associated with the incumbent proof-of-work protocol.
 
 # Specification
