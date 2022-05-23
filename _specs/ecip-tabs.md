@@ -13,7 +13,7 @@ lang: en
 
 # Abstract
 
-Use a heuristic of chain state capitalization as an augmentive factor in consensus arbitration to improve normal finality rates and increase the cost of abnormal private chain production.
+Use a heuristic of chain state capitalization as a 2nd-dimension factor in consensus arbitration to improve normal finality rates and increase the cost of abnormal private chain production.
 
 # Motivation
 
@@ -170,14 +170,13 @@ In the case of ties, subsequent protocol canon-arbitration conditions are preser
 
 # Rationale
 
-## Codependent Production-Race Characteristics
+## Inversely Proportional Equilibrium Factors
 
-PoW resilience against double-spend attacks depends on an assumption that no entity controls more than the "honest"/public network's hashrate over some time.
+PoW resilience against double-spend attacks depends on an assumption that no entity controls more than the "honest"/public network's hashrate over some time. The difficulty value over time represents an equilibrium value. Difficulty values over time in excess (or deficiency) of the equilbrium represent competitiveness; for good, or for evil.
 
-The logic of this proposal depends on an _additional assumption_ that no entity controls more than the network's TABS value in capital over some time.
+The logic of this proposal depends on an _additional assumption_ that no entity controls more than the network's TABS value in capital over some time. This is another equilibrium value.
 
-These assumptions are codependent. If an entity is able to break either of these unit assumptions, the degree to which they are compromised is borne by the other unit.
-
+These assumptions (ie. equilibrium values) factored together create a 2-dimensional equilibrium. An excess or shortfall in one variable inversely slackens or raises the demand on the other for equilibrium.
 
 ```go
 // Equilibrium Example Schema
@@ -211,7 +210,7 @@ Miner participation in the TABS competition is expected, since expected block re
 
 Since a miner can and should (optimally) represent their self-interested capital as a single transaction in the blocks they mine, they are expected to at least sometimes cannibalize one balance-transfer transaction's worth of block space (the minimum, currently `21,000 / ~10,000,000 = 0.02%`) in their own interest.
 
-PS. No, miners don't have to actually send any balance to anyone. Just a signed transaction to themselves, for example, where they recoup the gas fee (as the credited coinbase) or charge themselves a zero gas price.
+Miner-interest transactions can be inoperative. Miners don't have to actually send any balance to anyone. Just a signed transaction to themselves, for example, where they recoup the gas fee (as the credited coinbase) or charge themselves a zero gas price.
 
 ## Short-Term Finality Rate Increases
 
@@ -233,7 +232,7 @@ Further investigation and analysis is encouraged for alternative adjustment rate
 
 The proposed algorithm "synthesizing" TABS is an implementation of a median-seeking algorithm.
 
-From this, and by definition, we expect that eventually for some set of blocks, half will have TAB values above and half below the resulting TABS value. 
+From this, and by definition, we expect that eventually for some set of blocks, roughly half will have TAB values above, and half below the resulting TABS value. However, since the block authorship _per miner_ is not equally distributed, the TABS score will be weighted more heavily toward more prolific miners. The scale of this weighting will depend on the ratio of the aggregate balance of public transactions relative to any balance represented exclusively by some miner. 
 
 Further investigation and analysis is encouraged for alternative adjustment algorithms, eg. moving averages, sequential weights.[^3]
 
