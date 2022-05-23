@@ -214,11 +214,9 @@ Further investigation and analysis is encouraged for alternative adjustment rate
 
 ## PoW Race Incentives are (Mostly) Maintained
 
-A miner with access to 90\% of the TABS capital cannot produce blocks in isolation competitively; their private chain's TABS score will drop to 90\% of the public TABS and they will need something like 110\% hashrate to compensate if they want to compete independently over time.
+The viability of a PoW-based network depends vitally on the competitiveness and fairness of the PoW race. Linearity (actually sublinearity) here is the goal; 1 GPU : 1 vote/gamble/point/token/whatever. 
 
-So the rich (but not too-rich) miner must compete in the proof-of-work race, and whether or not they can exceed some parent block's TABS will depend on the aggregated TAB value of the public transactions pending block inclusion.
-
-Upon the discovery of a new block and its availability to the miner, the miner faces two strategies -- ORPHAN, or ADOPT -- and should choose the more probably profitable one. To ORPHAN the proposed block means they continue work toward a competitive sibling block. To ADOPT means they begin work toward a child block.
+Upon the availability of a potentially canonical block to some miner, they have two strategies: ORPHAN or ADOPT. Because we assume that greed is a reliable and optimal strategy, the miner should choose the more probably profitable option. To ORPHAN the proposed block means they continue work toward a competitive sibling block. To ADOPT means they begin work toward a child block.
 
 If their balance is _insufficient_ to beat the TABS of the announced block, clearly the incentives of the incumbent PoW race are preserved as invariant and the miner chooses to ADOPT. This covers about 50\% of the cases.
 
@@ -226,7 +224,51 @@ If their balance _is sufficient_ to beat the TABS of the announced block, how do
 
 Since their expected TABS consensus score is differentially, at most, `+1/4096` of the proposed block, they can still achieve probabilistic equilibrium with the incumbent race given only `4095/4096` of the otherwise necessary hashrate (representing the likelihood of their PoW solution discovery).
 
-So, unless the miner has `"51%" * 4095/4096` of the hashrate, the best strategy is still to ADOPT.
+So, unless the miner has `"51%" * 4095/4096` of the hashrate, the best strategy is still to ADOPT. 
+
+This tells us that the "51%" rule is no longer "50% + epsilon". It becomes "49.9878% + epsilon". 
+
+### A Deeper Dive into Block Distribution vs. Capital Distribution
+
+As above, the viability of the game on which the network's state depends is hinged on the relationship of invested capital share to an expected and realized share in canonical block production.
+
+Empirically we are lead to believe that the distribution of Ethereum and Ethereum Classic's mining interests are long tail-type curves. A few interests control the majority share, with the democratic majority sharing the leftovers.
+
+What would the TABS capital share distribution be?
+
+Lets assume that, like most things, it won't be distributed evenly, and that "the rich get richer" is at least a working guideline for now.
+
+The next question in expectation becomes whether the rich in computational capital are _also_ those rich in currency capital. One line of reason suggests yes. After all, computational capital earns revenue in currency capital. And you need a lot of (generic) currency to pay for a lot of rigs in the first place. But miners have their costs, too. And the market for currency capital is independent from mining rigs, highly speculative already, and, compared to the mining rig market, highly liquid.
+
+Another variable we need to build context with is the share of miner-exclusive ("private") capital relative to network-available ("public") capital. If public capital dwarfs private currency capital, then the role of private capital diminishes against an assumed randomness inherent in the aggregated public balance. 
+
+If the rich in mining capital are rich in currency capital, and the private/public capital share is _high_, then:
+
+`[TODO: add charts] ps This is not ideal. Rich (double rich) miners win more than they should. pss This already happens, I think, with plain PoW... but TABS would exaggerate it.`
+
+If the rich in mining capital are rich in currency capital, and the private/public capital share is _low_, then:
+
+`[TODO: add charts] ps This is better. Poorer miners are incentivized to buy representations of capital even if it only means reducing the advantage of the whales.`
+
+If the poor in mining capital are rich in currency capital... 
+
+`[TODO: case matrix] ps These are not as 'interesting'. They are safer and less impactful and fairer. You can't win competitive blocks without hashrate. (As long as you can't compete with the public TABS value by yourself.)`
+
+<!-- The takeaway here is going to be that:
+- you still have to mine PoW to win blocks
+- anyone can represent capital on the public's behalf
+- all miners are incentivized to have as much capital represented publicly as possible IF they cannot compete privately competitively (exceed equilibrium)
+  + they will include high-balance txes with priority
+- if mining whales are capitalist pigs and the publicly represented capital is low, the game shifts significantly in favor of the rich (superlinear)
+- generally, we don't want anyone to have half or more of the public TABS value (because if that value is originally represented publicly, they could leave with it on their own fork and be competitive; same for difficulty) -->
+
+### Hybrid Market Incentives
+
+Since a greater private TABS score will be advantageous _to some degree_, we expect a miner to be willing to buy (or hold) representations of capital. They might do this actively, by purchasing signed transactions from some venture, or they might do it passively, by discounting the gas price they charge for high-balance transactors.
+
+Beyond that, it starts to look like... economics, and I'd rather not fall any farther down that rabbit hole than I already am.
+
+It will be a free market experiment.
 
 ## Short-Term Finality Rate Increases
 
