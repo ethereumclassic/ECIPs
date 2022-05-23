@@ -200,24 +200,6 @@ var attackChainConsensusScore_Hasher = (1.1*D) * (/*1.1/1=*/0.91*S)
 var attackChainConsensusScore_Richer = (0.91*D) * (1.1*S)
 ```
 
-## Block Space Opportunity Cost for Miners
-
-Miners can include "local" transactions on their own behalf at no currency cost, but at the opportunity cost of the inclusion of a revenue-generating transaction.[^2]
-
-[^2]: :dragon: This changes with EIP-1559 or other transaction burn-fee schemes.
-
-Miner participation in the TABS competition is expected, since expected block revenues are driven, in part, by the competitiveness of the capital they represent on their own behalf.
-
-Since a miner can and should (optimally) represent their self-interested capital as a single transaction in the blocks they mine, they are expected to at least sometimes cannibalize one balance-transfer transaction's worth of block space (the minimum, currently `21,000 / ~10,000,000 = 0.02%`) in their own interest.
-
-Miner-interest transactions can be inoperative. Miners don't have to actually send any balance to anyone. Just a signed transaction to themselves, for example, where they recoup the gas fee (as the credited coinbase) or charge themselves a zero gas price.
-
-## Short-Term Finality Rate Increases
-
-The rate of the network's production of orphan blocks (sometimes recorded as uncles) is expected to drop because the expected rate of objectively decidable (non-tie, "asymmetric") block competitions is expected to rise by around 50\%. The precise value of this expecation depends on the distribution of miner-available capital rates relative to the distribution of miner hashrates.
-
-Lessening the production rate of non-canonical blocks is, by definition, an increase in expected network state finality.
-
 ## Conservative Adjustment Rate
 
 > An __adjustment denominator__ _r_ is defined as `4096`.
@@ -229,16 +211,6 @@ The potential rates of change for difficulty are greater (faster) in all cases t
 For example, a block produced in the `[1-8] second` interval (`2049/2048*parent.difficulty`) with a diminished TABS value (`4095/4096*parent.TABS`) yields an equivalent overall consensus score (`+1/4096`) compared with a block produced in the next `[9-17] second` interval (`2048/2048*parent.difficulty`) with an increased TABS value (`4097/4096*parent.TABS`) yielding also a consensus score increase of a proportional `+1/4096`.
 
 Further investigation and analysis is encouraged for alternative adjustment rates, eg. `128`.
-
-## Median-Seeking Adjustment Algorithm
-
-The proposed algorithm "synthesizing" TABS is an implementation of a median-seeking algorithm.
-
-From this, and by definition, we expect that eventually for some set of blocks, roughly half will have TAB values above, and half below the resulting TABS value. However, since the block authorship _per miner_ is not equally distributed, the TABS score will be weighted more heavily toward more prolific miners. The scale of this weighting will depend on the ratio of the aggregate balance of public transactions relative to any balance represented exclusively by some miner. 
-
-Further investigation and analysis is encouraged for alternative adjustment algorithms, eg. moving averages, sequential weights.[^3]
-
-[^3]: Another idea uses a count of sequential TABS drops (number of consecutive falling adjustments) to cause the TABS value to fall _faster_ when it is only (or usually) falling. 
 
 ## PoW Race Incentives are (Mostly) Maintained
 
@@ -256,6 +228,35 @@ Since their expected TABS consensus score is differentially, at most, `+1/4096` 
 
 So, unless the miner has `"51%" * 4095/4096` of the hashrate, the best strategy is still to ADOPT.
 
+## Short-Term Finality Rate Increases
+
+The rate of the network's production of orphan blocks (sometimes recorded as uncles) is expected to drop because the expected rate of objectively decidable (non-tie, "asymmetric") block competitions is expected to rise by around 50\%.[^4] The precise value of this expecation depends on the distribution of miner-available capital rates relative to the distribution of miner hashrates.
+
+[^4]: This assumes that the aggregated balances represented in TABS are not constant. If a TABS value (and the transaction-originating balances that compose it) is held constant, then the finality characteristics of the production race imitate pure-PoW exactly.
+
+Lessening the production rate of non-canonical blocks is, by definition, an increase in expected network state finality.
+
+## Median-Seeking Adjustment Algorithm
+
+The proposed algorithm "synthesizing" TABS is an implementation of a median-seeking algorithm.
+
+From this, and by definition, we expect that eventually for some set of blocks, roughly half will have TAB values above, and half below the resulting TABS value. However, since the block authorship _per miner_ is not equally distributed, the TABS score will be weighted more heavily toward more prolific miners. The scale of this weighting will depend on the ratio of the aggregate balance of public transactions relative to any balance represented exclusively by some miner. 
+
+Further investigation and analysis is encouraged for alternative adjustment algorithms, eg. moving averages, sequential weights.[^3]
+
+[^3]: Another idea uses a count of sequential TABS drops (number of consecutive falling adjustments) to cause the TABS value to fall _faster_ when it is only (or usually) falling. 
+
+## Block Space Opportunity Cost for Miners
+
+Miners can include "local" transactions on their own behalf at no currency cost, but at the opportunity cost of the inclusion of a revenue-generating transaction.[^2]
+
+[^2]: :dragon: This changes with EIP-1559 or other transaction burn-fee schemes.
+
+Miner participation in the TABS competition is expected, since expected block revenues are driven, in part, by the competitiveness of the capital they represent on their own behalf.
+
+Since a miner can and should (optimally) represent their self-interested capital as a single transaction in the blocks they mine, they are expected to at least sometimes cannibalize one balance-transfer transaction's worth of block space (the minimum, currently `21,000 / ~10,000,000 = 0.02%`) in their own interest.
+
+Miner-interest transactions can be inoperative. Miners don't have to actually send any balance to anyone. Just a signed transaction to themselves, for example, where they recoup the gas fee (as the credited coinbase) or charge themselves a zero gas price.
 
 ## Observable, Domain-Specific Competition Drives Security
 
