@@ -224,7 +224,9 @@ Lessening the production rate of non-canonical blocks is, by definition, an incr
 
 An adjustment factor of `1/4096` is chosen relative to the incumbent minimum difficulty adjustment factor which is `1/2048`, and represents an intentionally conservative impact on chain production race probabilities and incentives.
 
-This is conservative because, for example, a block produced in the `[1-8] second` interval (`2049/2048*parent.difficulty`) with a diminished TABS value (`4095/4096*parent.TABS`) yields an equivalent overall consensus score (`+1/4096`) compared with a block produced in the next `[9-17] second` interval (`2048/2048*parent.difficulty`) with an increased TABS value (`4097/4096*parent.TABS`) yielding also a consensus score increase of a proportional `+1/4096`.
+The potential rates of change for difficulty are greater (faster) in all cases than those of TABS.
+
+For example, a block produced in the `[1-8] second` interval (`2049/2048*parent.difficulty`) with a diminished TABS value (`4095/4096*parent.TABS`) yields an equivalent overall consensus score (`+1/4096`) compared with a block produced in the next `[9-17] second` interval (`2048/2048*parent.difficulty`) with an increased TABS value (`4097/4096*parent.TABS`) yielding also a consensus score increase of a proportional `+1/4096`.
 
 Further investigation and analysis is encouraged for alternative adjustment rates, eg. `128`.
 
@@ -236,7 +238,7 @@ From this, and by definition, we expect that eventually for some set of blocks, 
 
 Further investigation and analysis is encouraged for alternative adjustment algorithms, eg. moving averages, sequential weights.[^3]
 
-[^3]: Another idea uses a count of sequential TABS drops (adjustments downward) to cause the TABS value to fall _faster_ when it is only (or usually) falling.
+[^3]: Another idea uses a count of sequential TABS drops (number of consecutive falling adjustments) to cause the TABS value to fall _faster_ when it is only (or usually) falling. 
 
 ## PoW Race Incentives are (Mostly) Maintained
 
@@ -279,7 +281,7 @@ TLDR; theoretically, existing APIs for "local" transactions can sufficiently dif
 
 I have written a couple programs that I've used to simulate and observe chain production characteristics.
 
-- `go-miner-sim` simulates PoW/TABS production.
+- [`go-miner-sim`](https://github.com/etclabscore/go-miner-sim) simulates PoW/TABS chain production in a multi-agent environment.
 - `go-block-step` simulates an abstracted version of the block production race.
 
 I would love review, feedback, and collaboration on these.
@@ -309,7 +311,7 @@ This strategy would be observable in real time by the public.
 
 ## Whales and Collusive Capital
 
-An attacker could challenge the assumption that no entity controls more than the public TABS value for some time.
+An attacker could challenge the assumption that no entity controls more than the public TABS value for some time. The value of TABS relative to current supply and its account distribution informs this risk model.
 
 This attack, like a pure-PoW double-spend attack, would be invisible until published.
 
