@@ -160,7 +160,7 @@ With this syntax, both the current and proposed arbitration conditions are defin
 
 ## Invariance of Adjacent Canon-Arbitration Conditions
 
-Like the incumbent Total Difficulty comparison condition, the proposed condition replacing it ("Consensus Score") can yield indecisive outcomes, or ties.
+Like the incumbent protocol's initial comparison condition on Total Difficulty, the comparison condition proposed to replace it (an abstracted "Consensus Score") can yield indecisive outcomes, or ties.
 
 In the case of ties, subsequent protocol canon-arbitration conditions are preserved as invariants, namely (and in this order):
 
@@ -172,11 +172,11 @@ In the case of ties, subsequent protocol canon-arbitration conditions are preser
 
 ## Inversely Proportional Equilibrium Factors
 
-PoW resilience against double-spend attacks depends on an assumption that no entity controls more than the "honest"/public network's hashrate over some time. The difficulty value over time represents an equilibrium value. Difficulty values over time in excess (or deficiency) of the equilbrium represent competitiveness; for good, or for evil.
+PoW resilience against double-spend attacks depends on an assumption that no entity controls more than the "honest"/public network's hashrate over some time. So the respective difficulty values over time (eg. 44%/56%) are compared relative to an equilibrium value (50%/50%). Difficulty values over time in excess or deficiency of the equilbrium represent competitiveness; for good, or for evil.
 
 The logic of this proposal depends on an _additional assumption_ that no entity controls more than the network's TABS value in capital over some time. This is another equilibrium value.
 
-These assumptions (ie. equilibrium values) factored together create a 2-dimensional equilibrium. An excess or shortfall in one variable inversely slackens or raises the demand on the other for equilibrium.
+These assumptions (ie. equilibrium values) factored together create a 2-dimensional equilibrium. An excess or shortfall in one variable inversely and proportionally slackens or raises the demand on the other in maintenance of the 2-dimensional equilibrium.
 
 ```go
 // Equilibrium Example Schema
