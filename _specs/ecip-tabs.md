@@ -193,7 +193,7 @@ var publicChainConsensusScore = (1*D) * (1*S)
 
 // An attacker with 110% hashrate of the "honest"/public net
 // needs 91% of the public TABS value to be competitive.
-var attackChainConsensusScore_Hasher = (1.1*D) * (/*1.1/1=*/0.91*S)
+var attackChainConsensusScore_Hasher = (1.1*D) * (/*1/1.1=*/0.91*S)
 
 // An attacker with 91% hashrate of the "honest"/public net
 // needs 110% of the public TABS value to be competitive.
