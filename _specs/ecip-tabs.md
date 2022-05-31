@@ -217,7 +217,7 @@ Further investigation and analysis is encouraged for alternative adjustment rate
 
 ![](https://i.imgur.com/j5i4NAN.png)
 
-## PoW Race Incentives are (Mostly) Maintained
+## PoW Race Incentives and Equilibrium
 
 The viability of a PoW-based network depends vitally on the competitiveness and fairness of the PoW race. Linearity (actually sublinearity) here is the goal; 1 GPU : 1 vote/gamble/point/token/whatever. 
 
