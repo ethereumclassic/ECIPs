@@ -4,7 +4,7 @@ title: A 2-Dimensional Consensus Arbitration Protocol, Difficulty * TABS
 author: Isaac (https://github.com/whilei)
 discussions-to: TODO
 status: Draft
-type: Standards Track
+type: Informational
 category: Core
 created: 2022-04-20
 requires: EIP-100, ECIP-1105
@@ -224,9 +224,7 @@ If their balance _is sufficient_ to beat the TABS of the announced block, how do
 
 Since their expected TABS consensus score is differentially, at most, `+1/4096` of the proposed block, they can still achieve probabilistic equilibrium with the incumbent race given only `4095/4096` of the otherwise necessary hashrate (representing the likelihood of their PoW solution discovery).
 
-So, unless the miner has `"51%" * 4095/4096` of the hashrate, the best strategy is still to ADOPT. 
-
-This tells us that the "51%" rule is no longer "50% + epsilon". It becomes "49.9878% + epsilon". 
+So, unless the miner has `"50%" + epsilon  * 4095/4096 = 49.9878% + epsilon` of the hashrate, the best strategy is still to ADOPT.
 
 ### A Deeper Dive into Block Distribution vs. Capital Distribution
 
@@ -261,6 +259,18 @@ If the poor in mining capital are rich in currency capital...
   + they will include high-balance txes with priority
 - if mining whales are capitalist pigs and the publicly represented capital is low, the game shifts significantly in favor of the rich (superlinear)
 - generally, we don't want anyone to have half or more of the public TABS value (because if that value is originally represented publicly, they could leave with it on their own fork and be competitive; same for difficulty) -->
+
+### -- WIP
+
+The race, as a _race_, is preserved, and proof-of-work still rate limits block production.
+
+Miners, working independently, are expected to sometimes produce blocks at the same time. Well, close enough to the same time to be competitive. Let's call this near-simultaneous.
+
+For ETH and ETC I expect this rate to be around 10\%. A number of variables are at play, among them network latency and target block interval.
+
+I'll assume from here on out that the rate of symmetric block production is 10%. This is slightly higher than uncle rates at ETH and ETC.
+
+
 
 ### Hybrid Market Incentives
 
