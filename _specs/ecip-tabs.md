@@ -1,6 +1,6 @@
 ---
 ecip: 110x
-title: A 2-Dimensional Consensus Arbitration Protocol, Difficulty * TABS
+title: 'TABS: An Experiment with a 2-Dimensional Consensus Scoring Protocol'
 author: Isaac (https://github.com/whilei)
 discussions-to: TODO
 status: Draft
@@ -200,6 +200,9 @@ var attackChainConsensusScore_Hasher = (1.1*D) * (/*1.1/1=*/0.91*S)
 var attackChainConsensusScore_Richer = (0.91*D) * (1.1*S)
 ```
 
+![](https://i.imgur.com/MfPDxHQ.png)
+
+
 ## Conservative Adjustment Rate
 
 > An __adjustment denominator__ _r_ is defined as `4096`.
@@ -211,6 +214,8 @@ The potential rates of change for difficulty are greater (faster) in all cases t
 For example, a block produced in the `[1-8] second` interval (`2049/2048*parent.difficulty`) with a diminished TABS value (`4095/4096*parent.TABS`) yields an equivalent overall consensus score (`+1/4096`) compared with a block produced in the next `[9-17] second` interval (`2048/2048*parent.difficulty`) with an increased TABS value (`4097/4096*parent.TABS`) yielding also a consensus score increase of a proportional `+1/4096`.
 
 Further investigation and analysis is encouraged for alternative adjustment rates, eg. `128`.
+
+![](https://i.imgur.com/j5i4NAN.png)
 
 ## PoW Race Incentives are (Mostly) Maintained
 
@@ -240,17 +245,26 @@ The next question in expectation becomes whether the rich in computational capit
 
 Another variable we need to build context with is the share of miner-exclusive ("private") capital relative to network-available ("public") capital. If public capital dwarfs private currency capital, then the role of private capital diminishes against an assumed randomness inherent in the aggregated public balance. 
 
-If the rich in mining capital are rich in currency capital, and the private/public capital share is _high_, then:
+Plots are provided below comparing views in this light for Ethereum and Ethereum Classic.
 
-`[TODO: add charts] ps This is not ideal. Rich (double rich) miners win more than they should. pss This already happens, I think, with plain PoW... but TABS would exaggerate it.`
+<!-- If the rich in mining capital are rich in currency capital, and the private/public capital share is _high_, then:
+ -->
+<!-- `[TODO: add charts] ps This is not ideal. Rich (double rich) miners win more than they should. pss This already happens, I think, with plain PoW... but TABS would exaggerate it.` -->
 
-If the rich in mining capital are rich in currency capital, and the private/public capital share is _low_, then:
+![](https://i.imgur.com/78qbNDw.png)
 
-`[TODO: add charts] ps This is better. Poorer miners are incentivized to buy representations of capital even if it only means reducing the advantage of the whales.`
+![](https://i.imgur.com/ulicnxG.png)
 
-If the poor in mining capital are rich in currency capital... 
+<!-- If the rich in mining capital are rich in currency capital, and the private/public capital share is _low_, then: -->
 
-`[TODO: case matrix] ps These are not as 'interesting'. They are safer and less impactful and fairer. You can't win competitive blocks without hashrate. (As long as you can't compete with the public TABS value by yourself.)`
+
+
+<!-- `[TODO: add charts] ps This is better. Poorer miners are incentivized to buy representations of capital even if it only means reducing the advantage of the whales.` -->
+
+<!-- If the poor in mining capital are rich in currency capital...  -->
+
+
+<!-- `[TODO: case matrix] ps These are not as 'interesting'. They are safer and less impactful and fairer. You can't win competitive blocks without hashrate. (As long as you can't compete with the public TABS value by yourself.)` -->
 
 <!-- The takeaway here is going to be that:
 - you still have to mine PoW to win blocks
@@ -259,26 +273,6 @@ If the poor in mining capital are rich in currency capital...
   + they will include high-balance txes with priority
 - if mining whales are capitalist pigs and the publicly represented capital is low, the game shifts significantly in favor of the rich (superlinear)
 - generally, we don't want anyone to have half or more of the public TABS value (because if that value is originally represented publicly, they could leave with it on their own fork and be competitive; same for difficulty) -->
-
-### -- WIP
-
-The race, as a _race_, is preserved, and proof-of-work still rate limits block production.
-
-Miners, working independently, are expected to sometimes produce blocks at the same time. Well, close enough to the same time to be competitive. Let's call this near-simultaneous.
-
-For ETH and ETC I expect this rate to be around 10\%. A number of variables are at play, among them network latency and target block interval.
-
-I'll assume from here on out that the rate of symmetric block production is 10%. This is slightly higher than uncle rates at ETH and ETC.
-
-
-
-### Hybrid Market Incentives
-
-Since a greater private TABS score will be advantageous _to some degree_, we expect a miner to be willing to buy (or hold) representations of capital. They might do this actively, by purchasing signed transactions from some venture, or they might do it passively, by discounting the gas price they charge for high-balance transactors.
-
-Beyond that, it starts to look like... economics, and I'd rather not fall any farther down that rabbit hole than I already am.
-
-It will be a free market experiment.
 
 ## Short-Term Finality Rate Increases
 
