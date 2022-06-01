@@ -340,7 +340,7 @@ TAB and TABS value estimates can be derived retrospectively for Ethereum and Eth
 At the time of writing, and with limited sample sizes, I estimate TABS values as follows.
 
 - Ethereum's (ETH): ~500,000 ETH.
-- Ethereum Classic's (ETC): ~7,000 ETC.
+- Ethereum Classic's (ETC): ~5,000 ETC.
 
 Further efforts toward current or retrospective analysis of real-life PoW chains, not limited to ETC, is welcome.
 
