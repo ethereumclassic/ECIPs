@@ -247,13 +247,13 @@ Another variable we need to build context with is the share of miner-exclusive (
 
 Plots are provided below comparing views in this light for Ethereum and Ethereum Classic.
 
-<!-- If the rich in mining capital are rich in currency capital, and the private/public capital share is _high_, then:
- -->
-<!-- `[TODO: add charts] ps This is not ideal. Rich (double rich) miners win more than they should. pss This already happens, I think, with plain PoW... but TABS would exaggerate it.` -->
-
 ![](https://i.imgur.com/78qbNDw.png)
 
 ![](https://i.imgur.com/ulicnxG.png)
+
+<!-- If the rich in mining capital are rich in currency capital, and the private/public capital share is _high_, then:
+ -->
+<!-- `[TODO: add charts] ps This is not ideal. Rich (double rich) miners win more than they should. pss This already happens, I think, with plain PoW... but TABS would exaggerate it.` -->
 
 <!-- If the rich in mining capital are rich in currency capital, and the private/public capital share is _low_, then: -->
 
