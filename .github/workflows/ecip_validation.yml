@@ -13,6 +13,6 @@ jobs:
         ruby-version: 2.6.10
     - name: Validate the ECIP spec files
       run: |
-        gem install bundler
+        gem install bundler -v 2.4.22
         bundle install --jobs 4 --retry 3
         shopt -s globstar; bundle exec ecip_validator _specs/**/*.md

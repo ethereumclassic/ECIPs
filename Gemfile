@@ -32,7 +32,9 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 gem "html-proofer", '>=3.3.1'
 
-gem 'ecip_validator', '>= 0.9.0'
+# https://rubygems.org/gems/ecip_validator
+# https://github.com/meowsbits/ecip_validator
+gem 'ecip_validator', '>= 0.10.0'
 
 # Rel issue: https://github.com/ethereumclassic/ECIPs/pull/308#issuecomment-618044919
 gem 'faraday', '~> 0.17.3'
