@@ -2,7 +2,7 @@
 
 ## Summary
 
-This document is a summary of the Ethereum Classic Improvement Proposal (ECIP) process. To view the full description of the ECIP process please read [ECIP-1000](https://ecips.ethereumclassic.org/ECIPs/ecip-1000) which is the formal document generally acknowledged by the Ethereum Classic (ETC) ecosystem, by [rough consensus](https://en.wikipedia.org/wiki/Rough_consensus), as the most suitable system to propose new standard changes to the ETC protocol, informational documents, or ECIP process suggestions.
+This document is a summary of the [Ethereum Classic Improvement Proposal (ECIP)](https://ecips.ethereumclassic.org/) process. To view the full description of the ECIP process please read [ECIP-1000](https://ecips.ethereumclassic.org/ECIPs/ecip-1000) which is the formal document generally acknowledged by the Ethereum Classic (ETC) ecosystem, by [rough consensus](https://en.wikipedia.org/wiki/Rough_consensus), as the most suitable system to propose new standard changes to the ETC protocol, informational documents, or ECIP process suggestions.
 
 ## Getting Started
 After reading [ECIP-1000](https://ecips.ethereumclassic.org/ECIPs/ecip-1000), fork the repository and add your ECIP to it, using the provided [ECIP markdown template](./ecip-X.md). Submit by creating a Pull Request to the Ethereum Classic [ECIPs repository](https://github.com/ethereumclassic/ECIPs).
