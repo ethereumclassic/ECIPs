@@ -15,4 +15,4 @@ jobs:
       run: |
         gem install bundler -v 2.4.22
         bundle install --jobs 4 --retry 3
-        shopt -s globstar; bundle exec ecip_validator _specs/**/*.md
+        shopt -s globstar; bundle exec ruby bin/ecip_validator _specs/**/*.md
