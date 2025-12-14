@@ -1,0 +1,23 @@
+#!/usr/bin/env ruby
+# Wrapper script that patches ecip_validator to add WIP as a valid status
+# per ECIP-1000 which states: "Draft ECIPs which may be in a very early stage
+# may be entered as WIP ECIPs"
+
+require 'bundler/setup'
+require 'ecip_validator'
+
+# Monkey-patch to add WIP status per ECIP-1000
+module EcipValidator
+  class Validator
+    # Override the validates_inclusion_of for status
+    _validators.delete(:status)
+    validates_inclusion_of :status, in: [
+      'Draft', 'Last Call', 'Accepted', 'Final', 'Active',
+      'Abandoned', 'Deferred', 'Withdrawn', 'Rejected',
+      'Superseded', 'Replaced', 'WIP'
+    ]
+  end
+end
+
+# Run the validator
+EcipValidator::Runner.run(ARGV)
