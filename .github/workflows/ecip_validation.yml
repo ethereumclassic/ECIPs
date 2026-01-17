@@ -6,13 +6,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up Ruby 2.6
+    - uses: actions/checkout@v4
+    - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.6.10
+        ruby-version: '3.2'
+        bundler-cache: true
     - name: Validate the ECIP spec files
-      run: |
-        gem install bundler -v 2.4.22
-        bundle install --jobs 4 --retry 3
-        shopt -s globstar; bundle exec ecip_validator _specs/**/*.md
+      run: bundle exec rake validate
