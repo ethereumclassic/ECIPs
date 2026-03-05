@@ -5,7 +5,7 @@ lang: <en | zh | <any>>
 translator: <if a translation, name or pseudonym of translator>
 author: <list of authors' real names and optionally, email addrs>
 discussions-to: <email address or accessible online forum>
-status: <WIP | Draft | Last Call | Accepted | Final | Deferred | Replaced | Rejected | Withdrawn | Active>
+status: <WIP | Draft | Last Call | Accepted | Final | Deferred | Replaced | Rejected | Withdrawn | Superseded | Active>
 type: <Standards Track | Meta | Informational>
 category: <if type='Standards Track' then anyof(Core | Networking | Interface | ECBP)>
 created: <date created on, in ISO 8601 (yyyy-mm-dd) format>
