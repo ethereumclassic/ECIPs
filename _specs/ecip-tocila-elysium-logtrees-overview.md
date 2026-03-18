@@ -1,6 +1,6 @@
 ---
-ecip: 1112-ELY-COMP
-title: Elysium logtrees/logN Productive Settlement Overview
+ecip: ?
+title: Elysium Logtrees Settlement Overview
 lang: en
 author: Daniel Tocila
 status: Draft
@@ -61,6 +61,12 @@ Future work may include:
 - miner-alignment modifiers,
 - Rainbow Compute integration,
 - additional settlement modules.
+
+## Draft Alias
+
+Until an ECIP editor assigns a number, this draft should use an alias-based filename rather than a pseudo-numbered identifier.
+
+- Draft alias: `ecip-tocila-elysium-logtrees-overview`
 
 ---
 
