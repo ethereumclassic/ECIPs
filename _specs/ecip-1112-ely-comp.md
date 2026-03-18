@@ -15,15 +15,15 @@ Informational / Companion
 
 ## Abstract
 
-This document describes the initial intended productive settlement path for Elysium revenue: logtrees, powered by logN and the Treemap.
+This document describes the initial intended productive settlement path for the Elysium logtrees allocation: one of the three `1%` `BASEFEE` shares, routed to logtrees and powered by logN and the Treemap.
 
 It is non-consensus and exists to make the purpose of Elysium legible to reviewers, builders, and node operators.
 
 ## Plain-English Overview
 
-Elysium is intended to route Ethereum Classic protocol revenue into an auditable engine that can reward measurable, verifiable, non-zero-sum activity.
+Under Elysium, Ethereum Classic protocol revenue is split so that miners receive `97%` of `BASEFEE`, Core ETC receives `1%`, ETC Grants receives `1%`, and logtrees receives `1%` through deterministic routing addresses.
 
-The first proposed engine is logtrees.
+The first proposed engine for that `1%` share is logtrees.
 
 logtrees is an application/protocol direction that records supported actions, anchors their event records to a ledger, aggregates them into a public Treemap, and uses bounded reward logic to avoid unbounded extraction.
 
@@ -41,9 +41,9 @@ logtrees is an application/protocol direction that records supported actions, an
 
 ## Why This Matters
 
-This architecture is intended to make ETC’s redirected `BASEFEE` immediately more legible:
+This architecture is intended to make ETC’s logtrees `1%` allocation immediately more legible:
 not merely protocol funding,
-but protocol funding routed into a measurable and auditable engine of utility generation.
+but a small protocol-directed settlement stream routed into a measurable and auditable engine of utility generation.
 
 ## Prototype Status
 
