@@ -1,5 +1,5 @@
 ---
-ecip: 1111-ELY-REV
+ecip: ?
 title: Elysium Revenue Routing Destinations
 lang: en
 author: Daniel Tocila
@@ -53,7 +53,7 @@ The mechanism by which these addresses are made deterministic or otherwise fixed
 
 ### Minimal custody semantics
 
-At minimum, each destination MUST be able to receive the value transfers resulting from its `1%` `BASEFEE` allocation under ECIP-1110-ELY-FEE (i.e., it must be a valid address for balance crediting).
+At minimum, each destination MUST be able to receive the value transfers resulting from its `1%` `BASEFEE` allocation under the companion Elysium basefee split routing draft (i.e., it must be a valid address for balance crediting).
 
 The remaining `97%` of `BASEFEE` is paid to the block beneficiary at consensus and does not pass through these destinations.
 
@@ -66,6 +66,12 @@ This ECIP separates routing of the Core ETC, ETC Grants, and logtrees allocation
 ## Implementation
 
 Implementation details are **TBD** pending finalization of the deterministic address derivation or address-selection method for each destination.
+
+## Draft Alias
+
+Until an ECIP editor assigns a number, this draft should use an alias-based filename rather than a pseudo-numbered identifier.
+
+- Draft alias: `ecip-tocila-elysium-routing-destinations`
 
 ## Copyright/Licensing
 
