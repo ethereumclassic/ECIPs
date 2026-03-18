@@ -1,6 +1,6 @@
 ---
-ecip: 1110-ELY-FEE
-title: Elysium Fee Market and Productive Revenue Routing
+ecip: ?
+title: Elysium Basefee Split Routing
 lang: en
 author: Daniel Tocila
 status: Draft
@@ -110,13 +110,11 @@ All other EIP-1559 behaviors remain unchanged, including:
 This ECIP defines the consensus-layer `97%`/`1%`/`1%`/`1%` routing of `BASEFEE` between the block beneficiary and the deterministic addresses for Core ETC, ETC Grants, and logtrees.
 Any downstream custody, settlement, grants, or logtrees-specific logic for the three `1%` shares is out of scope for this ECIP and is expected to be specified in companion documents or recipient-specific operational documents.
 
-## Symbolic Placeholder IDs (Olympia-relative, non-final)
+## Draft Alias
 
-The identifiers below are symbolic placeholders.
+Until an ECIP editor assigns a number, this draft should use an alias-based filename rather than a pseudo-numbered identifier.
 
-- ECIP-1110-ELY-FEE (this document): Elysium Fee Market and Productive Revenue Routing
-- ECIP-1111-ELY-REV: Elysium Revenue Routing Destinations
-- ECIP-1112-ELY-COMP (informational companion): Elysium logtrees/logN Productive Settlement Overview
+- Draft alias: `ecip-tocila-elysium-basefee-split`
 
 ## Rationale
 
