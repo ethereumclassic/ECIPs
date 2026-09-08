@@ -1,12 +1,28 @@
+# Dependency updates for the ECIPs site.
+#
+# VERSION UPDATES ARE WIRED BUT OFF, DELIBERATELY.
+#
+# `open-pull-requests-limit: 0` is GitHub's documented mechanism for disabling
+# version updates for an ecosystem while keeping the configuration visible and
+# reviewed. The state below is a decision, not an oversight -- do not "fix" it
+# into an active config. Raising the limit is how this gets enabled later.
+#
+# Nobody is triaging a standing pull-request queue against this repository yet.
+# A queue that is not read reports itself as a control while operating as noise.
+#
+# Both keys below govern version updates only. Whether Dependabot raises
+# SECURITY updates is a repository setting, not a key in this file.
 version: 2
 updates:
   - package-ecosystem: "bundler"
     directory: "/"
     schedule:
       interval: "weekly"
+    open-pull-requests-limit: 0
     # Do not resolve a version published in the last 7 days. A malicious
     # publish is typically caught and yanked within hours; the delay is
     # margin against detection lag rather than against the attack itself.
+    # Inert while the limit above is 0; correct for whenever it is raised.
     cooldown:
       default-days: 7
       semver-major-days: 21

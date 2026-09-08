@@ -37,7 +37,14 @@ gem 'front_matter_parser', '~> 0.1.1'
 gem 'rake'
 
 # Held below 2.0: sawyer (via octokit) requires faraday (> 0.8, < 2.0).
-# 1.10.6 is the lowest release in that range clearing CVE-2026-54297 (recursion
-# DoS) and CVE-2026-25765 (SSRF), which affect the previous 0.17.3 pin.
+# 1.10.6 is the lowest release in the maintained 1.x line clearing both
+# CVE-2026-25765 (SSRF, fixed 1.10.5) and CVE-2026-54297 (recursion DoS, fixed
+# 1.10.6). Both advisories declare `introduced: 1.0.0`, so neither range covers
+# the 0.x line the old pin resolved to. Read that as never backported, not as
+# unaffected: 0.x is end-of-life at 0.17.6 and carries both defects. It is the
+# worse of the two on the SSRF, where 1.10.6 rejects a protocol-relative String
+# host but not a URI object (CVE-2026-33637, declared against 2.x only) and
+# 0.17.6 rejects neither.
+# `~> 1.10.6` rather than `~> 1.10`, which would re-admit 1.10.0 through 1.10.5.
 # Original 0.17.3 pin: https://github.com/ethereumclassic/ECIPs/pull/308#issuecomment-618044919
 gem 'faraday', '~> 1.10.6'
