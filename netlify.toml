@@ -15,10 +15,6 @@
 [build.environment]
   # Matches the Ruby pinned in .github/workflows/*.yml and .ruby-version.
   RUBY_VERSION = "3.2.9"
-  # Gemfile.lock currently says BUNDLED WITH 2.1.4, which crashes with
-  # SystemStackError on Ruby 3.x. Force the Bundler that ships with Ruby
-  # 3.2.9 instead. Remove once the lockfile is regenerated (see PR #583).
-  BUNDLER_VERSION = "2.4.19"
   # Keep Jekyll in development mode, as the CI workflows do. With
   # JEKYLL_ENV=production, jekyll-github-metadata (pulled in by github-pages)
   # rewrites site.baseurl from the GitHub Pages API, and when that lookup
